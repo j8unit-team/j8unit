@@ -18,7 +18,8 @@ import org.omg.CORBA.CharSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CharSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.CharSeqHelperTests}.
  * </p>
  *
  * <p>

@@ -6,7 +6,8 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Operations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IORInterceptor_3_0Operations} (by simply
- * reusing the J8Unit test interface {@link IORInterceptor_3_0OperationsClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0OperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

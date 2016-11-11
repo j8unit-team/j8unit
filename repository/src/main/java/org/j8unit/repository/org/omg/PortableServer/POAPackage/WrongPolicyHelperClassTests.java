@@ -18,7 +18,8 @@ import org.omg.PortableServer.POAPackage.WrongPolicyHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link WrongPolicyHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyHelperTests}.
  * </p>
  *
  * <p>

@@ -13,7 +13,7 @@ import org.omg.PortableInterceptor.ForwardRequestHelper;
 
 @RunWith(J8Unit4.class)
 public class ForwardRequestHelperTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelperTests<ForwardRequestHelper> {
+implements ForwardRequestHelperTests<ForwardRequestHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ForwardRequestHelper]
 

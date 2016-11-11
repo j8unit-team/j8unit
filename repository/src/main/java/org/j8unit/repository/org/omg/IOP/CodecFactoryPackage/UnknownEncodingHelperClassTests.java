@@ -19,7 +19,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link UnknownEncodingHelperTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperTests}.
  * </p>
  *
  * <p>

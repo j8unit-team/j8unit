@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link PrintJobAttributeListenerTests}.
+ * {@link org.j8unit.repository.javax.print.event.PrintJobAttributeListenerTests}.
  * </p>
  *
  * <p>

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HyperlinkEvent} (by simply reusing
- * the J8Unit test interface {@link HyperlinkEventTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,13 +34,13 @@ implements HyperlinkEventTests<HyperlinkEvent> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link EventType} (by simply reusing the
-     * J8Unit test interface {@link EventTypeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests.EventTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class EventTypeTest
-    implements EventTypeTests<EventType> {
+    implements org.j8unit.repository.javax.swing.event.HyperlinkEventTests.EventTypeTests<EventType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.HyperlinkEvent$EventType]
 

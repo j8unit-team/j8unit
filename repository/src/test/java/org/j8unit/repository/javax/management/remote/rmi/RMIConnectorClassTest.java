@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RMIConnector} (by simply reusing the
- * J8Unit test interface {@link RMIConnectorClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTests}).
  */
 
 @RunWith(J8Unit4.class)

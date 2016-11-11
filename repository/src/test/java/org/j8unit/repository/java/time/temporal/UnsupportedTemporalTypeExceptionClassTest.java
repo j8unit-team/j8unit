@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnsupportedTemporalTypeException} (by
- * simply reusing the J8Unit test interface {@link UnsupportedTemporalTypeExceptionClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.time.temporal.UnsupportedTemporalTypeExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

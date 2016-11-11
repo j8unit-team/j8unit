@@ -18,7 +18,8 @@ import org.omg.IOP.CodecPackage.FormatMismatch;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FormatMismatchTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchTests}.
  * </p>
  *
  * <p>

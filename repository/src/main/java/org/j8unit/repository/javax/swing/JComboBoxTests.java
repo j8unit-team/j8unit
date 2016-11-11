@@ -8,7 +8,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.awt.ItemSelectableTests;
 import org.j8unit.repository.java.awt.event.ActionListenerTests;
 import org.j8unit.repository.javax.accessibility.AccessibleTests;
-import org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests;
 import org.j8unit.repository.javax.swing.event.ListDataListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -24,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JComboBoxClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JComboBoxClassTests}).
  * </p>
  *
  * @param SUT
@@ -309,6 +308,28 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isPopupVisible() public
+     * boolean javax.swing.JComboBox.isPopupVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPopupVisible()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.intervalAdded(javax.swing.event.ListDataEvent)}.
@@ -325,28 +346,6 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
     @Test
     @Category(Draft.class)
     public default void test_intervalAdded_ListDataEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isPopupVisible() public
-     * boolean javax.swing.JComboBox.isPopupVisible()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPopupVisible()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -947,6 +946,28 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemAt(int) public E
+     * javax.swing.JComboBox.getItemAt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getItemAt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getUIClassID() public
      * java.lang.String javax.swing.JComboBox.getUIClassID()}.
      *
@@ -962,28 +983,6 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
     @Test
     @Category(Draft.class)
     public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemAt(int) public E
-     * javax.swing.JComboBox.getItemAt(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItemAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1080,28 +1079,6 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setAction(javax.swing.Action)
-     * public void javax.swing.JComboBox.setAction(javax.swing.Action)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAction_Action()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getMaximumRowCount() public
      * int javax.swing.JComboBox.getMaximumRowCount()}.
      *
@@ -1116,6 +1093,28 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
     @Test
     @Category(Draft.class)
     public default void test_getMaximumRowCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setAction(javax.swing.Action)
+     * public void javax.swing.JComboBox.setAction(javax.swing.Action)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAction_Action()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1260,28 +1259,6 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedItem(Object) public
-     * void javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedItem_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setEditable(boolean) public
      * void javax.swing.JComboBox.setEditable(boolean)}.
      *
@@ -1296,6 +1273,28 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
     @Test
     @Category(Draft.class)
     public default void test_setEditable_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedItem(Object) public
+     * void javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedItem_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1416,6 +1415,7 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -1426,7 +1426,7 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeySelectionManagerClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests}).
      * </p>
      *
      * @param SUT
@@ -1467,6 +1467,7 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
+
     }
 
 }

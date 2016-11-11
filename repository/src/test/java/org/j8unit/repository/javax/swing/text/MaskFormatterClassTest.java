@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class MaskFormatterClassTest
-implements org.j8unit.repository.javax.swing.text.MaskFormatterClassTests<MaskFormatter> {
+implements MaskFormatterClassTests<MaskFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.MaskFormatter]
 

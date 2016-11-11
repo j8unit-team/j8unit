@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ResourceBundle} (by simply reusing
- * the J8Unit test interface {@link ResourceBundleTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.util.ResourceBundleTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements ResourceBundleTests<ResourceBundle> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Control} (by simply reusing the
-     * J8Unit test interface {@link ControlTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.ResourceBundleTests.ControlTests}).
      */
 
     @RunWith(J8Unit4.class)

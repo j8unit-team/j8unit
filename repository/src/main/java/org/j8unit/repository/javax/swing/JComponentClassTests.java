@@ -8,7 +8,6 @@ import org.j8unit.repository.java.awt.ContainerClassTests;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.javax.accessibility.AccessibleContextClassTests;
 import org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests;
-import org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JComponentTests}.
  * </p>
  *
  * <p>
@@ -89,7 +89,7 @@ extends ContainerClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AccessibleJComponentTests}.
+     * {@link org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests}.
      * </p>
      *
      * <p>

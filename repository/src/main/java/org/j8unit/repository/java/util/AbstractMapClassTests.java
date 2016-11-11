@@ -7,8 +7,6 @@ import java.util.AbstractMap.SimpleImmutableEntry;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests;
-import org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.AbstractMapTests}.
  * </p>
  *
  * <p>
@@ -89,7 +88,7 @@ extends MapClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link SimpleImmutableEntryTests}.
+     * {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests}.
      * </p>
      *
      * <p>
@@ -155,7 +154,8 @@ extends MapClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests}.
      * </p>
      *
      * <p>

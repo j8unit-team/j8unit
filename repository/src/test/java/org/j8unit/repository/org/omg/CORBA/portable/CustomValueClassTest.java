@@ -6,7 +6,7 @@ import org.omg.CORBA.portable.CustomValue;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CustomValue} (by simply reusing the
- * J8Unit test interface {@link CustomValueClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.CustomValueClassTests}).
  */
 
 @RunWith(J8Unit4.class)

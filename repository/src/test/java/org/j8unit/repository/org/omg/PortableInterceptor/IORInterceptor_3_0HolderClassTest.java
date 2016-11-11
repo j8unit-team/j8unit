@@ -10,7 +10,8 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Holder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IORInterceptor_3_0Holder} (by simply
- * reusing the J8Unit test interface {@link IORInterceptor_3_0HolderClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

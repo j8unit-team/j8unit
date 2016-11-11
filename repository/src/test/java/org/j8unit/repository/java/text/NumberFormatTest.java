@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link NumberFormat} (by simply reusing the
- * J8Unit test interface {@link NumberFormatTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.text.NumberFormatTests}).
  */
 
 @RunWith(J8Unit4.class)

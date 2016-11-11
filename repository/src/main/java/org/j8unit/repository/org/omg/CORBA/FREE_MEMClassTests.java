@@ -17,7 +17,8 @@ import org.omg.CORBA.FREE_MEM;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FREE_MEMTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.FREE_MEMTests}.
  * </p>
  *
  * <p>

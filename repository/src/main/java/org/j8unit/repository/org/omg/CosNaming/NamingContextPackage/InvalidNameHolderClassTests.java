@@ -19,7 +19,8 @@ import org.omg.CosNaming.NamingContextPackage.InvalidNameHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidNameHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameHolderTests}.
  * </p>
  *
  * <p>

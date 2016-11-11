@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DragSourceClassTests}).
+ * {@link org.j8unit.repository.java.awt.dnd.DragSourceClassTests}).
  * </p>
  *
  * @param SUT
@@ -60,30 +60,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.dnd.DragSource#createDefaultDragGestureRecognizer(java.awt.Component, int, java.awt.dnd.DragGestureListener)
-     * public java.awt.dnd.DragGestureRecognizer
-     * java.awt.dnd.DragSource.createDefaultDragGestureRecognizer(java.awt.Component,int,java.awt.dnd.DragGestureListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDefaultDragGestureRecognizer_Component_int_DragGestureListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.dnd.DragSource#createDragGestureRecognizer(Class, java.awt.Component, int, java.awt.dnd.DragGestureListener)
      * public <T> T
      * java.awt.dnd.DragSource.createDragGestureRecognizer(java.lang.Class<T>,java.awt.Component,int,java.awt.dnd.DragGestureListener)}.
@@ -108,8 +84,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.dnd.DragSource#removeDragSourceListener(java.awt.dnd.DragSourceListener) public void
-     * java.awt.dnd.DragSource.removeDragSourceListener(java.awt.dnd.DragSourceListener)}.
+     * {@link java.awt.dnd.DragSource#createDefaultDragGestureRecognizer(java.awt.Component, int, java.awt.dnd.DragGestureListener)
+     * public java.awt.dnd.DragGestureRecognizer
+     * java.awt.dnd.DragSource.createDefaultDragGestureRecognizer(java.awt.Component,int,java.awt.dnd.DragGestureListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,7 +98,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeDragSourceListener_DragSourceListener()
+    public default void test_createDefaultDragGestureRecognizer_Component_int_DragGestureListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,6 +121,29 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSource#removeDragSourceListener(java.awt.dnd.DragSourceListener) public void
+     * java.awt.dnd.DragSource.removeDragSourceListener(java.awt.dnd.DragSourceListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeDragSourceListener_DragSourceListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -266,31 +266,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.dnd.DragSource#startDrag(java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.Image, java.awt.Point, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener, java.awt.datatransfer.FlavorMap)
-     * public void
-     * java.awt.dnd.DragSource.startDrag(java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.Image,java.awt.Point,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener,java.awt.datatransfer.FlavorMap)
-     * throws java.awt.dnd.InvalidDnDOperationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startDrag_DragGestureEvent_Cursor_Image_Point_Transferable_DragSourceListener_FlavorMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.dnd.DragSource#startDrag(java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.Image, java.awt.Point, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
      * public void
      * java.awt.dnd.DragSource.startDrag(java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.Image,java.awt.Point,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)
@@ -316,9 +291,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.dnd.DragSource#startDrag(java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
+     * {@link java.awt.dnd.DragSource#startDrag(java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.Image, java.awt.Point, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener, java.awt.datatransfer.FlavorMap)
      * public void
-     * java.awt.dnd.DragSource.startDrag(java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)
+     * java.awt.dnd.DragSource.startDrag(java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.Image,java.awt.Point,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener,java.awt.datatransfer.FlavorMap)
      * throws java.awt.dnd.InvalidDnDOperationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -331,7 +306,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startDrag_DragGestureEvent_Cursor_Transferable_DragSourceListener()
+    public default void test_startDrag_DragGestureEvent_Cursor_Image_Point_Transferable_DragSourceListener_FlavorMap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -363,7 +338,33 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DragSource#startDrag(java.awt.dnd.DragGestureEvent, java.awt.Cursor, java.awt.datatransfer.Transferable, java.awt.dnd.DragSourceListener)
+     * public void
+     * java.awt.dnd.DragSource.startDrag(java.awt.dnd.DragGestureEvent,java.awt.Cursor,java.awt.datatransfer.Transferable,java.awt.dnd.DragSourceListener)
+     * throws java.awt.dnd.InvalidDnDOperationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startDrag_DragGestureEvent_Cursor_Transferable_DragSourceListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DragSource]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DragSource]
+
 }

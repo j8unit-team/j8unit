@@ -15,7 +15,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link InvalidAddressClassTests}).
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,4 +33,5 @@ extends UserExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddress]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddress]
+
 }

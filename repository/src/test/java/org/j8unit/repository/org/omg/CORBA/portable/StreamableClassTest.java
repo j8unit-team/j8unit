@@ -6,7 +6,7 @@ import org.omg.CORBA.portable.Streamable;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Streamable} (by simply reusing the J8Unit
- * test interface {@link StreamableClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests}).
  */
 
 @RunWith(J8Unit4.class)

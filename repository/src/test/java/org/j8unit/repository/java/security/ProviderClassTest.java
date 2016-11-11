@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Provider} (by simply reusing the J8Unit
- * test interface {@link ProviderClassTests}).
+ * test interface {@link org.j8unit.repository.java.security.ProviderClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,7 @@ implements ProviderClassTests<Provider> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Service} (by simply reusing the
-     * J8Unit test interface {@link ServiceClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.security.ProviderClassTests.ServiceClassTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DoubleSummaryStatisticsClassTests}).
+ * {@link org.j8unit.repository.java.util.DoubleSummaryStatisticsClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,6 +33,28 @@ public abstract interface DoubleSummaryStatisticsTests<SUT extends DoubleSummary
 extends DoubleConsumerTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.DoubleSummaryStatistics]
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getCount() public
+     * final long java.util.DoubleSummaryStatistics.getCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
     /**
      * <p>
@@ -72,28 +94,6 @@ extends DoubleConsumerTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.DoubleSummaryStatistics#getCount() public
-     * final long java.util.DoubleSummaryStatistics.getCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,4 +216,5 @@ extends DoubleConsumerTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.DoubleSummaryStatistics]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.DoubleSummaryStatistics]
+
 }

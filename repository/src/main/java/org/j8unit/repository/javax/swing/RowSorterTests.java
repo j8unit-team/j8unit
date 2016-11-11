@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RowSorterClassTests}).
+ * {@link org.j8unit.repository.javax.swing.RowSorterClassTests}).
  * </p>
  *
  * @param SUT
@@ -391,6 +391,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowSorter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -401,7 +402,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link SortKeyClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests}).
      * </p>
      *
      * @param SUT
@@ -509,6 +510,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
+
     }
 
 }

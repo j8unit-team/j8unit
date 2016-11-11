@@ -32,4 +32,5 @@ extends DynEnumOperationsTests<SUT>, DynAnyTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
+
 }

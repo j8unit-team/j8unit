@@ -39,7 +39,8 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BigDecimalLayoutForm} (by simply
-     * reusing the J8Unit test interface {@link BigDecimalLayoutFormTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests}).
      */
 
     @RunWith(J8Parameterized.class)

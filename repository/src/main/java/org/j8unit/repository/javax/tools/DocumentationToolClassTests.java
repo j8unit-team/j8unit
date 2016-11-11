@@ -7,7 +7,6 @@ import javax.tools.DocumentationTool.Location;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.util.concurrent.CallableClassTests;
-import org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentationToolTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.tools.DocumentationToolTests}.
  * </p>
  *
  * <p>
@@ -88,7 +88,7 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocumentationTaskTests}.
+     * {@link org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests}.
      * </p>
      *
      * <p>
@@ -154,7 +154,8 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link LocationTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.tools.DocumentationToolTests.LocationTests}.
      * </p>
      *
      * <p>

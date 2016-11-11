@@ -5,7 +5,6 @@ import javax.swing.text.LayeredHighlighter;
 import javax.swing.text.LayeredHighlighter.LayerPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link LayeredHighlighterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends HighlighterClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link LayerPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests}.
      * </p>
      *
      * <p>

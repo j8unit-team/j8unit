@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PasswordView} (by simply reusing the
- * J8Unit test interface {@link PasswordViewTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.PasswordViewTests}).
  */
 
 @RunWith(J8Unit4.class)

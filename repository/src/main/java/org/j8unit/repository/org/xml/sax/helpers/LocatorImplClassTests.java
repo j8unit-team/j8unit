@@ -19,7 +19,8 @@ import org.xml.sax.helpers.LocatorImpl;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link LocatorImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.helpers.LocatorImplTests}.
  * </p>
  *
  * <p>

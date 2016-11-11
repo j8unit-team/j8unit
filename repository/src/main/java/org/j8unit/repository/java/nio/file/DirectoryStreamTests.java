@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DirectoryStreamClassTests}).
+ * {@link org.j8unit.repository.java.nio.file.DirectoryStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -62,6 +62,7 @@ extends CloseableTests<SUT>, IterableTests<SUT, T> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -113,6 +114,7 @@ extends CloseableTests<SUT>, IterableTests<SUT, T> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryStream$Filter]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream$Filter]
+
     }
 
 }

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TypeConstraintExceptionClassTests}).
+ * {@link org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -176,4 +176,5 @@ extends RuntimeExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.TypeConstraintException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.TypeConstraintException]
+
 }

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InetAddress} (by simply reusing the
- * J8Unit test interface {@link InetAddressClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.net.InetAddressClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -67,6 +67,26 @@ implements InetAddressClassTests<InetAddress> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLoopbackAddress() public
+     * static java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getLoopbackAddress()
+    throws Exception {
+        // write some test for {@link java.net.InetAddress#getLoopbackAddress()}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getByAddress(byte[]) public
      * static java.net.InetAddress java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
      *
@@ -104,26 +124,6 @@ implements InetAddressClassTests<InetAddress> {
     public void test_getByAddress_String_byteArray()
     throws Exception {
         // write some test for {@link java.net.InetAddress#getByAddress(String, byte[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLoopbackAddress() public
-     * static java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getLoopbackAddress()
-    throws Exception {
-        // write some test for {@link java.net.InetAddress#getLoopbackAddress()}
     }
 
     /**

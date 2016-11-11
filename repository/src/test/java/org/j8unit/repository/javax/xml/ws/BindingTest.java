@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class BindingTest
-implements org.j8unit.repository.javax.xml.ws.BindingTests<Binding> {
+implements BindingTests<Binding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Binding]
 

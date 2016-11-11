@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Parameterizable} (by simply reusing the
- * J8Unit test interface {@link ParameterizableClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.lang.model.element.ParameterizableClassTests}).
  */
 
 @RunWith(J8Unit4.class)

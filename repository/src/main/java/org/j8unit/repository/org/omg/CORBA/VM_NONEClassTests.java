@@ -18,7 +18,8 @@ import org.omg.CORBA.VM_NONE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link VM_NONETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.VM_NONETests}.
  * </p>
  *
  * <p>

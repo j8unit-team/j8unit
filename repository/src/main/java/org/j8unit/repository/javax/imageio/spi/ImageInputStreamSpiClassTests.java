@@ -17,7 +17,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ImageInputStreamSpiTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.imageio.spi.ImageInputStreamSpiTests}.
  * </p>
  *
  * <p>

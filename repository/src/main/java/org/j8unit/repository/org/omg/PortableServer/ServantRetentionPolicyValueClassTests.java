@@ -20,7 +20,7 @@ import org.omg.PortableServer.ServantRetentionPolicyValue;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServantRetentionPolicyValueTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyValueTests}.
  * </p>
  *
  * <p>

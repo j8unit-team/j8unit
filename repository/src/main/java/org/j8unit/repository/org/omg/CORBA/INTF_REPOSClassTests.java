@@ -17,7 +17,8 @@ import org.omg.CORBA.INTF_REPOS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link INTF_REPOSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.INTF_REPOSTests}.
  * </p>
  *
  * <p>

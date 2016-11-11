@@ -11,7 +11,7 @@ import org.w3c.dom.html.HTMLParagraphElement;
 
 @RunWith(J8Unit4.class)
 public class HTMLParagraphElementClassTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLParagraphElementClassTests<HTMLParagraphElement> {
+implements HTMLParagraphElementClassTests<HTMLParagraphElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLParagraphElement]
 

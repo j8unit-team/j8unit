@@ -17,7 +17,8 @@ import org.omg.CORBA.BAD_TYPECODE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_TYPECODETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.BAD_TYPECODETests}.
  * </p>
  *
  * <p>

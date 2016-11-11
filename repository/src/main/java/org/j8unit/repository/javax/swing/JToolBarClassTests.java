@@ -20,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JToolBarTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JToolBarTests}.
  * </p>
  *
  * <p>
@@ -84,7 +85,8 @@ extends SwingConstantsClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClas
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SeparatorTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.JToolBarTests.SeparatorTests}.
      * </p>
      *
      * <p>

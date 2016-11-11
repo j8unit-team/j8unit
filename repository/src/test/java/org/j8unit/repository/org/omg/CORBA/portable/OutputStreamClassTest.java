@@ -11,12 +11,12 @@ import org.omg.CORBA.portable.OutputStream;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link OutputStream} (by simply reusing the
- * J8Unit test interface {@link OutputStreamClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.OutputStreamClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class OutputStreamClassTest
-implements OutputStreamClassTests<OutputStream> {
+implements org.j8unit.repository.org.omg.CORBA.portable.OutputStreamClassTests<OutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.OutputStream]
 

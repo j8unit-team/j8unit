@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link PrintConversionEventTests}.
+ * {@link org.j8unit.repository.javax.xml.bind.PrintConversionEventTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.omg.PortableServer.RequestProcessingPolicy;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link RequestProcessingPolicyTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyTests}.
  * </p>
  *
  * <p>

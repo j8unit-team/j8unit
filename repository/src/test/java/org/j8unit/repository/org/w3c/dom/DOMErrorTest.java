@@ -7,7 +7,7 @@ import org.w3c.dom.DOMError;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DOMError} (by simply reusing the
- * J8Unit test interface {@link DOMErrorTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.DOMErrorTests}).
  */
 
 @RunWith(J8Unit4.class)

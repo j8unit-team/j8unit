@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CSSClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.html.CSSClassTests}).
  * </p>
  *
  * @param SUT
@@ -38,6 +38,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.CSS]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -135,6 +136,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
+
     }
 
 }

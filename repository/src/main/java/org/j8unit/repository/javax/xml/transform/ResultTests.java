@@ -80,4 +80,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.Result]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.Result]
+
 }

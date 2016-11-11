@@ -19,7 +19,8 @@ import org.omg.SendingContext.RunTime;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link RunTimeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.SendingContext.RunTimeTests}.
  * </p>
  *
  * <p>

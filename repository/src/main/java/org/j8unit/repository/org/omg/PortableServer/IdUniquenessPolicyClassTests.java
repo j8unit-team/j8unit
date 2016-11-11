@@ -18,7 +18,8 @@ import org.omg.PortableServer.IdUniquenessPolicy;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link IdUniquenessPolicyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyTests}.
  * </p>
  *
  * <p>

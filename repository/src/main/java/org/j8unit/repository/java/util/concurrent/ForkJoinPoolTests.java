@@ -6,8 +6,6 @@ import java.util.concurrent.ForkJoinPool.ManagedBlocker;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ForkJoinWorkerThreadFactoryClassTests;
-import org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ManagedBlockerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ForkJoinPoolClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests}).
  * </p>
  *
  * @param SUT
@@ -476,8 +474,8 @@ extends AbstractExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinPool#submit(Runnable, Object) public <T> java.util.concurrent.ForkJoinTask<T>
-     * java.util.concurrent.ForkJoinPool.submit(java.lang.Runnable,T)}.
+     * {@link java.util.concurrent.ForkJoinPool#submit(java.util.concurrent.Callable) public <T>
+     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinPool.submit(java.util.concurrent.Callable<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -490,30 +488,7 @@ extends AbstractExecutorServiceTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_submit_Runnable_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinPool#submit(Runnable)
-     * public java.util.concurrent.ForkJoinTask<?> java.util.concurrent.ForkJoinPool.submit(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_submit_Runnable()
+    public default void test_submit_Callable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -546,9 +521,8 @@ extends AbstractExecutorServiceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinPool#submit(java.util.concurrent.Callable) public <T>
-     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinPool.submit(java.util.concurrent.Callable<T>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinPool#submit(Runnable)
+     * public java.util.concurrent.ForkJoinTask<?> java.util.concurrent.ForkJoinPool.submit(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -561,7 +535,7 @@ extends AbstractExecutorServiceTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_submit_Callable()
+    public default void test_submit_Runnable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -571,8 +545,8 @@ extends AbstractExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinPool#hasQueuedSubmissions() public boolean
-     * java.util.concurrent.ForkJoinPool.hasQueuedSubmissions()}.
+     * {@link java.util.concurrent.ForkJoinPool#submit(Runnable, Object) public <T> java.util.concurrent.ForkJoinTask<T>
+     * java.util.concurrent.ForkJoinPool.submit(java.lang.Runnable,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -582,9 +556,10 @@ extends AbstractExecutorServiceTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_hasQueuedSubmissions()
+    public default void test_submit_Runnable_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -608,6 +583,29 @@ extends AbstractExecutorServiceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isTerminated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinPool#hasQueuedSubmissions() public boolean
+     * java.util.concurrent.ForkJoinPool.hasQueuedSubmissions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasQueuedSubmissions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -685,6 +683,7 @@ extends AbstractExecutorServiceTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -696,7 +695,8 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ForkJoinWorkerThreadFactoryClassTests}).
+     * (see
+     * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ForkJoinWorkerThreadFactoryClassTests}).
      * </p>
      *
      * @param SUT
@@ -738,6 +738,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
+
     }
 
     /**
@@ -750,7 +751,7 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ManagedBlockerClassTests}).
+     * (see {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ManagedBlockerClassTests}).
      * </p>
      *
      * @param SUT
@@ -814,6 +815,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
+
     }
 
 }

@@ -32,4 +32,5 @@ extends DynStructOperationsTests<SUT>, DynAnyTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
+
 }

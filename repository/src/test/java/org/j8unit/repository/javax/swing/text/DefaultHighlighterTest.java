@@ -40,7 +40,8 @@ implements FactoryBasedJ8UnitTest<DefaultHighlighter>, DefaultHighlighterTests<D
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultHighlightPainter} (by
-     * simply reusing the J8Unit test interface {@link DefaultHighlightPainterTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link FileFilter} (by simply reusing the J8Unit
- * test interface {@link FileFilterClassTests}).
+ * test interface {@link org.j8unit.repository.java.io.FileFilterClassTests}).
  */
 
 @RunWith(J8Unit4.class)

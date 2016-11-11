@@ -17,7 +17,8 @@ import org.omg.CORBA.IMP_LIMIT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link IMP_LIMITTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.IMP_LIMITTests}.
  * </p>
  *
  * <p>

@@ -9,7 +9,6 @@ import org.j8unit.repository.java.awt.event.KeyAdapterTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.JPopupMenuTests;
 import org.j8unit.repository.javax.swing.event.ListDataListenerTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.InvocationKeyHandlerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicComboPopupClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests}).
  * </p>
  *
  * @param SUT
@@ -160,29 +159,6 @@ extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboPopup#getList()
-     * public javax.swing.JList javax.swing.plaf.basic.BasicComboPopup.getList()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicComboPopup#getMouseMotionListener() public java.awt.event.MouseMotionListener
      * javax.swing.plaf.basic.BasicComboPopup.getMouseMotionListener()}.
@@ -199,6 +175,29 @@ extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMouseMotionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboPopup#getList()
+     * public javax.swing.JList javax.swing.plaf.basic.BasicComboPopup.getList()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -258,8 +257,8 @@ extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.swing.JPopupMenu#isVisible() class javax.swing.JPopupMenu}</li>
      * <li>{@link javax.swing.plaf.basic.ComboPopup#isVisible() interface javax.swing.plaf.basic.ComboPopup}</li>
+     * <li>{@link javax.swing.JPopupMenu#isVisible() class javax.swing.JPopupMenu}</li>
      * </ul>
      *
      * <p>
@@ -276,67 +275,13 @@ extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
     @Category(Draft.class)
     public default void test_isVisible()
     throws Exception {
-        JPopupMenuTests.super.test_isVisible();
         ComboPopupTests.super.test_isVisible();
+        JPopupMenuTests.super.test_isVisible();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InvocationKeyHandler public class javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InvocationKeyHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface InvocationKeyHandlerTests<SUT extends InvocationKeyHandler>
-    extends KeyAdapterTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_keyReleased_KeyEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
-    }
 
     /**
      * <p>
@@ -441,6 +386,64 @@ extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InvocationKeyHandler public class javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.InvocationKeyHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface InvocationKeyHandlerTests<SUT extends InvocationKeyHandler>
+    extends KeyAdapterTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_keyReleased_KeyEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
     }
 
 }

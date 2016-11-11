@@ -46,131 +46,27 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class PasteActionTest
-    implements FactoryBasedJ8UnitTest<PasteAction>, PasteActionTests<PasteAction> {
+    public static class InsertBreakActionTest
+    implements FactoryBasedJ8UnitTest<InsertBreakAction>, InsertBreakActionTests<InsertBreakAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(PasteAction::new);
-        }
-
-        @Parameter(0)
-        public Callable<PasteAction> sutFactory;
-
-        @Override
-        public Callable<PasteAction> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class InsertContentActionTest
-    implements FactoryBasedJ8UnitTest<InsertContentAction>, InsertContentActionTests<InsertContentAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(InsertContentAction::new);
+            return TestParametersUtil.testParametersOf(InsertBreakAction::new);
         }
 
         @Parameter(0)
-        public Callable<InsertContentAction> sutFactory;
+        public Callable<InsertBreakAction> sutFactory;
 
         @Override
-        public Callable<InsertContentAction> getSUTFactory() {
+        public Callable<InsertBreakAction> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class CopyActionTest
-    implements FactoryBasedJ8UnitTest<CopyAction>, CopyActionTests<CopyAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(CopyAction::new);
-        }
-
-        @Parameter(0)
-        public Callable<CopyAction> sutFactory;
-
-        @Override
-        public Callable<CopyAction> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class InsertTabActionTest
-    implements FactoryBasedJ8UnitTest<InsertTabAction>, InsertTabActionTests<InsertTabAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(InsertTabAction::new);
-        }
-
-        @Parameter(0)
-        public Callable<InsertTabAction> sutFactory;
-
-        @Override
-        public Callable<InsertTabAction> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class BeepActionTest
-    implements FactoryBasedJ8UnitTest<BeepAction>, BeepActionTests<BeepAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(BeepAction::new);
-        }
-
-        @Parameter(0)
-        public Callable<BeepAction> sutFactory;
-
-        @Override
-        public Callable<BeepAction> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
     }
 
@@ -202,6 +98,32 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class InsertTabActionTest
+    implements FactoryBasedJ8UnitTest<InsertTabAction>, InsertTabActionTests<InsertTabAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(InsertTabAction::new);
+        }
+
+        @Parameter(0)
+        public Callable<InsertTabAction> sutFactory;
+
+        @Override
+        public Callable<InsertTabAction> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CutActionTest
     implements FactoryBasedJ8UnitTest<CutAction>, CutActionTests<CutAction> {
 
@@ -228,27 +150,105 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class InsertBreakActionTest
-    implements FactoryBasedJ8UnitTest<InsertBreakAction>, InsertBreakActionTests<InsertBreakAction> {
+    public static class InsertContentActionTest
+    implements FactoryBasedJ8UnitTest<InsertContentAction>, InsertContentActionTests<InsertContentAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(InsertBreakAction::new);
+            return TestParametersUtil.testParametersOf(InsertContentAction::new);
         }
 
         @Parameter(0)
-        public Callable<InsertBreakAction> sutFactory;
+        public Callable<InsertContentAction> sutFactory;
 
         @Override
-        public Callable<InsertBreakAction> getSUTFactory() {
+        public Callable<InsertContentAction> getSUTFactory() {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class PasteActionTest
+    implements FactoryBasedJ8UnitTest<PasteAction>, PasteActionTests<PasteAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(PasteAction::new);
+        }
+
+        @Parameter(0)
+        public Callable<PasteAction> sutFactory;
+
+        @Override
+        public Callable<PasteAction> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class BeepActionTest
+    implements FactoryBasedJ8UnitTest<BeepAction>, BeepActionTests<BeepAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(BeepAction::new);
+        }
+
+        @Parameter(0)
+        public Callable<BeepAction> sutFactory;
+
+        @Override
+        public Callable<BeepAction> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class CopyActionTest
+    implements FactoryBasedJ8UnitTest<CopyAction>, CopyActionTests<CopyAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(CopyAction::new);
+        }
+
+        @Parameter(0)
+        public Callable<CopyAction> sutFactory;
+
+        @Override
+        public Callable<CopyAction> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
 
     }
 

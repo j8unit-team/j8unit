@@ -32,4 +32,5 @@ extends SocketExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.ConnectException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.ConnectException]
+
 }

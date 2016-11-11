@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WindowConstants} (by simply reusing the
- * J8Unit test interface {@link WindowConstantsClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.WindowConstantsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

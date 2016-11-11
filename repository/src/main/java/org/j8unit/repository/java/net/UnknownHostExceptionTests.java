@@ -33,4 +33,5 @@ extends IOExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.UnknownHostException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.UnknownHostException]
+
 }

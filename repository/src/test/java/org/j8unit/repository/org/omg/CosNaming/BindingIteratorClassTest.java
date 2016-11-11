@@ -6,7 +6,7 @@ import org.omg.CosNaming.BindingIterator;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BindingIterator} (by simply reusing the
- * J8Unit test interface {@link BindingIteratorClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorClassTests}).
  */
 
 @RunWith(J8Unit4.class)

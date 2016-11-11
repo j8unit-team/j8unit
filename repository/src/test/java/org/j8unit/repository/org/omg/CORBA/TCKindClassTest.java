@@ -10,7 +10,7 @@ import org.omg.CORBA.TCKind;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TCKind} (by simply reusing the J8Unit
- * test interface {@link TCKindClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.TCKindClassTests}).
  */
 
 @RunWith(J8Unit4.class)

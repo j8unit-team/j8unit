@@ -19,7 +19,8 @@ import org.omg.CosNaming.NameComponent;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NameComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NameComponentTests}.
  * </p>
  *
  * <p>

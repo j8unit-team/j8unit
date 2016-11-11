@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CardTerminals} (by simply reusing the
- * J8Unit test interface {@link CardTerminalsTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.smartcardio.CardTerminalsTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -40,7 +40,7 @@ implements CardTerminalsTests<CardTerminals> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateTest
-    implements org.j8unit.repository.javax.smartcardio.CardTerminalsTests.StateTests<State> {
+    implements StateTests<State> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
 

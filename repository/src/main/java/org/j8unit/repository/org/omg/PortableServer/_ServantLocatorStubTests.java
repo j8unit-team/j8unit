@@ -18,7 +18,7 @@ import org.omg.PortableServer._ServantLocatorStub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _ServantLocatorStubClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableServer._ServantLocatorStubClassTests}).
  * </p>
  *
  * @param SUT
@@ -110,4 +110,5 @@ extends ServantLocatorTests<SUT>, ObjectImplTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
+
 }

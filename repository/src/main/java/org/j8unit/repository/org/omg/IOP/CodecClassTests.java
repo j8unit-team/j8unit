@@ -19,7 +19,8 @@ import org.omg.IOP.Codec;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CodecTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.CodecTests}.
  * </p>
  *
  * <p>

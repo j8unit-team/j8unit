@@ -20,7 +20,7 @@ import org.omg.CORBA.ServiceInformationHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServiceInformationHolderTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderTests}.
  * </p>
  *
  * <p>

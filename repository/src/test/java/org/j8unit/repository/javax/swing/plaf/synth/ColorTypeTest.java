@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorType} (by simply reusing the
- * J8Unit test interface {@link ColorTypeTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.ColorTypeTests}).
  */
 
 @RunWith(J8Parameterized.class)

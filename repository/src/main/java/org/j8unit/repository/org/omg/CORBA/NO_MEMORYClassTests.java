@@ -17,7 +17,8 @@ import org.omg.CORBA.NO_MEMORY;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NO_MEMORYTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.NO_MEMORYTests}.
  * </p>
  *
  * <p>

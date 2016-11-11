@@ -40,7 +40,8 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, ConcurrentHashMapTes
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeySetView} (by simply reusing
-     * the J8Unit test interface {@link KeySetViewTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests}).
      */
 
     @RunWith(J8Unit4.class)

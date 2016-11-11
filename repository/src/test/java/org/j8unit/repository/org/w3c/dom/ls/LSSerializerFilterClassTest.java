@@ -6,7 +6,7 @@ import org.w3c.dom.ls.LSSerializerFilter;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LSSerializerFilter} (by simply reusing
- * the J8Unit test interface {@link LSSerializerFilterClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.ls.LSSerializerFilterClassTests}).
  */
 
 @RunWith(J8Unit4.class)

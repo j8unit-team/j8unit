@@ -192,4 +192,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.Certificate]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Certificate]
+
 }

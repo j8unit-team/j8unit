@@ -33,4 +33,5 @@ extends UserExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
+
 }

@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SimpleAttributeSetClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,30 +34,6 @@ public abstract interface SimpleAttributeSetTests<SUT extends SimpleAttributeSet
 extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.SimpleAttributeSet#isEqual(javax.swing.text.AttributeSet) public boolean
-     * javax.swing.text.SimpleAttributeSet.isEqual(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isEqual_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -77,6 +53,30 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     @Test
     @Category(Draft.class)
     public default void test_addAttributes_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.SimpleAttributeSet#isEqual(javax.swing.text.AttributeSet) public boolean
+     * javax.swing.text.SimpleAttributeSet.isEqual(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isEqual_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -249,30 +249,6 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.SimpleAttributeSet#getAttributeNames() public java.util.Enumeration<?>
-     * javax.swing.text.SimpleAttributeSet.getAttributeNames()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.SimpleAttributeSet#containsAttributes(javax.swing.text.AttributeSet) public boolean
      * javax.swing.text.SimpleAttributeSet.containsAttributes(javax.swing.text.AttributeSet)}.
      *
@@ -288,6 +264,30 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     @Test
     @Category(Draft.class)
     public default void test_containsAttributes_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.SimpleAttributeSet#getAttributeNames() public java.util.Enumeration<?>
+     * javax.swing.text.SimpleAttributeSet.getAttributeNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -369,30 +369,6 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.SimpleAttributeSet#removeAttribute(Object) public void
-     * javax.swing.text.SimpleAttributeSet.removeAttribute(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAttribute_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.SimpleAttributeSet#setResolveParent(javax.swing.text.AttributeSet) public void
      * javax.swing.text.SimpleAttributeSet.setResolveParent(javax.swing.text.AttributeSet)}.
      *
@@ -408,6 +384,30 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     @Test
     @Category(Draft.class)
     public default void test_setResolveParent_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.SimpleAttributeSet#removeAttribute(Object) public void
+     * javax.swing.text.SimpleAttributeSet.removeAttribute(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAttribute_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -510,4 +510,5 @@ extends MutableAttributeSetTests<SUT>, SerializableTests<SUT>, CloneableTests<SU
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
+
 }

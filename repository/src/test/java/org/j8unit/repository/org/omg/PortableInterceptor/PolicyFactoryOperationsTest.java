@@ -7,7 +7,8 @@ import org.omg.PortableInterceptor.PolicyFactoryOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PolicyFactoryOperations} (by simply
- * reusing the J8Unit test interface {@link PolicyFactoryOperationsTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

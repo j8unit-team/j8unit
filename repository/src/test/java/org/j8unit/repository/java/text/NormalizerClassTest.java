@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Normalizer} (by simply reusing the J8Unit
- * test interface {@link NormalizerClassTests}).
+ * test interface {@link org.j8unit.repository.java.text.NormalizerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -73,7 +73,7 @@ implements NormalizerClassTests<Normalizer> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Form} (by simply reusing the J8Unit
-     * test interface {@link FormClassTests}).
+     * test interface {@link org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests}).
      */
 
     @RunWith(J8Unit4.class)

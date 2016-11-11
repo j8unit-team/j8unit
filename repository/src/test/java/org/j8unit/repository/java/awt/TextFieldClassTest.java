@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TextField} (by simply reusing the J8Unit
- * test interface {@link TextFieldClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.TextFieldClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -26,8 +26,8 @@ implements TextFieldClassTests<TextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextField#TextField(String, int)
-     * public java.awt.TextField(java.lang.String,int) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextField#TextField(String) public
+     * java.awt.TextField(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,11 +39,11 @@ implements TextFieldClassTests<TextField> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TextField_String_int()
+    public void create_TextField_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TextField sut = null; // = new TextField(String, int);
+        final TextField sut = null; // = new TextField(String);
     }
 
     /**
@@ -69,8 +69,8 @@ implements TextFieldClassTests<TextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextField#TextField(String) public
-     * java.awt.TextField(java.lang.String) throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextField#TextField(String, int)
+     * public java.awt.TextField(java.lang.String,int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,11 +82,11 @@ implements TextFieldClassTests<TextField> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TextField_String()
+    public void create_TextField_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TextField sut = null; // = new TextField(String);
+        final TextField sut = null; // = new TextField(String, int);
     }
 
     /**

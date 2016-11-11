@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DHPrivateKeyClassTests}).
+ * {@link org.j8unit.repository.javax.crypto.interfaces.DHPrivateKeyClassTests}).
  * </p>
  *
  * @param SUT
@@ -58,4 +58,5 @@ extends DHKeyTests<SUT>, PrivateKeyTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.interfaces.DHPrivateKey]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.DHPrivateKey]
+
 }

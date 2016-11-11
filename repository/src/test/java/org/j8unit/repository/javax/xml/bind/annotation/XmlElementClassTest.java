@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlElement} (by simply reusing the J8Unit
- * test interface {@link XmlElementClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,12 +31,13 @@ implements XmlElementClassTests<XmlElement> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DEFAULT} (by simply reusing the
-     * J8Unit test interface {@link DEFAULTClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementClassTests.DEFAULTClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
-    implements DEFAULTClassTests<DEFAULT> {
+    implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementClassTests.DEFAULTClassTests<DEFAULT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlElement$DEFAULT]
 

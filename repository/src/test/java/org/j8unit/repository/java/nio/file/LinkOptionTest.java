@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LinkOption} (by simply reusing the
- * J8Unit test interface {@link LinkOptionTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.nio.file.LinkOptionTests}).
  */
 
 @RunWith(J8Parameterized.class)

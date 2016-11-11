@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link IIOMetadataClassTests}).
+ * {@link org.j8unit.repository.javax.imageio.metadata.IIOMetadataClassTests}).
  * </p>
  *
  * @param SUT
@@ -378,4 +378,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.metadata.IIOMetadata]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadata]
+
 }

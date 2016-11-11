@@ -17,7 +17,7 @@ import org.w3c.dom.html.HTMLAppletElement;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HTMLAppletElementClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLAppletElementClassTests}).
  * </p>
  *
  * @param SUT
@@ -123,6 +123,28 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setHspace(String)
+     * public abstract void org.w3c.dom.html.HTMLAppletElement.setHspace(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHspace_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setHeight(String)
      * public abstract void org.w3c.dom.html.HTMLAppletElement.setHeight(java.lang.String)}.
      *
@@ -137,28 +159,6 @@ extends HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setHeight_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setWidth(String)
-     * public abstract void org.w3c.dom.html.HTMLAppletElement.setWidth(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWidth_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -189,8 +189,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setHspace(String)
-     * public abstract void org.w3c.dom.html.HTMLAppletElement.setHspace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setWidth(String)
+     * public abstract void org.w3c.dom.html.HTMLAppletElement.setWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,7 +202,7 @@ extends HTMLElementTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHspace_String()
+    public default void test_setWidth_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -321,6 +321,28 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setCode(String)
+     * public abstract void org.w3c.dom.html.HTMLAppletElement.setCode(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCode_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.html.HTMLAppletElement#setArchive(String) public abstract void
      * org.w3c.dom.html.HTMLAppletElement.setArchive(java.lang.String)}.
@@ -336,28 +358,6 @@ extends HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setArchive_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLAppletElement#setCode(String)
-     * public abstract void org.w3c.dom.html.HTMLAppletElement.setCode(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCode_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -521,4 +521,5 @@ extends HTMLElementTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLAppletElement]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLAppletElement]
+
 }

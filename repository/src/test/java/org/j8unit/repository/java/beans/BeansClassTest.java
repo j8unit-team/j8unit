@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Beans} (by simply reusing the J8Unit test
- * interface {@link BeansClassTests}).
+ * interface {@link org.j8unit.repository.java.beans.BeansClassTests}).
  */
 
 @RunWith(J8Unit4.class)

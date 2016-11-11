@@ -11,7 +11,7 @@ import org.omg.PortableServer.LifespanPolicyValue;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LifespanPolicyValue} (by simply
- * reusing the J8Unit test interface {@link LifespanPolicyValueTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.LifespanPolicyValueTests}).
  */
 
 @RunWith(J8Parameterized.class)

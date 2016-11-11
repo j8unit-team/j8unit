@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BeanContextMembershipListenerClassTests}).
+ * {@link org.j8unit.repository.java.beans.beancontext.BeanContextMembershipListenerClassTests}).
  * </p>
  *
  * @param SUT
@@ -84,4 +84,5 @@ extends EventListenerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextMembershipListener]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextMembershipListener]
+
 }

@@ -8,12 +8,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Control} (by simply reusing the
- * J8Unit test interface {@link ControlTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.ControlTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class ControlTest
-implements ControlTests<Control> {
+implements org.j8unit.repository.javax.sound.sampled.ControlTests<Control> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.Control]
 

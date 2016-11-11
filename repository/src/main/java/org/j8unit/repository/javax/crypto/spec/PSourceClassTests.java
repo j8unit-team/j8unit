@@ -5,7 +5,6 @@ import javax.crypto.spec.PSource;
 import javax.crypto.spec.PSource.PSpecified;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PSourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.crypto.spec.PSourceTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link PSpecifiedTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests}.
      * </p>
      *
      * <p>

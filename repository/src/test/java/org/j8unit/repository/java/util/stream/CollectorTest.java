@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Collector} (by simply reusing the
- * J8Unit test interface {@link CollectorTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.stream.CollectorTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,8 @@ implements CollectorTests<Collector<T, A, R>, T, A, R> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Characteristics} (by simply
-     * reusing the J8Unit test interface {@link CharacteristicsTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.stream.CollectorTests.CharacteristicsTests}).
      */
 
     @RunWith(J8Parameterized.class)

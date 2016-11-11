@@ -10,7 +10,7 @@ import org.omg.CORBA.BooleanHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BooleanHolder} (by simply reusing the
- * J8Unit test interface {@link BooleanHolderClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BooleanHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

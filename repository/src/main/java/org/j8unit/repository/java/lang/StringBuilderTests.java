@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link StringBuilderClassTests}).
+ * {@link org.j8unit.repository.java.lang.StringBuilderClassTests}).
  * </p>
  *
  * @param SUT
@@ -809,4 +809,5 @@ extends SerializableTests<SUT>, CharSequenceTests<SUT>, AppendableTests<SUT>, Ob
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.StringBuilder]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.StringBuilder]
+
 }

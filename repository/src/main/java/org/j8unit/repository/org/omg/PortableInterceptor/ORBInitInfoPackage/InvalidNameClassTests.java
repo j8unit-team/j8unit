@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameTests}.
  * </p>
  *
  * <p>

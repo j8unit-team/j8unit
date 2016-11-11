@@ -40,12 +40,12 @@ implements FactoryBasedJ8UnitTest<DocumentFilter>, DocumentFilterTests<DocumentF
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FilterBypass} (by simply reusing
-     * the J8Unit test interface {@link FilterBypassTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DocumentFilterTests.FilterBypassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassTest
-    implements FilterBypassTests<FilterBypass> {
+    implements org.j8unit.repository.javax.swing.text.DocumentFilterTests.FilterBypassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DocumentFilter$FilterBypass]
 

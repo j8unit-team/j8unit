@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLSelectElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLSelectElement} (by simply reusing the
- * J8Unit test interface {@link HTMLSelectElementClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLSelectElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

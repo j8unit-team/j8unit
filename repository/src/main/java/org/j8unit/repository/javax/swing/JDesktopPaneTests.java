@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JDesktopPaneClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JDesktopPaneClassTests}).
  * </p>
  *
  * @param SUT
@@ -442,4 +442,5 @@ extends JLayeredPaneTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JDesktopPane]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JDesktopPane]
+
 }

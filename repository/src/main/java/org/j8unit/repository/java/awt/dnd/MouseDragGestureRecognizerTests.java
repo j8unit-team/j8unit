@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MouseDragGestureRecognizerClassTests}).
+ * {@link org.j8unit.repository.java.awt.dnd.MouseDragGestureRecognizerClassTests}).
  * </p>
  *
  * @param SUT
@@ -205,4 +205,5 @@ extends MouseListenerTests<SUT>, MouseMotionListenerTests<SUT>, DragGestureRecog
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.MouseDragGestureRecognizer]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.MouseDragGestureRecognizer]
+
 }

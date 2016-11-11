@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyledEditorKit} (by simply reusing the
- * J8Unit test interface {@link StyledEditorKitClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -60,7 +60,8 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link FontFamilyAction} (by simply reusing
-     * the J8Unit test interface {@link FontFamilyActionClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontFamilyActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -104,26 +105,27 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link UnderlineAction} (by simply reusing
-     * the J8Unit test interface {@link UnderlineActionClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BoldAction} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.BoldActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class UnderlineActionClassTest
-    implements UnderlineActionClassTests<UnderlineAction> {
+    public static class BoldActionClassTest
+    implements BoldActionClassTests<BoldAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
 
         @Override
-        public Class<UnderlineAction> createNewSUT() {
-            return UnderlineAction.class;
+        public Class<BoldAction> createNewSUT() {
+            return BoldAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyledEditorKit.UnderlineAction#UnderlineAction() public
-         * javax.swing.text.StyledEditorKit$UnderlineAction()}.
+         * {@link javax.swing.text.StyledEditorKit.BoldAction#BoldAction() public
+         * javax.swing.text.StyledEditorKit$BoldAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -135,39 +137,40 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_UnderlineAction()
+        public void create_BoldAction()
         throws Exception {
             // create new instance
-            final UnderlineAction sut = new UnderlineAction();
+            final BoldAction sut = new BoldAction();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
 
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ForegroundAction} (by simply reusing
-     * the J8Unit test interface {@link ForegroundActionClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ItalicAction} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ItalicActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class ForegroundActionClassTest
-    implements ForegroundActionClassTests<ForegroundAction> {
+    public static class ItalicActionClassTest
+    implements ItalicActionClassTests<ItalicAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
 
         @Override
-        public Class<ForegroundAction> createNewSUT() {
-            return ForegroundAction.class;
+        public Class<ItalicAction> createNewSUT() {
+            return ItalicAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyledEditorKit.ForegroundAction#ForegroundAction(String, java.awt.Color) public
-         * javax.swing.text.StyledEditorKit$ForegroundAction(java.lang.String,java.awt.Color)}.
+         * {@link javax.swing.text.StyledEditorKit.ItalicAction#ItalicAction() public
+         * javax.swing.text.StyledEditorKit$ItalicAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -179,22 +182,22 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_ForegroundAction_String_Color()
+        public void create_ItalicAction()
         throws Exception {
             // create new instance
-            @SuppressWarnings("unused")
-            final ForegroundAction sut = null; // = new ForegroundAction(String, java.awt.Color);
+            final ItalicAction sut = new ItalicAction();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
 
     }
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link AlignmentAction} (by simply reusing
-     * the J8Unit test interface {@link AlignmentActionClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -238,97 +241,9 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ItalicAction} (by simply reusing the
-     * J8Unit test interface {@link ItalicActionClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ItalicActionClassTest
-    implements ItalicActionClassTests<ItalicAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
-
-        @Override
-        public Class<ItalicAction> createNewSUT() {
-            return ItalicAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyledEditorKit.ItalicAction#ItalicAction() public
-         * javax.swing.text.StyledEditorKit$ItalicAction()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ItalicAction()
-        throws Exception {
-            // create new instance
-            final ItalicAction sut = new ItalicAction();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link FontSizeAction} (by simply reusing
-     * the J8Unit test interface {@link FontSizeActionClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class FontSizeActionClassTest
-    implements FontSizeActionClassTests<FontSizeAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
-
-        @Override
-        public Class<FontSizeAction> createNewSUT() {
-            return FontSizeAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyledEditorKit.FontSizeAction#FontSizeAction(String, int) public
-         * javax.swing.text.StyledEditorKit$FontSizeAction(java.lang.String,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FontSizeAction_String_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FontSizeAction sut = null; // = new FontSizeAction(String, int);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link StyledTextAction} (by simply reusing
-     * the J8Unit test interface {@link StyledTextActionClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -370,26 +285,27 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link BoldAction} (by simply reusing the
-     * J8Unit test interface {@link BoldActionClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ForegroundAction} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ForegroundActionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class BoldActionClassTest
-    implements BoldActionClassTests<BoldAction> {
+    public static class ForegroundActionClassTest
+    implements ForegroundActionClassTests<ForegroundAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
 
         @Override
-        public Class<BoldAction> createNewSUT() {
-            return BoldAction.class;
+        public Class<ForegroundAction> createNewSUT() {
+            return ForegroundAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyledEditorKit.BoldAction#BoldAction() public
-         * javax.swing.text.StyledEditorKit$BoldAction()}.
+         * {@link javax.swing.text.StyledEditorKit.ForegroundAction#ForegroundAction(String, java.awt.Color) public
+         * javax.swing.text.StyledEditorKit$ForegroundAction(java.lang.String,java.awt.Color)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -401,15 +317,107 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_BoldAction()
+        public void create_ForegroundAction_String_Color()
         throws Exception {
             // create new instance
-            final BoldAction sut = new BoldAction();
+            @SuppressWarnings("unused")
+            final ForegroundAction sut = null; // = new ForegroundAction(String, java.awt.Color);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UnderlineAction} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class UnderlineActionClassTest
+    implements UnderlineActionClassTests<UnderlineAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
+        @Override
+        public Class<UnderlineAction> createNewSUT() {
+            return UnderlineAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.StyledEditorKit.UnderlineAction#UnderlineAction() public
+         * javax.swing.text.StyledEditorKit$UnderlineAction()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_UnderlineAction()
+        throws Exception {
+            // create new instance
+            final UnderlineAction sut = new UnderlineAction();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FontSizeAction} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontSizeActionClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FontSizeActionClassTest
+    implements FontSizeActionClassTests<FontSizeAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
+
+        @Override
+        public Class<FontSizeAction> createNewSUT() {
+            return FontSizeAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.StyledEditorKit.FontSizeAction#FontSizeAction(String, int) public
+         * javax.swing.text.StyledEditorKit$FontSizeAction(java.lang.String,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_FontSizeAction_String_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final FontSizeAction sut = null; // = new FontSizeAction(String, int);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
 
     }
 

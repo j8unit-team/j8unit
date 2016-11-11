@@ -7,7 +7,7 @@ import org.omg.CORBA.DomainManager;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DomainManager} (by simply reusing the
- * J8Unit test interface {@link DomainManagerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DomainManagerTests}).
  */
 
 @RunWith(J8Unit4.class)

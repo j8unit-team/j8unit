@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Invoker} (by simply reusing the
- * J8Unit test interface {@link InvokerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.spi.InvokerTests}).
  */
 
 @RunWith(J8Unit4.class)

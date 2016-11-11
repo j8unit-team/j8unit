@@ -11,7 +11,7 @@ import org.omg.CORBA.Any;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Any} (by simply reusing the J8Unit test
- * interface {@link AnyClassTests}).
+ * interface {@link org.j8unit.repository.org.omg.CORBA.AnyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

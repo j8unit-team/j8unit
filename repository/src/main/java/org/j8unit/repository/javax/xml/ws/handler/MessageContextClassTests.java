@@ -6,7 +6,6 @@ import javax.xml.ws.handler.MessageContext.Scope;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.util.MapClassTests;
-import org.j8unit.repository.javax.xml.ws.handler.MessageContextTests.ScopeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link MessageContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends MapClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ScopeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests.ScopeTests}.
      * </p>
      *
      * <p>

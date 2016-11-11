@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link OAEPParameterSpec} (by simply reusing
- * the J8Unit test interface {@link OAEPParameterSpecTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecTests}).
  */
 
 @RunWith(J8Parameterized.class)

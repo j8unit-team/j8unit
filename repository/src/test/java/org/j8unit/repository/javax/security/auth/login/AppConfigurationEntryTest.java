@@ -14,7 +14,8 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AppConfigurationEntry} (by simply
- * reusing the J8Unit test interface {@link AppConfigurationEntryTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +35,8 @@ implements AppConfigurationEntryTests<AppConfigurationEntry> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LoginModuleControlFlag} (by
-     * simply reusing the J8Unit test interface {@link LoginModuleControlFlagTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests.LoginModuleControlFlagTests}).
      */
 
     @RunWith(J8Parameterized.class)

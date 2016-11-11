@@ -42,7 +42,8 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Reason} (by simply reusing the
-     * J8Unit test interface {@link ReasonTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -64,7 +65,8 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicReason} (by simply reusing
-     * the J8Unit test interface {@link BasicReasonTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests}).
      */
 
     @RunWith(J8Parameterized.class)

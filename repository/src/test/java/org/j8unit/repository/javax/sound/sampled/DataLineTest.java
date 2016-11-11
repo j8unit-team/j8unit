@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DataLine} (by simply reusing the
- * J8Unit test interface {@link DataLineTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.DataLineTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,12 +28,12 @@ implements DataLineTests<DataLine> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Info} (by simply reusing the
-     * J8Unit test interface {@link InfoTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.DataLineTests.InfoTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class InfoTest
-    implements InfoTests<Info> {
+    implements org.j8unit.repository.javax.sound.sampled.DataLineTests.InfoTests<Info> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.DataLine$Info]
 

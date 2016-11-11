@@ -18,7 +18,7 @@ import org.xml.sax.ext.Attributes2;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link Attributes2ClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.ext.Attributes2ClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,28 +32,6 @@ public abstract interface Attributes2Tests<SUT extends Attributes2>
 extends AttributesTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isDeclared(int) public
-     * abstract boolean org.xml.sax.ext.Attributes2.isDeclared(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDeclared_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -102,6 +80,28 @@ extends AttributesTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isDeclared(int) public
+     * abstract boolean org.xml.sax.ext.Attributes2.isDeclared(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDeclared_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isSpecified(int) public
      * abstract boolean org.xml.sax.ext.Attributes2.isSpecified(int)}.
      *
@@ -116,6 +116,28 @@ extends AttributesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isSpecified_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isSpecified(String)
+     * public abstract boolean org.xml.sax.ext.Attributes2.isSpecified(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSpecified_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,29 +167,8 @@ extends AttributesTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2#isSpecified(String)
-     * public abstract boolean org.xml.sax.ext.Attributes2.isSpecified(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSpecified_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
+
 }

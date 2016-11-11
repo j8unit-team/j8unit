@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XMLSignature} (by simply reusing the
- * J8Unit test interface {@link XMLSignatureTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,8 @@ implements XMLSignatureTests<XMLSignature> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SignatureValue} (by simply
-     * reusing the J8Unit test interface {@link SignatureValueTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests.SignatureValueTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -19,7 +19,7 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AdapterInactiveHelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelperTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,7 @@ import org.omg.CORBA.LongSeqHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LongSeqHelper} (by simply reusing the
- * J8Unit test interface {@link LongSeqHelperTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.LongSeqHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

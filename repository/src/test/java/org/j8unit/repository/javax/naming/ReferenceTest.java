@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ReferenceTest
-implements org.j8unit.repository.javax.naming.ReferenceTests<Reference> {
+implements ReferenceTests<Reference> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.Reference]
 

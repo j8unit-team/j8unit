@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Unmarshaller} (by simply reusing the
- * J8Unit test interface {@link UnmarshallerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.UnmarshallerTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -33,7 +33,7 @@ implements UnmarshallerTests<Unmarshaller> {
 
     @RunWith(J8Unit4.class)
     public static class ListenerTest
-    implements org.j8unit.repository.javax.xml.bind.UnmarshallerTests.ListenerTests<Listener> {
+    implements ListenerTests<Listener> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.Unmarshaller$Listener]
 

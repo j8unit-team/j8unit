@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Dialog} (by simply reusing the J8Unit
- * test interface {@link DialogClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.DialogClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -24,29 +24,6 @@ implements DialogClassTests<Dialog> {
     @Override
     public Class<Dialog> createNewSUT() {
         return Dialog.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Dialog#Dialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration) public
-     * java.awt.Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Dialog_Frame_String_boolean_GraphicsConfiguration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Dialog sut = null; // = new Dialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration);
     }
 
     /**
@@ -141,28 +118,6 @@ implements DialogClassTests<Dialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dialog#Dialog(java.awt.Frame) public
-     * java.awt.Dialog(java.awt.Frame)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Dialog_Frame()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Dialog sut = null; // = new Dialog(java.awt.Frame);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.Dialog#Dialog(java.awt.Frame, boolean)
      * public java.awt.Dialog(java.awt.Frame,boolean)}.
      *
@@ -181,6 +136,28 @@ implements DialogClassTests<Dialog> {
         // create new instance
         @SuppressWarnings("unused")
         final Dialog sut = null; // = new Dialog(java.awt.Frame, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dialog#Dialog(java.awt.Frame) public
+     * java.awt.Dialog(java.awt.Frame)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Dialog_Frame()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Dialog sut = null; // = new Dialog(java.awt.Frame);
     }
 
     /**
@@ -231,6 +208,29 @@ implements DialogClassTests<Dialog> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Dialog#Dialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration) public
+     * java.awt.Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Dialog_Frame_String_boolean_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Dialog sut = null; // = new Dialog(java.awt.Frame, String, boolean, java.awt.GraphicsConfiguration);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.Dialog#Dialog(java.awt.Window, java.awt.Dialog.ModalityType) public
      * java.awt.Dialog(java.awt.Window,java.awt.Dialog$ModalityType)}.
      *
@@ -276,8 +276,10 @@ implements DialogClassTests<Dialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dialog#Dialog(java.awt.Window, String)
-     * public java.awt.Dialog(java.awt.Window,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Dialog#Dialog(java.awt.Window, String, java.awt.Dialog.ModalityType, java.awt.GraphicsConfiguration)
+     * public
+     * java.awt.Dialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType,java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,11 +291,12 @@ implements DialogClassTests<Dialog> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Dialog_Window_String()
+    public void create_Dialog_Window_String_ModalityType_GraphicsConfiguration()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Dialog sut = null; // = new Dialog(java.awt.Window, String);
+        final Dialog sut = null; // = new Dialog(java.awt.Window, String, java.awt.Dialog.ModalityType,
+                                 // java.awt.GraphicsConfiguration);
     }
 
     /**
@@ -320,10 +323,8 @@ implements DialogClassTests<Dialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Dialog#Dialog(java.awt.Window, String, java.awt.Dialog.ModalityType, java.awt.GraphicsConfiguration)
-     * public
-     * java.awt.Dialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType,java.awt.GraphicsConfiguration)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Dialog#Dialog(java.awt.Window, String)
+     * public java.awt.Dialog(java.awt.Window,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -335,12 +336,11 @@ implements DialogClassTests<Dialog> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Dialog_Window_String_ModalityType_GraphicsConfiguration()
+    public void create_Dialog_Window_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Dialog sut = null; // = new Dialog(java.awt.Window, String, java.awt.Dialog.ModalityType,
-                                 // java.awt.GraphicsConfiguration);
+        final Dialog sut = null; // = new Dialog(java.awt.Window, String);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Dialog]
@@ -349,7 +349,8 @@ implements DialogClassTests<Dialog> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ModalExclusionType} (by simply
-     * reusing the J8Unit test interface {@link ModalExclusionTypeClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -412,7 +413,7 @@ implements DialogClassTests<Dialog> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ModalityType} (by simply reusing the
-     * J8Unit test interface {@link ModalityTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.DialogClassTests.ModalityTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

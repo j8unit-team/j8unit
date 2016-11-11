@@ -17,7 +17,8 @@ import org.omg.PortableServer.ServantLocator;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantLocatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests}.
  * </p>
  *
  * <p>

@@ -15,7 +15,7 @@ import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TAG_RMI_CUSTOM_MAX_STREAM_FORMATClassTests}).
+ * {@link org.j8unit.repository.org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMATClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,4 +33,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
+
 }

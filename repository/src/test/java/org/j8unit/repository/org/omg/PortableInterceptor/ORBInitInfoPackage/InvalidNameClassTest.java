@@ -10,12 +10,13 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidName} (by simply reusing the
- * J8Unit test interface {@link InvalidNameClassTests}).
+ * J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class InvalidNameClassTest
-implements InvalidNameClassTests<InvalidName> {
+implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameClassTests<InvalidName> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
 

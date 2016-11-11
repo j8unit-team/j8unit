@@ -7,7 +7,7 @@ import org.omg.CORBA.ARG_IN;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ARG_IN} (by simply reusing the J8Unit
- * test interface {@link ARG_INTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.ARG_INTests}).
  */
 
 @RunWith(J8Unit4.class)

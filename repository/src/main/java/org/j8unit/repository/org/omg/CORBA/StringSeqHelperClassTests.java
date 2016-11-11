@@ -18,7 +18,8 @@ import org.omg.CORBA.StringSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link StringSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.StringSeqHelperTests}.
  * </p>
  *
  * <p>

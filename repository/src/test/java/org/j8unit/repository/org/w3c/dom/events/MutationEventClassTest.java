@@ -6,7 +6,7 @@ import org.w3c.dom.events.MutationEvent;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MutationEvent} (by simply reusing the
- * J8Unit test interface {@link MutationEventClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.events.MutationEventClassTests}).
  */
 
 @RunWith(J8Unit4.class)

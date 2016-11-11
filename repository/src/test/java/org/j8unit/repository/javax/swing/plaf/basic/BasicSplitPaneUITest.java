@@ -47,74 +47,9 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardDownRightHandler} (by
-     * simply reusing the J8Unit test interface {@link KeyboardDownRightHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardDownRightHandlerTest
-    implements KeyboardDownRightHandlerTests<KeyboardDownRightHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        @Override
-        public KeyboardDownRightHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardEndHandler} (by simply
-     * reusing the J8Unit test interface {@link KeyboardEndHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardEndHandlerTest
-    implements KeyboardEndHandlerTests<KeyboardEndHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        @Override
-        public KeyboardEndHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardHomeHandler} (by simply
-     * reusing the J8Unit test interface {@link KeyboardHomeHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardHomeHandlerTest
-    implements KeyboardHomeHandlerTests<KeyboardHomeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-
-        @Override
-        public KeyboardHomeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicHorizontalLayoutManager} (by
-     * simply reusing the J8Unit test interface {@link BasicHorizontalLayoutManagerTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -135,31 +70,9 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyHandler} (by simply
-     * reusing the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests<PropertyHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
-
-        @Override
-        public PropertyHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardResizeToggleHandler} (by
-     * simply reusing the J8Unit test interface {@link KeyboardResizeToggleHandlerTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -180,8 +93,32 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
     }
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardHomeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardHomeHandlerTest
+    implements KeyboardHomeHandlerTests<KeyboardHomeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        @Override
+        public KeyboardHomeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardUpLeftHandler} (by simply
-     * reusing the J8Unit test interface {@link KeyboardUpLeftHandlerTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -198,6 +135,75 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicVerticalLayoutManager} (by
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class BasicVerticalLayoutManagerTest
+    implements BasicVerticalLayoutManagerTests<BasicVerticalLayoutManager> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+        @Override
+        public BasicVerticalLayoutManager createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardEndHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardEndHandlerTest
+    implements KeyboardEndHandlerTests<KeyboardEndHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        @Override
+        public KeyboardEndHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyboardDownRightHandler} (by
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardDownRightHandlerTest
+    implements KeyboardDownRightHandlerTests<KeyboardDownRightHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        @Override
+        public KeyboardDownRightHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
 
     }
 
@@ -225,24 +231,25 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicVerticalLayoutManager} (by
-     * simply reusing the J8Unit test interface {@link BasicVerticalLayoutManagerTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class BasicVerticalLayoutManagerTest
-    implements BasicVerticalLayoutManagerTests<BasicVerticalLayoutManager> {
+    public static class PropertyHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests<PropertyHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
 
         @Override
-        public BasicVerticalLayoutManager createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager], j8unit does not support a generic way to provide instances.");
+        public PropertyHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
 
     }
 

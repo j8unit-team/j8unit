@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractLayoutCache} (by simply
- * reusing the J8Unit test interface {@link AbstractLayoutCacheTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,8 @@ implements AbstractLayoutCacheTests<AbstractLayoutCache> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link NodeDimensions} (by simply
-     * reusing the J8Unit test interface {@link NodeDimensionsTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests.NodeDimensionsTests}).
      */
 
     @RunWith(J8Unit4.class)

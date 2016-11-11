@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link GridLayoutClassTests}).
+ * {@link org.j8unit.repository.java.awt.GridLayoutClassTests}).
  * </p>
  *
  * @param SUT
@@ -356,4 +356,5 @@ extends LayoutManagerTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GridLayout]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GridLayout]
+
 }

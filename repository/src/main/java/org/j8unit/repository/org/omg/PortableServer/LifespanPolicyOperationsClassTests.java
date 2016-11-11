@@ -19,7 +19,7 @@ import org.omg.PortableServer.LifespanPolicyOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link LifespanPolicyOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.LifespanPolicyOperationsTests}.
  * </p>
  *
  * <p>

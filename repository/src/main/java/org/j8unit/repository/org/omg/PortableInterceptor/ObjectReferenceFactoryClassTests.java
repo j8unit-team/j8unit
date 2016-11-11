@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.ObjectReferenceFactory;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ObjectReferenceFactoryTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryTests}.
  * </p>
  *
  * <p>

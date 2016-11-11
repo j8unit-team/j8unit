@@ -32,4 +32,5 @@ extends CurrentOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.Current
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.Current]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.Current]
+
 }

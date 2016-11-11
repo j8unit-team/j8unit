@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Helper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link IORInterceptor_3_0HelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HelperTests}.
  * </p>
  *
  * <p>

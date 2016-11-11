@@ -15,7 +15,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link InvalidActivityExceptionClassTests}).
+ * {@link org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,4 +33,5 @@ extends RemoteExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.InvalidActivityException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.InvalidActivityException]
+
 }

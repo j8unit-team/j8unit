@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ParagraphViewTest
-implements org.j8unit.repository.javax.swing.text.ParagraphViewTests<ParagraphView> {
+implements ParagraphViewTests<ParagraphView> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.ParagraphView]
 

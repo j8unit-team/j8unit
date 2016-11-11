@@ -130,4 +130,5 @@ extends ExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.MarshalException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.MarshalException]
+
 }

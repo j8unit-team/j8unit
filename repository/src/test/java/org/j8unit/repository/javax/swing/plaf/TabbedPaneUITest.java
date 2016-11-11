@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TabbedPaneUI} (by simply reusing the
- * J8Unit test interface {@link TabbedPaneUITests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests}).
  */
 
 @RunWith(J8Unit4.class)

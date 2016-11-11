@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonUI} (by simply reusing the J8Unit
- * test interface {@link ButtonUIClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.plaf.ButtonUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)

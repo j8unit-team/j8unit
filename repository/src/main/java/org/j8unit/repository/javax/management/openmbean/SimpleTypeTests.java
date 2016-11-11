@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SimpleTypeClassTests}).
+ * {@link org.j8unit.repository.javax.management.openmbean.SimpleTypeClassTests}).
  * </p>
  *
  * @param SUT
@@ -151,4 +151,5 @@ extends OpenTypeTests<SUT, T> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.SimpleType]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.SimpleType]
+
 }

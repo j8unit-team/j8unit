@@ -19,7 +19,8 @@ import org.omg.PortableInterceptor.ORBInitializer;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ORBInitializerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerTests}.
  * </p>
  *
  * <p>

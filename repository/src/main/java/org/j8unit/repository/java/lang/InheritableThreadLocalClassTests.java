@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link InheritableThreadLocalTests}.
+ * {@link org.j8unit.repository.java.lang.InheritableThreadLocalTests}.
  * </p>
  *
  * <p>

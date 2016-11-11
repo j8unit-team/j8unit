@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link KeyRepClassTests}).
+ * {@link org.j8unit.repository.java.security.KeyRepClassTests}).
  * </p>
  *
  * @param SUT
@@ -36,6 +36,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyRep]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyRep]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -64,6 +65,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyRep$Type]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyRep$Type]
+
     }
 
 }

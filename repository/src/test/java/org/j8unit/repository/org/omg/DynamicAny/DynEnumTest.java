@@ -12,7 +12,7 @@ import org.omg.DynamicAny.DynEnum;
 
 @RunWith(J8Unit4.class)
 public class DynEnumTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynEnumTests<DynEnum> {
+implements DynEnumTests<DynEnum> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
 

@@ -19,7 +19,8 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceedHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CannotProceedHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHolderTests}.
  * </p>
  *
  * <p>

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownGroupException} (by simply reusing
- * the J8Unit test interface {@link UnknownGroupExceptionClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.rmi.activation.UnknownGroupExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

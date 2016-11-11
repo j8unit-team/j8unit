@@ -7,7 +7,7 @@ import org.omg.IOP.TAG_MULTIPLE_COMPONENTS;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TAG_MULTIPLE_COMPONENTS} (by simply
- * reusing the J8Unit test interface {@link TAG_MULTIPLE_COMPONENTSTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TAG_MULTIPLE_COMPONENTSTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphView} (by simply reusing the J8Unit
- * test interface {@link GlyphViewClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.text.GlyphViewClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -55,7 +55,7 @@ implements GlyphViewClassTests<GlyphView> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphPainter} (by simply reusing the
-     * J8Unit test interface {@link GlyphPainterClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.GlyphViewClassTests.GlyphPainterClassTests}).
      */
 
     @RunWith(J8Unit4.class)

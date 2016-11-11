@@ -14,7 +14,7 @@ import org.omg.PortableServer.ForwardRequest;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ForwardRequestTest
-implements FactoryBasedJ8UnitTest<ForwardRequest>, ForwardRequestTests<ForwardRequest> {
+implements FactoryBasedJ8UnitTest<ForwardRequest>, org.j8unit.repository.org.omg.PortableServer.ForwardRequestTests<ForwardRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ForwardRequest]
 

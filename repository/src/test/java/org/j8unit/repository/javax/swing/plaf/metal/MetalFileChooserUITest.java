@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalFileChooserUI} (by simply
- * reusing the J8Unit test interface {@link MetalFileChooserUITests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,8 @@ implements MetalFileChooserUITests<MetalFileChooserUI> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FilterComboBoxRenderer} (by
-     * simply reusing the J8Unit test interface {@link FilterComboBoxRendererTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests.FilterComboBoxRendererTests}).
      */
 
     @RunWith(J8Unit4.class)

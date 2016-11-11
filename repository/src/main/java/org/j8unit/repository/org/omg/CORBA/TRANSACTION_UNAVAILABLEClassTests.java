@@ -18,7 +18,7 @@ import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link TRANSACTION_UNAVAILABLETests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLETests}.
  * </p>
  *
  * <p>

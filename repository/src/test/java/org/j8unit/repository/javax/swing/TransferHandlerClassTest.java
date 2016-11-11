@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TransferHandler} (by simply reusing the
- * J8Unit test interface {@link TransferHandlerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -113,31 +113,9 @@ implements TransferHandlerClassTests<TransferHandler> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
-     * J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TransferSupport} (by simply reusing
-     * the J8Unit test interface {@link TransferSupportClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.TransferSupportClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -178,6 +156,29 @@ implements TransferHandlerClassTests<TransferHandler> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
 
     }
 

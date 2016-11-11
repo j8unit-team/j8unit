@@ -19,7 +19,7 @@ import org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ObjectAlreadyActiveHelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelperTests}.
  * </p>
  *
  * <p>

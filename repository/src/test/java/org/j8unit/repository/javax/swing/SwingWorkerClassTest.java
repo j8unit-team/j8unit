@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link SwingWorker} (by simply reusing the
- * J8Unit test interface {@link SwingWorkerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.SwingWorkerClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -52,7 +52,7 @@ implements SwingWorkerClassTests<SwingWorker> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link StateValue} (by simply reusing the
-     * J8Unit test interface {@link StateValueClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests}).
      */
 
     @RunWith(J8Unit4.class)

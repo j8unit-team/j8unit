@@ -4,7 +4,6 @@ import java.awt.font.TextLayout;
 import java.awt.font.TextLayout.CaretPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.font.TextLayoutClassTests.CaretPolicyClassTests;
 import org.j8unit.repository.java.lang.CloneableTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
@@ -21,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TextLayoutClassTests}).
+ * {@link org.j8unit.repository.java.awt.font.TextLayoutClassTests}).
  * </p>
  *
  * @param SUT
@@ -130,30 +129,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.font.TextLayout#getVisualHighlightShape(java.awt.font.TextHitInfo, java.awt.font.TextHitInfo, java.awt.geom.Rectangle2D)
-     * public java.awt.Shape
-     * java.awt.font.TextLayout.getVisualHighlightShape(java.awt.font.TextHitInfo,java.awt.font.TextHitInfo,java.awt.geom.Rectangle2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVisualHighlightShape_TextHitInfo_TextHitInfo_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.TextLayout#getVisualHighlightShape(java.awt.font.TextHitInfo, java.awt.font.TextHitInfo)
      * public java.awt.Shape
      * java.awt.font.TextLayout.getVisualHighlightShape(java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}.
@@ -169,6 +144,30 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVisualHighlightShape_TextHitInfo_TextHitInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.TextLayout#getVisualHighlightShape(java.awt.font.TextHitInfo, java.awt.font.TextHitInfo, java.awt.geom.Rectangle2D)
+     * public java.awt.Shape
+     * java.awt.font.TextLayout.getVisualHighlightShape(java.awt.font.TextHitInfo,java.awt.font.TextHitInfo,java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVisualHighlightShape_TextHitInfo_TextHitInfo_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -221,6 +220,28 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextLayout#getNextLeftHit(int) public
+     * java.awt.font.TextHitInfo java.awt.font.TextLayout.getNextLeftHit(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextLeftHit_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.TextLayout#getNextLeftHit(java.awt.font.TextHitInfo) public java.awt.font.TextHitInfo
      * java.awt.font.TextLayout.getNextLeftHit(java.awt.font.TextHitInfo)}.
@@ -259,28 +280,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNextLeftHit_int_CaretPolicy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextLayout#getNextLeftHit(int) public
-     * java.awt.font.TextHitInfo java.awt.font.TextLayout.getNextLeftHit(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNextLeftHit_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -492,6 +491,29 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.TextLayout#getCaretShapes(int, java.awt.geom.Rectangle2D) public java.awt.Shape[]
+     * java.awt.font.TextLayout.getCaretShapes(int,java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCaretShapes_int_Rectangle2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.TextLayout#getCaretShapes(int, java.awt.geom.Rectangle2D, java.awt.font.TextLayout.CaretPolicy)
      * public java.awt.Shape[]
      * java.awt.font.TextLayout.getCaretShapes(int,java.awt.geom.Rectangle2D,java.awt.font.TextLayout$CaretPolicy)}.
@@ -529,29 +551,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCaretShapes_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.font.TextLayout#getCaretShapes(int, java.awt.geom.Rectangle2D) public java.awt.Shape[]
-     * java.awt.font.TextLayout.getCaretShapes(int,java.awt.geom.Rectangle2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaretShapes_int_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -651,29 +650,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.font.TextLayout#getLogicalHighlightShape(int, int, java.awt.geom.Rectangle2D) public
-     * java.awt.Shape java.awt.font.TextLayout.getLogicalHighlightShape(int,int,java.awt.geom.Rectangle2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLogicalHighlightShape_int_int_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.TextLayout#getLogicalHighlightShape(int, int) public java.awt.Shape
      * java.awt.font.TextLayout.getLogicalHighlightShape(int,int)}.
      *
@@ -688,6 +664,29 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLogicalHighlightShape_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.font.TextLayout#getLogicalHighlightShape(int, int, java.awt.geom.Rectangle2D) public
+     * java.awt.Shape java.awt.font.TextLayout.getLogicalHighlightShape(int,int,java.awt.geom.Rectangle2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogicalHighlightShape_int_int_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -833,28 +832,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextLayout#getAscent() public float
-     * java.awt.font.TextLayout.getAscent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAscent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.font.TextLayout#isLeftToRight() public
      * boolean java.awt.font.TextLayout.isLeftToRight()}.
      *
@@ -869,6 +846,28 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isLeftToRight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.TextLayout#getAscent() public float
+     * java.awt.font.TextLayout.getAscent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAscent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1036,6 +1035,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.TextLayout]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextLayout]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -1046,7 +1046,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CaretPolicyClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.font.TextLayoutClassTests.CaretPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -1088,6 +1088,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.TextLayout$CaretPolicy]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextLayout$CaretPolicy]
+
     }
 
 }

@@ -19,7 +19,8 @@ import org.omg.CORBA.PolicyHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PolicyHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.PolicyHolderTests}.
  * </p>
  *
  * <p>

@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link WatchEventClassTests}).
+ * {@link org.j8unit.repository.java.nio.file.WatchEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -104,6 +104,7 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -114,7 +115,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ModifierClassTests}).
+     * (see {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests}).
      * </p>
      *
      * @param SUT
@@ -154,6 +155,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
+
     }
 
     /**
@@ -166,7 +168,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KindClassTests}).
+     * (see {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests}).
      * </p>
      *
      * @param SUT
@@ -228,6 +230,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
+
     }
 
 }

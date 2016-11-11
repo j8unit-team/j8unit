@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Collector} (by simply reusing the J8Unit
- * test interface {@link CollectorClassTests}).
+ * test interface {@link org.j8unit.repository.java.util.stream.CollectorClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -82,7 +82,8 @@ implements CollectorClassTests<Collector> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Characteristics} (by simply reusing
-     * the J8Unit test interface {@link CharacteristicsClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.stream.CollectorClassTests.CharacteristicsClassTests}).
      */
 
     @RunWith(J8Unit4.class)

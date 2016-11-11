@@ -6,7 +6,6 @@ import javax.xml.ws.soap.AddressingFeature.Responses;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests;
-import org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AddressingFeatureTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends WebServiceFeatureClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ResponsesTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests}.
      * </p>
      *
      * <p>

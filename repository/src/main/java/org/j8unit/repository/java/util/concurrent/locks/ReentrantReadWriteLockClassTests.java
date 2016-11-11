@@ -7,8 +7,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests;
-import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -25,7 +23,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ReentrantReadWriteLockTests}.
+ * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests}.
  * </p>
  *
  * <p>
@@ -89,7 +87,8 @@ extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTe
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ReadLockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests}.
      * </p>
      *
      * <p>
@@ -155,7 +154,8 @@ extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTe
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link WriteLockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests}.
      * </p>
      *
      * <p>

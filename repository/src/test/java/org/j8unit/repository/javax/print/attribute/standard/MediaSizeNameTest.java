@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MediaSizeName} (by simply reusing the
- * J8Unit test interface {@link MediaSizeNameTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameTests}).
  */
 
 @RunWith(J8Parameterized.class)

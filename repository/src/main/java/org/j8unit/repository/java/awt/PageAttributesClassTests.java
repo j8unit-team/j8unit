@@ -8,10 +8,6 @@ import java.awt.PageAttributes.OrientationRequestedType;
 import java.awt.PageAttributes.OriginType;
 import java.awt.PageAttributes.PrintQualityType;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests;
-import org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests;
-import org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests;
-import org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests;
 import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -29,7 +25,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PageAttributesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.PageAttributesTests}.
  * </p>
  *
  * <p>
@@ -94,7 +91,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link PrintQualityTypeTests}.
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests}.
      * </p>
      *
      * <p>
@@ -160,7 +157,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ColorTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests}.
      * </p>
      *
      * <p>
@@ -226,7 +224,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OriginTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests}.
      * </p>
      *
      * <p>
@@ -292,7 +291,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link MediaTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests}.
      * </p>
      *
      * <p>
@@ -359,7 +359,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link OrientationRequestedTypeTests}.
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests}.
      * </p>
      *
      * <p>

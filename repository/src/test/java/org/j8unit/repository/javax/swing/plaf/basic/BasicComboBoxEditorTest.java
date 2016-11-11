@@ -40,7 +40,7 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxEditor>, BasicComboBoxEditorTests
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UIResourceTest
-    implements FactoryBasedJ8UnitTest<UIResource>, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests.UIResourceTests<UIResource> {
+    implements FactoryBasedJ8UnitTest<UIResource>, UIResourceTests<UIResource> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
 

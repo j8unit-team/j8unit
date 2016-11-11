@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DateTimeFormatterClassTests}).
+ * {@link org.j8unit.repository.java.time.format.DateTimeFormatterClassTests}).
  * </p>
  *
  * @param SUT
@@ -58,6 +58,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DateTimeFormatter#toFormat() public
+     * java.text.Format java.time.format.DateTimeFormatter.toFormat()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.format.DateTimeFormatter#toFormat(java.time.temporal.TemporalQuery) public java.text.Format
      * java.time.format.DateTimeFormatter.toFormat(java.time.temporal.TemporalQuery<?>)}.
@@ -73,28 +95,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_toFormat_TemporalQuery()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.format.DateTimeFormatter#toFormat() public
-     * java.text.Format java.time.format.DateTimeFormatter.toFormat()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -197,10 +197,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.format.DateTimeFormatter#withResolverFields(java.time.temporal.TemporalField...) public
-     * java.time.format.DateTimeFormatter
-     * java.time.format.DateTimeFormatter.withResolverFields(java.time.temporal.TemporalField...)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.DateTimeFormatter#getChronology()
+     * public java.time.chrono.Chronology java.time.format.DateTimeFormatter.getChronology()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -212,7 +210,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_withResolverFields_TemporalFieldArray()
+    public default void test_getChronology()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,8 +243,10 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.format.DateTimeFormatter#getChronology()
-     * public java.time.chrono.Chronology java.time.format.DateTimeFormatter.getChronology()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#withResolverFields(java.time.temporal.TemporalField...) public
+     * java.time.format.DateTimeFormatter
+     * java.time.format.DateTimeFormatter.withResolverFields(java.time.temporal.TemporalField...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +258,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChronology()
+    public default void test_withResolverFields_TemporalFieldArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -361,6 +361,29 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#withZone(java.time.ZoneId) public java.time.format.DateTimeFormatter
+     * java.time.format.DateTimeFormatter.withZone(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_withZone_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.time.format.DateTimeFormatter#parseBest(CharSequence, java.time.temporal.TemporalQuery...) public
      * java.time.temporal.TemporalAccessor
      * java.time.format.DateTimeFormatter.parseBest(java.lang.CharSequence,java.time.temporal.TemporalQuery<?>...)}.
@@ -376,29 +399,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parseBest_CharSequence_TemporalQueryArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.format.DateTimeFormatter#withZone(java.time.ZoneId) public java.time.format.DateTimeFormatter
-     * java.time.format.DateTimeFormatter.withZone(java.time.ZoneId)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_withZone_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -453,29 +453,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.format.DateTimeFormatter#parse(CharSequence) public java.time.temporal.TemporalAccessor
-     * java.time.format.DateTimeFormatter.parse(java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.format.DateTimeFormatter#parse(CharSequence, java.text.ParsePosition) public
      * java.time.temporal.TemporalAccessor
      * java.time.format.DateTimeFormatter.parse(java.lang.CharSequence,java.text.ParsePosition)}.
@@ -491,6 +468,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parse_CharSequence_ParsePosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.format.DateTimeFormatter#parse(CharSequence) public java.time.temporal.TemporalAccessor
+     * java.time.format.DateTimeFormatter.parse(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -568,4 +568,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.DateTimeFormatter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.DateTimeFormatter]
+
 }

@@ -11,7 +11,7 @@ import org.omg.DynamicAny.DynFixedHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynFixedHelper} (by simply reusing the
- * J8Unit test interface {@link DynFixedHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynFixedHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

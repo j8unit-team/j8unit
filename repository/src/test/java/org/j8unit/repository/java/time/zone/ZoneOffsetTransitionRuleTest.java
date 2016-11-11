@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ZoneOffsetTransitionRule} (by simply
- * reusing the J8Unit test interface {@link ZoneOffsetTransitionRuleTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,8 @@ implements ZoneOffsetTransitionRuleTests<ZoneOffsetTransitionRule> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link TimeDefinition} (by simply
-     * reusing the J8Unit test interface {@link TimeDefinitionTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests.TimeDefinitionTests}).
      */
 
     @RunWith(J8Parameterized.class)

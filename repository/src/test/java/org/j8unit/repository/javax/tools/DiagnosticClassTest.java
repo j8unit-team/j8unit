@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Diagnostic} (by simply reusing the J8Unit
- * test interface {@link DiagnosticClassTests}).
+ * test interface {@link org.j8unit.repository.javax.tools.DiagnosticClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -36,7 +36,7 @@ implements DiagnosticClassTests<Diagnostic> {
 
     @RunWith(J8Unit4.class)
     public static class KindClassTest
-    implements org.j8unit.repository.javax.tools.DiagnosticClassTests.KindClassTests<Kind> {
+    implements KindClassTests<Kind> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.Diagnostic$Kind]
 

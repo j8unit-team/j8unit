@@ -11,7 +11,7 @@ import org.omg.DynamicAny.DynEnum;
 
 @RunWith(J8Unit4.class)
 public class DynEnumClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests<DynEnum> {
+implements DynEnumClassTests<DynEnum> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynEnum]
 

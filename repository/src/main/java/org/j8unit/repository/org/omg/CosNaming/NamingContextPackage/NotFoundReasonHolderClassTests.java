@@ -20,7 +20,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link NotFoundReasonHolderTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolderTests}.
  * </p>
  *
  * <p>

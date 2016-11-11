@@ -7,12 +7,12 @@ import org.omg.CORBA.portable.Delegate;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Delegate} (by simply reusing the
- * J8Unit test interface {@link DelegateTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.DelegateTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class DelegateTest
-implements DelegateTests<Delegate> {
+implements org.j8unit.repository.org.omg.CORBA.portable.DelegateTests<Delegate> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.Delegate]
 

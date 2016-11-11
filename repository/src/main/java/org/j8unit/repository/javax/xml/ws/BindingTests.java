@@ -102,4 +102,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Binding]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Binding]
+
 }

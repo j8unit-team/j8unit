@@ -11,7 +11,7 @@ import org.omg.PortableInterceptor.AdapterNameHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterNameHelper} (by simply reusing the
- * J8Unit test interface {@link AdapterNameHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

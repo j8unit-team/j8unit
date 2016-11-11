@@ -18,7 +18,8 @@ import org.omg.CORBA.CurrentHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CurrentHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.CurrentHelperTests}.
  * </p>
  *
  * <p>

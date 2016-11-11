@@ -81,4 +81,5 @@ extends SerializableTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.Attribute]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.Attribute]
+
 }

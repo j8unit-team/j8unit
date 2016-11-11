@@ -7,7 +7,7 @@ import org.omg.PortableInterceptor.IORInfoOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link IORInfoOperations} (by simply reusing
- * the J8Unit test interface {@link IORInfoOperationsTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInfoOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

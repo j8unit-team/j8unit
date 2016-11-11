@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JdbcRowSetClassTests}).
+ * {@link org.j8unit.repository.javax.sql.rowset.JdbcRowSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -214,4 +214,5 @@ extends RowSetTests<SUT>, JoinableTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.JdbcRowSet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.JdbcRowSet]
+
 }

@@ -7,7 +7,7 @@ import org.omg.DynamicAny.DynArrayHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DynArrayHelper} (by simply reusing
- * the J8Unit test interface {@link DynArrayHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynArrayHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

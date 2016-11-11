@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SynthMenuItemUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthMenuItemUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -182,4 +182,5 @@ extends PropertyChangeListenerTests<SUT>, SynthUITests<SUT>, BasicMenuItemUITest
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuItemUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuItemUI]
+
 }

@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Duration} (by simply reusing the
- * J8Unit test interface {@link DurationTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.time.DurationTests}).
  */
 
 @RunWith(J8Parameterized.class)

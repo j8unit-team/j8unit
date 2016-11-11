@@ -17,7 +17,8 @@ import org.omg.CORBA.ACTIVITY_REQUIRED;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ACTIVITY_REQUIREDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ACTIVITY_REQUIREDTests}.
  * </p>
  *
  * <p>

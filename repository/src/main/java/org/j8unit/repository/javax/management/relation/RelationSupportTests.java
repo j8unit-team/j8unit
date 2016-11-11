@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RelationSupportClassTests}).
+ * {@link org.j8unit.repository.javax.management.relation.RelationSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -86,30 +86,6 @@ extends RelationSupportMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ObjectTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.relation.RelationSupport#postRegister(Boolean) public void
-     * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_postRegister_Boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
      * javax.management.relation.RelationSupport.isInRelationService()}.
      *
@@ -125,6 +101,30 @@ extends RelationSupportMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ObjectTests
     @Test
     @Category(Draft.class)
     public default void test_isInRelationService()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#postRegister(Boolean) public void
+     * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_postRegister_Boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -484,4 +484,5 @@ extends RelationSupportMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ObjectTests
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationSupport]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationSupport]
+
 }

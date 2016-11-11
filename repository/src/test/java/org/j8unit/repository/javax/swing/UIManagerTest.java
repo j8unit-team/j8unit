@@ -40,7 +40,7 @@ implements FactoryBasedJ8UnitTest<UIManager>, UIManagerTests<UIManager> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LookAndFeelInfo} (by simply
-     * reusing the J8Unit test interface {@link LookAndFeelInfoTests}).
+     * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests}).
      */
 
     @RunWith(J8Unit4.class)

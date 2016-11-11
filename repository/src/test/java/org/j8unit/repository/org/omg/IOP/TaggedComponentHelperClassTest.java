@@ -11,7 +11,7 @@ import org.omg.IOP.TaggedComponentHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TaggedComponentHelper} (by simply reusing
- * the J8Unit test interface {@link TaggedComponentHelperClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TaggedComponentHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

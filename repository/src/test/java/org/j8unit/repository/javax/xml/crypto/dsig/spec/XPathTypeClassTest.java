@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link XPathType} (by simply reusing the J8Unit
- * test interface {@link XPathTypeClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -84,7 +84,7 @@ implements XPathTypeClassTests<XPathType> {
 
     @RunWith(J8Unit4.class)
     public static class FilterClassTest
-    implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests.FilterClassTests<Filter> {
+    implements FilterClassTests<Filter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType$Filter]
 

@@ -5,7 +5,6 @@ import javax.swing.Box;
 import javax.swing.Box.Filler;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.BoxTests.FillerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BoxTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.BoxTests}.
  * </p>
  *
  * <p>
@@ -84,7 +84,8 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FillerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.BoxTests.FillerTests}.
      * </p>
      *
      * <p>

@@ -7,7 +7,7 @@ import org.omg.PortableServer.ServantRetentionPolicy;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantRetentionPolicy} (by simply
- * reusing the J8Unit test interface {@link ServantRetentionPolicyTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeListTest
-implements FactoryBasedJ8UnitTest<AttributeList>, org.j8unit.repository.javax.management.AttributeListTests<AttributeList> {
+implements FactoryBasedJ8UnitTest<AttributeList>, AttributeListTests<AttributeList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeList]
 

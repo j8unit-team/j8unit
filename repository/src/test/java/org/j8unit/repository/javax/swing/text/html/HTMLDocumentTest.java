@@ -51,8 +51,30 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link RunElement} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RunElementTest
+    implements RunElementTests<RunElement> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
+
+        @Override
+        public RunElement createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.RunElement], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLReader} (by simply reusing
-     * the J8Unit test interface {@link HTMLReaderTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -71,52 +93,55 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
 
         /**
-         * Specific JUnit test class to proof the instance relevant aspects of type {@link BlockAction} (by simply
-         * reusing the J8Unit test interface {@link BlockActionTests}).
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link SpecialAction} (by simply
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}).
          */
 
         @RunWith(J8Unit4.class)
-        public static class BlockActionTest
-        implements BlockActionTests<BlockAction> {
+        public static class SpecialActionTest
+        implements SpecialActionTests<SpecialAction> {
 
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
 
             @Override
-            public BlockAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction], j8unit does not support a generic way to provide instances.");
+            public SpecialAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction], j8unit does not support a generic way to provide instances.");
             }
 
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
 
         }
 
         /**
-         * Specific JUnit test class to proof the instance relevant aspects of type {@link ParagraphAction} (by simply
-         * reusing the J8Unit test interface {@link ParagraphActionTests}).
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link IsindexAction} (by simply
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}).
          */
 
         @RunWith(J8Unit4.class)
-        public static class ParagraphActionTest
-        implements ParagraphActionTests<ParagraphAction> {
+        public static class IsindexActionTest
+        implements IsindexActionTests<IsindexAction> {
 
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
 
             @Override
-            public ParagraphAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction], j8unit does not support a generic way to provide instances.");
+            public IsindexAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction], j8unit does not support a generic way to provide instances.");
             }
 
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
 
         }
 
         /**
          * Specific JUnit test class to proof the instance relevant aspects of type {@link TagAction} (by simply reusing
-         * the J8Unit test interface {@link TagActionTests}).
+         * the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests}).
          */
 
         @RunWith(J8Unit4.class)
@@ -138,7 +163,8 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
 
         /**
          * Specific JUnit test class to proof the instance relevant aspects of type {@link PreAction} (by simply reusing
-         * the J8Unit test interface {@link PreActionTests}).
+         * the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests}).
          */
 
         @RunWith(J8Unit4.class)
@@ -159,52 +185,9 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
         }
 
         /**
-         * Specific JUnit test class to proof the instance relevant aspects of type {@link IsindexAction} (by simply
-         * reusing the J8Unit test interface {@link IsindexActionTests}).
-         */
-
-        @RunWith(J8Unit4.class)
-        public static class IsindexActionTest
-        implements IsindexActionTests<IsindexAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-            @Override
-            public IsindexAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-        }
-
-        /**
-         * Specific JUnit test class to proof the instance relevant aspects of type {@link SpecialAction} (by simply
-         * reusing the J8Unit test interface {@link SpecialActionTests}).
-         */
-
-        @RunWith(J8Unit4.class)
-        public static class SpecialActionTest
-        implements SpecialActionTests<SpecialAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-            @Override
-            public SpecialAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-        }
-
-        /**
          * Specific JUnit test class to proof the instance relevant aspects of type {@link HiddenAction} (by simply
-         * reusing the J8Unit test interface {@link HiddenActionTests}).
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}).
          */
 
         @RunWith(J8Unit4.class)
@@ -225,8 +208,32 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
         }
 
         /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link BlockAction} (by simply
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class BlockActionTest
+        implements BlockActionTests<BlockAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
+            @Override
+            public BlockAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
+        }
+
+        /**
          * Specific JUnit test class to proof the instance relevant aspects of type {@link FormAction} (by simply
-         * reusing the J8Unit test interface {@link FormActionTests}).
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests}).
          */
 
         @RunWith(J8Unit4.class)
@@ -248,7 +255,8 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
 
         /**
          * Specific JUnit test class to proof the instance relevant aspects of type {@link CharacterAction} (by simply
-         * reusing the J8Unit test interface {@link CharacterActionTests}).
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}).
          */
 
         @RunWith(J8Unit4.class)
@@ -268,11 +276,35 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
 
         }
 
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link ParagraphAction} (by simply
+         * reusing the J8Unit test interface
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class ParagraphActionTest
+        implements ParagraphActionTests<ParagraphAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
+            @Override
+            public ParagraphAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
+        }
+
     }
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BlockElement} (by simply reusing
-     * the J8Unit test interface {@link BlockElementTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -293,30 +325,8 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link RunElement} (by simply reusing
-     * the J8Unit test interface {@link RunElementTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class RunElementTest
-    implements RunElementTests<RunElement> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
-
-        @Override
-        public RunElement createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.RunElement], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Iterator} (by simply reusing the
-     * J8Unit test interface {@link IteratorTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -18,7 +18,8 @@ import org.omg.CORBA.ContextList;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ContextListTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ContextListTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,7 @@ import org.omg.CORBA.PolicyTypeHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PolicyTypeHelper} (by simply reusing
- * the J8Unit test interface {@link PolicyTypeHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PolicyTypeHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

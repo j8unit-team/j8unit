@@ -18,7 +18,8 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SYNC_WITH_TRANSPORTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.Messaging.SYNC_WITH_TRANSPORTTests}.
  * </p>
  *
  * <p>

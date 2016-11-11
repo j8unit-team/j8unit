@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SampleModelClassTests}).
+ * {@link org.j8unit.repository.java.awt.image.SampleModelClassTests}).
  * </p>
  *
  * @param SUT
@@ -214,29 +214,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.SampleModel#setPixels(int, int, int, int, float[], java.awt.image.DataBuffer) public void
-     * java.awt.image.SampleModel.setPixels(int,int,int,int,float[],java.awt.image.DataBuffer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPixels_int_int_int_int_floatArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.SampleModel#setPixels(int, int, int, int, double[], java.awt.image.DataBuffer) public void
      * java.awt.image.SampleModel.setPixels(int,int,int,int,double[],java.awt.image.DataBuffer)}.
      *
@@ -251,6 +228,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPixels_int_int_int_int_doubleArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SampleModel#setPixels(int, int, int, int, float[], java.awt.image.DataBuffer) public void
+     * java.awt.image.SampleModel.setPixels(int,int,int,int,float[],java.awt.image.DataBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPixels_int_int_int_int_floatArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -421,29 +421,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.SampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public int[]
-     * java.awt.image.SampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPixels_int_int_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.SampleModel#getPixels(int, int, int, int, double[], java.awt.image.DataBuffer) public
      * double[] java.awt.image.SampleModel.getPixels(int,int,int,int,double[],java.awt.image.DataBuffer)}.
      *
@@ -458,6 +435,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPixels_int_int_int_int_doubleArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public int[]
+     * java.awt.image.SampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPixels_int_int_int_int_intArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -786,29 +786,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.SampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public abstract void
-     * java.awt.image.SampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSample_int_int_int_int_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.SampleModel#setSample(int, int, int, float, java.awt.image.DataBuffer) public void
      * java.awt.image.SampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
      *
@@ -823,6 +800,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSample_int_int_int_float_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.SampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public abstract void
+     * java.awt.image.SampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSample_int_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -925,4 +925,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.SampleModel]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.SampleModel]
+
 }

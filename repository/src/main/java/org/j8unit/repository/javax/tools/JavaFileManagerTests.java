@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JavaFileManagerClassTests}).
+ * {@link org.j8unit.repository.javax.tools.JavaFileManagerClassTests}).
  * </p>
  *
  * @param SUT
@@ -326,6 +326,7 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, OptionCheckerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -399,6 +400,7 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, OptionCheckerTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
+
     }
 
 }

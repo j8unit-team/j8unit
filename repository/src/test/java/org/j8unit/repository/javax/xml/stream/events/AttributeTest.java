@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
- * J8Unit test interface {@link AttributeTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.stream.events.AttributeTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class AttributeTest
-implements AttributeTests<Attribute> {
+implements org.j8unit.repository.javax.xml.stream.events.AttributeTests<Attribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.events.Attribute]
 

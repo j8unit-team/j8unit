@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentEvent} (by simply reusing the
- * J8Unit test interface {@link DocumentEventTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.DocumentEventTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,6 +34,28 @@ implements DocumentEventTests<DocumentEvent> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementChange} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ElementChangeTest
+    implements ElementChangeTests<ElementChange> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
+        @Override
+        public ElementChange createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent.ElementChange], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link EventType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.DocumentEventTests.EventTypeTests}).
      */
@@ -41,7 +63,7 @@ implements DocumentEventTests<DocumentEvent> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class EventTypeTest
-    implements org.j8unit.repository.javax.swing.event.DocumentEventTests.EventTypeTests<EventType> {
+    implements EventTypeTests<EventType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
@@ -63,28 +85,6 @@ implements DocumentEventTests<DocumentEvent> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementChange} (by simply reusing
-     * the J8Unit test interface {@link ElementChangeTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ElementChangeTest
-    implements ElementChangeTests<ElementChange> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
-
-        @Override
-        public ElementChange createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent.ElementChange], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 
     }
 

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JAXB} (by simply reusing the J8Unit test
- * interface {@link JAXBClassTests}).
+ * interface {@link org.j8unit.repository.javax.xml.bind.JAXBClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -26,8 +26,8 @@ implements JAXBClassTests<JAXB> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.net.URI, Class)
-     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.net.URI,java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.io.Reader, Class)
+     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.io.Reader,java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -39,9 +39,9 @@ implements JAXBClassTests<JAXB> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_unmarshal_URI_Class()
+    public void test_unmarshal_Reader_Class()
     throws Exception {
-        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.net.URI, Class)}
+        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.Reader, Class)}
     }
 
     /**
@@ -67,9 +67,8 @@ implements JAXBClassTests<JAXB> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream, Class) public static <T> T
-     * javax.xml.bind.JAXB.unmarshal(java.io.InputStream,java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.io.File, Class)
+     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.io.File,java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,29 +80,9 @@ implements JAXBClassTests<JAXB> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_unmarshal_InputStream_Class()
+    public void test_unmarshal_File_Class()
     throws Exception {
-        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream, Class)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.io.Reader, Class)
-     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.io.Reader,java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_unmarshal_Reader_Class()
-    throws Exception {
-        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.Reader, Class)}
+        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.File, Class)}
     }
 
     /**
@@ -128,8 +107,9 @@ implements JAXBClassTests<JAXB> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.io.File, Class)
-     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.io.File,java.lang.Class<T>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream, Class) public static <T> T
+     * javax.xml.bind.JAXB.unmarshal(java.io.InputStream,java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,9 +121,9 @@ implements JAXBClassTests<JAXB> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_unmarshal_File_Class()
+    public void test_unmarshal_InputStream_Class()
     throws Exception {
-        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.File, Class)}
+        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream, Class)}
     }
 
     /**
@@ -164,6 +144,26 @@ implements JAXBClassTests<JAXB> {
     public void test_unmarshal_URL_Class()
     throws Exception {
         // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.net.URL, Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXB#unmarshal(java.net.URI, Class)
+     * public static <T> T javax.xml.bind.JAXB.unmarshal(java.net.URI,java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_unmarshal_URI_Class()
+    throws Exception {
+        // write some test for {@link javax.xml.bind.JAXB#unmarshal(java.net.URI, Class)}
     }
 
     /**

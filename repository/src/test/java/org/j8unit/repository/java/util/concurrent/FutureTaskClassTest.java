@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link FutureTask} (by simply reusing the J8Unit
- * test interface {@link FutureTaskClassTests}).
+ * test interface {@link org.j8unit.repository.java.util.concurrent.FutureTaskClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -22,29 +22,6 @@ implements FutureTaskClassTests<FutureTask> {
     @Override
     public Class<FutureTask> createNewSUT() {
         return FutureTask.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.FutureTask#FutureTask(Runnable, Object) public
-     * java.util.concurrent.FutureTask(java.lang.Runnable,V)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_FutureTask_Runnable_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final FutureTask sut = null; // = new FutureTask(Runnable, Object);
     }
 
     /**
@@ -68,6 +45,29 @@ implements FutureTaskClassTests<FutureTask> {
         // create new instance
         @SuppressWarnings("unused")
         final FutureTask sut = null; // = new FutureTask(java.util.concurrent.Callable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.FutureTask#FutureTask(Runnable, Object) public
+     * java.util.concurrent.FutureTask(java.lang.Runnable,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_FutureTask_Runnable_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final FutureTask sut = null; // = new FutureTask(Runnable, Object);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.FutureTask]

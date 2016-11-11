@@ -283,4 +283,5 @@ extends DTDConstantsTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.Element]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.Element]
+
 }

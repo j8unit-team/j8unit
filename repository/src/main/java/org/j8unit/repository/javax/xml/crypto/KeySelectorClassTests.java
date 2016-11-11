@@ -5,7 +5,6 @@ import javax.xml.crypto.KeySelector;
 import javax.xml.crypto.KeySelector.Purpose;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.xml.crypto.KeySelectorTests.PurposeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link KeySelectorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.crypto.KeySelectorTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link PurposeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.crypto.KeySelectorTests.PurposeTests}.
      * </p>
      *
      * <p>

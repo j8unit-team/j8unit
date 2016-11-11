@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ImmutableDescriptor} (by simply reusing
- * the J8Unit test interface {@link ImmutableDescriptorClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.management.ImmutableDescriptorClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -27,8 +27,8 @@ implements ImmutableDescriptorClassTests<ImmutableDescriptor> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(String[], Object[]) public
-     * javax.management.ImmutableDescriptor(java.lang.String[],java.lang.Object[])}.
+     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(java.util.Map) public
+     * javax.management.ImmutableDescriptor(java.util.Map<java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,11 +40,11 @@ implements ImmutableDescriptorClassTests<ImmutableDescriptor> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ImmutableDescriptor_StringArray_ObjectArray()
+    public void create_ImmutableDescriptor_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(String[], Object[]);
+        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(java.util.Map);
     }
 
     /**
@@ -73,8 +73,8 @@ implements ImmutableDescriptorClassTests<ImmutableDescriptor> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(java.util.Map) public
-     * javax.management.ImmutableDescriptor(java.util.Map<java.lang.String, ?>)}.
+     * {@link javax.management.ImmutableDescriptor#ImmutableDescriptor(String[], Object[]) public
+     * javax.management.ImmutableDescriptor(java.lang.String[],java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,11 +86,11 @@ implements ImmutableDescriptorClassTests<ImmutableDescriptor> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ImmutableDescriptor_Map()
+    public void create_ImmutableDescriptor_StringArray_ObjectArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(java.util.Map);
+        final ImmutableDescriptor sut = null; // = new ImmutableDescriptor(String[], Object[]);
     }
 
     /**

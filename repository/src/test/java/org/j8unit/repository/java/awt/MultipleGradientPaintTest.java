@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MultipleGradientPaint} (by simply
- * reusing the J8Unit test interface {@link MultipleGradientPaintTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -36,7 +36,8 @@ implements MultipleGradientPaintTests<MultipleGradientPaint> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorSpaceType} (by simply
-     * reusing the J8Unit test interface {@link ColorSpaceTypeTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -67,7 +68,7 @@ implements MultipleGradientPaintTests<MultipleGradientPaint> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link CycleMethod} (by simply reusing
-     * the J8Unit test interface {@link CycleMethodTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests}).
      */
 
     @RunWith(J8Parameterized.class)

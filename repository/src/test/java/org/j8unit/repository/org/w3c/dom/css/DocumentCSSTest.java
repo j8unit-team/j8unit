@@ -7,7 +7,7 @@ import org.w3c.dom.css.DocumentCSS;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentCSS} (by simply reusing the
- * J8Unit test interface {@link DocumentCSSTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.DocumentCSSTests}).
  */
 
 @RunWith(J8Unit4.class)

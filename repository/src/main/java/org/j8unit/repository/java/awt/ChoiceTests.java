@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ChoiceClassTests}).
+ * {@link org.j8unit.repository.java.awt.ChoiceClassTests}).
  * </p>
  *
  * @param SUT
@@ -484,4 +484,5 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Choice]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Choice]
+
 }

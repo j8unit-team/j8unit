@@ -19,7 +19,8 @@ import org.omg.CORBA.AnySeqHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AnySeqHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.AnySeqHolderTests}.
  * </p>
  *
  * <p>

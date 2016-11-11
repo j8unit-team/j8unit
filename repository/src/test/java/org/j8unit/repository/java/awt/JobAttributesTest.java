@@ -43,7 +43,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SidesType} (by simply reusing the
-     * J8Unit test interface {@link SidesTypeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -76,7 +76,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DialogType} (by simply reusing
-     * the J8Unit test interface {@link DialogTypeTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -109,7 +109,8 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DestinationType} (by simply
-     * reusing the J8Unit test interface {@link DestinationTypeTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -141,7 +142,8 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link MultipleDocumentHandlingType} (by
-     * simply reusing the J8Unit test interface {@link MultipleDocumentHandlingTypeTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -173,7 +175,8 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultSelectionType} (by simply
-     * reusing the J8Unit test interface {@link DefaultSelectionTypeTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)

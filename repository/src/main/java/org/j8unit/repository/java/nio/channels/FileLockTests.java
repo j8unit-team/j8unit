@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FileLockClassTests}).
+ * {@link org.j8unit.repository.java.nio.channels.FileLockClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,28 +33,6 @@ public abstract interface FileLockTests<SUT extends FileLock>
 extends AutoCloseableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileLock]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#acquiredBy() public
-     * java.nio.channels.Channel java.nio.channels.FileLock.acquiredBy()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acquiredBy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -72,6 +50,28 @@ extends AutoCloseableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isShared()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileLock#acquiredBy() public
+     * java.nio.channels.Channel java.nio.channels.FileLock.acquiredBy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_acquiredBy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,4 +259,5 @@ extends AutoCloseableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileLock]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileLock]
+
 }

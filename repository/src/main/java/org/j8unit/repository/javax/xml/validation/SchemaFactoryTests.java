@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SchemaFactoryClassTests}).
+ * {@link org.j8unit.repository.javax.xml.validation.SchemaFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -83,8 +83,8 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.SchemaFactory#newSchema(java.io.File) public javax.xml.validation.Schema
-     * javax.xml.validation.SchemaFactory.newSchema(java.io.File) throws org.xml.sax.SAXException}.
+     * {@link javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public javax.xml.validation.Schema
+     * javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,7 +96,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSchema_File()
+    public default void test_newSchema_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -130,9 +130,8 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source) public
-     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source) throws
-     * org.xml.sax.SAXException}.
+     * {@link javax.xml.validation.SchemaFactory#newSchema(java.io.File) public javax.xml.validation.Schema
+     * javax.xml.validation.SchemaFactory.newSchema(java.io.File) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +143,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSchema_Source()
+    public default void test_newSchema_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,8 +176,9 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.SchemaFactory#newSchema(java.net.URL) public javax.xml.validation.Schema
-     * javax.xml.validation.SchemaFactory.newSchema(java.net.URL) throws org.xml.sax.SAXException}.
+     * {@link javax.xml.validation.SchemaFactory#newSchema(javax.xml.transform.Source) public
+     * javax.xml.validation.Schema javax.xml.validation.SchemaFactory.newSchema(javax.xml.transform.Source) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -190,7 +190,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSchema_URL()
+    public default void test_newSchema_Source()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -363,4 +363,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.validation.SchemaFactory]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.SchemaFactory]
+
 }

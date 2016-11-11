@@ -18,7 +18,8 @@ import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link URLStringHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLStringHelperTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DatagramSocketImplFactoryTests}.
+ * {@link org.j8unit.repository.java.net.DatagramSocketImplFactoryTests}.
  * </p>
  *
  * <p>

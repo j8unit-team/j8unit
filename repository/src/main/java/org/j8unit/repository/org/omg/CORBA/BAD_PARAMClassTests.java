@@ -17,7 +17,8 @@ import org.omg.CORBA.BAD_PARAM;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_PARAMTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.BAD_PARAMTests}.
  * </p>
  *
  * <p>

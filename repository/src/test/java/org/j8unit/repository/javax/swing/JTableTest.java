@@ -42,12 +42,12 @@ implements FactoryBasedJ8UnitTest<JTable>, JTableTests<JTable> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
-     * the J8Unit test interface {@link DropLocationTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JTableTests.DropLocationTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
-    implements DropLocationTests<DropLocation> {
+    implements org.j8unit.repository.javax.swing.JTableTests.DropLocationTests<DropLocation> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
 
@@ -64,7 +64,7 @@ implements FactoryBasedJ8UnitTest<JTable>, JTableTests<JTable> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link PrintMode} (by simply reusing the
-     * J8Unit test interface {@link PrintModeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JTableTests.PrintModeTests}).
      */
 
     @RunWith(J8Parameterized.class)

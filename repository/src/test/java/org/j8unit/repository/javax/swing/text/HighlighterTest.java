@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Highlighter} (by simply reusing the
- * J8Unit test interface {@link HighlighterTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.HighlighterTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -29,7 +29,8 @@ implements HighlighterTests<Highlighter> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link HighlightPainter} (by simply
-     * reusing the J8Unit test interface {@link HighlightPainterTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightPainterTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -51,7 +52,7 @@ implements HighlighterTests<Highlighter> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Highlight} (by simply reusing the
-     * J8Unit test interface {@link HighlightTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightTests}).
      */
 
     @RunWith(J8Unit4.class)

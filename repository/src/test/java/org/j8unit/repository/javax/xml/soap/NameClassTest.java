@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class NameClassTest
-implements org.j8unit.repository.javax.xml.soap.NameClassTests<Name> {
+implements NameClassTests<Name> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.Name]
 

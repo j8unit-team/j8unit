@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceUI} (by simply reusing the J8Unit
- * test interface {@link ServiceUIClassTests}).
+ * test interface {@link org.j8unit.repository.javax.print.ServiceUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)

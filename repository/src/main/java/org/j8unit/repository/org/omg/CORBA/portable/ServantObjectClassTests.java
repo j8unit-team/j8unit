@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.ServantObject;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantObjectTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.ServantObjectTests}.
  * </p>
  *
  * <p>

@@ -11,7 +11,8 @@ import org.omg.IOP.MultipleComponentProfileHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleComponentProfileHelper} (by
- * simply reusing the J8Unit test interface {@link MultipleComponentProfileHelperClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Configuration} (by simply reusing the
- * J8Unit test interface {@link ConfigurationTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,8 @@ implements ConfigurationTests<Configuration> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Parameters} (by simply reusing
-     * the J8Unit test interface {@link ParametersTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTests}).
      */
 
     @RunWith(J8Unit4.class)

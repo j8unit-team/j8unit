@@ -10,7 +10,7 @@ import org.omg.IOP.ServiceContextListHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceContextListHolder} (by simply
- * reusing the J8Unit test interface {@link ServiceContextListHolderClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ServiceContextListHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

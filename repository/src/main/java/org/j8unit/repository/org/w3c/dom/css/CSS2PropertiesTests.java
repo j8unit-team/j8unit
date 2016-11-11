@@ -18,7 +18,7 @@ import org.w3c.dom.css.CSS2Properties;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CSS2PropertiesClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.css.CSS2PropertiesClassTests}).
  * </p>
  *
  * @param SUT
@@ -49,28 +49,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVisibility()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getPosition() public
-     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPosition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -115,6 +93,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setColor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getPosition() public
+     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPosition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -817,28 +817,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setClip(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setClip(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setClip_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.css.CSS2Properties#setTextDecoration(String) public abstract void
      * org.w3c.dom.css.CSS2Properties.setTextDecoration(java.lang.String) throws org.w3c.dom.DOMException}.
@@ -854,6 +832,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setTextDecoration_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setClip(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setClip(java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setClip_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1264,28 +1264,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getBorderStyle()
-     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getBorderStyle()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBorderStyle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setPauseAfter(String)
      * public abstract void org.w3c.dom.css.CSS2Properties.setPauseAfter(java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -1301,6 +1279,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPauseAfter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getBorderStyle()
+     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getBorderStyle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorderStyle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1554,29 +1554,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setContent(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setContent(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setContent_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setPaddingTop(String)
      * public abstract void org.w3c.dom.css.CSS2Properties.setPaddingTop(java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -1592,6 +1569,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPaddingTop_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setContent(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setContent(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setContent_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2344,28 +2344,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getBorderLeftWidth()
-     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getBorderLeftWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBorderLeftWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getBackgroundImage()
      * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getBackgroundImage()}.
      *
@@ -2380,6 +2358,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBackgroundImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getBorderLeftWidth()
+     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getBorderLeftWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorderLeftWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3059,6 +3059,28 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getFontFamily()
+     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getFontFamily()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFontFamily()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.css.CSS2Properties#setPageBreakAfter(String) public abstract void
      * org.w3c.dom.css.CSS2Properties.setPageBreakAfter(java.lang.String) throws org.w3c.dom.DOMException}.
@@ -3082,8 +3104,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getFontFamily()
-     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getFontFamily()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getPageBreakAfter()
+     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getPageBreakAfter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3095,7 +3117,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFontFamily()
+    public default void test_getPageBreakAfter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3127,8 +3149,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getPageBreakAfter()
-     * public abstract java.lang.String org.w3c.dom.css.CSS2Properties.getPageBreakAfter()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getFontSize() public
+     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getFontSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3140,7 +3162,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPageBreakAfter()
+    public default void test_getFontSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3186,28 +3208,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBackgroundRepeat_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getFontSize() public
-     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getFontSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFontSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3554,28 +3554,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setHeight(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setHeight(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHeight_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.css.CSS2Properties#setOutlineWidth(String) public abstract void
      * org.w3c.dom.css.CSS2Properties.setOutlineWidth(java.lang.String) throws org.w3c.dom.DOMException}.
@@ -3591,6 +3569,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setOutlineWidth_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setHeight(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setHeight(java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHeight_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3621,28 +3621,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setFont(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setFont(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFont_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setLineHeight(String)
      * public abstract void org.w3c.dom.css.CSS2Properties.setLineHeight(java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -3658,6 +3636,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLineHeight_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setFont(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setFont(java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFont_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4447,28 +4447,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setWidth(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setWidth(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWidth_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.css.CSS2Properties#setBorderTopStyle(String) public abstract void
      * org.w3c.dom.css.CSS2Properties.setBorderTopStyle(java.lang.String) throws org.w3c.dom.DOMException}.
@@ -4484,6 +4462,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBorderTopStyle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setWidth(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setWidth(java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWidth_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4763,28 +4763,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getWidth() public
-     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.css.CSS2Properties#setBorderRightColor(String) public abstract void
      * org.w3c.dom.css.CSS2Properties.setBorderRightColor(java.lang.String) throws org.w3c.dom.DOMException}.
@@ -4800,6 +4778,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBorderRightColor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#getWidth() public
+     * abstract java.lang.String org.w3c.dom.css.CSS2Properties.getWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -5122,29 +5122,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setFontStyle(String)
-     * public abstract void org.w3c.dom.css.CSS2Properties.setFontStyle(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFontStyle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setFontSize(String)
      * public abstract void org.w3c.dom.css.CSS2Properties.setFontSize(java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -5160,6 +5137,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setFontSize_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.css.CSS2Properties#setFontStyle(String)
+     * public abstract void org.w3c.dom.css.CSS2Properties.setFontStyle(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFontStyle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -5507,4 +5507,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSS2Properties]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSS2Properties]
+
 }

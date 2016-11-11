@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DateTimeAtProcessing} (by simply
- * reusing the J8Unit test interface {@link DateTimeAtProcessingTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.print.attribute.standard.DateTimeAtProcessingTests}).
  */
 
 @RunWith(J8Unit4.class)

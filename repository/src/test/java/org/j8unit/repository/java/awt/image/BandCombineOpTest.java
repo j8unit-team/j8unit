@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link BandCombineOp} (by simply reusing the
- * J8Unit test interface {@link BandCombineOpTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.image.BandCombineOpTests}).
  */
 
 @RunWith(J8Unit4.class)

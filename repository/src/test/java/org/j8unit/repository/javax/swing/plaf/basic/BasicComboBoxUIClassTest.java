@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicComboBoxUI} (by simply reusing the
- * J8Unit test interface {@link BasicComboBoxUIClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -77,27 +77,27 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyHandler} (by simply reusing the
-     * J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListDataHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class KeyHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests<KeyHandler> {
+    public static class ListDataHandlerClassTest
+    implements ListDataHandlerClassTests<ListDataHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
 
         @Override
-        public Class<KeyHandler> createNewSUT() {
-            return KeyHandler.class;
+        public Class<ListDataHandler> createNewSUT() {
+            return ListDataHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler#KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI)
-         * public javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI)
+         * public javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -109,16 +109,62 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_KeyHandler_BasicComboBoxUI()
+        public void create_ListDataHandler_BasicComboBoxUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final KeyHandler sut = null; // = new KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI);
+            final ListDataHandler sut = null; // = new ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ItemHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ItemHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ItemHandlerClassTest
+    implements ItemHandlerClassTests<ItemHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
+
+        @Override
+        public Class<ItemHandler> createNewSUT() {
+            return ItemHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler#ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)
+         * public javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ItemHandler_BasicComboBoxUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ItemHandler sut = null; // = new ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
 
     }
 
@@ -170,26 +216,27 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ItemHandler} (by simply reusing the
-     * J8Unit test interface {@link ItemHandlerClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class ItemHandlerClassTest
-    implements ItemHandlerClassTests<ItemHandler> {
+    public static class KeyHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests<KeyHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
 
         @Override
-        public Class<ItemHandler> createNewSUT() {
-            return ItemHandler.class;
+        public Class<KeyHandler> createNewSUT() {
+            return KeyHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler#ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)
-         * public javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler#KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI)
+         * public javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -201,16 +248,16 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_ItemHandler_BasicComboBoxUI()
+        public void create_KeyHandler_BasicComboBoxUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ItemHandler sut = null; // = new ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI);
+            final KeyHandler sut = null; // = new KeyHandler(javax.swing.plaf.basic.BasicComboBoxUI);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$KeyHandler]
 
     }
 
@@ -261,54 +308,9 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ListDataHandler} (by simply reusing
-     * the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListDataHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests<ListDataHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
-
-        @Override
-        public Class<ListDataHandler> createNewSUT() {
-            return ListDataHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI)
-         * public javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ListDataHandler_BasicComboBoxUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ListDataHandler sut = null; // = new ListDataHandler(javax.swing.plaf.basic.BasicComboBoxUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxUI$ListDataHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ComboBoxLayoutManager} (by simply
-     * reusing the J8Unit test interface {@link ComboBoxLayoutManagerClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests}).
      */
 
     @RunWith(J8Unit4.class)

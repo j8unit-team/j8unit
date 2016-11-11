@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Service} (by simply reusing the
- * J8Unit test interface {@link ServiceTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.ServiceTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,13 +34,13 @@ implements ServiceTests<Service> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Mode} (by simply reusing the
-     * J8Unit test interface {@link ModeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests}).
      */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModeTest
-    implements ModeTests<Mode> {
+    implements org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests<Mode> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Service$Mode]
 

@@ -8,11 +8,6 @@ import java.awt.JobAttributes.DialogType;
 import java.awt.JobAttributes.MultipleDocumentHandlingType;
 import java.awt.JobAttributes.SidesType;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests;
-import org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests;
-import org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests;
-import org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests;
-import org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests;
 import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -30,7 +25,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JobAttributesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.JobAttributesTests}.
  * </p>
  *
  * <p>
@@ -94,7 +90,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SidesTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests}.
      * </p>
      *
      * <p>
@@ -160,7 +157,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DialogTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests}.
      * </p>
      *
      * <p>
@@ -226,7 +224,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DestinationTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests}.
      * </p>
      *
      * <p>
@@ -294,7 +293,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MultipleDocumentHandlingTypeTests}.
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests}.
      * </p>
      *
      * <p>
@@ -361,7 +360,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DefaultSelectionTypeTests}.
+     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests}.
      * </p>
      *
      * <p>

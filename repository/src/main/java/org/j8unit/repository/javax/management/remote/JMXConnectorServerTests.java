@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JMXConnectorServerClassTests}).
+ * {@link org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTests}).
  * </p>
  *
  * @param SUT
@@ -52,30 +52,6 @@ extends JMXConnectorServerMBeanTests<SUT>, MBeanRegistrationTests<SUT>, JMXAddre
     @Test
     @Category(Draft.class)
     public default void test_getConnectionIds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.JMXConnectorServer#getNotificationInfo() public
-     * javax.management.MBeanNotificationInfo[] javax.management.remote.JMXConnectorServer.getNotificationInfo()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotificationInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,6 +103,30 @@ extends JMXConnectorServerMBeanTests<SUT>, MBeanRegistrationTests<SUT>, JMXAddre
     @Test
     @Category(Draft.class)
     public default void test_toJMXConnector_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServer#getNotificationInfo() public
+     * javax.management.MBeanNotificationInfo[] javax.management.remote.JMXConnectorServer.getNotificationInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNotificationInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,10 +259,10 @@ extends JMXConnectorServerMBeanTests<SUT>, MBeanRegistrationTests<SUT>, JMXAddre
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.remote.JMXConnectorServerMBean#getAddress() interface
-     * javax.management.remote.JMXConnectorServerMBean}</li>
      * <li>{@link javax.management.remote.JMXAddressable#getAddress() interface
      * javax.management.remote.JMXAddressable}</li>
+     * <li>{@link javax.management.remote.JMXConnectorServerMBean#getAddress() interface
+     * javax.management.remote.JMXConnectorServerMBean}</li>
      * </ul>
      *
      * <p>
@@ -279,11 +279,12 @@ extends JMXConnectorServerMBeanTests<SUT>, MBeanRegistrationTests<SUT>, JMXAddre
     @Category(Draft.class)
     public default void test_getAddress()
     throws Exception {
-        JMXConnectorServerMBeanTests.super.test_getAddress();
         JMXAddressableTests.super.test_getAddress();
+        JMXConnectorServerMBeanTests.super.test_getAddress();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]
+
 }

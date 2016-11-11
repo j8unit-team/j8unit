@@ -18,7 +18,8 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NotFoundHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundHelperTests}.
  * </p>
  *
  * <p>

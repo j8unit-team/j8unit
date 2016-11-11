@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Action} (by simply reusing the J8Unit
- * test interface {@link ActionClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.ws.ActionClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class ActionClassTest
-implements ActionClassTests<Action> {
+implements org.j8unit.repository.javax.xml.ws.ActionClassTests<Action> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.Action]
 

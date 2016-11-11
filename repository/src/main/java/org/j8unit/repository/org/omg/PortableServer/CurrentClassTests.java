@@ -17,7 +17,8 @@ import org.omg.PortableServer.Current;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CurrentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.CurrentTests}.
  * </p>
  *
  * <p>

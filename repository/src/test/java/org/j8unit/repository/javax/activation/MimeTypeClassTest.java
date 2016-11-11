@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MimeType} (by simply reusing the J8Unit
- * test interface {@link MimeTypeClassTests}).
+ * test interface {@link org.j8unit.repository.javax.activation.MimeTypeClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -47,6 +47,28 @@ implements MimeTypeClassTests<MimeType> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.activation.MimeType#MimeType(String)
+     * public javax.activation.MimeType(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MimeType_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MimeType sut = null; // = new MimeType(String);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.activation.MimeType#MimeType(String, String) public
      * javax.activation.MimeType(java.lang.String,java.lang.String) throws javax.activation.MimeTypeParseException}.
@@ -66,28 +88,6 @@ implements MimeTypeClassTests<MimeType> {
         // create new instance
         @SuppressWarnings("unused")
         final MimeType sut = null; // = new MimeType(String, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.activation.MimeType#MimeType(String)
-     * public javax.activation.MimeType(java.lang.String) throws javax.activation.MimeTypeParseException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MimeType_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MimeType sut = null; // = new MimeType(String);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimeType]

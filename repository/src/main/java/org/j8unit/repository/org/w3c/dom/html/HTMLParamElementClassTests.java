@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLParamElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLParamElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLParamElementTests}.
  * </p>
  *
  * <p>

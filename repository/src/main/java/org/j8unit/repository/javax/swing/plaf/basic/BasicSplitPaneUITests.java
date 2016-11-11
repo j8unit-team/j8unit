@@ -18,13 +18,6 @@ import org.j8unit.repository.java.awt.event.FocusAdapterTests;
 import org.j8unit.repository.java.beans.PropertyChangeListenerTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.plaf.SplitPaneUITests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardResizeToggleHandlerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -39,7 +32,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicSplitPaneUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -127,6 +120,29 @@ extends SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneUI#setOrientation(int) public void
+     * javax.swing.plaf.basic.BasicSplitPaneUI.setOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOrientation_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicSplitPaneUI#resetToPreferredSizes(javax.swing.JSplitPane) public void
      * javax.swing.plaf.basic.BasicSplitPaneUI.resetToPreferredSizes(javax.swing.JSplitPane)}.
      *
@@ -142,29 +158,6 @@ extends SplitPaneUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_resetToPreferredSizes_JSplitPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicSplitPaneUI#setOrientation(int) public void
-     * javax.swing.plaf.basic.BasicSplitPaneUI.setOrientation(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOrientation_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -598,170 +591,6 @@ extends SplitPaneUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link KeyboardDownRightHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeyboardDownRightHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardDownRightHandlerTests<SUT extends KeyboardDownRightHandler>
-    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link KeyboardEndHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeyboardEndHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardEndHandlerTests<SUT extends KeyboardEndHandler>
-    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link KeyboardHomeHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeyboardHomeHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardHomeHandlerTests<SUT extends KeyboardHomeHandler>
-    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
-    }
 
     /**
      * <p>
@@ -774,7 +603,8 @@ extends SplitPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BasicHorizontalLayoutManagerClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests}).
      * </p>
      *
      * @param SUT
@@ -1015,31 +845,6 @@ extends SplitPaneUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(String, java.awt.Component)
-         * public void
-         * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addLayoutComponent_String_Component()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(java.awt.Component, Object)
          * public void
          * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.addLayoutComponent(java.awt.Component,java.lang.Object)}.
@@ -1062,42 +867,12 @@ extends SplitPaneUITests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link PropertyHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface PropertyHandlerTests<SUT extends PropertyHandler>
-    extends PropertyChangeListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
-
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager#addLayoutComponent(String, java.awt.Component)
          * public void
-         * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler.propertyChange(java.beans.PropertyChangeEvent)}.
+         * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1110,16 +885,17 @@ extends SplitPaneUITests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_propertyChange_PropertyChangeEvent()
+        public default void test_addLayoutComponent_String_Component()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
     }
 
     /**
@@ -1133,7 +909,8 @@ extends SplitPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeyboardResizeToggleHandlerClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardResizeToggleHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -1176,6 +953,64 @@ extends SplitPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardHomeHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KeyboardHomeHandlerTests<SUT extends KeyboardHomeHandler>
+    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
     }
 
     /**
@@ -1188,7 +1023,8 @@ extends SplitPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeyboardUpLeftHandlerClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -1231,6 +1067,154 @@ extends SplitPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BasicVerticalLayoutManager public class
+     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BasicVerticalLayoutManagerTests<SUT extends BasicVerticalLayoutManager>
+    extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardEndHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KeyboardEndHandlerTests<SUT extends KeyboardEndHandler>
+    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardDownRightHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KeyboardDownRightHandlerTests<SUT extends KeyboardDownRightHandler>
+    extends ActionListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
     }
 
     /**
@@ -1309,20 +1293,20 @@ extends SplitPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
+
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link BasicVerticalLayoutManager public class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}.
+     * {@link PropertyHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BasicVerticalLayoutManagerClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -1332,14 +1316,40 @@ extends SplitPaneUITests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicVerticalLayoutManagerTests<SUT extends BasicVerticalLayoutManager>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests<SUT> {
+    public static abstract interface PropertyHandlerTests<SUT extends PropertyHandler>
+    extends PropertyChangeListenerTests<SUT>, ObjectTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler.propertyChange(java.beans.PropertyChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_propertyChange_PropertyChangeEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
+
     }
 
 }

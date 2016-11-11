@@ -14,7 +14,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AbstractElementVisitor7ClassTests}).
+ * {@link org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor7ClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,4 +32,5 @@ extends AbstractElementVisitor6Tests<SUT, R, P> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.AbstractElementVisitor7]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractElementVisitor7]
+
 }

@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.io.ObjectOutputStream;
 import java.io.ObjectOutputStream.PutField;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.io.ObjectOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends ObjectOutputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, Outpu
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link PutFieldTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests}.
      * </p>
      *
      * <p>

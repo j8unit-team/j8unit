@@ -19,7 +19,8 @@ import org.omg.CORBA.LongLongSeqHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link LongLongSeqHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.LongLongSeqHolderTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DataLineTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.sound.sampled.DataLineTests}.
  * </p>
  *
  * <p>
@@ -83,7 +84,8 @@ extends LineClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link InfoTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.sound.sampled.DataLineTests.InfoTests}.
      * </p>
      *
      * <p>

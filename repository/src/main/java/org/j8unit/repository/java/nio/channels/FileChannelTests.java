@@ -5,7 +5,6 @@ import java.nio.channels.FileChannel.MapMode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests;
 import org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelTests;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -21,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FileChannelClassTests}).
+ * {@link org.j8unit.repository.java.nio.channels.FileChannelClassTests}).
  * </p>
  *
  * @param SUT
@@ -340,28 +339,6 @@ extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, Scatterin
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#tryLock() public final
-     * java.nio.channels.FileLock java.nio.channels.FileChannel.tryLock() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryLock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.FileChannel#tryLock(long, long, boolean) public abstract java.nio.channels.FileLock
      * java.nio.channels.FileChannel.tryLock(long,long,boolean) throws java.io.IOException}.
@@ -377,6 +354,28 @@ extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, Scatterin
     @Test
     @Category(Draft.class)
     public default void test_tryLock_long_long_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#tryLock() public final
+     * java.nio.channels.FileLock java.nio.channels.FileChannel.tryLock() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryLock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -505,6 +504,7 @@ extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, Scatterin
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -515,7 +515,7 @@ extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, Scatterin
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link MapModeClassTests}).
+     * (see {@link org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests}).
      * </p>
      *
      * @param SUT
@@ -556,6 +556,7 @@ extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, Scatterin
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
+
     }
 
 }

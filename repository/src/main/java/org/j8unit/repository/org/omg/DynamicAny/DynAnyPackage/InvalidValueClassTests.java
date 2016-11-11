@@ -18,7 +18,8 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueTests}.
  * </p>
  *
  * <p>

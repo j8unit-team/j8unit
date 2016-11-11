@@ -6,7 +6,7 @@ import org.omg.PortableServer.LifespanPolicy;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LifespanPolicy} (by simply reusing the
- * J8Unit test interface {@link LifespanPolicyClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.LifespanPolicyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

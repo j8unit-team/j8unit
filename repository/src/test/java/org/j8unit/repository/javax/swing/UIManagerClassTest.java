@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link UIManager} (by simply reusing the J8Unit
- * test interface {@link UIManagerClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.UIManagerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -48,26 +48,6 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getBorder(Object) public
-     * static javax.swing.border.Border javax.swing.UIManager.getBorder(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getBorder_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.UIManager#getBorder(Object)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIManager#getBorder(Object, java.util.Locale) public static javax.swing.border.Border
      * javax.swing.UIManager.getBorder(java.lang.Object,java.util.Locale)}.
@@ -85,6 +65,26 @@ implements UIManagerClassTests<UIManager> {
     public void test_getBorder_Object_Locale()
     throws Exception {
         // write some test for {@link javax.swing.UIManager#getBorder(Object, java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getBorder(Object) public
+     * static javax.swing.border.Border javax.swing.UIManager.getBorder(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getBorder_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.UIManager#getBorder(Object)}
     }
 
     /**
@@ -251,28 +251,6 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel) public static void
-     * javax.swing.UIManager.setLookAndFeel(javax.swing.LookAndFeel) throws
-     * javax.swing.UnsupportedLookAndFeelException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setLookAndFeel_LookAndFeel()
-    throws Exception {
-        // write some test for {@link javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#setLookAndFeel(String) public
      * static void javax.swing.UIManager.setLookAndFeel(java.lang.String) throws
      * java.lang.ClassNotFoundException,java.lang.InstantiationException,java.lang.IllegalAccessException,javax.swing.UnsupportedLookAndFeelException}.
@@ -295,8 +273,9 @@ implements UIManagerClassTests<UIManager> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel) public static void
-     * javax.swing.UIManager.addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}.
+     * {@link javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel) public static void
+     * javax.swing.UIManager.setLookAndFeel(javax.swing.LookAndFeel) throws
+     * javax.swing.UnsupportedLookAndFeelException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,9 +287,9 @@ implements UIManagerClassTests<UIManager> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_addAuxiliaryLookAndFeel_LookAndFeel()
+    public void test_setLookAndFeel_LookAndFeel()
     throws Exception {
-        // write some test for {@link javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}
+        // write some test for {@link javax.swing.UIManager#setLookAndFeel(javax.swing.LookAndFeel)}
     }
 
     /**
@@ -352,6 +331,27 @@ implements UIManagerClassTests<UIManager> {
     public void test_getDimension_Object()
     throws Exception {
         // write some test for {@link javax.swing.UIManager#getDimension(Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel) public static void
+     * javax.swing.UIManager.addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_addAuxiliaryLookAndFeel_LookAndFeel()
+    throws Exception {
+        // write some test for {@link javax.swing.UIManager#addAuxiliaryLookAndFeel(javax.swing.LookAndFeel)}
     }
 
     /**
@@ -480,6 +480,26 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getColor(Object) public static
+     * java.awt.Color javax.swing.UIManager.getColor(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getColor_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.UIManager#getColor(Object)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIManager#getColor(Object, java.util.Locale) public static java.awt.Color
      * javax.swing.UIManager.getColor(java.lang.Object,java.util.Locale)}.
@@ -501,8 +521,9 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getColor(Object) public static
-     * java.awt.Color javax.swing.UIManager.getColor(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.UIManager#getString(Object, java.util.Locale) public static java.lang.String
+     * javax.swing.UIManager.getString(java.lang.Object,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -514,9 +535,9 @@ implements UIManagerClassTests<UIManager> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getColor_Object()
+    public void test_getString_Object_Locale()
     throws Exception {
-        // write some test for {@link javax.swing.UIManager#getColor(Object)}
+        // write some test for {@link javax.swing.UIManager#getString(Object, java.util.Locale)}
     }
 
     /**
@@ -537,27 +558,6 @@ implements UIManagerClassTests<UIManager> {
     public void test_getString_Object()
     throws Exception {
         // write some test for {@link javax.swing.UIManager#getString(Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIManager#getString(Object, java.util.Locale) public static java.lang.String
-     * javax.swing.UIManager.getString(java.lang.Object,java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getString_Object_Locale()
-    throws Exception {
-        // write some test for {@link javax.swing.UIManager#getString(Object, java.util.Locale)}
     }
 
     /**
@@ -625,26 +625,6 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getIcon(Object) public static
-     * javax.swing.Icon javax.swing.UIManager.getIcon(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getIcon_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.UIManager#getIcon(Object)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIManager#getIcon(Object, java.util.Locale) public static javax.swing.Icon
      * javax.swing.UIManager.getIcon(java.lang.Object,java.util.Locale)}.
@@ -662,6 +642,26 @@ implements UIManagerClassTests<UIManager> {
     public void test_getIcon_Object_Locale()
     throws Exception {
         // write some test for {@link javax.swing.UIManager#getIcon(Object, java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIManager#getIcon(Object) public static
+     * javax.swing.Icon javax.swing.UIManager.getIcon(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getIcon_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.UIManager#getIcon(Object)}
     }
 
     /**
@@ -857,7 +857,8 @@ implements UIManagerClassTests<UIManager> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link LookAndFeelInfo} (by simply reusing
-     * the J8Unit test interface {@link LookAndFeelInfoClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.UIManagerClassTests.LookAndFeelInfoClassTests}).
      */
 
     @RunWith(J8Unit4.class)

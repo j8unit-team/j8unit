@@ -18,7 +18,8 @@ import org.omg.CORBA.BAD_POLICY_VALUE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_POLICY_VALUETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.BAD_POLICY_VALUETests}.
  * </p>
  *
  * <p>

@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLBodyElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLBodyElement} (by simply reusing the
- * J8Unit test interface {@link HTMLBodyElementClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLBodyElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

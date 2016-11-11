@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalBorders} (by simply reusing the
- * J8Unit test interface {@link MetalBordersClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -168,272 +168,9 @@ implements MetalBordersClassTests<MetalBorders> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link PaletteBorder} (by simply reusing the
-     * J8Unit test interface {@link PaletteBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class PaletteBorderClassTest
-    implements PaletteBorderClassTests<PaletteBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-        @Override
-        public Class<PaletteBorder> createNewSUT() {
-            return PaletteBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#PaletteBorder() public
-         * javax.swing.plaf.metal.MetalBorders$PaletteBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_PaletteBorder()
-        throws Exception {
-            // create new instance
-            final PaletteBorder sut = new PaletteBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link TableHeaderBorder} (by simply reusing
-     * the J8Unit test interface {@link TableHeaderBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class TableHeaderBorderClassTest
-    implements TableHeaderBorderClassTests<TableHeaderBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-        @Override
-        public Class<TableHeaderBorder> createNewSUT() {
-            return TableHeaderBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#TableHeaderBorder() public
-         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TableHeaderBorder()
-        throws Exception {
-            // create new instance
-            final TableHeaderBorder sut = new TableHeaderBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link MenuItemBorder} (by simply reusing
-     * the J8Unit test interface {@link MenuItemBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class MenuItemBorderClassTest
-    implements MenuItemBorderClassTests<MenuItemBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-
-        @Override
-        public Class<MenuItemBorder> createNewSUT() {
-            return MenuItemBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#MenuItemBorder() public
-         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MenuItemBorder()
-        throws Exception {
-            // create new instance
-            final MenuItemBorder sut = new MenuItemBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link MenuBarBorder} (by simply reusing the
-     * J8Unit test interface {@link MenuBarBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class MenuBarBorderClassTest
-    implements MenuBarBorderClassTests<MenuBarBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-        @Override
-        public Class<MenuBarBorder> createNewSUT() {
-            return MenuBarBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#MenuBarBorder() public
-         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MenuBarBorder()
-        throws Exception {
-            // create new instance
-            final MenuBarBorder sut = new MenuBarBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollPaneBorder} (by simply reusing
-     * the J8Unit test interface {@link ScrollPaneBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ScrollPaneBorderClassTest
-    implements ScrollPaneBorderClassTests<ScrollPaneBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-
-        @Override
-        public Class<ScrollPaneBorder> createNewSUT() {
-            return ScrollPaneBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#ScrollPaneBorder() public
-         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ScrollPaneBorder()
-        throws Exception {
-            // create new instance
-            final ScrollPaneBorder sut = new ScrollPaneBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ToolBarBorder} (by simply reusing the
-     * J8Unit test interface {@link ToolBarBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ToolBarBorderClassTest
-    implements ToolBarBorderClassTests<ToolBarBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-        @Override
-        public Class<ToolBarBorder> createNewSUT() {
-            return ToolBarBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#ToolBarBorder() public
-         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ToolBarBorder()
-        throws Exception {
-            // create new instance
-            final ToolBarBorder sut = new ToolBarBorder();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonBorder} (by simply reusing the
-     * J8Unit test interface {@link ButtonBorderClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -476,26 +213,27 @@ implements MetalBordersClassTests<MetalBorders> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link RolloverButtonBorder} (by simply
-     * reusing the J8Unit test interface {@link RolloverButtonBorderClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ToolBarBorder} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToolBarBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class RolloverButtonBorderClassTest
-    implements RolloverButtonBorderClassTests<RolloverButtonBorder> {
+    public static class ToolBarBorderClassTest
+    implements ToolBarBorderClassTests<ToolBarBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
         @Override
-        public Class<RolloverButtonBorder> createNewSUT() {
-            return RolloverButtonBorder.class;
+        public Class<ToolBarBorder> createNewSUT() {
+            return ToolBarBorder.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder#RolloverButtonBorder() public
-         * javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder()}.
+         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#ToolBarBorder() public
+         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -507,21 +245,22 @@ implements MetalBordersClassTests<MetalBorders> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_RolloverButtonBorder()
+        public void create_ToolBarBorder()
         throws Exception {
             // create new instance
-            final RolloverButtonBorder sut = new RolloverButtonBorder();
+            final ToolBarBorder sut = new ToolBarBorder();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
     }
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ToggleButtonBorder} (by simply
-     * reusing the J8Unit test interface {@link ToggleButtonBorderClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToggleButtonBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -564,26 +303,27 @@ implements MetalBordersClassTests<MetalBorders> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link InternalFrameBorder} (by simply
-     * reusing the J8Unit test interface {@link InternalFrameBorderClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PaletteBorder} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PaletteBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class InternalFrameBorderClassTest
-    implements InternalFrameBorderClassTests<InternalFrameBorder> {
+    public static class PaletteBorderClassTest
+    implements PaletteBorderClassTests<PaletteBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
         @Override
-        public Class<InternalFrameBorder> createNewSUT() {
-            return InternalFrameBorder.class;
+        public Class<PaletteBorder> createNewSUT() {
+            return PaletteBorder.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#InternalFrameBorder() public
-         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder()}.
+         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#PaletteBorder() public
+         * javax.swing.plaf.metal.MetalBorders$PaletteBorder()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -595,21 +335,67 @@ implements MetalBordersClassTests<MetalBorders> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_InternalFrameBorder()
+        public void create_PaletteBorder()
         throws Exception {
             // create new instance
-            final InternalFrameBorder sut = new InternalFrameBorder();
+            final PaletteBorder sut = new PaletteBorder();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollPaneBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ScrollPaneBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ScrollPaneBorderClassTest
+    implements ScrollPaneBorderClassTests<ScrollPaneBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
+        @Override
+        public Class<ScrollPaneBorder> createNewSUT() {
+            return ScrollPaneBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#ScrollPaneBorder() public
+         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ScrollPaneBorder()
+        throws Exception {
+            // create new instance
+            final ScrollPaneBorder sut = new ScrollPaneBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
 
     }
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TextFieldBorder} (by simply reusing
-     * the J8Unit test interface {@link TextFieldBorderClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TextFieldBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -652,26 +438,27 @@ implements MetalBordersClassTests<MetalBorders> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link PopupMenuBorder} (by simply reusing
-     * the J8Unit test interface {@link PopupMenuBorderClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MenuItemBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuItemBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class PopupMenuBorderClassTest
-    implements PopupMenuBorderClassTests<PopupMenuBorder> {
+    public static class MenuItemBorderClassTest
+    implements MenuItemBorderClassTests<MenuItemBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
         @Override
-        public Class<PopupMenuBorder> createNewSUT() {
-            return PopupMenuBorder.class;
+        public Class<MenuItemBorder> createNewSUT() {
+            return MenuItemBorder.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#PopupMenuBorder() public
-         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder()}.
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#MenuItemBorder() public
+         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -683,21 +470,22 @@ implements MetalBordersClassTests<MetalBorders> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PopupMenuBorder()
+        public void create_MenuItemBorder()
         throws Exception {
             // create new instance
-            final PopupMenuBorder sut = new PopupMenuBorder();
+            final MenuItemBorder sut = new MenuItemBorder();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
     }
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link OptionDialogBorder} (by simply
-     * reusing the J8Unit test interface {@link OptionDialogBorderClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.OptionDialogBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -740,8 +528,234 @@ implements MetalBordersClassTests<MetalBorders> {
     }
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link RolloverButtonBorder} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.RolloverButtonBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RolloverButtonBorderClassTest
+    implements RolloverButtonBorderClassTests<RolloverButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+        @Override
+        public Class<RolloverButtonBorder> createNewSUT() {
+            return RolloverButtonBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder#RolloverButtonBorder() public
+         * javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_RolloverButtonBorder()
+        throws Exception {
+            // create new instance
+            final RolloverButtonBorder sut = new RolloverButtonBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PopupMenuBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PopupMenuBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PopupMenuBorderClassTest
+    implements PopupMenuBorderClassTests<PopupMenuBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        @Override
+        public Class<PopupMenuBorder> createNewSUT() {
+            return PopupMenuBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#PopupMenuBorder() public
+         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PopupMenuBorder()
+        throws Exception {
+            // create new instance
+            final PopupMenuBorder sut = new PopupMenuBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link InternalFrameBorder} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.InternalFrameBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class InternalFrameBorderClassTest
+    implements InternalFrameBorderClassTests<InternalFrameBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+        @Override
+        public Class<InternalFrameBorder> createNewSUT() {
+            return InternalFrameBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#InternalFrameBorder() public
+         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_InternalFrameBorder()
+        throws Exception {
+            // create new instance
+            final InternalFrameBorder sut = new InternalFrameBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TableHeaderBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TableHeaderBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TableHeaderBorderClassTest
+    implements TableHeaderBorderClassTests<TableHeaderBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+        @Override
+        public Class<TableHeaderBorder> createNewSUT() {
+            return TableHeaderBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#TableHeaderBorder() public
+         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TableHeaderBorder()
+        throws Exception {
+            // create new instance
+            final TableHeaderBorder sut = new TableHeaderBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MenuBarBorder} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuBarBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class MenuBarBorderClassTest
+    implements MenuBarBorderClassTests<MenuBarBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        @Override
+        public Class<MenuBarBorder> createNewSUT() {
+            return MenuBarBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#MenuBarBorder() public
+         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MenuBarBorder()
+        throws Exception {
+            // create new instance
+            final MenuBarBorder sut = new MenuBarBorder();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Flush3DBorder} (by simply reusing the
-     * J8Unit test interface {@link Flush3DBorderClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)

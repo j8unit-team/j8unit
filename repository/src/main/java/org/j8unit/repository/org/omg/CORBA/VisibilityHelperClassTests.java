@@ -18,7 +18,8 @@ import org.omg.CORBA.VisibilityHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link VisibilityHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.VisibilityHelperTests}.
  * </p>
  *
  * <p>

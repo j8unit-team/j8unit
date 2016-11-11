@@ -18,7 +18,8 @@ import org.omg.DynamicAny._DynAnyStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link _DynAnyStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny._DynAnyStubTests}.
  * </p>
  *
  * <p>

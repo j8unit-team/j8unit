@@ -6,7 +6,7 @@ import org.omg.IOP.ExceptionDetailMessage;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ExceptionDetailMessage} (by simply
- * reusing the J8Unit test interface {@link ExceptionDetailMessageClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ExceptionDetailMessageClassTests}).
  */
 
 @RunWith(J8Unit4.class)

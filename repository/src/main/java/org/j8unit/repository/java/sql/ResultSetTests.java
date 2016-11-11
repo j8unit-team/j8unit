@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ResultSetClassTests}).
+ * {@link org.j8unit.repository.java.sql.ResultSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -57,28 +57,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateShort(int, short) public
-     * abstract void java.sql.ResultSet.updateShort(int,short) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateShort_int_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateShort(String, short) public
      * abstract void java.sql.ResultSet.updateShort(java.lang.String,short) throws java.sql.SQLException}.
      *
@@ -93,6 +71,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateShort_String_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateShort(int, short) public
+     * abstract void java.sql.ResultSet.updateShort(int,short) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateShort_int_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,28 +123,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNClob(String) public abstract
-     * java.sql.NClob java.sql.ResultSet.getNClob(java.lang.String) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNClob_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNClob(int) public abstract
      * java.sql.NClob java.sql.ResultSet.getNClob(int) throws java.sql.SQLException}.
      *
@@ -167,8 +145,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNString(int) public abstract
-     * java.lang.String java.sql.ResultSet.getNString(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNClob(String) public abstract
+     * java.sql.NClob java.sql.ResultSet.getNClob(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,7 +158,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNString_int()
+    public default void test_getNClob_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,6 +181,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNString_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNString(int) public abstract
+     * java.lang.String java.sql.ResultSet.getNString(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNString_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -299,28 +299,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getClob(int) public abstract
-     * java.sql.Clob java.sql.ResultSet.getClob(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClob_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getClob(String) public abstract
      * java.sql.Clob java.sql.ResultSet.getClob(java.lang.String) throws java.sql.SQLException}.
      *
@@ -335,6 +313,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getClob_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getClob(int) public abstract
+     * java.sql.Clob java.sql.ResultSet.getClob(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClob_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -387,9 +387,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBigDecimal(String, int) public
-     * abstract java.math.BigDecimal java.sql.ResultSet.getBigDecimal(java.lang.String,int) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBigDecimal(int, int) public
+     * abstract java.math.BigDecimal java.sql.ResultSet.getBigDecimal(int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -401,7 +400,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBigDecimal_String_int()
+    public default void test_getBigDecimal_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -454,8 +453,9 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBigDecimal(int, int) public
-     * abstract java.math.BigDecimal java.sql.ResultSet.getBigDecimal(int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBigDecimal(String, int) public
+     * abstract java.math.BigDecimal java.sql.ResultSet.getBigDecimal(java.lang.String,int) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -467,7 +467,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBigDecimal_int_int()
+    public default void test_getBigDecimal_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -498,9 +498,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateClob(String, java.io.Reader) public abstract void
-     * java.sql.ResultSet.updateClob(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateClob(int, java.io.Reader)
+     * public abstract void java.sql.ResultSet.updateClob(int,java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -512,7 +511,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateClob_String_Reader()
+    public default void test_updateClob_int_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -565,8 +564,9 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateClob(String, java.sql.Clob)
-     * public abstract void java.sql.ResultSet.updateClob(java.lang.String,java.sql.Clob) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateClob(String, java.io.Reader, long) public abstract void
+     * java.sql.ResultSet.updateClob(java.lang.String,java.io.Reader,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -578,7 +578,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateClob_String_Clob()
+    public default void test_updateClob_String_Reader_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -632,8 +632,9 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateClob(int, java.io.Reader)
-     * public abstract void java.sql.ResultSet.updateClob(int,java.io.Reader) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateClob(String, java.io.Reader) public abstract void
+     * java.sql.ResultSet.updateClob(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -645,7 +646,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateClob_int_Reader()
+    public default void test_updateClob_String_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -654,9 +655,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateClob(String, java.io.Reader, long) public abstract void
-     * java.sql.ResultSet.updateClob(java.lang.String,java.io.Reader,long) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateClob(String, java.sql.Clob)
+     * public abstract void java.sql.ResultSet.updateClob(java.lang.String,java.sql.Clob) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -668,7 +668,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateClob_String_Reader_long()
+    public default void test_updateClob_String_Clob()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -721,28 +721,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateArray(int, java.sql.Array)
-     * public abstract void java.sql.ResultSet.updateArray(int,java.sql.Array) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateArray_int_Array()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateArray(String, java.sql.Array) public abstract void
      * java.sql.ResultSet.updateArray(java.lang.String,java.sql.Array) throws java.sql.SQLException}.
@@ -758,6 +736,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateArray_String_Array()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateArray(int, java.sql.Array)
+     * public abstract void java.sql.ResultSet.updateArray(int,java.sql.Array) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateArray_int_Array()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1032,29 +1032,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateRowId(String, java.sql.RowId) public abstract void
-     * java.sql.ResultSet.updateRowId(java.lang.String,java.sql.RowId) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateRowId_String_RowId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateRowId(int, java.sql.RowId)
      * public abstract void java.sql.ResultSet.updateRowId(int,java.sql.RowId) throws java.sql.SQLException}.
      *
@@ -1078,8 +1055,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBlob(String, java.io.InputStream, long) public abstract void
-     * java.sql.ResultSet.updateBlob(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateRowId(String, java.sql.RowId) public abstract void
+     * java.sql.ResultSet.updateRowId(java.lang.String,java.sql.RowId) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1091,7 +1068,74 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateBlob_String_InputStream_long()
+    public default void test_updateRowId_String_RowId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateBlob(int, java.sql.Blob)
+     * public abstract void java.sql.ResultSet.updateBlob(int,java.sql.Blob) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBlob_int_Blob()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateBlob(int, java.io.InputStream, long) public abstract void
+     * java.sql.ResultSet.updateBlob(int,java.io.InputStream,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBlob_int_InputStream_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateBlob(String, java.sql.Blob)
+     * public abstract void java.sql.ResultSet.updateBlob(java.lang.String,java.sql.Blob) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBlob_String_Blob()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1146,53 +1190,9 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateBlob(String, java.sql.Blob)
-     * public abstract void java.sql.ResultSet.updateBlob(java.lang.String,java.sql.Blob) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateBlob_String_Blob()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateBlob(int, java.sql.Blob)
-     * public abstract void java.sql.ResultSet.updateBlob(int,java.sql.Blob) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateBlob_int_Blob()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBlob(int, java.io.InputStream, long) public abstract void
-     * java.sql.ResultSet.updateBlob(int,java.io.InputStream,long) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateBlob(String, java.io.InputStream, long) public abstract void
+     * java.sql.ResultSet.updateBlob(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1204,7 +1204,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateBlob_int_InputStream_long()
+    public default void test_updateBlob_String_InputStream_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1324,28 +1324,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getDate(int) public abstract
-     * java.sql.Date java.sql.ResultSet.getDate(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDate_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#getDate(String, java.util.Calendar) public abstract java.sql.Date
      * java.sql.ResultSet.getDate(java.lang.String,java.util.Calendar) throws java.sql.SQLException}.
@@ -1361,6 +1339,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDate_String_Calendar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getDate(int) public abstract
+     * java.sql.Date java.sql.ResultSet.getDate(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDate_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1391,28 +1391,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNCharacterStream(int) public
-     * abstract java.io.Reader java.sql.ResultSet.getNCharacterStream(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNCharacterStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNCharacterStream(String)
      * public abstract java.io.Reader java.sql.ResultSet.getNCharacterStream(java.lang.String) throws
      * java.sql.SQLException}.
@@ -1428,6 +1406,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNCharacterStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getNCharacterStream(int) public
+     * abstract java.io.Reader java.sql.ResultSet.getNCharacterStream(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNCharacterStream_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1502,99 +1502,10 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(int, Object, int)
-     * public abstract void java.sql.ResultSet.updateObject(int,java.lang.Object,int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateObject_int_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(String, Object)
-     * public abstract void java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateObject_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(String, Object, int)
-     * public abstract void java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object,int) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateObject_String_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(int, Object) public
-     * abstract void java.sql.ResultSet.updateObject(int,java.lang.Object) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateObject_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateObject(int, Object, java.sql.SQLType, int) public default void
-     * java.sql.ResultSet.updateObject(int,java.lang.Object,java.sql.SQLType,int) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateObject(String, Object, java.sql.SQLType) public default void
+     * java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object,java.sql.SQLType) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1606,7 +1517,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateObject_int_Object_SQLType_int()
+    public default void test_updateObject_String_Object_SQLType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1640,6 +1551,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateObject(int, Object, java.sql.SQLType, int) public default void
+     * java.sql.ResultSet.updateObject(int,java.lang.Object,java.sql.SQLType,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateObject_int_Object_SQLType_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateObject(int, Object, java.sql.SQLType) public default void
      * java.sql.ResultSet.updateObject(int,java.lang.Object,java.sql.SQLType) throws java.sql.SQLException}.
      *
@@ -1662,9 +1596,30 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateObject(String, Object, java.sql.SQLType) public default void
-     * java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object,java.sql.SQLType) throws
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(int, Object) public
+     * abstract void java.sql.ResultSet.updateObject(int,java.lang.Object) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateObject_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(String, Object, int)
+     * public abstract void java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object,int) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1677,7 +1632,52 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateObject_String_Object_SQLType()
+    public default void test_updateObject_String_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(String, Object)
+     * public abstract void java.sql.ResultSet.updateObject(java.lang.String,java.lang.Object) throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateObject_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateObject(int, Object, int)
+     * public abstract void java.sql.ResultSet.updateObject(int,java.lang.Object,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateObject_int_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1708,28 +1708,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#insertRow() public abstract void
-     * java.sql.ResultSet.insertRow() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertRow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#isClosed() public abstract
      * boolean java.sql.ResultSet.isClosed() throws java.sql.SQLException}.
      *
@@ -1744,6 +1722,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isClosed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#insertRow() public abstract void
+     * java.sql.ResultSet.insertRow() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertRow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1906,28 +1906,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getUnicodeStream(int) public
-     * abstract java.io.InputStream java.sql.ResultSet.getUnicodeStream(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUnicodeStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getUnicodeStream(String) public
      * abstract java.io.InputStream java.sql.ResultSet.getUnicodeStream(java.lang.String) throws java.sql.SQLException}.
      *
@@ -1942,6 +1920,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUnicodeStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getUnicodeStream(int) public
+     * abstract java.io.InputStream java.sql.ResultSet.getUnicodeStream(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUnicodeStream_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1973,29 +1973,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateSQLXML(String, java.sql.SQLXML) public abstract void
-     * java.sql.ResultSet.updateSQLXML(java.lang.String,java.sql.SQLXML) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateSQLXML_String_SQLXML()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateSQLXML(int, java.sql.SQLXML) public abstract void
      * java.sql.ResultSet.updateSQLXML(int,java.sql.SQLXML) throws java.sql.SQLException}.
      *
@@ -2018,6 +1995,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateSQLXML(String, java.sql.SQLXML) public abstract void
+     * java.sql.ResultSet.updateSQLXML(java.lang.String,java.sql.SQLXML) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateSQLXML_String_SQLXML()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#moveToCurrentRow() public
      * abstract void java.sql.ResultSet.moveToCurrentRow() throws java.sql.SQLException}.
      *
@@ -2032,6 +2032,50 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_moveToCurrentRow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBlob(int) public abstract
+     * java.sql.Blob java.sql.ResultSet.getBlob(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBlob_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBlob(String) public abstract
+     * java.sql.Blob java.sql.ResultSet.getBlob(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBlob_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2078,50 +2122,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateTimestamp_int_Timestamp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBlob(int) public abstract
-     * java.sql.Blob java.sql.ResultSet.getBlob(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBlob_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getBlob(String) public abstract
-     * java.sql.Blob java.sql.ResultSet.getBlob(java.lang.String) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBlob_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2307,8 +2307,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateAsciiStream(int, java.io.InputStream, int) public abstract void
-     * java.sql.ResultSet.updateAsciiStream(int,java.io.InputStream,int) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateAsciiStream(String, java.io.InputStream) public abstract void
+     * java.sql.ResultSet.updateAsciiStream(java.lang.String,java.io.InputStream) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2320,7 +2320,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateAsciiStream_int_InputStream_int()
+    public default void test_updateAsciiStream_String_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2353,6 +2353,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateAsciiStream(String, java.io.InputStream, long) public abstract void
+     * java.sql.ResultSet.updateAsciiStream(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateAsciiStream_String_InputStream_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateAsciiStream(int, java.io.InputStream, long) public abstract void
      * java.sql.ResultSet.updateAsciiStream(int,java.io.InputStream,long) throws java.sql.SQLException}.
      *
@@ -2376,8 +2399,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateAsciiStream(String, java.io.InputStream) public abstract void
-     * java.sql.ResultSet.updateAsciiStream(java.lang.String,java.io.InputStream) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateAsciiStream(int, java.io.InputStream, int) public abstract void
+     * java.sql.ResultSet.updateAsciiStream(int,java.io.InputStream,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2389,7 +2412,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateAsciiStream_String_InputStream()
+    public default void test_updateAsciiStream_int_InputStream_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2413,29 +2436,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateAsciiStream_String_InputStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateAsciiStream(String, java.io.InputStream, long) public abstract void
-     * java.sql.ResultSet.updateAsciiStream(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateAsciiStream_String_InputStream_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2532,28 +2532,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getConcurrency() public abstract
-     * int java.sql.ResultSet.getConcurrency() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConcurrency()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getFetchSize() public abstract
      * int java.sql.ResultSet.getFetchSize() throws java.sql.SQLException}.
      *
@@ -2576,8 +2554,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateNClob(int, java.sql.NClob)
-     * public abstract void java.sql.ResultSet.updateNClob(int,java.sql.NClob) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getConcurrency() public abstract
+     * int java.sql.ResultSet.getConcurrency() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2589,7 +2567,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateNClob_int_NClob()
+    public default void test_getConcurrency()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateNClob(int, java.io.Reader)
+     * public abstract void java.sql.ResultSet.updateNClob(int,java.io.Reader) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateNClob_int_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2613,6 +2613,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateNClob_String_NClob()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateNClob(int, java.sql.NClob)
+     * public abstract void java.sql.ResultSet.updateNClob(int,java.sql.NClob) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateNClob_int_NClob()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2682,28 +2704,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateNClob_int_Reader_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateNClob(int, java.io.Reader)
-     * public abstract void java.sql.ResultSet.updateNClob(int,java.io.Reader) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateNClob_int_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2800,28 +2800,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateInt(int, int) public
-     * abstract void java.sql.ResultSet.updateInt(int,int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateInt_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateInt(String, int) public
      * abstract void java.sql.ResultSet.updateInt(java.lang.String,int) throws java.sql.SQLException}.
      *
@@ -2844,8 +2822,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getSQLXML(int) public abstract
-     * java.sql.SQLXML java.sql.ResultSet.getSQLXML(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateInt(int, int) public
+     * abstract void java.sql.ResultSet.updateInt(int,int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2857,7 +2835,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSQLXML_int()
+    public default void test_updateInt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2888,9 +2866,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBigDecimal(int, java.math.BigDecimal) public abstract void
-     * java.sql.ResultSet.updateBigDecimal(int,java.math.BigDecimal) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getSQLXML(int) public abstract
+     * java.sql.SQLXML java.sql.ResultSet.getSQLXML(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2902,7 +2879,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateBigDecimal_int_BigDecimal()
+    public default void test_getSQLXML_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2926,6 +2903,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateBigDecimal_String_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateBigDecimal(int, java.math.BigDecimal) public abstract void
+     * java.sql.ResultSet.updateBigDecimal(int,java.math.BigDecimal) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBigDecimal_int_BigDecimal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3000,28 +3000,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateLong(int, long) public
-     * abstract void java.sql.ResultSet.updateLong(int,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateLong_int_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateLong(String, long) public
      * abstract void java.sql.ResultSet.updateLong(java.lang.String,long) throws java.sql.SQLException}.
      *
@@ -3036,6 +3014,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateLong_String_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateLong(int, long) public
+     * abstract void java.sql.ResultSet.updateLong(int,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateLong_int_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3221,28 +3221,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getTimestamp(int) public abstract
-     * java.sql.Timestamp java.sql.ResultSet.getTimestamp(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTimestamp_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#getTimestamp(int, java.util.Calendar) public abstract java.sql.Timestamp
      * java.sql.ResultSet.getTimestamp(int,java.util.Calendar) throws java.sql.SQLException}.
@@ -3258,6 +3236,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTimestamp_int_Calendar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getTimestamp(int) public abstract
+     * java.sql.Timestamp java.sql.ResultSet.getTimestamp(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTimestamp_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3332,28 +3332,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateRef(String, java.sql.Ref)
-     * public abstract void java.sql.ResultSet.updateRef(java.lang.String,java.sql.Ref) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateRef_String_Ref()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateRef(int, java.sql.Ref)
      * public abstract void java.sql.ResultSet.updateRef(int,java.sql.Ref) throws java.sql.SQLException}.
      *
@@ -3376,9 +3354,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#getTime(String, java.util.Calendar) public abstract java.sql.Time
-     * java.sql.ResultSet.getTime(java.lang.String,java.util.Calendar) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateRef(String, java.sql.Ref)
+     * public abstract void java.sql.ResultSet.updateRef(java.lang.String,java.sql.Ref) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3390,29 +3367,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTime_String_Calendar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getTime(int, java.util.Calendar)
-     * public abstract java.sql.Time java.sql.ResultSet.getTime(int,java.util.Calendar) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTime_int_Calendar()
+    public default void test_updateRef_String_Ref()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3443,6 +3398,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getTime(int, java.util.Calendar)
+     * public abstract java.sql.Time java.sql.ResultSet.getTime(int,java.util.Calendar) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTime_int_Calendar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getTime(String) public abstract
      * java.sql.Time java.sql.ResultSet.getTime(java.lang.String) throws java.sql.SQLException}.
      *
@@ -3465,8 +3442,9 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#findColumn(String) public
-     * abstract int java.sql.ResultSet.findColumn(java.lang.String) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#getTime(String, java.util.Calendar) public abstract java.sql.Time
+     * java.sql.ResultSet.getTime(java.lang.String,java.util.Calendar) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3478,7 +3456,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findColumn_String()
+    public default void test_getTime_String_Calendar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3567,6 +3545,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBinaryStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#findColumn(String) public
+     * abstract int java.sql.ResultSet.findColumn(java.lang.String) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findColumn_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3753,8 +3753,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateNCharacterStream(String, java.io.Reader) public abstract void
-     * java.sql.ResultSet.updateNCharacterStream(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateNCharacterStream(int, java.io.Reader, long) public abstract void
+     * java.sql.ResultSet.updateNCharacterStream(int,java.io.Reader,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3766,7 +3766,7 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateNCharacterStream_String_Reader()
+    public default void test_updateNCharacterStream_int_Reader_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3799,6 +3799,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateNCharacterStream(String, java.io.Reader) public abstract void
+     * java.sql.ResultSet.updateNCharacterStream(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateNCharacterStream_String_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateNCharacterStream(int, java.io.Reader) public abstract void
      * java.sql.ResultSet.updateNCharacterStream(int,java.io.Reader) throws java.sql.SQLException}.
      *
@@ -3822,8 +3845,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateNCharacterStream(int, java.io.Reader, long) public abstract void
-     * java.sql.ResultSet.updateNCharacterStream(int,java.io.Reader,long) throws java.sql.SQLException}.
+     * {@link java.sql.ResultSet#updateBinaryStream(String, java.io.InputStream, long) public abstract void
+     * java.sql.ResultSet.updateBinaryStream(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3835,7 +3858,145 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateNCharacterStream_int_Reader_long()
+    public default void test_updateBinaryStream_String_InputStream_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateCharacterStream(int, java.io.Reader, long) public abstract void
+     * java.sql.ResultSet.updateCharacterStream(int,java.io.Reader,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateCharacterStream_int_Reader_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader) public abstract void
+     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateCharacterStream_String_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader, long) public abstract void
+     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader,long) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateCharacterStream_String_Reader_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader, int) public abstract void
+     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateCharacterStream_String_Reader_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateBinaryStream(int, java.io.InputStream) public abstract void
+     * java.sql.ResultSet.updateBinaryStream(int,java.io.InputStream) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBinaryStream_int_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.ResultSet#updateBinaryStream(int, java.io.InputStream, int) public abstract void
+     * java.sql.ResultSet.updateBinaryStream(int,java.io.InputStream,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateBinaryStream_int_InputStream_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3891,29 +4052,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader, int) public abstract void
-     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader,int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateCharacterStream_String_Reader_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateCharacterStream(int, java.io.Reader) public abstract void
      * java.sql.ResultSet.updateCharacterStream(int,java.io.Reader) throws java.sql.SQLException}.
      *
@@ -3937,29 +4075,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader) public abstract void
-     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateCharacterStream_String_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.ResultSet#updateBinaryStream(String, java.io.InputStream) public abstract void
      * java.sql.ResultSet.updateBinaryStream(java.lang.String,java.io.InputStream) throws java.sql.SQLException}.
      *
@@ -3974,121 +4089,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateBinaryStream_String_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBinaryStream(int, java.io.InputStream, int) public abstract void
-     * java.sql.ResultSet.updateBinaryStream(int,java.io.InputStream,int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateBinaryStream_int_InputStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBinaryStream(int, java.io.InputStream) public abstract void
-     * java.sql.ResultSet.updateBinaryStream(int,java.io.InputStream) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateBinaryStream_int_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateCharacterStream(int, java.io.Reader, long) public abstract void
-     * java.sql.ResultSet.updateCharacterStream(int,java.io.Reader,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateCharacterStream_int_Reader_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateCharacterStream(String, java.io.Reader, long) public abstract void
-     * java.sql.ResultSet.updateCharacterStream(java.lang.String,java.io.Reader,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateCharacterStream_String_Reader_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.ResultSet#updateBinaryStream(String, java.io.InputStream, long) public abstract void
-     * java.sql.ResultSet.updateBinaryStream(java.lang.String,java.io.InputStream,long) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateBinaryStream_String_InputStream_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4186,6 +4186,28 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateDouble(int, double) public
+     * abstract void java.sql.ResultSet.updateDouble(int,double) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateDouble_int_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateDouble(String, double)
      * public abstract void java.sql.ResultSet.updateDouble(java.lang.String,double) throws java.sql.SQLException}.
      *
@@ -4208,8 +4230,8 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#updateDouble(int, double) public
-     * abstract void java.sql.ResultSet.updateDouble(int,double) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getString(String) public abstract
+     * java.lang.String java.sql.ResultSet.getString(java.lang.String) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -4221,7 +4243,29 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateDouble_int_double()
+    public default void test_getString_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getString(int) public abstract
+     * java.lang.String java.sql.ResultSet.getString(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getString_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4275,50 +4319,6 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getString(String) public abstract
-     * java.lang.String java.sql.ResultSet.getString(java.lang.String) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getString_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#getString(int) public abstract
-     * java.lang.String java.sql.ResultSet.getString(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getString_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.ResultSet#moveToInsertRow() public abstract
      * void java.sql.ResultSet.moveToInsertRow() throws java.sql.SQLException}.
      *
@@ -4342,4 +4342,5 @@ extends WrapperTests<SUT>, AutoCloseableTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.ResultSet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.ResultSet]
+
 }

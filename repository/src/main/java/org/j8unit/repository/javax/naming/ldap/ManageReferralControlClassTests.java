@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ManageReferralControlTests}.
+ * {@link org.j8unit.repository.javax.naming.ldap.ManageReferralControlTests}.
  * </p>
  *
  * <p>

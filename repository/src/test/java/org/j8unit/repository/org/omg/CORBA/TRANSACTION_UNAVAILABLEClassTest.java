@@ -10,7 +10,7 @@ import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TRANSACTION_UNAVAILABLE} (by simply
- * reusing the J8Unit test interface {@link TRANSACTION_UNAVAILABLEClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLEClassTests}).
  */
 
 @RunWith(J8Unit4.class)

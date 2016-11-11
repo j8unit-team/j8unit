@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicMenuUI} (by simply reusing the
- * J8Unit test interface {@link BasicMenuUIClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -79,7 +79,7 @@ implements BasicMenuUIClassTests<BasicMenuUI> {
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests.ChangeHandlerClassTests<ChangeHandler> {
+    implements ChangeHandlerClassTests<ChangeHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 

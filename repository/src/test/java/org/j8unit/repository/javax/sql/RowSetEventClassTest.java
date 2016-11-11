@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RowSetEvent} (by simply reusing the
- * J8Unit test interface {@link RowSetEventClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sql.RowSetEventClassTests}).
  */
 
 @RunWith(J8Unit4.class)

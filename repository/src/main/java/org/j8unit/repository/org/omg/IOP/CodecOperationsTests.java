@@ -18,7 +18,7 @@ import org.omg.IOP.CodecOperations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CodecOperationsClassTests}).
+ * {@link org.j8unit.repository.org.omg.IOP.CodecOperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -130,4 +130,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.CodecOperations]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.CodecOperations]
+
 }

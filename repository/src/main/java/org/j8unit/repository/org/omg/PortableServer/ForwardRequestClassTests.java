@@ -18,7 +18,8 @@ import org.omg.PortableServer.ForwardRequest;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ForwardRequestTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.ForwardRequestTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link InsetsUIResource} (by simply reusing
- * the J8Unit test interface {@link InsetsUIResourceTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.InsetsUIResourceTests}).
  */
 
 @RunWith(J8Unit4.class)

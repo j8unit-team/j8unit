@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSorterEvent} (by simply reusing
- * the J8Unit test interface {@link RowSorterEventTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.event.RowSorterEventTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements RowSorterEventTests<RowSorterEvent> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
-     * J8Unit test interface {@link TypeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.RowSorterEventTests.TypeTests}).
      */
 
     @RunWith(J8Parameterized.class)

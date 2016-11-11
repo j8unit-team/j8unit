@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link XPathFilter2ParameterSpec} (by simply
- * reusing the J8Unit test interface {@link XPathFilter2ParameterSpecClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpecClassTests}).
  */
 
 @RunWith(J8Unit4.class)

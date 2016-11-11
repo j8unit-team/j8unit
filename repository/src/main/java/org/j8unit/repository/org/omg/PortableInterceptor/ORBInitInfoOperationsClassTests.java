@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.ORBInitInfoOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ORBInitInfoOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsTests}.
  * </p>
  *
  * <p>

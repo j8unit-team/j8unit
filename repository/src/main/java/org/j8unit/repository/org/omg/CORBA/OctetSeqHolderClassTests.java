@@ -19,7 +19,8 @@ import org.omg.CORBA.OctetSeqHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link OctetSeqHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.OctetSeqHolderTests}.
  * </p>
  *
  * <p>

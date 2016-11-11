@@ -7,7 +7,7 @@ import org.xml.sax.ext.LexicalHandler;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LexicalHandler} (by simply reusing
- * the J8Unit test interface {@link LexicalHandlerTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.LexicalHandlerTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Locale} (by simply reusing the J8Unit
- * test interface {@link LocaleClassTests}).
+ * test interface {@link org.j8unit.repository.java.util.LocaleClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -393,7 +393,7 @@ implements LocaleClassTests<Locale> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link LanguageRange} (by simply reusing the
-     * J8Unit test interface {@link LanguageRangeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -528,7 +528,7 @@ implements LocaleClassTests<Locale> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link java.util.Locale.Category} (by simply
-     * reusing the J8Unit test interface {@link CategoryClassTests}).
+     * reusing the J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -590,7 +590,7 @@ implements LocaleClassTests<Locale> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link FilteringMode} (by simply reusing the
-     * J8Unit test interface {@link FilteringModeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

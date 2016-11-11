@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CRC32} (by simply reusing the J8Unit test
- * interface {@link CRC32ClassTests}).
+ * interface {@link org.j8unit.repository.java.util.zip.CRC32ClassTests}).
  */
 
 @RunWith(J8Unit4.class)

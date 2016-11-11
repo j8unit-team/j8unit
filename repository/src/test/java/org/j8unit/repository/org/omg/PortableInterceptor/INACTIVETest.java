@@ -7,7 +7,7 @@ import org.omg.PortableInterceptor.INACTIVE;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link INACTIVE} (by simply reusing the
- * J8Unit test interface {@link INACTIVETests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.INACTIVETests}).
  */
 
 @RunWith(J8Unit4.class)

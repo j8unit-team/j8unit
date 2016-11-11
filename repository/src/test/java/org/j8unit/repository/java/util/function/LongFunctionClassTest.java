@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LongFunction} (by simply reusing the
- * J8Unit test interface {@link LongFunctionClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.function.LongFunctionClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)

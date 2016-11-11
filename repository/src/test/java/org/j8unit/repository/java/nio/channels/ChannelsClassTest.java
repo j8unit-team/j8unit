@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Channels} (by simply reusing the J8Unit
- * test interface {@link ChannelsClassTests}).
+ * test interface {@link org.j8unit.repository.java.nio.channels.ChannelsClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,27 +22,6 @@ implements ChannelsClassTests<Channels> {
     @Override
     public Class<Channels> createNewSUT() {
         return Channels.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel) public static
-     * java.io.OutputStream java.nio.channels.Channels.newOutputStream(java.nio.channels.WritableByteChannel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newOutputStream_WritableByteChannel()
-    throws Exception {
-        // write some test for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel)}
     }
 
     /**
@@ -65,6 +44,27 @@ implements ChannelsClassTests<Channels> {
     throws Exception {
         // write some test for {@link
         // java.nio.channels.Channels#newOutputStream(java.nio.channels.AsynchronousByteChannel)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel) public static
+     * java.io.OutputStream java.nio.channels.Channels.newOutputStream(java.nio.channels.WritableByteChannel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_newOutputStream_WritableByteChannel()
+    throws Exception {
+        // write some test for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel)}
     }
 
     /**
@@ -113,28 +113,6 @@ implements ChannelsClassTests<Channels> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel, String) public static
-     * java.io.Writer java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newWriter_WritableByteChannel_String()
-    throws Exception {
-        // write some test for {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,
-        // String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel, java.nio.charset.CharsetEncoder, int)
      * public static java.io.Writer
      * java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.nio.charset.CharsetEncoder,int)}.
@@ -158,8 +136,8 @@ implements ChannelsClassTests<Channels> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel, String) public static
-     * java.io.Reader java.nio.channels.Channels.newReader(java.nio.channels.ReadableByteChannel,java.lang.String)}.
+     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel, String) public static
+     * java.io.Writer java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,10 +149,52 @@ implements ChannelsClassTests<Channels> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_newReader_ReadableByteChannel_String()
+    public void test_newWriter_WritableByteChannel_String()
     throws Exception {
-        // write some test for {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel,
+        // write some test for {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,
         // String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.Channels#newChannel(java.io.InputStream) public static
+     * java.nio.channels.ReadableByteChannel java.nio.channels.Channels.newChannel(java.io.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_newChannel_InputStream()
+    throws Exception {
+        // write some test for {@link java.nio.channels.Channels#newChannel(java.io.InputStream)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.Channels#newChannel(java.io.OutputStream) public static
+     * java.nio.channels.WritableByteChannel java.nio.channels.Channels.newChannel(java.io.OutputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_newChannel_OutputStream()
+    throws Exception {
+        // write some test for {@link java.nio.channels.Channels#newChannel(java.io.OutputStream)}
     }
 
     /**
@@ -203,8 +223,8 @@ implements ChannelsClassTests<Channels> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.Channels#newChannel(java.io.OutputStream) public static
-     * java.nio.channels.WritableByteChannel java.nio.channels.Channels.newChannel(java.io.OutputStream)}.
+     * {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel, String) public static
+     * java.io.Reader java.nio.channels.Channels.newReader(java.nio.channels.ReadableByteChannel,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,30 +236,10 @@ implements ChannelsClassTests<Channels> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_newChannel_OutputStream()
+    public void test_newReader_ReadableByteChannel_String()
     throws Exception {
-        // write some test for {@link java.nio.channels.Channels#newChannel(java.io.OutputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.Channels#newChannel(java.io.InputStream) public static
-     * java.nio.channels.ReadableByteChannel java.nio.channels.Channels.newChannel(java.io.InputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newChannel_InputStream()
-    throws Exception {
-        // write some test for {@link java.nio.channels.Channels#newChannel(java.io.InputStream)}
+        // write some test for {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel,
+        // String)}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Channels]

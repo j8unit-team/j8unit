@@ -6,7 +6,6 @@ import javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests;
 import org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests.FilterComboBoxRendererTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalFileChooserUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,7 @@ extends BasicFileChooserUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link FilterComboBoxRendererTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests.FilterComboBoxRendererTests}.
      * </p>
      *
      * <p>

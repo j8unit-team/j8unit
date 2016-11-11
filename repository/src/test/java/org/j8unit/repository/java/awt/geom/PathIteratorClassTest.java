@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link PathIterator} (by simply reusing the
- * J8Unit test interface {@link PathIteratorClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.geom.PathIteratorClassTests}).
  */
 
 @RunWith(J8Unit4.class)

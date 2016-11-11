@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CollapsedStringAdapterClassTests}).
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.CollapsedStringAdapterClassTests}).
  * </p>
  *
  * @param SUT
@@ -81,4 +81,5 @@ extends XmlAdapterTests<SUT, String, String> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.adapters.CollapsedStringAdapter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.adapters.CollapsedStringAdapter]
+
 }

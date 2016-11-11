@@ -18,7 +18,8 @@ import org.omg.IOP.IORHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link IORHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.IORHelperTests}.
  * </p>
  *
  * <p>

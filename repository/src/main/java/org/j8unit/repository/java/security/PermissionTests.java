@@ -218,4 +218,5 @@ extends GuardTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.Permission]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Permission]
+
 }

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ToolTipManagerClassTests}).
+ * {@link org.j8unit.repository.javax.swing.ToolTipManagerClassTests}).
  * </p>
  *
  * @param SUT
@@ -424,4 +424,5 @@ extends MouseAdapterTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ToolTipManager]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ToolTipManager]
+
 }

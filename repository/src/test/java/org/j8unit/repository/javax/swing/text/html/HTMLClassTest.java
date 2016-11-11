@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTML} (by simply reusing the J8Unit test
- * interface {@link HTMLClassTests}).
+ * interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -156,8 +156,30 @@ implements HTMLClassTests<HTML> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML]
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class AttributeClassTest
+    implements AttributeClassTests<Attribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        @Override
+        public Class<Attribute> createNewSUT() {
+            return Attribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Tag} (by simply reusing the J8Unit
-     * test interface {@link TagClassTests}).
+     * test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -199,30 +221,8 @@ implements HTMLClassTests<HTML> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
-     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class AttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        @Override
-        public Class<Attribute> createNewSUT() {
-            return Attribute.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownTag} (by simply reusing the
-     * J8Unit test interface {@link UnknownTagClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests}).
      */
 
     @RunWith(J8Unit4.class)

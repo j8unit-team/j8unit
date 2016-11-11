@@ -6,7 +6,7 @@ import org.xml.sax.Locator;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Locator} (by simply reusing the J8Unit
- * test interface {@link LocatorClassTests}).
+ * test interface {@link org.j8unit.repository.org.xml.sax.LocatorClassTests}).
  */
 
 @RunWith(J8Unit4.class)

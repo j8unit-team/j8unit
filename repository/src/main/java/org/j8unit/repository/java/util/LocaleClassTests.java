@@ -10,9 +10,6 @@ import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.LocaleTests.CategoryTests;
-import org.j8unit.repository.java.util.LocaleTests.FilteringModeTests;
-import org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +25,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link LocaleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.LocaleTests}.
  * </p>
  *
  * <p>
@@ -92,7 +90,8 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link LanguageRangeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests}.
      * </p>
      *
      * <p>
@@ -158,7 +157,8 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link CategoryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.LocaleTests.CategoryTests}.
      * </p>
      *
      * <p>
@@ -224,7 +224,8 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FilteringModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.LocaleTests.FilteringModeTests}.
      * </p>
      *
      * <p>

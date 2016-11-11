@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ScrollPaneLayoutClassTests}).
+ * {@link org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests}).
  * </p>
  *
  * @param SUT
@@ -85,6 +85,28 @@ extends LayoutManagerTests<SUT>, ScrollPaneConstantsTests<SUT>, SerializableTest
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.ScrollPaneLayout#getRowHeader() public
+     * javax.swing.JViewport javax.swing.ScrollPaneLayout.getRowHeader()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowHeader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.ScrollPaneLayout#addLayoutComponent(String, java.awt.Component) public void
      * javax.swing.ScrollPaneLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
@@ -101,28 +123,6 @@ extends LayoutManagerTests<SUT>, ScrollPaneConstantsTests<SUT>, SerializableTest
     @Test
     @Category(Draft.class)
     public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.ScrollPaneLayout#getRowHeader() public
-     * javax.swing.JViewport javax.swing.ScrollPaneLayout.getRowHeader()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowHeader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -430,6 +430,7 @@ extends LayoutManagerTests<SUT>, ScrollPaneConstantsTests<SUT>, SerializableTest
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -458,6 +459,7 @@ extends LayoutManagerTests<SUT>, ScrollPaneConstantsTests<SUT>, SerializableTest
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
+
     }
 
 }

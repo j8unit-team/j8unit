@@ -18,7 +18,7 @@ import org.xml.sax.XMLReader;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XMLReaderClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.XMLReaderClassTests}).
  * </p>
  *
  * @param SUT
@@ -49,6 +49,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLReader#getDTDHandler() public
+     * abstract org.xml.sax.DTDHandler org.xml.sax.XMLReader.getDTDHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDTDHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,28 +125,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLReader#getDTDHandler() public
-     * abstract org.xml.sax.DTDHandler org.xml.sax.XMLReader.getDTDHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDTDHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLReader#setProperty(String, Object)
      * public abstract void org.xml.sax.XMLReader.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
@@ -148,28 +148,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLReader#getContentHandler() public
-     * abstract org.xml.sax.ContentHandler org.xml.sax.XMLReader.getContentHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContentHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.XMLReader#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
      * org.xml.sax.XMLReader.setErrorHandler(org.xml.sax.ErrorHandler)}.
@@ -185,6 +163,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setErrorHandler_ErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.XMLReader#getContentHandler() public
+     * abstract org.xml.sax.ContentHandler org.xml.sax.XMLReader.getContentHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getContentHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -353,4 +353,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.XMLReader]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.XMLReader]
+
 }

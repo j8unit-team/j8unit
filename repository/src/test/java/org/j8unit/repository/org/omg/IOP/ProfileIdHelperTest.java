@@ -7,7 +7,7 @@ import org.omg.IOP.ProfileIdHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ProfileIdHelper} (by simply reusing
- * the J8Unit test interface {@link ProfileIdHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ProfileIdHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

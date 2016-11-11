@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ValidationEventLocatorImplTests}.
+ * {@link org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests}.
  * </p>
  *
  * <p>

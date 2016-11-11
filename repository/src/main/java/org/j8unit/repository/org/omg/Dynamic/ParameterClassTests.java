@@ -19,7 +19,8 @@ import org.omg.Dynamic.Parameter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ParameterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.Dynamic.ParameterTests}.
  * </p>
  *
  * <p>

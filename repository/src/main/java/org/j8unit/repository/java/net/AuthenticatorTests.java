@@ -5,7 +5,6 @@ import java.net.Authenticator.RequestorType;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -18,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AuthenticatorClassTests}).
+ * {@link org.j8unit.repository.java.net.AuthenticatorClassTests}).
  * </p>
  *
  * @param SUT
@@ -36,6 +35,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Authenticator]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Authenticator]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -46,7 +46,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link RequestorTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -64,6 +64,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Authenticator$RequestorType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Authenticator$RequestorType]
+
     }
 
 }

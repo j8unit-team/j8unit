@@ -7,7 +7,8 @@ import org.omg.PortableInterceptor.ORBInitInfoOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ORBInitInfoOperations} (by simply
- * reusing the J8Unit test interface {@link ORBInitInfoOperationsTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

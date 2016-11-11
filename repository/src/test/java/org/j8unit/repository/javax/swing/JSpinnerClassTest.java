@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JSpinner} (by simply reusing the J8Unit
- * test interface {@link JSpinnerClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -77,98 +77,8 @@ implements JSpinnerClassTests<JSpinner> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ListEditor} (by simply reusing the
-     * J8Unit test interface {@link ListEditorClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListEditorClassTest
-    implements ListEditorClassTests<ListEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$ListEditor]
-
-        @Override
-        public Class<ListEditor> createNewSUT() {
-            return ListEditor.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JSpinner.ListEditor#ListEditor(javax.swing.JSpinner) public
-         * javax.swing.JSpinner$ListEditor(javax.swing.JSpinner)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ListEditor_JSpinner()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ListEditor sut = null; // = new ListEditor(javax.swing.JSpinner);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSpinner$ListEditor]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$ListEditor]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultEditor} (by simply reusing the
-     * J8Unit test interface {@link DefaultEditorClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultEditorClassTest
-    implements DefaultEditorClassTests<DefaultEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
-
-        @Override
-        public Class<DefaultEditor> createNewSUT() {
-            return DefaultEditor.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JSpinner.DefaultEditor#DefaultEditor(javax.swing.JSpinner) public
-         * javax.swing.JSpinner$DefaultEditor(javax.swing.JSpinner)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_DefaultEditor_JSpinner()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final DefaultEditor sut = null; // = new DefaultEditor(javax.swing.JSpinner);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DateEditor} (by simply reusing the
-     * J8Unit test interface {@link DateEditorClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -236,7 +146,7 @@ implements JSpinnerClassTests<JSpinner> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link NumberEditor} (by simply reusing the
-     * J8Unit test interface {@link NumberEditorClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.NumberEditorClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -299,6 +209,96 @@ implements JSpinnerClassTests<JSpinner> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSpinner$NumberEditor]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$NumberEditor]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultEditor} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultEditorClassTest
+    implements DefaultEditorClassTests<DefaultEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
+        @Override
+        public Class<DefaultEditor> createNewSUT() {
+            return DefaultEditor.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JSpinner.DefaultEditor#DefaultEditor(javax.swing.JSpinner) public
+         * javax.swing.JSpinner$DefaultEditor(javax.swing.JSpinner)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_DefaultEditor_JSpinner()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final DefaultEditor sut = null; // = new DefaultEditor(javax.swing.JSpinner);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListEditor} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.ListEditorClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListEditorClassTest
+    implements ListEditorClassTests<ListEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$ListEditor]
+
+        @Override
+        public Class<ListEditor> createNewSUT() {
+            return ListEditor.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JSpinner.ListEditor#ListEditor(javax.swing.JSpinner) public
+         * javax.swing.JSpinner$ListEditor(javax.swing.JSpinner)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ListEditor_JSpinner()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ListEditor sut = null; // = new ListEditor(javax.swing.JSpinner);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSpinner$ListEditor]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$ListEditor]
 
     }
 

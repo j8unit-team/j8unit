@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Service} (by simply reusing the J8Unit
- * test interface {@link ServiceClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.ws.ServiceClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -118,12 +118,12 @@ implements ServiceClassTests<Service> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Mode} (by simply reusing the J8Unit
-     * test interface {@link ModeClassTests}).
+     * test interface {@link org.j8unit.repository.javax.xml.ws.ServiceClassTests.ModeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class ModeClassTest
-    implements ModeClassTests<Mode> {
+    implements org.j8unit.repository.javax.xml.ws.ServiceClassTests.ModeClassTests<Mode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.Service$Mode]
 

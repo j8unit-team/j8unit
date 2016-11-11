@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link X509CertificateClassTests}).
+ * {@link org.j8unit.repository.java.security.cert.X509CertificateClassTests}).
  * </p>
  *
  * @param SUT
@@ -558,4 +558,5 @@ extends X509ExtensionTests<SUT>, CertificateTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.X509Certificate]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509Certificate]
+
 }

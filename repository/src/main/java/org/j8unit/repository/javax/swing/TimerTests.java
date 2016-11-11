@@ -435,4 +435,5 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.Timer]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Timer]
+
 }

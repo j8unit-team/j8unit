@@ -6,7 +6,7 @@ import org.omg.CORBA.IDLType;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IDLType} (by simply reusing the J8Unit
- * test interface {@link IDLTypeClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.IDLTypeClassTests}).
  */
 
 @RunWith(J8Unit4.class)

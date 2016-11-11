@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Spliterators} (by simply reusing the
- * J8Unit test interface {@link SpliteratorsTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorsTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,8 @@ implements SpliteratorsTests<Spliterators> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractDoubleSpliterator} (by
-     * simply reusing the J8Unit test interface {@link AbstractDoubleSpliteratorTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -53,7 +54,8 @@ implements SpliteratorsTests<Spliterators> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractSpliterator} (by simply
-     * reusing the J8Unit test interface {@link AbstractSpliteratorTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -75,7 +77,8 @@ implements SpliteratorsTests<Spliterators> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractLongSpliterator} (by
-     * simply reusing the J8Unit test interface {@link AbstractLongSpliteratorTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -97,7 +100,8 @@ implements SpliteratorsTests<Spliterators> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractIntSpliterator} (by
-     * simply reusing the J8Unit test interface {@link AbstractIntSpliteratorTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests}).
      */
 
     @RunWith(J8Unit4.class)

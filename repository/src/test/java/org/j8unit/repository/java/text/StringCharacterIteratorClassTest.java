@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StringCharacterIterator} (by simply
- * reusing the J8Unit test interface {@link StringCharacterIteratorClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.text.StringCharacterIteratorClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,6 +22,29 @@ implements StringCharacterIteratorClassTests<StringCharacterIterator> {
     @Override
     public Class<StringCharacterIterator> createNewSUT() {
         return StringCharacterIterator.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.StringCharacterIterator#StringCharacterIterator(String, int, int, int) public
+     * java.text.StringCharacterIterator(java.lang.String,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_StringCharacterIterator_String_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final StringCharacterIterator sut = null; // = new StringCharacterIterator(String, int, int, int);
     }
 
     /**
@@ -68,29 +91,6 @@ implements StringCharacterIteratorClassTests<StringCharacterIterator> {
         // create new instance
         @SuppressWarnings("unused")
         final StringCharacterIterator sut = null; // = new StringCharacterIterator(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.text.StringCharacterIterator#StringCharacterIterator(String, int, int, int) public
-     * java.text.StringCharacterIterator(java.lang.String,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_StringCharacterIterator_String_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final StringCharacterIterator sut = null; // = new StringCharacterIterator(String, int, int, int);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.StringCharacterIterator]

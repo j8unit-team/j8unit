@@ -18,7 +18,8 @@ import org.omg.CORBA.WCharSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link WCharSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.WCharSeqHelperTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link InconsistentTypeCodeTests}.
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeTests}.
  * </p>
  *
  * <p>

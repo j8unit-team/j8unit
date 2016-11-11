@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FileSystemProviderClassTests}).
+ * {@link org.j8unit.repository.java.nio.file.spi.FileSystemProviderClassTests}).
  * </p>
  *
  * @param SUT
@@ -108,6 +108,30 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#getFileAttributeView(java.nio.file.Path, Class, java.nio.file.LinkOption...)
+     * public abstract <V> V
+     * java.nio.file.spi.FileSystemProvider.getFileAttributeView(java.nio.file.Path,java.lang.Class<V>,java.nio.file.LinkOption...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileAttributeView_Path_Class_LinkOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#newAsynchronousFileChannel(java.nio.file.Path, java.util.Set, java.util.concurrent.ExecutorService, java.nio.file.attribute.FileAttribute...)
      * public java.nio.channels.AsynchronousFileChannel
      * java.nio.file.spi.FileSystemProvider.newAsynchronousFileChannel(java.nio.file.Path,java.util.Set<? extends
@@ -134,9 +158,9 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#getFileAttributeView(java.nio.file.Path, Class, java.nio.file.LinkOption...)
-     * public abstract <V> V
-     * java.nio.file.spi.FileSystemProvider.getFileAttributeView(java.nio.file.Path,java.lang.Class<V>,java.nio.file.LinkOption...)}.
+     * {@link java.nio.file.spi.FileSystemProvider#isSameFile(java.nio.file.Path, java.nio.file.Path) public abstract
+     * boolean java.nio.file.spi.FileSystemProvider.isSameFile(java.nio.file.Path,java.nio.file.Path) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,32 +172,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFileAttributeView_Path_Class_LinkOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#newByteChannel(java.nio.file.Path, java.util.Set, java.nio.file.attribute.FileAttribute...)
-     * public abstract java.nio.channels.SeekableByteChannel
-     * java.nio.file.spi.FileSystemProvider.newByteChannel(java.nio.file.Path,java.util.Set<? extends
-     * java.nio.file.OpenOption>,java.nio.file.attribute.FileAttribute<?>...) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newByteChannel_Path_Set_FileAttributeArray()
+    public default void test_isSameFile_Path_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,9 +206,10 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#isSameFile(java.nio.file.Path, java.nio.file.Path) public abstract
-     * boolean java.nio.file.spi.FileSystemProvider.isSameFile(java.nio.file.Path,java.nio.file.Path) throws
-     * java.io.IOException}.
+     * {@link java.nio.file.spi.FileSystemProvider#newByteChannel(java.nio.file.Path, java.util.Set, java.nio.file.attribute.FileAttribute...)
+     * public abstract java.nio.channels.SeekableByteChannel
+     * java.nio.file.spi.FileSystemProvider.newByteChannel(java.nio.file.Path,java.util.Set<? extends
+     * java.nio.file.OpenOption>,java.nio.file.attribute.FileAttribute<?>...) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,7 +221,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSameFile_Path_Path()
+    public default void test_newByteChannel_Path_Set_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -379,31 +379,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, String, java.nio.file.LinkOption...)
-     * public abstract java.util.Map<java.lang.String, java.lang.Object>
-     * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readAttributes_Path_String_LinkOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, Class, java.nio.file.LinkOption...)
      * public abstract <A> A
      * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.Class<A>,java.nio.file.LinkOption...)
@@ -420,6 +395,31 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_readAttributes_Path_Class_LinkOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, String, java.nio.file.LinkOption...)
+     * public abstract java.util.Map<java.lang.String, java.lang.Object>
+     * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readAttributes_Path_String_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -692,4 +692,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.spi.FileSystemProvider]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.spi.FileSystemProvider]
+
 }

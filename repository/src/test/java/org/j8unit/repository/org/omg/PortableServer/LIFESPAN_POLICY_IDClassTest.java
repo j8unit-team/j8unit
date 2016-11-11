@@ -6,7 +6,7 @@ import org.omg.PortableServer.LIFESPAN_POLICY_ID;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LIFESPAN_POLICY_ID} (by simply reusing
- * the J8Unit test interface {@link LIFESPAN_POLICY_IDClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.LIFESPAN_POLICY_IDClassTests}).
  */
 
 @RunWith(J8Unit4.class)

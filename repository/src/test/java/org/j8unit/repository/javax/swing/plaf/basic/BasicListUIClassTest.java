@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicListUI} (by simply reusing the
- * J8Unit test interface {@link BasicListUIClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -77,7 +77,8 @@ implements BasicListUIClassTests<BasicListUI> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ListSelectionHandler} (by simply
-     * reusing the J8Unit test interface {@link ListSelectionHandlerClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -117,6 +118,98 @@ implements BasicListUIClassTests<BasicListUI> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListDataHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListDataHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests<ListDataHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+
+        @Override
+        public Class<ListDataHandler> createNewSUT() {
+            return ListDataHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicListUI)
+         * public javax.swing.plaf.basic.BasicListUI$ListDataHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ListDataHandler_BasicListUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ListDataHandler sut = null; // = new ListDataHandler(javax.swing.plaf.basic.BasicListUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
+
+        @Override
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)
+         * public javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PropertyChangeHandler_BasicListUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
 
     }
 
@@ -209,97 +302,6 @@ implements BasicListUIClassTests<BasicListUI> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$MouseInputHandler]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
-     * reusing the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
-
-        @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)
-         * public javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicListUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new PropertyChangeHandler(javax.swing.plaf.basic.BasicListUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ListDataHandler} (by simply reusing
-     * the J8Unit test interface {@link ListDataHandlerClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListDataHandlerClassTest
-    implements ListDataHandlerClassTests<ListDataHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
-
-        @Override
-        public Class<ListDataHandler> createNewSUT() {
-            return ListDataHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicListUI.ListDataHandler#ListDataHandler(javax.swing.plaf.basic.BasicListUI)
-         * public javax.swing.plaf.basic.BasicListUI$ListDataHandler(javax.swing.plaf.basic.BasicListUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ListDataHandler_BasicListUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ListDataHandler sut = null; // = new ListDataHandler(javax.swing.plaf.basic.BasicListUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
 
     }
 

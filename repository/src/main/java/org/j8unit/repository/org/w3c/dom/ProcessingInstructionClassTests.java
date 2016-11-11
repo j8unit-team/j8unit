@@ -18,7 +18,7 @@ import org.w3c.dom.ProcessingInstruction;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ProcessingInstructionTests}.
+ * {@link org.j8unit.repository.org.w3c.dom.ProcessingInstructionTests}.
  * </p>
  *
  * <p>

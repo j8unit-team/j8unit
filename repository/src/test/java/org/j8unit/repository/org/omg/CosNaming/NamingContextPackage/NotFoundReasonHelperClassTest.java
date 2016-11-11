@@ -11,7 +11,8 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundReasonHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NotFoundReasonHelper} (by simply reusing
- * the J8Unit test interface {@link NotFoundReasonHelperClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundReasonHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

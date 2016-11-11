@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AccessibleHyperlinkClassTests}).
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleHyperlinkClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,29 +32,6 @@ public abstract interface AccessibleHyperlinkTests<SUT extends AccessibleHyperli
 extends AccessibleActionTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleHyperlink]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.accessibility.AccessibleHyperlink#getEndIndex() public abstract int
-     * javax.accessibility.AccessibleHyperlink.getEndIndex()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEndIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -82,8 +59,9 @@ extends AccessibleActionTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleHyperlink#isValid()
-     * public abstract boolean javax.accessibility.AccessibleHyperlink.isValid()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleHyperlink#getEndIndex() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getEndIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,7 +73,7 @@ extends AccessibleActionTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValid()
+    public default void test_getEndIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +97,28 @@ extends AccessibleActionTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleActionObject_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.accessibility.AccessibleHyperlink#isValid()
+     * public abstract boolean javax.accessibility.AccessibleHyperlink.isValid()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,4 +222,5 @@ extends AccessibleActionTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleHyperlink]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleHyperlink]
+
 }

@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLTableColElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLTableColElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableColElementTests}.
  * </p>
  *
  * <p>

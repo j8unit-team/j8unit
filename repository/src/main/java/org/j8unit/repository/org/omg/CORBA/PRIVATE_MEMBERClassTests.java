@@ -18,7 +18,8 @@ import org.omg.CORBA.PRIVATE_MEMBER;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PRIVATE_MEMBERTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.PRIVATE_MEMBERTests}.
  * </p>
  *
  * <p>

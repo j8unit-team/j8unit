@@ -103,4 +103,5 @@ extends CharSequenceTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.Name]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.Name]
+
 }

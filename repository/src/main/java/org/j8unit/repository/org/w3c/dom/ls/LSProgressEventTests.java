@@ -18,7 +18,7 @@ import org.w3c.dom.ls.LSProgressEvent;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LSProgressEventClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.ls.LSProgressEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -102,4 +102,5 @@ extends EventTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.ls.LSProgressEvent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.ls.LSProgressEvent]
+
 }

@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link PKIXRevocationCheckerTests}.
+ * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends PKIXCertPathCheckerClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OptionTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests}.
      * </p>
      *
      * <p>

@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link PathClassTests}).
+ * {@link org.j8unit.repository.java.nio.file.PathClassTests}).
  * </p>
  *
  * @param SUT
@@ -686,4 +686,5 @@ extends ComparableTests<SUT, Path>, IterableTests<SUT, Path>, WatchableTests<SUT
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.Path]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.Path]
+
 }

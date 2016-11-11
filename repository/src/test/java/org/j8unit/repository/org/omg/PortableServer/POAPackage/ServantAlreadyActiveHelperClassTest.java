@@ -11,7 +11,8 @@ import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServantAlreadyActiveHelper} (by simply
- * reusing the J8Unit test interface {@link ServantAlreadyActiveHelperClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

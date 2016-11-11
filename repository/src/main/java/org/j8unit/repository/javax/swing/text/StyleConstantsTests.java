@@ -12,10 +12,6 @@ import org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttribu
 import org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests;
 import org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests;
 import org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests;
-import org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.CharacterConstantsClassTests;
-import org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ColorConstantsClassTests;
-import org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.FontConstantsClassTests;
-import org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -30,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link StyleConstantsClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests}).
  * </p>
  *
  * @param SUT
@@ -71,35 +67,6 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link FontConstants public static class javax.swing.text.StyleConstants$FontConstants}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link FontConstantsClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FontConstantsTests<SUT extends FontConstants>
-    extends FontAttributeTests<SUT>, CharacterAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-    }
 
     /**
      * <p>
@@ -111,7 +78,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CharacterConstantsClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.CharacterConstantsClassTests}).
      * </p>
      *
      * @param SUT
@@ -129,6 +96,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+
     }
 
     /**
@@ -141,7 +109,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ParagraphConstantsClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests}).
      * </p>
      *
      * @param SUT
@@ -159,6 +127,38 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FontConstants public static class javax.swing.text.StyleConstants$FontConstants}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.FontConstantsClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FontConstantsTests<SUT extends FontConstants>
+    extends FontAttributeTests<SUT>, CharacterAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
     }
 
     /**
@@ -171,7 +171,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ColorConstantsClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ColorConstantsClassTests}).
      * </p>
      *
      * @param SUT
@@ -189,6 +189,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
+
     }
 
 }

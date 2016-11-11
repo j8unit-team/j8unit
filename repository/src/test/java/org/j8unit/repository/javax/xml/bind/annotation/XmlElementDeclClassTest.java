@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlElementDecl} (by simply reusing the
- * J8Unit test interface {@link XmlElementDeclClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,8 @@ implements XmlElementDeclClassTests<XmlElementDecl> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link GLOBAL} (by simply reusing the J8Unit
-     * test interface {@link GLOBALClassTests}).
+     * test interface
+     * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -10,8 +10,6 @@ import org.j8unit.repository.java.awt.event.ActionListenerTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.JTextFieldTests;
 import org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests;
-import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests;
-import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -26,7 +24,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DefaultTreeCellEditorClassTests}).
+ * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests}).
  * </p>
  *
  * @param SUT
@@ -254,30 +252,6 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellEditor#getCellEditorValue() public java.lang.Object
-     * javax.swing.tree.DefaultTreeCellEditor.getCellEditorValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellEditorValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellEditor#valueChanged(javax.swing.event.TreeSelectionEvent) public void
      * javax.swing.tree.DefaultTreeCellEditor.valueChanged(javax.swing.event.TreeSelectionEvent)}.
      *
@@ -293,6 +267,30 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
     @Test
     @Category(Draft.class)
     public default void test_valueChanged_TreeSelectionEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellEditor#getCellEditorValue() public java.lang.Object
+     * javax.swing.tree.DefaultTreeCellEditor.getCellEditorValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellEditorValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -400,6 +398,7 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -410,7 +409,7 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link EditorContainerClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests}).
      * </p>
      *
      * @param SUT
@@ -523,6 +522,7 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+
     }
 
     /**
@@ -535,7 +535,7 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DefaultTextFieldClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests}).
      * </p>
      *
      * @param SUT
@@ -649,6 +649,7 @@ extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListene
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
     }
 
 }

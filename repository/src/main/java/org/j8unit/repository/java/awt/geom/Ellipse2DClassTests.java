@@ -21,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link Ellipse2DTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests}.
  * </p>
  *
  * <p>
@@ -85,7 +86,8 @@ extends RectangularShapeClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DoubleTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests.DoubleTests}.
      * </p>
      *
      * <p>
@@ -151,7 +153,8 @@ extends RectangularShapeClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FloatTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests.FloatTests}.
      * </p>
      *
      * <p>

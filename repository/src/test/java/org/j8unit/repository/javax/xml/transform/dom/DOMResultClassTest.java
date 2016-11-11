@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DOMResult} (by simply reusing the J8Unit
- * test interface {@link DOMResultClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -26,9 +26,8 @@ implements DOMResultClassTests<DOMResult> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node, org.w3c.dom.Node) public
-     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.dom.DOMResult#DOMResult()
+     * public javax.xml.transform.dom.DOMResult()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,11 +39,10 @@ implements DOMResultClassTests<DOMResult> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DOMResult_Node_Node()
+    public void create_DOMResult()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node, org.w3c.dom.Node);
+        final DOMResult sut = new DOMResult();
     }
 
     /**
@@ -72,27 +70,6 @@ implements DOMResultClassTests<DOMResult> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.dom.DOMResult#DOMResult()
-     * public javax.xml.transform.dom.DOMResult()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DOMResult()
-    throws Exception {
-        // create new instance
-        final DOMResult sut = new DOMResult();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node, String) public
      * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,java.lang.String)}.
@@ -112,6 +89,29 @@ implements DOMResultClassTests<DOMResult> {
         // create new instance
         @SuppressWarnings("unused")
         final DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node, org.w3c.dom.Node) public
+     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DOMResult_Node_Node()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node, org.w3c.dom.Node);
     }
 
     /**

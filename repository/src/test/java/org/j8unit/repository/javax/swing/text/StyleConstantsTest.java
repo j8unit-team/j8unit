@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link StyleConstants} (by simply reusing
- * the J8Unit test interface {@link StyleConstantsTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -30,30 +30,9 @@ implements StyleConstantsTests<StyleConstants> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link FontConstants} (by simply reusing
-     * the J8Unit test interface {@link FontConstantsTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class FontConstantsTest
-    implements FontConstantsTests<FontConstants> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-
-        @Override
-        public FontConstants createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.FontConstants], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link CharacterConstants} (by simply
-     * reusing the J8Unit test interface {@link CharacterConstantsTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -75,7 +54,8 @@ implements StyleConstantsTests<StyleConstants> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ParagraphConstants} (by simply
-     * reusing the J8Unit test interface {@link ParagraphConstantsTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -96,8 +76,31 @@ implements StyleConstantsTests<StyleConstants> {
     }
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FontConstants} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.FontConstantsTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FontConstantsTest
+    implements FontConstantsTests<FontConstants> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        @Override
+        public FontConstants createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.FontConstants], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorConstants} (by simply
-     * reusing the J8Unit test interface {@link ColorConstantsTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ColorConstantsTests}).
      */
 
     @RunWith(J8Unit4.class)

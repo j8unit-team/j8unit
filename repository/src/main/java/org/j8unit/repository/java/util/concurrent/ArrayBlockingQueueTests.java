@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ArrayBlockingQueueClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTests}).
  * </p>
  *
  * @param SUT
@@ -60,30 +60,6 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ArrayBlockingQueue#offer(Object) public boolean
-     * java.util.concurrent.ArrayBlockingQueue.offer(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ArrayBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.ArrayBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
@@ -100,6 +76,30 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     @Test
     @Category(Draft.class)
     public default void test_offer_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ArrayBlockingQueue#offer(Object) public boolean
+     * java.util.concurrent.ArrayBlockingQueue.offer(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -391,30 +391,6 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ArrayBlockingQueue#drainTo(java.util.Collection, int) public int
-     * java.util.concurrent.ArrayBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_drainTo_Collection_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ArrayBlockingQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.ArrayBlockingQueue.drainTo(java.util.Collection<? super E>)}.
      *
@@ -430,6 +406,30 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     @Test
     @Category(Draft.class)
     public default void test_drainTo_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ArrayBlockingQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.ArrayBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_drainTo_Collection_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -509,4 +509,5 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ArrayBlockingQueue]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ArrayBlockingQueue]
+
 }

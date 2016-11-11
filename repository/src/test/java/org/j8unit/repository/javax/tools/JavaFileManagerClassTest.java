@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JavaFileManager} (by simply reusing the
- * J8Unit test interface {@link JavaFileManagerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.tools.JavaFileManagerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -32,7 +32,7 @@ implements JavaFileManagerClassTests<JavaFileManager> {
 
     @RunWith(J8Unit4.class)
     public static class LocationClassTest
-    implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<Location> {
+    implements LocationClassTests<Location> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileManager$Location]
 

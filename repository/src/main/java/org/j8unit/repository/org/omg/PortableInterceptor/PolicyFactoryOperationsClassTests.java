@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.PolicyFactoryOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link PolicyFactoryOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryOperationsTests}.
  * </p>
  *
  * <p>

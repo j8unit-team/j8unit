@@ -6,7 +6,7 @@ import org.omg.CORBA.CTX_RESTRICT_SCOPE;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CTX_RESTRICT_SCOPE} (by simply reusing
- * the J8Unit test interface {@link CTX_RESTRICT_SCOPEClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CTX_RESTRICT_SCOPEClassTests}).
  */
 
 @RunWith(J8Unit4.class)

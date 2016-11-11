@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ActionClassTest
-implements org.j8unit.repository.javax.swing.ActionClassTests<Action> {
+implements ActionClassTests<Action> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.Action]
 

@@ -18,7 +18,8 @@ import org.omg.PortableServer.POAPackage.NoServantHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NoServantHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantHelperTests}.
  * </p>
  *
  * <p>

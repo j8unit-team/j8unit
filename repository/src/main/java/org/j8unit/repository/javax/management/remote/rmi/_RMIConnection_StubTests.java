@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _RMIConnection_StubClassTests}).
+ * {@link org.j8unit.repository.javax.management.remote.rmi._RMIConnection_StubClassTests}).
  * </p>
  *
  * @param SUT
@@ -766,4 +766,5 @@ extends RMIConnectionTests<SUT>, StubTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
+
 }

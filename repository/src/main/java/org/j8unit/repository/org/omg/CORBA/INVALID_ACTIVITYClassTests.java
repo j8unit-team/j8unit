@@ -17,7 +17,8 @@ import org.omg.CORBA.INVALID_ACTIVITY;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link INVALID_ACTIVITYTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.INVALID_ACTIVITYTests}.
  * </p>
  *
  * <p>

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeyStore} (by simply reusing the J8Unit
- * test interface {@link KeyStoreClassTests}).
+ * test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -124,7 +124,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link PrivateKeyEntry} (by simply reusing
-     * the J8Unit test interface {@link PrivateKeyEntryClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -195,7 +196,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SecretKeyEntry} (by simply reusing
-     * the J8Unit test interface {@link SecretKeyEntryClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -354,7 +356,7 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Entry} (by simply reusing the J8Unit
-     * test interface {@link EntryClassTests}).
+     * test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -399,7 +401,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TrustedCertificateEntry} (by simply
-     * reusing the J8Unit test interface {@link TrustedCertificateEntryClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -469,7 +472,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link PasswordProtection} (by simply
-     * reusing the J8Unit test interface {@link PasswordProtectionClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -539,7 +543,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link LoadStoreParameter} (by simply
-     * reusing the J8Unit test interface {@link LoadStoreParameterClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -561,7 +566,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ProtectionParameter} (by simply
-     * reusing the J8Unit test interface {@link ProtectionParameterClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -583,7 +589,8 @@ implements KeyStoreClassTests<KeyStore> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link CallbackHandlerProtection} (by simply
-     * reusing the J8Unit test interface {@link CallbackHandlerProtectionClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests}).
      */
 
     @RunWith(J8Unit4.class)

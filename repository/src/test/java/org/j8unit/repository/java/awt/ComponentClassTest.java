@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Component} (by simply reusing the J8Unit
- * test interface {@link ComponentClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.ComponentClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,8 @@ implements ComponentClassTests<Component> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link BaselineResizeBehavior} (by simply
-     * reusing the J8Unit test interface {@link BaselineResizeBehaviorClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests}).
      */
 
     @RunWith(J8Unit4.class)

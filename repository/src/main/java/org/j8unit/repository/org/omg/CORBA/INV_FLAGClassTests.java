@@ -17,7 +17,8 @@ import org.omg.CORBA.INV_FLAG;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link INV_FLAGTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.INV_FLAGTests}.
  * </p>
  *
  * <p>

@@ -11,7 +11,7 @@ import org.omg.PortableInterceptor.AdapterStateHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterStateHelper} (by simply reusing
- * the J8Unit test interface {@link AdapterStateHelperClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

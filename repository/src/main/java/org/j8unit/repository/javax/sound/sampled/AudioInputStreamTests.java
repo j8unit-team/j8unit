@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AudioInputStreamClassTests}).
+ * {@link org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -289,4 +289,5 @@ extends InputStreamTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.AudioInputStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.AudioInputStream]
+
 }

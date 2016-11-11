@@ -18,7 +18,7 @@ import org.omg.CosNaming._NamingContextImplBase;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _NamingContextImplBaseClassTests}).
+ * {@link org.j8unit.repository.org.omg.CosNaming._NamingContextImplBaseClassTests}).
  * </p>
  *
  * @param SUT
@@ -83,4 +83,5 @@ extends NamingContextTests<SUT>, DynamicImplementationTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming._NamingContextImplBase]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._NamingContextImplBase]
+
 }

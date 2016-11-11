@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HyperlinkEvent} (by simply reusing the
- * J8Unit test interface {@link HyperlinkEventClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -131,12 +131,13 @@ implements HyperlinkEventClassTests<HyperlinkEvent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link EventType} (by simply reusing the
-     * J8Unit test interface {@link EventTypeClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests.EventTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class EventTypeClassTest
-    implements EventTypeClassTests<EventType> {
+    implements org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests.EventTypeClassTests<EventType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.HyperlinkEvent$EventType]
 

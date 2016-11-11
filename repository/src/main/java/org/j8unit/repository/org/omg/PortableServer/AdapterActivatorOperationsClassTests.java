@@ -19,7 +19,7 @@ import org.omg.PortableServer.AdapterActivatorOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AdapterActivatorOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.AdapterActivatorOperationsTests}.
  * </p>
  *
  * <p>

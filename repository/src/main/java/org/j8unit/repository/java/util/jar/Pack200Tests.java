@@ -7,8 +7,6 @@ import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests;
-import org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link Pack200ClassTests}).
+ * {@link org.j8unit.repository.java.util.jar.Pack200ClassTests}).
  * </p>
  *
  * @param SUT
@@ -41,6 +39,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -51,7 +50,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PackerClassTests}).
+     * (see {@link org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests}).
      * </p>
      *
      * @param SUT
@@ -184,6 +183,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Packer]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Packer]
+
     }
 
     /**
@@ -196,7 +196,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link UnpackerClassTests}).
+     * (see {@link org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests}).
      * </p>
      *
      * @param SUT
@@ -331,6 +331,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
+
     }
 
 }

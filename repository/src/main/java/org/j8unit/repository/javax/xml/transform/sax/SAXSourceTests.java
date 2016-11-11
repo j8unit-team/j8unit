@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SAXSourceClassTests}).
+ * {@link org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests}).
  * </p>
  *
  * @param SUT
@@ -174,4 +174,5 @@ extends SourceTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.sax.SAXSource]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.sax.SAXSource]
+
 }

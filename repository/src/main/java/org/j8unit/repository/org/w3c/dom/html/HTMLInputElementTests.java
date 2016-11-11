@@ -17,7 +17,7 @@ import org.w3c.dom.html.HTMLInputElement;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HTMLInputElementClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLInputElementClassTests}).
  * </p>
  *
  * @param SUT
@@ -100,28 +100,6 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getTabIndex()
-     * public abstract int org.w3c.dom.html.HTMLInputElement.getTabIndex()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTabIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#setUseMap(String)
      * public abstract void org.w3c.dom.html.HTMLInputElement.setUseMap(java.lang.String)}.
      *
@@ -136,6 +114,28 @@ extends HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setUseMap_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getTabIndex()
+     * public abstract int org.w3c.dom.html.HTMLInputElement.getTabIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTabIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,28 +300,6 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getMaxLength()
-     * public abstract int org.w3c.dom.html.HTMLInputElement.getMaxLength()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#setTabIndex(int)
      * public abstract void org.w3c.dom.html.HTMLInputElement.setTabIndex(int)}.
      *
@@ -336,6 +314,28 @@ extends HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setTabIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getMaxLength()
+     * public abstract int org.w3c.dom.html.HTMLInputElement.getMaxLength()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -676,6 +676,28 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getAccept() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLInputElement.getAccept()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccept()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.html.HTMLInputElement#setDefaultValue(String) public abstract void
      * org.w3c.dom.html.HTMLInputElement.setDefaultValue(java.lang.String)}.
@@ -691,28 +713,6 @@ extends HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDefaultValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLInputElement#getAccept() public
-     * abstract java.lang.String org.w3c.dom.html.HTMLInputElement.getAccept()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccept()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -878,4 +878,5 @@ extends HTMLElementTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLInputElement]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLInputElement]
+
 }

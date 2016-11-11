@@ -11,12 +11,12 @@ import org.omg.CORBA.FieldNameHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link FieldNameHelper} (by simply reusing the
- * J8Unit test interface {@link FieldNameHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.FieldNameHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class FieldNameHelperClassTest
-implements FieldNameHelperClassTests<FieldNameHelper> {
+implements org.j8unit.repository.org.omg.CORBA.FieldNameHelperClassTests<FieldNameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.FieldNameHelper]
 

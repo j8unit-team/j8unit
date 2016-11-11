@@ -19,7 +19,8 @@ import org.omg.CosNaming.NamingContextPOA;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NamingContextPOATests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPOATests}.
  * </p>
  *
  * <p>

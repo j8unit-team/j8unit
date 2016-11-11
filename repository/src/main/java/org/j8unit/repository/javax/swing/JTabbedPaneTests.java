@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JTabbedPaneClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JTabbedPaneClassTests}).
  * </p>
  *
  * @param SUT
@@ -326,28 +326,6 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getComponentAt(int) public
-     * java.awt.Component javax.swing.JTabbedPane.getComponentAt(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponentAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#updateUI() public void
      * javax.swing.JTabbedPane.updateUI()}.
      *
@@ -363,6 +341,28 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#getComponentAt(int) public
+     * java.awt.Component javax.swing.JTabbedPane.getComponentAt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponentAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -756,8 +756,8 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTabbedPane#addTab(String, javax.swing.Icon, java.awt.Component) public void
-     * javax.swing.JTabbedPane.addTab(java.lang.String,javax.swing.Icon,java.awt.Component)}.
+     * {@link javax.swing.JTabbedPane#addTab(String, java.awt.Component) public void
+     * javax.swing.JTabbedPane.addTab(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -769,7 +769,7 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addTab_String_Icon_Component()
+    public default void test_addTab_String_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -802,8 +802,8 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTabbedPane#addTab(String, java.awt.Component) public void
-     * javax.swing.JTabbedPane.addTab(java.lang.String,java.awt.Component)}.
+     * {@link javax.swing.JTabbedPane#addTab(String, javax.swing.Icon, java.awt.Component) public void
+     * javax.swing.JTabbedPane.addTab(java.lang.String,javax.swing.Icon,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -815,29 +815,7 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addTab_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setMnemonicAt(int, int)
-     * public void javax.swing.JTabbedPane.setMnemonicAt(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMnemonicAt_int_int()
+    public default void test_addTab_String_Icon_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -861,6 +839,28 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#setMnemonicAt(int, int)
+     * public void javax.swing.JTabbedPane.setMnemonicAt(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMnemonicAt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1093,29 +1093,6 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTabbedPane#indexOfComponent(java.awt.Component) public int
-     * javax.swing.JTabbedPane.indexOfComponent(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_indexOfComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTabbedPane#setModel(javax.swing.SingleSelectionModel) public void
      * javax.swing.JTabbedPane.setModel(javax.swing.SingleSelectionModel)}.
      *
@@ -1130,6 +1107,29 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setModel_SingleSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTabbedPane#indexOfComponent(java.awt.Component) public int
+     * javax.swing.JTabbedPane.indexOfComponent(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOfComponent_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1368,28 +1368,6 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexOfTab(javax.swing.Icon)
-     * public int javax.swing.JTabbedPane.indexOfTab(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_indexOfTab_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexOfTab(String) public
      * int javax.swing.JTabbedPane.indexOfTab(java.lang.String)}.
      *
@@ -1404,6 +1382,28 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_indexOfTab_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTabbedPane#indexOfTab(javax.swing.Icon)
+     * public int javax.swing.JTabbedPane.indexOfTab(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOfTab_Icon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1436,4 +1436,5 @@ extends AccessibleTests<SUT>, SwingConstantsTests<SUT>, JComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTabbedPane]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTabbedPane]
+
 }

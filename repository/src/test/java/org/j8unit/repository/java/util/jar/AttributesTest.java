@@ -39,7 +39,7 @@ implements FactoryBasedJ8UnitTest<Attributes>, AttributesTests<Attributes> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Name} (by simply reusing the
-     * J8Unit test interface {@link NameTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.jar.AttributesTests.NameTests}).
      */
 
     @RunWith(J8Parameterized.class)

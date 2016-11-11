@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MemoryPoolMXBeanClassTests}).
+ * {@link org.j8unit.repository.java.lang.management.MemoryPoolMXBeanClassTests}).
  * </p>
  *
  * @param SUT
@@ -217,28 +217,6 @@ extends PlatformManagedObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.lang.management.MemoryPoolMXBean#isValid()
-     * public abstract boolean java.lang.management.MemoryPoolMXBean.isValid()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.management.MemoryPoolMXBean#getCollectionUsage() public abstract
      * java.lang.management.MemoryUsage java.lang.management.MemoryPoolMXBean.getCollectionUsage()}.
@@ -299,6 +277,28 @@ extends PlatformManagedObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPeakUsage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.lang.management.MemoryPoolMXBean#isValid()
+     * public abstract boolean java.lang.management.MemoryPoolMXBean.isValid()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -444,4 +444,5 @@ extends PlatformManagedObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.MemoryPoolMXBean]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MemoryPoolMXBean]
+
 }

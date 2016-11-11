@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Spliterator} (by simply reusing the
- * J8Unit test interface {@link SpliteratorTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,7 @@ implements SpliteratorTests<Spliterator<T>, T> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfPrimitive} (by simply reusing
-     * the J8Unit test interface {@link OfPrimitiveTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -53,7 +53,7 @@ implements SpliteratorTests<Spliterator<T>, T> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfLong} (by simply reusing the
-     * J8Unit test interface {@link OfLongTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorTests.OfLongTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -75,7 +75,7 @@ implements SpliteratorTests<Spliterator<T>, T> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfInt} (by simply reusing the
-     * J8Unit test interface {@link OfIntTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorTests.OfIntTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -97,7 +97,7 @@ implements SpliteratorTests<Spliterator<T>, T> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfDouble} (by simply reusing the
-     * J8Unit test interface {@link OfDoubleTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests}).
      */
 
     @RunWith(J8Unit4.class)

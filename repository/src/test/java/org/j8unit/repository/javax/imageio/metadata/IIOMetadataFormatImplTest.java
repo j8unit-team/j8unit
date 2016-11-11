@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link IIOMetadataFormatImpl} (by simply
- * reusing the J8Unit test interface {@link IIOMetadataFormatImplTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplTests}).
  */
 
 @RunWith(J8Unit4.class)

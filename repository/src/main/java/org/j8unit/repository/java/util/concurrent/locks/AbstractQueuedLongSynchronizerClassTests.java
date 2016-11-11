@@ -23,7 +23,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AbstractQueuedLongSynchronizerTests}.
+ * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,8 @@ extends AbstractOwnableSynchronizerClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ConditionObjectTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests.ConditionObjectTests}.
      * </p>
      *
      * <p>

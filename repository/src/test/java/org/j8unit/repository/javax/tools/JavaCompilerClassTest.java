@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JavaCompiler} (by simply reusing the
- * J8Unit test interface {@link JavaCompilerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -27,7 +27,8 @@ implements JavaCompilerClassTests<JavaCompiler> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link CompilationTask} (by simply reusing
-     * the J8Unit test interface {@link CompilationTaskClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests}).
      */
 
     @RunWith(J8Unit4.class)

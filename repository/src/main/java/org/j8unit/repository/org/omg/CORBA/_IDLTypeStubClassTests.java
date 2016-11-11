@@ -18,7 +18,8 @@ import org.omg.CORBA._IDLTypeStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link _IDLTypeStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA._IDLTypeStubTests}.
  * </p>
  *
  * <p>

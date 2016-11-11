@@ -40,7 +40,8 @@ implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, BasicColorChooserUITests
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyHandler} (by simply
-     * reusing the J8Unit test interface {@link PropertyHandlerTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests.PropertyHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)

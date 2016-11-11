@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ControlClassTest
-implements org.j8unit.repository.javax.naming.ldap.ControlClassTests<Control> {
+implements ControlClassTests<Control> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.Control]
 

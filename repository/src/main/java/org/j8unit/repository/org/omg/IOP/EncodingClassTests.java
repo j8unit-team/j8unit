@@ -19,7 +19,8 @@ import org.omg.IOP.Encoding;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link EncodingTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.EncodingTests}.
  * </p>
  *
  * <p>

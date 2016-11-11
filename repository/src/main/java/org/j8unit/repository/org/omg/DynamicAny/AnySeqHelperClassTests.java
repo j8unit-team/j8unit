@@ -18,7 +18,8 @@ import org.omg.DynamicAny.AnySeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AnySeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.AnySeqHelperTests}.
  * </p>
  *
  * <p>

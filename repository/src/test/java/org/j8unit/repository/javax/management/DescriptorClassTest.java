@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Descriptor} (by simply reusing the J8Unit
- * test interface {@link DescriptorClassTests}).
+ * test interface {@link org.j8unit.repository.javax.management.DescriptorClassTests}).
  */
 
 @RunWith(J8Unit4.class)

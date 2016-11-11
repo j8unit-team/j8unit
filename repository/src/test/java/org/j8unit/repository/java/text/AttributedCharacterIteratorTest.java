@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributedCharacterIterator} (by
- * simply reusing the J8Unit test interface {@link AttributedCharacterIteratorTests}).
+ * simply reusing the J8Unit test interface {@link org.j8unit.repository.java.text.AttributedCharacterIteratorTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements AttributedCharacterIteratorTests<AttributedCharacterIterator> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
-     * J8Unit test interface {@link AttributeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests}).
      */
 
     @RunWith(J8Parameterized.class)

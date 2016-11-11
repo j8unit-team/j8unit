@@ -46,7 +46,7 @@ implements FactoryBasedJ8UnitTest<NavigationFilter>, NavigationFilterTests<Navig
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassTest
-    implements org.j8unit.repository.javax.swing.text.NavigationFilterTests.FilterBypassTests<FilterBypass> {
+    implements FilterBypassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NavigationFilter$FilterBypass]
 

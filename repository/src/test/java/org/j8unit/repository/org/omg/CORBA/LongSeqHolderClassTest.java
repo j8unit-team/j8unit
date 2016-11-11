@@ -10,7 +10,7 @@ import org.omg.CORBA.LongSeqHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LongSeqHolder} (by simply reusing the
- * J8Unit test interface {@link LongSeqHolderClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.LongSeqHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

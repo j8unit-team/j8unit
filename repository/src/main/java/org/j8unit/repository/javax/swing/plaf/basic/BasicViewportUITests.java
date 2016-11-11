@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicViewportUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicViewportUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -84,4 +84,5 @@ extends ViewportUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicViewportUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicViewportUI]
+
 }

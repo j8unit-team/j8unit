@@ -14,7 +14,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DigestExceptionClassTests}).
+ * {@link org.j8unit.repository.java.security.DigestExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,4 +32,5 @@ extends GeneralSecurityExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.DigestException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.DigestException]
+
 }

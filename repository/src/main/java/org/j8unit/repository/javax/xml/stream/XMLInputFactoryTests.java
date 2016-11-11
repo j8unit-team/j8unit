@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XMLInputFactoryClassTests}).
+ * {@link org.j8unit.repository.javax.xml.stream.XMLInputFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -59,33 +59,9 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.Reader) public abstract
-     * javax.xml.stream.XMLStreamReader javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.Reader) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLStreamReader_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(javax.xml.transform.Source) public abstract
+     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(String, java.io.Reader) public abstract
      * javax.xml.stream.XMLStreamReader
-     * javax.xml.stream.XMLInputFactory.createXMLStreamReader(javax.xml.transform.Source) throws
+     * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.lang.String,java.io.Reader) throws
      * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,7 +74,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createXMLStreamReader_Source()
+    public default void test_createXMLStreamReader_String_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,31 +134,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(String, java.io.Reader) public abstract
-     * javax.xml.stream.XMLStreamReader
-     * javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.lang.String,java.io.Reader) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLStreamReader_String_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.InputStream) public abstract
      * javax.xml.stream.XMLStreamReader javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.InputStream)
      * throws javax.xml.stream.XMLStreamException}.
@@ -198,6 +149,55 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createXMLStreamReader_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(javax.xml.transform.Source) public abstract
+     * javax.xml.stream.XMLStreamReader
+     * javax.xml.stream.XMLInputFactory.createXMLStreamReader(javax.xml.transform.Source) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLStreamReader_Source()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLStreamReader(java.io.Reader) public abstract
+     * javax.xml.stream.XMLStreamReader javax.xml.stream.XMLInputFactory.createXMLStreamReader(java.io.Reader) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLStreamReader_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -298,30 +298,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.Reader) public abstract
-     * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.Reader) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLEventReader_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(javax.xml.transform.Source) public abstract
      * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(javax.xml.transform.Source)
      * throws javax.xml.stream.XMLStreamException}.
@@ -337,105 +313,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createXMLEventReader_Source()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream, String) public abstract
-     * javax.xml.stream.XMLEventReader
-     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLEventReader_InputStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream) public abstract
-     * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLEventReader_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(String, java.io.InputStream) public abstract
-     * javax.xml.stream.XMLEventReader
-     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.InputStream) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLEventReader_String_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(String, java.io.Reader) public abstract
-     * javax.xml.stream.XMLEventReader
-     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.Reader) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createXMLEventReader_String_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -470,6 +347,129 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream) public abstract
+     * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLEventReader_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.InputStream, String) public abstract
+     * javax.xml.stream.XMLEventReader
+     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.InputStream,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLEventReader_InputStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(String, java.io.Reader) public abstract
+     * javax.xml.stream.XMLEventReader
+     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.Reader) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLEventReader_String_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(java.io.Reader) public abstract
+     * javax.xml.stream.XMLEventReader javax.xml.stream.XMLInputFactory.createXMLEventReader(java.io.Reader) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLEventReader_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createXMLEventReader(String, java.io.InputStream) public abstract
+     * javax.xml.stream.XMLEventReader
+     * javax.xml.stream.XMLInputFactory.createXMLEventReader(java.lang.String,java.io.InputStream) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createXMLEventReader_String_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLInputFactory#setProperty(String, Object) public abstract void
      * javax.xml.stream.XMLInputFactory.setProperty(java.lang.String,java.lang.Object) throws
      * java.lang.IllegalArgumentException}.
@@ -485,31 +485,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLStreamReader, javax.xml.stream.StreamFilter)
-     * public abstract javax.xml.stream.XMLStreamReader
-     * javax.xml.stream.XMLInputFactory.createFilteredReader(javax.xml.stream.XMLStreamReader,javax.xml.stream.StreamFilter)
-     * throws javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createFilteredReader_XMLStreamReader_StreamFilter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -535,6 +510,31 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createFilteredReader_XMLEventReader_EventFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLInputFactory#createFilteredReader(javax.xml.stream.XMLStreamReader, javax.xml.stream.StreamFilter)
+     * public abstract javax.xml.stream.XMLStreamReader
+     * javax.xml.stream.XMLInputFactory.createFilteredReader(javax.xml.stream.XMLStreamReader,javax.xml.stream.StreamFilter)
+     * throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createFilteredReader_XMLStreamReader_StreamFilter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -611,4 +611,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.XMLInputFactory]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLInputFactory]
+
 }

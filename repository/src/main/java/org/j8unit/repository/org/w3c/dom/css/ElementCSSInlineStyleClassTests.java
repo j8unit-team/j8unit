@@ -19,7 +19,7 @@ import org.w3c.dom.css.ElementCSSInlineStyle;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ElementCSSInlineStyleTests}.
+ * {@link org.j8unit.repository.org.w3c.dom.css.ElementCSSInlineStyleTests}.
  * </p>
  *
  * <p>

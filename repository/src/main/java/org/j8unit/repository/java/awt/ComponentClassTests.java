@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.awt.Component;
 import java.awt.Component.BaselineResizeBehavior;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests;
 import org.j8unit.repository.java.awt.image.ImageObserverClassTests;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
@@ -24,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.ComponentTests}.
  * </p>
  *
  * <p>
@@ -89,7 +89,7 @@ extends ImageObserverClassTests<SUT>, MenuContainerClassTests<SUT>, Serializable
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BaselineResizeBehaviorTests}.
+     * {@link org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests}.
      * </p>
      *
      * <p>

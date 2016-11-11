@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XPathFilter2ParameterSpecClassTests}).
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpecClassTests}).
  * </p>
  *
  * @param SUT
@@ -59,4 +59,5 @@ extends TransformParameterSpecTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec]
+
 }

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Struct} (by simply reusing the J8Unit
- * test interface {@link StructClassTests}).
+ * test interface {@link org.j8unit.repository.java.sql.StructClassTests}).
  */
 
 @RunWith(J8Unit4.class)

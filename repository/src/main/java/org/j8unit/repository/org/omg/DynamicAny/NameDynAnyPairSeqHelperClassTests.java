@@ -19,7 +19,7 @@ import org.omg.DynamicAny.NameDynAnyPairSeqHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link NameDynAnyPairSeqHelperTests}.
+ * {@link org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairSeqHelperTests}.
  * </p>
  *
  * <p>

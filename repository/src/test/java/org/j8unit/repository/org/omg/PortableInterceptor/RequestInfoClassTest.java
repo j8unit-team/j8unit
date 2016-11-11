@@ -6,7 +6,7 @@ import org.omg.PortableInterceptor.RequestInfo;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RequestInfo} (by simply reusing the
- * J8Unit test interface {@link RequestInfoClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoClassTests}).
  */
 
 @RunWith(J8Unit4.class)

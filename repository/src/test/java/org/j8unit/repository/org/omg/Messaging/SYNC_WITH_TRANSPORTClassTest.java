@@ -6,7 +6,7 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link SYNC_WITH_TRANSPORT} (by simply reusing
- * the J8Unit test interface {@link SYNC_WITH_TRANSPORTClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.Messaging.SYNC_WITH_TRANSPORTClassTests}).
  */
 
 @RunWith(J8Unit4.class)

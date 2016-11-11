@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RowSetWarning} (by simply reusing the
- * J8Unit test interface {@link RowSetWarningClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests}).
  */
 
 @RunWith(J8Unit4.class)

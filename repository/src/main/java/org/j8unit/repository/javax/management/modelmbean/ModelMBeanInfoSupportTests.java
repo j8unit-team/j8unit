@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ModelMBeanInfoSupportClassTests}).
+ * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -365,9 +365,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getDescription() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -384,8 +384,8 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getDescription();
         MBeanInfoTests.super.test_getDescription();
+        ModelMBeanInfoTests.super.test_getDescription();
     }
 
     /**
@@ -394,9 +394,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getNotifications() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -413,8 +413,8 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getNotifications()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getNotifications();
         MBeanInfoTests.super.test_getNotifications();
+        ModelMBeanInfoTests.super.test_getNotifications();
     }
 
     /**
@@ -423,9 +423,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getAttributes() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -442,8 +442,8 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getAttributes()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getAttributes();
         MBeanInfoTests.super.test_getAttributes();
+        ModelMBeanInfoTests.super.test_getAttributes();
     }
 
     /**
@@ -452,9 +452,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getOperations() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -471,8 +471,8 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getOperations()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getOperations();
         MBeanInfoTests.super.test_getOperations();
+        ModelMBeanInfoTests.super.test_getOperations();
     }
 
     /**
@@ -481,9 +481,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getClassName() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -500,8 +500,8 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getClassName()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getClassName();
         MBeanInfoTests.super.test_getClassName();
+        ModelMBeanInfoTests.super.test_getClassName();
     }
 
     /**
@@ -510,9 +510,9 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.modelmbean.ModelMBeanInfo#getConstructors() interface
      * javax.management.modelmbean.ModelMBeanInfo}</li>
-     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -529,11 +529,12 @@ extends ModelMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
     @Category(Draft.class)
     public default void test_getConstructors()
     throws Exception {
-        ModelMBeanInfoTests.super.test_getConstructors();
         MBeanInfoTests.super.test_getConstructors();
+        ModelMBeanInfoTests.super.test_getConstructors();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]
+
 }

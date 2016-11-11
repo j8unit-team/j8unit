@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.Delegate;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DelegateTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.DelegateTests}.
  * </p>
  *
  * <p>

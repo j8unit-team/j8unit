@@ -6,8 +6,6 @@ import javax.swing.text.Highlighter.HighlightPainter;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightClassTests;
-import org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightPainterClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HighlighterClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.HighlighterClassTests}).
  * </p>
  *
  * @param SUT
@@ -224,6 +222,7 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.Highlighter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Highlighter]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -234,7 +233,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link HighlightPainterClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightPainterClassTests}).
      * </p>
      *
      * @param SUT
@@ -276,6 +275,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.Highlighter$HighlightPainter]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Highlighter$HighlightPainter]
+
     }
 
     /**
@@ -288,7 +288,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link HighlightClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightClassTests}).
      * </p>
      *
      * @param SUT
@@ -375,6 +375,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.Highlighter$Highlight]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Highlighter$Highlight]
+
     }
 
 }

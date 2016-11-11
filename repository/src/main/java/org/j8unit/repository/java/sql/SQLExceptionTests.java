@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SQLExceptionClassTests}).
+ * {@link org.j8unit.repository.java.sql.SQLExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -149,4 +149,5 @@ extends IterableTests<SUT, Throwable>, ExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLException]
+
 }

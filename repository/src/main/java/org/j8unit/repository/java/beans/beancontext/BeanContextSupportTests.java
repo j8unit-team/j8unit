@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BeanContextSupportClassTests}).
+ * {@link org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -259,29 +259,6 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#toArray()
-     * public java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#toArray(Object[]) public java.lang.Object[]
      * java.beans.beancontext.BeanContextSupport.toArray(java.lang.Object[])}.
@@ -306,9 +283,8 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#dontUseGui() public synchronized void
-     * java.beans.beancontext.BeanContextSupport.dontUseGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#toArray()
+     * public java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,7 +297,7 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_dontUseGui()
+    public default void test_toArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -346,6 +322,30 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
     @Test
     @Category(Draft.class)
     public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#dontUseGui() public synchronized void
+     * java.beans.beancontext.BeanContextSupport.dontUseGui()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dontUseGui()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -891,4 +891,5 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]
+
 }

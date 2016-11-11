@@ -18,7 +18,8 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NoContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContextTests}.
  * </p>
  *
  * <p>

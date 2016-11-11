@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MLetClassTests}).
+ * {@link org.j8unit.repository.javax.management.loading.MLetClassTests}).
  * </p>
  *
  * @param SUT
@@ -110,30 +110,6 @@ extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set<java.lang.Object>
-     * javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws javax.management.ServiceNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMBeansFromURL_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.MLet#getMBeansFromURL(String) public java.util.Set<java.lang.Object>
      * javax.management.loading.MLet.getMBeansFromURL(java.lang.String) throws
      * javax.management.ServiceNotFoundException}.
@@ -150,6 +126,30 @@ extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SU
     @Test
     @Category(Draft.class)
     public default void test_getMBeansFromURL_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set<java.lang.Object>
+     * javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws javax.management.ServiceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMBeansFromURL_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -276,29 +276,6 @@ extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SU
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#getLibraryDirectory()
-     * public synchronized java.lang.String javax.management.loading.MLet.getLibraryDirectory()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getLibraryDirectory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.MLet#readExternal(java.io.ObjectInput) public void
      * javax.management.loading.MLet.readExternal(java.io.ObjectInput) throws
@@ -316,6 +293,29 @@ extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SU
     @Test
     @Category(Draft.class)
     public default void test_readExternal_ObjectInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#getLibraryDirectory()
+     * public synchronized java.lang.String javax.management.loading.MLet.getLibraryDirectory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLibraryDirectory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -463,4 +463,5 @@ extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SU
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.MLet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.MLet]
+
 }

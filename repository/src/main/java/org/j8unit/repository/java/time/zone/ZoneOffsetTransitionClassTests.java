@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ZoneOffsetTransitionTests}.
+ * {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionTests}.
  * </p>
  *
  * <p>

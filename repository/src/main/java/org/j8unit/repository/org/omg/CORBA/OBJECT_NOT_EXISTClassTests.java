@@ -17,7 +17,8 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link OBJECT_NOT_EXISTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTTests}.
  * </p>
  *
  * <p>

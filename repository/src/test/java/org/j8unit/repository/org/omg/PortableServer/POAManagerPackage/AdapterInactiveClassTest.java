@@ -10,7 +10,8 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterInactive} (by simply reusing the
- * J8Unit test interface {@link AdapterInactiveClassTests}).
+ * J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveClassTests}).
  */
 
 @RunWith(J8Unit4.class)

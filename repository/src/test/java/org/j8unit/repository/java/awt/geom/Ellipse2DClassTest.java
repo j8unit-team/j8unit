@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Ellipse2D} (by simply reusing the J8Unit
- * test interface {@link Ellipse2DClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.geom.Ellipse2DClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -32,7 +32,7 @@ implements Ellipse2DClassTests<Ellipse2D> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
-     * test interface {@link DoubleClassTests}).
+     * test interface {@link org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.DoubleClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -98,7 +98,7 @@ implements Ellipse2DClassTests<Ellipse2D> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
-     * test interface {@link FloatClassTests}).
+     * test interface {@link org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.FloatClassTests}).
      */
 
     @RunWith(J8Unit4.class)

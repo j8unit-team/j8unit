@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ConcurrentHashMap} (by simply reusing the
- * J8Unit test interface {@link ConcurrentHashMapClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -188,7 +188,8 @@ implements ConcurrentHashMapClassTests<ConcurrentHashMap> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link KeySetView} (by simply reusing the
-     * J8Unit test interface {@link KeySetViewClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests}).
      */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)

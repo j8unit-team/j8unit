@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MetalTabbedPaneUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -85,6 +85,7 @@ extends BasicTabbedPaneUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -114,6 +115,7 @@ extends BasicTabbedPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]
+
     }
 
 }

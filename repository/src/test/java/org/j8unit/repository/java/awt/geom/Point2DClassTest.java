@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Point2D} (by simply reusing the J8Unit
- * test interface {@link Point2DClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests}).
  */
 
 @RunWith(J8Unit4.class)

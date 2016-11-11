@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link FlowView} (by simply reusing the J8Unit
- * test interface {@link FlowViewClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -53,7 +53,7 @@ implements FlowViewClassTests<FlowView> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link FlowStrategy} (by simply reusing the
-     * J8Unit test interface {@link FlowStrategyClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests}).
      */
 
     @RunWith(J8Unit4.class)

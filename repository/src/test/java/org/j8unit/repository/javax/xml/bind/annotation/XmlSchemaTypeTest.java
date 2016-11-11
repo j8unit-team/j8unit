@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlSchemaType} (by simply reusing the
- * J8Unit test interface {@link XmlSchemaTypeTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeTests}).
  */
 
 @RunWith(J8Unit4.class)

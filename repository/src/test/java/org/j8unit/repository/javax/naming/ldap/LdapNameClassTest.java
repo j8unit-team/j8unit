@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LdapName} (by simply reusing the J8Unit
- * test interface {@link LdapNameClassTests}).
+ * test interface {@link org.j8unit.repository.javax.naming.ldap.LdapNameClassTests}).
  */
 
 @RunWith(J8Unit4.class)

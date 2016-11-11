@@ -18,7 +18,8 @@ import org.omg.CORBA.DynAnyPackage.TypeMismatch;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TypeMismatchTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.DynAnyPackage.TypeMismatchTests}.
  * </p>
  *
  * <p>

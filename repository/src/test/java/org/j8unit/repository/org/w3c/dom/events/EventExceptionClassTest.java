@@ -10,7 +10,7 @@ import org.w3c.dom.events.EventException;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link EventException} (by simply reusing the
- * J8Unit test interface {@link EventExceptionClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.events.EventExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

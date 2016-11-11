@@ -18,7 +18,8 @@ import org.omg.CORBA.FieldNameHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FieldNameHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.FieldNameHelperTests}.
  * </p>
  *
  * <p>

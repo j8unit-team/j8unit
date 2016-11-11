@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalBlockingModeException} (by simply
- * reusing the J8Unit test interface {@link IllegalBlockingModeExceptionClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.nio.channels.IllegalBlockingModeExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

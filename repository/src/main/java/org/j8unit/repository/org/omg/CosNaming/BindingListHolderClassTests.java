@@ -19,7 +19,8 @@ import org.omg.CosNaming.BindingListHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BindingListHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.BindingListHolderTests}.
  * </p>
  *
  * <p>

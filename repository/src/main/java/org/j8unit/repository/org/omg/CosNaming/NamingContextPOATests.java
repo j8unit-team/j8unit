@@ -19,7 +19,7 @@ import org.omg.CosNaming.NamingContextPOA;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link NamingContextPOAClassTests}).
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPOAClassTests}).
  * </p>
  *
  * @param SUT
@@ -131,4 +131,5 @@ extends NamingContextOperationsTests<SUT>, InvokeHandlerTests<SUT>, ServantTests
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.NamingContextPOA]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.NamingContextPOA]
+
 }

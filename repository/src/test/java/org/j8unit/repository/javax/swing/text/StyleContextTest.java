@@ -40,30 +40,9 @@ implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext>
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link NamedStyle} (by simply reusing
-     * the J8Unit test interface {@link NamedStyleTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class NamedStyleTest
-    implements NamedStyleTests<NamedStyle> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
-
-        @Override
-        public NamedStyle createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.NamedStyle], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SmallAttributeSet} (by simply
-     * reusing the J8Unit test interface {@link SmallAttributeSetTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -80,6 +59,28 @@ implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link NamedStyle} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class NamedStyleTest
+    implements NamedStyleTests<NamedStyle> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+
+        @Override
+        public NamedStyle createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.NamedStyle], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
 
     }
 

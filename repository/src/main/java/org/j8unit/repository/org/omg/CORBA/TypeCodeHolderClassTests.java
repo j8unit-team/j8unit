@@ -19,7 +19,8 @@ import org.omg.CORBA.TypeCodeHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TypeCodeHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.TypeCodeHolderTests}.
  * </p>
  *
  * <p>

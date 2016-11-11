@@ -5,7 +5,6 @@ import javax.swing.JToggleButton;
 import javax.swing.JToggleButton.ToggleButtonModel;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JToggleButtonTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JToggleButtonTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,7 @@ extends AccessibleClassTests<SUT>, AbstractButtonClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link ToggleButtonModelTests}.
+     * {@link org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests}.
      * </p>
      *
      * <p>

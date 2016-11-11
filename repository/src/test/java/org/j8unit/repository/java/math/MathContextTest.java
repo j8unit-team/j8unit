@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MathContext} (by simply reusing the
- * J8Unit test interface {@link MathContextTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.math.MathContextTests}).
  */
 
 @RunWith(J8Parameterized.class)

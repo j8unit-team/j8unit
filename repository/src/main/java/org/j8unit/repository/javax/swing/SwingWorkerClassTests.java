@@ -7,7 +7,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests;
-import org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SwingWorkerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.SwingWorkerTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,8 @@ extends RunnableFutureClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link StateValueTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests}.
      * </p>
      *
      * <p>

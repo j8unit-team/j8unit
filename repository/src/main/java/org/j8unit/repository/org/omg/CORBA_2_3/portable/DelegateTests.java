@@ -58,4 +58,5 @@ extends org.j8unit.repository.org.omg.CORBA.portable.DelegateTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA_2_3.portable.Delegate]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA_2_3.portable.Delegate]
+
 }

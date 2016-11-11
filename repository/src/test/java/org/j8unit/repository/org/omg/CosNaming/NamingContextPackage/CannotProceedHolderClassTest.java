@@ -10,7 +10,8 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceedHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CannotProceedHolder} (by simply reusing
- * the J8Unit test interface {@link CannotProceedHolderClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

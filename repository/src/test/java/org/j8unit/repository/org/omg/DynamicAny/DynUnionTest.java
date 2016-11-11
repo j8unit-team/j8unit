@@ -7,7 +7,7 @@ import org.omg.DynamicAny.DynUnion;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DynUnion} (by simply reusing the
- * J8Unit test interface {@link DynUnionTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynUnionTests}).
  */
 
 @RunWith(J8Unit4.class)

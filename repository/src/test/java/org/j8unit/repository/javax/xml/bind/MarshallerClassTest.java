@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Marshaller} (by simply reusing the J8Unit
- * test interface {@link MarshallerClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.bind.MarshallerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -32,12 +32,12 @@ implements MarshallerClassTests<Marshaller> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Listener} (by simply reusing the
-     * J8Unit test interface {@link ListenerClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.MarshallerClassTests.ListenerClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class ListenerClassTest
-    implements ListenerClassTests<Listener> {
+    implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests.ListenerClassTests<Listener> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.Marshaller$Listener]
 

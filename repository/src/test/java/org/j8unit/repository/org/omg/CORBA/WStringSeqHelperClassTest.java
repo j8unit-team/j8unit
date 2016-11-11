@@ -11,7 +11,7 @@ import org.omg.CORBA.WStringSeqHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WStringSeqHelper} (by simply reusing the
- * J8Unit test interface {@link WStringSeqHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.WStringSeqHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

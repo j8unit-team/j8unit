@@ -17,7 +17,8 @@ import org.omg.CORBA.PolicyError;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PolicyErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.PolicyErrorTests}.
  * </p>
  *
  * <p>

@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ParagraphViewClassTest
-implements org.j8unit.repository.javax.swing.text.ParagraphViewClassTests<ParagraphView> {
+implements ParagraphViewClassTests<ParagraphView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.ParagraphView]
 

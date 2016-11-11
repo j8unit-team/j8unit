@@ -7,7 +7,7 @@ import org.omg.CosNaming.BindingHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link BindingHelper} (by simply reusing the
- * J8Unit test interface {@link BindingHelperTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.BindingHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

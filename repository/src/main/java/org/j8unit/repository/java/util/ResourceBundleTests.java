@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ResourceBundleClassTests}).
+ * {@link org.j8unit.repository.java.util.ResourceBundleClassTests}).
  * </p>
  *
  * @param SUT
@@ -213,6 +213,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ResourceBundle]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ResourceBundle]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -223,7 +224,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ControlClassTests}).
+     * (see {@link org.j8unit.repository.java.util.ResourceBundleClassTests.ControlClassTests}).
      * </p>
      *
      * @param SUT
@@ -429,6 +430,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ResourceBundle$Control]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ResourceBundle$Control]
+
     }
 
 }

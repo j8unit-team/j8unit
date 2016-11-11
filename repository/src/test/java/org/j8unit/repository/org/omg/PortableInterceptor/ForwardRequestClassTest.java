@@ -15,7 +15,7 @@ import org.omg.PortableInterceptor.ForwardRequest;
 
 @RunWith(J8Unit4.class)
 public class ForwardRequestClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClassTests<ForwardRequest> {
+implements ForwardRequestClassTests<ForwardRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequest]
 

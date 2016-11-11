@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Arrays} (by simply reusing the J8Unit
- * test interface {@link ArraysClassTests}).
+ * test interface {@link org.j8unit.repository.java.util.ArraysClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,6 +22,26 @@ implements ArraysClassTests<Arrays> {
     @Override
     public Class<Arrays> createNewSUT() {
         return Arrays.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(boolean[], int, int)
+     * public static boolean[] java.util.Arrays.copyOfRange(boolean[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyOfRange_booleanArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#copyOfRange(boolean[], int, int)}
     }
 
     /**
@@ -107,26 +127,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(boolean[], int, int)
-     * public static boolean[] java.util.Arrays.copyOfRange(boolean[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copyOfRange_booleanArray_int_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#copyOfRange(boolean[], int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(double[], int, int)
      * public static double[] java.util.Arrays.copyOfRange(double[],int,int)}.
      *
@@ -167,26 +167,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#deepToString(Object[]) public
-     * static java.lang.String java.util.Arrays.deepToString(java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_deepToString_ObjectArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#deepToString(Object[])}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(int[], int, int) public
      * static int[] java.util.Arrays.copyOfRange(int[],int,int)}.
      *
@@ -203,6 +183,26 @@ implements ArraysClassTests<Arrays> {
     public void test_copyOfRange_intArray_int_int()
     throws Exception {
         // write some test for {@link java.util.Arrays#copyOfRange(int[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(char[], int, int)
+     * public static char[] java.util.Arrays.copyOfRange(char[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyOfRange_charArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#copyOfRange(char[], int, int)}
     }
 
     /**
@@ -227,8 +227,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOfRange(char[], int, int)
-     * public static char[] java.util.Arrays.copyOfRange(char[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#deepToString(Object[]) public
+     * static java.lang.String java.util.Arrays.deepToString(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -240,9 +240,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_copyOfRange_charArray_int_int()
+    public void test_deepToString_ObjectArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#copyOfRange(char[], int, int)}
+        // write some test for {@link java.util.Arrays#deepToString(Object[])}
     }
 
     /**
@@ -780,8 +780,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(boolean[], int) public
-     * static boolean[] java.util.Arrays.copyOf(boolean[],int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(char[], int) public static
+     * char[] java.util.Arrays.copyOf(char[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -793,9 +793,29 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_copyOf_booleanArray_int()
+    public void test_copyOf_charArray_int()
     throws Exception {
-        // write some test for {@link java.util.Arrays#copyOf(boolean[], int)}
+        // write some test for {@link java.util.Arrays#copyOf(char[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(float[], int) public static
+     * float[] java.util.Arrays.copyOf(float[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyOf_floatArray_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#copyOf(float[], int)}
     }
 
     /**
@@ -820,8 +840,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(float[], int) public static
-     * float[] java.util.Arrays.copyOf(float[],int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(double[], int) public static
+     * double[] java.util.Arrays.copyOf(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -833,9 +853,50 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_copyOf_floatArray_int()
+    public void test_copyOf_doubleArray_int()
     throws Exception {
-        // write some test for {@link java.util.Arrays#copyOf(float[], int)}
+        // write some test for {@link java.util.Arrays#copyOf(double[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(boolean[], int) public
+     * static boolean[] java.util.Arrays.copyOf(boolean[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyOf_booleanArray_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#copyOf(boolean[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#parallelSetAll(double[], java.util.function.IntToDoubleFunction) public static void
+     * java.util.Arrays.parallelSetAll(double[],java.util.function.IntToDoubleFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSetAll_doubleArray_IntToDoubleFunction()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSetAll(double[], java.util.function.IntToDoubleFunction)}
     }
 
     /**
@@ -883,27 +944,6 @@ implements ArraysClassTests<Arrays> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#parallelSetAll(double[], java.util.function.IntToDoubleFunction) public static void
-     * java.util.Arrays.parallelSetAll(double[],java.util.function.IntToDoubleFunction)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSetAll_doubleArray_IntToDoubleFunction()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSetAll(double[], java.util.function.IntToDoubleFunction)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.Arrays#parallelSetAll(long[], java.util.function.IntToLongFunction) public static void
      * java.util.Arrays.parallelSetAll(long[],java.util.function.IntToLongFunction)}.
      *
@@ -920,46 +960,6 @@ implements ArraysClassTests<Arrays> {
     public void test_parallelSetAll_longArray_IntToLongFunction()
     throws Exception {
         // write some test for {@link java.util.Arrays#parallelSetAll(long[], java.util.function.IntToLongFunction)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(char[], int) public static
-     * char[] java.util.Arrays.copyOf(char[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copyOf_charArray_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#copyOf(char[], int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(double[], int) public static
-     * double[] java.util.Arrays.copyOf(double[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copyOf_doubleArray_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#copyOf(double[], int)}
     }
 
     /**
@@ -984,26 +984,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(int[], int) public static
-     * int[] java.util.Arrays.copyOf(int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copyOf_intArray_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#copyOf(int[], int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(Object[], int, Class) public
      * static <T,U> T[] java.util.Arrays.copyOf(U[],int,java.lang.Class<? extends T[]>)}.
      *
@@ -1020,6 +1000,26 @@ implements ArraysClassTests<Arrays> {
     public void test_copyOf_ObjectArray_int_Class()
     throws Exception {
         // write some test for {@link java.util.Arrays#copyOf(Object[], int, Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#copyOf(int[], int) public static
+     * int[] java.util.Arrays.copyOf(int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyOf_intArray_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#copyOf(int[], int)}
     }
 
     /**
@@ -1444,8 +1444,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(long[], int, int) public
-     * static void java.util.Arrays.sort(long[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(char[]) public static void
+     * java.util.Arrays.sort(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1457,109 +1457,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_sort_longArray_int_int()
+    public void test_sort_charArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#sort(long[], int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(long[]) public static void
-     * java.util.Arrays.sort(long[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_longArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(long[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(double[], int, int) public
-     * static void java.util.Arrays.sort(double[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_doubleArray_int_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(double[], int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(int[]) public static void
-     * java.util.Arrays.sort(int[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_intArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(int[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(double[]) public static void
-     * java.util.Arrays.sort(double[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_doubleArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(double[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(Object[]) public static void
-     * java.util.Arrays.sort(java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_ObjectArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(Object[])}
+        // write some test for {@link java.util.Arrays#sort(char[])}
     }
 
     /**
@@ -1584,9 +1484,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#sort(Object[], int, int, java.util.Comparator) public static <T> void
-     * java.util.Arrays.sort(T[],int,int,java.util.Comparator<? super T>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(long[]) public static void
+     * java.util.Arrays.sort(long[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1598,9 +1497,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_sort_ObjectArray_int_int_Comparator()
+    public void test_sort_longArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#sort(Object[], int, int, java.util.Comparator)}
+        // write some test for {@link java.util.Arrays#sort(long[])}
     }
 
     /**
@@ -1621,6 +1520,46 @@ implements ArraysClassTests<Arrays> {
     public void test_sort_intArray_int_int()
     throws Exception {
         // write some test for {@link java.util.Arrays#sort(int[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(long[], int, int) public
+     * static void java.util.Arrays.sort(long[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_longArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(long[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(double[]) public static void
+     * java.util.Arrays.sort(double[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_doubleArray()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(double[])}
     }
 
     /**
@@ -1665,47 +1604,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#sort(Object[], java.util.Comparator) public static <T> void
-     * java.util.Arrays.sort(T[],java.util.Comparator<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_ObjectArray_Comparator()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(Object[], java.util.Comparator)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(char[]) public static void
-     * java.util.Arrays.sort(char[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_charArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(char[])}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(char[], int, int) public
      * static void java.util.Arrays.sort(char[],int,int)}.
      *
@@ -1722,46 +1620,6 @@ implements ArraysClassTests<Arrays> {
     public void test_sort_charArray_int_int()
     throws Exception {
         // write some test for {@link java.util.Arrays#sort(char[], int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(short[], int, int) public
-     * static void java.util.Arrays.sort(short[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_shortArray_int_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(short[], int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(short[]) public static void
-     * java.util.Arrays.sort(short[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_sort_shortArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#sort(short[])}
     }
 
     /**
@@ -1786,6 +1644,108 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#sort(Object[], int, int, java.util.Comparator) public static <T> void
+     * java.util.Arrays.sort(T[],int,int,java.util.Comparator<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_ObjectArray_int_int_Comparator()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(Object[], int, int, java.util.Comparator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(short[], int, int) public
+     * static void java.util.Arrays.sort(short[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_shortArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(short[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(int[]) public static void
+     * java.util.Arrays.sort(int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_intArray()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(int[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#sort(Object[], java.util.Comparator) public static <T> void
+     * java.util.Arrays.sort(T[],java.util.Comparator<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_ObjectArray_Comparator()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(Object[], java.util.Comparator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(double[], int, int) public
+     * static void java.util.Arrays.sort(double[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_sort_doubleArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#sort(double[], int, int)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(Object[], int, int) public
      * static void java.util.Arrays.sort(java.lang.Object[],int,int)}.
      *
@@ -1806,8 +1766,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(float[], float) public static
-     * void java.util.Arrays.fill(float[],float)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(Object[]) public static void
+     * java.util.Arrays.sort(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1819,15 +1779,15 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_floatArray_float()
+    public void test_sort_ObjectArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(float[], float)}
+        // write some test for {@link java.util.Arrays#sort(Object[])}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(double[], int, int, double)
-     * public static void java.util.Arrays.fill(double[],int,int,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#sort(short[]) public static void
+     * java.util.Arrays.sort(short[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1839,9 +1799,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_doubleArray_int_int_double()
+    public void test_sort_shortArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(double[], int, int, double)}
+        // write some test for {@link java.util.Arrays#sort(short[])}
     }
 
     /**
@@ -1866,8 +1826,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(char[], int, int, char) public
-     * static void java.util.Arrays.fill(char[],int,int,char)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(double[], int, int, double)
+     * public static void java.util.Arrays.fill(double[],int,int,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1879,9 +1839,29 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_charArray_int_int_char()
+    public void test_fill_doubleArray_int_int_double()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(char[], int, int, char)}
+        // write some test for {@link java.util.Arrays#fill(double[], int, int, double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(float[], float) public static
+     * void java.util.Arrays.fill(float[],float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fill_floatArray_float()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#fill(float[], float)}
     }
 
     /**
@@ -1926,8 +1906,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(Object[], int, int, Object)
-     * public static void java.util.Arrays.fill(java.lang.Object[],int,int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(long[], int, int, long) public
+     * static void java.util.Arrays.fill(long[],int,int,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1939,29 +1919,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_ObjectArray_int_int_Object()
+    public void test_fill_longArray_int_int_long()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(Object[], int, int, Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(boolean[], boolean) public
-     * static void java.util.Arrays.fill(boolean[],boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_fill_booleanArray_boolean()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#fill(boolean[], boolean)}
+        // write some test for {@link java.util.Arrays#fill(long[], int, int, long)}
     }
 
     /**
@@ -1986,8 +1946,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(int[], int) public static void
-     * java.util.Arrays.fill(int[],int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(byte[], int, int, byte) public
+     * static void java.util.Arrays.fill(byte[],int,int,byte)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1999,9 +1959,29 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_intArray_int()
+    public void test_fill_byteArray_int_int_byte()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(int[], int)}
+        // write some test for {@link java.util.Arrays#fill(byte[], int, int, byte)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(boolean[], boolean) public
+     * static void java.util.Arrays.fill(boolean[],boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fill_booleanArray_boolean()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#fill(boolean[], boolean)}
     }
 
     /**
@@ -2026,26 +2006,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(Object[], Object) public
-     * static void java.util.Arrays.fill(java.lang.Object[],java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_fill_ObjectArray_Object()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#fill(Object[], Object)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(short[], short) public static
      * void java.util.Arrays.fill(short[],short)}.
      *
@@ -2066,6 +2026,46 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(Object[], int, int, Object)
+     * public static void java.util.Arrays.fill(java.lang.Object[],int,int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fill_ObjectArray_int_int_Object()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#fill(Object[], int, int, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(Object[], Object) public
+     * static void java.util.Arrays.fill(java.lang.Object[],java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fill_ObjectArray_Object()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#fill(Object[], Object)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(float[], int, int, float)
      * public static void java.util.Arrays.fill(float[],int,int,float)}.
      *
@@ -2082,26 +2082,6 @@ implements ArraysClassTests<Arrays> {
     public void test_fill_floatArray_int_int_float()
     throws Exception {
         // write some test for {@link java.util.Arrays#fill(float[], int, int, float)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(byte[], int, int, byte) public
-     * static void java.util.Arrays.fill(byte[],int,int,byte)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_fill_byteArray_int_int_byte()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#fill(byte[], int, int, byte)}
     }
 
     /**
@@ -2146,8 +2126,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(long[], int, int, long) public
-     * static void java.util.Arrays.fill(long[],int,int,long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(int[], int) public static void
+     * java.util.Arrays.fill(int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2159,9 +2139,29 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_fill_longArray_int_int_long()
+    public void test_fill_intArray_int()
     throws Exception {
-        // write some test for {@link java.util.Arrays#fill(long[], int, int, long)}
+        // write some test for {@link java.util.Arrays#fill(int[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#fill(char[], int, int, char) public
+     * static void java.util.Arrays.fill(char[],int,int,char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_fill_charArray_int_int_char()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#fill(char[], int, int, char)}
     }
 
     /**
@@ -2227,6 +2227,27 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#binarySearch(long[], int, int, long) public static int
+     * java.util.Arrays.binarySearch(long[],int,int,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_longArray_int_int_long()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(long[], int, int, long)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(char[], char) public
      * static int java.util.Arrays.binarySearch(char[],char)}.
      *
@@ -2243,6 +2264,189 @@ implements ArraysClassTests<Arrays> {
     public void test_binarySearch_charArray_char()
     throws Exception {
         // write some test for {@link java.util.Arrays#binarySearch(char[], char)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#binarySearch(Object[], Object, java.util.Comparator) public static <T> int
+     * java.util.Arrays.binarySearch(T[],T,java.util.Comparator<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_ObjectArray_Object_Comparator()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(Object[], Object, java.util.Comparator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#binarySearch(short[], int, int, short) public static int
+     * java.util.Arrays.binarySearch(short[],int,int,short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_shortArray_int_int_short()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(short[], int, int, short)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(short[], short) public
+     * static int java.util.Arrays.binarySearch(short[],short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_shortArray_short()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(short[], short)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(long[], long) public
+     * static int java.util.Arrays.binarySearch(long[],long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_longArray_long()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(long[], long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(byte[], byte) public
+     * static int java.util.Arrays.binarySearch(byte[],byte)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_byteArray_byte()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(byte[], byte)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(double[], double)
+     * public static int java.util.Arrays.binarySearch(double[],double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_doubleArray_double()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(double[], double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(Object[], Object)
+     * public static int java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_ObjectArray_Object()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(Object[], Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#binarySearch(float[], int, int, float) public static int
+     * java.util.Arrays.binarySearch(float[],int,int,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_floatArray_int_int_float()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(float[], int, int, float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(float[], float) public
+     * static int java.util.Arrays.binarySearch(float[],float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_binarySearch_floatArray_float()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#binarySearch(float[], float)}
     }
 
     /**
@@ -2269,129 +2473,6 @@ implements ArraysClassTests<Arrays> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#binarySearch(long[], int, int, long) public static int
-     * java.util.Arrays.binarySearch(long[],int,int,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_longArray_int_int_long()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(long[], int, int, long)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(long[], long) public
-     * static int java.util.Arrays.binarySearch(long[],long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_longArray_long()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(long[], long)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#binarySearch(Object[], Object, java.util.Comparator) public static <T> int
-     * java.util.Arrays.binarySearch(T[],T,java.util.Comparator<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_ObjectArray_Object_Comparator()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(Object[], Object, java.util.Comparator)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(Object[], Object)
-     * public static int java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_ObjectArray_Object()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(Object[], Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(byte[], byte) public
-     * static int java.util.Arrays.binarySearch(byte[],byte)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_byteArray_byte()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(byte[], byte)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#binarySearch(float[], int, int, float) public static int
-     * java.util.Arrays.binarySearch(float[],int,int,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_floatArray_int_int_float()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(float[], int, int, float)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.Arrays#binarySearch(byte[], int, int, byte) public static int
      * java.util.Arrays.binarySearch(byte[],int,int,byte)}.
      *
@@ -2408,87 +2489,6 @@ implements ArraysClassTests<Arrays> {
     public void test_binarySearch_byteArray_int_int_byte()
     throws Exception {
         // write some test for {@link java.util.Arrays#binarySearch(byte[], int, int, byte)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(double[], double)
-     * public static int java.util.Arrays.binarySearch(double[],double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_doubleArray_double()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(double[], double)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(short[], short) public
-     * static int java.util.Arrays.binarySearch(short[],short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_shortArray_short()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(short[], short)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#binarySearch(short[], int, int, short) public static int
-     * java.util.Arrays.binarySearch(short[],int,int,short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_shortArray_int_int_short()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(short[], int, int, short)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#binarySearch(float[], float) public
-     * static int java.util.Arrays.binarySearch(float[],float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_binarySearch_floatArray_float()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#binarySearch(float[], float)}
     }
 
     /**
@@ -2535,8 +2535,8 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(float[]) public static
-     * void java.util.Arrays.parallelSort(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(byte[]) public static
+     * void java.util.Arrays.parallelSort(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2548,9 +2548,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_parallelSort_floatArray()
+    public void test_parallelSort_byteArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(float[])}
+        // write some test for {@link java.util.Arrays#parallelSort(byte[])}
     }
 
     /**
@@ -2575,47 +2575,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(long[]) public static
-     * void java.util.Arrays.parallelSort(long[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_longArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(long[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#parallelSort(Object[], java.util.Comparator) public static <T> void
-     * java.util.Arrays.parallelSort(T[],java.util.Comparator<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_ObjectArray_Comparator()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(Object[], java.util.Comparator)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(int[]) public static
      * void java.util.Arrays.parallelSort(int[])}.
      *
@@ -2632,67 +2591,6 @@ implements ArraysClassTests<Arrays> {
     public void test_parallelSort_intArray()
     throws Exception {
         // write some test for {@link java.util.Arrays#parallelSort(int[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#parallelSort(Object[], int, int, java.util.Comparator) public static <T> void
-     * java.util.Arrays.parallelSort(T[],int,int,java.util.Comparator<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_ObjectArray_int_int_Comparator()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(Object[], int, int, java.util.Comparator)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(byte[]) public static
-     * void java.util.Arrays.parallelSort(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_byteArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(byte[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(int[], int, int)
-     * public static void java.util.Arrays.parallelSort(int[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_intArray_int_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(int[], int, int)}
     }
 
     /**
@@ -2737,26 +2635,6 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(byte[], int, int)
-     * public static void java.util.Arrays.parallelSort(byte[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parallelSort_byteArray_int_int()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(byte[], int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(short[], int, int)
      * public static void java.util.Arrays.parallelSort(short[],int,int)}.
      *
@@ -2773,6 +2651,86 @@ implements ArraysClassTests<Arrays> {
     public void test_parallelSort_shortArray_int_int()
     throws Exception {
         // write some test for {@link java.util.Arrays#parallelSort(short[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(long[]) public static
+     * void java.util.Arrays.parallelSort(long[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_longArray()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(long[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(int[], int, int)
+     * public static void java.util.Arrays.parallelSort(int[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_intArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(int[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(float[]) public static
+     * void java.util.Arrays.parallelSort(float[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_floatArray()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(float[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(Comparable[]) public
+     * static <T> void java.util.Arrays.parallelSort(T[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_ComparableArray()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(Comparable[])}
     }
 
     /**
@@ -2797,6 +2755,27 @@ implements ArraysClassTests<Arrays> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#parallelSort(Comparable[], int, int) public static <T> void
+     * java.util.Arrays.parallelSort(T[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_ComparableArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(Comparable[], int, int)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(double[]) public
      * static void java.util.Arrays.parallelSort(double[])}.
      *
@@ -2813,6 +2792,47 @@ implements ArraysClassTests<Arrays> {
     public void test_parallelSort_doubleArray()
     throws Exception {
         // write some test for {@link java.util.Arrays#parallelSort(double[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Arrays#parallelSort(Object[], int, int, java.util.Comparator) public static <T> void
+     * java.util.Arrays.parallelSort(T[],int,int,java.util.Comparator<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_ObjectArray_int_int_Comparator()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(Object[], int, int, java.util.Comparator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(byte[], int, int)
+     * public static void java.util.Arrays.parallelSort(byte[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parallelSort_byteArray_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Arrays#parallelSort(byte[], int, int)}
     }
 
     /**
@@ -2858,8 +2878,8 @@ implements ArraysClassTests<Arrays> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Arrays#parallelSort(Comparable[], int, int) public static <T> void
-     * java.util.Arrays.parallelSort(T[],int,int)}.
+     * {@link java.util.Arrays#parallelSort(Object[], java.util.Comparator) public static <T> void
+     * java.util.Arrays.parallelSort(T[],java.util.Comparator<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2871,15 +2891,15 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_parallelSort_ComparableArray_int_int()
+    public void test_parallelSort_ObjectArray_Comparator()
     throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(Comparable[], int, int)}
+        // write some test for {@link java.util.Arrays#parallelSort(Object[], java.util.Comparator)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#parallelSort(Comparable[]) public
-     * static <T> void java.util.Arrays.parallelSort(T[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#hashCode(float[]) public static int
+     * java.util.Arrays.hashCode(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2891,9 +2911,9 @@ implements ArraysClassTests<Arrays> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_parallelSort_ComparableArray()
+    public void test_hashCode_floatArray()
     throws Exception {
-        // write some test for {@link java.util.Arrays#parallelSort(Comparable[])}
+        // write some test for {@link java.util.Arrays#hashCode(float[])}
     }
 
     /**
@@ -2934,26 +2954,6 @@ implements ArraysClassTests<Arrays> {
     public void test_hashCode_booleanArray()
     throws Exception {
         // write some test for {@link java.util.Arrays#hashCode(boolean[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Arrays#hashCode(float[]) public static int
-     * java.util.Arrays.hashCode(float[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_hashCode_floatArray()
-    throws Exception {
-        // write some test for {@link java.util.Arrays#hashCode(float[])}
     }
 
     /**

@@ -17,7 +17,8 @@ import org.omg.DynamicAny.DynArray;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DynArrayTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynArrayTests}.
  * </p>
  *
  * <p>

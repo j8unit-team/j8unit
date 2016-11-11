@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AnnotatedTypeVariableTests}.
+ * {@link org.j8unit.repository.java.lang.reflect.AnnotatedTypeVariableTests}.
  * </p>
  *
  * <p>

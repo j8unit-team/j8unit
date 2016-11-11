@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RowFilter} (by simply reusing the
- * J8Unit test interface {@link RowFilterTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,8 +34,30 @@ implements RowFilterTests<RowFilter<M, I>, M, I> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter]
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Entry} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests.EntryTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class EntryTest<M, I>
+    implements EntryTests<Entry<M, I>, M, I> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$Entry]
+
+        @Override
+        public Entry<M, I> createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.RowFilter.Entry], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$Entry]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$Entry]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ComparisonType} (by simply
-     * reusing the J8Unit test interface {@link ComparisonTypeTests}).
+     * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests.ComparisonTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -61,28 +83,6 @@ implements RowFilterTests<RowFilter<M, I>, M, I> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link Entry} (by simply reusing the
-     * J8Unit test interface {@link EntryTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class EntryTest<M, I>
-    implements EntryTests<Entry<M, I>, M, I> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$Entry]
-
-        @Override
-        public Entry<M, I> createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.RowFilter.Entry], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$Entry]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$Entry]
 
     }
 

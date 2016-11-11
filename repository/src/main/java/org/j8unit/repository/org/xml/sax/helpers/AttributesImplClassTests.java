@@ -19,7 +19,8 @@ import org.xml.sax.helpers.AttributesImpl;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AttributesImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.helpers.AttributesImplTests}.
  * </p>
  *
  * <p>

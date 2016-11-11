@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +19,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultHighlighterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,7 @@ extends LayeredHighlighterClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DefaultHighlightPainterTests}.
+     * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests}.
      * </p>
      *
      * <p>

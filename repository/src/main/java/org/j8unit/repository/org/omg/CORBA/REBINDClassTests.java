@@ -17,7 +17,8 @@ import org.omg.CORBA.REBIND;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link REBINDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.REBINDTests}.
  * </p>
  *
  * <p>

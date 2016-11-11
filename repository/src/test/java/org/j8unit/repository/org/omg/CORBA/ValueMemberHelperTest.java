@@ -7,7 +7,7 @@ import org.omg.CORBA.ValueMemberHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ValueMemberHelper} (by simply reusing
- * the J8Unit test interface {@link ValueMemberHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ValueMemberHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

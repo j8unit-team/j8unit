@@ -7,7 +7,7 @@ import org.w3c.dom.html.HTMLObjectElement;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLObjectElement} (by simply reusing
- * the J8Unit test interface {@link HTMLObjectElementTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLObjectElementTests}).
  */
 
 @RunWith(J8Unit4.class)

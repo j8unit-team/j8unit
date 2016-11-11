@@ -23,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicScrollBarUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -279,30 +279,6 @@ extends LayoutManagerTests<SUT>, SwingConstantsTests<SUT>, ScrollBarUITests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicScrollBarUI#addLayoutComponent(String, java.awt.Component) public void
-     * javax.swing.plaf.basic.BasicScrollBarUI.addLayoutComponent(java.lang.String,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicScrollBarUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicScrollBarUI.uninstallUI(javax.swing.JComponent)}.
      *
@@ -324,9 +300,34 @@ extends LayoutManagerTests<SUT>, SwingConstantsTests<SUT>, ScrollBarUITests<SUT>
         assert sut != null;
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicScrollBarUI#addLayoutComponent(String, java.awt.Component) public void
+     * javax.swing.plaf.basic.BasicScrollBarUI.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addLayoutComponent_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -381,6 +382,7 @@ extends LayoutManagerTests<SUT>, SwingConstantsTests<SUT>, ScrollBarUITests<SUT>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
+
     }
 
 }

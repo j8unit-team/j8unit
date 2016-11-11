@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SequenceInputStreamClassTests}).
+ * {@link org.j8unit.repository.java.io.SequenceInputStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -127,4 +127,5 @@ extends InputStreamTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.SequenceInputStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.SequenceInputStream]
+
 }

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link VetoableChangeListenerProxy} (by simply
- * reusing the J8Unit test interface {@link VetoableChangeListenerProxyClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.beans.VetoableChangeListenerProxyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

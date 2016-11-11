@@ -22,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link YearClassTests}).
+ * {@link org.j8unit.repository.java.time.YearClassTests}).
  * </p>
  *
  * @param SUT
@@ -225,28 +225,6 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#atDay(int) public java.time.LocalDate
-     * java.time.Year.atDay(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_atDay_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.Year#minusYears(long) public
      * java.time.Year java.time.Year.minusYears(long)}.
      *
@@ -261,6 +239,28 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
     @Test
     @Category(Draft.class)
     public default void test_minusYears_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#atDay(int) public java.time.LocalDate
+     * java.time.Year.atDay(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_atDay_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -337,6 +337,28 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#isBefore(java.time.Year) public
+     * boolean java.time.Year.isBefore(java.time.Year)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBefore_Year()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.Year#isValidMonthDay(java.time.MonthDay)
      * public boolean java.time.Year.isValidMonthDay(java.time.MonthDay)}.
      *
@@ -351,30 +373,6 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
     @Test
     @Category(Draft.class)
     public default void test_isValidMonthDay_MonthDay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.Year#plus(java.time.temporal.TemporalAmount) public java.time.Year
-     * java.time.Year.plus(java.time.temporal.TemporalAmount)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -407,8 +405,9 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#isBefore(java.time.Year) public
-     * boolean java.time.Year.isBefore(java.time.Year)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.Year#plus(java.time.temporal.TemporalAmount) public java.time.Year
+     * java.time.Year.plus(java.time.temporal.TemporalAmount)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -418,9 +417,10 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_isBefore_Year()
+    public default void test_plus_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -753,4 +753,5 @@ extends TemporalTests<SUT>, TemporalAdjusterTests<SUT>, ComparableTests<SUT, Yea
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.Year]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Year]
+
 }

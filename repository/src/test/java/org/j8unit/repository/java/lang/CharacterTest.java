@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Character} (by simply reusing the
- * J8Unit test interface {@link CharacterTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -36,7 +36,7 @@ implements CharacterTests<Character> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeScript} (by simply reusing
-     * the J8Unit test interface {@link UnicodeScriptTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -67,7 +67,7 @@ implements CharacterTests<Character> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Subset} (by simply reusing the
-     * J8Unit test interface {@link SubsetTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.SubsetTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -89,7 +89,7 @@ implements CharacterTests<Character> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeBlock} (by simply reusing
-     * the J8Unit test interface {@link UnicodeBlockTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests}).
      */
 
     @RunWith(J8Parameterized.class)

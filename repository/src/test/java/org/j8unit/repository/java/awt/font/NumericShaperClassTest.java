@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NumericShaper} (by simply reusing the
- * J8Unit test interface {@link NumericShaperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.font.NumericShaperClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -157,7 +157,7 @@ implements NumericShaperClassTests<NumericShaper> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Range} (by simply reusing the J8Unit
-     * test interface {@link RangeClassTests}).
+     * test interface {@link org.j8unit.repository.java.awt.font.NumericShaperClassTests.RangeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

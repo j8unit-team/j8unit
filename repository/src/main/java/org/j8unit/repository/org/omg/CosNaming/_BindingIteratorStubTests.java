@@ -18,7 +18,7 @@ import org.omg.CosNaming._BindingIteratorStub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _BindingIteratorStubClassTests}).
+ * {@link org.j8unit.repository.org.omg.CosNaming._BindingIteratorStubClassTests}).
  * </p>
  *
  * @param SUT
@@ -130,4 +130,5 @@ extends BindingIteratorTests<SUT>, ObjectImplTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
+
 }

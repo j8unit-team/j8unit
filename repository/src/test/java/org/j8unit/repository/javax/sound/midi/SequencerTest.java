@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Sequencer} (by simply reusing the
- * J8Unit test interface {@link SequencerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.SequencerTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements SequencerTests<Sequencer> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SyncMode} (by simply reusing the
-     * J8Unit test interface {@link SyncModeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests}).
      */
 
     @RunWith(J8Parameterized.class)

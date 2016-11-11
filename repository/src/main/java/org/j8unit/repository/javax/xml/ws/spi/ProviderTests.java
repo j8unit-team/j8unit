@@ -300,4 +300,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.spi.Provider]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.spi.Provider]
+
 }

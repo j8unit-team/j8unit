@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HashPrintRequestAttributeSetClassTests}).
+ * {@link org.j8unit.repository.javax.print.attribute.HashPrintRequestAttributeSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -38,10 +38,10 @@ extends PrintRequestAttributeSetTests<SUT>, HashAttributeSetTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) interface
-     * javax.print.attribute.PrintRequestAttributeSet}</li>
      * <li>{@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) class
      * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) interface
+     * javax.print.attribute.PrintRequestAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -58,8 +58,8 @@ extends PrintRequestAttributeSetTests<SUT>, HashAttributeSetTests<SUT> {
     @Category(Draft.class)
     public default void test_add_Attribute()
     throws Exception {
-        PrintRequestAttributeSetTests.super.test_add_Attribute();
         HashAttributeSetTests.super.test_add_Attribute();
+        PrintRequestAttributeSetTests.super.test_add_Attribute();
     }
 
     /**
@@ -68,10 +68,10 @@ extends PrintRequestAttributeSetTests<SUT>, HashAttributeSetTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
-     * javax.print.attribute.PrintRequestAttributeSet}</li>
      * <li>{@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) class
      * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
+     * javax.print.attribute.PrintRequestAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -88,11 +88,12 @@ extends PrintRequestAttributeSetTests<SUT>, HashAttributeSetTests<SUT> {
     @Category(Draft.class)
     public default void test_addAll_AttributeSet()
     throws Exception {
-        PrintRequestAttributeSetTests.super.test_addAll_AttributeSet();
         HashAttributeSetTests.super.test_addAll_AttributeSet();
+        PrintRequestAttributeSetTests.super.test_addAll_AttributeSet();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
+
 }

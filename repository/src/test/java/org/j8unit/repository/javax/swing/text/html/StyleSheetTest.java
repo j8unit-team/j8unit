@@ -40,30 +40,8 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, StyleSheetTests<StyleSheet> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ListPainter} (by simply reusing
-     * the J8Unit test interface {@link ListPainterTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListPainterTest
-    implements ListPainterTests<ListPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        @Override
-        public ListPainter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.ListPainter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BoxPainter} (by simply reusing
-     * the J8Unit test interface {@link BoxPainterTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -80,6 +58,28 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, StyleSheetTests<StyleSheet> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ListPainter} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListPainterTest
+    implements ListPainterTests<ListPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        @Override
+        public ListPainter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.ListPainter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
 
     }
 

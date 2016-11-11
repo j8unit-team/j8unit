@@ -17,7 +17,8 @@ import org.omg.CORBA.DATA_CONVERSION;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DATA_CONVERSIONTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONTests}.
  * </p>
  *
  * <p>

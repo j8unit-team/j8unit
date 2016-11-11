@@ -16,7 +16,7 @@ import org.omg.PortableServer.AdapterActivator;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AdapterActivatorClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableServer.AdapterActivatorClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,4 +34,5 @@ extends AdapterActivatorOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<S
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.AdapterActivator]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.AdapterActivator]
+
 }

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AudioFormat} (by simply reusing the
- * J8Unit test interface {@link AudioFormatClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -105,7 +105,8 @@ implements AudioFormatClassTests<AudioFormat> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Encoding} (by simply reusing the
-     * J8Unit test interface {@link EncodingClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests.EncodingClassTests}).
      */
 
     @RunWith(J8Unit4.class)

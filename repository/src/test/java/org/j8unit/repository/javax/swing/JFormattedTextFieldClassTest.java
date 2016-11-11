@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JFormattedTextField} (by simply reusing
- * the J8Unit test interface {@link JFormattedTextFieldClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -174,51 +174,9 @@ implements JFormattedTextFieldClassTests<JFormattedTextField> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractFormatter} (by simply reusing
-     * the J8Unit test interface {@link AbstractFormatterClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class AbstractFormatterClassTest
-    implements AbstractFormatterClassTests<AbstractFormatter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-        @Override
-        public Class<AbstractFormatter> createNewSUT() {
-            return AbstractFormatter.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JFormattedTextField.AbstractFormatter#AbstractFormatter() public
-         * javax.swing.JFormattedTextField$AbstractFormatter()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("Cannot construct an abstract class!")
-        @Test
-        @Category(Draft.class)
-        public void create_AbstractFormatter()
-        throws Exception {
-            fail("Cannot construct an abstract class!");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractFormatterFactory} (by simply
-     * reusing the J8Unit test interface {@link AbstractFormatterFactoryClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterFactoryClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -250,12 +208,56 @@ implements JFormattedTextFieldClassTests<JFormattedTextField> {
         @Category(Draft.class)
         public void create_AbstractFormatterFactory()
         throws Exception {
-            Assert.fail("Cannot construct an abstract class!");
+            fail("Cannot construct an abstract class!");
         }
 
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractFormatter} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class AbstractFormatterClassTest
+    implements AbstractFormatterClassTests<AbstractFormatter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+        @Override
+        public Class<AbstractFormatter> createNewSUT() {
+            return AbstractFormatter.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JFormattedTextField.AbstractFormatter#AbstractFormatter() public
+         * javax.swing.JFormattedTextField$AbstractFormatter()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("Cannot construct an abstract class!")
+        @Test
+        @Category(Draft.class)
+        public void create_AbstractFormatter()
+        throws Exception {
+            Assert.fail("Cannot construct an abstract class!");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
     }
 

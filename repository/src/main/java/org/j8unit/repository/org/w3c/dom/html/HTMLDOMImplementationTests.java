@@ -18,7 +18,7 @@ import org.w3c.dom.html.HTMLDOMImplementation;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HTMLDOMImplementationClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLDOMImplementationClassTests}).
  * </p>
  *
  * @param SUT
@@ -59,4 +59,5 @@ extends DOMImplementationTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLDOMImplementation]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLDOMImplementation]
+
 }

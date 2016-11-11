@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TableView} (by simply reusing the J8Unit
- * test interface {@link TableViewClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -53,53 +53,8 @@ implements TableViewClassTests<TableView> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link TableCell} (by simply reusing the
-     * J8Unit test interface {@link TableCellClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class TableCellClassTest
-    implements TableCellClassTests<TableCell> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.TableView$TableCell]
-
-        @Override
-        public Class<TableCell> createNewSUT() {
-            return TableCell.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.TableView.TableCell#TableCell(javax.swing.text.TableView, javax.swing.text.Element)
-         * public javax.swing.text.TableView$TableCell(javax.swing.text.TableView,javax.swing.text.Element)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TableCell_TableView_Element()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TableCell sut = null; // = new TableCell(javax.swing.text.TableView, javax.swing.text.Element);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableCell]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableCell]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TableRow} (by simply reusing the
-     * J8Unit test interface {@link TableRowClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests.TableRowClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -139,6 +94,51 @@ implements TableViewClassTests<TableView> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableRow]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableRow]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TableCell} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TableCellClassTest
+    implements TableCellClassTests<TableCell> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.TableView$TableCell]
+
+        @Override
+        public Class<TableCell> createNewSUT() {
+            return TableCell.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.TableView.TableCell#TableCell(javax.swing.text.TableView, javax.swing.text.Element)
+         * public javax.swing.text.TableView$TableCell(javax.swing.text.TableView,javax.swing.text.Element)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TableCell_TableView_Element()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TableCell sut = null; // = new TableCell(javax.swing.text.TableView, javax.swing.text.Element);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableCell]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableCell]
 
     }
 

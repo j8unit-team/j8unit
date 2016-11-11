@@ -7,8 +7,6 @@ import javax.swing.plaf.basic.BasicTextUI.BasicHighlighter;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.swing.plaf.TextUIClassTests;
 import org.j8unit.repository.javax.swing.plaf.UIResourceClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests;
 import org.j8unit.repository.javax.swing.text.DefaultCaretClassTests;
 import org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests;
 import org.j8unit.repository.javax.swing.text.ViewFactoryClassTests;
@@ -27,7 +25,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicTextUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests}.
  * </p>
  *
  * <p>
@@ -92,7 +91,7 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicHighlighterTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests}.
      * </p>
      *
      * <p>
@@ -158,7 +157,8 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicCaretTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests}.
      * </p>
      *
      * <p>

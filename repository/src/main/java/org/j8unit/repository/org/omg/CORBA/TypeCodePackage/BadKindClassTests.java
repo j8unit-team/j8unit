@@ -18,7 +18,8 @@ import org.omg.CORBA.TypeCodePackage.BadKind;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BadKindTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BadKindTests}.
  * </p>
  *
  * <p>

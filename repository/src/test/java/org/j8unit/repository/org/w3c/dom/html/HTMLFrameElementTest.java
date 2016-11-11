@@ -7,7 +7,7 @@ import org.w3c.dom.html.HTMLFrameElement;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLFrameElement} (by simply reusing
- * the J8Unit test interface {@link HTMLFrameElementTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLFrameElementTests}).
  */
 
 @RunWith(J8Unit4.class)

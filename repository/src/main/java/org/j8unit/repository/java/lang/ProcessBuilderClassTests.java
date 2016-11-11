@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.lang.ProcessBuilder.Redirect;
 import java.lang.ProcessBuilder.Redirect.Type;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +19,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ProcessBuilderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.lang.ProcessBuilderTests}.
  * </p>
  *
  * <p>
@@ -84,7 +84,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link RedirectTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests}.
      * </p>
      *
      * <p>

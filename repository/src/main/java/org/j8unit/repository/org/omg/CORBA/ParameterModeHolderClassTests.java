@@ -19,7 +19,8 @@ import org.omg.CORBA.ParameterModeHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ParameterModeHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ParameterModeHolderTests}.
  * </p>
  *
  * <p>

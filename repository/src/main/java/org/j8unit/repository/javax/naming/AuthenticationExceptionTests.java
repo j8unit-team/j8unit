@@ -32,4 +32,5 @@ extends NamingSecurityExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.AuthenticationException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.AuthenticationException]
+
 }

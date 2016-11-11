@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Binding} (by simply reusing the
- * J8Unit test interface {@link BindingTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.naming.BindingTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class BindingTest
-implements BindingTests<Binding> {
+implements org.j8unit.repository.javax.naming.BindingTests<Binding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.Binding]
 

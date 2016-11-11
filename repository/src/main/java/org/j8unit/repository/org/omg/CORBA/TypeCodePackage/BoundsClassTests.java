@@ -18,7 +18,8 @@ import org.omg.CORBA.TypeCodePackage.Bounds;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BoundsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BoundsTests}.
  * </p>
  *
  * <p>

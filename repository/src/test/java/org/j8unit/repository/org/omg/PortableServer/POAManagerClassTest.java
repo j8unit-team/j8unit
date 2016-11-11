@@ -6,7 +6,7 @@ import org.omg.PortableServer.POAManager;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link POAManager} (by simply reusing the J8Unit
- * test interface {@link POAManagerClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.PortableServer.POAManagerClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -19,7 +19,8 @@ import org.omg.IOP.TaggedProfile;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TaggedProfileTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.TaggedProfileTests}.
  * </p>
  *
  * <p>

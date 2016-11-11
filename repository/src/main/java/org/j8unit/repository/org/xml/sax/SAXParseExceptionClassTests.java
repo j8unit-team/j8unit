@@ -17,7 +17,8 @@ import org.xml.sax.SAXParseException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SAXParseExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.SAXParseExceptionTests}.
  * </p>
  *
  * <p>

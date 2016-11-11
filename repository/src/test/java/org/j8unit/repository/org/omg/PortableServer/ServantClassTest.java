@@ -11,7 +11,7 @@ import org.omg.PortableServer.Servant;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Servant} (by simply reusing the J8Unit
- * test interface {@link ServantClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.PortableServer.ServantClassTests}).
  */
 
 @RunWith(J8Unit4.class)

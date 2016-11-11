@@ -8,7 +8,6 @@ import org.j8unit.repository.java.io.SerializableTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.java.util.AbstractMapTests;
 import org.j8unit.repository.java.util.SetTests;
-import org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ConcurrentHashMapClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests}).
  * </p>
  *
  * @param SUT
@@ -1522,6 +1521,7 @@ extends ConcurrentMapTests<SUT, K, V>, SerializableTests<SUT>, AbstractMapTests<
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -1532,7 +1532,7 @@ extends ConcurrentMapTests<SUT, K, V>, SerializableTests<SUT>, AbstractMapTests<
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link KeySetViewClassTests}).
+     * (see {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests}).
      * </p>
      *
      * @param SUT
@@ -1789,6 +1789,7 @@ extends ConcurrentMapTests<SUT, K, V>, SerializableTests<SUT>, AbstractMapTests<
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
+
     }
 
 }

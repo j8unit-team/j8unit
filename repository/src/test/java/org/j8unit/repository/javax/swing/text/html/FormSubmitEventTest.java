@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link FormSubmitEvent} (by simply reusing
- * the J8Unit test interface {@link FormSubmitEventTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,8 @@ implements FormSubmitEventTests<FormSubmitEvent> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link MethodType} (by simply reusing
-     * the J8Unit test interface {@link MethodTypeTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests.MethodTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)

@@ -18,7 +18,8 @@ import org.w3c.dom.DOMException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DOMExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.DOMExceptionTests}.
  * </p>
  *
  * <p>

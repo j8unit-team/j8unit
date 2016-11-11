@@ -11,7 +11,6 @@ import java.util.function.LongConsumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -26,7 +25,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SpliteratorClassTests}).
+ * {@link org.j8unit.repository.java.util.SpliteratorClassTests}).
  * </p>
  *
  * @param SUT
@@ -222,6 +221,7 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -232,7 +232,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link OfPrimitiveClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests}).
      * </p>
      *
      * @param SUT
@@ -319,6 +319,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
+
     }
 
     /**
@@ -331,7 +332,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link OfLongClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests}).
      * </p>
      *
      * @param SUT
@@ -466,6 +467,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
+
     }
 
     /**
@@ -478,7 +480,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link OfIntClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests}).
      * </p>
      *
      * @param SUT
@@ -613,6 +615,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfInt]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfInt]
+
     }
 
     /**
@@ -625,7 +628,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link OfDoubleClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests}).
      * </p>
      *
      * @param SUT
@@ -760,6 +763,7 @@ extends RepositoryTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+
     }
 
 }

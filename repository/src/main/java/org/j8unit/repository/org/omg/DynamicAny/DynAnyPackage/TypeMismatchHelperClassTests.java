@@ -18,7 +18,8 @@ import org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TypeMismatchHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelperTests}.
  * </p>
  *
  * <p>

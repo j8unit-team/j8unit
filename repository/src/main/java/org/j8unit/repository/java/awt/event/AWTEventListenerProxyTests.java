@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AWTEventListenerProxyClassTests}).
+ * {@link org.j8unit.repository.java.awt.event.AWTEventListenerProxyClassTests}).
  * </p>
  *
  * @param SUT
@@ -83,4 +83,5 @@ extends AWTEventListenerTests<SUT>, EventListenerProxyTests<SUT, AWTEventListene
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.AWTEventListenerProxy]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.AWTEventListenerProxy]
+
 }

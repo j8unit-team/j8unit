@@ -17,7 +17,8 @@ import org.omg.CORBA.INV_OBJREF;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link INV_OBJREFTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.INV_OBJREFTests}.
  * </p>
  *
  * <p>

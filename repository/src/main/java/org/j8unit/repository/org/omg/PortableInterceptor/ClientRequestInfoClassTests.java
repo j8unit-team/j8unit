@@ -17,7 +17,8 @@ import org.omg.PortableInterceptor.ClientRequestInfo;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ClientRequestInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInfoTests}.
  * </p>
  *
  * <p>

@@ -42,30 +42,8 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyInputMap} (by simply reusing
-     * the J8Unit test interface {@link LazyInputMapTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class LazyInputMapTest
-    implements LazyInputMapTests<LazyInputMap> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
-
-        @Override
-        public LazyInputMap createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.LazyInputMap], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ActiveValue} (by simply reusing
-     * the J8Unit test interface {@link ActiveValueTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -86,30 +64,30 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyValue} (by simply reusing the
-     * J8Unit test interface {@link LazyValueTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyInputMap} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class LazyValueTest
-    implements LazyValueTests<LazyValue> {
+    public static class LazyInputMapTest
+    implements LazyInputMapTests<LazyInputMap> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
         @Override
-        public LazyValue createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.UIDefaults.LazyValue], j8unit does not support a generic way to provide instances.");
+        public LazyInputMap createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.LazyInputMap], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
     }
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ProxyLazyValue} (by simply
-     * reusing the J8Unit test interface {@link ProxyLazyValueTests}).
+     * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -126,6 +104,28 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyValue} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class LazyValueTest
+    implements LazyValueTests<LazyValue> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+
+        @Override
+        public LazyValue createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.UIDefaults.LazyValue], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
 
     }
 

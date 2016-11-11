@@ -7,7 +7,7 @@ import org.omg.DynamicAny.DynAnyOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DynAnyOperations} (by simply reusing
- * the J8Unit test interface {@link DynAnyOperationsTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

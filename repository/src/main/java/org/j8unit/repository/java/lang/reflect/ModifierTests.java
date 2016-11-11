@@ -33,4 +33,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.Modifier]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Modifier]
+
 }

@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLScriptElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLScriptElement} (by simply reusing the
- * J8Unit test interface {@link HTMLScriptElementClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLScriptElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

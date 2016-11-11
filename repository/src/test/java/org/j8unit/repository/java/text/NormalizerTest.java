@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Normalizer} (by simply reusing the
- * J8Unit test interface {@link NormalizerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.text.NormalizerTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements NormalizerTests<Normalizer> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Form} (by simply reusing the
-     * J8Unit test interface {@link FormTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.text.NormalizerTests.FormTests}).
      */
 
     @RunWith(J8Parameterized.class)

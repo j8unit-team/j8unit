@@ -17,7 +17,8 @@ import org.omg.CORBA.DynStruct;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DynStructTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.DynStructTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SubjectDomainCombiner} (by simply
- * reusing the J8Unit test interface {@link SubjectDomainCombinerTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.security.auth.SubjectDomainCombinerTests}).
  */
 
 @RunWith(J8Unit4.class)

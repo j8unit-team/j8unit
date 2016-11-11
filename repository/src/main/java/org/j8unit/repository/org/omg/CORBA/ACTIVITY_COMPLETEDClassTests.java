@@ -17,7 +17,8 @@ import org.omg.CORBA.ACTIVITY_COMPLETED;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ACTIVITY_COMPLETEDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDTests}.
  * </p>
  *
  * <p>

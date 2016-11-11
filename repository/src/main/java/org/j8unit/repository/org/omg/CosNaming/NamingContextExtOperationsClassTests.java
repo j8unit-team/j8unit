@@ -18,7 +18,7 @@ import org.omg.CosNaming.NamingContextExtOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link NamingContextExtOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtOperationsTests}.
  * </p>
  *
  * <p>

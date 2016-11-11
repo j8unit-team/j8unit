@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ConcurrentSkipListSet} (by simply reusing
- * the J8Unit test interface {@link ConcurrentSkipListSetClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)

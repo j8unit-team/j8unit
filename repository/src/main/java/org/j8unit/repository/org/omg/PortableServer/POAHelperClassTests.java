@@ -18,7 +18,8 @@ import org.omg.PortableServer.POAHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link POAHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAHelperTests}.
  * </p>
  *
  * <p>

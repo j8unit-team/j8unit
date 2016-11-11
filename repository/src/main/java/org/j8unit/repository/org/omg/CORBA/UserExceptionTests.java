@@ -16,7 +16,7 @@ import org.omg.CORBA.UserException;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link UserExceptionClassTests}).
+ * {@link org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,4 +34,5 @@ extends IDLEntityTests<SUT>, ExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.UserException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.UserException]
+
 }

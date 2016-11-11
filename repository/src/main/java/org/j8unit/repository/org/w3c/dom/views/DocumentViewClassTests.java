@@ -18,7 +18,8 @@ import org.w3c.dom.views.DocumentView;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.views.DocumentViewTests}.
  * </p>
  *
  * <p>

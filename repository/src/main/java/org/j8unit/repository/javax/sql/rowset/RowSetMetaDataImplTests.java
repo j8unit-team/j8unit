@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RowSetMetaDataImplClassTests}).
+ * {@link org.j8unit.repository.javax.sql.rowset.RowSetMetaDataImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -347,6 +347,29 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#isSigned(int)
+     * public boolean javax.sql.rowset.RowSetMetaDataImpl.isSigned(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isSigned_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.RowSetMetaDataImpl#getCatalogName(int) public java.lang.String
      * javax.sql.rowset.RowSetMetaDataImpl.getCatalogName(int) throws java.sql.SQLException}.
@@ -363,29 +386,6 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCatalogName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#isSigned(int)
-     * public boolean javax.sql.rowset.RowSetMetaDataImpl.isSigned(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSigned_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -631,29 +631,6 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#getScale(int)
-     * public int javax.sql.rowset.RowSetMetaDataImpl.getScale(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getScale_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.RowSetMetaDataImpl#setColumnDisplaySize(int, int) public void
      * javax.sql.rowset.RowSetMetaDataImpl.setColumnDisplaySize(int,int) throws java.sql.SQLException}.
@@ -670,6 +647,29 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setColumnDisplaySize_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#getScale(int)
+     * public int javax.sql.rowset.RowSetMetaDataImpl.getScale(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getScale_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -918,29 +918,6 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#getColumnCount()
-     * public int javax.sql.rowset.RowSetMetaDataImpl.getColumnCount() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.RowSetMetaDataImpl#setSchemaName(int, String) public void
      * javax.sql.rowset.RowSetMetaDataImpl.setSchemaName(int,java.lang.String) throws java.sql.SQLException}.
@@ -957,6 +934,29 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSchemaName_int_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.RowSetMetaDataImpl#getColumnCount()
+     * public int javax.sql.rowset.RowSetMetaDataImpl.getColumnCount() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -990,4 +990,5 @@ extends RowSetMetaDataTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
+
 }

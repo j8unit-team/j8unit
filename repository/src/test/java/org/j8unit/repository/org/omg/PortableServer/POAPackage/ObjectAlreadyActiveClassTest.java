@@ -10,7 +10,8 @@ import org.omg.PortableServer.POAPackage.ObjectAlreadyActive;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectAlreadyActive} (by simply reusing
- * the J8Unit test interface {@link ObjectAlreadyActiveClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlreadyActiveClassTests}).
  */
 
 @RunWith(J8Unit4.class)

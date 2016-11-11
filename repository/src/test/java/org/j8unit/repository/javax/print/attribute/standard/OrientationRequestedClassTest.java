@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link OrientationRequested} (by simply reusing
- * the J8Unit test interface {@link OrientationRequestedClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.javax.print.attribute.standard.OrientationRequestedClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XmlSchemaTypeClassTests}).
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests}).
  * </p>
  *
  * @param SUT
@@ -104,6 +104,7 @@ extends AnnotationTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlSchemaType]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlSchemaType]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -132,6 +133,7 @@ extends AnnotationTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlSchemaType$DEFAULT]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlSchemaType$DEFAULT]
+
     }
 
 }

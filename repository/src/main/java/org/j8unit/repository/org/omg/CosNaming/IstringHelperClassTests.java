@@ -18,7 +18,8 @@ import org.omg.CosNaming.IstringHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link IstringHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.IstringHelperTests}.
  * </p>
  *
  * <p>

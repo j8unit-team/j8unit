@@ -18,7 +18,8 @@ import org.w3c.dom.stylesheets.DocumentStyle;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentStyleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleTests}.
  * </p>
  *
  * <p>

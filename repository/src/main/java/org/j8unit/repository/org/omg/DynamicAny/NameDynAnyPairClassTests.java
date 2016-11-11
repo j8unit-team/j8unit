@@ -19,7 +19,8 @@ import org.omg.DynamicAny.NameDynAnyPair;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NameDynAnyPairTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairTests}.
  * </p>
  *
  * <p>

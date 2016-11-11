@@ -19,7 +19,7 @@ import org.w3c.dom.bootstrap.DOMImplementationRegistry;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DOMImplementationRegistryTests}.
+ * {@link org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistryTests}.
  * </p>
  *
  * <p>

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicBorders} (by simply reusing the
- * J8Unit test interface {@link BasicBordersClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -247,104 +247,9 @@ implements BasicBordersClassTests<BasicBorders> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link RolloverButtonBorder} (by simply
-     * reusing the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class RolloverButtonBorderClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests<RolloverButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-        @Override
-        public Class<RolloverButtonBorder> createNewSUT() {
-            return RolloverButtonBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#RolloverButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_RolloverButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final RolloverButtonBorder sut = null; // = new RolloverButtonBorder(java.awt.Color, java.awt.Color,
-                                                   // java.awt.Color, java.awt.Color);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonBorder} (by simply reusing the
-     * J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ButtonBorderClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<ButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-        @Override
-        public Class<ButtonBorder> createNewSUT() {
-            return ButtonBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicBorders.ButtonBorder#ButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$ButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ButtonBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ButtonBorder sut = null; // = new ButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color,
-                                           // java.awt.Color);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SplitPaneBorder} (by simply reusing
-     * the J8Unit test interface {@link SplitPaneBorderClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.SplitPaneBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -384,53 +289,6 @@ implements BasicBordersClassTests<BasicBorders> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$SplitPaneBorder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$SplitPaneBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link FieldBorder} (by simply reusing the
-     * J8Unit test interface {@link FieldBorderClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class FieldBorderClassTest
-    implements FieldBorderClassTests<FieldBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
-
-        @Override
-        public Class<FieldBorder> createNewSUT() {
-            return FieldBorder.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicBorders.FieldBorder#FieldBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.basic.BasicBorders$FieldBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FieldBorder_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FieldBorder sut = null; // = new FieldBorder(java.awt.Color, java.awt.Color, java.awt.Color,
-                                          // java.awt.Color);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
 
     }
 
@@ -483,6 +341,150 @@ implements BasicBordersClassTests<BasicBorders> {
     }
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link RolloverButtonBorder} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RolloverButtonBorderClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests<RolloverButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+        @Override
+        public Class<RolloverButtonBorder> createNewSUT() {
+            return RolloverButtonBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#RolloverButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+         * public
+         * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_RolloverButtonBorder_Color_Color_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final RolloverButtonBorder sut = null; // = new RolloverButtonBorder(java.awt.Color, java.awt.Color,
+                                                   // java.awt.Color, java.awt.Color);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FieldBorder} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.FieldBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FieldBorderClassTest
+    implements FieldBorderClassTests<FieldBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+        @Override
+        public Class<FieldBorder> createNewSUT() {
+            return FieldBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicBorders.FieldBorder#FieldBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+         * public
+         * javax.swing.plaf.basic.BasicBorders$FieldBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_FieldBorder_Color_Color_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final FieldBorder sut = null; // = new FieldBorder(java.awt.Color, java.awt.Color, java.awt.Color,
+                                          // java.awt.Color);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link RadioButtonBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RadioButtonBorderClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RadioButtonBorderClassTest
+    implements RadioButtonBorderClassTests<RadioButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+
+        @Override
+        public Class<RadioButtonBorder> createNewSUT() {
+            return RadioButtonBorder.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#RadioButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+         * public
+         * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_RadioButtonBorder_Color_Color_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final RadioButtonBorder sut = null; // = new RadioButtonBorder(java.awt.Color, java.awt.Color,
+                                                // java.awt.Color, java.awt.Color);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link MenuBarBorder} (by simply reusing the
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MenuBarBorderClassTests}).
@@ -530,7 +532,8 @@ implements BasicBordersClassTests<BasicBorders> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link MarginBorder} (by simply reusing the
-     * J8Unit test interface {@link MarginBorderClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MarginBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -573,27 +576,28 @@ implements BasicBordersClassTests<BasicBorders> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link RadioButtonBorder} (by simply reusing
-     * the J8Unit test interface {@link RadioButtonBorderClassTests}).
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonBorder} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class RadioButtonBorderClassTest
-    implements RadioButtonBorderClassTests<RadioButtonBorder> {
+    public static class ButtonBorderClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<ButtonBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
         @Override
-        public Class<RadioButtonBorder> createNewSUT() {
-            return RadioButtonBorder.class;
+        public Class<ButtonBorder> createNewSUT() {
+            return ButtonBorder.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#RadioButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+         * {@link javax.swing.plaf.basic.BasicBorders.ButtonBorder#ButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
          * public
-         * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+         * javax.swing.plaf.basic.BasicBorders$ButtonBorder(java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -605,17 +609,17 @@ implements BasicBordersClassTests<BasicBorders> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_RadioButtonBorder_Color_Color_Color_Color()
+        public void create_ButtonBorder_Color_Color_Color_Color()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final RadioButtonBorder sut = null; // = new RadioButtonBorder(java.awt.Color, java.awt.Color,
-                                                // java.awt.Color, java.awt.Color);
+            final ButtonBorder sut = null; // = new ButtonBorder(java.awt.Color, java.awt.Color, java.awt.Color,
+                                           // java.awt.Color);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
     }
 

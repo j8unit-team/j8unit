@@ -6,8 +6,6 @@ import java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory;
 import java.util.concurrent.ForkJoinPool.ManagedBlocker;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests;
-import org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ForkJoinPoolTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests}.
  * </p>
  *
  * <p>
@@ -89,7 +88,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link ForkJoinWorkerThreadFactoryTests}.
+     * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests}.
      * </p>
      *
      * <p>
@@ -154,7 +153,8 @@ extends AbstractExecutorServiceClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ManagedBlockerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests}.
      * </p>
      *
      * <p>

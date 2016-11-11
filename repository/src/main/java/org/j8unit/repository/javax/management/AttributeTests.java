@@ -150,4 +150,5 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.Attribute]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.Attribute]
+
 }

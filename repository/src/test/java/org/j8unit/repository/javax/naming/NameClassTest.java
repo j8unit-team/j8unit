@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Name} (by simply reusing the J8Unit test
- * interface {@link NameClassTests}).
+ * interface {@link org.j8unit.repository.javax.naming.NameClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class NameClassTest
-implements NameClassTests<Name> {
+implements org.j8unit.repository.javax.naming.NameClassTests<Name> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.Name]
 

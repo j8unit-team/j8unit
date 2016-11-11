@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicastRemoteObject} (by simply
- * reusing the J8Unit test interface {@link UnicastRemoteObjectTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.rmi.server.UnicastRemoteObjectTests}).
  */
 
 @RunWith(J8Unit4.class)

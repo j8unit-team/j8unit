@@ -10,7 +10,7 @@ import org.omg.PortableServer.POAPackage.NoServant;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoServant} (by simply reusing the J8Unit
- * test interface {@link NoServantClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantClassTests}).
  */
 
 @RunWith(J8Unit4.class)

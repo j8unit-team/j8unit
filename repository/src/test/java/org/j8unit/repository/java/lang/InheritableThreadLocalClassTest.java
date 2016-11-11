@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InheritableThreadLocal} (by simply
- * reusing the J8Unit test interface {@link InheritableThreadLocalClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.InheritableThreadLocalClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)

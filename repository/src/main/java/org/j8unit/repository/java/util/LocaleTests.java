@@ -10,9 +10,6 @@ import org.j8unit.repository.java.io.SerializableTests;
 import org.j8unit.repository.java.lang.CloneableTests;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests;
-import org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests;
-import org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -27,7 +24,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LocaleClassTests}).
+ * {@link org.j8unit.repository.java.util.LocaleClassTests}).
  * </p>
  *
  * @param SUT
@@ -665,6 +662,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -675,7 +673,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link LanguageRangeClassTests}).
+     * (see {@link org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests}).
      * </p>
      *
      * @param SUT
@@ -783,6 +781,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$LanguageRange]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$LanguageRange]
+
     }
 
     /**
@@ -795,7 +794,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CategoryClassTests}).
+     * (see {@link org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests}).
      * </p>
      *
      * @param SUT
@@ -813,6 +812,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Category]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Category]
+
     }
 
     /**
@@ -825,7 +825,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link FilteringModeClassTests}).
+     * (see {@link org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests}).
      * </p>
      *
      * @param SUT
@@ -843,6 +843,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$FilteringMode]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$FilteringMode]
+
     }
 
     /**
@@ -1164,6 +1165,7 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Builder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Builder]
+
     }
 
 }
