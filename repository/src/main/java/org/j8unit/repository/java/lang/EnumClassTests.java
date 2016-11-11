@@ -1,6 +1,12 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeFalse;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
@@ -67,6 +73,27 @@ extends ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Enum]
+
+    /**
+     * @since 2.0.0
+     */
+    @Test
+    public default void enumsMustContainImplicitilyDefinedValuesMethod()
+    throws Exception {
+        final Class<SUT> sut = this.createNewSUT();
+        assert sut != null;
+        assumeFalse("This general test method is not suitable for [" + Enum.class.getName() + "] itself.", Enum.class.equals(sut));
+        final Method method = sut.getMethod("values");
+        assertNotNull(method);
+        assertTrue(method.getReturnType().isArray());
+        assertTrue(Modifier.isStatic(method.getModifiers()));
+        final Object invocation = method.invoke(null);
+        assertNotNull(invocation);
+        assertTrue(invocation.getClass().isArray());
+        assertEquals(sut, invocation.getClass().getComponentType());
+        final @SuppressWarnings("unchecked") SUT[] enums = (SUT[]) invocation;
+        assertArrayEquals(sut.getEnumConstants(), enums);
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Enum]
 

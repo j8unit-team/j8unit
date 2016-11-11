@@ -1,8 +1,13 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
+import static org.junit.Assume.assumeTrue;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.categories.TimeLinear;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -99,6 +104,82 @@ extends RepositoryTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Iterable]
+
+    /**
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    @Category(TimeLinear.class)
+    public default void forEachMustConsumeNOOP() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assumeTrue("The given Iterable is empty; Thus, this test becomes useless.", sut.iterator().hasNext());
+        sut.forEach(e -> {});
+    }
+
+    /**
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void forEachMustRelayException() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assumeTrue("The given Iterable is empty; Thus, this test becomes useless.", sut.iterator().hasNext());
+        final javax.xml.ws.Holder<Integer> counter = new javax.xml.ws.Holder<>(0);
+        try {
+            sut.forEach(e -> {
+                counter.value++;
+                throw new UnsupportedOperationException("relayed exception");
+            });
+            fail("Thrown exception has been suppressed!");
+        } catch (final UnsupportedOperationException relayed) {
+            // check exception
+            assertEquals("relayed exception", relayed.getMessage());
+            // check unique execution of consumer block
+            assertEquals((Integer) 1, counter.value);
+            return;
+        }
+    }
+
+    /**
+     * @see Iterable#forEach(java.util.function.Consumer) public default void
+     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test(expected = NullPointerException.class)
+    @Category(TimeLinear.class)
+    public default void forEachOfNullMustCauseNPE() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        sut.forEach(null);
+    }
+
+    @Test
+    public default void iteratorMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.iterator());
+    }
+
+    /**
+     * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
+     *      targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void spliteratorMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.spliterator());
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Iterable]
 

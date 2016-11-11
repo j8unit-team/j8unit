@@ -1,8 +1,12 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.categories.Should;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -231,6 +235,88 @@ extends RepositoryTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Object]
+
+    /**
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    @Category(Should.class)
+    public default void equalsShouldBeReflexive() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertTrue(sut.equals(sut));
+    }
+
+    /**
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    @Category(Should.class)
+    public default void equalsShouldRefuseNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertFalse(sut.equals(null));
+    }
+
+    /**
+     * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getClassMustMatchIsInstance() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<? extends Object> clazz = sut.getClass();
+        assert clazz != null;
+        assertTrue(clazz.isInstance(sut));
+    }
+
+    /**
+     * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getClassMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.getClass());
+    }
+
+    /**
+     * <p>
+     * According to the general contract of {@link Object#toString()}, it
+     * <q>returns a string that "textually represents"</q> the object.
+     *
+     * Thus, there is absolutely no reason why {@code null} could be returned. Especially because even a {@code null}
+     * can be easily represented textually by {@link java.util.Objects#toString(Object)}.
+     * </p>
+     *
+     * <p>
+     * And obviously, no however reached (problematic) inner state of an object is allowed to cause an exception while
+     * computing the textual representation. It instead should be represented accordingly.
+     * </p>
+     *
+     * @see Object#toString() public java.lang.String java.lang.Object.toString() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void toStringMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.toString());
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Object]
 

@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeTrue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableTests;
@@ -1415,6 +1418,33 @@ extends SerializableTests<SUT>, GenericDeclarationTests<SUT>, TypeTests<SUT>, Ob
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Class]
+
+    /**
+     * @see Class#getName() public java.lang.String java.lang.Class.getName() (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getNameMustBeNotNull() {
+        final Class<T> sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.getName());
+    }
+
+    /**
+     * @see Class#getName() public java.lang.String java.lang.Class.getName() (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getNameMustBeSyntacticallyValidIdentifier() {
+        final Class<T> sut = this.createNewSUT();
+        assert sut != null;
+        assumeTrue("The given Class represents a primitive type; Thus, this test becomes useless.", sut.isPrimitive());
+        assumeTrue("The given Class represents an array class; Thus, this test becomes useless.", sut.isArray());
+        final String name = sut.getName();
+        assertTrue(javax.lang.model.SourceVersion.isIdentifier(name));
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Class]
 
