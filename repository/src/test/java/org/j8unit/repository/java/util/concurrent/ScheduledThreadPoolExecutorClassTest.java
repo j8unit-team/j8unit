@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ScheduledThreadPoolExecutor} (by simply
- * reusing the J8Unit test interface {@link ScheduledThreadPoolExecutorClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.util.concurrent.ScheduledThreadPoolExecutorClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -50,8 +51,8 @@ implements ScheduledThreadPoolExecutorClassTests<ScheduledThreadPoolExecutor> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int, java.util.concurrent.ThreadFactory)
-     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory)}.
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int, java.util.concurrent.RejectedExecutionHandler)
+     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,12 +64,12 @@ implements ScheduledThreadPoolExecutorClassTests<ScheduledThreadPoolExecutor> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ScheduledThreadPoolExecutor_int_ThreadFactory()
+    public void create_ScheduledThreadPoolExecutor_int_RejectedExecutionHandler()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final ScheduledThreadPoolExecutor sut = null; // = new ScheduledThreadPoolExecutor(int,
-                                                      // java.util.concurrent.ThreadFactory);
+                                                      // java.util.concurrent.RejectedExecutionHandler);
     }
 
     /**
@@ -100,8 +101,8 @@ implements ScheduledThreadPoolExecutorClassTests<ScheduledThreadPoolExecutor> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int, java.util.concurrent.RejectedExecutionHandler)
-     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)}.
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int, java.util.concurrent.ThreadFactory)
+     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,12 +114,12 @@ implements ScheduledThreadPoolExecutorClassTests<ScheduledThreadPoolExecutor> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ScheduledThreadPoolExecutor_int_RejectedExecutionHandler()
+    public void create_ScheduledThreadPoolExecutor_int_ThreadFactory()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final ScheduledThreadPoolExecutor sut = null; // = new ScheduledThreadPoolExecutor(int,
-                                                      // java.util.concurrent.RejectedExecutionHandler);
+                                                      // java.util.concurrent.ThreadFactory);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]

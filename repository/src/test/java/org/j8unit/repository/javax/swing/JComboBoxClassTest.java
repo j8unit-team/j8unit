@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JComboBox} (by simply reusing the J8Unit
- * test interface {@link JComboBoxClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.JComboBoxClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -23,29 +23,6 @@ implements JComboBoxClassTests<JComboBox> {
     @Override
     public Class<JComboBox> createNewSUT() {
         return JComboBox.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JComboBox#JComboBox(javax.swing.ComboBoxModel) public
-     * javax.swing.JComboBox(javax.swing.ComboBoxModel<E>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JComboBox_ComboBoxModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JComboBox sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
     }
 
     /**
@@ -113,13 +90,37 @@ implements JComboBoxClassTests<JComboBox> {
         final JComboBox sut = new JComboBox();
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JComboBox#JComboBox(javax.swing.ComboBoxModel) public
+     * javax.swing.JComboBox(javax.swing.ComboBoxModel<E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JComboBox_ComboBoxModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JComboBox sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComboBox]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComboBox]
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link KeySelectionManager} (by simply
-     * reusing the J8Unit test interface {@link KeySelectionManagerClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests}).
      */
 
     @RunWith(J8Unit4.class)

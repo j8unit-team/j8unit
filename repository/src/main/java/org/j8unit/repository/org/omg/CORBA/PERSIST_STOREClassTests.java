@@ -17,7 +17,8 @@ import org.omg.CORBA.PERSIST_STORE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PERSIST_STORETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.PERSIST_STORETests}.
  * </p>
  *
  * <p>

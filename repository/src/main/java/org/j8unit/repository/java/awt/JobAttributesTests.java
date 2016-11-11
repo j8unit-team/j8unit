@@ -8,11 +8,6 @@ import java.awt.JobAttributes.MultipleDocumentHandlingType;
 import java.awt.JobAttributes.SidesType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests;
-import org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests;
-import org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests;
-import org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests;
-import org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests;
 import org.j8unit.repository.java.lang.CloneableTests;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
@@ -29,7 +24,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JobAttributesClassTests}).
+ * {@link org.j8unit.repository.java.awt.JobAttributesClassTests}).
  * </p>
  *
  * @param SUT
@@ -805,6 +800,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -815,7 +811,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link SidesTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -833,6 +829,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
+
     }
 
     /**
@@ -845,7 +842,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DialogTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -863,6 +860,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
+
     }
 
     /**
@@ -875,7 +873,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DestinationTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -893,6 +891,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
+
     }
 
     /**
@@ -906,7 +905,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link MultipleDocumentHandlingTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -924,6 +923,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
     }
 
     /**
@@ -936,7 +936,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DefaultSelectionTypeClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -954,6 +954,7 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
+
     }
 
 }

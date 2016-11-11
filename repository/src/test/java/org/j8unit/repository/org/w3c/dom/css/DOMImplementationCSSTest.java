@@ -7,7 +7,7 @@ import org.w3c.dom.css.DOMImplementationCSS;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DOMImplementationCSS} (by simply
- * reusing the J8Unit test interface {@link DOMImplementationCSSTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.DOMImplementationCSSTests}).
  */
 
 @RunWith(J8Unit4.class)

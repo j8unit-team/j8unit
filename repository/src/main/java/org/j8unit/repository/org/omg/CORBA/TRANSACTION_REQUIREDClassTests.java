@@ -18,7 +18,7 @@ import org.omg.CORBA.TRANSACTION_REQUIRED;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link TRANSACTION_REQUIREDTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDTests}.
  * </p>
  *
  * <p>

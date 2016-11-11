@@ -19,7 +19,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link InvalidAddressHelperTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelperTests}.
  * </p>
  *
  * <p>

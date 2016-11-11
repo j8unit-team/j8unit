@@ -7,7 +7,7 @@ import org.omg.PortableInterceptor.LOCATION_FORWARD;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LOCATION_FORWARD} (by simply reusing
- * the J8Unit test interface {@link LOCATION_FORWARDTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.LOCATION_FORWARDTests}).
  */
 
 @RunWith(J8Unit4.class)

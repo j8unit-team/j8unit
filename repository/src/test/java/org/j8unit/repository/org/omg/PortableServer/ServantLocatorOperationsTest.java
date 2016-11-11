@@ -7,7 +7,8 @@ import org.omg.PortableServer.ServantLocatorOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantLocatorOperations} (by simply
- * reusing the J8Unit test interface {@link ServantLocatorOperationsTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

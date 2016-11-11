@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ShortLookupTable} (by simply reusing the
- * J8Unit test interface {@link ShortLookupTableClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.image.ShortLookupTableClassTests}).
  */
 
 @RunWith(J8Unit4.class)

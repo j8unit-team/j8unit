@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RectangleClassTests}).
+ * {@link org.j8unit.repository.java.awt.RectangleClassTests}).
  * </p>
  *
  * @param SUT
@@ -237,28 +237,6 @@ extends SerializableTests<SUT>, Rectangle2DTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setLocation(java.awt.Point)
-     * public void java.awt.Rectangle.setLocation(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLocation_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setLocation(int, int) public void
      * java.awt.Rectangle.setLocation(int,int)}.
      *
@@ -273,6 +251,28 @@ extends SerializableTests<SUT>, Rectangle2DTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLocation_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setLocation(java.awt.Point)
+     * public void java.awt.Rectangle.setLocation(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLocation_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -504,28 +504,6 @@ extends SerializableTests<SUT>, Rectangle2DTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setBounds(java.awt.Rectangle)
-     * public void java.awt.Rectangle.setBounds(java.awt.Rectangle)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBounds_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setBounds(int, int, int, int)
      * public void java.awt.Rectangle.setBounds(int,int,int,int)}.
      *
@@ -540,6 +518,28 @@ extends SerializableTests<SUT>, Rectangle2DTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBounds_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Rectangle#setBounds(java.awt.Rectangle)
+     * public void java.awt.Rectangle.setBounds(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBounds_Rectangle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -867,4 +867,5 @@ extends SerializableTests<SUT>, Rectangle2DTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Rectangle]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Rectangle]
+
 }

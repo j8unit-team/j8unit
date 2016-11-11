@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MethodHandles} (by simply reusing the
- * J8Unit test interface {@link MethodHandlesClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -515,7 +515,7 @@ implements MethodHandlesClassTests<MethodHandles> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Lookup} (by simply reusing the J8Unit
-     * test interface {@link LookupClassTests}).
+     * test interface {@link org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests.LookupClassTests}).
      */
 
     @RunWith(J8Unit4.class)

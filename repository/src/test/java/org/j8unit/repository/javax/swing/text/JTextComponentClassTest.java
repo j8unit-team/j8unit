@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JTextComponent} (by simply reusing the
- * J8Unit test interface {@link JTextComponentClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -161,7 +161,8 @@ implements JTextComponentClassTests<JTextComponent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link KeyBinding} (by simply reusing the
-     * J8Unit test interface {@link KeyBindingClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.KeyBindingClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -206,7 +207,8 @@ implements JTextComponentClassTests<JTextComponent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link AccessibleJTextComponent} (by simply
-     * reusing the J8Unit test interface {@link AccessibleJTextComponentClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests}).
      */
 
     @RunWith(J8Unit4.class)

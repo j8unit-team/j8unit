@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link EnumControlClassTests}).
+ * {@link org.j8unit.repository.javax.sound.sampled.EnumControlClassTests}).
  * </p>
  *
  * @param SUT
@@ -125,6 +125,7 @@ extends ControlTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.EnumControl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.EnumControl]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -153,6 +154,7 @@ extends ControlTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.EnumControl$Type]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.EnumControl$Type]
+
     }
 
 }

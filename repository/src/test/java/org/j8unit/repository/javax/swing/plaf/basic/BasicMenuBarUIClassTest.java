@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicMenuBarUI} (by simply reusing the
- * J8Unit test interface {@link BasicMenuBarUIClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuBarUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)

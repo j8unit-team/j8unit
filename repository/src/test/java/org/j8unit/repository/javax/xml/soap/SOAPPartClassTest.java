@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link SOAPPart} (by simply reusing the J8Unit
- * test interface {@link SOAPPartClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.soap.SOAPPartClassTests}).
  */
 
 @RunWith(J8Unit4.class)

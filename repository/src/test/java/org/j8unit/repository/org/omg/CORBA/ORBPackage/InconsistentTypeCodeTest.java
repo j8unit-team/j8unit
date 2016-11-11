@@ -14,7 +14,7 @@ import org.omg.CORBA.ORBPackage.InconsistentTypeCode;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InconsistentTypeCodeTest
-implements FactoryBasedJ8UnitTest<InconsistentTypeCode>, org.j8unit.repository.org.omg.CORBA.ORBPackage.InconsistentTypeCodeTests<InconsistentTypeCode> {
+implements FactoryBasedJ8UnitTest<InconsistentTypeCode>, InconsistentTypeCodeTests<InconsistentTypeCode> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
 

@@ -19,7 +19,7 @@ import org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link REQUEST_PROCESSING_POLICY_IDTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.REQUEST_PROCESSING_POLICY_IDTests}.
  * </p>
  *
  * <p>

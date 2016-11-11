@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link GradientPaint} (by simply reusing the
- * J8Unit test interface {@link GradientPaintClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.GradientPaintClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,30 +22,6 @@ implements GradientPaintClassTests<GradientPaint> {
     @Override
     public Class<GradientPaint> createNewSUT() {
         return GradientPaint.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.GradientPaint#GradientPaint(java.awt.geom.Point2D, java.awt.Color, java.awt.geom.Point2D, java.awt.Color)
-     * public java.awt.GradientPaint(java.awt.geom.Point2D,java.awt.Color,java.awt.geom.Point2D,java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_GradientPaint_Point2D_Color_Point2D_Color()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final GradientPaint sut = null; // = new GradientPaint(java.awt.geom.Point2D, java.awt.Color,
-                                        // java.awt.geom.Point2D, java.awt.Color);
     }
 
     /**
@@ -75,9 +51,8 @@ implements GradientPaintClassTests<GradientPaint> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.GradientPaint#GradientPaint(java.awt.geom.Point2D, java.awt.Color, java.awt.geom.Point2D, java.awt.Color, boolean)
-     * public
-     * java.awt.GradientPaint(java.awt.geom.Point2D,java.awt.Color,java.awt.geom.Point2D,java.awt.Color,boolean)}.
+     * {@link java.awt.GradientPaint#GradientPaint(java.awt.geom.Point2D, java.awt.Color, java.awt.geom.Point2D, java.awt.Color)
+     * public java.awt.GradientPaint(java.awt.geom.Point2D,java.awt.Color,java.awt.geom.Point2D,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,12 +64,12 @@ implements GradientPaintClassTests<GradientPaint> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_GradientPaint_Point2D_Color_Point2D_Color_boolean()
+    public void create_GradientPaint_Point2D_Color_Point2D_Color()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final GradientPaint sut = null; // = new GradientPaint(java.awt.geom.Point2D, java.awt.Color,
-                                        // java.awt.geom.Point2D, java.awt.Color, boolean);
+                                        // java.awt.geom.Point2D, java.awt.Color);
     }
 
     /**
@@ -119,6 +94,31 @@ implements GradientPaintClassTests<GradientPaint> {
         @SuppressWarnings("unused")
         final GradientPaint sut = null; // = new GradientPaint(float, float, java.awt.Color, float, float,
                                         // java.awt.Color, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.GradientPaint#GradientPaint(java.awt.geom.Point2D, java.awt.Color, java.awt.geom.Point2D, java.awt.Color, boolean)
+     * public
+     * java.awt.GradientPaint(java.awt.geom.Point2D,java.awt.Color,java.awt.geom.Point2D,java.awt.Color,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GradientPaint_Point2D_Color_Point2D_Color_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final GradientPaint sut = null; // = new GradientPaint(java.awt.geom.Point2D, java.awt.Color,
+                                        // java.awt.geom.Point2D, java.awt.Color, boolean);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GradientPaint]

@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.awt.BufferCapabilities;
 import java.awt.BufferCapabilities.FlipContents;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.BufferCapabilitiesTests.FlipContentsTests;
 import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BufferCapabilitiesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.BufferCapabilitiesTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FlipContentsTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.BufferCapabilitiesTests.FlipContentsTests}.
      * </p>
      *
      * <p>

@@ -7,7 +7,7 @@ import org.w3c.dom.html.HTMLTableElement;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLTableElement} (by simply reusing
- * the J8Unit test interface {@link HTMLTableElementTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableElementTests}).
  */
 
 @RunWith(J8Unit4.class)

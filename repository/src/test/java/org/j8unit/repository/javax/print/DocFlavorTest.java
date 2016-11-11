@@ -21,7 +21,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DocFlavor} (by simply reusing the
- * J8Unit test interface {@link DocFlavorTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -40,89 +40,42 @@ implements DocFlavorTests<DocFlavor> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link CHAR_ARRAY} (by simply reusing
-     * the J8Unit test interface {@link CHAR_ARRAYTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SERVICE_FORMATTED} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests}).
      */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class CHAR_ARRAYTest
-    implements CHAR_ARRAYTests<CHAR_ARRAY> {
+    public static class SERVICE_FORMATTEDTest
+    implements SERVICE_FORMATTEDTests<SERVICE_FORMATTED> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOf(CHAR_ARRAY.TEXT_HTML, //
-                                    CHAR_ARRAY.TEXT_PLAIN);
-        }
-
-        @Parameter(0)
-        public CHAR_ARRAY sut;
-
-        @Override
-        public CHAR_ARRAY createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link INPUT_STREAM} (by simply reusing
-     * the J8Unit test interface {@link INPUT_STREAMTests}).
-     */
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class INPUT_STREAMTest
-    implements INPUT_STREAMTests<INPUT_STREAM> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(INPUT_STREAM.PDF, //
-                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16LE, //
-                                                       INPUT_STREAM.TEXT_HTML_UTF_16LE, //
-                                                       INPUT_STREAM.PCL, //
-                                                       INPUT_STREAM.POSTSCRIPT, //
-                                                       INPUT_STREAM.TEXT_HTML_UTF_16, //
-                                                       INPUT_STREAM.TEXT_PLAIN_UTF_8, //
-                                                       INPUT_STREAM.TEXT_PLAIN_US_ASCII, //
-                                                       INPUT_STREAM.TEXT_HTML_UTF_8, //
-                                                       INPUT_STREAM.GIF, //
-                                                       INPUT_STREAM.TEXT_PLAIN_HOST, //
-                                                       INPUT_STREAM.TEXT_HTML_HOST, //
-                                                       INPUT_STREAM.PNG, //
-                                                       INPUT_STREAM.TEXT_HTML_US_ASCII, //
-                                                       INPUT_STREAM.JPEG, //
-                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16, //
-                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16BE, //
-                                                       INPUT_STREAM.TEXT_HTML_UTF_16BE, //
-                                                       INPUT_STREAM.AUTOSENSE);
+            return testParametersOf(SERVICE_FORMATTED.PAGEABLE, //
+                                    SERVICE_FORMATTED.RENDERABLE_IMAGE, //
+                                    SERVICE_FORMATTED.PRINTABLE);
         }
 
         @Parameter(0)
-        public INPUT_STREAM sut;
+        public SERVICE_FORMATTED sut;
 
         @Override
-        public INPUT_STREAM createNewSUT() {
+        public SERVICE_FORMATTED createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
     }
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link URL} (by simply reusing the
-     * J8Unit test interface {@link URLTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -170,8 +123,89 @@ implements DocFlavorTests<DocFlavor> {
     }
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link CHAR_ARRAY} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests}).
+     */
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class CHAR_ARRAYTest
+    implements CHAR_ARRAYTests<CHAR_ARRAY> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(CHAR_ARRAY.TEXT_HTML, //
+                                                       CHAR_ARRAY.TEXT_PLAIN);
+        }
+
+        @Parameter(0)
+        public CHAR_ARRAY sut;
+
+        @Override
+        public CHAR_ARRAY createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link INPUT_STREAM} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}).
+     */
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class INPUT_STREAMTest
+    implements INPUT_STREAMTests<INPUT_STREAM> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(INPUT_STREAM.PDF, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16LE, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16LE, //
+                                                       INPUT_STREAM.PCL, //
+                                                       INPUT_STREAM.POSTSCRIPT, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_8, //
+                                                       INPUT_STREAM.TEXT_PLAIN_US_ASCII, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_8, //
+                                                       INPUT_STREAM.GIF, //
+                                                       INPUT_STREAM.TEXT_PLAIN_HOST, //
+                                                       INPUT_STREAM.TEXT_HTML_HOST, //
+                                                       INPUT_STREAM.PNG, //
+                                                       INPUT_STREAM.TEXT_HTML_US_ASCII, //
+                                                       INPUT_STREAM.JPEG, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16, //
+                                                       INPUT_STREAM.TEXT_PLAIN_UTF_16BE, //
+                                                       INPUT_STREAM.TEXT_HTML_UTF_16BE, //
+                                                       INPUT_STREAM.AUTOSENSE);
+        }
+
+        @Parameter(0)
+        public INPUT_STREAM sut;
+
+        @Override
+        public INPUT_STREAM createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link STRING} (by simply reusing the
-     * J8Unit test interface {@link STRINGTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -202,41 +236,8 @@ implements DocFlavorTests<DocFlavor> {
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link SERVICE_FORMATTED} (by simply
-     * reusing the J8Unit test interface {@link SERVICE_FORMATTEDTests}).
-     */
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class SERVICE_FORMATTEDTest
-    implements SERVICE_FORMATTEDTests<SERVICE_FORMATTED> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(SERVICE_FORMATTED.PAGEABLE, //
-                                                       SERVICE_FORMATTED.RENDERABLE_IMAGE, //
-                                                       SERVICE_FORMATTED.PRINTABLE);
-        }
-
-        @Parameter(0)
-        public SERVICE_FORMATTED sut;
-
-        @Override
-        public SERVICE_FORMATTED createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link READER} (by simply reusing the
-     * J8Unit test interface {@link READERTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -268,7 +269,7 @@ implements DocFlavorTests<DocFlavor> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BYTE_ARRAY} (by simply reusing
-     * the J8Unit test interface {@link BYTE_ARRAYTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests}).
      */
 
     @RunWith(J8Parameterized.class)

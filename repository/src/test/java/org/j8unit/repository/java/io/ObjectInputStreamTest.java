@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectInputStream} (by simply reusing
- * the J8Unit test interface {@link ObjectInputStreamTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.io.ObjectInputStreamTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements ObjectInputStreamTests<ObjectInputStream> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link GetField} (by simply reusing the
-     * J8Unit test interface {@link GetFieldTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests}).
      */
 
     @RunWith(J8Unit4.class)

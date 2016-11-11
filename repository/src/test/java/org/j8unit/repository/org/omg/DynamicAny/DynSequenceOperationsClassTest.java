@@ -6,7 +6,7 @@ import org.omg.DynamicAny.DynSequenceOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynSequenceOperations} (by simply reusing
- * the J8Unit test interface {@link DynSequenceOperationsClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

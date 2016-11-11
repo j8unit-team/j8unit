@@ -81,4 +81,5 @@ extends DTDConstantsTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.Parser]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.Parser]
+
 }

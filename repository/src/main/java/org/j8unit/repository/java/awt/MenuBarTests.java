@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MenuBarClassTests}).
+ * {@link org.j8unit.repository.java.awt.MenuBarClassTests}).
  * </p>
  *
  * @param SUT
@@ -103,28 +103,6 @@ extends MenuContainerTests<SUT>, AccessibleTests<SUT>, MenuComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#countMenus() public int
-     * java.awt.MenuBar.countMenus()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_countMenus()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.MenuBar.getAccessibleContext()}.
      *
@@ -140,6 +118,28 @@ extends MenuContainerTests<SUT>, AccessibleTests<SUT>, MenuComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#countMenus() public int
+     * java.awt.MenuBar.countMenus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countMenus()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -405,4 +405,5 @@ extends MenuContainerTests<SUT>, AccessibleTests<SUT>, MenuComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MenuBar]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MenuBar]
+
 }

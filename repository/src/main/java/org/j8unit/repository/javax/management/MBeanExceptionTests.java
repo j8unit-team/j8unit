@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MBeanExceptionClassTests}).
+ * {@link org.j8unit.repository.javax.management.MBeanExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -80,4 +80,5 @@ extends JMExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanException]
+
 }

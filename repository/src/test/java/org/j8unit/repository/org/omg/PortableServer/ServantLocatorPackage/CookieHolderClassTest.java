@@ -10,7 +10,8 @@ import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CookieHolder} (by simply reusing the
- * J8Unit test interface {@link CookieHolderClassTests}).
+ * J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.CookieHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

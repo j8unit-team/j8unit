@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link InitialContextClassTests}).
+ * {@link org.j8unit.repository.javax.naming.InitialContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -153,30 +153,6 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#lookupLink(javax.naming.Name) public java.lang.Object
-     * javax.naming.InitialContext.lookupLink(javax.naming.Name) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupLink_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#lookupLink(String)
      * public java.lang.Object javax.naming.InitialContext.lookupLink(java.lang.String) throws
      * javax.naming.NamingException}.
@@ -201,9 +177,9 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#listBindings(String)
-     * public javax.naming.NamingEnumeration<javax.naming.Binding>
-     * javax.naming.InitialContext.listBindings(java.lang.String) throws javax.naming.NamingException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#lookupLink(javax.naming.Name) public java.lang.Object
+     * javax.naming.InitialContext.lookupLink(javax.naming.Name) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,7 +192,7 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_listBindings_String()
+    public default void test_lookupLink_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,6 +218,30 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_listBindings_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#listBindings(String)
+     * public javax.naming.NamingEnumeration<javax.naming.Binding>
+     * javax.naming.InitialContext.listBindings(java.lang.String) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_listBindings_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -346,6 +346,53 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#unbind(javax.naming.Name) public void
+     * javax.naming.InitialContext.unbind(javax.naming.Name) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unbind_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#unbind(String) public
+     * void javax.naming.InitialContext.unbind(java.lang.String) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unbind_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#createSubcontext(String)
      * public javax.naming.Context javax.naming.InitialContext.createSubcontext(java.lang.String) throws
      * javax.naming.NamingException}.
@@ -386,53 +433,6 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createSubcontext_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#unbind(javax.naming.Name) public void
-     * javax.naming.InitialContext.unbind(javax.naming.Name) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unbind_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#unbind(String) public
-     * void javax.naming.InitialContext.unbind(java.lang.String) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unbind_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -513,30 +513,6 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#getNameParser(javax.naming.Name) public javax.naming.NameParser
-     * javax.naming.InitialContext.getNameParser(javax.naming.Name) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNameParser_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#getNameParser(String)
      * public javax.naming.NameParser javax.naming.InitialContext.getNameParser(java.lang.String) throws
      * javax.naming.NamingException}.
@@ -553,6 +529,30 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNameParser_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#getNameParser(javax.naming.Name) public javax.naming.NameParser
+     * javax.naming.InitialContext.getNameParser(javax.naming.Name) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNameParser_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -610,30 +610,6 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#bind(javax.naming.Name, Object) public void
-     * javax.naming.InitialContext.bind(javax.naming.Name,java.lang.Object) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_Name_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#bind(String, Object)
      * public void javax.naming.InitialContext.bind(java.lang.String,java.lang.Object) throws
      * javax.naming.NamingException}.
@@ -650,6 +626,30 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_bind_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#bind(javax.naming.Name, Object) public void
+     * javax.naming.InitialContext.bind(javax.naming.Name,java.lang.Object) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_Name_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -730,4 +730,5 @@ extends ContextTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.InitialContext]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InitialContext]
+
 }

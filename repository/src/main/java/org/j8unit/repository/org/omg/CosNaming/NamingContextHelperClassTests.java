@@ -18,7 +18,8 @@ import org.omg.CosNaming.NamingContextHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NamingContextHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextHelperTests}.
  * </p>
  *
  * <p>

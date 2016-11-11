@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLMenuElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLMenuElement} (by simply reusing the
- * J8Unit test interface {@link HTMLMenuElementClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLMenuElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

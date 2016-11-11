@@ -8,7 +8,6 @@ import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.j8unit.repository.java.util.AbstractMapClassTests;
 import org.j8unit.repository.java.util.SetClassTests;
-import org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ConcurrentHashMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests}.
  * </p>
  *
  * <p>
@@ -88,7 +88,8 @@ extends ConcurrentMapClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapCl
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link KeySetViewTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests}.
      * </p>
      *
      * <p>

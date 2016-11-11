@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AlgorithmParameterSpec} (by simply
- * reusing the J8Unit test interface {@link AlgorithmParameterSpecClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests}).
  */
 
 @RunWith(J8Unit4.class)

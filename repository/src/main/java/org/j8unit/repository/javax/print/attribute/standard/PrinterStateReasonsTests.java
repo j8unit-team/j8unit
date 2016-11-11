@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link PrinterStateReasonsClassTests}).
+ * {@link org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonsClassTests}).
  * </p>
  *
  * @param SUT
@@ -135,4 +135,5 @@ extends PrintServiceAttributeTests<SUT>, HashMapTests<SUT, PrinterStateReason, S
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
+
 }

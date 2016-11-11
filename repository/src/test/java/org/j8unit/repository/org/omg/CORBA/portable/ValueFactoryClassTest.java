@@ -6,7 +6,7 @@ import org.omg.CORBA.portable.ValueFactory;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ValueFactory} (by simply reusing the
- * J8Unit test interface {@link ValueFactoryClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.ValueFactoryClassTests}).
  */
 
 @RunWith(J8Unit4.class)

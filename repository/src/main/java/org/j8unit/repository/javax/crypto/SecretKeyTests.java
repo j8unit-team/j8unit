@@ -16,7 +16,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SecretKeyClassTests}).
+ * {@link org.j8unit.repository.javax.crypto.SecretKeyClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,4 +34,5 @@ extends KeyTests<SUT>, DestroyableTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.SecretKey]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.SecretKey]
+
 }

@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLTextAreaElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLTextAreaElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTextAreaElementTests}.
  * </p>
  *
  * <p>

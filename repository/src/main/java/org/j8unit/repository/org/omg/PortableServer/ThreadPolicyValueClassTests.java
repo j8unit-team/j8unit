@@ -19,7 +19,8 @@ import org.omg.PortableServer.ThreadPolicyValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadPolicyValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyValueTests}.
  * </p>
  *
  * <p>

@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JTableHeaderClassTests}).
+ * {@link org.j8unit.repository.javax.swing.table.JTableHeaderClassTests}).
  * </p>
  *
  * @param SUT
@@ -267,29 +267,6 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.table.JTableHeader#setResizingColumn(javax.swing.table.TableColumn) public void
-     * javax.swing.table.JTableHeader.setResizingColumn(javax.swing.table.TableColumn)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResizingColumn_TableColumn()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.table.JTableHeader#setResizingAllowed(boolean) public void
      * javax.swing.table.JTableHeader.setResizingAllowed(boolean)}.
      *
@@ -304,6 +281,29 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     @Test
     @Category(Draft.class)
     public default void test_setResizingAllowed_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.JTableHeader#setResizingColumn(javax.swing.table.TableColumn) public void
+     * javax.swing.table.JTableHeader.setResizingColumn(javax.swing.table.TableColumn)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResizingColumn_TableColumn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -335,6 +335,29 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.JTableHeader#setReorderingAllowed(boolean) public void
+     * javax.swing.table.JTableHeader.setReorderingAllowed(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReorderingAllowed_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.table.JTableHeader#columnAdded(javax.swing.event.TableColumnModelEvent) public void
      * javax.swing.table.JTableHeader.columnAdded(javax.swing.event.TableColumnModelEvent)}.
      *
@@ -350,29 +373,6 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     @Test
     @Category(Draft.class)
     public default void test_columnAdded_TableColumnModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.table.JTableHeader#setReorderingAllowed(boolean) public void
-     * javax.swing.table.JTableHeader.setReorderingAllowed(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReorderingAllowed_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -702,6 +702,29 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.table.JTableHeader#setUI(javax.swing.plaf.TableHeaderUI) public void
+     * javax.swing.table.JTableHeader.setUI(javax.swing.plaf.TableHeaderUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_TableHeaderUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.table.JTableHeader#columnSelectionChanged(javax.swing.event.ListSelectionEvent) public void
      * javax.swing.table.JTableHeader.columnSelectionChanged(javax.swing.event.ListSelectionEvent)}.
      *
@@ -717,29 +740,6 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     @Test
     @Category(Draft.class)
     public default void test_columnSelectionChanged_ListSelectionEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.table.JTableHeader#setUI(javax.swing.plaf.TableHeaderUI) public void
-     * javax.swing.table.JTableHeader.setUI(javax.swing.plaf.TableHeaderUI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_TableHeaderUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -771,4 +771,5 @@ extends TableColumnModelListenerTests<SUT>, AccessibleTests<SUT>, JComponentTest
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.table.JTableHeader]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.JTableHeader]
+
 }

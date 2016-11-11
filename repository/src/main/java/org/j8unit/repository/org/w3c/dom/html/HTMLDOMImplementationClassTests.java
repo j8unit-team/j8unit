@@ -19,7 +19,7 @@ import org.w3c.dom.html.HTMLDOMImplementation;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link HTMLDOMImplementationTests}.
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLDOMImplementationTests}.
  * </p>
  *
  * <p>

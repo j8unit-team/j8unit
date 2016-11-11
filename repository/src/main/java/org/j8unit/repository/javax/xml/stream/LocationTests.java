@@ -146,4 +146,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.Location]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.Location]
+
 }

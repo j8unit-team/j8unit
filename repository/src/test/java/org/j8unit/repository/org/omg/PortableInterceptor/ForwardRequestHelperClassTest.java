@@ -16,7 +16,7 @@ import org.omg.PortableInterceptor.ForwardRequestHelper;
 
 @RunWith(J8Unit4.class)
 public class ForwardRequestHelperClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelperClassTests<ForwardRequestHelper> {
+implements ForwardRequestHelperClassTests<ForwardRequestHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequestHelper]
 

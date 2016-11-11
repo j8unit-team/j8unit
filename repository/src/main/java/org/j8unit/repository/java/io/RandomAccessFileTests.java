@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RandomAccessFileClassTests}).
+ * {@link org.j8unit.repository.java.io.RandomAccessFileClassTests}).
  * </p>
  *
  * @param SUT
@@ -808,29 +808,6 @@ extends DataOutputTests<SUT>, DataInputTests<SUT>, CloseableTests<SUT>, ObjectTe
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.RandomAccessFile#readBoolean() public final
-     * boolean java.io.RandomAccessFile.readBoolean() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readBoolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.RandomAccessFile#writeShort(int) public
      * final void java.io.RandomAccessFile.writeShort(int) throws java.io.IOException}.
      *
@@ -846,6 +823,29 @@ extends DataOutputTests<SUT>, DataInputTests<SUT>, CloseableTests<SUT>, ObjectTe
     @Test
     @Category(Draft.class)
     public default void test_writeShort_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.RandomAccessFile#readBoolean() public final
+     * boolean java.io.RandomAccessFile.readBoolean() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readBoolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -924,4 +924,5 @@ extends DataOutputTests<SUT>, DataInputTests<SUT>, CloseableTests<SUT>, ObjectTe
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.RandomAccessFile]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.RandomAccessFile]
+
 }

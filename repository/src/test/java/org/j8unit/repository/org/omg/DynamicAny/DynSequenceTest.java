@@ -7,7 +7,7 @@ import org.omg.DynamicAny.DynSequence;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DynSequence} (by simply reusing the
- * J8Unit test interface {@link DynSequenceTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynSequenceTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -6,7 +6,6 @@ import java.util.concurrent.CompletableFuture.AsynchronousCompletionTask;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.concurrent.CompletableFutureTests.AsynchronousCompletionTaskTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CompletableFutureTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.concurrent.CompletableFutureTests}.
  * </p>
  *
  * <p>
@@ -88,7 +88,7 @@ extends FutureClassTests<SUT>, CompletionStageClassTests<SUT>, ObjectClassTests<
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AsynchronousCompletionTaskTests}.
+     * {@link org.j8unit.repository.java.util.concurrent.CompletableFutureTests.AsynchronousCompletionTaskTests}.
      * </p>
      *
      * <p>

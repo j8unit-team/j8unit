@@ -6,7 +6,8 @@ import org.omg.PortableServer.ThreadPolicyOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadPolicyOperations} (by simply
- * reusing the J8Unit test interface {@link ThreadPolicyOperationsClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

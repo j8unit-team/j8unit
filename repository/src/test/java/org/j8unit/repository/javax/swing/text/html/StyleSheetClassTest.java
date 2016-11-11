@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyleSheet} (by simply reusing the J8Unit
- * test interface {@link StyleSheetClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -73,30 +73,9 @@ implements StyleSheetClassTests<StyleSheet> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ListPainter} (by simply reusing the
-     * J8Unit test interface {@link ListPainterClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListPainterClassTest
-    implements ListPainterClassTests<ListPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        @Override
-        public Class<ListPainter> createNewSUT() {
-            return ListPainter.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link BoxPainter} (by simply reusing the
-     * J8Unit test interface {@link BoxPainterClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -113,6 +92,29 @@ implements StyleSheetClassTests<StyleSheet> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListPainter} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListPainterClassTest
+    implements ListPainterClassTests<ListPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        @Override
+        public Class<ListPainter> createNewSUT() {
+            return ListPainter.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
 
     }
 

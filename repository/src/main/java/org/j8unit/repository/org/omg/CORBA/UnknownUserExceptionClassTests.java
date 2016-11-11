@@ -18,7 +18,7 @@ import org.omg.CORBA.UnknownUserException;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link UnknownUserExceptionTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionTests}.
  * </p>
  *
  * <p>

@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.UnknownException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UnknownExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.UnknownExceptionTests}.
  * </p>
  *
  * <p>

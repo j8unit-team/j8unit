@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AttributesClassTests}).
+ * {@link org.j8unit.repository.java.util.jar.AttributesClassTests}).
  * </p>
  *
  * @param SUT
@@ -451,6 +451,7 @@ extends MapTests<SUT, Object, Object>, CloneableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Attributes]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Attributes]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -461,7 +462,7 @@ extends MapTests<SUT, Object, Object>, CloneableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link NameClassTests}).
+     * (see {@link org.j8unit.repository.java.util.jar.AttributesClassTests.NameClassTests}).
      * </p>
      *
      * @param SUT
@@ -548,6 +549,7 @@ extends MapTests<SUT, Object, Object>, CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Attributes$Name]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Attributes$Name]
+
     }
 
 }

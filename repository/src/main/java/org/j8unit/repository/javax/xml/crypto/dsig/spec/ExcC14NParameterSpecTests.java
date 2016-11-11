@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ExcC14NParameterSpecClassTests}).
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecClassTests}).
  * </p>
  *
  * @param SUT
@@ -59,4 +59,5 @@ extends C14NMethodParameterSpecTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+
 }

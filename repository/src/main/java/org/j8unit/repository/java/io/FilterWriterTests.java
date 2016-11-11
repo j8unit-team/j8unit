@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FilterWriterClassTests}).
+ * {@link org.j8unit.repository.java.io.FilterWriterClassTests}).
  * </p>
  *
  * @param SUT
@@ -150,4 +150,5 @@ extends WriterTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.FilterWriter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.FilterWriter]
+
 }

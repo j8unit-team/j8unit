@@ -10,7 +10,7 @@ import org.omg.CORBA.CODESET_INCOMPATIBLE;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CODESET_INCOMPATIBLE} (by simply reusing
- * the J8Unit test interface {@link CODESET_INCOMPATIBLEClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests}).
  */
 
 @RunWith(J8Unit4.class)

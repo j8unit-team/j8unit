@@ -19,7 +19,7 @@ import org.w3c.dom.DOMImplementationList;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DOMImplementationListTests}.
+ * {@link org.j8unit.repository.org.w3c.dom.DOMImplementationListTests}.
  * </p>
  *
  * <p>

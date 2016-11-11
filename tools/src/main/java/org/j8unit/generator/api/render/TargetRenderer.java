@@ -194,4 +194,9 @@ public abstract interface TargetRenderer {
      */
     public abstract String targetSimpleNameOf(final Method method);
 
+    public default String targetJavadocNameOf(final Class<?> entity) {
+        requireNonNull(entity);
+        return this.targetCanonicalNameOf(entity);
+    }
+
 }

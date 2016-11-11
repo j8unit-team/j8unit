@@ -41,8 +41,32 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<Bas
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonAreaLayout} (by simply
-     * reusing the J8Unit test interface {@link ButtonAreaLayoutTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -63,31 +87,9 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<Bas
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
-     * reusing the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
-
-        @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonActionListener} (by simply
-     * reusing the J8Unit test interface {@link ButtonActionListenerTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests}).
      */
 
     @RunWith(J8Unit4.class)

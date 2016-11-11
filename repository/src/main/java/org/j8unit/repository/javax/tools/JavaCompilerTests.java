@@ -5,7 +5,6 @@ import javax.tools.JavaCompiler.CompilationTask;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.util.concurrent.CallableTests;
-import org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JavaCompilerClassTests}).
+ * {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests}).
  * </p>
  *
  * @param SUT
@@ -90,6 +89,7 @@ extends ToolTests<SUT>, OptionCheckerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -100,7 +100,7 @@ extends ToolTests<SUT>, OptionCheckerTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CompilationTaskClassTests}).
+     * (see {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests}).
      * </p>
      *
      * @param SUT
@@ -188,6 +188,7 @@ extends ToolTests<SUT>, OptionCheckerTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
+
     }
 
 }

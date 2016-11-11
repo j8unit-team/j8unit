@@ -18,7 +18,8 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NotEmptyHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHelperTests}.
  * </p>
  *
  * <p>

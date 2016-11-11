@@ -8,7 +8,6 @@ import java.util.Spliterator.OfLong;
 import java.util.Spliterator.OfPrimitive;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SpliteratorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.SpliteratorTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OfPrimitiveTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests}.
      * </p>
      *
      * <p>
@@ -153,7 +154,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OfLongTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.SpliteratorTests.OfLongTests}.
      * </p>
      *
      * <p>
@@ -219,7 +221,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OfIntTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.SpliteratorTests.OfIntTests}.
      * </p>
      *
      * <p>
@@ -285,7 +288,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link OfDoubleTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests}.
      * </p>
      *
      * <p>

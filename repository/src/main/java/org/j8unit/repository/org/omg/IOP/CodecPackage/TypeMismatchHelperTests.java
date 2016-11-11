@@ -33,4 +33,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.CodecPackage.TypeMismatchHelper]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.CodecPackage.TypeMismatchHelper]
+
 }

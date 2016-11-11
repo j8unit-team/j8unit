@@ -42,8 +42,118 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTML]
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests}).
+     */
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class AttributeTest
+    implements AttributeTests<Attribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(Attribute.CODEBASE, //
+                                                       Attribute.ALIGN, //
+                                                       Attribute.LINK, //
+                                                       Attribute.CONTENT, //
+                                                       Attribute.CLASSID, //
+                                                       Attribute.CODETYPE, //
+                                                       Attribute.CELLPADDING, //
+                                                       Attribute.MARGINWIDTH, //
+                                                       Attribute.SRC, //
+                                                       Attribute.SHAPES, //
+                                                       Attribute.NOSHADE, //
+                                                       Attribute.BGCOLOR, //
+                                                       Attribute.PROMPT, //
+                                                       Attribute.USEMAP, //
+                                                       Attribute.WIDTH, //
+                                                       Attribute.COORDS, //
+                                                       Attribute.LANG, //
+                                                       Attribute.COLSPAN, //
+                                                       Attribute.N, //
+                                                       Attribute.COMMENT, //
+                                                       Attribute.COMPACT, //
+                                                       Attribute.DECLARE, //
+                                                       Attribute.CODE, //
+                                                       Attribute.ACTION, //
+                                                       Attribute.ENDTAG, //
+                                                       Attribute.ISMAP, //
+                                                       Attribute.NOHREF, //
+                                                       Attribute.REL, //
+                                                       Attribute.VERSION, //
+                                                       Attribute.TITLE, //
+                                                       Attribute.START, //
+                                                       Attribute.ROWSPAN, //
+                                                       Attribute.FACE, //
+                                                       Attribute.MARGINHEIGHT, //
+                                                       Attribute.ROWS, //
+                                                       Attribute.CLEAR, //
+                                                       Attribute.HEIGHT, //
+                                                       Attribute.DIR, //
+                                                       Attribute.COLS, //
+                                                       Attribute.DUMMY, //
+                                                       Attribute.FRAMEBORDER, //
+                                                       Attribute.NOWRAP, //
+                                                       Attribute.COLOR, //
+                                                       Attribute.ARCHIVE, //
+                                                       Attribute.ID, //
+                                                       Attribute.TYPE, //
+                                                       Attribute.TARGET, //
+                                                       Attribute.REV, //
+                                                       Attribute.ALT, //
+                                                       Attribute.HALIGN, //
+                                                       Attribute.VALUETYPE, //
+                                                       Attribute.VALUE, //
+                                                       Attribute.CLASS, //
+                                                       Attribute.ENCTYPE, //
+                                                       Attribute.TEXT, //
+                                                       Attribute.HREF, //
+                                                       Attribute.HSPACE, //
+                                                       Attribute.CHECKED, //
+                                                       Attribute.ALINK, //
+                                                       Attribute.VLINK, //
+                                                       Attribute.MULTIPLE, //
+                                                       Attribute.SELECTED, //
+                                                       Attribute.BORDER, //
+                                                       Attribute.SHAPE, //
+                                                       Attribute.DATA, //
+                                                       Attribute.VALIGN, //
+                                                       Attribute.STANDBY, //
+                                                       Attribute.METHOD, //
+                                                       Attribute.NORESIZE, //
+                                                       Attribute.LANGUAGE, //
+                                                       Attribute.LOWSRC, //
+                                                       Attribute.SIZE, //
+                                                       Attribute.VSPACE, //
+                                                       Attribute.STYLE, //
+                                                       Attribute.SCROLLING, //
+                                                       Attribute.MAXLENGTH, //
+                                                       Attribute.CELLSPACING, //
+                                                       Attribute.HTTPEQUIV, //
+                                                       Attribute.BACKGROUND, //
+                                                       Attribute.NAME);
+        }
+
+        @Parameter(0)
+        public Attribute sut;
+
+        @Override
+        public Attribute createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Tag} (by simply reusing the
-     * J8Unit test interface {@link TagTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -148,118 +258,8 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
-     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests}).
-     */
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class AttributeTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests<Attribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(Attribute.CODEBASE, //
-                                                       Attribute.ALIGN, //
-                                                       Attribute.LINK, //
-                                                       Attribute.CONTENT, //
-                                                       Attribute.CLASSID, //
-                                                       Attribute.CODETYPE, //
-                                                       Attribute.CELLPADDING, //
-                                                       Attribute.MARGINWIDTH, //
-                                                       Attribute.SRC, //
-                                                       Attribute.SHAPES, //
-                                                       Attribute.NOSHADE, //
-                                                       Attribute.BGCOLOR, //
-                                                       Attribute.PROMPT, //
-                                                       Attribute.USEMAP, //
-                                                       Attribute.WIDTH, //
-                                                       Attribute.COORDS, //
-                                                       Attribute.LANG, //
-                                                       Attribute.COLSPAN, //
-                                                       Attribute.N, //
-                                                       Attribute.COMMENT, //
-                                                       Attribute.COMPACT, //
-                                                       Attribute.DECLARE, //
-                                                       Attribute.CODE, //
-                                                       Attribute.ACTION, //
-                                                       Attribute.ENDTAG, //
-                                                       Attribute.ISMAP, //
-                                                       Attribute.NOHREF, //
-                                                       Attribute.REL, //
-                                                       Attribute.VERSION, //
-                                                       Attribute.TITLE, //
-                                                       Attribute.START, //
-                                                       Attribute.ROWSPAN, //
-                                                       Attribute.FACE, //
-                                                       Attribute.MARGINHEIGHT, //
-                                                       Attribute.ROWS, //
-                                                       Attribute.CLEAR, //
-                                                       Attribute.HEIGHT, //
-                                                       Attribute.DIR, //
-                                                       Attribute.COLS, //
-                                                       Attribute.DUMMY, //
-                                                       Attribute.FRAMEBORDER, //
-                                                       Attribute.NOWRAP, //
-                                                       Attribute.COLOR, //
-                                                       Attribute.ARCHIVE, //
-                                                       Attribute.ID, //
-                                                       Attribute.TYPE, //
-                                                       Attribute.TARGET, //
-                                                       Attribute.REV, //
-                                                       Attribute.ALT, //
-                                                       Attribute.HALIGN, //
-                                                       Attribute.VALUETYPE, //
-                                                       Attribute.VALUE, //
-                                                       Attribute.CLASS, //
-                                                       Attribute.ENCTYPE, //
-                                                       Attribute.TEXT, //
-                                                       Attribute.HREF, //
-                                                       Attribute.HSPACE, //
-                                                       Attribute.CHECKED, //
-                                                       Attribute.ALINK, //
-                                                       Attribute.VLINK, //
-                                                       Attribute.MULTIPLE, //
-                                                       Attribute.SELECTED, //
-                                                       Attribute.BORDER, //
-                                                       Attribute.SHAPE, //
-                                                       Attribute.DATA, //
-                                                       Attribute.VALIGN, //
-                                                       Attribute.STANDBY, //
-                                                       Attribute.METHOD, //
-                                                       Attribute.NORESIZE, //
-                                                       Attribute.LANGUAGE, //
-                                                       Attribute.LOWSRC, //
-                                                       Attribute.SIZE, //
-                                                       Attribute.VSPACE, //
-                                                       Attribute.STYLE, //
-                                                       Attribute.SCROLLING, //
-                                                       Attribute.MAXLENGTH, //
-                                                       Attribute.CELLSPACING, //
-                                                       Attribute.HTTPEQUIV, //
-                                                       Attribute.BACKGROUND, //
-                                                       Attribute.NAME);
-        }
-
-        @Parameter(0)
-        public Attribute sut;
-
-        @Override
-        public Attribute createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link UnknownTag} (by simply reusing
-     * the J8Unit test interface {@link UnknownTagTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests}).
      */
 
     @RunWith(J8Unit4.class)

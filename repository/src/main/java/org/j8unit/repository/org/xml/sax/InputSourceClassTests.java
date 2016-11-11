@@ -18,7 +18,8 @@ import org.xml.sax.InputSource;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InputSourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.InputSourceTests}.
  * </p>
  *
  * <p>

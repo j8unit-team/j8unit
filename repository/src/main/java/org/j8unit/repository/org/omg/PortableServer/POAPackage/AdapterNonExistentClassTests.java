@@ -18,7 +18,8 @@ import org.omg.PortableServer.POAPackage.AdapterNonExistent;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AdapterNonExistentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentTests}.
  * </p>
  *
  * <p>

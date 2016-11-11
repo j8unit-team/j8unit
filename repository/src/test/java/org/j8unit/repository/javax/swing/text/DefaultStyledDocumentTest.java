@@ -41,30 +41,32 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentT
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementBuffer} (by simply reusing
-     * the J8Unit test interface {@link ElementBufferTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributeUndoableEdit} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class ElementBufferTest
-    implements ElementBufferTests<ElementBuffer> {
+    public static class AttributeUndoableEditTest
+    implements AttributeUndoableEditTests<AttributeUndoableEdit> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
         @Override
-        public ElementBuffer createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementBuffer], j8unit does not support a generic way to provide instances.");
+        public AttributeUndoableEdit createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
     }
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementSpec} (by simply reusing
-     * the J8Unit test interface {@link ElementSpecTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -85,24 +87,25 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentT
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributeUndoableEdit} (by simply
-     * reusing the J8Unit test interface {@link AttributeUndoableEditTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementBuffer} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class AttributeUndoableEditTest
-    implements AttributeUndoableEditTests<AttributeUndoableEdit> {
+    public static class ElementBufferTest
+    implements ElementBufferTests<ElementBuffer> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
         @Override
-        public AttributeUndoableEdit createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit], j8unit does not support a generic way to provide instances.");
+        public ElementBuffer createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementBuffer], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
     }
 

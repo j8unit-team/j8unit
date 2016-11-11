@@ -6,7 +6,6 @@ import javax.xml.bind.annotation.XmlElementDecl.GLOBAL;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
-import org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests.GLOBALTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link XmlElementDeclTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends AnnotationClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link GLOBALTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests.GLOBALTests}.
      * </p>
      *
      * <p>

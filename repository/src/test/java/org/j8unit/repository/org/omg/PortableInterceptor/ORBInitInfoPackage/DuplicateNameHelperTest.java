@@ -7,7 +7,8 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DuplicateNameHelper} (by simply
- * reusing the J8Unit test interface {@link DuplicateNameHelperTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

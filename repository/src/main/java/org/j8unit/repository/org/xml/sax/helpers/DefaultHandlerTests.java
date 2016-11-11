@@ -22,7 +22,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DefaultHandlerClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerClassTests}).
  * </p>
  *
  * @param SUT
@@ -454,4 +454,5 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, ContentHandlerTests<SUT>
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.DefaultHandler]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.DefaultHandler]
+
 }

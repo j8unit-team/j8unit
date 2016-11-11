@@ -20,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentFilterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.DocumentFilterTests}.
  * </p>
  *
  * <p>
@@ -84,7 +85,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FilterBypassTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.DocumentFilterTests.FilterBypassTests}.
      * </p>
      *
      * <p>

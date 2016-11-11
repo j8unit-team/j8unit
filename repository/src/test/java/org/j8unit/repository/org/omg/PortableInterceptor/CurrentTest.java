@@ -12,7 +12,7 @@ import org.omg.PortableInterceptor.Current;
 
 @RunWith(J8Unit4.class)
 public class CurrentTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentTests<Current> {
+implements CurrentTests<Current> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.Current]
 

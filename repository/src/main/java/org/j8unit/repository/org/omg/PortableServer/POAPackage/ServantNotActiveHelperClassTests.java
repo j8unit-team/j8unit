@@ -19,7 +19,7 @@ import org.omg.PortableServer.POAPackage.ServantNotActiveHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServantNotActiveHelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveHelperTests}.
  * </p>
  *
  * <p>

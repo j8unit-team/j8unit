@@ -12,7 +12,7 @@ import org.omg.DynamicAny.FieldNameHelper;
 
 @RunWith(J8Unit4.class)
 public class FieldNameHelperTest
-implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperTests<FieldNameHelper> {
+implements FieldNameHelperTests<FieldNameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.FieldNameHelper]
 

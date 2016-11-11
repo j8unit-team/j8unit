@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Doc} (by simply reusing the J8Unit
- * test interface {@link DocTests}).
+ * test interface {@link org.j8unit.repository.javax.print.DocTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class DocTest
-implements DocTests<Doc> {
+implements org.j8unit.repository.javax.print.DocTests<Doc> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.Doc]
 

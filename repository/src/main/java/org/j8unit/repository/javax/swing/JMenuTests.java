@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JMenuClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JMenuClassTests}).
  * </p>
  *
  * @param SUT
@@ -126,8 +126,8 @@ extends JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.JMenuItem) public
-     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.JMenuItem)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.Action) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -139,7 +139,29 @@ extends JMenuItemTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_JMenuItem()
+    public default void test_add_Action()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(String) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,6 +193,28 @@ extends JMenuItemTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.JMenuItem) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.JMenuItem)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_JMenuItem()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(java.awt.Component, int)
      * public java.awt.Component javax.swing.JMenu.add(java.awt.Component,int)}.
      *
@@ -186,50 +230,6 @@ extends JMenuItemTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_add_Component_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(String) public
-     * javax.swing.JMenuItem javax.swing.JMenu.add(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.Action) public
-     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.Action)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_Action()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -420,28 +420,6 @@ extends JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuComponents() public
-     * java.awt.Component[] javax.swing.JMenu.getMenuComponents()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuComponents()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#menuSelectionChanged(boolean)
      * public void javax.swing.JMenu.menuSelectionChanged(boolean)}.
      *
@@ -457,6 +435,28 @@ extends JMenuItemTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuComponents() public
+     * java.awt.Component[] javax.swing.JMenu.getMenuComponents()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuComponents()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -531,28 +531,6 @@ extends JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getItem(int) public
-     * javax.swing.JMenuItem javax.swing.JMenu.getItem(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItem_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuListeners() public
      * javax.swing.event.MenuListener[] javax.swing.JMenu.getMenuListeners()}.
      *
@@ -567,6 +545,28 @@ extends JMenuItemTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMenuListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getItem(int) public
+     * javax.swing.JMenuItem javax.swing.JMenu.getItem(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getItem_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -733,28 +733,6 @@ extends JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getDelay() public int
-     * javax.swing.JMenu.getDelay()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDelay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setPopupMenuVisible(boolean)
      * public void javax.swing.JMenu.setPopupMenuVisible(boolean)}.
      *
@@ -769,6 +747,28 @@ extends JMenuItemTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPopupMenuVisible_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getDelay() public int
+     * javax.swing.JMenu.getDelay()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDelay()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1027,4 +1027,5 @@ extends JMenuItemTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JMenu]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JMenu]
+
 }

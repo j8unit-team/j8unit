@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JViewportClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JViewportClassTests}).
  * </p>
  *
  * @param SUT
@@ -58,8 +58,8 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JViewport#repaint(long, int, int, int, int) public void
-     * javax.swing.JViewport.repaint(long,int,int,int,int)}.
+     * {@link javax.swing.JViewport#toViewCoordinates(java.awt.Point) public java.awt.Point
+     * javax.swing.JViewport.toViewCoordinates(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,10 +69,9 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_repaint_long_int_int_int_int()
+    public default void test_toViewCoordinates_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,29 +103,6 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JViewport#toViewCoordinates(java.awt.Point) public java.awt.Point
-     * javax.swing.JViewport.toViewCoordinates(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toViewCoordinates_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JViewport#getViewPosition() public
      * java.awt.Point javax.swing.JViewport.getViewPosition()}.
      *
@@ -141,6 +117,30 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getViewPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JViewport#repaint(long, int, int, int, int) public void
+     * javax.swing.JViewport.repaint(long,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_repaint_long_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -330,29 +330,6 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JViewport#reshape(int, int, int, int)
-     * public void javax.swing.JViewport.reshape(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_reshape_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JViewport#getInsets() public final
      * java.awt.Insets javax.swing.JViewport.getInsets()}.
      *
@@ -391,6 +368,29 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInsets_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JViewport#reshape(int, int, int, int)
+     * public void javax.swing.JViewport.reshape(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_reshape_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -534,29 +534,6 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JViewport#setViewPosition(java.awt.Point) public void
-     * javax.swing.JViewport.setViewPosition(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setViewPosition_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JViewport#setViewSize(java.awt.Dimension) public void
      * javax.swing.JViewport.setViewSize(java.awt.Dimension)}.
      *
@@ -571,6 +548,29 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setViewSize_Dimension()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JViewport#setViewPosition(java.awt.Point) public void
+     * javax.swing.JViewport.setViewPosition(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setViewPosition_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -764,4 +764,5 @@ extends AccessibleTests<SUT>, JComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JViewport]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JViewport]
+
 }

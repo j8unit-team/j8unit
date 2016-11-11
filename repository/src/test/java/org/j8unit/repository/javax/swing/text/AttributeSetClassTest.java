@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeSet} (by simply reusing the
- * J8Unit test interface {@link AttributeSetClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -30,7 +30,8 @@ implements AttributeSetClassTests<AttributeSet> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link FontAttribute} (by simply reusing the
-     * J8Unit test interface {@link FontAttributeClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -51,30 +52,9 @@ implements AttributeSetClassTests<AttributeSet> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorAttribute} (by simply reusing
-     * the J8Unit test interface {@link ColorAttributeClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ColorAttributeClassTest
-    implements ColorAttributeClassTests<ColorAttribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        @Override
-        public Class<ColorAttribute> createNewSUT() {
-            return ColorAttribute.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ParagraphAttribute} (by simply
-     * reusing the J8Unit test interface {@link ParagraphAttributeClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ParagraphAttributeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -95,8 +75,32 @@ implements AttributeSetClassTests<AttributeSet> {
     }
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorAttribute} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ColorAttributeClassTest
+    implements ColorAttributeClassTests<ColorAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+        @Override
+        public Class<ColorAttribute> createNewSUT() {
+            return ColorAttribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link CharacterAttribute} (by simply
-     * reusing the J8Unit test interface {@link CharacterAttributeClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

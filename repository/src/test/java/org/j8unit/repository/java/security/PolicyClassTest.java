@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Policy} (by simply reusing the J8Unit
- * test interface {@link PolicyClassTests}).
+ * test interface {@link org.j8unit.repository.java.security.PolicyClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -161,7 +161,7 @@ implements PolicyClassTests<Policy> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Parameters} (by simply reusing the
-     * J8Unit test interface {@link ParametersClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests}).
      */
 
     @RunWith(J8Unit4.class)

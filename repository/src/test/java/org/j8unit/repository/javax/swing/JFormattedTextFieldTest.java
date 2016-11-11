@@ -40,30 +40,9 @@ implements FactoryBasedJ8UnitTest<JFormattedTextField>, JFormattedTextFieldTests
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractFormatter} (by simply
-     * reusing the J8Unit test interface {@link AbstractFormatterTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class AbstractFormatterTest
-    implements AbstractFormatterTests<AbstractFormatter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-        @Override
-        public AbstractFormatter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.JFormattedTextField.AbstractFormatter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractFormatterFactory} (by
-     * simply reusing the J8Unit test interface {@link AbstractFormatterFactoryTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterFactoryTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -80,6 +59,29 @@ implements FactoryBasedJ8UnitTest<JFormattedTextField>, JFormattedTextFieldTests
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractFormatter} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class AbstractFormatterTest
+    implements AbstractFormatterTests<AbstractFormatter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+        @Override
+        public AbstractFormatter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.JFormattedTextField.AbstractFormatter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
     }
 

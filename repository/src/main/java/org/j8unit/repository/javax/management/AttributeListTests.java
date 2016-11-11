@@ -290,4 +290,5 @@ extends ArrayListTests<SUT, Object> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.AttributeList]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.AttributeList]
+
 }

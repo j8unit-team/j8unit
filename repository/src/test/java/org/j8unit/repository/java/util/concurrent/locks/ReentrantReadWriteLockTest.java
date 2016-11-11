@@ -41,7 +41,8 @@ implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLoc
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ReadLock} (by simply reusing the
-     * J8Unit test interface {@link ReadLockTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -63,7 +64,8 @@ implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLoc
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link WriteLock} (by simply reusing the
-     * J8Unit test interface {@link WriteLockTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests}).
      */
 
     @RunWith(J8Unit4.class)

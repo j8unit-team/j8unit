@@ -21,16 +21,6 @@ import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.SwingConstantsTests;
 import org.j8unit.repository.javax.swing.border.AbstractBorderTests;
 import org.j8unit.repository.javax.swing.plaf.UIResourceTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.InternalFrameBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuItemBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.OptionDialogBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PaletteBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PopupMenuBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ScrollPaneBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TableHeaderBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TextFieldBorderClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToolBarBorderClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -45,7 +35,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MetalBordersClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests}).
  * </p>
  *
  * @param SUT
@@ -63,485 +53,6 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link PaletteBorder public static class javax.swing.plaf.metal.MetalBorders$PaletteBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PaletteBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface PaletteBorderTests<SUT extends PaletteBorder>
-    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$PaletteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$PaletteBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link TableHeaderBorder public static class javax.swing.plaf.metal.MetalBorders$TableHeaderBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TableHeaderBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface TableHeaderBorderTests<SUT extends TableHeaderBorder>
-    extends AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MenuItemBorder public static class javax.swing.plaf.metal.MetalBorders$MenuItemBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link MenuItemBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MenuItemBorderTests<SUT extends MenuItemBorder>
-    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MenuBarBorder public static class javax.swing.plaf.metal.MetalBorders$MenuBarBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link MenuBarBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MenuBarBorderTests<SUT extends MenuBarBorder>
-    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ScrollPaneBorder public static class javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ScrollPaneBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ScrollPaneBorderTests<SUT extends ScrollPaneBorder>
-    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ToolBarBorder public static class javax.swing.plaf.metal.MetalBorders$ToolBarBorder}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ToolBarBorderClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ToolBarBorderTests<SUT extends ToolBarBorder>
-    extends UIResourceTests<SUT>, SwingConstantsTests<SUT>, AbstractBorderTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
-    }
 
     /**
      * <p>
@@ -553,7 +64,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ButtonBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -621,19 +132,20 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
+
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link RolloverButtonBorder public static class javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder}.
+     * {@link ToolBarBorder public static class javax.swing.plaf.metal.MetalBorders$ToolBarBorder}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link RolloverButtonBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToolBarBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -643,17 +155,42 @@ extends ObjectTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RolloverButtonBorderTests<SUT extends RolloverButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<SUT> {
+    public static abstract interface ToolBarBorderTests<SUT extends ToolBarBorder>
+    extends UIResourceTests<SUT>, SwingConstantsTests<SUT>, AbstractBorderTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.ToolBarBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
          * public void
-         * javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         * javax.swing.plaf.metal.MetalBorders$ToolBarBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -673,9 +210,10 @@ extends ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
+
     }
 
     /**
@@ -688,7 +226,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ToggleButtonBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToggleButtonBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -731,19 +269,20 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
+
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InternalFrameBorder public static class javax.swing.plaf.metal.MetalBorders$InternalFrameBorder}.
+     * {@link PaletteBorder public static class javax.swing.plaf.metal.MetalBorders$PaletteBorder}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InternalFrameBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PaletteBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -753,17 +292,17 @@ extends ObjectTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFrameBorderTests<SUT extends InternalFrameBorder>
+    public static abstract interface PaletteBorderTests<SUT extends PaletteBorder>
     extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
          * public void
-         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         * javax.swing.plaf.metal.MetalBorders$PaletteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -786,9 +325,9 @@ extends ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * {@link javax.swing.plaf.metal.MetalBorders.PaletteBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
          * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         * javax.swing.plaf.metal.MetalBorders$PaletteBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -808,9 +347,91 @@ extends ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ScrollPaneBorder public static class javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ScrollPaneBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ScrollPaneBorderTests<SUT extends ScrollPaneBorder>
+    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
     }
 
     /**
@@ -823,7 +444,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TextFieldBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TextFieldBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -866,19 +487,20 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
+
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link PopupMenuBorder public static class javax.swing.plaf.metal.MetalBorders$PopupMenuBorder}.
+     * {@link MenuItemBorder public static class javax.swing.plaf.metal.MetalBorders$MenuItemBorder}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PopupMenuBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuItemBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -888,42 +510,17 @@ extends ObjectTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PopupMenuBorderTests<SUT extends PopupMenuBorder>
+    public static abstract interface MenuItemBorderTests<SUT extends MenuItemBorder>
     extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
          * public void
-         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -943,9 +540,35 @@ extends ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuItemBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$MenuItemBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+
     }
 
     /**
@@ -958,7 +581,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link OptionDialogBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.OptionDialogBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -1026,6 +649,387 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link RolloverButtonBorder public static class javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.RolloverButtonBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface RolloverButtonBorderTests<SUT extends RolloverButtonBorder>
+    extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PopupMenuBorder public static class javax.swing.plaf.metal.MetalBorders$PopupMenuBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PopupMenuBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface PopupMenuBorderTests<SUT extends PopupMenuBorder>
+    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.PopupMenuBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InternalFrameBorder public static class javax.swing.plaf.metal.MetalBorders$InternalFrameBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.InternalFrameBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface InternalFrameBorderTests<SUT extends InternalFrameBorder>
+    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.InternalFrameBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TableHeaderBorder public static class javax.swing.plaf.metal.MetalBorders$TableHeaderBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TableHeaderBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface TableHeaderBorderTests<SUT extends TableHeaderBorder>
+    extends AbstractBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.TableHeaderBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link MenuBarBorder public static class javax.swing.plaf.metal.MetalBorders$MenuBarBorder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuBarBorderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface MenuBarBorderTests<SUT extends MenuBarBorder>
+    extends UIResourceTests<SUT>, AbstractBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalBorders.MenuBarBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.metal.MetalBorders$MenuBarBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
     }
 
     /**
@@ -1038,7 +1042,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link Flush3DBorderClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests}).
      * </p>
      *
      * @param SUT
@@ -1106,6 +1110,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
+
     }
 
 }

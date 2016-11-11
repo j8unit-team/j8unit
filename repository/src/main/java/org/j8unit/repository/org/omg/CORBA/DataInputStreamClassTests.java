@@ -18,7 +18,8 @@ import org.omg.CORBA.DataInputStream;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DataInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.DataInputStreamTests}.
  * </p>
  *
  * <p>

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TreeExpansionEventClassTests}).
+ * {@link org.j8unit.repository.javax.swing.event.TreeExpansionEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -58,4 +58,5 @@ extends EventObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.TreeExpansionEvent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.TreeExpansionEvent]
+
 }

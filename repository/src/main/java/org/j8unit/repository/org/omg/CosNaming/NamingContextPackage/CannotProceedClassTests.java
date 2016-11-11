@@ -18,7 +18,8 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceed;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CannotProceedTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedTests}.
  * </p>
  *
  * <p>

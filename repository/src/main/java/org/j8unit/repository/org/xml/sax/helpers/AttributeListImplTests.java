@@ -19,7 +19,7 @@ import org.xml.sax.helpers.AttributeListImpl;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AttributeListImplClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -268,4 +268,5 @@ extends AttributeListTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.AttributeListImpl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.AttributeListImpl]
+
 }

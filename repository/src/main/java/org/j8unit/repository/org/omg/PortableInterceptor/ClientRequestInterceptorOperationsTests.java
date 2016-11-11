@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ClientRequestInterceptorOperations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ClientRequestInterceptorOperationsClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInterceptorOperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -159,4 +159,5 @@ extends InterceptorOperationsTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.ClientRequestInterceptorOperations]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ClientRequestInterceptorOperations]
+
 }

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ActivationDataFlavorClassTests}).
+ * {@link org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests}).
  * </p>
  *
  * @param SUT
@@ -179,4 +179,5 @@ extends DataFlavorTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.ActivationDataFlavor]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.ActivationDataFlavor]
+
 }

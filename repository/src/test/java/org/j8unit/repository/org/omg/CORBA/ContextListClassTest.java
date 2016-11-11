@@ -11,7 +11,7 @@ import org.omg.CORBA.ContextList;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ContextList} (by simply reusing the
- * J8Unit test interface {@link ContextListClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ContextListClassTests}).
  */
 
 @RunWith(J8Unit4.class)

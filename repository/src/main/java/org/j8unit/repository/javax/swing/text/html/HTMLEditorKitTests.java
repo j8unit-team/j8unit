@@ -15,11 +15,6 @@ import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.accessibility.AccessibleTests;
 import org.j8unit.repository.javax.swing.text.StyledEditorKitTests;
 import org.j8unit.repository.javax.swing.text.ViewFactoryTests;
-import org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests;
-import org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests;
-import org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests;
-import org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests;
-import org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -34,7 +29,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HTMLEditorKitClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests}).
  * </p>
  *
  * @param SUT
@@ -170,29 +165,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.html.HTMLEditorKit#setLinkCursor(java.awt.Cursor) public void
-     * javax.swing.text.html.HTMLEditorKit.setLinkCursor(java.awt.Cursor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLinkCursor_Cursor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.html.HTMLEditorKit#getInputAttributes() public javax.swing.text.MutableAttributeSet
      * javax.swing.text.html.HTMLEditorKit.getInputAttributes()}.
      *
@@ -208,6 +180,29 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInputAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.HTMLEditorKit#setLinkCursor(java.awt.Cursor) public void
+     * javax.swing.text.html.HTMLEditorKit.setLinkCursor(java.awt.Cursor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLinkCursor_Cursor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -265,29 +260,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.html.HTMLEditorKit#setStyleSheet(javax.swing.text.html.StyleSheet) public void
-     * javax.swing.text.html.HTMLEditorKit.setStyleSheet(javax.swing.text.html.StyleSheet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStyleSheet_StyleSheet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTMLEditorKit#getViewFactory()
      * public javax.swing.text.ViewFactory javax.swing.text.html.HTMLEditorKit.getViewFactory()}.
      *
@@ -303,6 +275,29 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getViewFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.HTMLEditorKit#setStyleSheet(javax.swing.text.html.StyleSheet) public void
+     * javax.swing.text.html.HTMLEditorKit.setStyleSheet(javax.swing.text.html.StyleSheet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setStyleSheet_StyleSheet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -382,29 +377,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.html.HTMLEditorKit#setAutoFormSubmission(boolean) public void
-     * javax.swing.text.html.HTMLEditorKit.setAutoFormSubmission(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAutoFormSubmission_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.html.HTMLEditorKit#createDefaultDocument() public javax.swing.text.Document
      * javax.swing.text.html.HTMLEditorKit.createDefaultDocument()}.
      *
@@ -420,6 +392,29 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDefaultDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.HTMLEditorKit#setAutoFormSubmission(boolean) public void
+     * javax.swing.text.html.HTMLEditorKit.setAutoFormSubmission(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAutoFormSubmission_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -521,6 +516,62 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HTMLFactory
+     * public static class javax.swing.text.html.HTMLEditorKit$HTMLFactory}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface HTMLFactoryTests<SUT extends HTMLFactory>
+    extends ViewFactoryTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLEditorKit.HTMLFactory#create(javax.swing.text.Element) public
+         * javax.swing.text.View javax.swing.text.html.HTMLEditorKit$HTMLFactory.create(javax.swing.text.Element)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_create_Element()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+    }
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -531,7 +582,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ParserClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests}).
      * </p>
      *
      * @param SUT
@@ -574,6 +625,63 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$Parser]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$Parser]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InsertHTMLTextAction public static class javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface InsertHTMLTextActionTests<SUT extends InsertHTMLTextAction>
+    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
     }
 
     /**
@@ -586,7 +694,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link LinkControllerClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests}).
      * </p>
      *
      * @param SUT
@@ -676,6 +784,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$LinkController]
+
     }
 
     /**
@@ -688,7 +797,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ParserCallbackClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests}).
      * </p>
      *
      * @param SUT
@@ -893,61 +1002,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
-    }
 
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InsertHTMLTextAction public static class javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InsertHTMLTextActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface InsertHTMLTextActionTests<SUT extends InsertHTMLTextAction>
-    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
     }
 
     /**
@@ -960,7 +1015,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link HTMLTextActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -978,60 +1033,7 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
-    }
 
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HTMLFactory
-     * public static class javax.swing.text.html.HTMLEditorKit$HTMLFactory}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link HTMLFactoryClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface HTMLFactoryTests<SUT extends HTMLFactory>
-    extends ViewFactoryTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.HTMLFactory#create(javax.swing.text.Element) public
-         * javax.swing.text.View javax.swing.text.html.HTMLEditorKit$HTMLFactory.create(javax.swing.text.Element)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_create_Element()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
     }
 
 }

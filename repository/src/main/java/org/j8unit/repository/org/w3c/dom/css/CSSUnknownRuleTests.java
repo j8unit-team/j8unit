@@ -14,7 +14,7 @@ import org.w3c.dom.css.CSSUnknownRule;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CSSUnknownRuleClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.css.CSSUnknownRuleClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,4 +32,5 @@ extends CSSRuleTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSSUnknownRule]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSUnknownRule]
+
 }

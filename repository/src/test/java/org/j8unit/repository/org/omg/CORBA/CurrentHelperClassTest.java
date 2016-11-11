@@ -11,12 +11,12 @@ import org.omg.CORBA.CurrentHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CurrentHelper} (by simply reusing the
- * J8Unit test interface {@link CurrentHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CurrentHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class CurrentHelperClassTest
-implements CurrentHelperClassTests<CurrentHelper> {
+implements org.j8unit.repository.org.omg.CORBA.CurrentHelperClassTests<CurrentHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CurrentHelper]
 

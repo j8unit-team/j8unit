@@ -11,7 +11,7 @@ import org.omg.CORBA.TCKind;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TCKind} (by simply reusing the J8Unit
- * test interface {@link TCKindTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.TCKindTests}).
  */
 
 @RunWith(J8Parameterized.class)

@@ -7,7 +7,7 @@ import org.omg.CORBA.DefinitionKindHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DefinitionKindHelper} (by simply
- * reusing the J8Unit test interface {@link DefinitionKindHelperTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -6,9 +6,6 @@ import java.lang.Character.UnicodeBlock;
 import java.lang.Character.UnicodeScript;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
-import org.j8unit.repository.java.lang.CharacterTests.SubsetTests;
-import org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests;
-import org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CharacterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.lang.CharacterTests}.
  * </p>
  *
  * <p>
@@ -88,7 +86,8 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnicodeScriptTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests}.
      * </p>
      *
      * <p>
@@ -154,7 +153,8 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SubsetTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.CharacterTests.SubsetTests}.
      * </p>
      *
      * <p>
@@ -220,7 +220,8 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnicodeBlockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests}.
      * </p>
      *
      * <p>

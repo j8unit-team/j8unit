@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TransformClassTests}).
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.TransformClassTests}).
  * </p>
  *
  * @param SUT
@@ -110,4 +110,5 @@ extends XMLStructureTests<SUT>, AlgorithmMethodTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.Transform]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.Transform]
+
 }

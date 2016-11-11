@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.ORBIdHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ORBIdHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBIdHelperTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,7 @@ import org.omg.PortableServer.ServantActivatorHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantActivatorHelper} (by simply
- * reusing the J8Unit test interface {@link ServantActivatorHelperTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

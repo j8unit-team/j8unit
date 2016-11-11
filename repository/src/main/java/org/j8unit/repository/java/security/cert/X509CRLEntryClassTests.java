@@ -18,7 +18,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link X509CRLEntryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.security.cert.X509CRLEntryTests}.
  * </p>
  *
  * <p>

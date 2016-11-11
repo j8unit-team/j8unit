@@ -6,7 +6,6 @@ import java.rmi.activation.ActivationGroupDesc.CommandEnvironment;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ActivationGroupDescTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CommandEnvironmentTests}.
+     * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests}.
      * </p>
      *
      * <p>

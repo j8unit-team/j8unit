@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class AttributeListClassTest
-implements org.j8unit.repository.javax.management.AttributeListClassTests<AttributeList> {
+implements AttributeListClassTests<AttributeList> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.AttributeList]
 

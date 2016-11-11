@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ActivationGroup_StubTests}.
+ * {@link org.j8unit.repository.java.rmi.activation.ActivationGroup_StubTests}.
  * </p>
  *
  * <p>

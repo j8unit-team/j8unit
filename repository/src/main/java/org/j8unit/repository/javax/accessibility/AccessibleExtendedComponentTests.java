@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AccessibleExtendedComponentClassTests}).
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests}).
  * </p>
  *
  * @param SUT
@@ -105,4 +105,5 @@ extends AccessibleComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleExtendedComponent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleExtendedComponent]
+
 }

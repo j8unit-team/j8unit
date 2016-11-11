@@ -8,10 +8,6 @@ import java.util.concurrent.ThreadPoolExecutor.DiscardPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -26,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ThreadPoolExecutorClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests}).
  * </p>
  *
  * @param SUT
@@ -40,29 +36,6 @@ public abstract interface ThreadPoolExecutorTests<SUT extends ThreadPoolExecutor
 extends AbstractExecutorServiceTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadPoolExecutor#setMaximumPoolSize(int) public void
-     * java.util.concurrent.ThreadPoolExecutor.setMaximumPoolSize(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMaximumPoolSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -82,6 +55,29 @@ extends AbstractExecutorServiceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isTerminated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadPoolExecutor#setMaximumPoolSize(int) public void
+     * java.util.concurrent.ThreadPoolExecutor.setMaximumPoolSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMaximumPoolSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -205,6 +201,28 @@ extends AbstractExecutorServiceTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadPoolExecutor#purge()
+     * public void java.util.concurrent.ThreadPoolExecutor.purge()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_purge()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ThreadPoolExecutor#getCorePoolSize() public int
      * java.util.concurrent.ThreadPoolExecutor.getCorePoolSize()}.
@@ -220,28 +238,6 @@ extends AbstractExecutorServiceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCorePoolSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadPoolExecutor#purge()
-     * public void java.util.concurrent.ThreadPoolExecutor.purge()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_purge()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -601,6 +597,29 @@ extends AbstractExecutorServiceTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadPoolExecutor#isShutdown()
+     * public boolean java.util.concurrent.ThreadPoolExecutor.isShutdown()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isShutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ThreadPoolExecutor#setKeepAliveTime(long, java.util.concurrent.TimeUnit) public void
      * java.util.concurrent.ThreadPoolExecutor.setKeepAliveTime(long,java.util.concurrent.TimeUnit)}.
@@ -639,29 +658,6 @@ extends AbstractExecutorServiceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setCorePoolSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadPoolExecutor#isShutdown()
-     * public boolean java.util.concurrent.ThreadPoolExecutor.isShutdown()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isShutdown()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -740,6 +736,7 @@ extends AbstractExecutorServiceTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -750,7 +747,7 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DiscardPolicyClassTests}).
+     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -793,6 +790,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+
     }
 
     /**
@@ -805,7 +803,7 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link AbortPolicyClassTests}).
+     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -848,6 +846,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+
     }
 
     /**
@@ -860,7 +859,7 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CallerRunsPolicyClassTests}).
+     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -903,6 +902,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+
     }
 
     /**
@@ -915,7 +915,8 @@ extends AbstractExecutorServiceTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DiscardOldestPolicyClassTests}).
+     * (see
+     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -958,6 +959,7 @@ extends AbstractExecutorServiceTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
+
     }
 
 }

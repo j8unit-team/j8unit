@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BufferedImageClassTests}).
+ * {@link org.j8unit.repository.java.awt.image.BufferedImageClassTests}).
  * </p>
  *
  * @param SUT
@@ -637,6 +637,29 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getSources() public
+     * java.util.Vector<java.awt.image.RenderedImage> java.awt.image.BufferedImage.getSources()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSources()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#getWidth(java.awt.image.ImageObserver) public int
      * java.awt.image.BufferedImage.getWidth(java.awt.image.ImageObserver)}.
@@ -676,29 +699,6 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getSources() public
-     * java.util.Vector<java.awt.image.RenderedImage> java.awt.image.BufferedImage.getSources()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSources()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -823,29 +823,6 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getHeight() public int
-     * java.awt.image.BufferedImage.getHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#getHeight(java.awt.image.ImageObserver) public int
      * java.awt.image.BufferedImage.getHeight(java.awt.image.ImageObserver)}.
@@ -862,6 +839,29 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getHeight_ImageObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getHeight() public int
+     * java.awt.image.BufferedImage.getHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -984,29 +984,6 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getData() public
-     * java.awt.image.Raster java.awt.image.BufferedImage.getData()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#getData(java.awt.Rectangle) public java.awt.image.Raster
      * java.awt.image.BufferedImage.getData(java.awt.Rectangle)}.
@@ -1023,6 +1000,29 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getData_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getData() public
+     * java.awt.image.Raster java.awt.image.BufferedImage.getData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1122,4 +1122,5 @@ extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT>
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.BufferedImage]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.BufferedImage]
+
 }

@@ -20,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DirStateFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests}.
  * </p>
  *
  * <p>
@@ -84,7 +85,8 @@ extends StateFactoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ResultTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests.ResultTests}.
      * </p>
      *
      * <p>

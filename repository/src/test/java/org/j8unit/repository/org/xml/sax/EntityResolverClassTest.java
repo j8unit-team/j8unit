@@ -6,7 +6,7 @@ import org.xml.sax.EntityResolver;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link EntityResolver} (by simply reusing the
- * J8Unit test interface {@link EntityResolverClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.EntityResolverClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLScriptElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLScriptElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLScriptElementTests}.
  * </p>
  *
  * <p>

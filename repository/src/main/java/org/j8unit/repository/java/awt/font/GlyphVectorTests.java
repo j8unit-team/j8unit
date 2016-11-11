@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link GlyphVectorClassTests}).
+ * {@link org.j8unit.repository.java.awt.font.GlyphVectorClassTests}).
  * </p>
  *
  * @param SUT
@@ -239,6 +239,28 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getGlyphOutline(int)
+     * public abstract java.awt.Shape java.awt.font.GlyphVector.getGlyphOutline(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphOutline_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.GlyphVector#getGlyphOutline(int, float, float) public java.awt.Shape
      * java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
@@ -254,28 +276,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGlyphOutline_int_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getGlyphOutline(int)
-     * public abstract java.awt.Shape java.awt.font.GlyphVector.getGlyphOutline(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphOutline_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -397,28 +397,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getLogicalBounds() public
-     * abstract java.awt.geom.Rectangle2D java.awt.font.GlyphVector.getLogicalBounds()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLogicalBounds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.font.GlyphVector#getGlyphCharIndices(int, int, int[]) public int[]
      * java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
@@ -434,6 +412,28 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGlyphCharIndices_int_int_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getLogicalBounds() public
+     * abstract java.awt.geom.Rectangle2D java.awt.font.GlyphVector.getLogicalBounds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogicalBounds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -508,28 +508,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getOutline() public
-     * abstract java.awt.Shape java.awt.font.GlyphVector.getOutline()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutline()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getOutline(float, float)
      * public abstract java.awt.Shape java.awt.font.GlyphVector.getOutline(float,float)}.
      *
@@ -544,6 +522,28 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOutline_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.font.GlyphVector#getOutline() public
+     * abstract java.awt.Shape java.awt.font.GlyphVector.getOutline()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutline()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -642,4 +642,5 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.GlyphVector]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.GlyphVector]
+
 }

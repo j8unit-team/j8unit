@@ -6,7 +6,7 @@ import org.omg.SendingContext.RunTime;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RunTime} (by simply reusing the J8Unit
- * test interface {@link RunTimeClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.SendingContext.RunTimeClassTests}).
  */
 
 @RunWith(J8Unit4.class)

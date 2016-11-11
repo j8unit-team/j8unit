@@ -15,13 +15,6 @@ import java.security.KeyStore.TrustedCertificateEntry;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests;
-import org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests;
-import org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests;
-import org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests;
-import org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests;
-import org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests;
-import org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests;
 import org.j8unit.repository.javax.security.auth.DestroyableClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -38,7 +31,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link KeyStoreTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.security.KeyStoreTests}.
  * </p>
  *
  * <p>
@@ -102,7 +96,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link PrivateKeyEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests}.
      * </p>
      *
      * <p>
@@ -168,7 +163,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SecretKeyEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests}.
      * </p>
      *
      * <p>
@@ -301,7 +297,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link EntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests}.
      * </p>
      *
      * <p>
@@ -433,7 +430,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link TrustedCertificateEntryTests}.
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests}.
      * </p>
      *
      * <p>
@@ -500,7 +497,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link PasswordProtectionTests}.
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests}.
      * </p>
      *
      * <p>
@@ -567,7 +564,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link LoadStoreParameterTests}.
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests}.
      * </p>
      *
      * <p>
@@ -633,7 +630,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link ProtectionParameterTests}.
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests}.
      * </p>
      *
      * <p>
@@ -699,7 +696,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CallbackHandlerProtectionTests}.
+     * {@link org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests}.
      * </p>
      *
      * <p>

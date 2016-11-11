@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Element} (by simply reusing the
- * J8Unit test interface {@link ElementTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.lang.model.element.ElementTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class ElementTest
-implements ElementTests<Element> {
+implements org.j8unit.repository.javax.lang.model.element.ElementTests<Element> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.Element]
 

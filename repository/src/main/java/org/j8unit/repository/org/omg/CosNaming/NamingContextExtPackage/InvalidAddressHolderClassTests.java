@@ -20,7 +20,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link InvalidAddressHolderTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolderTests}.
  * </p>
  *
  * <p>

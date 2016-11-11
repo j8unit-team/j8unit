@@ -47,54 +47,9 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link RolloverButtonBorder} (by simply
-     * reusing the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class RolloverButtonBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests<RolloverButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-        @Override
-        public RolloverButtonBorder createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonBorder} (by simply reusing
-     * the J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ButtonBorderTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<ButtonBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-        @Override
-        public ButtonBorder createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.ButtonBorder], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SplitPaneBorder} (by simply
-     * reusing the J8Unit test interface {@link SplitPaneBorderTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -111,28 +66,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$SplitPaneBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$SplitPaneBorder]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link FieldBorder} (by simply reusing
-     * the J8Unit test interface {@link FieldBorderTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class FieldBorderTest
-    implements FieldBorderTests<FieldBorder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
-
-        @Override
-        public FieldBorder createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.FieldBorder], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
 
     }
 
@@ -156,6 +89,75 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link RolloverButtonBorder} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RolloverButtonBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests<RolloverButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+        @Override
+        public RolloverButtonBorder createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FieldBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FieldBorderTest
+    implements FieldBorderTests<FieldBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+        @Override
+        public FieldBorder createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.FieldBorder], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$FieldBorder]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link RadioButtonBorder} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class RadioButtonBorderTest
+    implements RadioButtonBorderTests<RadioButtonBorder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+
+        @Override
+        public RadioButtonBorder createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.RadioButtonBorder], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
 
     }
 
@@ -209,24 +211,25 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link RadioButtonBorder} (by simply
-     * reusing the J8Unit test interface {@link RadioButtonBorderTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonBorder} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class RadioButtonBorderTest
-    implements RadioButtonBorderTests<RadioButtonBorder> {
+    public static class ButtonBorderTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<ButtonBorder> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
         @Override
-        public RadioButtonBorder createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.RadioButtonBorder], j8unit does not support a generic way to provide instances.");
+        public ButtonBorder createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicBorders.ButtonBorder], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$RadioButtonBorder]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$ButtonBorder]
 
     }
 

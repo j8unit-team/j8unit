@@ -7,12 +7,12 @@ import org.omg.CORBA.DynEnum;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DynEnum} (by simply reusing the
- * J8Unit test interface {@link DynEnumTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DynEnumTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class DynEnumTest
-implements DynEnumTests<DynEnum> {
+implements org.j8unit.repository.org.omg.CORBA.DynEnumTests<DynEnum> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynEnum]
 

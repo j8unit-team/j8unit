@@ -22,7 +22,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link OrientationRequestedTests}.
+ * {@link org.j8unit.repository.javax.print.attribute.standard.OrientationRequestedTests}.
  * </p>
  *
  * <p>

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WebParam} (by simply reusing the J8Unit
- * test interface {@link WebParamClassTests}).
+ * test interface {@link org.j8unit.repository.javax.jws.WebParamClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -36,7 +36,7 @@ implements WebParamClassTests<WebParam> {
 
     @RunWith(J8Unit4.class)
     public static class ModeClassTest
-    implements org.j8unit.repository.javax.jws.WebParamClassTests.ModeClassTests<Mode> {
+    implements ModeClassTests<Mode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.WebParam$Mode]
 

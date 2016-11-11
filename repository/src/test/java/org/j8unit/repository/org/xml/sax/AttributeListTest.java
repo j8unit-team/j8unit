@@ -7,7 +7,7 @@ import org.xml.sax.AttributeList;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributeList} (by simply reusing the
- * J8Unit test interface {@link AttributeListTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.AttributeListTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHighlighter} (by simply reusing
- * the J8Unit test interface {@link DefaultHighlighterClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -52,7 +52,8 @@ implements DefaultHighlighterClassTests<DefaultHighlighter> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHighlightPainter} (by simply
-     * reusing the J8Unit test interface {@link DefaultHighlightPainterClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests.DefaultHighlightPainterClassTests}).
      */
 
     @RunWith(J8Unit4.class)

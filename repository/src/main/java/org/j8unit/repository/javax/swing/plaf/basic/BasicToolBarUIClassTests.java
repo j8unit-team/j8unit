@@ -8,7 +8,6 @@ import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.j8unit.repository.javax.swing.SwingConstantsClassTests;
 import org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests;
 import org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicToolBarUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests}.
  * </p>
  *
  * <p>
@@ -88,7 +88,8 @@ extends SwingConstantsClassTests<SUT>, ToolBarUIClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DockingListenerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests}.
      * </p>
      *
      * <p>

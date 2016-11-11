@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JMenuBarClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JMenuBarClassTests}).
  * </p>
  *
  * @param SUT
@@ -168,28 +168,6 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getHelpMenu() public
-     * javax.swing.JMenu javax.swing.JMenuBar.getHelpMenu()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHelpMenu()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#menuSelectionChanged(boolean)
      * public void javax.swing.JMenuBar.menuSelectionChanged(boolean)}.
      *
@@ -205,6 +183,28 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getHelpMenu() public
+     * javax.swing.JMenu javax.swing.JMenuBar.getHelpMenu()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHelpMenu()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -533,28 +533,6 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getMenu(int) public
-     * javax.swing.JMenu javax.swing.JMenuBar.getMenu(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenu_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#isBorderPainted() public
      * boolean javax.swing.JMenuBar.isBorderPainted()}.
      *
@@ -569,6 +547,28 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isBorderPainted()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuBar#getMenu(int) public
+     * javax.swing.JMenu javax.swing.JMenuBar.getMenu(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenu_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -647,4 +647,5 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JMenuBar]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JMenuBar]
+
 }

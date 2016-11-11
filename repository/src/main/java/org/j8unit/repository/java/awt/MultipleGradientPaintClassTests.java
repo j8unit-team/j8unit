@@ -5,8 +5,6 @@ import java.awt.MultipleGradientPaint;
 import java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.awt.MultipleGradientPaint.CycleMethod;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests;
-import org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -25,7 +23,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link MultipleGradientPaintTests}.
+ * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests}.
  * </p>
  *
  * <p>
@@ -89,7 +87,8 @@ extends PaintClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ColorSpaceTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests}.
      * </p>
      *
      * <p>
@@ -155,7 +154,8 @@ extends PaintClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link CycleMethodTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests}.
      * </p>
      *
      * <p>

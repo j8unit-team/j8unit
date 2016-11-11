@@ -303,28 +303,6 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#replaceItem(String, int) public
-     * synchronized void java.awt.List.replaceItem(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceItem_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.List#getActionListeners() public
      * synchronized java.awt.event.ActionListener[] java.awt.List.getActionListeners()}.
      *
@@ -347,8 +325,8 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#removeNotify() public void
-     * java.awt.List.removeNotify()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#replaceItem(String, int) public
+     * synchronized void java.awt.List.replaceItem(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -358,10 +336,9 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeNotify()
+    public default void test_replaceItem_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -392,8 +369,8 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#deselect(int) public synchronized void
-     * java.awt.List.deselect(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#removeNotify() public void
+     * java.awt.List.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -403,9 +380,10 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_deselect_int()
+    public default void test_removeNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -451,6 +429,28 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_minimumSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#deselect(int) public synchronized void
+     * java.awt.List.deselect(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deselect_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -771,28 +771,6 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#isSelected(int) public boolean
-     * java.awt.List.isSelected(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSelected_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.List#preferredSize(int) public
      * java.awt.Dimension java.awt.List.preferredSize(int)}.
      *
@@ -830,6 +808,28 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_preferredSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#isSelected(int) public boolean
+     * java.awt.List.isSelected(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSelected_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -950,8 +950,8 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#getItems() public synchronized
-     * java.lang.String[] java.awt.List.getItems()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#addItem(String, int) public
+     * synchronized void java.awt.List.addItem(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -963,7 +963,7 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getItems()
+    public default void test_addItem_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -994,8 +994,8 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#addItem(String, int) public
-     * synchronized void java.awt.List.addItem(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#getItems() public synchronized
+     * java.lang.String[] java.awt.List.getItems()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1007,7 +1007,7 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addItem_String_int()
+    public default void test_getItems()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1030,6 +1030,28 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isIndexSelected_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.List#getMinimumSize(int) public
+     * java.awt.Dimension java.awt.List.getMinimumSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1061,8 +1083,9 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.List#getMinimumSize(int) public
-     * java.awt.Dimension java.awt.List.getMinimumSize(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.List#removeActionListener(java.awt.event.ActionListener) public synchronized void
+     * java.awt.List.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1074,7 +1097,7 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinimumSize_int()
+    public default void test_removeActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1103,30 +1126,8 @@ extends ItemSelectableTests<SUT>, AccessibleTests<SUT>, ComponentTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.List#removeActionListener(java.awt.event.ActionListener) public synchronized void
-     * java.awt.List.removeActionListener(java.awt.event.ActionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeActionListener_ActionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.List]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.List]
+
 }

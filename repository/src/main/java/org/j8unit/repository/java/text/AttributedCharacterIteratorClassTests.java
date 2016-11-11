@@ -22,7 +22,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AttributedCharacterIteratorTests}.
+ * {@link org.j8unit.repository.java.text.AttributedCharacterIteratorTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends CharacterIteratorClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link AttributeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests}.
      * </p>
      *
      * <p>

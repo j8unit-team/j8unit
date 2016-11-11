@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DesktopClassTests}).
+ * {@link org.j8unit.repository.java.awt.DesktopClassTests}).
  * </p>
  *
  * @param SUT
@@ -193,6 +193,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Desktop]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -203,7 +204,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ActionClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.DesktopClassTests.ActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -221,6 +222,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Desktop$Action]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop$Action]
+
     }
 
 }

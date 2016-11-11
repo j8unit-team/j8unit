@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.awt.TrayIcon;
 import java.awt.TrayIcon.MessageType;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TrayIconTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.TrayIconTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link MessageTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests}.
      * </p>
      *
      * <p>

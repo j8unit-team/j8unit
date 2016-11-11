@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DurationClassTests}).
+ * {@link org.j8unit.repository.javax.xml.datatype.DurationClassTests}).
  * </p>
  *
  * @param SUT
@@ -260,6 +260,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getDays() public int
+     * javax.xml.datatype.Duration.getDays()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDays()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.datatype.Duration#isShorterThan(javax.xml.datatype.Duration) public boolean
      * javax.xml.datatype.Duration.isShorterThan(javax.xml.datatype.Duration)}.
@@ -275,28 +297,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isShorterThan_Duration()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#getDays() public int
-     * javax.xml.datatype.Duration.getDays()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDays()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -417,28 +417,6 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#addTo(java.util.Date)
-     * public void javax.xml.datatype.Duration.addTo(java.util.Date)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTo_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.datatype.Duration#addTo(java.util.Calendar) public abstract void
      * javax.xml.datatype.Duration.addTo(java.util.Calendar)}.
@@ -454,6 +432,28 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addTo_Calendar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.datatype.Duration#addTo(java.util.Date)
+     * public void javax.xml.datatype.Duration.addTo(java.util.Date)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTo_Date()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -623,4 +623,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.Duration]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.Duration]
+
 }

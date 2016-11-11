@@ -18,7 +18,8 @@ import org.omg.DynamicAny.DynStructHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DynStructHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynStructHelperTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.omg.CORBA.portable.ApplicationException;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ApplicationExceptionTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.ApplicationExceptionTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicSplitPaneDividerClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneDividerClassTests}).
  * </p>
  *
  * @param SUT
@@ -273,29 +273,6 @@ extends PropertyChangeListenerTests<SUT>, ContainerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#isMouseOver() public boolean
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.isMouseOver()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMouseOver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBorder() public javax.swing.border.Border
      * javax.swing.plaf.basic.BasicSplitPaneDivider.getBorder()}.
      *
@@ -316,7 +293,31 @@ extends PropertyChangeListenerTests<SUT>, ContainerTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#isMouseOver() public boolean
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.isMouseOver()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMouseOver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
+
 }

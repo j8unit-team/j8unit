@@ -18,7 +18,7 @@ import org.omg.PortableServer.ServantActivatorOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServantActivatorOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests}.
  * </p>
  *
  * <p>

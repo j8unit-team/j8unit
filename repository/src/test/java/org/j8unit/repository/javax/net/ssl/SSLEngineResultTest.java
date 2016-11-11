@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SSLEngineResult} (by simply reusing
- * the J8Unit test interface {@link SSLEngineResultTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -35,39 +35,8 @@ implements SSLEngineResultTests<SSLEngineResult> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link HandshakeStatus} (by simply
-     * reusing the J8Unit test interface {@link HandshakeStatusTests}).
-     */
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class HandshakeStatusTest
-    implements HandshakeStatusTests<HandshakeStatus> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(HandshakeStatus.class);
-        }
-
-        @Parameter(0)
-        public HandshakeStatus sut;
-
-        @Override
-        public HandshakeStatus createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Status} (by simply reusing the
-     * J8Unit test interface {@link StatusTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -79,7 +48,7 @@ implements SSLEngineResultTests<SSLEngineResult> {
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOfEnumClass(Status.class);
+            return testParametersOfEnumClass(Status.class);
         }
 
         @Parameter(0)
@@ -93,6 +62,38 @@ implements SSLEngineResultTests<SSLEngineResult> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link HandshakeStatus} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests}).
+     */
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class HandshakeStatusTest
+    implements HandshakeStatusTests<HandshakeStatus> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOfEnumClass(HandshakeStatus.class);
+        }
+
+        @Parameter(0)
+        public HandshakeStatus sut;
+
+        @Override
+        public HandshakeStatus createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
 
     }
 

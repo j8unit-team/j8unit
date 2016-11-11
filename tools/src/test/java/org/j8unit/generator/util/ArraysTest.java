@@ -5,7 +5,6 @@ import static org.j8unit.generator.util.Arrays.arrayAnalysisOf;
 import static org.j8unit.generator.util.Arrays.arrayDimensionOf;
 import static org.j8unit.generator.util.Arrays.baseComponentTypeOf;
 import static org.junit.Assert.assertEquals;
-import java.lang.reflect.Array;
 import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,6 +19,8 @@ public class ArraysTest {
     public static Iterable<Object[]> data() {
         return asList(new Object[][] { { boolean.class, boolean.class, 0 }, //
                                        { byte.class, byte.class, 0 }, //
+                                       { byte[].class, byte.class, 1 }, //
+                                       { byte[][][].class, byte.class, 3 }, //
                                        { char.class, char.class, 0 }, //
                                        { int.class, int.class, 0 }, //
                                        { long.class, long.class, 0 }, //
@@ -31,7 +32,6 @@ public class ArraysTest {
                                        { Object[][][].class, Object.class, 3 }, //
                                        { Object[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][].class,
                                          Object.class, 255 }, //
-                                       { Array.newInstance(Object.class, 255).getClass(), Object.class, 255 }, //
                                        { Map.Entry.class, Map.Entry.class, 0 }, //
                                        { Map.Entry[].class, Map.Entry.class, 1 }, //
                                        { Map.Entry[][][].class, Map.Entry.class, 3 }, //

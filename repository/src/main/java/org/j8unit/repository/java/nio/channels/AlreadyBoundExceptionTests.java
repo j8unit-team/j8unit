@@ -33,4 +33,5 @@ extends IllegalStateExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AlreadyBoundException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AlreadyBoundException]
+
 }

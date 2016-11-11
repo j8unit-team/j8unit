@@ -19,7 +19,8 @@ import org.omg.CosNaming.NameComponentHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NameComponentHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NameComponentHolderTests}.
  * </p>
  *
  * <p>

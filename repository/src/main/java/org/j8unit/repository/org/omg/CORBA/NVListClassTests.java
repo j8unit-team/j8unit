@@ -18,7 +18,8 @@ import org.omg.CORBA.NVList;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NVListTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.NVListTests}.
  * </p>
  *
  * <p>

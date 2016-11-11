@@ -18,7 +18,8 @@ import org.xml.sax.ext.DefaultHandler2;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultHandler2Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.ext.DefaultHandler2Tests}.
  * </p>
  *
  * <p>

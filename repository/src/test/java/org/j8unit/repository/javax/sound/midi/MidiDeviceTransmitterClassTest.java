@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MidiDeviceTransmitter} (by simply reusing
- * the J8Unit test interface {@link MidiDeviceTransmitterClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.MidiDeviceTransmitterClassTests}).
  */
 
 @RunWith(J8Unit4.class)

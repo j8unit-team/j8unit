@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Book} (by simply reusing the J8Unit test
- * interface {@link BookClassTests}).
+ * interface {@link org.j8unit.repository.java.awt.print.BookClassTests}).
  */
 
 @RunWith(J8Unit4.class)

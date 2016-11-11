@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JDialogClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JDialogClassTests}).
  * </p>
  *
  * @param SUT
@@ -289,6 +289,28 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getTransferHandler() public
+     * javax.swing.TransferHandler javax.swing.JDialog.getTransferHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransferHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JDialog#repaint(long, int, int, int, int) public void
      * javax.swing.JDialog.repaint(long,int,int,int,int)}.
@@ -305,28 +327,6 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_repaint_long_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getTransferHandler() public
-     * javax.swing.TransferHandler javax.swing.JDialog.getTransferHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransferHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -358,6 +358,28 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getDefaultCloseOperation()
+     * public int javax.swing.JDialog.getDefaultCloseOperation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultCloseOperation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getLayeredPane() public
      * javax.swing.JLayeredPane javax.swing.JDialog.getLayeredPane()}.
      *
@@ -373,28 +395,6 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getLayeredPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getDefaultCloseOperation()
-     * public int javax.swing.JDialog.getDefaultCloseOperation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultCloseOperation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -427,6 +427,28 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#setDefaultCloseOperation(int)
+     * public void javax.swing.JDialog.setDefaultCloseOperation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultCloseOperation_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#getGraphics() public
      * java.awt.Graphics javax.swing.JDialog.getGraphics()}.
      *
@@ -448,29 +470,8 @@ extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, DialogTests<SUT>
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JDialog#setDefaultCloseOperation(int)
-     * public void javax.swing.JDialog.setDefaultCloseOperation(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDefaultCloseOperation_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JDialog]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JDialog]
+
 }

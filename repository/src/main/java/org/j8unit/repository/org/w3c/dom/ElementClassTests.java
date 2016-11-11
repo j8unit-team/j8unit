@@ -17,7 +17,8 @@ import org.w3c.dom.Element;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.ElementTests}.
  * </p>
  *
  * <p>

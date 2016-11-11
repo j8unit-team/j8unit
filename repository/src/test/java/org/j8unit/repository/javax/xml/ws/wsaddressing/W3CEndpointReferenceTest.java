@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link W3CEndpointReference} (by simply
- * reusing the J8Unit test interface {@link W3CEndpointReferenceTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Query} (by simply reusing the J8Unit test
- * interface {@link QueryClassTests}).
+ * interface {@link org.j8unit.repository.javax.management.QueryClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -336,27 +336,6 @@ implements QueryClassTests<Query> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.Query#not(javax.management.QueryExp) public static javax.management.QueryExp
-     * javax.management.Query.not(javax.management.QueryExp)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_not_QueryExp()
-    throws Exception {
-        // write some test for {@link javax.management.Query#not(javax.management.QueryExp)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.Query#geq(javax.management.ValueExp, javax.management.ValueExp) public static
      * javax.management.QueryExp javax.management.Query.geq(javax.management.ValueExp,javax.management.ValueExp)}.
      *
@@ -395,6 +374,27 @@ implements QueryClassTests<Query> {
     throws Exception {
         // write some test for {@link javax.management.Query#times(javax.management.ValueExp,
         // javax.management.ValueExp)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.Query#not(javax.management.QueryExp) public static javax.management.QueryExp
+     * javax.management.Query.not(javax.management.QueryExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_not_QueryExp()
+    throws Exception {
+        // write some test for {@link javax.management.Query#not(javax.management.QueryExp)}
     }
 
     /**

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AdjustableClassTests}).
+ * {@link org.j8unit.repository.java.awt.AdjustableClassTests}).
  * </p>
  *
  * @param SUT
@@ -368,4 +368,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Adjustable]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Adjustable]
+
 }

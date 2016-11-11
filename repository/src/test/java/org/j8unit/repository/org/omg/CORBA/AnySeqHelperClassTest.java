@@ -16,7 +16,7 @@ import org.omg.CORBA.AnySeqHelper;
 
 @RunWith(J8Unit4.class)
 public class AnySeqHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.AnySeqHelperClassTests<AnySeqHelper> {
+implements AnySeqHelperClassTests<AnySeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.AnySeqHelper]
 

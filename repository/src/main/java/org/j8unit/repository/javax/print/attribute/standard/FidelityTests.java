@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FidelityClassTests}).
+ * {@link org.j8unit.repository.javax.print.attribute.standard.FidelityClassTests}).
  * </p>
  *
  * @param SUT
@@ -85,4 +85,5 @@ extends PrintJobAttributeTests<SUT>, PrintRequestAttributeTests<SUT>, EnumSyntax
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
+
 }

@@ -20,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FormSubmitEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests}.
  * </p>
  *
  * <p>
@@ -84,7 +85,8 @@ extends HTMLFrameHyperlinkEventClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link MethodTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests.MethodTypeTests}.
      * </p>
      *
      * <p>

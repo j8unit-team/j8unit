@@ -18,7 +18,7 @@ import org.omg.DynamicAny._DynSequenceStub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _DynSequenceStubClassTests}).
+ * {@link org.j8unit.repository.org.omg.DynamicAny._DynSequenceStubClassTests}).
  * </p>
  *
  * @param SUT
@@ -1416,4 +1416,5 @@ extends DynSequenceTests<SUT>, ObjectImplTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynSequenceStub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynSequenceStub]
+
 }

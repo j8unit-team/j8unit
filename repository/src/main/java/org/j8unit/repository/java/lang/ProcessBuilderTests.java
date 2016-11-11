@@ -4,7 +4,6 @@ import java.lang.ProcessBuilder.Redirect;
 import java.lang.ProcessBuilder.Redirect.Type;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ProcessBuilderClassTests}).
+ * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests}).
  * </p>
  *
  * @param SUT
@@ -458,6 +457,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -468,7 +468,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link RedirectClassTests}).
+     * (see {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests}).
      * </p>
      *
      * @param SUT
@@ -576,6 +576,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
@@ -605,6 +606,7 @@ extends ObjectTests<SUT> {
             // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
             // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+
         }
 
     }

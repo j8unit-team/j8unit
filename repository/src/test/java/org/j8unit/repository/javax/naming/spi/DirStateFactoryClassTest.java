@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DirStateFactory} (by simply reusing the
- * J8Unit test interface {@link DirStateFactoryClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +31,7 @@ implements DirStateFactoryClassTests<DirStateFactory> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Result} (by simply reusing the J8Unit
-     * test interface {@link ResultClassTests}).
+     * test interface {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests.ResultClassTests}).
      */
 
     @RunWith(J8Unit4.class)

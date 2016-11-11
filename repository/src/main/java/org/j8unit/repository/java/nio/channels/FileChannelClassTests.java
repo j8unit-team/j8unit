@@ -5,7 +5,6 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.nio.channels.FileChannelTests.MapModeTests;
 import org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FileChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.nio.channels.FileChannelTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,8 @@ AbstractInterruptibleChannelClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link MapModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.nio.channels.FileChannelTests.MapModeTests}.
      * </p>
      *
      * <p>

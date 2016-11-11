@@ -6,7 +6,8 @@ import org.omg.PortableInterceptor.ServerRequestInterceptorOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServerRequestInterceptorOperations} (by
- * simply reusing the J8Unit test interface {@link ServerRequestInterceptorOperationsClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

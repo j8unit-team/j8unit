@@ -18,7 +18,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link _RMIServer_StubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.management.remote.rmi._RMIServer_StubTests}.
  * </p>
  *
  * <p>

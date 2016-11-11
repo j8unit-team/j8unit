@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JMXProviderExceptionClassTests}).
+ * {@link org.j8unit.repository.javax.management.remote.JMXProviderExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -60,4 +60,5 @@ extends IOExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXProviderException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXProviderException]
+
 }

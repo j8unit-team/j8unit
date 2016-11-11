@@ -10,7 +10,7 @@ import org.omg.CosNaming._BindingIteratorStub;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link _BindingIteratorStub} (by simply reusing
- * the J8Unit test interface {@link _BindingIteratorStubClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming._BindingIteratorStubClassTests}).
  */
 
 @RunWith(J8Unit4.class)

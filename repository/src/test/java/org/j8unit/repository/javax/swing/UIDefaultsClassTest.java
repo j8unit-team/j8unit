@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link UIDefaults} (by simply reusing the J8Unit
- * test interface {@link UIDefaultsClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -98,8 +98,30 @@ implements UIDefaultsClassTests<UIDefaults> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults]
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ActiveValue} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ActiveValueClassTest
+    implements ActiveValueClassTests<ActiveValue> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+
+        @Override
+        public Class<ActiveValue> createNewSUT() {
+            return ActiveValue.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link LazyInputMap} (by simply reusing the
-     * J8Unit test interface {@link LazyInputMapClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -143,52 +165,9 @@ implements UIDefaultsClassTests<UIDefaults> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link ActiveValue} (by simply reusing the
-     * J8Unit test interface {@link ActiveValueClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ActiveValueClassTest
-    implements ActiveValueClassTests<ActiveValue> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
-
-        @Override
-        public Class<ActiveValue> createNewSUT() {
-            return ActiveValue.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link LazyValue} (by simply reusing the
-     * J8Unit test interface {@link LazyValueClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class LazyValueClassTest
-    implements LazyValueClassTests<LazyValue> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
-
-        @Override
-        public Class<LazyValue> createNewSUT() {
-            return LazyValue.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ProxyLazyValue} (by simply reusing
-     * the J8Unit test interface {@link ProxyLazyValueClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ProxyLazyValueClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -297,6 +276,28 @@ implements UIDefaultsClassTests<UIDefaults> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LazyValue} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class LazyValueClassTest
+    implements LazyValueClassTests<LazyValue> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
+
+        @Override
+        public Class<LazyValue> createNewSUT() {
+            return LazyValue.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 
     }
 

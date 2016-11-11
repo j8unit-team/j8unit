@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalSelectorException} (by simply
- * reusing the J8Unit test interface {@link IllegalSelectorExceptionClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.nio.channels.IllegalSelectorExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

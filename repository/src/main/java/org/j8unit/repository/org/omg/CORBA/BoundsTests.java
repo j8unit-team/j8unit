@@ -32,4 +32,5 @@ extends UserExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.Bounds]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.Bounds]
+
 }

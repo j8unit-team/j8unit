@@ -19,7 +19,8 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AlreadyBoundHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderTests}.
  * </p>
  *
  * <p>

@@ -7,7 +7,8 @@ import org.omg.CosNaming.NamingContextExtOperations;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link NamingContextExtOperations} (by
- * simply reusing the J8Unit test interface {@link NamingContextExtOperationsTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtOperationsTests}).
  */
 
 @RunWith(J8Unit4.class)

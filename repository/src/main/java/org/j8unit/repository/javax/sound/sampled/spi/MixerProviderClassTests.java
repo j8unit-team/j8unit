@@ -18,7 +18,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link MixerProviderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.sound.sampled.spi.MixerProviderTests}.
  * </p>
  *
  * <p>

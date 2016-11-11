@@ -124,4 +124,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.DataSource]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataSource]
+
 }

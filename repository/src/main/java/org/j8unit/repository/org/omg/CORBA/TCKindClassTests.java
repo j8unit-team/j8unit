@@ -18,7 +18,8 @@ import org.omg.CORBA.TCKind;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TCKindTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.TCKindTests}.
  * </p>
  *
  * <p>

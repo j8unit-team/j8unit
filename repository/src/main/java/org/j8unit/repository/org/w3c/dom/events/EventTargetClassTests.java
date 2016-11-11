@@ -18,7 +18,8 @@ import org.w3c.dom.events.EventTarget;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link EventTargetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.events.EventTargetTests}.
  * </p>
  *
  * <p>

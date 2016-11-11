@@ -102,4 +102,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.SortKey]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.SortKey]
+
 }

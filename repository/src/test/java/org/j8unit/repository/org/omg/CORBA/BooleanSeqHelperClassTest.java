@@ -11,7 +11,7 @@ import org.omg.CORBA.BooleanSeqHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BooleanSeqHelper} (by simply reusing the
- * J8Unit test interface {@link BooleanSeqHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BooleanSeqHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

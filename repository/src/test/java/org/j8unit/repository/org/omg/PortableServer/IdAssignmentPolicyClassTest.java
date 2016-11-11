@@ -6,7 +6,7 @@ import org.omg.PortableServer.IdAssignmentPolicy;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IdAssignmentPolicy} (by simply reusing
- * the J8Unit test interface {@link IdAssignmentPolicyClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -42,52 +42,8 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ListEditor} (by simply reusing
-     * the J8Unit test interface {@link ListEditorTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ListEditorTest
-    implements ListEditorTests<ListEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-
-        @Override
-        public ListEditor createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.ListEditor], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultEditor} (by simply reusing
-     * the J8Unit test interface {@link DefaultEditorTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultEditorTest
-    implements DefaultEditorTests<DefaultEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
-
-        @Override
-        public DefaultEditor createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.DefaultEditor], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DateEditor} (by simply reusing
-     * the J8Unit test interface {@link DateEditorTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -109,7 +65,7 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link NumberEditor} (by simply reusing
-     * the J8Unit test interface {@link NumberEditorTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.NumberEditorTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -126,6 +82,50 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$NumberEditor]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$NumberEditor]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultEditor} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultEditorTest
+    implements DefaultEditorTests<DefaultEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
+
+        @Override
+        public DefaultEditor createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.DefaultEditor], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ListEditor} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.ListEditorTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListEditorTest
+    implements ListEditorTests<ListEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+        @Override
+        public ListEditor createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.ListEditor], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
 
     }
 

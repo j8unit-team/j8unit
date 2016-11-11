@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link GSSNameClassTests}).
+ * {@link org.j8unit.repository.org.ietf.jgss.GSSNameClassTests}).
  * </p>
  *
  * @param SUT
@@ -235,4 +235,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSName]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSName]
+
 }

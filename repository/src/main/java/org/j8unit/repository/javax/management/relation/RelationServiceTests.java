@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link RelationServiceClassTests}).
+ * {@link org.j8unit.repository.javax.management.relation.RelationServiceClassTests}).
  * </p>
  *
  * @param SUT
@@ -216,30 +216,6 @@ extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, Notificatio
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.relation.RelationService#preDeregister() public void
-     * javax.management.relation.RelationService.preDeregister() throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RelationService#setPurgeFlag(boolean) public void
      * javax.management.relation.RelationService.setPurgeFlag(boolean)}.
      *
@@ -255,6 +231,30 @@ extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, Notificatio
     @Test
     @Category(Draft.class)
     public default void test_setPurgeFlag_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationService#preDeregister() public void
+     * javax.management.relation.RelationService.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -717,30 +717,6 @@ extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, Notificatio
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.relation.RelationService#postDeregister() public void
-     * javax.management.relation.RelationService.postDeregister()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_postDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RelationService#getPurgeFlag() public boolean
      * javax.management.relation.RelationService.getPurgeFlag()}.
      *
@@ -756,6 +732,30 @@ extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, Notificatio
     @Test
     @Category(Draft.class)
     public default void test_getPurgeFlag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationService#postDeregister() public void
+     * javax.management.relation.RelationService.postDeregister()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_postDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1046,4 +1046,5 @@ extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, Notificatio
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationService]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationService]
+
 }

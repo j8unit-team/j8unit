@@ -195,4 +195,5 @@ extends OpenTypeTests<SUT, T> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.ArrayType]
+
 }

@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SYSTEM_EXCEPTIONTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.SYSTEM_EXCEPTIONTests}.
  * </p>
  *
  * <p>

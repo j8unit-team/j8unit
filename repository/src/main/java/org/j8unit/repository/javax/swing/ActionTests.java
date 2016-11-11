@@ -170,4 +170,5 @@ extends ActionListenerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.Action]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Action]
+
 }

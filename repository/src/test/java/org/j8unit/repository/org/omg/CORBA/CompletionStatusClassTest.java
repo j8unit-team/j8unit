@@ -10,7 +10,7 @@ import org.omg.CORBA.CompletionStatus;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CompletionStatus} (by simply reusing the
- * J8Unit test interface {@link CompletionStatusClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CompletionStatusClassTests}).
  */
 
 @RunWith(J8Unit4.class)

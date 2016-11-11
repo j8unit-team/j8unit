@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AbstractTypeVisitor6ClassTests}).
+ * {@link org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6ClassTests}).
  * </p>
  *
  * @param SUT
@@ -61,30 +61,6 @@ extends TypeVisitorTests<SUT, R, P>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror, Object) public final R
-     * javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_visit_TypeMirror_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror) public final R
      * javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror)}.
      *
@@ -100,6 +76,30 @@ extends TypeVisitorTests<SUT, R, P>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_visit_TypeMirror()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror, Object) public final R
+     * javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_visit_TypeMirror_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,4 +157,5 @@ extends TypeVisitorTests<SUT, R, P>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor6]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor6]
+
 }

@@ -6,8 +6,6 @@ import java.nio.channels.Pipe.SinkChannel;
 import java.nio.channels.Pipe.SourceChannel;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests;
-import org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests;
 import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -24,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link PipeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.nio.channels.PipeTests}.
  * </p>
  *
  * <p>
@@ -87,7 +86,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SourceChannelTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests}.
      * </p>
      *
      * <p>
@@ -153,7 +153,8 @@ extends ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SinkChannelTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests}.
      * </p>
      *
      * <p>

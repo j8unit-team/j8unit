@@ -5,7 +5,6 @@ import javax.swing.JToggleButton.ToggleButtonModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleTests;
-import org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JToggleButtonClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests}).
  * </p>
  *
  * @param SUT
@@ -107,6 +106,7 @@ extends AccessibleTests<SUT>, AbstractButtonTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToggleButton]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToggleButton]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -117,7 +117,7 @@ extends AccessibleTests<SUT>, AbstractButtonTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ToggleButtonModelClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests}).
      * </p>
      *
      * @param SUT
@@ -207,6 +207,7 @@ extends AccessibleTests<SUT>, AbstractButtonTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
+
     }
 
 }

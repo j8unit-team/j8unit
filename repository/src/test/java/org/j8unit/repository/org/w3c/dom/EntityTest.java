@@ -7,7 +7,7 @@ import org.w3c.dom.Entity;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Entity} (by simply reusing the J8Unit
- * test interface {@link EntityTests}).
+ * test interface {@link org.j8unit.repository.org.w3c.dom.EntityTests}).
  */
 
 @RunWith(J8Unit4.class)

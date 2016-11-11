@@ -11,7 +11,7 @@ import org.omg.CORBA.DoubleSeqHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DoubleSeqHelper} (by simply reusing the
- * J8Unit test interface {@link DoubleSeqHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DoubleSeqHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

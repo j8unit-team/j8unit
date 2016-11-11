@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WebRowSet} (by simply reusing the J8Unit
- * test interface {@link WebRowSetClassTests}).
+ * test interface {@link org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -10,7 +10,7 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link OBJECT_NOT_EXIST} (by simply reusing the
- * J8Unit test interface {@link OBJECT_NOT_EXISTClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests}).
  */
 
 @RunWith(J8Unit4.class)

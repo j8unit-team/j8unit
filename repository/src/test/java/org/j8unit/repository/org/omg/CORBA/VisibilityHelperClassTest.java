@@ -11,7 +11,7 @@ import org.omg.CORBA.VisibilityHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link VisibilityHelper} (by simply reusing the
- * J8Unit test interface {@link VisibilityHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.VisibilityHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

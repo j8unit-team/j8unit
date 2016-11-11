@@ -18,7 +18,8 @@ import org.omg.IOP.CodecFactoryHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CodecFactoryHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryHelperTests}.
  * </p>
  *
  * <p>

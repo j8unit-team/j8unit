@@ -8,9 +8,6 @@ import javax.swing.text.DefaultStyledDocument.ElementSpec;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests;
-import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests;
-import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests;
 import org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,7 +25,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DefaultStyledDocumentTests}.
+ * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests}.
  * </p>
  *
  * <p>
@@ -85,14 +82,15 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ElementBuffer public class javax.swing.text.DefaultStyledDocument$ElementBuffer}.
+     * {@link AttributeUndoableEdit public static class javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ElementBufferTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests}.
      * </p>
      *
      * <p>
@@ -120,10 +118,10 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementBufferClassTests<SUT extends ElementBuffer>
-    extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
+    public static abstract interface AttributeUndoableEditClassTests<SUT extends AttributeUndoableEdit>
+    extends AbstractUndoableEditClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -137,13 +135,13 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ElementBuffer.class!",
-                              ElementBuffer.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AttributeUndoableEdit.class!",
+                              AttributeUndoableEdit.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
     }
 
@@ -158,7 +156,8 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ElementSpecTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests}.
      * </p>
      *
      * <p>
@@ -217,7 +216,7 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link AttributeUndoableEdit public static class javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit}.
+     * {@link ElementBuffer public class javax.swing.text.DefaultStyledDocument$ElementBuffer}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -225,7 +224,7 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AttributeUndoableEditTests}.
+     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests}.
      * </p>
      *
      * <p>
@@ -253,10 +252,10 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeUndoableEditClassTests<SUT extends AttributeUndoableEdit>
-    extends AbstractUndoableEditClassTests<SUT> {
+    public static abstract interface ElementBufferClassTests<SUT extends ElementBuffer>
+    extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -270,13 +269,13 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AttributeUndoableEdit.class!",
-                              AttributeUndoableEdit.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ElementBuffer.class!",
+                              ElementBuffer.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
     }
 

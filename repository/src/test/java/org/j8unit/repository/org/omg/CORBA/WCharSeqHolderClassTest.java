@@ -10,7 +10,7 @@ import org.omg.CORBA.WCharSeqHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WCharSeqHolder} (by simply reusing the
- * J8Unit test interface {@link WCharSeqHolderClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.WCharSeqHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

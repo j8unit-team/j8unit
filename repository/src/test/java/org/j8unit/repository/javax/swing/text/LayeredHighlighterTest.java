@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LayeredHighlighter} (by simply
- * reusing the J8Unit test interface {@link LayeredHighlighterTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,8 @@ implements LayeredHighlighterTests<LayeredHighlighter> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LayerPainter} (by simply reusing
-     * the J8Unit test interface {@link LayerPainterTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests}).
      */
 
     @RunWith(J8Unit4.class)

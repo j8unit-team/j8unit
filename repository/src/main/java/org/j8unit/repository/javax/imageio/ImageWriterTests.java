@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ImageWriterClassTests}).
+ * {@link org.j8unit.repository.javax.imageio.ImageWriterClassTests}).
  * </p>
  *
  * @param SUT
@@ -57,28 +57,6 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#canInsertEmpty(int) public
-     * boolean javax.imageio.ImageWriter.canInsertEmpty(int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canInsertEmpty_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#abort() public
      * synchronized void javax.imageio.ImageWriter.abort()}.
      *
@@ -93,6 +71,28 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_abort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#canInsertEmpty(int) public
+     * boolean javax.imageio.ImageWriter.canInsertEmpty(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canInsertEmpty_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,6 +139,28 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOriginatingProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#removeImage(int) public
+     * void javax.imageio.ImageWriter.removeImage(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeImage_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,28 +216,6 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#removeImage(int) public
-     * void javax.imageio.ImageWriter.removeImage(int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeImage_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriter#getNumThumbnailsSupported(javax.imageio.ImageTypeSpecifier, javax.imageio.ImageWriteParam, javax.imageio.metadata.IIOMetadata, javax.imageio.metadata.IIOMetadata)
      * public int
@@ -263,6 +263,28 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#getLocale() public
+     * java.util.Locale javax.imageio.ImageWriter.getLocale()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#endInsertEmpty() public
      * void javax.imageio.ImageWriter.endInsertEmpty() throws java.io.IOException}.
      *
@@ -300,28 +322,6 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_canReplaceImageMetadata_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriter#getLocale() public
-     * java.util.Locale javax.imageio.ImageWriter.getLocale()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -745,29 +745,6 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageWriter#write(javax.imageio.IIOImage) public void
-     * javax.imageio.ImageWriter.write(javax.imageio.IIOImage) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_IIOImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriter#write(java.awt.image.RenderedImage) public void
      * javax.imageio.ImageWriter.write(java.awt.image.RenderedImage) throws java.io.IOException}.
      *
@@ -782,6 +759,29 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_RenderedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageWriter#write(javax.imageio.IIOImage) public void
+     * javax.imageio.ImageWriter.write(javax.imageio.IIOImage) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_IIOImage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1162,4 +1162,5 @@ extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.ImageWriter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.ImageWriter]
+
 }

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentationTool} (by simply reusing the
- * J8Unit test interface {@link DocumentationToolClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.tools.DocumentationToolClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -32,7 +32,8 @@ implements DocumentationToolClassTests<DocumentationTool> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentationTask} (by simply reusing
-     * the J8Unit test interface {@link DocumentationTaskClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.tools.DocumentationToolClassTests.DocumentationTaskClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -54,12 +55,12 @@ implements DocumentationToolClassTests<DocumentationTool> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Location} (by simply reusing the
-     * J8Unit test interface {@link LocationClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.tools.DocumentationToolClassTests.LocationClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class LocationClassTest
-    implements LocationClassTests<Location> {
+    implements org.j8unit.repository.javax.tools.DocumentationToolClassTests.LocationClassTests<Location> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$Location]
 

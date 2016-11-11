@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LongAdderClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.atomic.LongAdderClassTests}).
  * </p>
  *
  * @param SUT
@@ -283,4 +283,5 @@ extends NumberTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
+
 }

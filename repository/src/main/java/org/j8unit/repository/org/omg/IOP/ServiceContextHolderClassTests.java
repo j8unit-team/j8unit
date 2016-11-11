@@ -20,7 +20,7 @@ import org.omg.IOP.ServiceContextHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServiceContextHolderTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.ServiceContextHolderTests}.
  * </p>
  *
  * <p>

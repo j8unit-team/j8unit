@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FormSubmitEventClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -81,6 +81,7 @@ extends HTMLFrameHyperlinkEventTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -91,7 +92,7 @@ extends HTMLFrameHyperlinkEventTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link MethodTypeClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests.MethodTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -109,6 +110,7 @@ extends HTMLFrameHyperlinkEventTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
+
     }
 
 }

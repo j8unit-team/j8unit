@@ -12,9 +12,6 @@ import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.ScrollPaneConstantsTests;
 import org.j8unit.repository.javax.swing.event.ChangeListenerTests;
 import org.j8unit.repository.javax.swing.plaf.ScrollPaneUITests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.ViewportChangeHandlerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -29,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicScrollPaneUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -192,115 +189,6 @@ extends ScrollPaneConstantsTests<SUT>, ScrollPaneUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ViewportChangeHandler public class javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ViewportChangeHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ViewportChangeHandlerTests<SUT extends ViewportChangeHandler>
-    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler#stateChanged(javax.swing.event.ChangeEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_stateChanged_ChangeEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link VSBChangeListener public class javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link VSBChangeListenerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface VSBChangeListenerTests<SUT extends VSBChangeListener>
-    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener#stateChanged(javax.swing.event.ChangeEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener.stateChanged(javax.swing.event.ChangeEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_stateChanged_ChangeEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
-    }
 
     /**
      * <p>
@@ -312,7 +200,8 @@ extends ScrollPaneConstantsTests<SUT>, ScrollPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link HSBChangeListenerClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests}).
      * </p>
      *
      * @param SUT
@@ -355,6 +244,7 @@ extends ScrollPaneConstantsTests<SUT>, ScrollPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+
     }
 
     /**
@@ -367,7 +257,8 @@ extends ScrollPaneConstantsTests<SUT>, ScrollPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PropertyChangeHandlerClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.PropertyChangeHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -410,6 +301,121 @@ extends ScrollPaneConstantsTests<SUT>, ScrollPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ViewportChangeHandler public class javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.ViewportChangeHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ViewportChangeHandlerTests<SUT extends ViewportChangeHandler>
+    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler#stateChanged(javax.swing.event.ChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_stateChanged_ChangeEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link VSBChangeListener public class javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface VSBChangeListenerTests<SUT extends VSBChangeListener>
+    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener#stateChanged(javax.swing.event.ChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener.stateChanged(javax.swing.event.ChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_stateChanged_ChangeEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
     }
 
 }

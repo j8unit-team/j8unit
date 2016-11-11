@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CertPathValidatorException} (by simply
- * reusing the J8Unit test interface {@link CertPathValidatorExceptionClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -174,7 +175,8 @@ implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Reason} (by simply reusing the J8Unit
-     * test interface {@link ReasonClassTests}).
+     * test interface
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -196,7 +198,8 @@ implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link BasicReason} (by simply reusing the
-     * J8Unit test interface {@link BasicReasonClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests}).
      */
 
     @RunWith(J8Unit4.class)

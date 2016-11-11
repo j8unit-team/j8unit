@@ -7,7 +7,7 @@ import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AddressHelper} (by simply reusing the
- * J8Unit test interface {@link AddressHelperTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.AddressHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

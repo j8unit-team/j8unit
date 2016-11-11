@@ -19,7 +19,7 @@ import org.omg.CORBA.Any;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AnyClassTests}).
+ * {@link org.j8unit.repository.org.omg.CORBA.AnyClassTests}).
  * </p>
  *
  * @param SUT
@@ -235,6 +235,28 @@ extends IDLEntityTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Any#create_output_stream() public
+     * abstract org.omg.CORBA.portable.OutputStream org.omg.CORBA.Any.create_output_stream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_output_stream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.Any#insert_Principal(org.omg.CORBA.Principal) public void
      * org.omg.CORBA.Any.insert_Principal(org.omg.CORBA.Principal)}.
@@ -272,28 +294,6 @@ extends IDLEntityTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extract_ulonglong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Any#create_output_stream() public
-     * abstract org.omg.CORBA.portable.OutputStream org.omg.CORBA.Any.create_output_stream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_output_stream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1192,4 +1192,5 @@ extends IDLEntityTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.Any]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.Any]
+
 }

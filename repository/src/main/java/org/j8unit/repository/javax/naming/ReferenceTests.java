@@ -372,4 +372,5 @@ extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.Reference]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.Reference]
+
 }

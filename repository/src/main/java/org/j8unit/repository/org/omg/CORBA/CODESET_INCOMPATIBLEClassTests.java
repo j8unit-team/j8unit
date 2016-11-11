@@ -18,7 +18,7 @@ import org.omg.CORBA.CODESET_INCOMPATIBLE;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link CODESET_INCOMPATIBLETests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLETests}.
  * </p>
  *
  * <p>

@@ -46,7 +46,7 @@ implements FactoryBasedJ8UnitTest<BasicMenuUI>, BasicMenuUITests<BasicMenuUI> {
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests.ChangeHandlerTests<ChangeHandler> {
+    implements ChangeHandlerTests<ChangeHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 

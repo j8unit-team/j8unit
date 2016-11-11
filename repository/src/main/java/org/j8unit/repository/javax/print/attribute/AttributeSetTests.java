@@ -327,4 +327,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.AttributeSet]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.AttributeSet]
+
 }

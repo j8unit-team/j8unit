@@ -18,7 +18,7 @@ import org.omg.PortableServer.ServantActivatorPOA;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ServantActivatorPOAClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorPOAClassTests}).
  * </p>
  *
  * @param SUT
@@ -131,4 +131,5 @@ extends ServantActivatorOperationsTests<SUT>, InvokeHandlerTests<SUT>, ServantTe
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorPOA]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorPOA]
+
 }

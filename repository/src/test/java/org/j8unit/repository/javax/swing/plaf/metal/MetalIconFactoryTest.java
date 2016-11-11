@@ -46,58 +46,6 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class FileIcon16Test
-    implements FactoryBasedJ8UnitTest<FileIcon16>, FileIcon16Tests<FileIcon16> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(FileIcon16::new);
-        }
-
-        @Parameter(0)
-        public Callable<FileIcon16> sutFactory;
-
-        @Override
-        public Callable<FileIcon16> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class TreeFolderIconTest
-    implements FactoryBasedJ8UnitTest<TreeFolderIcon>, TreeFolderIconTests<TreeFolderIcon> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(TreeFolderIcon::new);
-        }
-
-        @Parameter(0)
-        public Callable<TreeFolderIcon> sutFactory;
-
-        @Override
-        public Callable<TreeFolderIcon> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FolderIcon16Test
     implements FactoryBasedJ8UnitTest<FolderIcon16>, FolderIcon16Tests<FolderIcon16> {
 
@@ -150,6 +98,58 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class FileIcon16Test
+    implements FactoryBasedJ8UnitTest<FileIcon16>, FileIcon16Tests<FileIcon16> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(FileIcon16::new);
+        }
+
+        @Parameter(0)
+        public Callable<FileIcon16> sutFactory;
+
+        @Override
+        public Callable<FileIcon16> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class TreeFolderIconTest
+    implements FactoryBasedJ8UnitTest<TreeFolderIcon>, TreeFolderIconTests<TreeFolderIcon> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(TreeFolderIcon::new);
+        }
+
+        @Parameter(0)
+        public Callable<TreeFolderIcon> sutFactory;
+
+        @Override
+        public Callable<TreeFolderIcon> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class PaletteCloseIconTest
     implements FactoryBasedJ8UnitTest<PaletteCloseIcon>, PaletteCloseIconTests<PaletteCloseIcon> {
 
@@ -176,7 +176,8 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link TreeControlIcon} (by simply
-     * reusing the J8Unit test interface {@link TreeControlIconTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests}).
      */
 
     @RunWith(J8Unit4.class)

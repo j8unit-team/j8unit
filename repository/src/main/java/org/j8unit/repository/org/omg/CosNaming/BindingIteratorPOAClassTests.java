@@ -19,7 +19,8 @@ import org.omg.CosNaming.BindingIteratorPOA;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BindingIteratorPOATests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorPOATests}.
  * </p>
  *
  * <p>

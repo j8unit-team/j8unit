@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link SerialRef} (by simply reusing the J8Unit
- * test interface {@link SerialRefClassTests}).
+ * test interface {@link org.j8unit.repository.javax.sql.rowset.serial.SerialRefClassTests}).
  */
 
 @RunWith(J8Unit4.class)

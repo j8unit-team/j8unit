@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ToolkitClassTests}).
+ * {@link org.j8unit.repository.java.awt.ToolkitClassTests}).
  * </p>
  *
  * @param SUT
@@ -51,6 +51,31 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_mapInputMethodHighlight_InputMethodHighlight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Toolkit#createDragSourceContextPeer(java.awt.dnd.DragGestureEvent) public abstract
+     * java.awt.dnd.peer.DragSourceContextPeer
+     * java.awt.Toolkit.createDragSourceContextPeer(java.awt.dnd.DragGestureEvent) throws
+     * java.awt.dnd.InvalidDnDOperationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDragSourceContextPeer_DragGestureEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,31 +120,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getImage_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Toolkit#createDragSourceContextPeer(java.awt.dnd.DragGestureEvent) public abstract
-     * java.awt.dnd.peer.DragSourceContextPeer
-     * java.awt.Toolkit.createDragSourceContextPeer(java.awt.dnd.DragGestureEvent) throws
-     * java.awt.dnd.InvalidDnDOperationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDragSourceContextPeer_DragGestureEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -284,6 +284,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getSystemSelection() public
+     * java.awt.datatransfer.Clipboard java.awt.Toolkit.getSystemSelection() throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemSelection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Toolkit#removePropertyChangeListener(String, java.beans.PropertyChangeListener) public void
      * java.awt.Toolkit.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
@@ -299,28 +321,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removePropertyChangeListener_String_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getSystemSelection() public
-     * java.awt.datatransfer.Clipboard java.awt.Toolkit.getSystemSelection() throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSystemSelection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -351,6 +351,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#createImage(String) public abstract
+     * java.awt.Image java.awt.Toolkit.createImage(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createImage_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#createImage(java.net.URL) public
      * abstract java.awt.Image java.awt.Toolkit.createImage(java.net.URL)}.
      *
@@ -365,51 +387,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createImage_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Toolkit#createImage(java.awt.image.ImageProducer) public abstract java.awt.Image
-     * java.awt.Toolkit.createImage(java.awt.image.ImageProducer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createImage_ImageProducer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#createImage(byte[]) public
-     * java.awt.Image java.awt.Toolkit.createImage(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createImage_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -440,8 +417,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#createImage(String) public abstract
-     * java.awt.Image java.awt.Toolkit.createImage(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#createImage(byte[]) public
+     * java.awt.Image java.awt.Toolkit.createImage(byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -453,7 +430,30 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createImage_String()
+    public default void test_createImage_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Toolkit#createImage(java.awt.image.ImageProducer) public abstract java.awt.Image
+     * java.awt.Toolkit.createImage(java.awt.image.ImageProducer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createImage_ImageProducer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -550,6 +550,29 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getSystemClipboard() public
+     * abstract java.awt.datatransfer.Clipboard java.awt.Toolkit.getSystemClipboard() throws
+     * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemClipboard()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getDesktopProperty(String) public
      * final synchronized java.lang.Object java.awt.Toolkit.getDesktopProperty(java.lang.String)}.
      *
@@ -594,9 +617,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getSystemClipboard() public
-     * abstract java.awt.datatransfer.Clipboard java.awt.Toolkit.getSystemClipboard() throws
-     * java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getScreenSize() public abstract
+     * java.awt.Dimension java.awt.Toolkit.getScreenSize() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -608,29 +630,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemClipboard()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#isFrameStateSupported(int) public
-     * boolean java.awt.Toolkit.isFrameStateSupported(int) throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFrameStateSupported_int()
+    public default void test_getScreenSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -662,8 +662,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getScreenSize() public abstract
-     * java.awt.Dimension java.awt.Toolkit.getScreenSize() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#isFrameStateSupported(int) public
+     * boolean java.awt.Toolkit.isFrameStateSupported(int) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -675,7 +675,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScreenSize()
+    public default void test_isFrameStateSupported_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -753,29 +753,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Toolkit#removeAWTEventListener(java.awt.event.AWTEventListener) public void
-     * java.awt.Toolkit.removeAWTEventListener(java.awt.event.AWTEventListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAWTEventListener_AWTEventListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.Toolkit#getPrintJob(java.awt.Frame, String, java.util.Properties) public abstract
      * java.awt.PrintJob java.awt.Toolkit.getPrintJob(java.awt.Frame,java.lang.String,java.util.Properties)}.
      *
@@ -822,8 +799,9 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getAWTEventListeners(long) public
-     * java.awt.event.AWTEventListener[] java.awt.Toolkit.getAWTEventListeners(long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Toolkit#removeAWTEventListener(java.awt.event.AWTEventListener) public void
+     * java.awt.Toolkit.removeAWTEventListener(java.awt.event.AWTEventListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -835,7 +813,29 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAWTEventListeners_long()
+    public default void test_removeAWTEventListener_AWTEventListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getScreenResolution() public
+     * abstract int java.awt.Toolkit.getScreenResolution() throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScreenResolution()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -858,6 +858,28 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAWTEventListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getAWTEventListeners(long) public
+     * java.awt.event.AWTEventListener[] java.awt.Toolkit.getAWTEventListeners(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAWTEventListeners_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -889,8 +911,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#getScreenResolution() public
-     * abstract int java.awt.Toolkit.getScreenResolution() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#areExtraMouseButtonsEnabled()
+     * public boolean java.awt.Toolkit.areExtraMouseButtonsEnabled() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -902,7 +924,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScreenResolution()
+    public default void test_areExtraMouseButtonsEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -925,28 +947,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFontMetrics_Font()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Toolkit#areExtraMouseButtonsEnabled()
-     * public boolean java.awt.Toolkit.areExtraMouseButtonsEnabled() throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_areExtraMouseButtonsEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1024,29 +1024,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Toolkit#isModalityTypeSupported(java.awt.Dialog.ModalityType) public abstract boolean
-     * java.awt.Toolkit.isModalityTypeSupported(java.awt.Dialog$ModalityType)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isModalityTypeSupported_ModalityType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.Toolkit#createDragGestureRecognizer(Class, java.awt.dnd.DragSource, java.awt.Component, int, java.awt.dnd.DragGestureListener)
      * public <T> T
      * java.awt.Toolkit.createDragGestureRecognizer(java.lang.Class<T>,java.awt.dnd.DragSource,java.awt.Component,int,java.awt.dnd.DragGestureListener)}.
@@ -1062,6 +1039,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDragGestureRecognizer_Class_DragSource_Component_int_DragGestureListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Toolkit#isModalityTypeSupported(java.awt.Dialog.ModalityType) public abstract boolean
+     * java.awt.Toolkit.isModalityTypeSupported(java.awt.Dialog$ModalityType)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isModalityTypeSupported_ModalityType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1093,4 +1093,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Toolkit]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Toolkit]
+
 }

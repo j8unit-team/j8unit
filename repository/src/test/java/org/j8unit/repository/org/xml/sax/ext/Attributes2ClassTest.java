@@ -6,7 +6,7 @@ import org.xml.sax.ext.Attributes2;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Attributes2} (by simply reusing the
- * J8Unit test interface {@link Attributes2ClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.Attributes2ClassTests}).
  */
 
 @RunWith(J8Unit4.class)

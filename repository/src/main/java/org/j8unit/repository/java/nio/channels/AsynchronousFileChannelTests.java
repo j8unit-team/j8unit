@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AsynchronousFileChannelClassTests}).
+ * {@link org.j8unit.repository.java.nio.channels.AsynchronousFileChannelClassTests}).
  * </p>
  *
  * @param SUT
@@ -347,4 +347,5 @@ extends AsynchronousChannelTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AsynchronousFileChannel]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousFileChannel]
+
 }

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RowSorter} (by simply reusing the J8Unit
- * test interface {@link RowSorterClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.RowSorterClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -52,7 +52,7 @@ implements RowSorterClassTests<RowSorter> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SortKey} (by simply reusing the
-     * J8Unit test interface {@link SortKeyClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests}).
      */
 
     @RunWith(J8Unit4.class)

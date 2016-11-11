@@ -18,7 +18,8 @@ import org.omg.CORBA.ULongLongSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ULongLongSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ULongLongSeqHelperTests}.
  * </p>
  *
  * <p>

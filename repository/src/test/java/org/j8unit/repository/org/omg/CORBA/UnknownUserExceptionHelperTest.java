@@ -7,7 +7,8 @@ import org.omg.CORBA.UnknownUserExceptionHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link UnknownUserExceptionHelper} (by
- * simply reusing the J8Unit test interface {@link UnknownUserExceptionHelperTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

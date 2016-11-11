@@ -7,7 +7,7 @@ import org.omg.CORBA.VM_ABSTRACT;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link VM_ABSTRACT} (by simply reusing the
- * J8Unit test interface {@link VM_ABSTRACTTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.VM_ABSTRACTTests}).
  */
 
 @RunWith(J8Unit4.class)

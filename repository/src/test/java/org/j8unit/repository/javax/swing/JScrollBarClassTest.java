@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JScrollBar} (by simply reusing the J8Unit
- * test interface {@link JScrollBarClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.JScrollBarClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -26,9 +26,8 @@ implements JScrollBarClassTests<JScrollBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JScrollBar#JScrollBar(int, int, int, int, int) public
-     * javax.swing.JScrollBar(int,int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollBar#JScrollBar() public
+     * javax.swing.JScrollBar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,11 +39,10 @@ implements JScrollBarClassTests<JScrollBar> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JScrollBar_int_int_int_int_int()
+    public void create_JScrollBar()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final JScrollBar sut = null; // = new JScrollBar(int, int, int, int, int);
+        final JScrollBar sut = new JScrollBar();
     }
 
     /**
@@ -71,8 +69,9 @@ implements JScrollBarClassTests<JScrollBar> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JScrollBar#JScrollBar() public
-     * javax.swing.JScrollBar()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JScrollBar#JScrollBar(int, int, int, int, int) public
+     * javax.swing.JScrollBar(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,10 +83,11 @@ implements JScrollBarClassTests<JScrollBar> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JScrollBar()
+    public void create_JScrollBar_int_int_int_int_int()
     throws Exception {
         // create new instance
-        final JScrollBar sut = new JScrollBar();
+        @SuppressWarnings("unused")
+        final JScrollBar sut = null; // = new JScrollBar(int, int, int, int, int);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JScrollBar]

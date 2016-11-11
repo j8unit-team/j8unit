@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Xid} (by simply reusing the J8Unit test
- * interface {@link XidClassTests}).
+ * interface {@link org.j8unit.repository.javax.transaction.xa.XidClassTests}).
  */
 
 @RunWith(J8Unit4.class)

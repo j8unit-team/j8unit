@@ -6,7 +6,7 @@ import org.omg.IOP.ENCODING_CDR_ENCAPS;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ENCODING_CDR_ENCAPS} (by simply reusing
- * the J8Unit test interface {@link ENCODING_CDR_ENCAPSClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ENCODING_CDR_ENCAPSClassTests}).
  */
 
 @RunWith(J8Unit4.class)

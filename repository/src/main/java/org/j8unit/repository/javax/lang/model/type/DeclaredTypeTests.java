@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DeclaredTypeClassTests}).
+ * {@link org.j8unit.repository.javax.lang.model.type.DeclaredTypeClassTests}).
  * </p>
  *
  * @param SUT
@@ -103,4 +103,5 @@ extends ReferenceTypeTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.DeclaredType]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.DeclaredType]
+
 }

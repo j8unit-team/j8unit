@@ -6,7 +6,6 @@ import javax.swing.text.GlyphView.GlyphPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.swing.text.GlyphViewTests.GlyphPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link GlyphViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.GlyphViewTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends TabableViewClassTests<SUT>, CloneableClassTests<SUT>, ViewClassTests<SUT
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link GlyphPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.GlyphViewTests.GlyphPainterTests}.
      * </p>
      *
      * <p>

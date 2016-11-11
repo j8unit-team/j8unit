@@ -17,7 +17,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleTypeVisitor8Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor8Tests}.
  * </p>
  *
  * <p>

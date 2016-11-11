@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link PropertyResourceBundleClassTests}).
+ * {@link org.j8unit.repository.java.util.PropertyResourceBundleClassTests}).
  * </p>
  *
  * @param SUT
@@ -81,4 +81,5 @@ extends ResourceBundleTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PropertyResourceBundle]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PropertyResourceBundle]
+
 }

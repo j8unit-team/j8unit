@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Level} (by simply reusing the J8Unit
- * test interface {@link LevelTests}).
+ * test interface {@link org.j8unit.repository.java.util.logging.LevelTests}).
  */
 
 @RunWith(J8Parameterized.class)

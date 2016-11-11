@@ -7,12 +7,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Action} (by simply reusing the J8Unit
- * test interface {@link ActionTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.ws.ActionTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class ActionTest
-implements ActionTests<Action> {
+implements org.j8unit.repository.javax.xml.ws.ActionTests<Action> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Action]
 

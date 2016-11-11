@@ -18,7 +18,7 @@ import org.omg.PortableServer.Servant;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ServantClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantClassTests}).
  * </p>
  *
  * @param SUT
@@ -169,28 +169,6 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_get_interface_def()
-     * public org.omg.CORBA.Object org.omg.PortableServer.Servant._get_interface_def()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__get_interface_def()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_poa() public final
      * org.omg.PortableServer.POA org.omg.PortableServer.Servant._poa()}.
      *
@@ -213,6 +191,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_get_interface_def()
+     * public org.omg.CORBA.Object org.omg.PortableServer.Servant._get_interface_def()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__get_interface_def()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_non_existent()
      * public boolean org.omg.PortableServer.Servant._non_existent()}.
      *
@@ -227,28 +227,6 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test__non_existent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_this_object() public
-     * final org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__this_object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -280,6 +258,28 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_this_object() public
+     * final org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__this_object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.Servant#_orb() public final
      * org.omg.CORBA.ORB org.omg.PortableServer.Servant._orb()}.
      *
@@ -303,4 +303,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.Servant]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.Servant]
+
 }

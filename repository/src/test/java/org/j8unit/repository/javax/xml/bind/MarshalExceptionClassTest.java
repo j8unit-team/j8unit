@@ -10,12 +10,12 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MarshalException} (by simply reusing the
- * J8Unit test interface {@link MarshalExceptionClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class MarshalExceptionClassTest
-implements MarshalExceptionClassTests<MarshalException> {
+implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<MarshalException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.MarshalException]
 

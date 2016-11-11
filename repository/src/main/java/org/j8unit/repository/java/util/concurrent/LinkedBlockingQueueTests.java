@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LinkedBlockingQueueClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTests}).
  * </p>
  *
  * @param SUT
@@ -390,6 +390,30 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#offer(Object) public boolean
+     * java.util.concurrent.LinkedBlockingQueue.offer(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.LinkedBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.LinkedBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
@@ -406,30 +430,6 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     @Test
     @Category(Draft.class)
     public default void test_offer_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.LinkedBlockingQueue#offer(Object) public boolean
-     * java.util.concurrent.LinkedBlockingQueue.offer(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -514,4 +514,5 @@ extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<S
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.LinkedBlockingQueue]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.LinkedBlockingQueue]
+
 }

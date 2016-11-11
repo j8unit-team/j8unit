@@ -5,8 +5,6 @@ import java.awt.Dialog;
 import java.awt.Dialog.ModalExclusionType;
 import java.awt.Dialog.ModalityType;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests;
-import org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -23,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DialogTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.DialogTests}.
  * </p>
  *
  * <p>
@@ -88,7 +87,7 @@ extends WindowClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link ModalExclusionTypeTests}.
+     * {@link org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests}.
      * </p>
      *
      * <p>
@@ -154,7 +153,8 @@ extends WindowClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ModalityTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests}.
      * </p>
      *
      * <p>

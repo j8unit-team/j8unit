@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.SUCCESSFUL;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SUCCESSFULTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.SUCCESSFULTests}.
  * </p>
  *
  * <p>

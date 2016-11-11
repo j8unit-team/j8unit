@@ -7,7 +7,7 @@ import org.omg.CORBA.VersionSpecHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link VersionSpecHelper} (by simply reusing
- * the J8Unit test interface {@link VersionSpecHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.VersionSpecHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

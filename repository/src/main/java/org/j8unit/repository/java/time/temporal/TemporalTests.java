@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TemporalClassTests}).
+ * {@link org.j8unit.repository.java.time.temporal.TemporalClassTests}).
  * </p>
  *
  * @param SUT
@@ -31,29 +31,6 @@ public abstract interface TemporalTests<SUT extends Temporal>
 extends TemporalAccessorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.Temporal]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.temporal.Temporal#plus(java.time.temporal.TemporalAmount) public default
-     * java.time.temporal.Temporal java.time.temporal.Temporal.plus(java.time.temporal.TemporalAmount)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_TemporalAmount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -72,6 +49,29 @@ extends TemporalAccessorTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_plus_long_TemporalUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.Temporal#plus(java.time.temporal.TemporalAmount) public default
+     * java.time.temporal.Temporal java.time.temporal.Temporal.plus(java.time.temporal.TemporalAmount)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_plus_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -173,29 +173,6 @@ extends TemporalAccessorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.temporal.Temporal#minus(long, java.time.temporal.TemporalUnit) public default
-     * java.time.temporal.Temporal java.time.temporal.Temporal.minus(long,java.time.temporal.TemporalUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_minus_long_TemporalUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.temporal.Temporal#minus(java.time.temporal.TemporalAmount) public default
      * java.time.temporal.Temporal java.time.temporal.Temporal.minus(java.time.temporal.TemporalAmount)}.
      *
@@ -216,7 +193,31 @@ extends TemporalAccessorTests<SUT> {
         assert sut != null;
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.temporal.Temporal#minus(long, java.time.temporal.TemporalUnit) public default
+     * java.time.temporal.Temporal java.time.temporal.Temporal.minus(long,java.time.temporal.TemporalUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_minus_long_TemporalUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.Temporal]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.Temporal]
+
 }

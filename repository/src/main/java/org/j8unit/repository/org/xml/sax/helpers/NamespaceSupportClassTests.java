@@ -18,7 +18,8 @@ import org.xml.sax.helpers.NamespaceSupport;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NamespaceSupportTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.helpers.NamespaceSupportTests}.
  * </p>
  *
  * <p>

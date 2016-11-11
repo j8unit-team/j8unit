@@ -10,7 +10,7 @@ import org.omg.CORBA.MARSHAL;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MARSHAL} (by simply reusing the J8Unit
- * test interface {@link MARSHALClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.MARSHALClassTests}).
  */
 
 @RunWith(J8Unit4.class)

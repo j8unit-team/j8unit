@@ -19,7 +19,7 @@ import org.omg.CORBA.UNSUPPORTED_POLICY_VALUE;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link UNSUPPORTED_POLICY_VALUETests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.UNSUPPORTED_POLICY_VALUETests}.
  * </p>
  *
  * <p>

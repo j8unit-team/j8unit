@@ -19,7 +19,8 @@ import org.omg.CORBA.UShortSeqHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UShortSeqHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.UShortSeqHolderTests}.
  * </p>
  *
  * <p>

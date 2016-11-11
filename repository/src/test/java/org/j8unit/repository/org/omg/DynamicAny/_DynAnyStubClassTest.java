@@ -10,7 +10,7 @@ import org.omg.DynamicAny._DynAnyStub;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link _DynAnyStub} (by simply reusing the
- * J8Unit test interface {@link _DynAnyStubClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny._DynAnyStubClassTests}).
  */
 
 @RunWith(J8Unit4.class)

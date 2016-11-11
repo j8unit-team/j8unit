@@ -19,7 +19,7 @@ import org.omg.CosNaming._NamingContextExtStub;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link _NamingContextExtStubTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming._NamingContextExtStubTests}.
  * </p>
  *
  * <p>

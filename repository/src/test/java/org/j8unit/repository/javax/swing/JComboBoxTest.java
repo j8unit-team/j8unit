@@ -40,7 +40,8 @@ implements FactoryBasedJ8UnitTest<JComboBox<E>>, JComboBoxTests<JComboBox<E>, E>
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeySelectionManager} (by simply
-     * reusing the J8Unit test interface {@link KeySelectionManagerTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests}).
      */
 
     @RunWith(J8Unit4.class)

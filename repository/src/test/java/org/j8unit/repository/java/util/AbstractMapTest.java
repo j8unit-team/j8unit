@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractMap} (by simply reusing the
- * J8Unit test interface {@link AbstractMapTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.AbstractMapTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -29,7 +29,8 @@ implements AbstractMapTests<AbstractMap<K, V>, K, V> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SimpleImmutableEntry} (by simply
-     * reusing the J8Unit test interface {@link SimpleImmutableEntryTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -51,7 +52,7 @@ implements AbstractMapTests<AbstractMap<K, V>, K, V> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SimpleEntry} (by simply reusing
-     * the J8Unit test interface {@link SimpleEntryTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -22,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NumericShaperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.font.NumericShaperTests}.
  * </p>
  *
  * <p>
@@ -86,7 +87,8 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link RangeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.font.NumericShaperTests.RangeTests}.
      * </p>
      *
      * <p>

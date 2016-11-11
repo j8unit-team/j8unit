@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Resource} (by simply reusing the
- * J8Unit test interface {@link ResourceTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.annotation.ResourceTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,8 @@ implements ResourceTests<Resource> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AuthenticationType} (by simply
-     * reusing the J8Unit test interface {@link AuthenticationTypeTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)

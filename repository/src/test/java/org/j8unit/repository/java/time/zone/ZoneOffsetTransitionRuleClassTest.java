@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ZoneOffsetTransitionRule} (by simply
- * reusing the J8Unit test interface {@link ZoneOffsetTransitionRuleClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -55,7 +55,8 @@ implements ZoneOffsetTransitionRuleClassTests<ZoneOffsetTransitionRule> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TimeDefinition} (by simply reusing
-     * the J8Unit test interface {@link TimeDefinitionClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests}).
      */
 
     @RunWith(J8Unit4.class)

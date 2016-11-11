@@ -19,7 +19,7 @@ import org.omg.CORBA.DefinitionKindHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DefinitionKindHelperTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperTests}.
  * </p>
  *
  * <p>

@@ -19,7 +19,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _Remote_StubClassTests}).
+ * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests}).
  * </p>
  *
  * @param SUT
@@ -60,4 +60,5 @@ extends RemoteTests<SUT>, StubTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
+
 }

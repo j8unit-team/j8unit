@@ -14,7 +14,7 @@ import org.omg.CORBA.portable.StreamableValue;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link StreamableValueClassTests}).
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.StreamableValueClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,4 +32,5 @@ extends StreamableTests<SUT>, ValueBaseTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.StreamableValue]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.StreamableValue]
+
 }

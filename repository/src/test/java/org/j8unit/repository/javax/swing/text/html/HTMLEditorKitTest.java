@@ -44,9 +44,35 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
 
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class HTMLFactoryTest
+    implements FactoryBasedJ8UnitTest<HTMLFactory>, HTMLFactoryTests<HTMLFactory> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(HTMLFactory::new);
+        }
+
+        @Parameter(0)
+        public Callable<HTMLFactory> sutFactory;
+
+        @Override
+        public Callable<HTMLFactory> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
+    }
+
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Parser} (by simply reusing the
-     * J8Unit test interface {@link ParserTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -63,6 +89,29 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$Parser]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$Parser]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link InsertHTMLTextAction} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class InsertHTMLTextActionTest
+    implements InsertHTMLTextActionTests<InsertHTMLTextAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+        @Override
+        public InsertHTMLTextAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
     }
 
@@ -119,30 +168,9 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link InsertHTMLTextAction} (by simply
-     * reusing the J8Unit test interface {@link InsertHTMLTextActionTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionTest
-    implements InsertHTMLTextActionTests<InsertHTMLTextAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
-
-        @Override
-        public InsertHTMLTextAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLTextAction} (by simply
-     * reusing the J8Unit test interface {@link HTMLTextActionTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -159,32 +187,6 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class HTMLFactoryTest
-    implements FactoryBasedJ8UnitTest<HTMLFactory>, HTMLFactoryTests<HTMLFactory> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(HTMLFactory::new);
-        }
-
-        @Parameter(0)
-        public Callable<HTMLFactory> sutFactory;
-
-        @Override
-        public Callable<HTMLFactory> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
     }
 

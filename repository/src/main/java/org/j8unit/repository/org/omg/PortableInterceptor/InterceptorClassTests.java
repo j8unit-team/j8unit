@@ -19,7 +19,8 @@ import org.omg.PortableInterceptor.Interceptor;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InterceptorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.InterceptorTests}.
  * </p>
  *
  * <p>

@@ -22,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link AttributesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.jar.AttributesTests}.
  * </p>
  *
  * <p>
@@ -86,7 +87,8 @@ extends MapClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link NameTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.jar.AttributesTests.NameTests}.
      * </p>
      *
      * <p>

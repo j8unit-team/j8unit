@@ -5,7 +5,6 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaCompiler.CompilationTask;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.util.concurrent.CallableClassTests;
-import org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JavaCompilerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.tools.JavaCompilerTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link CompilationTaskTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests}.
      * </p>
      *
      * <p>

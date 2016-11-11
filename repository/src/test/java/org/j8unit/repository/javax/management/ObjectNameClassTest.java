@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectName} (by simply reusing the J8Unit
- * test interface {@link ObjectNameClassTests}).
+ * test interface {@link org.j8unit.repository.javax.management.ObjectNameClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,52 +22,6 @@ implements ObjectNameClassTests<ObjectName> {
     @Override
     public Class<ObjectName> createNewSUT() {
         return ObjectName.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.management.ObjectName#ObjectName(String)
-     * public javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ObjectName_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ObjectName sut = null; // = new ObjectName(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.ObjectName#ObjectName(String, java.util.Hashtable) public
-     * javax.management.ObjectName(java.lang.String,java.util.Hashtable<java.lang.String, java.lang.String>) throws
-     * javax.management.MalformedObjectNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ObjectName_String_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ObjectName sut = null; // = new ObjectName(String, java.util.Hashtable);
     }
 
     /**
@@ -96,6 +50,52 @@ implements ObjectNameClassTests<ObjectName> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.ObjectName#ObjectName(String, java.util.Hashtable) public
+     * javax.management.ObjectName(java.lang.String,java.util.Hashtable<java.lang.String, java.lang.String>) throws
+     * javax.management.MalformedObjectNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ObjectName_String_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ObjectName sut = null; // = new ObjectName(String, java.util.Hashtable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.ObjectName#ObjectName(String)
+     * public javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ObjectName_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ObjectName sut = null; // = new ObjectName(String);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.ObjectName#getInstance(javax.management.ObjectName) public static
      * javax.management.ObjectName javax.management.ObjectName.getInstance(javax.management.ObjectName)}.
@@ -117,10 +117,9 @@ implements ObjectNameClassTests<ObjectName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.ObjectName#getInstance(String, String, String) public static javax.management.ObjectName
-     * javax.management.ObjectName.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
-     * javax.management.MalformedObjectNameException}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getInstance(String)
+     * public static javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
+     * javax.management.MalformedObjectNameException,java.lang.NullPointerException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,9 +131,9 @@ implements ObjectNameClassTests<ObjectName> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getInstance_String_String_String()
+    public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link javax.management.ObjectName#getInstance(String, String, String)}
+        // write some test for {@link javax.management.ObjectName#getInstance(String)}
     }
 
     /**
@@ -162,9 +161,10 @@ implements ObjectNameClassTests<ObjectName> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.ObjectName#getInstance(String)
-     * public static javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
-     * javax.management.MalformedObjectNameException,java.lang.NullPointerException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.ObjectName#getInstance(String, String, String) public static javax.management.ObjectName
+     * javax.management.ObjectName.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
+     * javax.management.MalformedObjectNameException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,9 +176,9 @@ implements ObjectNameClassTests<ObjectName> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getInstance_String()
+    public void test_getInstance_String_String_String()
     throws Exception {
-        // write some test for {@link javax.management.ObjectName#getInstance(String)}
+        // write some test for {@link javax.management.ObjectName#getInstance(String, String, String)}
     }
 
     /**

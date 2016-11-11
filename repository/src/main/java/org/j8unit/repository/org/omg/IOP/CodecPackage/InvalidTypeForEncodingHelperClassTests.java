@@ -19,7 +19,7 @@ import org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link InvalidTypeForEncodingHelperTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelperTests}.
  * </p>
  *
  * <p>

@@ -15,13 +15,6 @@ import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests;
-import org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests;
 import org.j8unit.repository.javax.security.auth.DestroyableTests;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -37,7 +30,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link KeyStoreClassTests}).
+ * {@link org.j8unit.repository.java.security.KeyStoreClassTests}).
  * </p>
  *
  * @param SUT
@@ -591,6 +584,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -601,7 +595,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PrivateKeyEntryClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -737,6 +731,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
+
     }
 
     /**
@@ -749,7 +744,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link SecretKeyEntryClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -837,6 +832,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
+
     }
 
     /**
@@ -915,6 +911,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Builder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Builder]
+
     }
 
     /**
@@ -927,7 +924,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link EntryClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -968,6 +965,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Entry]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry]
+
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
@@ -1043,6 +1041,7 @@ extends ObjectTests<SUT> {
             // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
 
             // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
+
         }
 
     }
@@ -1057,7 +1056,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TrustedCertificateEntryClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -1147,6 +1146,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
+
     }
 
     /**
@@ -1159,7 +1159,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PasswordProtectionClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests}).
      * </p>
      *
      * @param SUT
@@ -1295,6 +1295,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
+
     }
 
     /**
@@ -1307,7 +1308,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link LoadStoreParameterClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests}).
      * </p>
      *
      * @param SUT
@@ -1349,6 +1350,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
+
     }
 
     /**
@@ -1361,7 +1363,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ProtectionParameterClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests}).
      * </p>
      *
      * @param SUT
@@ -1379,6 +1381,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
+
     }
 
     /**
@@ -1391,7 +1394,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CallbackHandlerProtectionClassTests}).
+     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests}).
      * </p>
      *
      * @param SUT
@@ -1433,6 +1436,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
+
     }
 
 }

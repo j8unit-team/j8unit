@@ -18,7 +18,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JPEGHuffmanTableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGHuffmanTableTests}.
  * </p>
  *
  * <p>

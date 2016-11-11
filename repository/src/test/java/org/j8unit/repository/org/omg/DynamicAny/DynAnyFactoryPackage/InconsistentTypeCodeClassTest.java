@@ -10,12 +10,13 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InconsistentTypeCode} (by simply reusing
- * the J8Unit test interface {@link InconsistentTypeCodeClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeClassTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeClassTest
-implements InconsistentTypeCodeClassTests<InconsistentTypeCode> {
+implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeClassTests<InconsistentTypeCode> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
 

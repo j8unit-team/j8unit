@@ -19,7 +19,7 @@ import org.omg.IOP.ExceptionDetailMessage;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ExceptionDetailMessageTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.ExceptionDetailMessageTests}.
  * </p>
  *
  * <p>

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SimpleScriptContextClassTests}).
+ * {@link org.j8unit.repository.javax.script.SimpleScriptContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -367,4 +367,5 @@ extends ScriptContextTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.SimpleScriptContext]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleScriptContext]
+
 }

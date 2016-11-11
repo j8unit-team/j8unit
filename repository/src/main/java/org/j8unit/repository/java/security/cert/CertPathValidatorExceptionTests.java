@@ -8,8 +8,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableTests;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.java.security.GeneralSecurityExceptionTests;
-import org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests;
-import org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CertPathValidatorExceptionClassTests}).
+ * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -111,6 +109,7 @@ extends GeneralSecurityExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -121,7 +120,7 @@ extends GeneralSecurityExceptionTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ReasonClassTests}).
+     * (see {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests}).
      * </p>
      *
      * @param SUT
@@ -139,6 +138,7 @@ extends GeneralSecurityExceptionTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+
     }
 
     /**
@@ -151,7 +151,8 @@ extends GeneralSecurityExceptionTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BasicReasonClassTests}).
+     * (see
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests}).
      * </p>
      *
      * @param SUT
@@ -169,6 +170,7 @@ extends GeneralSecurityExceptionTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+
     }
 
 }

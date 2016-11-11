@@ -43,7 +43,8 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link PrintQualityType} (by simply
-     * reusing the J8Unit test interface {@link PrintQualityTypeTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -76,7 +77,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorType} (by simply reusing the
-     * J8Unit test interface {@link ColorTypeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -108,7 +109,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OriginType} (by simply reusing
-     * the J8Unit test interface {@link OriginTypeTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -140,7 +141,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link MediaType} (by simply reusing the
-     * J8Unit test interface {@link MediaTypeTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -317,7 +318,8 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OrientationRequestedType} (by
-     * simply reusing the J8Unit test interface {@link OrientationRequestedTypeTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests}).
      */
 
     @RunWith(J8Parameterized.class)

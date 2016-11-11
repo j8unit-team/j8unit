@@ -10,7 +10,7 @@ import org.xml.sax.ext.DefaultHandler2;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHandler2} (by simply reusing the
- * J8Unit test interface {@link DefaultHandler2ClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.DefaultHandler2ClassTests}).
  */
 
 @RunWith(J8Unit4.class)

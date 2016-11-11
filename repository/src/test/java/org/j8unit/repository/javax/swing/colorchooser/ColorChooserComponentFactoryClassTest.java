@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ColorChooserComponentFactory} (by simply
- * reusing the J8Unit test interface {@link ColorChooserComponentFactoryClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentFactoryClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -11,7 +11,8 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AlreadyBoundHelper} (by simply reusing
- * the J8Unit test interface {@link AlreadyBoundHelperClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

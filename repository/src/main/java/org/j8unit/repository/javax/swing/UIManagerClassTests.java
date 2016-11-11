@@ -6,7 +6,6 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UIManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.UIManagerTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link LookAndFeelInfoTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.UIManagerTests.LookAndFeelInfoTests}.
      * </p>
      *
      * <p>

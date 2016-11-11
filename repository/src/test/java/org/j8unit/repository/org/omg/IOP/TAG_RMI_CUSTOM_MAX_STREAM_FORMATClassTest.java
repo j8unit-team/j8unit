@@ -6,7 +6,8 @@ import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TAG_RMI_CUSTOM_MAX_STREAM_FORMAT} (by
- * simply reusing the J8Unit test interface {@link TAG_RMI_CUSTOM_MAX_STREAM_FORMATClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMATClassTests}).
  */
 
 @RunWith(J8Unit4.class)

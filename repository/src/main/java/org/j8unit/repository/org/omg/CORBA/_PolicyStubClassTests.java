@@ -18,7 +18,8 @@ import org.omg.CORBA._PolicyStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link _PolicyStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA._PolicyStubTests}.
  * </p>
  *
  * <p>

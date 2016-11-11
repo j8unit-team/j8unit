@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeChangeNotificationFilter} (by
- * simply reusing the J8Unit test interface {@link AttributeChangeNotificationFilterClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.management.AttributeChangeNotificationFilterClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -23,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link PrimitiveIteratorClassTests}).
+ * {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests}).
  * </p>
  *
  * @param SUT
@@ -63,6 +63,7 @@ extends IteratorTests<SUT, T> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -183,6 +184,7 @@ extends IteratorTests<SUT, T> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
     }
 
     /**
@@ -307,6 +309,7 @@ extends IteratorTests<SUT, T> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
+
     }
 
     /**
@@ -429,6 +432,7 @@ extends IteratorTests<SUT, T> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
+
     }
 
 }

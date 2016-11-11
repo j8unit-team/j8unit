@@ -614,4 +614,5 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ComparableTests<SUT, Date>,
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Date]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Date]
+
 }

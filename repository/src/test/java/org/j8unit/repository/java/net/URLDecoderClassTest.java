@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link URLDecoder} (by simply reusing the J8Unit
- * test interface {@link URLDecoderClassTests}).
+ * test interface {@link org.j8unit.repository.java.net.URLDecoderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

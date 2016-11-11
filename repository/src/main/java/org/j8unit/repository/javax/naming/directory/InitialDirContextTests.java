@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link InitialDirContextClassTests}).
+ * {@link org.j8unit.repository.javax.naming.directory.InitialDirContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,6 +32,32 @@ public abstract interface InitialDirContextTests<SUT extends InitialDirContext>
 extends DirContextTests<SUT>, InitialContextTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InitialDirContext]
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, javax.naming.directory.ModificationItem[])
+     * public void
+     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
+     * throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_modifyAttributes_String_ModificationItemArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
     /**
      * <p>
@@ -53,32 +79,6 @@ extends DirContextTests<SUT>, InitialContextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_modifyAttributes_Name_ModificationItemArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, int, javax.naming.directory.Attributes)
-     * public void
-     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes)
-     * throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_modifyAttributes_String_int_Attributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,9 +114,9 @@ extends DirContextTests<SUT>, InitialContextTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, javax.naming.directory.ModificationItem[])
+     * {@link javax.naming.directory.InitialDirContext#modifyAttributes(String, int, javax.naming.directory.Attributes)
      * public void
-     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,javax.naming.directory.ModificationItem[])
+     * javax.naming.directory.InitialDirContext.modifyAttributes(java.lang.String,int,javax.naming.directory.Attributes)
      * throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,33 +130,7 @@ extends DirContextTests<SUT>, InitialContextTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_modifyAttributes_String_ModificationItemArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.directory.InitialDirContext#getSchemaClassDefinition(String) public
-     * javax.naming.directory.DirContext
-     * javax.naming.directory.InitialDirContext.getSchemaClassDefinition(java.lang.String) throws
-     * javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSchemaClassDefinition_String()
+    public default void test_modifyAttributes_String_int_Attributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,6 +157,32 @@ extends DirContextTests<SUT>, InitialContextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSchemaClassDefinition_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.InitialDirContext#getSchemaClassDefinition(String) public
+     * javax.naming.directory.DirContext
+     * javax.naming.directory.InitialDirContext.getSchemaClassDefinition(java.lang.String) throws
+     * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSchemaClassDefinition_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -706,4 +706,5 @@ extends DirContextTests<SUT>, InitialContextTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.InitialDirContext]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.InitialDirContext]
+
 }

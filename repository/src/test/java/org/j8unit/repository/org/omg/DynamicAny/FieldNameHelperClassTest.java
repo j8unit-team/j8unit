@@ -16,7 +16,7 @@ import org.omg.DynamicAny.FieldNameHelper;
 
 @RunWith(J8Unit4.class)
 public class FieldNameHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.FieldNameHelperClassTests<FieldNameHelper> {
+implements FieldNameHelperClassTests<FieldNameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.FieldNameHelper]
 

@@ -10,7 +10,8 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AlreadyBoundHolder} (by simply reusing
- * the J8Unit test interface {@link AlreadyBoundHolderClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderClassTests}).
  */
 
 @RunWith(J8Unit4.class)

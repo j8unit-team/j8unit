@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RowIdLifetime} (by simply reusing the
- * J8Unit test interface {@link RowIdLifetimeTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.sql.RowIdLifetimeTests}).
  */
 
 @RunWith(J8Parameterized.class)

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ConvolveOp} (by simply reusing the J8Unit
- * test interface {@link ConvolveOpClassTests}).
+ * test interface {@link org.j8unit.repository.java.awt.image.ConvolveOpClassTests}).
  */
 
 @RunWith(J8Unit4.class)

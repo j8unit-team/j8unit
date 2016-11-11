@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class NameTest
-implements org.j8unit.repository.javax.xml.soap.NameTests<Name> {
+implements NameTests<Name> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.Name]
 

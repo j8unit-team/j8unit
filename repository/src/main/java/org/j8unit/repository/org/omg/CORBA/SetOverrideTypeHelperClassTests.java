@@ -19,7 +19,7 @@ import org.omg.CORBA.SetOverrideTypeHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link SetOverrideTypeHelperTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.SetOverrideTypeHelperTests}.
  * </p>
  *
  * <p>

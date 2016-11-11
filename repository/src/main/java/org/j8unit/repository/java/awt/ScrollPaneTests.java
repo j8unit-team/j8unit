@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ScrollPaneClassTests}).
+ * {@link org.j8unit.repository.java.awt.ScrollPaneClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,6 +32,28 @@ public abstract interface ScrollPaneTests<SUT extends ScrollPane>
 extends AccessibleTests<SUT>, ContainerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ScrollPane]
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#getVAdjustable() public
+     * java.awt.Adjustable java.awt.ScrollPane.getVAdjustable()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVAdjustable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
     /**
      * <p>
@@ -50,28 +72,6 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#getVAdjustable() public
-     * java.awt.Adjustable java.awt.ScrollPane.getVAdjustable()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVAdjustable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,6 +124,28 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#getVScrollbarWidth() public int
+     * java.awt.ScrollPane.getVScrollbarWidth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVScrollbarWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.ScrollPane#setLayout(java.awt.LayoutManager) public final void
      * java.awt.ScrollPane.setLayout(java.awt.LayoutManager)}.
@@ -140,28 +162,6 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLayout_LayoutManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#getVScrollbarWidth() public int
-     * java.awt.ScrollPane.getVScrollbarWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVScrollbarWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,9 +237,8 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.ScrollPane#printComponents(java.awt.Graphics) public void
-     * java.awt.ScrollPane.printComponents(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#setScrollPosition(int, int)
+     * public void java.awt.ScrollPane.setScrollPosition(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -249,10 +248,9 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_printComponents_Graphics()
+    public default void test_setScrollPosition_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -284,8 +282,9 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.ScrollPane#setScrollPosition(int, int)
-     * public void java.awt.ScrollPane.setScrollPosition(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.ScrollPane#printComponents(java.awt.Graphics) public void
+     * java.awt.ScrollPane.printComponents(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,9 +294,10 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setScrollPosition_int_int()
+    public default void test_printComponents_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -442,4 +442,5 @@ extends AccessibleTests<SUT>, ContainerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.ScrollPane]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.ScrollPane]
+
 }

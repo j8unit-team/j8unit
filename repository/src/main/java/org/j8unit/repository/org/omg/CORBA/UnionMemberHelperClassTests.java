@@ -18,7 +18,8 @@ import org.omg.CORBA.UnionMemberHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UnionMemberHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.UnionMemberHelperTests}.
  * </p>
  *
  * <p>

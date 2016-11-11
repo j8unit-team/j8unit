@@ -16,7 +16,6 @@ import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.javax.swing.SwingConstantsTests;
 import org.j8unit.repository.javax.swing.event.ChangeListenerTests;
 import org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests;
-import org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabSelectionHandlerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -31,7 +30,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link BasicTabbedPaneUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -121,6 +120,30 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicTabbedPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicTabbedPaneUI#getBaselineResizeBehavior(javax.swing.JComponent) public
      * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.basic.BasicTabbedPaneUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
@@ -137,30 +160,6 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBaselineResizeBehavior_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicTabbedPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -290,6 +289,64 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TabSelectionHandler public class javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabSelectionHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface TabSelectionHandlerTests<SUT extends TabSelectionHandler>
+    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler#stateChanged(javax.swing.event.ChangeEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler.stateChanged(javax.swing.event.ChangeEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_stateChanged_ChangeEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+    }
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -300,7 +357,8 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TabbedPaneLayoutClassTests}).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests}).
      * </p>
      *
      * @param SUT
@@ -465,60 +523,7 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
-    }
 
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MouseHandler public class javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface MouseHandlerTests<SUT extends MouseHandler>
-    extends MouseAdapterTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler#mousePressed(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler.mousePressed(java.awt.event.MouseEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_mousePressed_MouseEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
     }
 
     /**
@@ -597,61 +602,7 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
-    }
 
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link TabSelectionHandler public class javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TabSelectionHandlerClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface TabSelectionHandlerTests<SUT extends TabSelectionHandler>
-    extends ChangeListenerTests<SUT>, ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler#stateChanged(javax.swing.event.ChangeEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler.stateChanged(javax.swing.event.ChangeEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_stateChanged_ChangeEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
     }
 
     /**
@@ -708,6 +659,62 @@ extends SwingConstantsTests<SUT>, TabbedPaneUITests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link MouseHandler public class javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface MouseHandlerTests<SUT extends MouseHandler>
+    extends MouseAdapterTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler#mousePressed(java.awt.event.MouseEvent) public
+         * void javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler.mousePressed(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_mousePressed_MouseEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
     }
 
 }

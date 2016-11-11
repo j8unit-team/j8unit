@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ThreadLocalRandomClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.ThreadLocalRandomClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,6 +32,53 @@ public abstract interface ThreadLocalRandomTests<SUT extends ThreadLocalRandom>
 extends RandomTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadLocalRandom]
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadLocalRandom#ints(long, int, int) public java.util.stream.IntStream
+     * java.util.concurrent.ThreadLocalRandom.ints(long,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_ints_long_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#ints(long)
+     * public java.util.stream.IntStream java.util.concurrent.ThreadLocalRandom.ints(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_ints_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
     /**
      * <p>
@@ -74,77 +121,6 @@ extends RandomTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_ints_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#ints(long)
-     * public java.util.stream.IntStream java.util.concurrent.ThreadLocalRandom.ints(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_ints_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadLocalRandom#ints(long, int, int) public java.util.stream.IntStream
-     * java.util.concurrent.ThreadLocalRandom.ints(long,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_ints_long_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadLocalRandom#longs(long, long, long) public java.util.stream.LongStream
-     * java.util.concurrent.ThreadLocalRandom.longs(long,long,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_longs_long_long_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -223,6 +199,30 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadLocalRandom#longs(long, long, long) public java.util.stream.LongStream
+     * java.util.concurrent.ThreadLocalRandom.longs(long,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_longs_long_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextBoolean()
      * public boolean java.util.concurrent.ThreadLocalRandom.nextBoolean()}.
      *
@@ -269,6 +269,30 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadLocalRandom#doubles(long, double, double) public java.util.stream.DoubleStream
+     * java.util.concurrent.ThreadLocalRandom.doubles(long,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_doubles_long_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#doubles()
      * public java.util.stream.DoubleStream java.util.concurrent.ThreadLocalRandom.doubles()}.
      *
@@ -284,29 +308,6 @@ extends RandomTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_doubles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#doubles(long)
-     * public java.util.stream.DoubleStream java.util.concurrent.ThreadLocalRandom.doubles(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_doubles_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -339,9 +340,8 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadLocalRandom#doubles(long, double, double) public java.util.stream.DoubleStream
-     * java.util.concurrent.ThreadLocalRandom.doubles(long,double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#doubles(long)
+     * public java.util.stream.DoubleStream java.util.concurrent.ThreadLocalRandom.doubles(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -354,7 +354,7 @@ extends RandomTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_doubles_long_double_double()
+    public default void test_doubles_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,29 +386,6 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextDouble()
-     * public double java.util.concurrent.ThreadLocalRandom.nextDouble()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_nextDouble()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ThreadLocalRandom#nextDouble(double) public double
      * java.util.concurrent.ThreadLocalRandom.nextDouble(double)}.
@@ -424,6 +401,29 @@ extends RandomTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_nextDouble_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextDouble()
+     * public double java.util.concurrent.ThreadLocalRandom.nextDouble()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_nextDouble()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -479,29 +479,6 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadLocalRandom#nextLong(long) public long
-     * java.util.concurrent.ThreadLocalRandom.nextLong(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextLong_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextLong()
      * public long java.util.concurrent.ThreadLocalRandom.nextLong()}.
      *
@@ -517,6 +494,29 @@ extends RandomTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_nextLong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadLocalRandom#nextLong(long) public long
+     * java.util.concurrent.ThreadLocalRandom.nextLong(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextLong_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -548,8 +548,9 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextInt()
-     * public int java.util.concurrent.ThreadLocalRandom.nextInt()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ThreadLocalRandom#nextInt(int, int) public int
+     * java.util.concurrent.ThreadLocalRandom.nextInt(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -559,10 +560,9 @@ extends RandomTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_nextInt()
+    public default void test_nextInt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -594,9 +594,8 @@ extends RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ThreadLocalRandom#nextInt(int, int) public int
-     * java.util.concurrent.ThreadLocalRandom.nextInt(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ThreadLocalRandom#nextInt()
+     * public int java.util.concurrent.ThreadLocalRandom.nextInt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -606,9 +605,10 @@ extends RandomTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_nextInt_int_int()
+    public default void test_nextInt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -618,4 +618,5 @@ extends RandomTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadLocalRandom]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadLocalRandom]
+
 }

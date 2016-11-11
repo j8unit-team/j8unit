@@ -18,7 +18,8 @@ import org.omg.IOP.TAG_JAVA_CODEBASE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TAG_JAVA_CODEBASETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.IOP.TAG_JAVA_CODEBASETests}.
  * </p>
  *
  * <p>

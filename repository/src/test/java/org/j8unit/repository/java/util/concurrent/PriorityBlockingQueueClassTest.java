@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link PriorityBlockingQueue} (by simply reusing
- * the J8Unit test interface {@link PriorityBlockingQueueClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)

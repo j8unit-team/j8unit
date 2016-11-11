@@ -7,7 +7,6 @@ import javax.swing.JTable.PrintMode;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.JTableTests.PrintModeTests;
 import org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests;
 import org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests;
 import org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests;
@@ -28,7 +27,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JTableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JTableTests}.
  * </p>
  *
  * <p>
@@ -93,7 +93,8 @@ CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerC
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DropLocationTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.JTableTests.DropLocationTests}.
      * </p>
      *
      * <p>
@@ -159,7 +160,8 @@ CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerC
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link PrintModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.JTableTests.PrintModeTests}.
      * </p>
      *
      * <p>

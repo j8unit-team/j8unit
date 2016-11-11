@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests;
-import org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link AddressingFeatureClassTests}).
+ * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests}).
  * </p>
  *
  * @param SUT
@@ -106,6 +105,7 @@ extends WebServiceFeatureTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -116,7 +116,7 @@ extends WebServiceFeatureTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link ResponsesClassTests}).
+     * (see {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests}).
      * </p>
      *
      * @param SUT
@@ -134,6 +134,7 @@ extends WebServiceFeatureTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
+
     }
 
 }

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DocAttributeSet} (by simply reusing the
- * J8Unit test interface {@link DocAttributeSetClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.DocAttributeSetClassTests}).
  */
 
 @RunWith(J8Unit4.class)

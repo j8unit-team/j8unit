@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ChronoLocalDateTime} (by simply reusing
- * the J8Unit test interface {@link ChronoLocalDateTimeClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -22,27 +22,6 @@ implements ChronoLocalDateTimeClassTests<ChronoLocalDateTime> {
     @Override
     public Class<ChronoLocalDateTime> createNewSUT() {
         return ChronoLocalDateTime.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()
-     * public static java.util.Comparator<java.time.chrono.ChronoLocalDateTime<?>>
-     * java.time.chrono.ChronoLocalDateTime.timeLineOrder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_timeLineOrder()
-    throws Exception {
-        // write some test for {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()}
     }
 
     /**
@@ -65,6 +44,27 @@ implements ChronoLocalDateTimeClassTests<ChronoLocalDateTime> {
     public void test_from_TemporalAccessor()
     throws Exception {
         // write some test for {@link java.time.chrono.ChronoLocalDateTime#from(java.time.temporal.TemporalAccessor)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()
+     * public static java.util.Comparator<java.time.chrono.ChronoLocalDateTime<?>>
+     * java.time.chrono.ChronoLocalDateTime.timeLineOrder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_timeLineOrder()
+    throws Exception {
+        // write some test for {@link java.time.chrono.ChronoLocalDateTime#timeLineOrder()}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ChronoLocalDateTime]

@@ -7,7 +7,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableTests;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ZoneOffsetTransitionRuleClassTests}).
+ * {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests}).
  * </p>
  *
  * @param SUT
@@ -132,29 +131,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.zone.ZoneOffsetTransitionRule#getStandardOffset() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getStandardOffset()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStandardOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.zone.ZoneOffsetTransitionRule#getOffsetBefore() public java.time.ZoneOffset
      * java.time.zone.ZoneOffsetTransitionRule.getOffsetBefore()}.
      *
@@ -192,6 +168,29 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOffsetAfter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneOffsetTransitionRule#getStandardOffset() public java.time.ZoneOffset
+     * java.time.zone.ZoneOffsetTransitionRule.getStandardOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStandardOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -340,6 +339,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -350,7 +350,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link TimeDefinitionClassTests}).
+     * (see {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests}).
      * </p>
      *
      * @param SUT
@@ -392,6 +392,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
+
     }
 
 }

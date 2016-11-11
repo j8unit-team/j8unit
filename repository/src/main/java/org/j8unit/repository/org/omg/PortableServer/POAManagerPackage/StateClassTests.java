@@ -19,7 +19,8 @@ import org.omg.PortableServer.POAManagerPackage.State;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link StateTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.StateTests}.
  * </p>
  *
  * <p>

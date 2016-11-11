@@ -19,7 +19,8 @@ import org.omg.stub.java.rmi._Remote_Stub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link _Remote_StubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests}.
  * </p>
  *
  * <p>

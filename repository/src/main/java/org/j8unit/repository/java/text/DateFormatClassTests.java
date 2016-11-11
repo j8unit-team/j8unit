@@ -19,7 +19,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DateFormatTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.text.DateFormatTests}.
  * </p>
  *
  * <p>
@@ -83,7 +84,8 @@ extends FormatClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link FieldTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.text.DateFormatTests.FieldTests}.
      * </p>
      *
      * <p>

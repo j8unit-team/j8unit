@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Array} (by simply reusing the J8Unit test
- * interface {@link ArrayClassTests}).
+ * interface {@link org.j8unit.repository.java.sql.ArrayClassTests}).
  */
 
 @RunWith(J8Unit4.class)

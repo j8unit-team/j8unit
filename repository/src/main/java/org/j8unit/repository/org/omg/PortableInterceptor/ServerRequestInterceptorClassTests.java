@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ServerRequestInterceptor;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServerRequestInterceptorTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorTests}.
  * </p>
  *
  * <p>

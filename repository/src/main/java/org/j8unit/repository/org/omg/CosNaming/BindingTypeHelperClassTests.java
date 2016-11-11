@@ -18,7 +18,8 @@ import org.omg.CosNaming.BindingTypeHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BindingTypeHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.BindingTypeHelperTests}.
  * </p>
  *
  * <p>

@@ -36,39 +36,9 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link Style} (by simply reusing the
-     * J8Unit test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests}).
-     */
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class StyleTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(Style.class);
-        }
-
-        @Parameter(0)
-        public Style sut;
-
-        @Override
-        public Style createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ParameterStyle} (by simply
-     * reusing the J8Unit test interface {@link ParameterStyleTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -80,7 +50,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOfEnumClass(ParameterStyle.class);
+            return testParametersOfEnumClass(ParameterStyle.class);
         }
 
         @Parameter(0)
@@ -99,7 +69,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Use} (by simply reusing the
-     * J8Unit test interface {@link UseTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -125,6 +95,37 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Style} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests}).
+     */
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class StyleTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOfEnumClass(Style.class);
+        }
+
+        @Parameter(0)
+        public Style sut;
+
+        @Override
+        public Style createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoSuchAlgorithmException} (by simply
- * reusing the J8Unit test interface {@link NoSuchAlgorithmExceptionClassTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

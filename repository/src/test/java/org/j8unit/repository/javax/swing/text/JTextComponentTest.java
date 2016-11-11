@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link JTextComponent} (by simply reusing
- * the J8Unit test interface {@link JTextComponentTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -52,7 +52,7 @@ implements JTextComponentTests<JTextComponent> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyBinding} (by simply reusing
-     * the J8Unit test interface {@link KeyBindingTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -74,7 +74,8 @@ implements JTextComponentTests<JTextComponent> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link AccessibleJTextComponent} (by
-     * simply reusing the J8Unit test interface {@link AccessibleJTextComponentTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests}).
      */
 
     @RunWith(J8Unit4.class)

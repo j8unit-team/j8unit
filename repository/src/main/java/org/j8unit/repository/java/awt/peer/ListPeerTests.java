@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ListPeerClassTests}).
+ * {@link org.j8unit.repository.java.awt.peer.ListPeerClassTests}).
  * </p>
  *
  * @param SUT
@@ -31,28 +31,6 @@ public abstract interface ListPeerTests<SUT extends ListPeer>
 extends ComponentPeerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.peer.ListPeer]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getSelectedIndexes() public
-     * abstract int[] java.awt.peer.ListPeer.getSelectedIndexes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedIndexes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -70,6 +48,28 @@ extends ComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPreferredSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getSelectedIndexes() public
+     * abstract int[] java.awt.peer.ListPeer.getSelectedIndexes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedIndexes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,28 +100,6 @@ extends ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#deselect(int) public abstract
-     * void java.awt.peer.ListPeer.deselect(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deselect_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#getMinimumSize(int) public
      * abstract java.awt.Dimension java.awt.peer.ListPeer.getMinimumSize(int)}.
      *
@@ -136,6 +114,28 @@ extends ComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMinimumSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.peer.ListPeer#deselect(int) public abstract
+     * void java.awt.peer.ListPeer.deselect(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deselect_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -255,4 +255,5 @@ extends ComponentPeerTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.ListPeer]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.ListPeer]
+
 }

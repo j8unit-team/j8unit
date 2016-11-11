@@ -17,7 +17,8 @@ import org.omg.CORBA.BAD_CONTEXT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_CONTEXTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.BAD_CONTEXTTests}.
  * </p>
  *
  * <p>

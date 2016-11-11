@@ -6,7 +6,6 @@ import javax.swing.SpringLayout.Constraints;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.awt.LayoutManager2ClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.javax.swing.SpringLayoutTests.ConstraintsTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SpringLayoutTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.SpringLayoutTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,8 @@ extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link ConstraintsTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.SpringLayoutTests.ConstraintsTests}.
      * </p>
      *
      * <p>

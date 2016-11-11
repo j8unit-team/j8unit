@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsDevice.WindowTranslucency;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.GraphicsDeviceTests.WindowTranslucencyTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link GraphicsDeviceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.GraphicsDeviceTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link WindowTranslucencyTests}.
+     * {@link org.j8unit.repository.java.awt.GraphicsDeviceTests.WindowTranslucencyTests}.
      * </p>
      *
      * <p>

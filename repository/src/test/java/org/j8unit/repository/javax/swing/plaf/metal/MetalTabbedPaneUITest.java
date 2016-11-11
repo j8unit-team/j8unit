@@ -46,7 +46,7 @@ implements FactoryBasedJ8UnitTest<MetalTabbedPaneUI>, MetalTabbedPaneUITests<Met
 
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests.TabbedPaneLayoutTests<TabbedPaneLayout> {
+    implements TabbedPaneLayoutTests<TabbedPaneLayout> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]
 

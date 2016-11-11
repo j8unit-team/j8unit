@@ -12,7 +12,7 @@ import org.w3c.dom.html.HTMLParagraphElement;
 
 @RunWith(J8Unit4.class)
 public class HTMLParagraphElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLParagraphElementTests<HTMLParagraphElement> {
+implements HTMLParagraphElementTests<HTMLParagraphElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLParagraphElement]
 

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link GraphicsConfigurationClassTests}).
+ * {@link org.j8unit.repository.java.awt.GraphicsConfigurationClassTests}).
  * </p>
  *
  * @param SUT
@@ -192,10 +192,8 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities) public
-     * java.awt.image.VolatileImage
-     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,java.awt.ImageCapabilities) throws
-     * java.awt.AWTException}.
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int) public java.awt.image.VolatileImage
+     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -207,7 +205,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCompatibleVolatileImage_int_int_ImageCapabilities()
+    public default void test_createCompatibleVolatileImage_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -240,8 +238,10 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int) public java.awt.image.VolatileImage
-     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int)}.
+     * {@link java.awt.GraphicsConfiguration#createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities) public
+     * java.awt.image.VolatileImage
+     * java.awt.GraphicsConfiguration.createCompatibleVolatileImage(int,int,java.awt.ImageCapabilities) throws
+     * java.awt.AWTException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -253,7 +253,7 @@ extends ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCompatibleVolatileImage_int_int()
+    public default void test_createCompatibleVolatileImage_int_int_ImageCapabilities()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -380,4 +380,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GraphicsConfiguration]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GraphicsConfiguration]
+
 }

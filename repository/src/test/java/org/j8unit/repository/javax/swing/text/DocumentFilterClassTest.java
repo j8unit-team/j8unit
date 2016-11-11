@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentFilter} (by simply reusing the
- * J8Unit test interface {@link DocumentFilterClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DocumentFilterClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -53,12 +53,13 @@ implements DocumentFilterClassTests<DocumentFilter> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link FilterBypass} (by simply reusing the
-     * J8Unit test interface {@link FilterBypassClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassClassTest
-    implements FilterBypassClassTests<FilterBypass> {
+    implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DocumentFilter$FilterBypass]
 

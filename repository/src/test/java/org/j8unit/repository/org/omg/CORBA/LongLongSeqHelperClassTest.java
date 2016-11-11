@@ -11,7 +11,7 @@ import org.omg.CORBA.LongLongSeqHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link LongLongSeqHelper} (by simply reusing the
- * J8Unit test interface {@link LongLongSeqHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.LongLongSeqHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AudioSystem} (by simply reusing the
- * J8Unit test interface {@link AudioSystemClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.AudioSystemClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,6 +22,29 @@ implements AudioSystemClassTests<AudioSystem> {
     @Override
     public Class<AudioSystem> createNewSUT() {
         return AudioSystem.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding) public static
+     * javax.sound.sampled.AudioFormat$Encoding[]
+     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat$Encoding)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTargetEncodings_Encoding()
+    throws Exception {
+        // write some test for {@link
+        // javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding)}
     }
 
     /**
@@ -50,9 +73,9 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding) public static
-     * javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat$Encoding)}.
+     * {@link javax.sound.sampled.AudioSystem#getClip(javax.sound.sampled.Mixer.Info) public static
+     * javax.sound.sampled.Clip javax.sound.sampled.AudioSystem.getClip(javax.sound.sampled.Mixer$Info) throws
+     * javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,10 +87,9 @@ implements AudioSystemClassTests<AudioSystem> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getTargetEncodings_Encoding()
+    public void test_getClip_Info()
     throws Exception {
-        // write some test for {@link
-        // javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding)}
+        // write some test for {@link javax.sound.sampled.AudioSystem#getClip(javax.sound.sampled.Mixer.Info)}
     }
 
     /**
@@ -89,28 +111,6 @@ implements AudioSystemClassTests<AudioSystem> {
     public void test_getClip()
     throws Exception {
         // write some test for {@link javax.sound.sampled.AudioSystem#getClip()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getClip(javax.sound.sampled.Mixer.Info) public static
-     * javax.sound.sampled.Clip javax.sound.sampled.AudioSystem.getClip(javax.sound.sampled.Mixer$Info) throws
-     * javax.sound.sampled.LineUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getClip_Info()
-    throws Exception {
-        // write some test for {@link javax.sound.sampled.AudioSystem#getClip(javax.sound.sampled.Mixer.Info)}
     }
 
     /**
@@ -157,30 +157,6 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat, javax.sound.sampled.Mixer.Info)
-     * public static javax.sound.sampled.TargetDataLine
-     * javax.sound.sampled.AudioSystem.getTargetDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer$Info)
-     * throws javax.sound.sampled.LineUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTargetDataLine_AudioFormat_Info()
-    throws Exception {
-        // write some test for {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat,
-        // javax.sound.sampled.Mixer.Info)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat) public static
      * javax.sound.sampled.TargetDataLine
      * javax.sound.sampled.AudioSystem.getTargetDataLine(javax.sound.sampled.AudioFormat) throws
@@ -205,8 +181,10 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type) public
-     * static boolean javax.sound.sampled.AudioSystem.isFileTypeSupported(javax.sound.sampled.AudioFileFormat$Type)}.
+     * {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat, javax.sound.sampled.Mixer.Info)
+     * public static javax.sound.sampled.TargetDataLine
+     * javax.sound.sampled.AudioSystem.getTargetDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer$Info)
+     * throws javax.sound.sampled.LineUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,10 +196,10 @@ implements AudioSystemClassTests<AudioSystem> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_isFileTypeSupported_Type()
+    public void test_getTargetDataLine_AudioFormat_Info()
     throws Exception {
-        // write some test for {@link
-        // javax.sound.sampled.AudioSystem#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type)}
+        // write some test for {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat,
+        // javax.sound.sampled.Mixer.Info)}
     }
 
     /**
@@ -246,6 +224,28 @@ implements AudioSystemClassTests<AudioSystem> {
         // write some test for {@link
         // javax.sound.sampled.AudioSystem#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type,
         // javax.sound.sampled.AudioInputStream)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type) public
+     * static boolean javax.sound.sampled.AudioSystem.isFileTypeSupported(javax.sound.sampled.AudioFileFormat$Type)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isFileTypeSupported_Type()
+    throws Exception {
+        // write some test for {@link
+        // javax.sound.sampled.AudioSystem#isFileTypeSupported(javax.sound.sampled.AudioFileFormat.Type)}
     }
 
     /**
@@ -455,30 +455,6 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat) public static
-     * javax.sound.sampled.SourceDataLine
-     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat) throws
-     * javax.sound.sampled.LineUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getSourceDataLine_AudioFormat()
-    throws Exception {
-        // write some test for {@link
-        // javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat, javax.sound.sampled.Mixer.Info)
      * public static javax.sound.sampled.SourceDataLine
      * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer$Info)
@@ -503,6 +479,30 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat) public static
+     * javax.sound.sampled.SourceDataLine
+     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat) throws
+     * javax.sound.sampled.LineUnavailableException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getSourceDataLine_AudioFormat()
+    throws Exception {
+        // write some test for {@link
+        // javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.sound.sampled.AudioSystem#getSourceLineInfo(javax.sound.sampled.Line.Info) public static
      * javax.sound.sampled.Line$Info[]
      * javax.sound.sampled.AudioSystem.getSourceLineInfo(javax.sound.sampled.Line$Info)}.
@@ -520,6 +520,74 @@ implements AudioSystemClassTests<AudioSystem> {
     public void test_getSourceLineInfo_Info()
     throws Exception {
         // write some test for {@link javax.sound.sampled.AudioSystem#getSourceLineInfo(javax.sound.sampled.Line.Info)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)
+     * public static javax.sound.sampled.AudioInputStream
+     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAudioInputStream_AudioFormat_AudioInputStream()
+    throws Exception {
+        // write some test for {@link
+        // javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat,
+        // javax.sound.sampled.AudioInputStream)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL) public static
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.net.URL) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAudioInputStream_URL()
+    throws Exception {
+        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream) public static
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.InputStream)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAudioInputStream_InputStream()
+    throws Exception {
+        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream)}
     }
 
     /**
@@ -571,8 +639,8 @@ implements AudioSystemClassTests<AudioSystem> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL) public static
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.net.URL) throws
+     * {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File) public static
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.File) throws
      * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -585,55 +653,9 @@ implements AudioSystemClassTests<AudioSystem> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getAudioInputStream_URL()
+    public void test_getAudioFileFormat_File()
     throws Exception {
-        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream) public static
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.InputStream)
-     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAudioInputStream_InputStream()
-    throws Exception {
-        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)
-     * public static javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAudioInputStream_AudioFormat_AudioInputStream()
-    throws Exception {
-        // write some test for {@link
-        // javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat,
-        // javax.sound.sampled.AudioInputStream)}
+        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File)}
     }
 
     /**
@@ -678,28 +700,6 @@ implements AudioSystemClassTests<AudioSystem> {
     public void test_getAudioFileFormat_InputStream()
     throws Exception {
         // write some test for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File) public static
-     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.File) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAudioFileFormat_File()
-    throws Exception {
-        // write some test for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File)}
     }
 
     /**

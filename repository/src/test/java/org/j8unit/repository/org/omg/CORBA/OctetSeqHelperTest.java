@@ -7,7 +7,7 @@ import org.omg.CORBA.OctetSeqHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link OctetSeqHelper} (by simply reusing
- * the J8Unit test interface {@link OctetSeqHelperTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.OctetSeqHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

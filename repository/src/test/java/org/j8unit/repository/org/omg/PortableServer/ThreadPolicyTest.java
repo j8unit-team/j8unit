@@ -7,7 +7,7 @@ import org.omg.PortableServer.ThreadPolicy;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ThreadPolicy} (by simply reusing the
- * J8Unit test interface {@link ThreadPolicyTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyTests}).
  */
 
 @RunWith(J8Unit4.class)

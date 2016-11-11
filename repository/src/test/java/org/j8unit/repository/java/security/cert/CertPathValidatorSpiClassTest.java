@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CertPathValidatorSpi} (by simply reusing
- * the J8Unit test interface {@link CertPathValidatorSpiClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.security.cert.CertPathValidatorSpiClassTests}).
  */
 
 @RunWith(J8Unit4.class)

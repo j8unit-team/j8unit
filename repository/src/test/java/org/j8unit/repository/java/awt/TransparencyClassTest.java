@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Transparency} (by simply reusing the
- * J8Unit test interface {@link TransparencyClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.TransparencyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

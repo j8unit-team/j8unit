@@ -107,4 +107,5 @@ extends ErrorTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.FactoryConfigurationError]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.FactoryConfigurationError]
+
 }

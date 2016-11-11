@@ -6,7 +6,8 @@ import org.omg.DynamicAny.DynValueCommonOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynValueCommonOperations} (by simply
- * reusing the J8Unit test interface {@link DynValueCommonOperationsClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JobAttributes} (by simply reusing the
- * J8Unit test interface {@link JobAttributesClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -106,7 +106,7 @@ implements JobAttributesClassTests<JobAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SidesType} (by simply reusing the
-     * J8Unit test interface {@link SidesTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -128,7 +128,7 @@ implements JobAttributesClassTests<JobAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DialogType} (by simply reusing the
-     * J8Unit test interface {@link DialogTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -150,7 +150,8 @@ implements JobAttributesClassTests<JobAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DestinationType} (by simply reusing
-     * the J8Unit test interface {@link DestinationTypeClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -172,7 +173,8 @@ implements JobAttributesClassTests<JobAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleDocumentHandlingType} (by
-     * simply reusing the J8Unit test interface {@link MultipleDocumentHandlingTypeClassTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -194,7 +196,8 @@ implements JobAttributesClassTests<JobAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultSelectionType} (by simply
-     * reusing the J8Unit test interface {@link DefaultSelectionTypeClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

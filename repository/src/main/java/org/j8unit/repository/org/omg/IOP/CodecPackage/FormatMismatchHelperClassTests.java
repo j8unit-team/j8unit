@@ -19,7 +19,7 @@ import org.omg.IOP.CodecPackage.FormatMismatchHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link FormatMismatchHelperTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperTests}.
  * </p>
  *
  * <p>

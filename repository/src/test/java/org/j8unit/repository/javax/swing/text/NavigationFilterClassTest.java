@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NavigationFilter} (by simply reusing the
- * J8Unit test interface {@link NavigationFilterClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.NavigationFilterClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -59,7 +59,7 @@ implements NavigationFilterClassTests<NavigationFilter> {
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassClassTest
-    implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests.FilterBypassClassTests<FilterBypass> {
+    implements FilterBypassClassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.NavigationFilter$FilterBypass]
 

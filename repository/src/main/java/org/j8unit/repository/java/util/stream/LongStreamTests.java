@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LongStreamClassTests}).
+ * {@link org.j8unit.repository.java.util.stream.LongStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -807,6 +807,7 @@ extends BaseStreamTests<SUT, Long, LongStream> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.LongStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.LongStream]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -817,7 +818,7 @@ extends BaseStreamTests<SUT, Long, LongStream> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BuilderClassTests}).
+     * (see {@link org.j8unit.repository.java.util.stream.LongStreamClassTests.BuilderClassTests}).
      * </p>
      *
      * @param SUT
@@ -902,6 +903,7 @@ extends BaseStreamTests<SUT, Long, LongStream> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.LongStream$Builder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.LongStream$Builder]
+
     }
 
 }

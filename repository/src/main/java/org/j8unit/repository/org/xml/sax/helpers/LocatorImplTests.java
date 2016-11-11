@@ -19,7 +19,7 @@ import org.xml.sax.helpers.LocatorImpl;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LocatorImplClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -149,28 +149,6 @@ extends LocatorTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setLineNumber(int)
-     * public void org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLineNumber_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getColumnNumber()
      * public int org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
      *
@@ -186,6 +164,28 @@ extends LocatorTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getColumnNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setLineNumber(int)
+     * public void org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLineNumber_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -217,4 +217,5 @@ extends LocatorTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
+
 }

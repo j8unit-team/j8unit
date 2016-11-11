@@ -32,70 +32,9 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding]
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link Style} (by simply reusing the J8Unit
-     * test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class StyleClassTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests<Style> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
-
-        @Override
-        public Class<Style> createNewSUT() {
-            return Style.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPBinding.Style#values() public
-         * static javax.jws.soap.SOAPBinding$Style[] javax.jws.soap.SOAPBinding$Style.values()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_values()
-        throws Exception {
-            // write some test for {@link javax.jws.soap.SOAPBinding.Style#values()}
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPBinding.Style#valueOf(String)
-         * public static javax.jws.soap.SOAPBinding$Style javax.jws.soap.SOAPBinding$Style.valueOf(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_valueOf_String()
-        throws Exception {
-            // write some test for {@link javax.jws.soap.SOAPBinding.Style#valueOf(String)}
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ParameterStyle} (by simply reusing
-     * the J8Unit test interface {@link ParameterStyleClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.ParameterStyleClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -160,7 +99,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Use} (by simply reusing the J8Unit
-     * test interface {@link UseClassTests}).
+     * test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.UseClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -217,6 +156,68 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Style} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class StyleClassTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests<Style> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
+
+        @Override
+        public Class<Style> createNewSUT() {
+            return Style.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPBinding.Style#values() public
+         * static javax.jws.soap.SOAPBinding$Style[] javax.jws.soap.SOAPBinding$Style.values()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_values()
+        throws Exception {
+            // write some test for {@link javax.jws.soap.SOAPBinding.Style#values()}
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.jws.soap.SOAPBinding.Style#valueOf(String)
+         * public static javax.jws.soap.SOAPBinding$Style javax.jws.soap.SOAPBinding$Style.valueOf(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_valueOf_String()
+        throws Exception {
+            // write some test for {@link javax.jws.soap.SOAPBinding.Style#valueOf(String)}
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 

@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractQueuedLongSynchronizer} (by
- * simply reusing the J8Unit test interface {@link AbstractQueuedLongSynchronizerClassTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -31,7 +32,8 @@ implements AbstractQueuedLongSynchronizerClassTests<AbstractQueuedLongSynchroniz
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ConditionObject} (by simply reusing
-     * the J8Unit test interface {@link ConditionObjectClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests.ConditionObjectClassTests}).
      */
 
     @RunWith(J8Unit4.class)

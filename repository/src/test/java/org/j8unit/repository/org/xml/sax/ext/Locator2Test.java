@@ -7,7 +7,7 @@ import org.xml.sax.ext.Locator2;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Locator2} (by simply reusing the
- * J8Unit test interface {@link Locator2Tests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.Locator2Tests}).
  */
 
 @RunWith(J8Unit4.class)

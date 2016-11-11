@@ -307,4 +307,5 @@ extends ComparableTests<SUT, Double>, NumberTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Double]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Double]
+
 }

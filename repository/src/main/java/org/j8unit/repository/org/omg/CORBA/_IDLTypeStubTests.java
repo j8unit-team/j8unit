@@ -18,7 +18,7 @@ import org.omg.CORBA._IDLTypeStub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link _IDLTypeStubClassTests}).
+ * {@link org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests}).
  * </p>
  *
  * @param SUT
@@ -128,4 +128,5 @@ extends IDLTypeTests<SUT>, ObjectImplTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
+
 }

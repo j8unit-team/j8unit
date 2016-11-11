@@ -20,7 +20,7 @@ import org.omg.IOP.MultipleComponentProfileHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link MultipleComponentProfileHolderTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderTests}.
  * </p>
  *
  * <p>

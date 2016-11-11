@@ -19,7 +19,8 @@ import org.omg.CORBA.FixedHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link FixedHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.FixedHolderTests}.
  * </p>
  *
  * <p>

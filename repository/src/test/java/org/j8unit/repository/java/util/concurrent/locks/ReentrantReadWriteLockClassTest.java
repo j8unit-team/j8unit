@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ReentrantReadWriteLock} (by simply
- * reusing the J8Unit test interface {@link ReentrantReadWriteLockClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -77,7 +78,8 @@ implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ReadLock} (by simply reusing the
-     * J8Unit test interface {@link ReadLockClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -99,7 +101,8 @@ implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link WriteLock} (by simply reusing the
-     * J8Unit test interface {@link WriteLockClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.WriteLockClassTests}).
      */
 
     @RunWith(J8Unit4.class)

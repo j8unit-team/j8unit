@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RelationException} (by simply reusing the
- * J8Unit test interface {@link RelationExceptionClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.management.relation.RelationExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

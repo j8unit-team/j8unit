@@ -19,7 +19,7 @@ import org.omg.PortableServer.ThreadPolicyValue;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ThreadPolicyValueClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyValueClassTests}).
  * </p>
  *
  * @param SUT
@@ -59,4 +59,5 @@ extends IDLEntityTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ThreadPolicyValue]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ThreadPolicyValue]
+
 }

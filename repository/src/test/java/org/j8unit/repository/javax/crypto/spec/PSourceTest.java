@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PSource} (by simply reusing the
- * J8Unit test interface {@link PSourceTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.crypto.spec.PSourceTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements PSourceTests<PSource> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link PSpecified} (by simply reusing
-     * the J8Unit test interface {@link PSpecifiedTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests}).
      */
 
     @RunWith(J8Parameterized.class)

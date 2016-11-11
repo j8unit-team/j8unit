@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultTreeCellEditor} (by simply reusing
- * the J8Unit test interface {@link DefaultTreeCellEditorClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -82,7 +82,8 @@ implements DefaultTreeCellEditorClassTests<DefaultTreeCellEditor> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link EditorContainer} (by simply reusing
-     * the J8Unit test interface {@link EditorContainerClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -127,7 +128,8 @@ implements DefaultTreeCellEditorClassTests<DefaultTreeCellEditor> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultTextField} (by simply reusing
-     * the J8Unit test interface {@link DefaultTextFieldClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests}).
      */
 
     @RunWith(J8Unit4.class)

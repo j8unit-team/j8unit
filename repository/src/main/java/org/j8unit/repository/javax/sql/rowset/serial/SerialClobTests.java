@@ -21,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SerialClobClassTests}).
+ * {@link org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests}).
  * </p>
  *
  * @param SUT
@@ -35,30 +35,6 @@ public abstract interface SerialClobTests<SUT extends SerialClob>
 extends ClobTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialClob]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sql.rowset.serial.SerialClob#getCharacterStream() public java.io.Reader
-     * javax.sql.rowset.serial.SerialClob.getCharacterStream() throws javax.sql.rowset.serial.SerialException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -78,6 +54,30 @@ extends ClobTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests
     @Test
     @Category(Draft.class)
     public default void test_getCharacterStream_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialClob#getCharacterStream() public java.io.Reader
+     * javax.sql.rowset.serial.SerialClob.getCharacterStream() throws javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -252,31 +252,6 @@ extends ClobTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sql.rowset.serial.SerialClob#setString(long, String, int, int) public int
-     * javax.sql.rowset.serial.SerialClob.setString(long,java.lang.String,int,int) throws
-     * javax.sql.rowset.serial.SerialException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setString_long_String_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.serial.SerialClob#setString(long, String) public int
      * javax.sql.rowset.serial.SerialClob.setString(long,java.lang.String) throws
      * javax.sql.rowset.serial.SerialException}.
@@ -293,6 +268,31 @@ extends ClobTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests
     @Test
     @Category(Draft.class)
     public default void test_setString_long_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SerialClob#setString(long, String, int, int) public int
+     * javax.sql.rowset.serial.SerialClob.setString(long,java.lang.String,int,int) throws
+     * javax.sql.rowset.serial.SerialException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setString_long_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -422,4 +422,5 @@ extends ClobTests<SUT>, SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SerialClob]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SerialClob]
+
 }

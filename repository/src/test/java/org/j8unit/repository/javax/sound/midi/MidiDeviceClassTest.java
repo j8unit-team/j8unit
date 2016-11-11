@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MidiDevice} (by simply reusing the J8Unit
- * test interface {@link MidiDeviceClassTests}).
+ * test interface {@link org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -32,7 +32,7 @@ implements MidiDeviceClassTests<MidiDevice> {
 
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
-    implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests.InfoClassTests<Info> {
+    implements InfoClassTests<Info> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiDevice$Info]
 

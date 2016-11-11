@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RoundRectangle2D} (by simply reusing the
- * J8Unit test interface {@link RoundRectangle2DClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -49,6 +49,27 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#Float() public java.awt.geom.RoundRectangle2D$Float()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Float()
+        throws Exception {
+            // create new instance
+            final Float sut = new Float();
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
          * {@link java.awt.geom.RoundRectangle2D.Float#Float(float, float, float, float, float, float) public
          * java.awt.geom.RoundRectangle2D$Float(float,float,float,float,float,float)}.
          *
@@ -67,27 +88,6 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
             // create new instance
             @SuppressWarnings("unused")
             final Float sut = null; // = new Float(float, float, float, float, float, float);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link java.awt.geom.RoundRectangle2D.Float#Float() public java.awt.geom.RoundRectangle2D$Float()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_Float()
-        throws Exception {
-            // create new instance
-            final Float sut = new Float();
         }
 
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RoundRectangle2D$Float]
@@ -115,6 +115,27 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#Double() public java.awt.geom.RoundRectangle2D$Double()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double()
+        throws Exception {
+            // create new instance
+            final Double sut = new Double();
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
          * {@link java.awt.geom.RoundRectangle2D.Double#Double(double, double, double, double, double, double) public
          * java.awt.geom.RoundRectangle2D$Double(double,double,double,double,double,double)}.
          *
@@ -133,27 +154,6 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
             // create new instance
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link java.awt.geom.RoundRectangle2D.Double#Double() public java.awt.geom.RoundRectangle2D$Double()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_Double()
-        throws Exception {
-            // create new instance
-            final Double sut = new Double();
         }
 
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RoundRectangle2D$Double]

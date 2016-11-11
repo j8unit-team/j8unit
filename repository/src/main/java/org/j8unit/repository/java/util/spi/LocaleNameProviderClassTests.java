@@ -17,7 +17,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link LocaleNameProviderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.spi.LocaleNameProviderTests}.
  * </p>
  *
  * <p>

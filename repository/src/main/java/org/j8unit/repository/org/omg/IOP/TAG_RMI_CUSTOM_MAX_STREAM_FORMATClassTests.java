@@ -19,7 +19,7 @@ import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link TAG_RMI_CUSTOM_MAX_STREAM_FORMATTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMATTests}.
  * </p>
  *
  * <p>

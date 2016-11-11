@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link Arc2DClassTests}).
+ * {@link org.j8unit.repository.java.awt.geom.Arc2DClassTests}).
  * </p>
  *
  * @param SUT
@@ -109,29 +109,6 @@ extends RectangularShapeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.Arc2D#setAngles(double, double, double, double) public void
-     * java.awt.geom.Arc2D.setAngles(double,double,double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAngles_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.Arc2D#setAngles(java.awt.geom.Point2D, java.awt.geom.Point2D) public void
      * java.awt.geom.Arc2D.setAngles(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
      *
@@ -146,6 +123,29 @@ extends RectangularShapeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setAngles_Point2D_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Arc2D#setAngles(double, double, double, double) public void
+     * java.awt.geom.Arc2D.setAngles(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAngles_double_double_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,6 +170,29 @@ extends RectangularShapeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setArcByTangent_Point2D_Point2D_Point2D_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Arc2D#setArc(java.awt.geom.Rectangle2D, double, double, int) public void
+     * java.awt.geom.Arc2D.setArc(java.awt.geom.Rectangle2D,double,double,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setArc_Rectangle2D_double_double_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,29 +238,6 @@ extends RectangularShapeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setArc_Arc2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.Arc2D#setArc(java.awt.geom.Rectangle2D, double, double, int) public void
-     * java.awt.geom.Arc2D.setArc(java.awt.geom.Rectangle2D,double,double,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setArc_Rectangle2D_double_double_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -609,6 +609,28 @@ extends RectangularShapeTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D#setAngleStart(double) public
+     * abstract void java.awt.geom.Arc2D.setAngleStart(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAngleStart_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.Arc2D#setAngleStart(java.awt.geom.Point2D) public void
      * java.awt.geom.Arc2D.setAngleStart(java.awt.geom.Point2D)}.
@@ -630,31 +652,10 @@ extends RectangularShapeTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D#setAngleStart(double) public
-     * abstract void java.awt.geom.Arc2D.setAngleStart(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAngleStart_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Arc2D]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Arc2D]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -705,52 +706,6 @@ extends RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Double#getHeight() public
-         * double java.awt.geom.Arc2D$Double.getHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Double#getX() public double
-         * java.awt.geom.Arc2D$Double.getX()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getX()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for the hereby targeted method-under-test
          * {@link java.awt.geom.Arc2D.Double#setArc(double, double, double, double, double, double, int) public void
          * java.awt.geom.Arc2D$Double.setArc(double,double,double,double,double,double,int)}.
@@ -790,6 +745,52 @@ extends RectangularShapeTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getAngleStart()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Double#getX() public double
+         * java.awt.geom.Arc2D$Double.getX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getX()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Double#getHeight() public
+         * double java.awt.geom.Arc2D$Double.getHeight()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getHeight()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -915,6 +916,7 @@ extends RectangularShapeTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Arc2D$Double]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Arc2D$Double]
+
     }
 
     /**
@@ -1059,52 +1061,6 @@ extends RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Float#getHeight() public
-         * double java.awt.geom.Arc2D$Float.getHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Float#getX() public double
-         * java.awt.geom.Arc2D$Float.getX()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getX()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for the hereby targeted method-under-test
          * {@link java.awt.geom.Arc2D.Float#setArc(double, double, double, double, double, double, int) public void
          * java.awt.geom.Arc2D$Float.setArc(double,double,double,double,double,double,int)}.
@@ -1152,6 +1108,52 @@ extends RectangularShapeTests<SUT> {
 
         /**
          * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Float#getX() public double
+         * java.awt.geom.Arc2D$Float.getX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getX()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Float#getHeight() public
+         * double java.awt.geom.Arc2D$Float.getHeight()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getHeight()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for the hereby targeted method-under-test {@link java.awt.geom.Arc2D.Float#setAngleExtent(double)
          * public void java.awt.geom.Arc2D$Float.setAngleExtent(double)}.
          *
@@ -1176,6 +1178,7 @@ extends RectangularShapeTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Arc2D$Float]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Arc2D$Float]
+
     }
 
 }

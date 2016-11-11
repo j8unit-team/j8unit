@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Callback} (by simply reusing the J8Unit
- * test interface {@link CallbackClassTests}).
+ * test interface {@link org.j8unit.repository.javax.security.auth.callback.CallbackClassTests}).
  */
 
 @RunWith(J8Unit4.class)

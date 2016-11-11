@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link BufferCapabilities} (by simply
- * reusing the J8Unit test interface {@link BufferCapabilitiesTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.java.awt.BufferCapabilitiesTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,7 @@ implements BufferCapabilitiesTests<BufferCapabilities> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FlipContents} (by simply reusing
-     * the J8Unit test interface {@link FlipContentsTests}).
+     * the J8Unit test interface {@link org.j8unit.repository.java.awt.BufferCapabilitiesTests.FlipContentsTests}).
      */
 
     @RunWith(J8Parameterized.class)

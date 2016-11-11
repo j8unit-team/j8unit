@@ -11,7 +11,7 @@ import org.omg.CORBA.DefinitionKindHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefinitionKindHelper} (by simply reusing
- * the J8Unit test interface {@link DefinitionKindHelperClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -20,7 +20,7 @@ import org.w3c.dom.Element;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link W3CDomHandlerClassTests}).
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTests}).
  * </p>
  *
  * @param SUT
@@ -155,4 +155,5 @@ extends DomHandlerTests<SUT, Element, DOMResult>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
+
 }

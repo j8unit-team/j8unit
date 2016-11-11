@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FontClassTests}).
+ * {@link org.j8unit.repository.java.awt.FontClassTests}).
  * </p>
  *
  * @param SUT
@@ -58,28 +58,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Font#canDisplay(int) public boolean
-     * java.awt.Font.canDisplay(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canDisplay_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#canDisplay(char) public boolean
      * java.awt.Font.canDisplay(char)}.
      *
@@ -94,6 +72,28 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_canDisplay_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Font#canDisplay(int) public boolean
+     * java.awt.Font.canDisplay(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canDisplay_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,29 +146,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#canDisplayUpTo(java.text.CharacterIterator, int, int) public int
-     * java.awt.Font.canDisplayUpTo(java.text.CharacterIterator,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canDisplayUpTo_CharacterIterator_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#canDisplayUpTo(String) public int
      * java.awt.Font.canDisplayUpTo(java.lang.String)}.
      *
@@ -205,6 +182,29 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_canDisplayUpTo_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Font#canDisplayUpTo(java.text.CharacterIterator, int, int) public int
+     * java.awt.Font.canDisplayUpTo(java.text.CharacterIterator,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canDisplayUpTo_CharacterIterator_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -370,9 +370,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#getLineMetrics(java.text.CharacterIterator, int, int, java.awt.font.FontRenderContext)
-     * public java.awt.font.LineMetrics
-     * java.awt.Font.getLineMetrics(java.text.CharacterIterator,int,int,java.awt.font.FontRenderContext)}.
+     * {@link java.awt.Font#getLineMetrics(String, int, int, java.awt.font.FontRenderContext) public
+     * java.awt.font.LineMetrics
+     * java.awt.Font.getLineMetrics(java.lang.String,int,int,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -384,7 +384,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLineMetrics_CharacterIterator_int_int_FontRenderContext()
+    public default void test_getLineMetrics_String_int_int_FontRenderContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -417,9 +417,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#getLineMetrics(String, int, int, java.awt.font.FontRenderContext) public
-     * java.awt.font.LineMetrics
-     * java.awt.Font.getLineMetrics(java.lang.String,int,int,java.awt.font.FontRenderContext)}.
+     * {@link java.awt.Font#getLineMetrics(java.text.CharacterIterator, int, int, java.awt.font.FontRenderContext)
+     * public java.awt.font.LineMetrics
+     * java.awt.Font.getLineMetrics(java.text.CharacterIterator,int,int,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -431,7 +431,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLineMetrics_String_int_int_FontRenderContext()
+    public default void test_getLineMetrics_CharacterIterator_int_int_FontRenderContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -463,8 +463,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Font#deriveFont(int) public java.awt.Font
-     * java.awt.Font.deriveFont(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Font#deriveFont(java.awt.geom.AffineTransform) public java.awt.Font
+     * java.awt.Font.deriveFont(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -476,7 +477,29 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deriveFont_int()
+    public default void test_deriveFont_AffineTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Font#deriveFont(int, float) public
+     * java.awt.Font java.awt.Font.deriveFont(int,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deriveFont_int_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -508,28 +531,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Font#deriveFont(int, float) public
-     * java.awt.Font java.awt.Font.deriveFont(int,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deriveFont_int_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#deriveFont(float) public java.awt.Font
      * java.awt.Font.deriveFont(float)}.
      *
@@ -552,9 +553,8 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#deriveFont(java.awt.geom.AffineTransform) public java.awt.Font
-     * java.awt.Font.deriveFont(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Font#deriveFont(int) public java.awt.Font
+     * java.awt.Font.deriveFont(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -566,7 +566,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deriveFont_AffineTransform()
+    public default void test_deriveFont_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -576,9 +576,8 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#getStringBounds(String, int, int, java.awt.font.FontRenderContext) public
-     * java.awt.geom.Rectangle2D
-     * java.awt.Font.getStringBounds(java.lang.String,int,int,java.awt.font.FontRenderContext)}.
+     * {@link java.awt.Font#getStringBounds(String, java.awt.font.FontRenderContext) public java.awt.geom.Rectangle2D
+     * java.awt.Font.getStringBounds(java.lang.String,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -590,7 +589,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringBounds_String_int_int_FontRenderContext()
+    public default void test_getStringBounds_String_FontRenderContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -647,8 +646,9 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#getStringBounds(String, java.awt.font.FontRenderContext) public java.awt.geom.Rectangle2D
-     * java.awt.Font.getStringBounds(java.lang.String,java.awt.font.FontRenderContext)}.
+     * {@link java.awt.Font#getStringBounds(String, int, int, java.awt.font.FontRenderContext) public
+     * java.awt.geom.Rectangle2D
+     * java.awt.Font.getStringBounds(java.lang.String,int,int,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -660,7 +660,7 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringBounds_String_FontRenderContext()
+    public default void test_getStringBounds_String_int_int_FontRenderContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -758,28 +758,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFamily() public java.lang.String
-     * java.awt.Font.getFamily()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFamily()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFamily(java.util.Locale) public
      * java.lang.String java.awt.Font.getFamily(java.util.Locale)}.
      *
@@ -802,6 +780,28 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFamily() public java.lang.String
+     * java.awt.Font.getFamily()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFamily()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#getSize() public int
      * java.awt.Font.getSize()}.
      *
@@ -816,6 +816,53 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Font#createGlyphVector(java.awt.font.FontRenderContext, int[]) public java.awt.font.GlyphVector
+     * java.awt.Font.createGlyphVector(java.awt.font.FontRenderContext,int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createGlyphVector_FontRenderContext_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Font#createGlyphVector(java.awt.font.FontRenderContext, java.text.CharacterIterator) public
+     * java.awt.font.GlyphVector
+     * java.awt.Font.createGlyphVector(java.awt.font.FontRenderContext,java.text.CharacterIterator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createGlyphVector_FontRenderContext_CharacterIterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -862,53 +909,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createGlyphVector_FontRenderContext_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#createGlyphVector(java.awt.font.FontRenderContext, java.text.CharacterIterator) public
-     * java.awt.font.GlyphVector
-     * java.awt.Font.createGlyphVector(java.awt.font.FontRenderContext,java.text.CharacterIterator)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createGlyphVector_FontRenderContext_CharacterIterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Font#createGlyphVector(java.awt.font.FontRenderContext, int[]) public java.awt.font.GlyphVector
-     * java.awt.Font.createGlyphVector(java.awt.font.FontRenderContext,int[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createGlyphVector_FontRenderContext_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1030,28 +1030,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFontName(java.util.Locale) public
-     * java.lang.String java.awt.Font.getFontName(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFontName_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFontName() public java.lang.String
      * java.awt.Font.getFontName()}.
      *
@@ -1066,6 +1044,28 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFontName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Font#getFontName(java.util.Locale) public
+     * java.lang.String java.awt.Font.getFontName(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFontName_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1185,4 +1185,5 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Font]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Font]
+
 }

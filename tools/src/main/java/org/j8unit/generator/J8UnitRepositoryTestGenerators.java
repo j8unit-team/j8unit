@@ -62,7 +62,7 @@ implements J8UnitCodeGenerator {
             // data preparations
             final String indt = indent(depth);
             final String originTypeUnderTest = renderer.originCanonicalNameOf(type);
-            final String j8unitTestInterface = complementary.targetCanonicalNameOf(type);
+            final String j8unitTestInterface = complementary.targetJavadocNameOf(type);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation
@@ -390,7 +390,7 @@ implements J8UnitCodeGenerator {
             // data preparations
             final String indt = indent(depth);
             final String originTypeUnderTest = renderer.originCanonicalNameOf(type);
-            final String j8unitTestInterface = complementary.targetCanonicalNameOf(type);
+            final String j8unitTestInterface = complementary.targetJavadocNameOf(type);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation

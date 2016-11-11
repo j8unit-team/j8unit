@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TableView} (by simply reusing the
- * J8Unit test interface {@link TableViewTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,30 +28,8 @@ implements TableViewTests<TableView> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link TableCell} (by simply reusing the
-     * J8Unit test interface {@link TableCellTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class TableCellTest
-    implements TableCellTests<TableCell> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
-
-        @Override
-        public TableCell createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.TableView.TableCell], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link TableRow} (by simply reusing the
-     * J8Unit test interface {@link TableRowTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewTests.TableRowTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -68,6 +46,28 @@ implements TableViewTests<TableView> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView$TableRow]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView$TableRow]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TableCell} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewTests.TableCellTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TableCellTest
+    implements TableCellTests<TableCell> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
+
+        @Override
+        public TableCell createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.TableView.TableCell], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
 
     }
 

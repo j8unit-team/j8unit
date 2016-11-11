@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTabbedPaneUI} (by simply reusing the
- * J8Unit test interface {@link BasicTabbedPaneUIClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -77,13 +77,62 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TabSelectionHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabSelectionHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TabSelectionHandlerClassTest
+    implements TabSelectionHandlerClassTests<TabSelectionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+        @Override
+        public Class<TabSelectionHandler> createNewSUT() {
+            return TabSelectionHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler#TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TabSelectionHandler_BasicTabbedPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TabSelectionHandler sut = null; // = new
+                                                  // TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link TabbedPaneLayout} (by simply reusing
-     * the J8Unit test interface {@link TabbedPaneLayoutClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutClassTest
-    implements TabbedPaneLayoutClassTests<TabbedPaneLayout> {
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests<TabbedPaneLayout> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
@@ -118,52 +167,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link MouseHandler} (by simply reusing the
-     * J8Unit test interface
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class MouseHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests<MouseHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
-
-        @Override
-        public Class<MouseHandler> createNewSUT() {
-            return MouseHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler#MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MouseHandler_BasicTabbedPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final MouseHandler sut = null; // = new MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
 
     }
 
@@ -214,53 +217,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
     }
 
     /**
-     * Specific JUnit test class to proof the type relevant aspects of type {@link TabSelectionHandler} (by simply
-     * reusing the J8Unit test interface {@link TabSelectionHandlerClassTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class TabSelectionHandlerClassTest
-    implements TabSelectionHandlerClassTests<TabSelectionHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-        @Override
-        public Class<TabSelectionHandler> createNewSUT() {
-            return TabSelectionHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler#TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TabSelectionHandler_BasicTabbedPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TabSelectionHandler sut = null; // = new
-                                                  // TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests}).
@@ -305,6 +261,52 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MouseHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class MouseHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests<MouseHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+        @Override
+        public Class<MouseHandler> createNewSUT() {
+            return MouseHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler#MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MouseHandler_BasicTabbedPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MouseHandler sut = null; // = new MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
 
     }
 

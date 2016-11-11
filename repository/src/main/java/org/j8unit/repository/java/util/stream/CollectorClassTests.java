@@ -6,7 +6,6 @@ import java.util.stream.Collector.Characteristics;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
-import org.j8unit.repository.java.util.stream.CollectorTests.CharacteristicsTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CollectorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.stream.CollectorTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link CharacteristicsTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.stream.CollectorTests.CharacteristicsTests}.
      * </p>
      *
      * <p>

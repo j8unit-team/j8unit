@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link NodeClassTests}).
+ * {@link org.j8unit.repository.javax.xml.soap.NodeClassTests}).
  * </p>
  *
  * @param SUT
@@ -168,4 +168,5 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.Node]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Node]
+
 }

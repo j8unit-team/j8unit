@@ -19,7 +19,7 @@ import org.omg.PortableServer.POAPackage.AdapterAlreadyExists;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AdapterAlreadyExistsTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsTests}.
  * </p>
  *
  * <p>

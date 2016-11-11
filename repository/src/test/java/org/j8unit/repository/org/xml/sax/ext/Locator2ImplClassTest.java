@@ -10,7 +10,7 @@ import org.xml.sax.ext.Locator2Impl;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Locator2Impl} (by simply reusing the
- * J8Unit test interface {@link Locator2ImplClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.Locator2ImplClassTests}).
  */
 
 @RunWith(J8Unit4.class)

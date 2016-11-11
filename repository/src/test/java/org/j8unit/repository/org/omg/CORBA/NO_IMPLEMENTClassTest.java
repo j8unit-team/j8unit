@@ -10,7 +10,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NO_IMPLEMENT} (by simply reusing the
- * J8Unit test interface {@link NO_IMPLEMENTClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -351,4 +351,5 @@ extends DateTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.Timestamp]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Timestamp]
+
 }

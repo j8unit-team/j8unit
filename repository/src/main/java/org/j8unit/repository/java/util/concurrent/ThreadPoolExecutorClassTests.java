@@ -8,10 +8,6 @@ import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
 import java.util.concurrent.ThreadPoolExecutor.DiscardPolicy;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests;
-import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -27,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadPoolExecutorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests}.
  * </p>
  *
  * <p>
@@ -91,7 +88,8 @@ extends AbstractExecutorServiceClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DiscardPolicyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests}.
      * </p>
      *
      * <p>
@@ -157,7 +155,8 @@ extends AbstractExecutorServiceClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link AbortPolicyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests}.
      * </p>
      *
      * <p>
@@ -224,7 +223,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CallerRunsPolicyTests}.
+     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests}.
      * </p>
      *
      * <p>
@@ -291,7 +290,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DiscardOldestPolicyTests}.
+     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests}.
      * </p>
      *
      * <p>

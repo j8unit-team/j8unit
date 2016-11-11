@@ -6,8 +6,6 @@ import javax.swing.text.Highlighter.Highlight;
 import javax.swing.text.Highlighter.HighlightPainter;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightPainterTests;
-import org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HighlighterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.HighlighterTests}.
  * </p>
  *
  * <p>
@@ -87,7 +86,7 @@ extends RepositoryClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link HighlightPainterTests}.
+     * {@link org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightPainterTests}.
      * </p>
      *
      * <p>
@@ -152,7 +151,8 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link HighlightTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.HighlighterTests.HighlightTests}.
      * </p>
      *
      * <p>

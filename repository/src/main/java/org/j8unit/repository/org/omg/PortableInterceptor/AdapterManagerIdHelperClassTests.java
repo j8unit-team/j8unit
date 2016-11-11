@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.AdapterManagerIdHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AdapterManagerIdHelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.AdapterManagerIdHelperTests}.
  * </p>
  *
  * <p>

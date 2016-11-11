@@ -18,7 +18,8 @@ import org.omg.CORBA.DynAnyPackage.InvalidSeq;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidSeqTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidSeqTests}.
  * </p>
  *
  * <p>

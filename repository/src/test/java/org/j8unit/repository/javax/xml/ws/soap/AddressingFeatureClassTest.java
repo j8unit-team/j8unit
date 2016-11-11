@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link AddressingFeature} (by simply reusing the
- * J8Unit test interface {@link AddressingFeatureClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -122,7 +122,8 @@ implements AddressingFeatureClassTests<AddressingFeature> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Responses} (by simply reusing the
-     * J8Unit test interface {@link ResponsesClassTests}).
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests}).
      */
 
     @RunWith(J8Unit4.class)

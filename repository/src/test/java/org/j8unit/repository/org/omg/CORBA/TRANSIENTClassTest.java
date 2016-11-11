@@ -10,7 +10,7 @@ import org.omg.CORBA.TRANSIENT;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TRANSIENT} (by simply reusing the J8Unit
- * test interface {@link TRANSIENTClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.TRANSIENTClassTests}).
  */
 
 @RunWith(J8Unit4.class)

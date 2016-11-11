@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class MarshalExceptionClassTest
-implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<MarshalException> {
+implements MarshalExceptionClassTests<MarshalException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.MarshalException]
 

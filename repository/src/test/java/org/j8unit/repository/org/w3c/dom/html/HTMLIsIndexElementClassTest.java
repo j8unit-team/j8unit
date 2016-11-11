@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLIsIndexElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLIsIndexElement} (by simply reusing
- * the J8Unit test interface {@link HTMLIsIndexElementClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLIsIndexElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

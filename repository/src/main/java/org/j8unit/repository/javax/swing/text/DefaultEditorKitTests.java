@@ -11,14 +11,6 @@ import javax.swing.text.DefaultEditorKit.InsertTabAction;
 import javax.swing.text.DefaultEditorKit.PasteAction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.DefaultKeyTypedActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertBreakActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests;
-import org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -33,7 +25,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link DefaultEditorKitClassTests}).
+ * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests}).
  * </p>
  *
  * @param SUT
@@ -267,71 +259,18 @@ extends EditorKitTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit]
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PasteAction
-     * public static class javax.swing.text.DefaultEditorKit$PasteAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link PasteActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface PasteActionTests<SUT extends PasteAction>
-    extends TextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.PasteAction#actionPerformed(java.awt.event.ActionEvent) public void
-         * javax.swing.text.DefaultEditorKit$PasteAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
-    }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InsertContentAction public static class javax.swing.text.DefaultEditorKit$InsertContentAction}.
+     * {@link InsertBreakAction public static class javax.swing.text.DefaultEditorKit$InsertBreakAction}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InsertContentActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertBreakActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -341,17 +280,16 @@ extends EditorKitTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertContentActionTests<SUT extends InsertContentAction>
+    public static abstract interface InsertBreakActionTests<SUT extends InsertBreakAction>
     extends TextActionTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.InsertContentAction#actionPerformed(java.awt.event.ActionEvent)
-         * public void
-         * javax.swing.text.DefaultEditorKit$InsertContentAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * {@link javax.swing.text.DefaultEditorKit.InsertBreakAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.DefaultEditorKit$InsertBreakAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -371,171 +309,10 @@ extends EditorKitTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
-    }
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CopyAction
-     * public static class javax.swing.text.DefaultEditorKit$CopyAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CopyActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CopyActionTests<SUT extends CopyAction>
-    extends TextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.CopyAction#actionPerformed(java.awt.event.ActionEvent) public void
-         * javax.swing.text.DefaultEditorKit$CopyAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InsertTabAction public static class javax.swing.text.DefaultEditorKit$InsertTabAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InsertTabActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface InsertTabActionTests<SUT extends InsertTabAction>
-    extends TextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.InsertTabAction#actionPerformed(java.awt.event.ActionEvent) public
-         * void javax.swing.text.DefaultEditorKit$InsertTabAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BeepAction
-     * public static class javax.swing.text.DefaultEditorKit$BeepAction}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BeepActionClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface BeepActionTests<SUT extends BeepAction>
-    extends TextActionTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.BeepAction#actionPerformed(java.awt.event.ActionEvent) public void
-         * javax.swing.text.DefaultEditorKit$BeepAction.actionPerformed(java.awt.event.ActionEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_actionPerformed_ActionEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
     }
 
     /**
@@ -548,7 +325,7 @@ extends EditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DefaultKeyTypedActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.DefaultKeyTypedActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -591,6 +368,62 @@ extends EditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$DefaultKeyTypedAction]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$DefaultKeyTypedAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InsertTabAction public static class javax.swing.text.DefaultEditorKit$InsertTabAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface InsertTabActionTests<SUT extends InsertTabAction>
+    extends TextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultEditorKit.InsertTabAction#actionPerformed(java.awt.event.ActionEvent) public
+         * void javax.swing.text.DefaultEditorKit$InsertTabAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
     }
 
     /**
@@ -603,7 +436,7 @@ extends EditorKitTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link CutActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -645,19 +478,20 @@ extends EditorKitTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CutAction]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CutAction]
+
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InsertBreakAction public static class javax.swing.text.DefaultEditorKit$InsertBreakAction}.
+     * {@link InsertContentAction public static class javax.swing.text.DefaultEditorKit$InsertContentAction}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link InsertBreakActionClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests}).
      * </p>
      *
      * @param SUT
@@ -667,16 +501,17 @@ extends EditorKitTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertBreakActionTests<SUT extends InsertBreakAction>
+    public static abstract interface InsertContentActionTests<SUT extends InsertContentAction>
     extends TextActionTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultEditorKit.InsertBreakAction#actionPerformed(java.awt.event.ActionEvent) public
-         * void javax.swing.text.DefaultEditorKit$InsertBreakAction.actionPerformed(java.awt.event.ActionEvent)}.
+         * {@link javax.swing.text.DefaultEditorKit.InsertContentAction#actionPerformed(java.awt.event.ActionEvent)
+         * public void
+         * javax.swing.text.DefaultEditorKit$InsertContentAction.actionPerformed(java.awt.event.ActionEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -696,9 +531,175 @@ extends EditorKitTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PasteAction
+     * public static class javax.swing.text.DefaultEditorKit$PasteAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface PasteActionTests<SUT extends PasteAction>
+    extends TextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultEditorKit.PasteAction#actionPerformed(java.awt.event.ActionEvent) public void
+         * javax.swing.text.DefaultEditorKit$PasteAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BeepAction
+     * public static class javax.swing.text.DefaultEditorKit$BeepAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BeepActionTests<SUT extends BeepAction>
+    extends TextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultEditorKit.BeepAction#actionPerformed(java.awt.event.ActionEvent) public void
+         * javax.swing.text.DefaultEditorKit$BeepAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CopyAction
+     * public static class javax.swing.text.DefaultEditorKit$CopyAction}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CopyActionTests<SUT extends CopyAction>
+    extends TextActionTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultEditorKit.CopyAction#actionPerformed(java.awt.event.ActionEvent) public void
+         * javax.swing.text.DefaultEditorKit$CopyAction.actionPerformed(java.awt.event.ActionEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_actionPerformed_ActionEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
     }
 
 }

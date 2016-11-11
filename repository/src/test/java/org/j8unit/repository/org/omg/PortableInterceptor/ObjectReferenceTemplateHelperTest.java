@@ -7,7 +7,8 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectReferenceTemplateHelper} (by
- * simply reusing the J8Unit test interface {@link ObjectReferenceTemplateHelperTests}).
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperTests}).
  */
 
 @RunWith(J8Unit4.class)

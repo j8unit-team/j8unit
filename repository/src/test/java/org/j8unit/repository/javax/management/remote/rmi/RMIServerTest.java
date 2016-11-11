@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RMIServer} (by simply reusing the
- * J8Unit test interface {@link RMIServerTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.management.remote.rmi.RMIServerTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link FileSystemViewClassTests}).
+ * {@link org.j8unit.repository.javax.swing.filechooser.FileSystemViewClassTests}).
  * </p>
  *
  * @param SUT
@@ -357,29 +357,6 @@ extends ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.filechooser.FileSystemView#getChild(java.io.File, String) public java.io.File
-     * javax.swing.filechooser.FileSystemView.getChild(java.io.File,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChild_File_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.filechooser.FileSystemView#getSystemDisplayName(java.io.File) public java.lang.String
      * javax.swing.filechooser.FileSystemView.getSystemDisplayName(java.io.File)}.
      *
@@ -394,6 +371,29 @@ extends ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSystemDisplayName_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileSystemView#getChild(java.io.File, String) public java.io.File
+     * javax.swing.filechooser.FileSystemView.getChild(java.io.File,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChild_File_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -518,4 +518,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.filechooser.FileSystemView]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.filechooser.FileSystemView]
+
 }

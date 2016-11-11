@@ -11,7 +11,7 @@ import org.omg.CORBA.CompletionStatus;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CompletionStatus} (by simply reusing
- * the J8Unit test interface {@link CompletionStatusTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CompletionStatusTests}).
  */
 
 @RunWith(J8Parameterized.class)

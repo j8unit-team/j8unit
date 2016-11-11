@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CompletableFuture} (by simply reusing the
- * J8Unit test interface {@link CompletableFutureClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.CompletableFutureClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -50,6 +50,28 @@ implements CompletableFutureClassTests<CompletableFuture> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier) public static <U>
+     * java.util.concurrent.CompletableFuture<U>
+     * java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_supplyAsync_Supplier()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier, java.util.concurrent.Executor)
      * public static <U> java.util.concurrent.CompletableFuture<U>
      * java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>,java.util.concurrent.Executor)}.
@@ -68,28 +90,6 @@ implements CompletableFutureClassTests<CompletableFuture> {
     throws Exception {
         // write some test for {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier,
         // java.util.concurrent.Executor)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier) public static <U>
-     * java.util.concurrent.CompletableFuture<U>
-     * java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_supplyAsync_Supplier()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier)}
     }
 
     /**
@@ -118,6 +118,28 @@ implements CompletableFutureClassTests<CompletableFuture> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#runAsync(Runnable) public static
+     * java.util.concurrent.CompletableFuture<java.lang.Void>
+     * java.util.concurrent.CompletableFuture.runAsync(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_runAsync_Runnable()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.CompletableFuture#runAsync(Runnable)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#runAsync(Runnable, java.util.concurrent.Executor) public static
      * java.util.concurrent.CompletableFuture<java.lang.Void>
      * java.util.concurrent.CompletableFuture.runAsync(java.lang.Runnable,java.util.concurrent.Executor)}.
@@ -136,28 +158,6 @@ implements CompletableFutureClassTests<CompletableFuture> {
     throws Exception {
         // write some test for {@link java.util.concurrent.CompletableFuture#runAsync(Runnable,
         // java.util.concurrent.Executor)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletableFuture#runAsync(Runnable) public static
-     * java.util.concurrent.CompletableFuture<java.lang.Void>
-     * java.util.concurrent.CompletableFuture.runAsync(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_runAsync_Runnable()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.CompletableFuture#runAsync(Runnable)}
     }
 
     /**
@@ -210,7 +210,8 @@ implements CompletableFutureClassTests<CompletableFuture> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link AsynchronousCompletionTask} (by
-     * simply reusing the J8Unit test interface {@link AsynchronousCompletionTaskClassTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.util.concurrent.CompletableFutureClassTests.AsynchronousCompletionTaskClassTests}).
      */
 
     @RunWith(J8Unit4.class)

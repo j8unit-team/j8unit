@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link JToggleButton} (by simply reusing the
- * J8Unit test interface {@link JToggleButtonClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -212,7 +212,8 @@ implements JToggleButtonClassTests<JToggleButton> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ToggleButtonModel} (by simply reusing
-     * the J8Unit test interface {@link ToggleButtonModelClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests}).
      */
 
     @RunWith(J8Unit4.class)

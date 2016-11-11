@@ -223,4 +223,5 @@ extends TabExpanderTests<SUT>, FlowViewTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.ParagraphView]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.ParagraphView]
+
 }

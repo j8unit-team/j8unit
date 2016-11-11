@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ImageOutputStreamImplClassTests}).
+ * {@link org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -566,10 +566,10 @@ extends ImageOutputStreamTests<SUT>, ImageInputStreamImplTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) class
-     * javax.imageio.stream.ImageInputStreamImpl}</li>
      * <li>{@link javax.imageio.stream.ImageOutputStream#flushBefore(long) interface
      * javax.imageio.stream.ImageOutputStream}</li>
+     * <li>{@link javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) class
+     * javax.imageio.stream.ImageInputStreamImpl}</li>
      * </ul>
      *
      * <p>
@@ -586,11 +586,12 @@ extends ImageOutputStreamTests<SUT>, ImageInputStreamImplTests<SUT> {
     @Category(Draft.class)
     public default void test_flushBefore_long()
     throws Exception {
-        ImageInputStreamImplTests.super.test_flushBefore_long();
         ImageOutputStreamTests.super.test_flushBefore_long();
+        ImageInputStreamImplTests.super.test_flushBefore_long();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.stream.ImageOutputStreamImpl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.ImageOutputStreamImpl]
+
 }

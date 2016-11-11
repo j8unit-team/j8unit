@@ -19,7 +19,8 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link NotFoundHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundHolderTests}.
  * </p>
  *
  * <p>

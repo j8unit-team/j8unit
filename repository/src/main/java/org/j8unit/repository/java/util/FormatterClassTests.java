@@ -8,7 +8,6 @@ import org.j8unit.repository.java.io.CloseableClassTests;
 import org.j8unit.repository.java.io.FlushableClassTests;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -90,7 +89,7 @@ extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, ObjectClassTests<SUT
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BigDecimalLayoutFormTests}.
+     * {@link org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests}.
      * </p>
      *
      * <p>

@@ -18,7 +18,8 @@ import org.omg.CORBA.Object;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.ObjectTests}.
  * </p>
  *
  * <p>

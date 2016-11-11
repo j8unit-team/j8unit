@@ -10,7 +10,8 @@ import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidTypeForEncoding} (by simply
- * reusing the J8Unit test interface {@link InvalidTypeForEncodingClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingClassTests}).
  */
 
 @RunWith(J8Unit4.class)

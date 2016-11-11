@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XMLEncoderClassTests}).
+ * {@link org.j8unit.repository.java.beans.XMLEncoderClassTests}).
  * </p>
  *
  * @param SUT
@@ -195,4 +195,5 @@ extends AutoCloseableTests<SUT>, EncoderTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.XMLEncoder]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.XMLEncoder]
+
 }

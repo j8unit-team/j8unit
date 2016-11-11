@@ -17,7 +17,8 @@ import org.omg.CORBA.portable.StreamableValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link StreamableValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.StreamableValueTests}.
  * </p>
  *
  * <p>

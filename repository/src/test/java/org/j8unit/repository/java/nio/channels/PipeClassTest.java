@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Pipe} (by simply reusing the J8Unit test
- * interface {@link PipeClassTests}).
+ * interface {@link org.j8unit.repository.java.nio.channels.PipeClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -52,7 +52,7 @@ implements PipeClassTests<Pipe> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SourceChannel} (by simply reusing the
-     * J8Unit test interface {@link SourceChannelClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -74,7 +74,7 @@ implements PipeClassTests<Pipe> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link SinkChannel} (by simply reusing the
-     * J8Unit test interface {@link SinkChannelClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests}).
      */
 
     @RunWith(J8Unit4.class)

@@ -6,7 +6,8 @@ import org.omg.PortableInterceptor.ORBInitializerOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ORBInitializerOperations} (by simply
- * reusing the J8Unit test interface {@link ORBInitializerOperationsClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

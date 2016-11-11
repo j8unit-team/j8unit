@@ -14,7 +14,7 @@ import org.xml.sax.SAXNotRecognizedException;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SAXNotRecognizedExceptionClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.SAXNotRecognizedExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,4 +32,5 @@ extends SAXExceptionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
+
 }

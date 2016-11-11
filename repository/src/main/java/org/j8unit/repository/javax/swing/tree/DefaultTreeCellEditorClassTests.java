@@ -10,8 +10,6 @@ import org.j8unit.repository.java.awt.event.ActionListenerClassTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.j8unit.repository.javax.swing.JTextFieldClassTests;
 import org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests;
-import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests;
-import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +26,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DefaultTreeCellEditorTests}.
+ * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests}.
  * </p>
  *
  * <p>
@@ -92,7 +90,8 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link EditorContainerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests}.
      * </p>
      *
      * <p>
@@ -159,7 +158,7 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DefaultTextFieldTests}.
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests}.
      * </p>
      *
      * <p>

@@ -10,7 +10,7 @@ import org.omg.DynamicAny.NameValuePair;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link NameValuePair} (by simply reusing the
- * J8Unit test interface {@link NameValuePairClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.NameValuePairClassTests}).
  */
 
 @RunWith(J8Unit4.class)

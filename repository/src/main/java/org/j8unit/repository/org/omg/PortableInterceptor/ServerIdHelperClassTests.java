@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.ServerIdHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ServerIdHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerIdHelperTests}.
  * </p>
  *
  * <p>

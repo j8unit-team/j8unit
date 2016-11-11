@@ -11,7 +11,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundReason;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link NotFoundReason} (by simply reusing
- * the J8Unit test interface {@link NotFoundReasonTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundReasonTests}).
  */
 
 @RunWith(J8Parameterized.class)

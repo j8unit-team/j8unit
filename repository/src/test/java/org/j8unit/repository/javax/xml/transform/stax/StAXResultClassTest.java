@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StAXResult} (by simply reusing the J8Unit
- * test interface {@link StAXResultClassTests}).
+ * test interface {@link org.j8unit.repository.javax.xml.transform.stax.StAXResultClassTests}).
  */
 
 @RunWith(J8Unit4.class)

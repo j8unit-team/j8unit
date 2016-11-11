@@ -6,7 +6,8 @@ import org.omg.PortableServer.ImplicitActivationPolicy;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ImplicitActivationPolicy} (by simply
- * reusing the J8Unit test interface {@link ImplicitActivationPolicyClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

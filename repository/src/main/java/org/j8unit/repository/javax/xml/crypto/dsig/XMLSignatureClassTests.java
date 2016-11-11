@@ -5,7 +5,6 @@ import javax.xml.crypto.dsig.XMLSignature;
 import javax.xml.crypto.dsig.XMLSignature.SignatureValue;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests;
-import org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests.SignatureValueTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLSignatureTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends XMLStructureClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link SignatureValueTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests.SignatureValueTests}.
      * </p>
      *
      * <p>

@@ -16,7 +16,8 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlJavaTypeAdapter} (by simply
- * reusing the J8Unit test interface {@link XmlJavaTypeAdapterTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -37,7 +38,7 @@ implements XmlJavaTypeAdapterTests<XmlJavaTypeAdapter> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DEFAULTTest
-    implements FactoryBasedJ8UnitTest<DEFAULT>, org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterTests.DEFAULTTests<DEFAULT> {
+    implements FactoryBasedJ8UnitTest<DEFAULT>, DEFAULTTests<DEFAULT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT]
 

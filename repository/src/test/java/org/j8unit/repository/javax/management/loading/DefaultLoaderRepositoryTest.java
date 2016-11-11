@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultLoaderRepositoryTest
-implements FactoryBasedJ8UnitTest<DefaultLoaderRepository>,
-org.j8unit.repository.javax.management.loading.DefaultLoaderRepositoryTests<DefaultLoaderRepository> {
+implements FactoryBasedJ8UnitTest<DefaultLoaderRepository>, DefaultLoaderRepositoryTests<DefaultLoaderRepository> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.DefaultLoaderRepository]
 

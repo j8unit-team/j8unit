@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ForkJoinTask} (by simply reusing the
- * J8Unit test interface {@link ForkJoinTaskClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -109,6 +109,29 @@ implements ForkJoinTaskClassTests<ForkJoinTask> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask, java.util.concurrent.ForkJoinTask)
+     * public static void
+     * java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask<?>,java.util.concurrent.ForkJoinTask<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_invokeAll_ForkJoinTask_ForkJoinTask()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask,
+        // java.util.concurrent.ForkJoinTask)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask...) public static void
      * java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask<?>...)}.
      *
@@ -151,9 +174,8 @@ implements ForkJoinTaskClassTests<ForkJoinTask> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask, java.util.concurrent.ForkJoinTask)
-     * public static void
-     * java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask<?>,java.util.concurrent.ForkJoinTask<?>)}.
+     * {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object) public static <T>
+     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -165,10 +187,9 @@ implements ForkJoinTaskClassTests<ForkJoinTask> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_invokeAll_ForkJoinTask_ForkJoinTask()
+    public void test_adapt_Runnable_Object()
     throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask,
-        // java.util.concurrent.ForkJoinTask)}
+        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object)}
     }
 
     /**
@@ -191,27 +212,6 @@ implements ForkJoinTaskClassTests<ForkJoinTask> {
     public void test_adapt_Callable()
     throws Exception {
         // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object) public static <T>
-     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,T)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_adapt_Runnable_Object()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object)}
     }
 
     /**

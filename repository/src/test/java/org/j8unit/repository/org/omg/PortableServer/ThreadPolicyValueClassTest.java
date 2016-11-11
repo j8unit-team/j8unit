@@ -10,7 +10,7 @@ import org.omg.PortableServer.ThreadPolicyValue;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadPolicyValue} (by simply reusing the
- * J8Unit test interface {@link ThreadPolicyValueClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyValueClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class ElementClassTest
-implements org.j8unit.repository.javax.swing.text.ElementClassTests<Element> {
+implements ElementClassTests<Element> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.Element]
 

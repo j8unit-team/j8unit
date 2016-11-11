@@ -21,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link XmlElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementTests}.
  * </p>
  *
  * <p>
@@ -85,7 +86,8 @@ extends AnnotationClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link DEFAULTTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementTests.DEFAULTTests}.
      * </p>
      *
      * <p>

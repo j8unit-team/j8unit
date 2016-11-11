@@ -10,7 +10,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link INVALID_TRANSACTION} (by simply reusing
- * the J8Unit test interface {@link INVALID_TRANSACTIONClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONClassTests}).
  */
 
 @RunWith(J8Unit4.class)

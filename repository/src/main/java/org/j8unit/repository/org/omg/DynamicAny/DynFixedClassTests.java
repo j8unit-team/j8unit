@@ -17,7 +17,8 @@ import org.omg.DynamicAny.DynFixed;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DynFixedTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynFixedTests}.
  * </p>
  *
  * <p>

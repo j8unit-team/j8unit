@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WatchEvent} (by simply reusing the J8Unit
- * test interface {@link WatchEventClassTests}).
+ * test interface {@link org.j8unit.repository.java.nio.file.WatchEventClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements WatchEventClassTests<WatchEvent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Modifier} (by simply reusing the
-     * J8Unit test interface {@link ModifierClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -50,7 +50,7 @@ implements WatchEventClassTests<WatchEvent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Kind} (by simply reusing the J8Unit
-     * test interface {@link KindClassTests}).
+     * test interface {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests}).
      */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)

@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplate;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ObjectReferenceTemplateTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateTests}.
  * </p>
  *
  * <p>

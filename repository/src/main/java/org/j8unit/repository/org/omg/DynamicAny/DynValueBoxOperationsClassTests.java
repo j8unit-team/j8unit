@@ -18,7 +18,7 @@ import org.omg.DynamicAny.DynValueBoxOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DynValueBoxOperationsTests}.
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueBoxOperationsTests}.
  * </p>
  *
  * <p>

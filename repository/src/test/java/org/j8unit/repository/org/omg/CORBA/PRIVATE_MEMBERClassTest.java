@@ -6,7 +6,7 @@ import org.omg.CORBA.PRIVATE_MEMBER;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link PRIVATE_MEMBER} (by simply reusing the
- * J8Unit test interface {@link PRIVATE_MEMBERClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PRIVATE_MEMBERClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -641,4 +641,5 @@ extends ObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
+
 }

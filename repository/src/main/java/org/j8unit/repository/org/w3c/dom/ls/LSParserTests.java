@@ -18,7 +18,7 @@ import org.w3c.dom.ls.LSParser;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LSParserClassTests}).
+ * {@link org.j8unit.repository.org.w3c.dom.ls.LSParserClassTests}).
  * </p>
  *
  * @param SUT
@@ -79,29 +79,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#parseURI(String) public
-     * abstract org.w3c.dom.Document org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
-     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parseURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#abort() public abstract void
      * org.w3c.dom.ls.LSParser.abort()}.
      *
@@ -124,8 +101,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getDomConfig() public
-     * abstract org.w3c.dom.DOMConfiguration org.w3c.dom.ls.LSParser.getDomConfig()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#parseURI(String) public
+     * abstract org.w3c.dom.Document org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
+     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,7 +115,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDomConfig()
+    public default void test_parseURI_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,6 +140,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parseWithContext_LSInput_Node_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.LSParser#getDomConfig() public
+     * abstract org.w3c.dom.DOMConfiguration org.w3c.dom.ls.LSParser.getDomConfig()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDomConfig()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -240,4 +240,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.ls.LSParser]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.ls.LSParser]
+
 }

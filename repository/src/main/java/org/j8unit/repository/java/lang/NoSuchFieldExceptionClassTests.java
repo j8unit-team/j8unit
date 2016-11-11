@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link NoSuchFieldExceptionTests}.
+ * {@link org.j8unit.repository.java.lang.NoSuchFieldExceptionTests}.
  * </p>
  *
  * <p>

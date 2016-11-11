@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link _RMIServerImpl_Tie} (by simply reusing
- * the J8Unit test interface {@link _RMIServerImpl_TieClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.management.remote.rmi._RMIServerImpl_TieClassTests}).
  */
 
 @RunWith(J8Unit4.class)

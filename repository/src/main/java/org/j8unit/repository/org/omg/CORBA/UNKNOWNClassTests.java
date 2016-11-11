@@ -17,7 +17,8 @@ import org.omg.CORBA.UNKNOWN;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UNKNOWNTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.UNKNOWNTests}.
  * </p>
  *
  * <p>

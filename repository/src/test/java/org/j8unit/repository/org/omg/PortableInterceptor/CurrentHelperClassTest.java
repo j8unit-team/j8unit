@@ -16,7 +16,7 @@ import org.omg.PortableInterceptor.CurrentHelper;
 
 @RunWith(J8Unit4.class)
 public class CurrentHelperClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassTests<CurrentHelper> {
+implements CurrentHelperClassTests<CurrentHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.CurrentHelper]
 

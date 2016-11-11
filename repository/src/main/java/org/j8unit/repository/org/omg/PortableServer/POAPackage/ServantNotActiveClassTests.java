@@ -18,7 +18,8 @@ import org.omg.PortableServer.POAPackage.ServantNotActive;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantNotActiveTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveTests}.
  * </p>
  *
  * <p>

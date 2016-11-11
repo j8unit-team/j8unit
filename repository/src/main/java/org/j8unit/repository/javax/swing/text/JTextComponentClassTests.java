@@ -15,8 +15,6 @@ import org.j8unit.repository.javax.swing.JComponentClassTests;
 import org.j8unit.repository.javax.swing.ScrollableClassTests;
 import org.j8unit.repository.javax.swing.event.CaretListenerClassTests;
 import org.j8unit.repository.javax.swing.event.DocumentListenerClassTests;
-import org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests;
-import org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -32,7 +30,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JTextComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests}.
  * </p>
  *
  * <p>
@@ -163,7 +162,8 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link KeyBindingTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests}.
      * </p>
      *
      * <p>
@@ -230,7 +230,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AccessibleJTextComponentTests}.
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests}.
      * </p>
      *
      * <p>

@@ -20,7 +20,7 @@ import org.omg.PortableServer.ImplicitActivationPolicyValue;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ImplicitActivationPolicyValueTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyValueTests}.
  * </p>
  *
  * <p>

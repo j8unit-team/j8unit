@@ -18,7 +18,8 @@ import org.xml.sax.Parser;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ParserTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.ParserTests}.
  * </p>
  *
  * <p>

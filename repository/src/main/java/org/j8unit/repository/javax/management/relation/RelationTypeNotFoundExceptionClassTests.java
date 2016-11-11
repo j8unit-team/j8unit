@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link RelationTypeNotFoundExceptionTests}.
+ * {@link org.j8unit.repository.javax.management.relation.RelationTypeNotFoundExceptionTests}.
  * </p>
  *
  * <p>

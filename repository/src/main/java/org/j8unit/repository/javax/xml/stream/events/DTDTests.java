@@ -124,4 +124,5 @@ extends XMLEventTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.events.DTD]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.DTD]
+
 }

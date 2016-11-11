@@ -20,7 +20,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ObjectReferenceTemplateSeqHelperTests}.
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHelperTests}.
  * </p>
  *
  * <p>

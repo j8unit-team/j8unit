@@ -41,30 +41,9 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link FocusHandler} (by simply reusing
-     * the J8Unit test interface {@link FocusHandlerTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerTest
-    implements FocusHandlerTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
-
-        @Override
-        public FocusHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTableUI.FocusHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyHandler} (by simply reusing
-     * the J8Unit test interface {@link KeyHandlerTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -86,7 +65,8 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link MouseInputHandler} (by simply
-     * reusing the J8Unit test interface {@link MouseInputHandlerTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.MouseInputHandlerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -103,6 +83,29 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FocusHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.FocusHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerTest
+    implements FocusHandlerTests<FocusHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
+
+        @Override
+        public FocusHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTableUI.FocusHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
 
     }
 

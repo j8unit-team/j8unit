@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.CustomValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CustomValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.CustomValueTests}.
  * </p>
  *
  * <p>

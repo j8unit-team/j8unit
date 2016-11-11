@@ -6,7 +6,7 @@ import org.w3c.dom.html.HTMLFrameSetElement;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLFrameSetElement} (by simply reusing
- * the J8Unit test interface {@link HTMLFrameSetElementClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLFrameSetElementClassTests}).
  */
 
 @RunWith(J8Unit4.class)

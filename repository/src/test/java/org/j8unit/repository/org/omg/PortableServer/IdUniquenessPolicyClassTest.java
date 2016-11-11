@@ -6,7 +6,7 @@ import org.omg.PortableServer.IdUniquenessPolicy;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IdUniquenessPolicy} (by simply reusing
- * the J8Unit test interface {@link IdUniquenessPolicyClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyClassTests}).
  */
 
 @RunWith(J8Unit4.class)

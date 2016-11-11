@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlAccessOrder} (by simply reusing
- * the J8Unit test interface {@link XmlAccessOrderTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlAccessOrderTests}).
  */
 
 @RunWith(J8Parameterized.class)

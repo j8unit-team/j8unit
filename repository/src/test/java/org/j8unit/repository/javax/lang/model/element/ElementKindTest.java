@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementKind} (by simply reusing the
- * J8Unit test interface {@link ElementKindTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.lang.model.element.ElementKindTests}).
  */
 
 @RunWith(J8Parameterized.class)

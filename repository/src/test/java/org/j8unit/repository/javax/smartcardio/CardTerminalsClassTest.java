@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CardTerminals} (by simply reusing the
- * J8Unit test interface {@link CardTerminalsClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -36,7 +36,7 @@ implements CardTerminalsClassTests<CardTerminals> {
 
     @RunWith(J8Unit4.class)
     public static class StateClassTest
-    implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests.StateClassTests<State> {
+    implements StateClassTests<State> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardTerminals$State]
 

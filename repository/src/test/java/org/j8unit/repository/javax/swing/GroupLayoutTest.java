@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link GroupLayout} (by simply reusing the
- * J8Unit test interface {@link GroupLayoutTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -36,52 +36,8 @@ implements GroupLayoutTests<GroupLayout> {
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link ParallelGroup} (by simply reusing
-     * the J8Unit test interface {@link ParallelGroupTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class ParallelGroupTest
-    implements ParallelGroupTests<ParallelGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
-
-        @Override
-        public ParallelGroup createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.ParallelGroup], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
-
-    }
-
-    /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link SequentialGroup} (by simply
-     * reusing the J8Unit test interface {@link SequentialGroupTests}).
-     */
-
-    @RunWith(J8Unit4.class)
-    public static class SequentialGroupTest
-    implements SequentialGroupTests<SequentialGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-        @Override
-        public SequentialGroup createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.SequentialGroup], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
-
-    }
-
-    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Alignment} (by simply reusing the
-     * J8Unit test interface {@link AlignmentTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests}).
      */
 
     @RunWith(J8Parameterized.class)
@@ -111,8 +67,30 @@ implements GroupLayoutTests<GroupLayout> {
     }
 
     /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ParallelGroup} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.ParallelGroupTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ParallelGroupTest
+    implements ParallelGroupTests<ParallelGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
+
+        @Override
+        public ParallelGroup createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.ParallelGroup], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$ParallelGroup]
+
+    }
+
+    /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Group} (by simply reusing the
-     * J8Unit test interface {@link GroupTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -129,6 +107,29 @@ implements GroupLayoutTests<GroupLayout> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.GroupLayout$Group]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$Group]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SequentialGroup} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class SequentialGroupTest
+    implements SequentialGroupTests<SequentialGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
+
+        @Override
+        public SequentialGroup createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.GroupLayout.SequentialGroup], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.GroupLayout$SequentialGroup]
 
     }
 

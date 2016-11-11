@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MaskFormatterTest
-implements FactoryBasedJ8UnitTest<MaskFormatter>, org.j8unit.repository.javax.swing.text.MaskFormatterTests<MaskFormatter> {
+implements FactoryBasedJ8UnitTest<MaskFormatter>, MaskFormatterTests<MaskFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.MaskFormatter]
 

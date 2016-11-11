@@ -11,7 +11,7 @@ import org.omg.IOP.IORHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IORHelper} (by simply reusing the J8Unit
- * test interface {@link IORHelperClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.IOP.IORHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

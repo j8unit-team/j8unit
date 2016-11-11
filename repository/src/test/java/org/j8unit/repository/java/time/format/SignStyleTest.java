@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SignStyle} (by simply reusing the
- * J8Unit test interface {@link SignStyleTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.time.format.SignStyleTests}).
  */
 
 @RunWith(J8Parameterized.class)

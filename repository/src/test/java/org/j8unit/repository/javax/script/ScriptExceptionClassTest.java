@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ScriptException} (by simply reusing the
- * J8Unit test interface {@link ScriptExceptionClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.script.ScriptExceptionClassTests}).
  */
 
 @RunWith(J8Unit4.class)

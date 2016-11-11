@@ -216,4 +216,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.Encoder]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Encoder]
+
 }

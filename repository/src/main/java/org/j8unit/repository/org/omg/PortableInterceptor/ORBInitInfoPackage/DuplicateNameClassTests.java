@@ -18,7 +18,8 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DuplicateNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameTests}.
  * </p>
  *
  * <p>

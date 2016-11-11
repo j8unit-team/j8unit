@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link GridBagLayoutInfo} (by simply reusing the
- * J8Unit test interface {@link GridBagLayoutInfoClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.GridBagLayoutInfoClassTests}).
  */
 
 @RunWith(J8Unit4.class)

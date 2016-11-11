@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link C14NMethodParameterSpec} (by simply
- * reusing the J8Unit test interface {@link C14NMethodParameterSpecClassTests}).
+ * reusing the J8Unit test interface
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecClassTests}).
  */
 
 @RunWith(J8Unit4.class)

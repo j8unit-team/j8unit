@@ -6,7 +6,7 @@ import org.omg.CORBA.IRObjectOperations;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link IRObjectOperations} (by simply reusing
- * the J8Unit test interface {@link IRObjectOperationsClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.IRObjectOperationsClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -6,7 +6,7 @@ import org.w3c.dom.UserDataHandler;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link UserDataHandler} (by simply reusing the
- * J8Unit test interface {@link UserDataHandlerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.UserDataHandlerClassTests}).
  */
 
 @RunWith(J8Unit4.class)

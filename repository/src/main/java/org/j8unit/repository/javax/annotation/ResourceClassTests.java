@@ -6,7 +6,6 @@ import javax.annotation.Resource.AuthenticationType;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.EnumClassTests;
 import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
-import org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ResourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.annotation.ResourceTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,7 @@ extends AnnotationClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AuthenticationTypeTests}.
+     * {@link org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests}.
      * </p>
      *
      * <p>

@@ -21,7 +21,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HyperlinkEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests}.
  * </p>
  *
  * <p>
@@ -85,7 +86,8 @@ extends EventObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link EventTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.event.HyperlinkEventTests.EventTypeTests}.
      * </p>
      *
      * <p>

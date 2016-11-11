@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AbstractMarshallerImplTests}.
+ * {@link org.j8unit.repository.javax.xml.bind.helpers.AbstractMarshallerImplTests}.
  * </p>
  *
  * <p>

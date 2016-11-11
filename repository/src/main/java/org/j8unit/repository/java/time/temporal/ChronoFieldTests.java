@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ChronoFieldClassTests}).
+ * {@link org.j8unit.repository.java.time.temporal.ChronoFieldClassTests}).
  * </p>
  *
  * @param SUT
@@ -340,4 +340,5 @@ extends TemporalFieldTests<SUT>, EnumTests<SUT, ChronoField> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.ChronoField]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ChronoField]
+
 }

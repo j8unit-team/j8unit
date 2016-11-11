@@ -19,7 +19,7 @@ import org.omg.CosNaming.BindingIteratorHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link BindingIteratorHelperTests}.
+ * {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorHelperTests}.
  * </p>
  *
  * <p>

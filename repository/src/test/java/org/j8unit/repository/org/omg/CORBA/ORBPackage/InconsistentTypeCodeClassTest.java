@@ -15,7 +15,7 @@ import org.omg.CORBA.ORBPackage.InconsistentTypeCode;
 
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeClassTest
-implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InconsistentTypeCodeClassTests<InconsistentTypeCode> {
+implements InconsistentTypeCodeClassTests<InconsistentTypeCode> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
 

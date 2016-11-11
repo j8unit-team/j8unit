@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link RowSorterEvent} (by simply reusing the
- * J8Unit test interface {@link RowSorterEventClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.RowSorterEventClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -78,7 +78,7 @@ implements RowSorterEventClassTests<RowSorterEvent> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
-     * test interface {@link TypeClassTests}).
+     * test interface {@link org.j8unit.repository.javax.swing.event.RowSorterEventClassTests.TypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

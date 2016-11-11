@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link SynthRootPaneUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthRootPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -157,4 +157,5 @@ extends SynthUITests<SUT>, BasicRootPaneUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.SynthRootPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthRootPaneUI]
+
 }

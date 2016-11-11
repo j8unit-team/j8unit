@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link SSLPeerUnverifiedExceptionTests}.
+ * {@link org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionTests}.
  * </p>
  *
  * <p>

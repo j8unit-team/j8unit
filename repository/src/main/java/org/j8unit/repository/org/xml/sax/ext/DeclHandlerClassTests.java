@@ -18,7 +18,8 @@ import org.xml.sax.ext.DeclHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DeclHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.ext.DeclHandlerTests}.
  * </p>
  *
  * <p>

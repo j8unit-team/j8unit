@@ -16,7 +16,7 @@ import org.omg.CORBA.portable.InputStream;
 
 @RunWith(J8Unit4.class)
 public class InputStreamClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.InputStreamClassTests<InputStream> {
+implements InputStreamClassTests<InputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.InputStream]
 

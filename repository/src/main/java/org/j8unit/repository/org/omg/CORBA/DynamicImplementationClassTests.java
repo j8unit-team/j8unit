@@ -19,7 +19,7 @@ import org.omg.CORBA.DynamicImplementation;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link DynamicImplementationTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.DynamicImplementationTests}.
  * </p>
  *
  * <p>

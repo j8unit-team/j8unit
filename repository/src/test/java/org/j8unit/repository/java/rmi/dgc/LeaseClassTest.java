@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Lease} (by simply reusing the J8Unit test
- * interface {@link LeaseClassTests}).
+ * interface {@link org.j8unit.repository.java.rmi.dgc.LeaseClassTests}).
  */
 
 @RunWith(J8Unit4.class)

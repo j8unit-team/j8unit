@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ValidatorHandlerClassTests}).
+ * {@link org.j8unit.repository.javax.xml.validation.ValidatorHandlerClassTests}).
  * </p>
  *
  * @param SUT
@@ -108,29 +108,6 @@ extends ContentHandlerTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.ValidatorHandler#getContentHandler() public abstract org.xml.sax.ContentHandler
-     * javax.xml.validation.ValidatorHandler.getContentHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContentHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.validation.ValidatorHandler#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
      * javax.xml.validation.ValidatorHandler.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
@@ -145,6 +122,29 @@ extends ContentHandlerTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setErrorHandler_ErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.ValidatorHandler#getContentHandler() public abstract org.xml.sax.ContentHandler
+     * javax.xml.validation.ValidatorHandler.getContentHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getContentHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,29 +177,6 @@ extends ContentHandlerTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.ValidatorHandler#getTypeInfoProvider() public abstract
-     * javax.xml.validation.TypeInfoProvider javax.xml.validation.ValidatorHandler.getTypeInfoProvider()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTypeInfoProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.validation.ValidatorHandler#setFeature(String, boolean) public void
      * javax.xml.validation.ValidatorHandler.setFeature(java.lang.String,boolean) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
@@ -215,6 +192,29 @@ extends ContentHandlerTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setFeature_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.ValidatorHandler#getTypeInfoProvider() public abstract
+     * javax.xml.validation.TypeInfoProvider javax.xml.validation.ValidatorHandler.getTypeInfoProvider()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTypeInfoProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -294,4 +294,5 @@ extends ContentHandlerTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.validation.ValidatorHandler]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.ValidatorHandler]
+
 }

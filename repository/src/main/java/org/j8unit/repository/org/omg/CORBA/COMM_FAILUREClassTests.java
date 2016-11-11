@@ -17,7 +17,8 @@ import org.omg.CORBA.COMM_FAILURE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link COMM_FAILURETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.COMM_FAILURETests}.
  * </p>
  *
  * <p>

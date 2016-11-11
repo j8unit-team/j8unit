@@ -33,4 +33,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.DefaultLoaderRepository]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.DefaultLoaderRepository]
+
 }

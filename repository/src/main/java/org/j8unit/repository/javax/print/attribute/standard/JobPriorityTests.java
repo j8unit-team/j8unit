@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JobPriorityClassTests}).
+ * {@link org.j8unit.repository.javax.print.attribute.standard.JobPriorityClassTests}).
  * </p>
  *
  * @param SUT
@@ -109,4 +109,5 @@ extends PrintRequestAttributeTests<SUT>, PrintJobAttributeTests<SUT>, IntegerSyn
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.JobPriority]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobPriority]
+
 }

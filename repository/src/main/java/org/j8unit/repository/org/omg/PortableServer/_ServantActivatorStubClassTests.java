@@ -19,7 +19,7 @@ import org.omg.PortableServer._ServantActivatorStub;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link _ServantActivatorStubTests}.
+ * {@link org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubTests}.
  * </p>
  *
  * <p>

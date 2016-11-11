@@ -5,7 +5,6 @@ import java.lang.Thread.State;
 import java.lang.Thread.UncaughtExceptionHandler;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.lang.ThreadTests}.
  * </p>
  *
  * <p>
@@ -86,7 +86,7 @@ extends RunnableClassTests<SUT>, ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link UncaughtExceptionHandlerTests}.
+     * {@link org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests}.
      * </p>
      *
      * <p>
@@ -151,7 +151,8 @@ extends RunnableClassTests<SUT>, ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link StateTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.ThreadTests.StateTests}.
      * </p>
      *
      * <p>

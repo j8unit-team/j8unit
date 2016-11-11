@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MarshalExceptionTest
-implements FactoryBasedJ8UnitTest<MarshalException>, org.j8unit.repository.javax.xml.crypto.MarshalExceptionTests<MarshalException> {
+implements FactoryBasedJ8UnitTest<MarshalException>, MarshalExceptionTests<MarshalException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.MarshalException]
 

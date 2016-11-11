@@ -14,7 +14,8 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InconsistentTypeCodeTest
-implements FactoryBasedJ8UnitTest<InconsistentTypeCode>, InconsistentTypeCodeTests<InconsistentTypeCode> {
+implements FactoryBasedJ8UnitTest<InconsistentTypeCode>,
+org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeTests<InconsistentTypeCode> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
 

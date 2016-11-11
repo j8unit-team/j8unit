@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DatatypeConstants} (by simply reusing
- * the J8Unit test interface {@link DatatypeConstantsTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements DatatypeConstantsTests<DatatypeConstants> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Field} (by simply reusing the
-     * J8Unit test interface {@link FieldTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests.FieldTests}).
      */
 
     @RunWith(J8Unit4.class)

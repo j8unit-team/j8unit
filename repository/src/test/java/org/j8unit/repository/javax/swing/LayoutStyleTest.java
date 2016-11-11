@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LayoutStyle} (by simply reusing the
- * J8Unit test interface {@link LayoutStyleTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.LayoutStyleTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -34,7 +34,8 @@ implements LayoutStyleTests<LayoutStyle> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ComponentPlacement} (by simply
-     * reusing the J8Unit test interface {@link ComponentPlacementTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.LayoutStyleTests.ComponentPlacementTests}).
      */
 
     @RunWith(J8Parameterized.class)

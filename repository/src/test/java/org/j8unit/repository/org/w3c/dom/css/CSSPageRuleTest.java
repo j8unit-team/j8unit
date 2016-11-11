@@ -7,7 +7,7 @@ import org.w3c.dom.css.CSSPageRule;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CSSPageRule} (by simply reusing the
- * J8Unit test interface {@link CSSPageRuleTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.CSSPageRuleTests}).
  */
 
 @RunWith(J8Unit4.class)

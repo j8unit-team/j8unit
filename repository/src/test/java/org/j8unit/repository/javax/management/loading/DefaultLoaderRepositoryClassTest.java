@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class DefaultLoaderRepositoryClassTest
-implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
+implements DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.loading.DefaultLoaderRepository]
 

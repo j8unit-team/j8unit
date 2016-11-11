@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link MenuComponent} (by simply reusing the
- * J8Unit test interface {@link MenuComponentClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.MenuComponentClassTests}).
  */
 
 @RunWith(J8Unit4.class)

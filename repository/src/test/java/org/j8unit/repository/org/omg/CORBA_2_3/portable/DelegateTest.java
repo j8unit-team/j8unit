@@ -12,7 +12,7 @@ import org.omg.CORBA_2_3.portable.Delegate;
 
 @RunWith(J8Unit4.class)
 public class DelegateTest
-implements org.j8unit.repository.org.omg.CORBA_2_3.portable.DelegateTests<Delegate> {
+implements DelegateTests<Delegate> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA_2_3.portable.Delegate]
 

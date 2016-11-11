@@ -19,7 +19,7 @@ import org.omg.IOP.ServiceContextListHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link ServiceContextListHelperTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.ServiceContextListHelperTests}.
  * </p>
  *
  * <p>

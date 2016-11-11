@@ -18,7 +18,8 @@ import org.omg.PortableServer.THREAD_POLICY_ID;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link THREAD_POLICY_IDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.PortableServer.THREAD_POLICY_IDTests}.
  * </p>
  *
  * <p>

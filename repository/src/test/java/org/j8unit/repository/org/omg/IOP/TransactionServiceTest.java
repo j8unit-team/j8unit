@@ -7,7 +7,7 @@ import org.omg.IOP.TransactionService;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TransactionService} (by simply
- * reusing the J8Unit test interface {@link TransactionServiceTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TransactionServiceTests}).
  */
 
 @RunWith(J8Unit4.class)

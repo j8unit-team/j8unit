@@ -6,7 +6,6 @@ import javax.swing.JTree.DropLocation;
 import javax.swing.JTree.DynamicUtilTreeNode;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.JTreeTests.DynamicUtilTreeNodeTests;
 import org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -23,7 +22,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JTreeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JTreeTests}.
  * </p>
  *
  * <p>
@@ -87,7 +87,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DynamicUtilTreeNodeTests}.
+     * {@link org.j8unit.repository.javax.swing.JTreeTests.DynamicUtilTreeNodeTests}.
      * </p>
      *
      * <p>

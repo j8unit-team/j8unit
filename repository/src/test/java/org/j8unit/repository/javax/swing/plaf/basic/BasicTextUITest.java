@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicTextUI} (by simply reusing the
- * J8Unit test interface {@link BasicTextUITests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests}).
  */
 
 @RunWith(J8Unit4.class)

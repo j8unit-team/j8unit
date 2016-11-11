@@ -17,7 +17,8 @@ import org.w3c.dom.css.CSSMediaRule;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSMediaRuleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.css.CSSMediaRuleTests}.
  * </p>
  *
  * <p>

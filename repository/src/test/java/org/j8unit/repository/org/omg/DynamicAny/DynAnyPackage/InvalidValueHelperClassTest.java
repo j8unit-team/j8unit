@@ -11,7 +11,8 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidValueHelper} (by simply reusing
- * the J8Unit test interface {@link InvalidValueHelperClassTests}).
+ * the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

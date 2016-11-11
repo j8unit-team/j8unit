@@ -10,7 +10,7 @@ import org.omg.CORBA.ServiceInformation;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceInformation} (by simply reusing
- * the J8Unit test interface {@link ServiceInformationClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -10,7 +10,7 @@ import org.omg.CORBA.FREE_MEM;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link FREE_MEM} (by simply reusing the J8Unit
- * test interface {@link FREE_MEMClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests}).
  */
 
 @RunWith(J8Unit4.class)

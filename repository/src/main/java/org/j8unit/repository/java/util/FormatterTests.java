@@ -8,7 +8,6 @@ import org.j8unit.repository.java.io.CloseableTests;
 import org.j8unit.repository.java.io.FlushableTests;
 import org.j8unit.repository.java.lang.EnumTests;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -221,6 +220,7 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -231,7 +231,7 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BigDecimalLayoutFormClassTests}).
+     * (see {@link org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests}).
      * </p>
      *
      * @param SUT
@@ -249,6 +249,7 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
+
     }
 
 }

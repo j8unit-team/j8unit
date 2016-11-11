@@ -8,7 +8,6 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.awt.ItemSelectableClassTests;
 import org.j8unit.repository.java.awt.event.ActionListenerClassTests;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests;
 import org.j8unit.repository.javax.swing.event.ListDataListenerClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -25,7 +24,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JComboBoxTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JComboBoxTests}.
  * </p>
  *
  * <p>
@@ -90,7 +90,7 @@ extends ItemSelectableClassTests<SUT>, ListDataListenerClassTests<SUT>, ActionLi
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link KeySelectionManagerTests}.
+     * {@link org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests}.
      * </p>
      *
      * <p>

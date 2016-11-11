@@ -8,9 +8,6 @@ import javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests;
 import org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests;
-import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -26,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboBoxUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests}.
  * </p>
  *
  * <p>
@@ -83,14 +81,16 @@ extends BasicComboBoxUIClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MetalComboPopup public class javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup}.
+     * {@link MetalComboBoxLayoutManager public class
+     * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboPopupTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}.
      * </p>
      *
      * <p>
@@ -118,10 +118,10 @@ extends BasicComboBoxUIClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalComboPopupClassTests<SUT extends MetalComboPopup>
-    extends BasicComboPopupClassTests<SUT> {
+    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends MetalComboBoxLayoutManager>
+    extends ComboBoxLayoutManagerClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -135,13 +135,13 @@ extends BasicComboBoxUIClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboPopup.class!",
-                              MetalComboPopup.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboBoxLayoutManager.class!",
+                              MetalComboBoxLayoutManager.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
     }
 
@@ -158,7 +158,7 @@ extends BasicComboBoxUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalPropertyChangeListenerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}.
      * </p>
      *
      * <p>
@@ -217,8 +217,7 @@ extends BasicComboBoxUIClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MetalComboBoxLayoutManager public class
-     * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}.
+     * {@link MetalComboPopup public class javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -226,7 +225,7 @@ extends BasicComboBoxUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalComboBoxLayoutManagerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests}.
      * </p>
      *
      * <p>
@@ -254,10 +253,10 @@ extends BasicComboBoxUIClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends MetalComboBoxLayoutManager>
-    extends ComboBoxLayoutManagerClassTests<SUT> {
+    public static abstract interface MetalComboPopupClassTests<SUT extends MetalComboPopup>
+    extends BasicComboPopupClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -271,13 +270,13 @@ extends BasicComboBoxUIClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboBoxLayoutManager.class!",
-                              MetalComboBoxLayoutManager.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboPopup.class!",
+                              MetalComboPopup.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
     }
 

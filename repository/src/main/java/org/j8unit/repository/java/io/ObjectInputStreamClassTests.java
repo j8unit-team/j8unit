@@ -4,7 +4,6 @@ import static org.junit.Assert.assertTrue;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputStream.GetField;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests;
 import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.io.ObjectInputStreamTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends ObjectInputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, InputS
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link GetFieldTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests}.
      * </p>
      *
      * <p>

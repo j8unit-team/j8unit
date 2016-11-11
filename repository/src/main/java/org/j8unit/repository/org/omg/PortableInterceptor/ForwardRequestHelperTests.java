@@ -33,4 +33,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.ForwardRequestHelper]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ForwardRequestHelper]
+
 }

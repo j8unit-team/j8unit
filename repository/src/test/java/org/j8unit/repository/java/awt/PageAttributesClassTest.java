@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link PageAttributes} (by simply reusing the
- * J8Unit test interface {@link PageAttributesClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -107,7 +107,8 @@ implements PageAttributesClassTests<PageAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link PrintQualityType} (by simply reusing
-     * the J8Unit test interface {@link PrintQualityTypeClassTests}).
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -129,7 +130,7 @@ implements PageAttributesClassTests<PageAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link ColorType} (by simply reusing the
-     * J8Unit test interface {@link ColorTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -151,7 +152,7 @@ implements PageAttributesClassTests<PageAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link OriginType} (by simply reusing the
-     * J8Unit test interface {@link OriginTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -173,7 +174,7 @@ implements PageAttributesClassTests<PageAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link MediaType} (by simply reusing the
-     * J8Unit test interface {@link MediaTypeClassTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.MediaTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -195,7 +196,8 @@ implements PageAttributesClassTests<PageAttributes> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link OrientationRequestedType} (by simply
-     * reusing the J8Unit test interface {@link OrientationRequestedTypeClassTests}).
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests}).
      */
 
     @RunWith(J8Unit4.class)

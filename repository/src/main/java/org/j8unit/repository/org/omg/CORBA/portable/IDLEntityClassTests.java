@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.IDLEntity;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link IDLEntityTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests}.
  * </p>
  *
  * <p>

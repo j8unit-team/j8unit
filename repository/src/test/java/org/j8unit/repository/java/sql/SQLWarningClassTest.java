@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link SQLWarning} (by simply reusing the J8Unit
- * test interface {@link SQLWarningClassTests}).
+ * test interface {@link org.j8unit.repository.java.sql.SQLWarningClassTests}).
  */
 
 @RunWith(J8Unit4.class)

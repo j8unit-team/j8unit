@@ -16,7 +16,7 @@ import org.omg.IOP.CodecFactory;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link CodecFactoryClassTests}).
+ * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,4 +34,5 @@ extends CodecFactoryOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.CodecFactory]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.CodecFactory]
+
 }

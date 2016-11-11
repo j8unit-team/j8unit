@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link TypeKindVisitor8} (by simply reusing the
- * J8Unit test interface {@link TypeKindVisitor8ClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.javax.lang.model.util.TypeKindVisitor8ClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)

@@ -17,7 +17,8 @@ import org.omg.CORBA.TRANSACTION_MODE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link TRANSACTION_MODETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODETests}.
  * </p>
  *
  * <p>

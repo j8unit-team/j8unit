@@ -7,12 +7,12 @@ import org.omg.CORBA.portable.OutputStream;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link OutputStream} (by simply reusing the
- * J8Unit test interface {@link OutputStreamTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests}).
  */
 
 @RunWith(J8Unit4.class)
 public class OutputStreamTest
-implements OutputStreamTests<OutputStream> {
+implements org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<OutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.OutputStream]
 

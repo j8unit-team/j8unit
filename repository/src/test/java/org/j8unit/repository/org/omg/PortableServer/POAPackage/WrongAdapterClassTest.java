@@ -10,7 +10,7 @@ import org.omg.PortableServer.POAPackage.WrongAdapter;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link WrongAdapter} (by simply reusing the
- * J8Unit test interface {@link WrongAdapterClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterClassTests}).
  */
 
 @RunWith(J8Unit4.class)

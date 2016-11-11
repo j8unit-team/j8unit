@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(J8Unit4.class)
 public class DataSourceClassTest
-implements org.j8unit.repository.javax.activation.DataSourceClassTests<DataSource> {
+implements DataSourceClassTests<DataSource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.DataSource]
 

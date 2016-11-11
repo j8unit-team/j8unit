@@ -19,7 +19,8 @@ import org.omg.CORBA.StringHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link StringHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.StringHolderTests}.
  * </p>
  *
  * <p>

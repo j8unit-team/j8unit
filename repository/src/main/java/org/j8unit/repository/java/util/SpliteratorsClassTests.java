@@ -8,10 +8,6 @@ import java.util.Spliterators.AbstractLongSpliterator;
 import java.util.Spliterators.AbstractSpliterator;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectClassTests;
-import org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests;
-import org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests;
-import org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests;
-import org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -27,7 +23,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link SpliteratorsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.util.SpliteratorsTests}.
  * </p>
  *
  * <p>
@@ -92,7 +89,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AbstractDoubleSpliteratorTests}.
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -159,7 +156,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AbstractSpliteratorTests}.
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -226,7 +223,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AbstractLongSpliteratorTests}.
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -293,7 +290,7 @@ extends ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AbstractIntSpliteratorTests}.
+     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests}.
      * </p>
      *
      * <p>

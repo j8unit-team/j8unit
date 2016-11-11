@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ProgressMonitorInputStream} (by
- * simply reusing the J8Unit test interface {@link ProgressMonitorInputStreamTests}).
+ * simply reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.ProgressMonitorInputStreamTests}).
  */
 
 @RunWith(J8Unit4.class)

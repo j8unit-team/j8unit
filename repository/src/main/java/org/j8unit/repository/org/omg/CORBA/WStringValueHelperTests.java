@@ -19,7 +19,7 @@ import org.omg.CORBA.WStringValueHelper;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link WStringValueHelperClassTests}).
+ * {@link org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests}).
  * </p>
  *
  * @param SUT
@@ -109,4 +109,5 @@ extends BoxedValueHelperTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
+
 }

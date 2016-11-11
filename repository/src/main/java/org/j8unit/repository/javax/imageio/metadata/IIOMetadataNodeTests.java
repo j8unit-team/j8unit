@@ -20,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link IIOMetadataNodeClassTests}).
+ * {@link org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeClassTests}).
  * </p>
  *
  * @param SUT
@@ -86,30 +86,6 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataNode#setAttributeNodeNS(org.w3c.dom.Attr) public org.w3c.dom.Attr
-     * javax.imageio.metadata.IIOMetadataNode.setAttributeNodeNS(org.w3c.dom.Attr)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setAttributeNodeNS_Attr()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataNode#removeChild(org.w3c.dom.Node) public org.w3c.dom.Node
      * javax.imageio.metadata.IIOMetadataNode.removeChild(org.w3c.dom.Node)}.
      *
@@ -125,6 +101,30 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeChild_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#setAttributeNodeNS(org.w3c.dom.Attr) public org.w3c.dom.Attr
+     * javax.imageio.metadata.IIOMetadataNode.setAttributeNodeNS(org.w3c.dom.Attr)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setAttributeNodeNS_Attr()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -610,30 +610,6 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataNode#getPreviousSibling() public org.w3c.dom.Node
-     * javax.imageio.metadata.IIOMetadataNode.getPreviousSibling()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreviousSibling()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataNode#appendChild(org.w3c.dom.Node) public org.w3c.dom.Node
      * javax.imageio.metadata.IIOMetadataNode.appendChild(org.w3c.dom.Node)}.
      *
@@ -649,6 +625,30 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_appendChild_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#getPreviousSibling() public org.w3c.dom.Node
+     * javax.imageio.metadata.IIOMetadataNode.getPreviousSibling()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreviousSibling()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -682,30 +682,6 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataNode#getAttributeNodeNS(String, String) public org.w3c.dom.Attr
-     * javax.imageio.metadata.IIOMetadataNode.getAttributeNodeNS(java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeNodeNS_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataNode#setUserData(String, Object, org.w3c.dom.UserDataHandler) public
      * java.lang.Object
      * javax.imageio.metadata.IIOMetadataNode.setUserData(java.lang.String,java.lang.Object,org.w3c.dom.UserDataHandler)
@@ -723,6 +699,30 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setUserData_String_Object_UserDataHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#getAttributeNodeNS(String, String) public org.w3c.dom.Attr
+     * javax.imageio.metadata.IIOMetadataNode.getAttributeNodeNS(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeNodeNS_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -997,30 +997,6 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataNode#setAttributeNS(String, String, String) public void
-     * javax.imageio.metadata.IIOMetadataNode.setAttributeNS(java.lang.String,java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setAttributeNS_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataNode#removeAttribute(String) public void
      * javax.imageio.metadata.IIOMetadataNode.removeAttribute(java.lang.String)}.
      *
@@ -1036,6 +1012,30 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeAttribute_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#setAttributeNS(String, String, String) public void
+     * javax.imageio.metadata.IIOMetadataNode.setAttributeNS(java.lang.String,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setAttributeNS_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1260,30 +1260,6 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataNode#removeAttributeNode(org.w3c.dom.Attr) public org.w3c.dom.Attr
-     * javax.imageio.metadata.IIOMetadataNode.removeAttributeNode(org.w3c.dom.Attr)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAttributeNode_Attr()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataNode#getUserData(String) public java.lang.Object
      * javax.imageio.metadata.IIOMetadataNode.getUserData(java.lang.String) throws org.w3c.dom.DOMException}.
      *
@@ -1299,6 +1275,30 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUserData_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataNode#removeAttributeNode(org.w3c.dom.Attr) public org.w3c.dom.Attr
+     * javax.imageio.metadata.IIOMetadataNode.removeAttributeNode(org.w3c.dom.Attr)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAttributeNode_Attr()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1498,4 +1498,5 @@ extends ElementTests<SUT>, NodeListTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
+
 }

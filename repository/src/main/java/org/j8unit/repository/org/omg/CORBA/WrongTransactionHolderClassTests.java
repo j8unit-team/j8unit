@@ -20,7 +20,7 @@ import org.omg.CORBA.WrongTransactionHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link WrongTransactionHolderTests}.
+ * {@link org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderTests}.
  * </p>
  *
  * <p>

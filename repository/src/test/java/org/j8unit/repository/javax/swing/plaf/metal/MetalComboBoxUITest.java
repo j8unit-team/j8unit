@@ -41,30 +41,32 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalCo
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI]
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalComboPopup} (by simply
-     * reusing the J8Unit test interface {@link MetalComboPopupTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalComboBoxLayoutManager} (by
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class MetalComboPopupTest
-    implements MetalComboPopupTests<MetalComboPopup> {
+    public static class MetalComboBoxLayoutManagerTest
+    implements MetalComboBoxLayoutManagerTests<MetalComboBoxLayoutManager> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
         @Override
-        public MetalComboPopup createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup], j8unit does not support a generic way to provide instances.");
+        public MetalComboBoxLayoutManager createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
     }
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalPropertyChangeListener} (by
-     * simply reusing the J8Unit test interface {@link MetalPropertyChangeListenerTests}).
+     * simply reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}).
      */
 
     @RunWith(J8Unit4.class)
@@ -85,24 +87,25 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalCo
     }
 
     /**
-     * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalComboBoxLayoutManager} (by
-     * simply reusing the J8Unit test interface {@link MetalComboBoxLayoutManagerTests}).
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MetalComboPopup} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests}).
      */
 
     @RunWith(J8Unit4.class)
-    public static class MetalComboBoxLayoutManagerTest
-    implements MetalComboBoxLayoutManagerTests<MetalComboBoxLayoutManager> {
+    public static class MetalComboPopupTest
+    implements MetalComboPopupTests<MetalComboPopup> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
         @Override
-        public MetalComboBoxLayoutManager createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager], j8unit does not support a generic way to provide instances.");
+        public MetalComboPopup createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
     }
 

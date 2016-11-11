@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link CertStore} (by simply reusing the J8Unit
- * test interface {@link CertStoreClassTests}).
+ * test interface {@link org.j8unit.repository.java.security.cert.CertStoreClassTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link LockClassTests}).
+ * {@link org.j8unit.repository.java.util.concurrent.locks.LockClassTests}).
  * </p>
  *
  * @param SUT
@@ -170,4 +170,5 @@ extends RepositoryTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.locks.Lock]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.Lock]
+
 }

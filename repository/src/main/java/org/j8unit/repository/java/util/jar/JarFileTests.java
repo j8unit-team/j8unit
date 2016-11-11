@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JarFileClassTests}).
+ * {@link org.j8unit.repository.java.util.jar.JarFileClassTests}).
  * </p>
  *
  * @param SUT
@@ -173,4 +173,5 @@ extends ZipFileTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.JarFile]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.JarFile]
+
 }

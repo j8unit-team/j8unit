@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JEditorPaneClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JEditorPaneClassTests}).
  * </p>
  *
  * @param SUT
@@ -170,8 +170,8 @@ extends JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setText(String) public void
-     * javax.swing.JEditorPane.setText(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setPage(java.net.URL) public
+     * void javax.swing.JEditorPane.setPage(java.net.URL) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,10 +181,9 @@ extends JTextComponentTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setText_String()
+    public default void test_setPage_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,8 +214,8 @@ extends JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setPage(java.net.URL) public
-     * void javax.swing.JEditorPane.setPage(java.net.URL) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setText(String) public void
+     * javax.swing.JEditorPane.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -226,9 +225,10 @@ extends JTextComponentTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setPage_URL()
+    public default void test_setText_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -491,6 +491,28 @@ extends JTextComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#getPage() public
+     * java.net.URL javax.swing.JEditorPane.getPage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#getText() public
      * java.lang.String javax.swing.JEditorPane.getText()}.
      *
@@ -506,28 +528,6 @@ extends JTextComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#getPage() public
-     * java.net.URL javax.swing.JEditorPane.getPage()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -559,4 +559,5 @@ extends JTextComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JEditorPane]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JEditorPane]
+
 }

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ServiceRegistry} (by simply reusing
- * the J8Unit test interface {@link ServiceRegistryTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,12 +28,12 @@ implements ServiceRegistryTests<ServiceRegistry> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Filter} (by simply reusing the
-     * J8Unit test interface {@link FilterTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests.FilterTests}).
      */
 
     @RunWith(J8Unit4.class)
     public static class FilterTest
-    implements FilterTests<Filter> {
+    implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests.FilterTests<Filter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ServiceRegistry$Filter]
 

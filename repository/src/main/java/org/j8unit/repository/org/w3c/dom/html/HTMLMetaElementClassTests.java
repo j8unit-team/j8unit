@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLMetaElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLMetaElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLMetaElementTests}.
  * </p>
  *
  * <p>

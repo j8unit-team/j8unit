@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLImageElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLImageElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLImageElementTests}.
  * </p>
  *
  * <p>

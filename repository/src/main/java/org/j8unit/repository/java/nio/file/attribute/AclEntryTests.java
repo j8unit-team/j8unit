@@ -194,6 +194,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -388,6 +389,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
+
     }
 
 }

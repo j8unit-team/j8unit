@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JRadioButtonMenuItemClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests}).
  * </p>
  *
  * @param SUT
@@ -82,4 +82,5 @@ extends JMenuItemTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JRadioButtonMenuItem]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JRadioButtonMenuItem]
+
 }

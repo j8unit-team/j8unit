@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link X500PrivateCredential} (by simply
- * reusing the J8Unit test interface {@link X500PrivateCredentialTests}).
+ * reusing the J8Unit test interface {@link org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialTests}).
  */
 
 @RunWith(J8Unit4.class)

@@ -33,4 +33,5 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.CurrentHelper]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.CurrentHelper]
+
 }

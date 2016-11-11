@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LongStream} (by simply reusing the
- * J8Unit test interface {@link LongStreamTests}).
+ * J8Unit test interface {@link org.j8unit.repository.java.util.stream.LongStreamTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements LongStreamTests<LongStream> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Builder} (by simply reusing the
-     * J8Unit test interface {@link BuilderTests}).
+     * J8Unit test interface {@link org.j8unit.repository.java.util.stream.LongStreamTests.BuilderTests}).
      */
 
     @RunWith(J8Unit4.class)

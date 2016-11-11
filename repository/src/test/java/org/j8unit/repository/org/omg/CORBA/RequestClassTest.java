@@ -11,7 +11,7 @@ import org.omg.CORBA.Request;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Request} (by simply reusing the J8Unit
- * test interface {@link RequestClassTests}).
+ * test interface {@link org.j8unit.repository.org.omg.CORBA.RequestClassTests}).
  */
 
 @RunWith(J8Unit4.class)

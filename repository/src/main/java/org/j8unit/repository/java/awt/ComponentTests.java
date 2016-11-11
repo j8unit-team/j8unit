@@ -4,7 +4,6 @@ import java.awt.Component;
 import java.awt.Component.BaselineResizeBehavior;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests;
 import org.j8unit.repository.java.awt.image.ImageObserverTests;
 import org.j8unit.repository.java.io.SerializableTests;
 import org.j8unit.repository.java.lang.EnumTests;
@@ -23,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link ComponentClassTests}).
+ * {@link org.j8unit.repository.java.awt.ComponentClassTests}).
  * </p>
  *
  * @param SUT
@@ -198,6 +197,75 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Component#firePropertyChange(String, byte, byte) public void
+     * java.awt.Component.firePropertyChange(java.lang.String,byte,byte)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_byte_byte()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Component#firePropertyChange(String, char, char) public void
+     * java.awt.Component.firePropertyChange(java.lang.String,char,char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_char_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Component#firePropertyChange(String, short, short) public void
+     * java.awt.Component.firePropertyChange(java.lang.String,short,short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_short_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#firePropertyChange(String, float, float) public void
      * java.awt.Component.firePropertyChange(java.lang.String,float,float)}.
      *
@@ -243,75 +311,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Component#firePropertyChange(String, short, short) public void
-     * java.awt.Component.firePropertyChange(java.lang.String,short,short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_short_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Component#firePropertyChange(String, char, char) public void
-     * java.awt.Component.firePropertyChange(java.lang.String,char,char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_char_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Component#firePropertyChange(String, byte, byte) public void
-     * java.awt.Component.firePropertyChange(java.lang.String,byte,byte)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_byte_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#getMouseMotionListeners() public
      * synchronized java.awt.event.MouseMotionListener[] java.awt.Component.getMouseMotionListeners()}.
      *
@@ -326,50 +325,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getMouseMotionListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#repaint() public void
-     * java.awt.Component.repaint()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_repaint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#repaint(long) public void
-     * java.awt.Component.repaint(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_repaint_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -414,6 +369,50 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_repaint_long_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#repaint() public void
+     * java.awt.Component.repaint()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_repaint()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#repaint(long) public void
+     * java.awt.Component.repaint(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_repaint_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -932,29 +931,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Component#prepareImage(java.awt.Image, int, int, java.awt.image.ImageObserver) public boolean
-     * java.awt.Component.prepareImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_prepareImage_Image_int_int_ImageObserver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#prepareImage(java.awt.Image, java.awt.image.ImageObserver) public boolean
      * java.awt.Component.prepareImage(java.awt.Image,java.awt.image.ImageObserver)}.
      *
@@ -969,6 +945,29 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_prepareImage_Image_ImageObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Component#prepareImage(java.awt.Image, int, int, java.awt.image.ImageObserver) public boolean
+     * java.awt.Component.prepareImage(java.awt.Image,int,int,java.awt.image.ImageObserver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareImage_Image_int_int_ImageObserver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1754,6 +1753,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getY() public int
+     * java.awt.Component.getY()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getY()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#removeHierarchyBoundsListener(java.awt.event.HierarchyBoundsListener) public void
      * java.awt.Component.removeHierarchyBoundsListener(java.awt.event.HierarchyBoundsListener)}.
@@ -1777,8 +1798,8 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getY() public int
-     * java.awt.Component.getY()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getSize() public
+     * java.awt.Dimension java.awt.Component.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1790,7 +1811,7 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getY()
+    public default void test_getSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1813,28 +1834,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getSize_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getSize() public
-     * java.awt.Dimension java.awt.Component.getSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2089,28 +2088,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#setIgnoreRepaint(boolean) public
-     * void java.awt.Component.setIgnoreRepaint(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIgnoreRepaint_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#removeFocusListener(java.awt.event.FocusListener) public synchronized void
      * java.awt.Component.removeFocusListener(java.awt.event.FocusListener)}.
@@ -2126,6 +2103,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_removeFocusListener_FocusListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#setIgnoreRepaint(boolean) public
+     * void java.awt.Component.setIgnoreRepaint(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIgnoreRepaint_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2244,28 +2243,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#setSize(java.awt.Dimension)
-     * public void java.awt.Component.setSize(java.awt.Dimension)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSize_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#setSize(int, int) public void
      * java.awt.Component.setSize(int,int)}.
      *
@@ -2280,6 +2257,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_setSize_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#setSize(java.awt.Dimension)
+     * public void java.awt.Component.setSize(java.awt.Dimension)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSize_Dimension()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2466,28 +2465,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#contains(java.awt.Point) public
-     * boolean java.awt.Component.contains(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#contains(int, int) public boolean
      * java.awt.Component.contains(int,int)}.
      *
@@ -2502,6 +2479,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_contains_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#contains(java.awt.Point) public
+     * boolean java.awt.Component.contains(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_contains_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2621,28 +2620,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getLocation() public
-     * java.awt.Point java.awt.Component.getLocation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#getLocation(java.awt.Point)
      * public java.awt.Point java.awt.Component.getLocation(java.awt.Point)}.
      *
@@ -2657,6 +2634,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getLocation_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getLocation() public
+     * java.awt.Point java.awt.Component.getLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3223,50 +3222,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintStream, int)
-     * public void java.awt.Component.list(java.io.PrintStream,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_list_PrintStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintWriter) public
-     * void java.awt.Component.list(java.io.PrintWriter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_list_PrintWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintStream) public
      * void java.awt.Component.list(java.io.PrintStream)}.
      *
@@ -3311,6 +3266,50 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintWriter) public
+     * void java.awt.Component.list(java.io.PrintWriter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_list_PrintWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintStream, int)
+     * public void java.awt.Component.list(java.io.PrintStream,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_list_PrintStream_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#list(java.io.PrintWriter, int)
      * public void java.awt.Component.list(java.io.PrintWriter,int)}.
      *
@@ -3325,29 +3324,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_list_PrintWriter_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.Component#setDropTarget(java.awt.dnd.DropTarget) public synchronized void
-     * java.awt.Component.setDropTarget(java.awt.dnd.DropTarget)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDropTarget_DropTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3394,6 +3370,29 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_removePropertyChangeListener_String_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.Component#setDropTarget(java.awt.dnd.DropTarget) public synchronized void
+     * java.awt.Component.setDropTarget(java.awt.dnd.DropTarget)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDropTarget_DropTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3557,6 +3556,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getFocusTraversalKeys(int) public
+     * java.util.Set<java.awt.AWTKeyStroke> java.awt.Component.getFocusTraversalKeys(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFocusTraversalKeys_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#nextFocus() public void
      * java.awt.Component.nextFocus()}.
      *
@@ -3593,28 +3614,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_getInputContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#getFocusTraversalKeys(int) public
-     * java.util.Set<java.awt.AWTKeyStroke> java.awt.Component.getFocusTraversalKeys(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFocusTraversalKeys_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3667,6 +3666,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#doLayout() public void
+     * java.awt.Component.doLayout()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_doLayout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#removeMouseMotionListener(java.awt.event.MouseMotionListener) public synchronized void
      * java.awt.Component.removeMouseMotionListener(java.awt.event.MouseMotionListener)}.
@@ -3682,28 +3703,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_removeMouseMotionListener_MouseMotionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#doLayout() public void
-     * java.awt.Component.doLayout()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doLayout()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3756,6 +3755,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#createImage(int, int) public
+     * java.awt.Image java.awt.Component.createImage(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createImage_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#createImage(java.awt.image.ImageProducer) public java.awt.Image
      * java.awt.Component.createImage(java.awt.image.ImageProducer)}.
@@ -3771,28 +3792,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_createImage_ImageProducer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#createImage(int, int) public
-     * java.awt.Image java.awt.Component.createImage(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createImage_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3823,6 +3822,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#areFocusTraversalKeysSet(int)
+     * public boolean java.awt.Component.areFocusTraversalKeysSet(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_areFocusTraversalKeysSet_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.Component#mouseMove(java.awt.Event, int, int) public boolean
      * java.awt.Component.mouseMove(java.awt.Event,int,int)}.
@@ -3838,28 +3859,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_mouseMove_Event_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#areFocusTraversalKeysSet(int)
-     * public boolean java.awt.Component.areFocusTraversalKeysSet(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_areFocusTraversalKeysSet_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3956,28 +3955,6 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#resize(int, int) public void
-     * java.awt.Component.resize(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resize_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Component#resize(java.awt.Dimension) public
      * void java.awt.Component.resize(java.awt.Dimension)}.
      *
@@ -4000,8 +3977,8 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Component#createVolatileImage(int, int)
-     * public java.awt.image.VolatileImage java.awt.Component.createVolatileImage(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#resize(int, int) public void
+     * java.awt.Component.resize(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -4013,7 +3990,7 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createVolatileImage_int_int()
+    public default void test_resize_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4038,6 +4015,28 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     @Test
     @Category(Draft.class)
     public default void test_createVolatileImage_int_int_ImageCapabilities()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Component#createVolatileImage(int, int)
+     * public java.awt.image.VolatileImage java.awt.Component.createVolatileImage(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createVolatileImage_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -4563,6 +4562,7 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Component]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Component]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -4573,7 +4573,7 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link BaselineResizeBehaviorClassTests}).
+     * (see {@link org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests}).
      * </p>
      *
      * @param SUT
@@ -4591,6 +4591,7 @@ extends ImageObserverTests<SUT>, MenuContainerTests<SUT>, SerializableTests<SUT>
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Component$BaselineResizeBehavior]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Component$BaselineResizeBehavior]
+
     }
 
 }

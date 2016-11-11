@@ -18,7 +18,8 @@ import org.omg.CORBA.portable.BoxedValueHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BoxedValueHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests}.
  * </p>
  *
  * <p>

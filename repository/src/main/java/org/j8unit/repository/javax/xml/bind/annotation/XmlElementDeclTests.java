@@ -6,7 +6,6 @@ import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.java.lang.annotation.AnnotationTests;
-import org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link XmlElementDeclClassTests}).
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests}).
  * </p>
  *
  * @param SUT
@@ -174,6 +173,7 @@ extends AnnotationTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -184,7 +184,7 @@ extends AnnotationTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link GLOBALClassTests}).
+     * (see {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests}).
      * </p>
      *
      * @param SUT
@@ -202,6 +202,7 @@ extends AnnotationTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
+
     }
 
 }

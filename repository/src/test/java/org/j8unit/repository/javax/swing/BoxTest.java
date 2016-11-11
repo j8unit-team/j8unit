@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Box} (by simply reusing the J8Unit
- * test interface {@link BoxTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.BoxTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -28,7 +28,7 @@ implements BoxTests<Box> {
 
     /**
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Filler} (by simply reusing the
-     * J8Unit test interface {@link FillerTests}).
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.BoxTests.FillerTests}).
      */
 
     @RunWith(J8Unit4.class)

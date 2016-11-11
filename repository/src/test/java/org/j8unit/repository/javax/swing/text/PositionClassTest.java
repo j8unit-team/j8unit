@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link Position} (by simply reusing the J8Unit
- * test interface {@link PositionClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.text.PositionClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -27,7 +27,7 @@ implements PositionClassTests<Position> {
 
     /**
      * Specific JUnit test class to proof the type relevant aspects of type {@link Bias} (by simply reusing the J8Unit
-     * test interface {@link BiasClassTests}).
+     * test interface {@link org.j8unit.repository.javax.swing.text.PositionClassTests.BiasClassTests}).
      */
 
     @RunWith(J8Unit4.class)

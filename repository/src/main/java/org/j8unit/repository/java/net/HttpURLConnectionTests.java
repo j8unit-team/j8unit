@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HttpURLConnectionClassTests}).
+ * {@link org.j8unit.repository.java.net.HttpURLConnectionClassTests}).
  * </p>
  *
  * @param SUT
@@ -79,6 +79,28 @@ extends URLConnectionTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#setRequestMethod(String)
+     * public void java.net.HttpURLConnection.setRequestMethod(java.lang.String) throws java.net.ProtocolException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRequestMethod_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.net.HttpURLConnection#getInstanceFollowRedirects() public boolean
      * java.net.HttpURLConnection.getInstanceFollowRedirects()}.
@@ -94,28 +116,6 @@ extends URLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInstanceFollowRedirects()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#setRequestMethod(String)
-     * public void java.net.HttpURLConnection.setRequestMethod(java.lang.String) throws java.net.ProtocolException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRequestMethod_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,6 +259,28 @@ extends URLConnectionTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#getResponseCode() public
+     * int java.net.HttpURLConnection.getResponseCode() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResponseCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.net.HttpURLConnection#getHeaderFieldDate(String, long) public long
      * java.net.HttpURLConnection.getHeaderFieldDate(java.lang.String,long)}.
@@ -275,28 +297,6 @@ extends URLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getHeaderFieldDate_String_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#getResponseCode() public
-     * int java.net.HttpURLConnection.getResponseCode() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResponseCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -397,4 +397,5 @@ extends URLConnectionTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.HttpURLConnection]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpURLConnection]
+
 }

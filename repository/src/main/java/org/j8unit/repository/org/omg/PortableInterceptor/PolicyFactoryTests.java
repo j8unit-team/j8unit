@@ -16,7 +16,7 @@ import org.omg.PortableInterceptor.PolicyFactory;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link PolicyFactoryClassTests}).
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,4 +34,5 @@ extends PolicyFactoryOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT>
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.PolicyFactory]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.PolicyFactory]
+
 }

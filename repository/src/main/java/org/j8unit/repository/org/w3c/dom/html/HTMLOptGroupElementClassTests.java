@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLOptGroupElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLOptGroupElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLOptGroupElementTests}.
  * </p>
  *
  * <p>

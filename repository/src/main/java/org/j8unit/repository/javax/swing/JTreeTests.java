@@ -6,7 +6,6 @@ import javax.swing.JTree.DynamicUtilTreeNode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleTests;
-import org.j8unit.repository.javax.swing.JTreeClassTests.DynamicUtilTreeNodeClassTests;
 import org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeTests;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -22,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link JTreeClassTests}).
+ * {@link org.j8unit.repository.javax.swing.JTreeClassTests}).
  * </p>
  *
  * @param SUT
@@ -174,28 +173,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isEditing() public boolean
-     * javax.swing.JTree.isEditing()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setScrollsOnExpand(boolean) public
      * void javax.swing.JTree.setScrollsOnExpand(boolean)}.
      *
@@ -210,6 +187,28 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setScrollsOnExpand_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isEditing() public boolean
+     * javax.swing.JTree.isEditing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEditing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -624,28 +623,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowHeight() public int
-     * javax.swing.JTree.getRowHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTree#collapsePath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.collapsePath(javax.swing.tree.TreePath)}.
@@ -661,6 +638,28 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_collapsePath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowHeight() public int
+     * javax.swing.JTree.getRowHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -714,28 +713,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setRowHeight(int) public void
-     * javax.swing.JTree.setRowHeight(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRowHeight_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTree#addTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
      * javax.swing.JTree.addTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
@@ -751,6 +728,28 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addTreeExpansionListener_TreeExpansionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setRowHeight(int) public void
+     * javax.swing.JTree.setRowHeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRowHeight_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1032,29 +1031,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
-     * javax.swing.JTree.setModel(javax.swing.tree.TreeModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setModel_TreeModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTree#addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) public void
      * javax.swing.JTree.addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
      *
@@ -1077,8 +1053,9 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getUI() public
-     * javax.swing.plaf.TreeUI javax.swing.JTree.getUI()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
+     * javax.swing.JTree.setModel(javax.swing.tree.TreeModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1090,7 +1067,7 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUI()
+    public default void test_setModel_TreeModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1113,6 +1090,28 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLargeModel_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getUI() public
+     * javax.swing.plaf.TreeUI javax.swing.JTree.getUI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1323,29 +1322,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
-     * javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCellRenderer_TreeCellRenderer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTree#removeSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.removeSelectionPath(javax.swing.tree.TreePath)}.
      *
@@ -1360,6 +1336,29 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeSelectionPath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
+     * javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCellRenderer_TreeCellRenderer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1995,6 +1994,29 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
+     * javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeTreeExpansionListener_TreeExpansionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTree#getRowForPath(javax.swing.tree.TreePath) public int
      * javax.swing.JTree.getRowForPath(javax.swing.tree.TreePath)}.
      *
@@ -2031,29 +2053,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCellEditor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
-     * javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeTreeExpansionListener_TreeExpansionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2689,28 +2688,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getVisibleRowCount() public int
-     * javax.swing.JTree.getVisibleRowCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVisibleRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#clearSelection() public void
      * javax.swing.JTree.clearSelection()}.
      *
@@ -2725,6 +2702,28 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clearSelection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getVisibleRowCount() public int
+     * javax.swing.JTree.getVisibleRowCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVisibleRowCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2756,6 +2755,7 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -2766,7 +2766,7 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DynamicUtilTreeNodeClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.JTreeClassTests.DynamicUtilTreeNodeClassTests}).
      * </p>
      *
      * @param SUT
@@ -2878,6 +2878,7 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
     }
 
     /**
@@ -2975,6 +2976,7 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DropLocation]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DropLocation]
+
     }
 
 }

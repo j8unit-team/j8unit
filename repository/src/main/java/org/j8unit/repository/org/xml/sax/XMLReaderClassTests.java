@@ -18,7 +18,8 @@ import org.xml.sax.XMLReader;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLReaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.xml.sax.XMLReaderTests}.
  * </p>
  *
  * <p>

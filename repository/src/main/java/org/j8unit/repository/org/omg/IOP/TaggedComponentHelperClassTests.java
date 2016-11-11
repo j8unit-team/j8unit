@@ -19,7 +19,7 @@ import org.omg.IOP.TaggedComponentHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link TaggedComponentHelperTests}.
+ * {@link org.j8unit.repository.org.omg.IOP.TaggedComponentHelperTests}.
  * </p>
  *
  * <p>

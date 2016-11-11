@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link BeanContextSupport} (by simply reusing
- * the J8Unit test interface {@link BeanContextSupportClassTests}).
+ * the J8Unit test interface {@link org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests}).
  */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
@@ -27,8 +27,8 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport(java.beans.beancontext.BeanContext, java.util.Locale)
-     * public java.beans.beancontext.BeanContextSupport(java.beans.beancontext.BeanContext,java.util.Locale)}.
+     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport(java.beans.beancontext.BeanContext) public
+     * java.beans.beancontext.BeanContextSupport(java.beans.beancontext.BeanContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,12 +40,33 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BeanContextSupport_BeanContext_Locale()
+    public void create_BeanContextSupport_BeanContext()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextSupport sut = null; // = new BeanContextSupport(java.beans.beancontext.BeanContext,
-                                             // java.util.Locale);
+        final BeanContextSupport sut = null; // = new BeanContextSupport(java.beans.beancontext.BeanContext);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport() public
+     * java.beans.beancontext.BeanContextSupport()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BeanContextSupport()
+    throws Exception {
+        // create new instance
+        final BeanContextSupport sut = new BeanContextSupport();
     }
 
     /**
@@ -76,8 +97,8 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport() public
-     * java.beans.beancontext.BeanContextSupport()}.
+     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport(java.beans.beancontext.BeanContext, java.util.Locale)
+     * public java.beans.beancontext.BeanContextSupport(java.beans.beancontext.BeanContext,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,33 +110,12 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BeanContextSupport()
-    throws Exception {
-        // create new instance
-        final BeanContextSupport sut = new BeanContextSupport();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport(java.beans.beancontext.BeanContext) public
-     * java.beans.beancontext.BeanContextSupport(java.beans.beancontext.BeanContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BeanContextSupport_BeanContext()
+    public void create_BeanContextSupport_BeanContext_Locale()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BeanContextSupport sut = null; // = new BeanContextSupport(java.beans.beancontext.BeanContext);
+        final BeanContextSupport sut = null; // = new BeanContextSupport(java.beans.beancontext.BeanContext,
+                                             // java.util.Locale);
     }
 
     /**

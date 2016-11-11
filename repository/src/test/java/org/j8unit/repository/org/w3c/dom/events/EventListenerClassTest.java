@@ -6,7 +6,7 @@ import org.w3c.dom.events.EventListener;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link EventListener} (by simply reusing the
- * J8Unit test interface {@link EventListenerClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.events.EventListenerClassTests}).
  */
 
 @RunWith(J8Unit4.class)

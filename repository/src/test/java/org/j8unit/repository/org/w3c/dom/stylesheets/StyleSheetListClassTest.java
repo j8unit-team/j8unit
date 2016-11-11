@@ -6,7 +6,7 @@ import org.w3c.dom.stylesheets.StyleSheetList;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyleSheetList} (by simply reusing the
- * J8Unit test interface {@link StyleSheetListClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetListClassTests}).
  */
 
 @RunWith(J8Unit4.class)

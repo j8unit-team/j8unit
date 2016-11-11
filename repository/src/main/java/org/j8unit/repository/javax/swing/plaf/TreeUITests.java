@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link TreeUIClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.TreeUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -57,28 +57,6 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree)
-     * public abstract boolean javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditing_JTree()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.TreeUI#getClosestPathForLocation(javax.swing.JTree, int, int) public abstract
      * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getClosestPathForLocation(javax.swing.JTree,int,int)}.
@@ -94,6 +72,28 @@ extends ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getClosestPathForLocation_JTree_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree)
+     * public abstract boolean javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEditing_JTree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -264,4 +264,5 @@ extends ComponentUITests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.TreeUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.TreeUI]
+
 }

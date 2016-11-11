@@ -18,7 +18,7 @@ import org.xml.sax.HandlerBase;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link HandlerBaseClassTests}).
+ * {@link org.j8unit.repository.org.xml.sax.HandlerBaseClassTests}).
  * </p>
  *
  * @param SUT
@@ -370,4 +370,5 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.HandlerBase]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.HandlerBase]
+
 }

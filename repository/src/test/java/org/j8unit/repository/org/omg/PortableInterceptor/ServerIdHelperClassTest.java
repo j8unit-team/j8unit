@@ -11,7 +11,7 @@ import org.omg.PortableInterceptor.ServerIdHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServerIdHelper} (by simply reusing the
- * J8Unit test interface {@link ServerIdHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerIdHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

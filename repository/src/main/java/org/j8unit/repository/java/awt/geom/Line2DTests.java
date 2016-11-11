@@ -23,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link Line2DClassTests}).
+ * {@link org.j8unit.repository.java.awt.geom.Line2DClassTests}).
  * </p>
  *
  * @param SUT
@@ -106,28 +106,6 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptSegDistSq(double, double)
-     * public double java.awt.geom.Line2D.ptSegDistSq(double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptSegDistSq_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.Line2D#ptSegDistSq(java.awt.geom.Point2D) public double
      * java.awt.geom.Line2D.ptSegDistSq(java.awt.geom.Point2D)}.
@@ -143,6 +121,28 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_ptSegDistSq_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptSegDistSq(double, double)
+     * public double java.awt.geom.Line2D.ptSegDistSq(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptSegDistSq_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -246,29 +246,6 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.Line2D#intersectsLine(double, double, double, double) public boolean
-     * java.awt.geom.Line2D.intersectsLine(double,double,double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intersectsLine_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.Line2D#intersectsLine(java.awt.geom.Line2D) public boolean
      * java.awt.geom.Line2D.intersectsLine(java.awt.geom.Line2D)}.
      *
@@ -291,8 +268,9 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#getX1() public abstract double
-     * java.awt.geom.Line2D.getX1()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Line2D#intersectsLine(double, double, double, double) public boolean
+     * java.awt.geom.Line2D.intersectsLine(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -304,29 +282,7 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getX1()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptSegDist(double, double)
-     * public double java.awt.geom.Line2D.ptSegDist(double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptSegDist_double_double()
+    public default void test_intersectsLine_double_double_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -358,6 +314,50 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptSegDist(double, double)
+     * public double java.awt.geom.Line2D.ptSegDist(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptSegDist_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#getX1() public abstract double
+     * java.awt.geom.Line2D.getX1()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getX1()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#clone() public java.lang.Object
      * java.awt.geom.Line2D.clone()}.
      *
@@ -372,28 +372,6 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#setLine(java.awt.geom.Line2D)
-     * public void java.awt.geom.Line2D.setLine(java.awt.geom.Line2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLine_Line2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -417,6 +395,28 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLine_Point2D_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#setLine(java.awt.geom.Line2D)
+     * public void java.awt.geom.Line2D.setLine(java.awt.geom.Line2D)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLine_Line2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -586,8 +586,8 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#getBounds() public
-     * java.awt.Rectangle java.awt.geom.Line2D.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptLineDist(double, double)
+     * public double java.awt.geom.Line2D.ptLineDist(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -597,10 +597,9 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getBounds()
+    public default void test_ptLineDist_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -632,8 +631,8 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#ptLineDist(double, double)
-     * public double java.awt.geom.Line2D.ptLineDist(double,double)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Line2D#getBounds() public
+     * java.awt.Rectangle java.awt.geom.Line2D.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -643,9 +642,10 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_ptLineDist_double_double()
+    public default void test_getBounds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -747,6 +747,7 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Line2D]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Line2D]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -983,6 +984,7 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Line2D$Float]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Line2D$Float]
+
     }
 
     /**
@@ -1198,6 +1200,7 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.Line2D$Double]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.Line2D$Double]
+
     }
 
 }

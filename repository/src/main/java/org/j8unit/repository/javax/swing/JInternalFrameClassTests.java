@@ -5,7 +5,6 @@ import javax.swing.JInternalFrame;
 import javax.swing.JInternalFrame.JDesktopIcon;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
-import org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,8 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link JInternalFrameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.JInternalFrameTests}.
  * </p>
  *
  * <p>
@@ -85,7 +85,8 @@ extends AccessibleClassTests<SUT>, WindowConstantsClassTests<SUT>, RootPaneConta
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link JDesktopIconTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests}.
      * </p>
      *
      * <p>

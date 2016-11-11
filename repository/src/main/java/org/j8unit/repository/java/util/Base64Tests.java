@@ -6,7 +6,6 @@ import java.util.Base64.Encoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link Base64ClassTests}).
+ * {@link org.j8unit.repository.java.util.Base64ClassTests}).
  * </p>
  *
  * @param SUT
@@ -39,6 +38,7 @@ extends ObjectTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -49,7 +49,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link EncoderClassTests}).
+     * (see {@link org.j8unit.repository.java.util.Base64ClassTests.EncoderClassTests}).
      * </p>
      *
      * @param SUT
@@ -201,6 +201,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Encoder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Encoder]
+
     }
 
     /**
@@ -213,7 +214,7 @@ extends ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link DecoderClassTests}).
+     * (see {@link org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests}).
      * </p>
      *
      * @param SUT
@@ -343,6 +344,7 @@ extends ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Decoder]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Decoder]
+
     }
 
 }

@@ -11,7 +11,7 @@ import org.omg.DynamicAny.DynValueHelper;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynValueHelper} (by simply reusing the
- * J8Unit test interface {@link DynValueHelperClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynValueHelperClassTests}).
  */
 
 @RunWith(J8Unit4.class)

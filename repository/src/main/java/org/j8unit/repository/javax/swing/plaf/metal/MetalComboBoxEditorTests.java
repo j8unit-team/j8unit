@@ -16,7 +16,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link MetalComboBoxEditorClassTests}).
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests}).
  * </p>
  *
  * @param SUT
@@ -34,6 +34,7 @@ extends BasicComboBoxEditorTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor]
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -62,6 +63,7 @@ extends BasicComboBoxEditorTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor$UIResource]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor$UIResource]
+
     }
 
 }

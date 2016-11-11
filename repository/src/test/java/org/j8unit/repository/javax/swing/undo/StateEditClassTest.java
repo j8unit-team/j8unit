@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link StateEdit} (by simply reusing the J8Unit
- * test interface {@link StateEditClassTests}).
+ * test interface {@link org.j8unit.repository.javax.swing.undo.StateEditClassTests}).
  */
 
 @RunWith(J8Unit4.class)
@@ -22,29 +22,6 @@ implements StateEditClassTests<StateEdit> {
     @Override
     public Class<StateEdit> createNewSUT() {
         return StateEdit.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.undo.StateEdit#StateEdit(javax.swing.undo.StateEditable, String) public
-     * javax.swing.undo.StateEdit(javax.swing.undo.StateEditable,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_StateEdit_StateEditable_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable, String);
     }
 
     /**
@@ -68,6 +45,29 @@ implements StateEditClassTests<StateEdit> {
         // create new instance
         @SuppressWarnings("unused")
         final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.undo.StateEdit#StateEdit(javax.swing.undo.StateEditable, String) public
+     * javax.swing.undo.StateEdit(javax.swing.undo.StateEditable,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_StateEdit_StateEditable_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable, String);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.StateEdit]

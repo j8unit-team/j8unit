@@ -19,7 +19,8 @@ import org.omg.CORBA.UserException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link UserExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.omg.CORBA.UserExceptionTests}.
  * </p>
  *
  * <p>

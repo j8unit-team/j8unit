@@ -17,7 +17,8 @@ import org.w3c.dom.html.HTMLMapElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLMapElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLMapElementTests}.
  * </p>
  *
  * <p>

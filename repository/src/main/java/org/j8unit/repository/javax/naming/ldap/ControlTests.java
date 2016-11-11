@@ -102,4 +102,5 @@ extends SerializableTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.Control]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.Control]
+
 }

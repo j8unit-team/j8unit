@@ -7,7 +7,7 @@ import org.omg.CORBA.CustomMarshal;
 
 /**
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CustomMarshal} (by simply reusing the
- * J8Unit test interface {@link CustomMarshalTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.CustomMarshalTests}).
  */
 
 @RunWith(J8Unit4.class)

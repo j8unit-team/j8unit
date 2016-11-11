@@ -10,7 +10,7 @@ import org.omg.PortableInterceptor.InvalidSlot;
 
 /**
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidSlot} (by simply reusing the
- * J8Unit test interface {@link InvalidSlotClassTests}).
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotClassTests}).
  */
 
 @RunWith(J8Unit4.class)

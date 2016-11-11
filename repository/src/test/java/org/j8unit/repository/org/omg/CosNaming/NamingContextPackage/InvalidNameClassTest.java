@@ -15,7 +15,7 @@ import org.omg.CosNaming.NamingContextPackage.InvalidName;
 
 @RunWith(J8Unit4.class)
 public class InvalidNameClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameClassTests<InvalidName> {
+implements InvalidNameClassTests<InvalidName> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.InvalidName]
 
