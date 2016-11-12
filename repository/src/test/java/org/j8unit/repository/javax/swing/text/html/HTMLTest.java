@@ -165,7 +165,8 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(Tag.ADDRESS, //
+            return TestParametersUtil.testParametersOf(new Tag(), //
+                                                       Tag.ADDRESS, //
                                                        Tag.SCRIPT, //
                                                        Tag.BASEFONT, //
                                                        Tag.BODY, //

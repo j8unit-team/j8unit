@@ -23,7 +23,8 @@ implements FileDescriptorTests<FileDescriptor> {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> sutData() {
-        return testParametersOf(FileDescriptor.in, //
+        return testParametersOf(new FileDescriptor(), //
+                                FileDescriptor.in, //
                                 FileDescriptor.err, //
                                 FileDescriptor.out);
     }

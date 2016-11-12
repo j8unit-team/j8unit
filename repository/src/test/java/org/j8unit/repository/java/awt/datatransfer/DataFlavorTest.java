@@ -23,7 +23,8 @@ implements DataFlavorTests<DataFlavor> {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> sutData() {
-        return testParametersOf(DataFlavor.stringFlavor, //
+        return testParametersOf(new DataFlavor(), //
+                                DataFlavor.stringFlavor, //
                                 DataFlavor.javaFileListFlavor, //
                                 DataFlavor.plainTextFlavor, //
                                 DataFlavor.fragmentHtmlFlavor, //
