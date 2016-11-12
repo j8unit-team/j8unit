@@ -1,13 +1,12 @@
-package org.j8unit.repository.java.lang;
+package org.j8unit.repository.java.util;
 
 import static java.util.Arrays.asList;
-import static java.util.Collections.emptyList;
 import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
-import static java.util.Collections.singletonList;
-import static java.util.Collections.unmodifiableCollection;
+import static java.util.Collections.unmodifiableSet;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import java.util.Set;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.runner.RunWith;
@@ -17,21 +16,22 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-public class UnmodifiableIterableTest
-implements UnmodifiableIterableTests<Iterable<Object>, Object> {
+public class UnmodifiableSetTest
+implements UnmodifiableSetTests<Set<Object>, Object> {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {
-        return testParametersOf(emptyList(), singletonList("single"), unmodifiableCollection(emptyList()), unmodifiableCollection(singletonList("single")),
-                                unmodifiableCollection(asList("first", "second")), emptySet(), singleton("set-single"), unmodifiableCollection(emptySet()),
-                                unmodifiableCollection(singleton("set-single")), unmodifiableCollection(asList("first", "second").stream().collect(toSet())));
+        final Set<Object> emptySet = emptySet();
+        final Set<String> singletonSet = singleton("set-single");
+        return testParametersOf(/* emptySet, */ /* singletonSet, */ unmodifiableSet(emptySet), unmodifiableSet(singletonSet),
+                                unmodifiableSet(asList("first", "second").stream().collect(toSet())));
     }
 
     @Parameter(0)
-    public Iterable<Object> sut;
+    public Set<Object> sut;
 
     @Override
-    public Iterable<Object> createNewSUT() {
+    public Set<Object> createNewSUT() {
         return this.sut;
     }
 

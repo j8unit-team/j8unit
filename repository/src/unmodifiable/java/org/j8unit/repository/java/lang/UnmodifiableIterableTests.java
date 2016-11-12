@@ -9,6 +9,8 @@ import org.junit.experimental.categories.Category;
 
 /**
  * @see UnmodifiableIteratorTests
+ *
+ * @since 0.9.5
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
