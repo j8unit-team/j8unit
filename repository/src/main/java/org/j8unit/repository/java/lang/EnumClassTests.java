@@ -75,7 +75,7 @@ extends ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Enum]
 
     /**
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void enumsMustContainImplicitilyDefinedValuesMethod()

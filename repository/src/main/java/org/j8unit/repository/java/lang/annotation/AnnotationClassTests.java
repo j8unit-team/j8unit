@@ -72,7 +72,7 @@ extends RepositoryClassTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Annotation]
 
     /**
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void declaredMethodsCannotHaveFormalParameters() {
@@ -84,7 +84,6 @@ extends RepositoryClassTests<SUT> {
             try {
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
-                continue;
             } catch (final NoSuchMethodException ignore) {
                 final Class<?>[] formals = method.getParameterTypes();
                 assert formals != null;
@@ -94,7 +93,7 @@ extends RepositoryClassTests<SUT> {
     }
 
     /**
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void declaredMethodsCannotHaveThrowsClause() {
@@ -106,7 +105,6 @@ extends RepositoryClassTests<SUT> {
             try {
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
-                continue;
             } catch (final NoSuchMethodException ignore) {
                 final Class<?>[] exceptions = method.getExceptionTypes();
                 assert exceptions != null;
@@ -116,7 +114,7 @@ extends RepositoryClassTests<SUT> {
     }
 
     /**
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void declaredMethodsCannotHaveTypeParameters() {
@@ -128,7 +126,6 @@ extends RepositoryClassTests<SUT> {
             try {
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
-                continue;
             } catch (final NoSuchMethodException ignore) {
                 final java.lang.reflect.TypeVariable<Method>[] types = method.getTypeParameters();
                 assert types != null;

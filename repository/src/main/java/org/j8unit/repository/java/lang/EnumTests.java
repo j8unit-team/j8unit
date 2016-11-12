@@ -196,7 +196,7 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
      * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
      *      targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getDeclaringClassMustBeAssignableFromGetClass() {
@@ -211,7 +211,7 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
      * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
      *      targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getDeclaringClassMustBeEnum() {
@@ -224,7 +224,7 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
     /**
      * @see Enum#ordinal() public final int java.lang.Enum.ordinal() (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void ordinalMustBePositive()

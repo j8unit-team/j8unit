@@ -1422,7 +1422,7 @@ extends SerializableTests<SUT>, GenericDeclarationTests<SUT>, TypeTests<SUT>, Ob
     /**
      * @see Class#getName() public java.lang.String java.lang.Class.getName() (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getNameMustBeNotNull() {
@@ -1434,7 +1434,7 @@ extends SerializableTests<SUT>, GenericDeclarationTests<SUT>, TypeTests<SUT>, Ob
     /**
      * @see Class#getName() public java.lang.String java.lang.Class.getName() (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getNameMustBeSyntacticallyValidIdentifier() {

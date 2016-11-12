@@ -467,7 +467,7 @@ extends IterableTests<SUT, E> {
      * @see java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void testIteratorAccordingToIsEmpty() {
@@ -485,7 +485,7 @@ extends IterableTests<SUT, E> {
      * @see java.util.Collection#size() public abstract int java.util.Collection.size() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void testNonNegativeSize() {
@@ -500,7 +500,7 @@ extends IterableTests<SUT, E> {
      * @see java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void testSizeAccordingToIsEmpty() {
@@ -519,7 +519,7 @@ extends IterableTests<SUT, E> {
      * @see java.util.Collection#toArray() public abstract java.lang.Object[] java.util.Collection.toArray() (the hereby
      *      targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void testToArraySize() {

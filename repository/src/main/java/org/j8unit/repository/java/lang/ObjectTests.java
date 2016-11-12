@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -240,7 +241,7 @@ extends RepositoryTests<SUT> {
      * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     @Category(Should.class)
@@ -254,7 +255,7 @@ extends RepositoryTests<SUT> {
      * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     @Category(Should.class)
@@ -268,7 +269,7 @@ extends RepositoryTests<SUT> {
      * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getClassMustMatchIsInstance() {
@@ -283,13 +284,27 @@ extends RepositoryTests<SUT> {
      * @see Object#getClass() public final native java.lang.Class java.lang.Object.getClass() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void getClassMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertNotNull(sut.getClass());
+    }
+
+    /**
+     * @see Object#hashCode() public native int java.lang.Object.hashCode() (the hereby targeted method-under-test)
+     *
+     * @since 0.9.3
+     */
+    @Test
+    public default void hashCodeMustBeConsistent() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final int hashCode = sut.hashCode();
+        final int hashCode2 = sut.hashCode();
+        assertEquals(hashCode, hashCode2);
     }
 
     /**
@@ -309,7 +324,7 @@ extends RepositoryTests<SUT> {
      * @see Object#toString() public java.lang.String java.lang.Object.toString() (the hereby targeted
      *      method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void toStringMustReturnNotNull() {

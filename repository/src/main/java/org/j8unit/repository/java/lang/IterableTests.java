@@ -109,7 +109,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     @Category(TimeLinear.class)
@@ -124,7 +124,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void forEachMustRelayException() {
@@ -151,7 +151,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test(expected = NullPointerException.class)
     @Category(TimeLinear.class)
@@ -172,7 +172,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
      *      targeted method-under-test)
      *
-     * @since 2.0.0
+     * @since 0.9.3
      */
     @Test
     public default void spliteratorMustReturnNotNull() {
