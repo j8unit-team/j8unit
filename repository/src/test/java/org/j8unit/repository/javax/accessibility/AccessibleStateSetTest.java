@@ -35,6 +35,12 @@ implements FactoryBasedJ8UnitTest<AccessibleStateSet>, AccessibleStateSetTests<A
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleStateSet]
 
+    /**
+     * @see AccessibleStateSetBugs#toStringReturnsNull() {@code new AccessibleStateSet().toString()} returns
+     *      {@code null} illegally!
+     *
+     * @since 0.9.4
+     */
     @Category(JavaBug.class)
     @Override
     public void toStringMustReturnNotNull() {

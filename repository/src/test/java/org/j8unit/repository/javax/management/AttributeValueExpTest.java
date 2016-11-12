@@ -35,6 +35,14 @@ implements FactoryBasedJ8UnitTest<AttributeValueExp>, AttributeValueExpTests<Att
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.AttributeValueExp]
 
+    /**
+     * @see AttributeValueExpBugs#toStringReturnsNull() {@code new AttributeValueExp().toString()} returns {@code null}
+     *      illegally!
+     * @see AttributeValueExpBugs#toStringReturnsNull2() {@code new AttributeValueExp(null).toString()} returns
+     *      {@code null} illegally!
+     *
+     * @since 0.9.4
+     */
     @Category(JavaBug.class)
     @Override
     public void toStringMustReturnNotNull() {

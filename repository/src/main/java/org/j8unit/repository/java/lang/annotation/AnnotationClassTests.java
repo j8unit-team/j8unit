@@ -72,6 +72,10 @@ extends RepositoryClassTests<SUT> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Annotation]
 
     /**
+     * @see AnnotationClassBugs#javaCompilerFulfillsVirtueOfAnnotationByMethodWithFormalParameters_Supplier()
+     * @see AnnotationClassBugs#javaCompilerCrashesVirtueOfAnnotationByMethodWithFormalParameters_UnaryOperator()
+     * @see AnnotationClassBugs#javaCompilerFulfillsVirtueOfAnnotationByMethodWithFormalParameters_Callable()
+     *
      * @since 0.9.3
      */
     @Test
@@ -93,6 +97,10 @@ extends RepositoryClassTests<SUT> {
     }
 
     /**
+     * @see AnnotationClassBugs#javaCompilerFulfillsVirtueOfAnnotationByMethodWithThrowsClause_Supplier()
+     * @see AnnotationClassBugs#javaCompilerFulfillsVirtueOfAnnotationByMethodWithThrowsClause_UnaryOperator()
+     * @see AnnotationClassBugs#javaCompilerCrashesVirtueOfAnnotationByMethodWithThrowsClause_Callable()
+     *
      * @since 0.9.3
      */
     @Test

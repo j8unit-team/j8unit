@@ -35,6 +35,14 @@ implements FactoryBasedJ8UnitTest<ContentModel>, ContentModelTests<ContentModel>
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
 
+    /**
+     * @see ContentModelBugs#toStringThrowsAnException() {@code new ContentModel().toString()} throws
+     *      {@code NullPointerException} illegally!
+     * @see ContentModelBugs#toStringThrowsAnException2() {@code new ContentModel(null).toString()} throws
+     *      {@code NullPointerException} illegally!
+     *
+     * @since 0.9.4
+     */
     @Category(JavaBug.class)
     @Override
     public void toStringMustReturnNotNull() {

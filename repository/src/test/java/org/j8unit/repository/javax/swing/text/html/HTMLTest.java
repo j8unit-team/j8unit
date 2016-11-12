@@ -253,6 +253,16 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
 
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
 
+        /**
+         * @see HTMLBugs.TagBugs#toStringReturnsNull() {@code new HTML.Tag().toString()} returns {@code null} illegally!
+         *
+         * @since 0.9.4
+         */
+        @Override
+        public void toStringMustReturnNotNull() {
+            HTMLTests.TagTests.super.toStringMustReturnNotNull();
+        }
+
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
 
     }

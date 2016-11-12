@@ -35,6 +35,14 @@ implements FactoryBasedJ8UnitTest<StringValueExp>, StringValueExpTests<StringVal
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.StringValueExp]
 
+    /**
+     * @see StringValueExpBugs#toStringThrowsAnException() {@code new StringValueExp().toString()} throws
+     *      {@code NullPointerException} illegally!
+     * @see StringValueExpBugs#toStringThrowsAnException2() {@code new StringValueExp(null).toString()} throws
+     *      {@code NullPointerException} illegally!
+     *
+     * @since 0.9.4
+     */
     @Category(JavaBug.class)
     @Override
     public void toStringMustReturnNotNull() {

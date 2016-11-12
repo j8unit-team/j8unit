@@ -35,6 +35,14 @@ implements FactoryBasedJ8UnitTest<DebugGraphics>, DebugGraphicsTests<DebugGraphi
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DebugGraphics]
 
+    /**
+     * @see DebugGraphicsBugs#toStringThrowsAnException() {@code new DebugGraphics().toString()} throws
+     *      {@code NullPointerException} illegally!
+     * @see DebugGraphicsBugs#toStringThrowsAnException() {@code new DebugGraphics(null).toString()} throws
+     *      {@code NullPointerException} illegally!
+     *
+     * @since 0.9.4
+     */
     @Category(JavaBug.class)
     @Override
     public void toStringMustReturnNotNull() {
