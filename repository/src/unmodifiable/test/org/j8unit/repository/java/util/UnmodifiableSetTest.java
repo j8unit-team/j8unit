@@ -6,6 +6,7 @@ import static java.util.Collections.singleton;
 import static java.util.Collections.unmodifiableSet;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import java.util.Collections;
 import java.util.Set;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
@@ -19,6 +20,10 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class UnmodifiableSetTest
 implements UnmodifiableSetTests<Set<Object>, Object> {
 
+    /**
+     * @see EmptySetBugs {@link Collections#emptySet()} has wrong behaviour!
+     * @see SingletonSetBugs {@link Collections#singleton(Object)} has wrong behaviour!
+     */
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {
         final Set<Object> emptySet = emptySet();

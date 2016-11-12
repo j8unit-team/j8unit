@@ -19,6 +19,10 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 public class UnmodifiableListTest
 implements UnmodifiableListTests<List<Object>, Object> {
 
+    /**
+     * @see EmptyListBugs {@link Collections#emptyList()} has wrong behaviour!
+     * @see SingletonListBugs {@link Collections#singletonList(Object)} has wrong behaviour!
+     */
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {
         final List<Object> emptyList = emptyList();
