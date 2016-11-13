@@ -4,8 +4,10 @@ import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import javax.management.remote.rmi._RMIConnection_Stub;
 import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -32,6 +34,18 @@ implements FactoryBasedJ8UnitTest<_RMIConnection_Stub>, _RMIConnection_StubTests
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
+
+    /**
+     * @see _RMIConnection_StubBugs#hashCodeThrowsAnException() {@code new _RMIConnection_Stub().hashCode()} throws
+     *      {@code BAD_OPERATION} illegally!
+     *
+     * @since 0.9.7
+     */
+    @Category(JavaBug.class)
+    @Override
+    public void hashCodeMustBeConsistent() {
+        _RMIConnection_StubTests.super.hashCodeMustBeConsistent();
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
 

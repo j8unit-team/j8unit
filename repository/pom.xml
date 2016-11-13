@@ -15,7 +15,8 @@
   <!-- Bug handling/declaration of 0.9.3: 0.9.4 -->
   <!-- Unmodifiable (Collection API) aspects: 0.9.5 -->
   <!-- Bug handling/declaration of 0.9.5: 0.9.6 -->
-  <version>0.9.6-SNAPSHOT</version>
+  <!-- Further tests and bug handling: 0.9.7 -->
+  <version>0.9.7-SNAPSHOT</version>
   <name>J8Unit Project (Repository)</name>
   <description>Repository of Java-based J8Unit test interfaces.</description>
 
