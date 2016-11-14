@@ -18,7 +18,7 @@ import org.junit.Test;
  */
 public class EmptySetBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsAddAll() {
         final Set<Object> immutable = Collections.emptySet();
         try {
@@ -29,7 +29,7 @@ public class EmptySetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsClear() {
         final Set<Object> immutable = Collections.emptySet();
         try {
@@ -40,7 +40,7 @@ public class EmptySetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsRemove() {
         final Set<Object> immutable = Collections.emptySet();
         try {
@@ -51,7 +51,7 @@ public class EmptySetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsRemoveAll() {
         final Set<Object> immutable = Collections.emptySet();
         try {
@@ -62,7 +62,7 @@ public class EmptySetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsRemoveIf() {
         final Set<Object> immutable = Collections.emptySet();
         try {
@@ -73,7 +73,7 @@ public class EmptySetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptySetIllegallySupportsRetainAll() {
         final Set<Object> immutable = Collections.emptySet();
         try {

@@ -18,7 +18,7 @@ import org.junit.Test;
  */
 public class SingletonListBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonListIllegallySupportsAddAll() {
         final List<Object> immutable = Collections.singletonList("single");
         try {
@@ -29,7 +29,7 @@ public class SingletonListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonListIllegallySupportsRemove() {
         final List<Object> immutable = Collections.singletonList("single");
         try {
@@ -40,7 +40,7 @@ public class SingletonListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonListIllegallySupportsRemoveAll() {
         final List<Object> immutable = Collections.singletonList("single");
         try {
@@ -51,7 +51,7 @@ public class SingletonListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonListIllegallySupportsRetainAll() {
         final List<Object> immutable = Collections.singletonList("single");
         try {
@@ -62,7 +62,7 @@ public class SingletonListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonListIllegallySupportsSort() {
         final List<Object> immutable = Collections.singletonList("single");
         try {

@@ -18,7 +18,7 @@ import org.junit.Test;
  */
 public class SingletonSetBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonSetIllegallySupportsAddAll() {
         final Set<Object> immutable = Collections.singleton("single");
         try {
@@ -29,7 +29,7 @@ public class SingletonSetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonSetIllegallySupportsRemove() {
         final Set<Object> immutable = Collections.singleton("single");
         try {
@@ -40,7 +40,7 @@ public class SingletonSetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonSetIllegallySupportsRemoveAll() {
         final Set<Object> immutable = Collections.singleton("single");
         try {
@@ -51,7 +51,7 @@ public class SingletonSetBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void singletonSetIllegallySupportsRetainAll() {
         final Set<Object> immutable = Collections.singleton("single");
         try {

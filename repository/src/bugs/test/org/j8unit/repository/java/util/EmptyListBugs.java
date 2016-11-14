@@ -19,7 +19,7 @@ import org.junit.Test;
  */
 public class EmptyListBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsAddAll() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -30,7 +30,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsClear() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -41,7 +41,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsRemove() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -52,7 +52,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsRemoveAll() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -63,7 +63,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsRemoveIf() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -74,7 +74,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsReplaceAll() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -85,7 +85,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsRetainAll() {
         final List<Object> immutable = Collections.emptyList();
         try {
@@ -96,7 +96,7 @@ public class EmptyListBugs {
         }
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsSort() {
         final List<Object> immutable = Collections.emptyList();
         try {
