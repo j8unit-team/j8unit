@@ -6,6 +6,7 @@ import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
@@ -41,6 +42,7 @@ implements FactoryBasedJ8UnitTest<_RMIConnection_Stub>, _RMIConnection_StubTests
      *
      * @since 0.9.7
      */
+    @Test
     @Category(JavaBug.class)
     @Override
     public void hashCodeMustBeConsistent() {
