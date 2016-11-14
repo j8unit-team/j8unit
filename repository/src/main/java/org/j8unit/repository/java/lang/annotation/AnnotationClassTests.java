@@ -86,6 +86,7 @@ extends RepositoryClassTests<SUT> {
         assert methods != null;
         for (final Method method : methods) {
             try {
+                // skip methods originally specified by Object
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
             } catch (final NoSuchMethodException ignore) {
@@ -111,6 +112,7 @@ extends RepositoryClassTests<SUT> {
         assert methods != null;
         for (final Method method : methods) {
             try {
+                // skip methods originally specified by Object
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
             } catch (final NoSuchMethodException ignore) {
@@ -132,6 +134,7 @@ extends RepositoryClassTests<SUT> {
         assert methods != null;
         for (final Method method : methods) {
             try {
+                // skip methods originally specified by Object
                 final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
                 assert origin != null;
             } catch (final NoSuchMethodException ignore) {
