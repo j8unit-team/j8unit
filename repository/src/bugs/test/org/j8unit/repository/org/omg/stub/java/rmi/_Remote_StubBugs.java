@@ -9,10 +9,10 @@ import org.omg.stub.java.rmi._Remote_Stub;
  */
 public class _Remote_StubBugs {
 
-    @Test(expected = BAD_OPERATION.class)
+    @Test(expected = BAD_OPERATION.class /* because there is a bug! */)
     public void hashCodeThrowsAnException() {
-        final _Remote_StubTests<_Remote_Stub> rs = _Remote_Stub::new;
-        rs.hashCodeMustBeConsistent();
+        final _Remote_Stub instance = new _Remote_Stub();
+        instance.hashCode();
     }
 
 }

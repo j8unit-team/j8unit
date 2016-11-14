@@ -6,10 +6,10 @@ import org.omg.CORBA.BAD_OPERATION;
 
 public class _RMIConnection_StubBugs {
 
-    @Test(expected = BAD_OPERATION.class)
+    @Test(expected = BAD_OPERATION.class /* because there is a bug! */)
     public void hashCodeThrowsAnException() {
-        final _RMIConnection_StubTests<_RMIConnection_Stub> rcs = _RMIConnection_Stub::new;
-        rcs.hashCodeMustBeConsistent();
+        final _RMIConnection_Stub instance = new _RMIConnection_Stub();
+        instance.hashCode();
     }
 
 }
