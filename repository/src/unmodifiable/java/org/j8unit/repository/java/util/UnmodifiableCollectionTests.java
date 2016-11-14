@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import static java.util.Collections.emptyList;
 import java.util.Collection;
 import java.util.Collections;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -20,15 +21,14 @@ extends UnmodifiableIterableTests<SUT, E>, CollectionTests<SUT, E> {
     public default void addAllMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.addAll(sut);
+        sut.addAll(emptyList());
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void addMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        final E element = null;
-        sut.add(element);
+        sut.add(sut.size() > 0 ? sut.iterator().next() : null);
     }
 
     @Test(expected = UnsupportedOperationException.class)
@@ -42,7 +42,7 @@ extends UnmodifiableIterableTests<SUT, E>, CollectionTests<SUT, E> {
     public default void removeAllMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.removeAll(sut);
+        sut.removeAll(Collections.emptyList());
     }
 
     @Test(expected = UnsupportedOperationException.class)
@@ -50,15 +50,14 @@ extends UnmodifiableIterableTests<SUT, E>, CollectionTests<SUT, E> {
     public default void removeIfMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.removeIf(e -> true);
+        sut.removeIf(e -> false);
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void removeMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        final E element = null;
-        sut.remove(element);
+        sut.remove(new Object());
     }
 
     @Test(expected = UnsupportedOperationException.class)
@@ -66,7 +65,7 @@ extends UnmodifiableIterableTests<SUT, E>, CollectionTests<SUT, E> {
     public default void retainAllMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.retainAll(Collections.emptyList());
+        sut.retainAll(sut);
     }
 
 }
