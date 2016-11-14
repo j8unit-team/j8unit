@@ -27,120 +27,132 @@ extends org.junit.Assert {
     protected Assert() {
     }
 
+    /*
+     * CharSequence-based assert-methods:
+     */
+
+    private static final Supplier<String> resolve(final CharSequence cs) {
+        return () -> Objects.toString(cs, null);
+    }
+
     public static void assertTrue(final CharSequence message, final boolean condition) {
-        assertTrue(Objects.toString(message, null), condition);
+        assertTrue(resolve(message), condition);
     }
 
     public static void assertFalse(final CharSequence message, final boolean condition) {
-        assertFalse(Objects.toString(message, null), condition);
+        assertFalse(resolve(message), condition);
     }
 
     public static void fail(final CharSequence message) {
-        fail(Objects.toString(message, null));
+        fail(resolve(message));
     }
 
     public static void assertEquals(final CharSequence message, final Object expected, final Object actual) {
-        assertEquals(Objects.toString(message, null), expected, actual);
+        assertEquals(resolve(message), expected, actual);
     }
 
     public static void assertNotEquals(final CharSequence message, final Object unexpected, final Object actual) {
-        assertNotEquals(Objects.toString(message, null), unexpected, actual);
+        assertNotEquals(resolve(message), unexpected, actual);
     }
 
     public static void assertNotEquals(final CharSequence message, final long unexpected, final long actual) {
-        assertNotEquals(Objects.toString(message, null), unexpected, actual);
+        assertNotEquals(resolve(message), unexpected, actual);
     }
 
     public static void assertNotEquals(final CharSequence message, final double unexpected, final double actual, final double delta) {
-        assertNotEquals(Objects.toString(message, null), unexpected, actual, delta);
+        assertNotEquals(resolve(message), unexpected, actual, delta);
     }
 
     public static void assertArrayEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final boolean[] expecteds, final boolean[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final byte[] expecteds, final byte[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final char[] expecteds, final char[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final short[] expecteds, final short[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final int[] expecteds, final int[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final long[] expecteds, final long[] actuals)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static void assertArrayEquals(final CharSequence message, final double[] expecteds, final double[] actuals, final double delta)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     public static void assertArrayEquals(final CharSequence message, final float[] expecteds, final float[] actuals, final float delta)
     throws ArrayComparisonFailure {
-        assertArrayEquals(Objects.toString(message, null), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     public static void assertEquals(final CharSequence message, final double expected, final double actual, final double delta) {
-        assertEquals(Objects.toString(message, null), expected, actual, delta);
+        assertEquals(resolve(message), expected, actual, delta);
     }
 
     public static void assertEquals(final CharSequence message, final float expected, final float actual, final float delta) {
-        assertEquals(Objects.toString(message, null), expected, actual, delta);
+        assertEquals(resolve(message), expected, actual, delta);
     }
 
     public static void assertNotEquals(final CharSequence message, final float unexpected, final float actual, final float delta) {
-        assertNotEquals(Objects.toString(message, null), unexpected, actual, delta);
+        assertNotEquals(resolve(message), unexpected, actual, delta);
     }
 
     public static void assertEquals(final CharSequence message, final long expected, final long actual) {
-        assertEquals(Objects.toString(message, null), expected, actual);
+        assertEquals(resolve(message), expected, actual);
     }
 
     @Deprecated
     public static void assertEquals(final CharSequence message, final double expected, final double actual) {
-        assertEquals(Objects.toString(message, null), expected, actual);
+        assertEquals(resolve(message), expected, actual);
     }
 
     public static void assertNotNull(final CharSequence message, final Object object) {
-        assertNotNull(Objects.toString(message, null), object);
+        assertNotNull(resolve(message), object);
     }
 
     public static void assertNull(final CharSequence message, final Object object) {
-        assertNull(Objects.toString(message, null), object);
+        assertNull(resolve(message), object);
     }
 
     public static void assertSame(final CharSequence message, final Object expected, final Object actual) {
-        assertSame(Objects.toString(message, null), expected, actual);
+        assertSame(resolve(message), expected, actual);
     }
 
     public static void assertNotSame(final CharSequence message, final Object unexpected, final Object actual) {
-        assertNotSame(Objects.toString(message, null), unexpected, actual);
+        assertNotSame(resolve(message), unexpected, actual);
     }
 
     @Deprecated
     public static void assertEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals) {
-        assertEquals(Objects.toString(message, null), expecteds, actuals);
+        assertEquals(resolve(message), expecteds, actuals);
     }
+
+    /*
+     * Supplier-based assert-methods:
+     */
 
     public static void assertTrue(final Supplier<String> message, final boolean condition) {
         assertTrue(message == null ? null : message.get(), condition);
