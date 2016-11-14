@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.accessibility;
 
+import static org.junit.Assert.assertNotNull;
 import javax.accessibility.AccessibleStateSet;
 import org.junit.Test;
 
@@ -8,10 +9,10 @@ import org.junit.Test;
  */
 public class AccessibleStateSetBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void toStringReturnsNull() {
-        final AccessibleStateSetTests<AccessibleStateSet> ass = AccessibleStateSet::new;
-        ass.toStringMustReturnNotNull();
+        final AccessibleStateSet instance = new AccessibleStateSet();
+        assertNotNull(null, instance.toString());
     }
 
 }

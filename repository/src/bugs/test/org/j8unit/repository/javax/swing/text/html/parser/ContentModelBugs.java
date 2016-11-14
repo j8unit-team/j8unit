@@ -8,16 +8,16 @@ import org.junit.Test;
  */
 public class ContentModelBugs {
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException() {
-        final ContentModelTests<ContentModel> cm = ContentModel::new;
-        cm.toStringMustReturnNotNull();
+        final ContentModel instance = new ContentModel();
+        instance.toString();
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException2() {
-        final ContentModelTests<ContentModel> cm = () -> new ContentModel(null);
-        cm.toStringMustReturnNotNull();
+        final ContentModel instance = new ContentModel(null);
+        instance.toString();
     }
 
 }
