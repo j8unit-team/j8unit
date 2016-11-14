@@ -1,26 +1,37 @@
 package org.j8unit.repository.java.security;
 
+import java.security.PolicySpi;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.PolicySpi class java.security.PolicySpi}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link PolicySpiClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PolicySpi
+ * public abstract class java.security.PolicySpi}.
  * </p>
  *
- * @see java.security.PolicySpi class java.security.PolicySpi (the hereby targeted class-under-test class)
- * @see PolicySpiClassTests PolicySpiClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.PolicySpiClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PolicySpiTests<SUT extends java.security.PolicySpi>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PolicySpiTests<SUT extends PolicySpi>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.PolicySpi]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.PolicySpi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PolicySpi]
 
 }

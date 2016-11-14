@@ -8,6 +8,9 @@ import org.j8unit.repository.java.lang.UnmodifiableIterableTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
+/**
+ * @since 0.9.5
+ */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public interface UnmodifiableCollectionTests<SUT extends Collection<E>, E>

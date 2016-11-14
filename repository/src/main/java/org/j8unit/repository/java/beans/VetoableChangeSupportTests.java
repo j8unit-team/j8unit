@@ -1,49 +1,51 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.VetoableChangeSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.VetoableChangeSupport class java.beans.VetoableChangeSupport}.
- * The complementary j8unit test interface containing the class relevant aspects is
- * {@link VetoableChangeSupportClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link VetoableChangeSupport public class java.beans.VetoableChangeSupport}.
  * </p>
  *
- * @see java.beans.VetoableChangeSupport class java.beans.VetoableChangeSupport (the hereby targeted class-under-test
- *      class)
- * @see VetoableChangeSupportClassTests VetoableChangeSupportClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.VetoableChangeSupportClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VetoableChangeSupportTests<SUT extends java.beans.VetoableChangeSupport>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface VetoableChangeSupportTests<SUT extends VetoableChangeSupport>
+extends SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.VetoableChangeSupport]
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners() public
-     * java.beans.VetoableChangeListener[] java.beans.VetoableChangeSupport.getVetoableChangeListeners()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners() public
-     * java.beans.VetoableChangeListener[] java.beans.VetoableChangeSupport.getVetoableChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners() public java.beans.VetoableChangeListener[]
+     * java.beans.VetoableChangeSupport.getVetoableChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#getVetoableChangeListeners() public java.beans.VetoableChangeListener[]
-     *      java.beans.VetoableChangeSupport.getVetoableChangeListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,12 +59,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners(String) public
-     * java.beans.VetoableChangeListener[]
-     * java.beans.VetoableChangeSupport.getVetoableChangeListeners(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners(String) public
      * java.beans.VetoableChangeListener[]
      * java.beans.VetoableChangeSupport.getVetoableChangeListeners(java.lang.String)}.
      *
@@ -71,10 +69,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#getVetoableChangeListeners(String) public
-     *      java.beans.VetoableChangeListener[]
-     *      java.beans.VetoableChangeSupport.getVetoableChangeListeners(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,12 +83,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.beans.VetoableChangeListener) public void
-     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.beans.VetoableChangeListener)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.beans.VetoableChangeListener) public void
      * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.beans.VetoableChangeListener)}.
      *
@@ -102,9 +92,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#addVetoableChangeListener(java.beans.VetoableChangeListener) public void
-     *      java.beans.VetoableChangeSupport.addVetoableChangeListener(java.beans.VetoableChangeListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,13 +106,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(String, java.beans.VetoableChangeListener)
-     * public void
-     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(String, java.beans.VetoableChangeListener)
      * public void
      * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
@@ -134,9 +116,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#addVetoableChangeListener(String, java.beans.VetoableChangeListener) public
-     *      void java.beans.VetoableChangeSupport.addVetoableChangeListener(java.lang.String,java.beans.
-     *      VetoableChangeListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -150,12 +130,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(java.beans.VetoableChangeListener) public
-     * void java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.beans.VetoableChangeListener)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(java.beans.VetoableChangeListener) public
      * void java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.beans.VetoableChangeListener)}.
      *
@@ -164,9 +139,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#removeVetoableChangeListener(java.beans.VetoableChangeListener) public void
-     *      java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.beans.VetoableChangeListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,27 +153,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
      * public void
-     * java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
-     * public void
-     * java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
-     * .
+     * java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
-     *      public void java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.lang.String,java.beans.
-     *      VetoableChangeListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -214,11 +177,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#hasListeners(String) public boolean
-     * java.beans.VetoableChangeSupport.hasListeners(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#hasListeners(String) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#hasListeners(String) public boolean
      * java.beans.VetoableChangeSupport.hasListeners(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,8 +186,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#hasListeners(String) public boolean
-     *      java.beans.VetoableChangeSupport.hasListeners(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,12 +200,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, Object, Object) public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object) throws
-     * java.beans.PropertyVetoException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, Object, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, Object, Object) public void
      * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object) throws
      * java.beans.PropertyVetoException}.
      *
@@ -255,9 +210,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#fireVetoableChange(String, Object, Object) public void
-     *      java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object)
-     *      throws java.beans.PropertyVetoException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,13 +224,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, boolean, boolean) public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
-     * java.beans.PropertyVetoException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, boolean, boolean) public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public void
+     * java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,39 +234,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#fireVetoableChange(String, boolean, boolean) public void
-     *      java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
-     *      java.beans.PropertyVetoException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireVetoableChange_String_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public
-     * void java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
-     * java.beans.PropertyVetoException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public
-     * void java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
-     * java.beans.PropertyVetoException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public void
-     *      java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
-     *      java.beans.PropertyVetoException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,12 +248,32 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, int, int) public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, boolean, boolean) public void
+     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
      * java.beans.PropertyVetoException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireVetoableChange_String_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(String, int, int) public void
      * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,int,int) throws
      * java.beans.PropertyVetoException}.
      *
@@ -345,9 +282,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeSupport#fireVetoableChange(String, int, int) public void
-     *      java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,int,int) throws
-     *      java.beans.PropertyVetoException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -358,5 +293,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.VetoableChangeSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.VetoableChangeSupport]
 
 }

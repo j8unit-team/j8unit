@@ -1,49 +1,50 @@
 package org.j8unit.repository.javax.crypto.spec;
 
+import javax.crypto.spec.PBEParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.spec.PBEParameterSpec class
- * javax.crypto.spec.PBEParameterSpec}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link PBEParameterSpecClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PBEParameterSpec public class javax.crypto.spec.PBEParameterSpec}.
  * </p>
  *
- * @see javax.crypto.spec.PBEParameterSpec class javax.crypto.spec.PBEParameterSpec (the hereby targeted
- *      class-under-test class)
- * @see PBEParameterSpecClassTests PBEParameterSpecClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.spec.PBEParameterSpecClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PBEParameterSpecTests<SUT extends javax.crypto.spec.PBEParameterSpec>
-extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PBEParameterSpecTests<SUT extends PBEParameterSpec>
+extends AlgorithmParameterSpecTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.PBEParameterSpec]
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getSalt() public byte[]
-     * javax.crypto.spec.PBEParameterSpec.getSalt()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getSalt() public byte[]
-     * javax.crypto.spec.PBEParameterSpec.getSalt()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.PBEParameterSpec#getSalt() public
+     * byte[] javax.crypto.spec.PBEParameterSpec.getSalt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.PBEParameterSpec#getSalt() public byte[] javax.crypto.spec.PBEParameterSpec.getSalt() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +58,16 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getParameterSpec() public
-     * java.security.spec.AlgorithmParameterSpec javax.crypto.spec.PBEParameterSpec.getParameterSpec()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getParameterSpec() public
-     * java.security.spec.AlgorithmParameterSpec javax.crypto.spec.PBEParameterSpec.getParameterSpec()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.PBEParameterSpec#getParameterSpec() public java.security.spec.AlgorithmParameterSpec
+     * javax.crypto.spec.PBEParameterSpec.getParameterSpec()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.PBEParameterSpec#getParameterSpec() public java.security.spec.AlgorithmParameterSpec
-     *      javax.crypto.spec.PBEParameterSpec.getParameterSpec() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,11 +81,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
-     * javax.crypto.spec.PBEParameterSpec.getIterationCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
      * javax.crypto.spec.PBEParameterSpec.getIterationCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +90,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
-     *      javax.crypto.spec.PBEParameterSpec.getIterationCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,5 +101,9 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.PBEParameterSpec]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.PBEParameterSpec]
 
 }

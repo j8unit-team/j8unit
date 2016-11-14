@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.Icon;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,41 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.Icon interface javax.swing.Icon}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link IconClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Icon public
+ * abstract interface javax.swing.Icon}.
  * </p>
  *
- * @see javax.swing.Icon interface javax.swing.Icon (the hereby targeted class-under-test class)
- * @see IconClassTests IconClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.IconClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IconTests<SUT extends javax.swing.Icon>
+public abstract interface IconTests<SUT extends Icon>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Icon]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Icon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public
-     * abstract void javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Icon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public
-     * abstract void javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.Icon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public abstract void
+     * javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Icon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public abstract void
-     *      javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,18 +58,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Icon#getIconHeight() public abstract int javax.swing.Icon.getIconHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Icon#getIconHeight() public abstract int javax.swing.Icon.getIconHeight()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Icon#getIconHeight() public abstract int
+     * javax.swing.Icon.getIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Icon#getIconHeight() public abstract int javax.swing.Icon.getIconHeight() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,18 +80,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Icon#getIconWidth() public abstract int javax.swing.Icon.getIconWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Icon#getIconWidth() public abstract int javax.swing.Icon.getIconWidth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.Icon#getIconWidth() public abstract int
+     * javax.swing.Icon.getIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Icon#getIconWidth() public abstract int javax.swing.Icon.getIconWidth() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,5 +99,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.Icon]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Icon]
 
 }

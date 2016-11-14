@@ -1,50 +1,53 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
+import javax.print.attribute.standard.SheetCollate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.DocAttributeTests;
+import org.j8unit.repository.javax.print.attribute.EnumSyntaxTests;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.SheetCollate class
- * javax.print.attribute.standard.SheetCollate}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SheetCollateClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SheetCollate
+ * public final class javax.print.attribute.standard.SheetCollate}.
  * </p>
  *
- * @see javax.print.attribute.standard.SheetCollate class javax.print.attribute.standard.SheetCollate (the hereby
- *      targeted class-under-test class)
- * @see SheetCollateClassTests SheetCollateClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.standard.SheetCollateClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SheetCollateTests<SUT extends javax.print.attribute.standard.SheetCollate>
-extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>,
-org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {
+public abstract interface SheetCollateTests<SUT extends SheetCollate>
+extends DocAttributeTests<SUT>, PrintRequestAttributeTests<SUT>, PrintJobAttributeTests<SUT>, EnumSyntaxTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.SheetCollate]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.SheetCollate#getCategory() public final java.lang.Class<?
-     * extends javax.print.attribute.Attribute> javax.print.attribute.standard.SheetCollate.getCategory()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.SheetCollate#getCategory() public final java.lang.Class
-     * javax.print.attribute.standard.SheetCollate.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.SheetCollate#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.SheetCollate.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.SheetCollate#getCategory() public final java.lang.Class
-     *      javax.print.attribute.standard.SheetCollate.getCategory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +62,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.SheetCollate#getName() public final java.lang.String
-     * javax.print.attribute.standard.SheetCollate.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.SheetCollate#getName() public final java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.SheetCollate#getName() public final java.lang.String
      * javax.print.attribute.standard.SheetCollate.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +71,7 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.SheetCollate#getName() public final java.lang.String
-     *      javax.print.attribute.standard.SheetCollate.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,5 +83,9 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.SheetCollate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.SheetCollate]
 
 }

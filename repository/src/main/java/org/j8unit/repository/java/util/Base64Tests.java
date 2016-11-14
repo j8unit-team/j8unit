@@ -1,226 +1,80 @@
 package org.j8unit.repository.java.util;
 
+import java.util.Base64;
+import java.util.Base64.Decoder;
+import java.util.Base64.Encoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.Base64 class java.util.Base64}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link Base64ClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Base64 public
+ * class java.util.Base64}.
  * </p>
  *
- * @see java.util.Base64 class java.util.Base64 (the hereby targeted class-under-test class)
- * @see Base64ClassTests Base64ClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.Base64ClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface Base64Tests<SUT extends java.util.Base64>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface Base64Tests<SUT extends Base64>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64]
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.util.Base64.Decoder class java.util.Base64$Decoder}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link Base64ClassTests.DecoderClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Encoder
+     * public static class java.util.Base64$Encoder}.
      * </p>
      *
-     * @see java.util.Base64.Decoder class java.util.Base64$Decoder (the hereby targeted class-under-test class)
-     * @see Base64ClassTests.DecoderClassTests Base64ClassTests.DecoderClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.Base64ClassTests.EncoderClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DecoderTests<SUT extends java.util.Base64.Decoder>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface EncoderTests<SUT extends Encoder>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Encoder]
 
         /**
          * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(byte[]) public byte[]
-         * java.util.Base64$Decoder.decode(byte[])}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(byte[]) public byte[]
-         * java.util.Base64$Decoder.decode(byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encodeToString(byte[])
+         * public java.lang.String java.util.Base64$Encoder.encodeToString(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Base64.Decoder#decode(byte[]) public byte[] java.util.Base64$Decoder.decode(byte[]) (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_decode_byteArray()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(java.nio.ByteBuffer) public java.nio.ByteBuffer
-         * java.util.Base64$Decoder.decode(java.nio.ByteBuffer)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(java.nio.ByteBuffer) public java.nio.ByteBuffer
-         * java.util.Base64$Decoder.decode(java.nio.ByteBuffer)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Decoder#decode(java.nio.ByteBuffer) public java.nio.ByteBuffer
-         *      java.util.Base64$Decoder.decode(java.nio.ByteBuffer) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_decode_ByteBuffer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(byte[], byte[]) public int
-         * java.util.Base64$Decoder.decode(byte[],byte[])}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(byte[], byte[]) public int
-         * java.util.Base64$Decoder.decode(byte[],byte[])}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Decoder#decode(byte[], byte[]) public int
-         *      java.util.Base64$Decoder.decode(byte[],byte[]) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_decode_byteArray_byteArray()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(String) public byte[]
-         * java.util.Base64$Decoder.decode(java.lang.String)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#decode(String) public byte[]
-         * java.util.Base64$Decoder.decode(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Decoder#decode(String) public byte[] java.util.Base64$Decoder.decode(java.lang.String)
-         *      (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_decode_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#wrap(java.io.InputStream) public java.io.InputStream
-         * java.util.Base64$Decoder.wrap(java.io.InputStream)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Decoder#wrap(java.io.InputStream) public java.io.InputStream
-         * java.util.Base64$Decoder.wrap(java.io.InputStream)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Decoder#wrap(java.io.InputStream) public java.io.InputStream
-         *      java.util.Base64$Decoder.wrap(java.io.InputStream) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_wrap_InputStream()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.util.Base64.Encoder class java.util.Base64$Encoder}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link Base64ClassTests.EncoderClassTests}.
-     * </p>
-     *
-     * @see java.util.Base64.Encoder class java.util.Base64$Encoder (the hereby targeted class-under-test class)
-     * @see Base64ClassTests.EncoderClassTests Base64ClassTests.EncoderClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface EncoderTests<SUT extends java.util.Base64.Encoder>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encodeToString(byte[]) public java.lang.String
-         * java.util.Base64$Encoder.encodeToString(byte[])}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encodeToString(byte[]) public java.lang.String
-         * java.util.Base64$Encoder.encodeToString(byte[])}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Encoder#encodeToString(byte[]) public java.lang.String
-         *      java.util.Base64$Encoder.encodeToString(byte[]) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -234,11 +88,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Base64.Encoder#wrap(java.io.OutputStream) public java.io.OutputStream
-         * java.util.Base64$Encoder.wrap(java.io.OutputStream)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#wrap(java.io.OutputStream) public java.io.OutputStream
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Encoder#wrap(java.io.OutputStream) public java.io.OutputStream
          * java.util.Base64$Encoder.wrap(java.io.OutputStream)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -246,8 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see java.util.Base64.Encoder#wrap(java.io.OutputStream) public java.io.OutputStream
-         *      java.util.Base64$Encoder.wrap(java.io.OutputStream) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -261,38 +111,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(byte[]) public byte[]
-         * java.util.Base64$Encoder.encode(byte[])}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(byte[]) public byte[]
-         * java.util.Base64$Encoder.encode(byte[])}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Base64.Encoder#encode(byte[]) public byte[] java.util.Base64$Encoder.encode(byte[]) (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_encode_byteArray()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(java.nio.ByteBuffer) public java.nio.ByteBuffer
-         * java.util.Base64$Encoder.encode(java.nio.ByteBuffer)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(java.nio.ByteBuffer) public java.nio.ByteBuffer
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Encoder#encode(java.nio.ByteBuffer) public java.nio.ByteBuffer
          * java.util.Base64$Encoder.encode(java.nio.ByteBuffer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,8 +120,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see java.util.Base64.Encoder#encode(java.nio.ByteBuffer) public java.nio.ByteBuffer
-         *      java.util.Base64$Encoder.encode(java.nio.ByteBuffer) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -315,20 +134,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(byte[], byte[]) public int
-         * java.util.Base64$Encoder.encode(byte[],byte[])}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#encode(byte[], byte[]) public int
-         * java.util.Base64$Encoder.encode(byte[],byte[])}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encode(byte[], byte[])
+         * public int java.util.Base64$Encoder.encode(byte[],byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Base64.Encoder#encode(byte[], byte[]) public int
-         *      java.util.Base64$Encoder.encode(byte[],byte[]) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -342,20 +156,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Base64.Encoder#withoutPadding() public java.util.Base64$Encoder
-         * java.util.Base64$Encoder.withoutPadding()}.
-         *
-         * <p>
-         * Test method for {@link java.util.Base64.Encoder#withoutPadding() public java.util.Base64$Encoder
-         * java.util.Base64$Encoder.withoutPadding()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#encode(byte[]) public
+         * byte[] java.util.Base64$Encoder.encode(byte[])}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Base64.Encoder#withoutPadding() public java.util.Base64$Encoder
-         *      java.util.Base64$Encoder.withoutPadding() (the hereby targeted method-under-test)
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_encode_byteArray()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Encoder#withoutPadding() public
+         * java.util.Base64$Encoder java.util.Base64$Encoder.withoutPadding()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -366,6 +197,153 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Encoder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Encoder]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Decoder
+     * public static class java.util.Base64$Decoder}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface DecoderTests<SUT extends Decoder>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Decoder#decode(java.nio.ByteBuffer) public java.nio.ByteBuffer
+         * java.util.Base64$Decoder.decode(java.nio.ByteBuffer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_decode_ByteBuffer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(byte[], byte[])
+         * public int java.util.Base64$Decoder.decode(byte[],byte[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_decode_byteArray_byteArray()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(String) public
+         * byte[] java.util.Base64$Decoder.decode(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_decode_String()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.Base64.Decoder#decode(byte[]) public
+         * byte[] java.util.Base64$Decoder.decode(byte[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_decode_byteArray()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Base64.Decoder#wrap(java.io.InputStream) public java.io.InputStream
+         * java.util.Base64$Decoder.wrap(java.io.InputStream)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_wrap_InputStream()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Decoder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Decoder]
 
     }
 

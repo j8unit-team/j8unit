@@ -1,28 +1,36 @@
 package org.j8unit.repository.javax.accessibility;
 
+import javax.accessibility.AccessibleRole;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleRole class
- * javax.accessibility.AccessibleRole}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link AccessibleRoleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link AccessibleRole
+ * public class javax.accessibility.AccessibleRole}.
  * </p>
  *
- * @see javax.accessibility.AccessibleRole class javax.accessibility.AccessibleRole (the hereby targeted
- *      class-under-test class)
- * @see AccessibleRoleClassTests AccessibleRoleClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleRoleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleRoleTests<SUT extends javax.accessibility.AccessibleRole>
+public abstract interface AccessibleRoleTests<SUT extends AccessibleRole>
 extends AccessibleBundleTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleRole]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleRole]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleRole]
 
 }

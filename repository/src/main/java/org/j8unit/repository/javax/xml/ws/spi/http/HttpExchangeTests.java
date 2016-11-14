@@ -1,40 +1,42 @@
 package org.j8unit.repository.javax.xml.ws.spi.http;
 
+import javax.xml.ws.spi.http.HttpExchange;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.ws.spi.http.HttpExchange class
- * javax.xml.ws.spi.http.HttpExchange}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link HttpExchangeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HttpExchange
+ * public abstract class javax.xml.ws.spi.http.HttpExchange}.
  * </p>
  *
- * @see javax.xml.ws.spi.http.HttpExchange class javax.xml.ws.spi.http.HttpExchange (the hereby targeted
- *      class-under-test class)
- * @see HttpExchangeClassTests HttpExchangeClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.ws.spi.http.HttpExchangeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HttpExchangeTests<SUT extends javax.xml.ws.spi.http.HttpExchange>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface HttpExchangeTests<SUT extends HttpExchange>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.spi.http.HttpExchange]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#isUserInRole(String) public abstract boolean
-     * javax.xml.ws.spi.http.HttpExchange.isUserInRole(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#isUserInRole(String) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#isUserInRole(String) public abstract boolean
      * javax.xml.ws.spi.http.HttpExchange.isUserInRole(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +44,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#isUserInRole(String) public abstract boolean
-     *      javax.xml.ws.spi.http.HttpExchange.isUserInRole(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestMethod() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getRequestMethod()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestMethod() public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getRequestMethod() public abstract java.lang.String
      * javax.xml.ws.spi.http.HttpExchange.getRequestMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +67,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRequestMethod() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getRequestMethod() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +81,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getContextPath() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getContextPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getContextPath() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getContextPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getContextPath()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getContextPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getContextPath() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getContextPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +103,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#setStatus(int) public abstract void
-     * javax.xml.ws.spi.http.HttpExchange.setStatus(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#setStatus(int) public abstract void
-     * javax.xml.ws.spi.http.HttpExchange.setStatus(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#setStatus(int)
+     * public abstract void javax.xml.ws.spi.http.HttpExchange.setStatus(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#setStatus(int) public abstract void
-     *      javax.xml.ws.spi.http.HttpExchange.setStatus(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +125,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getLocalAddress() public abstract
-     * java.net.InetSocketAddress javax.xml.ws.spi.http.HttpExchange.getLocalAddress()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getLocalAddress() public abstract
-     * java.net.InetSocketAddress javax.xml.ws.spi.http.HttpExchange.getLocalAddress()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getLocalAddress()
+     * public abstract java.net.InetSocketAddress javax.xml.ws.spi.http.HttpExchange.getLocalAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getLocalAddress() public abstract java.net.InetSocketAddress
-     *      javax.xml.ws.spi.http.HttpExchange.getLocalAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,47 +147,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getQueryString() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getQueryString()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getQueryString() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getQueryString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getRemoteAddress() public abstract java.net.InetSocketAddress
+     * javax.xml.ws.spi.http.HttpExchange.getRemoteAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getQueryString() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getQueryString() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getQueryString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRemoteAddress() public abstract
-     * java.net.InetSocketAddress javax.xml.ws.spi.http.HttpExchange.getRemoteAddress()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRemoteAddress() public abstract
-     * java.net.InetSocketAddress javax.xml.ws.spi.http.HttpExchange.getRemoteAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRemoteAddress() public abstract java.net.InetSocketAddress
-     *      javax.xml.ws.spi.http.HttpExchange.getRemoteAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,20 +170,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getProtocol() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getProtocol()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getProtocol() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getProtocol()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getQueryString()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getQueryString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getProtocol() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getProtocol() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getQueryString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getProtocol()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getProtocol()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,48 +214,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getHttpContext() public abstract
-     * javax.xml.ws.spi.http.HttpContext javax.xml.ws.spi.http.HttpExchange.getHttpContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getHttpContext() public abstract
-     * javax.xml.ws.spi.http.HttpContext javax.xml.ws.spi.http.HttpExchange.getHttpContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getResponseBody()
+     * public abstract java.io.OutputStream javax.xml.ws.spi.http.HttpExchange.getResponseBody() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getHttpContext() public abstract javax.xml.ws.spi.http.HttpContext
-     *      javax.xml.ws.spi.http.HttpExchange.getHttpContext() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHttpContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getResponseBody() public abstract java.io.OutputStream
-     * javax.xml.ws.spi.http.HttpExchange.getResponseBody() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getResponseBody() public abstract java.io.OutputStream
-     * javax.xml.ws.spi.http.HttpExchange.getResponseBody() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.ws.spi.http.HttpExchange#getResponseBody() public abstract java.io.OutputStream
-     *      javax.xml.ws.spi.http.HttpExchange.getResponseBody() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -301,20 +237,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestURI() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getRequestURI()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestURI() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getRequestURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getHttpContext()
+     * public abstract javax.xml.ws.spi.http.HttpContext javax.xml.ws.spi.http.HttpExchange.getHttpContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRequestURI() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getRequestURI() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHttpContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getRequestURI()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getRequestURI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,20 +281,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getPathInfo() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getPathInfo()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getPathInfo() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getPathInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getPathInfo()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getPathInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getPathInfo() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getPathInfo() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,21 +303,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestBody() public abstract java.io.InputStream
-     * javax.xml.ws.spi.http.HttpExchange.getRequestBody() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestBody() public abstract java.io.InputStream
-     * javax.xml.ws.spi.http.HttpExchange.getRequestBody() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getRequestBody()
+     * public abstract java.io.InputStream javax.xml.ws.spi.http.HttpExchange.getRequestBody() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRequestBody() public abstract java.io.InputStream
-     *      javax.xml.ws.spi.http.HttpExchange.getRequestBody() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -383,21 +326,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeader(String) public abstract
-     * java.lang.String javax.xml.ws.spi.http.HttpExchange.getRequestHeader(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeader(String) public abstract
-     * java.lang.String javax.xml.ws.spi.http.HttpExchange.getRequestHeader(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeader(String) public abstract java.lang.String
+     * javax.xml.ws.spi.http.HttpExchange.getRequestHeader(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRequestHeader(String) public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getRequestHeader(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,20 +349,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getScheme() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getScheme()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getScheme() public abstract java.lang.String
-     * javax.xml.ws.spi.http.HttpExchange.getScheme()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#getScheme()
+     * public abstract java.lang.String javax.xml.ws.spi.http.HttpExchange.getScheme()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getScheme() public abstract java.lang.String
-     *      javax.xml.ws.spi.http.HttpExchange.getScheme() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -438,20 +371,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getUserPrincipal() public abstract
-     * java.security.Principal javax.xml.ws.spi.http.HttpExchange.getUserPrincipal()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getUserPrincipal() public abstract
-     * java.security.Principal javax.xml.ws.spi.http.HttpExchange.getUserPrincipal()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getUserPrincipal() public abstract java.security.Principal
+     * javax.xml.ws.spi.http.HttpExchange.getUserPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getUserPrincipal() public abstract java.security.Principal
-     *      javax.xml.ws.spi.http.HttpExchange.getUserPrincipal() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -465,20 +394,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#close() public abstract void
-     * javax.xml.ws.spi.http.HttpExchange.close() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#close() public abstract void
-     * javax.xml.ws.spi.http.HttpExchange.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.spi.http.HttpExchange#close() public
+     * abstract void javax.xml.ws.spi.http.HttpExchange.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#close() public abstract void javax.xml.ws.spi.http.HttpExchange.close()
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -492,11 +416,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getAttributeNames() public abstract java.util.Set
-     * <java.lang.String> javax.xml.ws.spi.http.HttpExchange.getAttributeNames()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getAttributeNames() public abstract java.util.Set
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getAttributeNames() public abstract java.util.Set<java.lang.String>
      * javax.xml.ws.spi.http.HttpExchange.getAttributeNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -504,8 +425,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getAttributeNames() public abstract java.util.Set
-     *      javax.xml.ws.spi.http.HttpExchange.getAttributeNames() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -519,11 +439,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#addResponseHeader(String, String) public abstract void
-     * javax.xml.ws.spi.http.HttpExchange.addResponseHeader(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#addResponseHeader(String, String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#addResponseHeader(String, String) public abstract void
      * javax.xml.ws.spi.http.HttpExchange.addResponseHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -531,9 +448,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#addResponseHeader(String, String) public abstract void
-     *      javax.xml.ws.spi.http.HttpExchange.addResponseHeader(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -547,21 +462,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getResponseHeaders() public abstract
-     * java.util.Map<java.lang.String, java.util.List<java.lang.String>>
-     * javax.xml.ws.spi.http.HttpExchange.getResponseHeaders()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getResponseHeaders() public abstract java.util.Map
-     * javax.xml.ws.spi.http.HttpExchange.getResponseHeaders()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getResponseHeaders() public abstract java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>> javax.xml.ws.spi.http.HttpExchange.getResponseHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getResponseHeaders() public abstract java.util.Map
-     *      javax.xml.ws.spi.http.HttpExchange.getResponseHeaders() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -575,21 +485,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeaders() public abstract
-     * java.util.Map<java.lang.String, java.util.List<java.lang.String>>
-     * javax.xml.ws.spi.http.HttpExchange.getRequestHeaders()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeaders() public abstract java.util.Map
-     * javax.xml.ws.spi.http.HttpExchange.getRequestHeaders()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getRequestHeaders() public abstract java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>> javax.xml.ws.spi.http.HttpExchange.getRequestHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getRequestHeaders() public abstract java.util.Map
-     *      javax.xml.ws.spi.http.HttpExchange.getRequestHeaders() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -603,11 +508,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getAttribute(String) public abstract java.lang.Object
-     * javax.xml.ws.spi.http.HttpExchange.getAttribute(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.http.HttpExchange#getAttribute(String) public abstract java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.http.HttpExchange#getAttribute(String) public abstract java.lang.Object
      * javax.xml.ws.spi.http.HttpExchange.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -615,8 +517,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.spi.http.HttpExchange#getAttribute(String) public abstract java.lang.Object
-     *      javax.xml.ws.spi.http.HttpExchange.getAttribute(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -627,5 +528,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.spi.http.HttpExchange]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.spi.http.HttpExchange]
 
 }

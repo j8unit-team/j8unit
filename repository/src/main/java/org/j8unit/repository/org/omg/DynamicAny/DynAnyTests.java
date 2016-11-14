@@ -1,26 +1,38 @@
 package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynAny;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynAny interface org.omg.DynamicAny.DynAny}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DynAnyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DynAny public
+ * abstract interface org.omg.DynamicAny.DynAny}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynAny interface org.omg.DynamicAny.DynAny (the hereby targeted class-under-test class)
- * @see DynAnyClassTests DynAnyClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynAnyTests<SUT extends org.omg.DynamicAny.DynAny>
-extends DynAnyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+public abstract interface DynAnyTests<SUT extends DynAny>
+extends DynAnyOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAny]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynAny]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynAny]
 
 }

@@ -1,28 +1,36 @@
 package org.j8unit.repository.java.sql;
 
+import java.sql.SQLTransientConnectionException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.sql.SQLTransientConnectionException class
- * java.sql.SQLTransientConnectionException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SQLTransientConnectionExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SQLTransientConnectionException public class java.sql.SQLTransientConnectionException}.
  * </p>
  *
- * @see java.sql.SQLTransientConnectionException class java.sql.SQLTransientConnectionException (the hereby targeted
- *      class-under-test class)
- * @see SQLTransientConnectionExceptionClassTests SQLTransientConnectionExceptionClassTests (the complementary j8unit
- *      test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.sql.SQLTransientConnectionExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SQLTransientConnectionExceptionTests<SUT extends java.sql.SQLTransientConnectionException>
+public abstract interface SQLTransientConnectionExceptionTests<SUT extends SQLTransientConnectionException>
 extends SQLTransientExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTransientConnectionException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLTransientConnectionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLTransientConnectionException]
 
 }

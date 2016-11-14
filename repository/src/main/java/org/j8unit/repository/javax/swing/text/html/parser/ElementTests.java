@@ -1,41 +1,43 @@
 package org.j8unit.repository.javax.swing.text.html.parser;
 
+import javax.swing.text.html.parser.Element;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.html.parser.Element class
- * javax.swing.text.html.parser.Element}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link ElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Element public
+ * final class javax.swing.text.html.parser.Element}.
  * </p>
  *
- * @see javax.swing.text.html.parser.Element class javax.swing.text.html.parser.Element (the hereby targeted
- *      class-under-test class)
- * @see ElementClassTests ElementClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.html.parser.ElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ElementTests<SUT extends javax.swing.text.html.parser.Element>
-extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ElementTests<SUT extends Element>
+extends DTDConstantsTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.Element]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttributeByValue(String) public
-     * javax.swing.text.html.parser.AttributeList
-     * javax.swing.text.html.parser.Element.getAttributeByValue(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttributeByValue(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.Element#getAttributeByValue(String) public
      * javax.swing.text.html.parser.AttributeList
      * javax.swing.text.html.parser.Element.getAttributeByValue(java.lang.String)}.
      *
@@ -44,10 +46,7 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getAttributeByValue(String) public
-     *      javax.swing.text.html.parser.AttributeList
-     *      javax.swing.text.html.parser.Element.getAttributeByValue(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,47 +60,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getName() public java.lang.String
-     * javax.swing.text.html.parser.Element.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getName() public java.lang.String
-     * javax.swing.text.html.parser.Element.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getAttributes()
+     * public javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getName() public java.lang.String
-     *      javax.swing.text.html.parser.Element.getName() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttributes() public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttributes()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttributes() public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttributes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.html.parser.Element#getAttributes() public javax.swing.text.html.parser.AttributeList
-     *      javax.swing.text.html.parser.Element.getAttributes() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,11 +82,30 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttribute(String) public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getName()
+     * public java.lang.String javax.swing.text.html.parser.Element.getName()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttribute(String) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.html.parser.Element#getAttribute(String) public
      * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +113,7 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getAttribute(String) public javax.swing.text.html.parser.AttributeList
-     *      javax.swing.text.html.parser.Element.getAttribute(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,20 +127,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#omitEnd() public boolean
-     * javax.swing.text.html.parser.Element.omitEnd()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#omitEnd() public boolean
-     * javax.swing.text.html.parser.Element.omitEnd()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#omitEnd()
+     * public boolean javax.swing.text.html.parser.Element.omitEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#omitEnd() public boolean javax.swing.text.html.parser.Element.omitEnd()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,20 +149,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getType() public int
-     * javax.swing.text.html.parser.Element.getType()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getType() public int
-     * javax.swing.text.html.parser.Element.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getType()
+     * public int javax.swing.text.html.parser.Element.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getType() public int javax.swing.text.html.parser.Element.getType()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -196,20 +171,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getIndex() public int
-     * javax.swing.text.html.parser.Element.getIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getIndex() public int
-     * javax.swing.text.html.parser.Element.getIndex()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getIndex()
+     * public int javax.swing.text.html.parser.Element.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getIndex() public int javax.swing.text.html.parser.Element.getIndex()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,20 +193,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getContent() public
-     * javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getContent() public
-     * javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#getContent()
+     * public javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#getContent() public javax.swing.text.html.parser.ContentModel
-     *      javax.swing.text.html.parser.Element.getContent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,20 +215,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#isEmpty() public boolean
-     * javax.swing.text.html.parser.Element.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#isEmpty() public boolean
-     * javax.swing.text.html.parser.Element.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#isEmpty()
+     * public boolean javax.swing.text.html.parser.Element.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#isEmpty() public boolean javax.swing.text.html.parser.Element.isEmpty()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,20 +237,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#toString() public java.lang.String
-     * javax.swing.text.html.parser.Element.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#toString() public java.lang.String
-     * javax.swing.text.html.parser.Element.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#toString()
+     * public java.lang.String javax.swing.text.html.parser.Element.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#toString() public java.lang.String
-     *      javax.swing.text.html.parser.Element.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -305,20 +260,15 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#omitStart() public boolean
-     * javax.swing.text.html.parser.Element.omitStart()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#omitStart() public boolean
-     * javax.swing.text.html.parser.Element.omitStart()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.parser.Element#omitStart()
+     * public boolean javax.swing.text.html.parser.Element.omitStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.html.parser.Element#omitStart() public boolean
-     *      javax.swing.text.html.parser.Element.omitStart() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,5 +279,9 @@ extends DTDConstantsTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.Element]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.Element]
 
 }

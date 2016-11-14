@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.print;
 
+import javax.print.URIException;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.URIException interface javax.print.URIException}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link URIExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link URIException
+ * public abstract interface javax.print.URIException}.
  * </p>
  *
- * @see javax.print.URIException interface javax.print.URIException (the hereby targeted class-under-test class)
- * @see URIExceptionClassTests URIExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.URIExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface URIExceptionTests<SUT extends javax.print.URIException>
+public abstract interface URIExceptionTests<SUT extends URIException>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.URIException]
 
     /**
      * <p>
-     * Test method for {@link javax.print.URIException#getReason() public abstract int
-     * javax.print.URIException.getReason()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.URIException#getReason() public abstract int
-     * javax.print.URIException.getReason()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.URIException#getReason() public abstract
+     * int javax.print.URIException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.URIException#getReason() public abstract int javax.print.URIException.getReason() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.URIException#getUnsupportedURI() public abstract java.net.URI
-     * javax.print.URIException.getUnsupportedURI()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.URIException#getUnsupportedURI() public abstract java.net.URI
-     * javax.print.URIException.getUnsupportedURI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.URIException#getUnsupportedURI() public
+     * abstract java.net.URI javax.print.URIException.getUnsupportedURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.URIException#getUnsupportedURI() public abstract java.net.URI
-     *      javax.print.URIException.getUnsupportedURI() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,5 +76,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.URIException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.URIException]
 
 }

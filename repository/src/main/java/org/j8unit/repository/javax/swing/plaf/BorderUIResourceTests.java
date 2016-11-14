@@ -1,42 +1,57 @@
 package org.j8unit.repository.javax.swing.plaf;
 
+import javax.swing.plaf.BorderUIResource;
+import javax.swing.plaf.BorderUIResource.BevelBorderUIResource;
+import javax.swing.plaf.BorderUIResource.CompoundBorderUIResource;
+import javax.swing.plaf.BorderUIResource.EmptyBorderUIResource;
+import javax.swing.plaf.BorderUIResource.EtchedBorderUIResource;
+import javax.swing.plaf.BorderUIResource.LineBorderUIResource;
+import javax.swing.plaf.BorderUIResource.MatteBorderUIResource;
+import javax.swing.plaf.BorderUIResource.TitledBorderUIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.border.BevelBorderTests;
+import org.j8unit.repository.javax.swing.border.BorderTests;
+import org.j8unit.repository.javax.swing.border.CompoundBorderTests;
+import org.j8unit.repository.javax.swing.border.EmptyBorderTests;
+import org.j8unit.repository.javax.swing.border.EtchedBorderTests;
+import org.j8unit.repository.javax.swing.border.LineBorderTests;
+import org.j8unit.repository.javax.swing.border.MatteBorderTests;
+import org.j8unit.repository.javax.swing.border.TitledBorderTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource class javax.swing.plaf.BorderUIResource}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link BorderUIResourceClassTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BorderUIResource public class javax.swing.plaf.BorderUIResource}.
  * </p>
  *
- * @see javax.swing.plaf.BorderUIResource class javax.swing.plaf.BorderUIResource (the hereby targeted class-under-test
- *      class)
- * @see BorderUIResourceClassTests BorderUIResourceClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource>
-extends org.j8unit.repository.javax.swing.border.BorderTests<SUT>, UIResourceTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface BorderUIResourceTests<SUT extends BorderUIResource>
+extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.BorderUIResource#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     * public void javax.swing.plaf.BorderUIResource.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.BorderUIResource#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
      * public void javax.swing.plaf.BorderUIResource.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
@@ -45,10 +60,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     *      public void
-     *      javax.swing.plaf.BorderUIResource.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -63,21 +75,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.BorderUIResource#getBorderInsets(java.awt.Component) public
-     * java.awt.Insets javax.swing.plaf.BorderUIResource.getBorderInsets(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.BorderUIResource#getBorderInsets(java.awt.Component) public
-     * java.awt.Insets javax.swing.plaf.BorderUIResource.getBorderInsets(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.BorderUIResource#getBorderInsets(java.awt.Component) public java.awt.Insets
+     * javax.swing.plaf.BorderUIResource.getBorderInsets(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource#getBorderInsets(java.awt.Component) public java.awt.Insets
-     *      javax.swing.plaf.BorderUIResource.getBorderInsets(java.awt.Component) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -92,20 +99,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.BorderUIResource#isBorderOpaque() public boolean
-     * javax.swing.plaf.BorderUIResource.isBorderOpaque()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.BorderUIResource#isBorderOpaque() public boolean
-     * javax.swing.plaf.BorderUIResource.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.BorderUIResource#isBorderOpaque()
+     * public boolean javax.swing.plaf.BorderUIResource.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource#isBorderOpaque() public boolean
-     *      javax.swing.plaf.BorderUIResource.isBorderOpaque() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -118,178 +120,225 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.BevelBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$BevelBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.BevelBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TitledBorderUIResource public static class javax.swing.plaf.BorderUIResource$TitledBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.BevelBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$BevelBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.BevelBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.BevelBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.TitledBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BevelBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.BevelBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.BevelBorderTests<SUT> {
+    public static abstract interface TitledBorderUIResourceTests<SUT extends TitledBorderUIResource>
+    extends UIResourceTests<SUT>, TitledBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.LineBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$LineBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.LineBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link EmptyBorderUIResource public static class javax.swing.plaf.BorderUIResource$EmptyBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.LineBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$LineBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.LineBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.LineBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EmptyBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LineBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.LineBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.LineBorderTests<SUT> {
+    public static abstract interface EmptyBorderUIResourceTests<SUT extends EmptyBorderUIResource>
+    extends UIResourceTests<SUT>, EmptyBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EmptyBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EmptyBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EmptyBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.CompoundBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$CompoundBorderUIResource}. The complementary j8unit test interface containing
-     * the class relevant aspects is {@link BorderUIResourceClassTests.CompoundBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BevelBorderUIResource public static class javax.swing.plaf.BorderUIResource$BevelBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.CompoundBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$CompoundBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.CompoundBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.CompoundBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CompoundBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.CompoundBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.CompoundBorderTests<SUT> {
+    public static abstract interface BevelBorderUIResourceTests<SUT extends BevelBorderUIResource>
+    extends UIResourceTests<SUT>, BevelBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.EtchedBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$EtchedBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.EtchedBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link CompoundBorderUIResource public static class javax.swing.plaf.BorderUIResource$CompoundBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.EtchedBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$EtchedBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.EtchedBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.EtchedBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EtchedBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.EtchedBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.EtchedBorderTests<SUT> {
+    public static abstract interface CompoundBorderUIResourceTests<SUT extends CompoundBorderUIResource>
+    extends UIResourceTests<SUT>, CompoundBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.EmptyBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$EmptyBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.EmptyBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link MatteBorderUIResource public static class javax.swing.plaf.BorderUIResource$MatteBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.EmptyBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$EmptyBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.EmptyBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.EmptyBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.MatteBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EmptyBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.EmptyBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
+    public static abstract interface MatteBorderUIResourceTests<SUT extends MatteBorderUIResource>
+    extends UIResourceTests<SUT>, MatteBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.MatteBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$MatteBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.MatteBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link EtchedBorderUIResource public static class javax.swing.plaf.BorderUIResource$EtchedBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.MatteBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$MatteBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.MatteBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.MatteBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EtchedBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MatteBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.MatteBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.MatteBorderTests<SUT> {
+    public static abstract interface EtchedBorderUIResourceTests<SUT extends EtchedBorderUIResource>
+    extends UIResourceTests<SUT>, EtchedBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.BorderUIResource.TitledBorderUIResource class
-     * javax.swing.plaf.BorderUIResource$TitledBorderUIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BorderUIResourceClassTests.TitledBorderUIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link LineBorderUIResource public static class javax.swing.plaf.BorderUIResource$LineBorderUIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.BorderUIResource.TitledBorderUIResource class
-     *      javax.swing.plaf.BorderUIResource$TitledBorderUIResource (the hereby targeted class-under-test class)
-     * @see BorderUIResourceClassTests.TitledBorderUIResourceClassTests
-     *      BorderUIResourceClassTests.TitledBorderUIResourceClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.LineBorderUIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TitledBorderUIResourceTests<SUT extends javax.swing.plaf.BorderUIResource.TitledBorderUIResource>
-    extends UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.TitledBorderTests<SUT> {
+    public static abstract interface LineBorderUIResourceTests<SUT extends LineBorderUIResource>
+    extends UIResourceTests<SUT>, LineBorderTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
 
     }
 

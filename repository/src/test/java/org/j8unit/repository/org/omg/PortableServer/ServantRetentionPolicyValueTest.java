@@ -1,0 +1,43 @@
+package org.j8unit.repository.org.omg.PortableServer;
+
+import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
+import org.omg.PortableServer.ServantRetentionPolicyValue;
+
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantRetentionPolicyValue} (by
+ * simply reusing the J8Unit test interface
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyValueTests}).
+ */
+
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+public class ServantRetentionPolicyValueTest
+implements ServantRetentionPolicyValueTests<ServantRetentionPolicyValue> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyValue]
+
+    @Parameters(name = "{index}: {0}")
+    public static Iterable<Object[]> sutData() {
+        return testParametersOf(ServantRetentionPolicyValue.NON_RETAIN, //
+                                ServantRetentionPolicyValue.RETAIN);
+    }
+
+    @Parameter(0)
+    public ServantRetentionPolicyValue sut;
+
+    @Override
+    public ServantRetentionPolicyValue createNewSUT() {
+        return this.sut;
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyValue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyValue]
+
+}

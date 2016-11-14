@@ -1,26 +1,36 @@
 package org.j8unit.repository.java.security;
 
+import java.security.KeyException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.KeyException class java.security.KeyException}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link KeyExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link KeyException
+ * public class java.security.KeyException}.
  * </p>
  *
- * @see java.security.KeyException class java.security.KeyException (the hereby targeted class-under-test class)
- * @see KeyExceptionClassTests KeyExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.KeyExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyExceptionTests<SUT extends java.security.KeyException>
+public abstract interface KeyExceptionTests<SUT extends KeyException>
 extends GeneralSecurityExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyException]
 
 }

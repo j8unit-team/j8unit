@@ -2,25 +2,35 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynEnum;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynEnum interface org.omg.DynamicAny.DynEnum}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DynEnumClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DynEnum public
+ * abstract interface org.omg.DynamicAny.DynEnum}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynEnum interface org.omg.DynamicAny.DynEnum (the hereby targeted class-under-test class)
- * @see DynEnumClassTests DynEnumClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynEnumTests<SUT extends org.omg.DynamicAny.DynEnum>
-extends DynEnumOperationsTests<SUT>, DynAnyTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+public abstract interface DynEnumTests<SUT extends DynEnum>
+extends DynEnumOperationsTests<SUT>, DynAnyTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynEnum]
 
 }

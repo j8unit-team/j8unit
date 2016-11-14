@@ -1,42 +1,43 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
+import javax.xml.bind.annotation.W3CDomHandler;
+import javax.xml.transform.dom.DOMResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.Element;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.W3CDomHandler class
- * javax.xml.bind.annotation.W3CDomHandler}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link W3CDomHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link W3CDomHandler
+ * public class javax.xml.bind.annotation.W3CDomHandler}.
  * </p>
  *
- * @see javax.xml.bind.annotation.W3CDomHandler class javax.xml.bind.annotation.W3CDomHandler (the hereby targeted
- *      class-under-test class)
- * @see W3CDomHandlerClassTests W3CDomHandlerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface W3CDomHandlerTests<SUT extends javax.xml.bind.annotation.W3CDomHandler>
-extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMResult>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface W3CDomHandlerTests<SUT extends W3CDomHandler>
+extends DomHandlerTests<SUT, Element, DOMResult>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element, javax.xml.bind.ValidationEventHandler)
-     * public javax.xml.transform.Source
-     * javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element, javax.xml.bind.ValidationEventHandler)
      * public javax.xml.transform.Source
      * javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)}.
@@ -46,10 +47,7 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element, javax.xml.bind.ValidationEventHandler)
-     *      public javax.xml.transform.Source
-     *      javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,23 +61,16 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getElement(javax.xml.transform.dom.DOMResult)
-     * public org.w3c.dom.Element javax.xml.bind.annotation.W3CDomHandler.getElement(javax.xml.transform.dom.DOMResult)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getElement(javax.xml.transform.dom.DOMResult)
-     * public org.w3c.dom.Element javax.xml.bind.annotation.W3CDomHandler.getElement(javax.xml.transform.dom.DOMResult)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#getElement(javax.xml.transform.dom.DOMResult) public
+     * org.w3c.dom.Element javax.xml.bind.annotation.W3CDomHandler.getElement(javax.xml.transform.dom.DOMResult)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.W3CDomHandler#getElement(javax.xml.transform.dom.DOMResult) public
-     *      org.w3c.dom.Element javax.xml.bind.annotation.W3CDomHandler.getElement(javax.xml.transform.dom.DOMResult)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,20 +84,15 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder() public
-     * javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder() public
-     * javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder()
+     * public javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.W3CDomHandler#getBuilder() public javax.xml.parsers.DocumentBuilder
-     *      javax.xml.bind.annotation.W3CDomHandler.getBuilder() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,21 +106,16 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#setBuilder(javax.xml.parsers.DocumentBuilder)
-     * public void javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#setBuilder(javax.xml.parsers.DocumentBuilder)
-     * public void javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.W3CDomHandler#setBuilder(javax.xml.parsers.DocumentBuilder) public void
+     * javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.W3CDomHandler#setBuilder(javax.xml.parsers.DocumentBuilder) public void
-     *      javax.xml.bind.annotation.W3CDomHandler.setBuilder(javax.xml.parsers.DocumentBuilder) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -148,13 +129,7 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
-     * javax.xml.transform.dom.DOMResult
-     * javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
      * javax.xml.transform.dom.DOMResult
      * javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
@@ -164,10 +139,7 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
-     *      javax.xml.transform.dom.DOMResult
-     *      javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -179,5 +151,9 @@ extends DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMRes
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 
 }

@@ -2,39 +2,42 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.PortableServer.RequestProcessingPolicyValue;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableServer.RequestProcessingPolicyValue class
- * org.omg.PortableServer.RequestProcessingPolicyValue}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link RequestProcessingPolicyValueClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RequestProcessingPolicyValue public class org.omg.PortableServer.RequestProcessingPolicyValue}.
  * </p>
  *
- * @see org.omg.PortableServer.RequestProcessingPolicyValue class org.omg.PortableServer.RequestProcessingPolicyValue
- *      (the hereby targeted class-under-test class)
- * @see RequestProcessingPolicyValueClassTests RequestProcessingPolicyValueClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyValueClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RequestProcessingPolicyValueTests<SUT extends org.omg.PortableServer.RequestProcessingPolicyValue>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface RequestProcessingPolicyValueTests<SUT extends RequestProcessingPolicyValue>
+extends IDLEntityTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicyValue]
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.RequestProcessingPolicyValue#value() public int
-     * org.omg.PortableServer.RequestProcessingPolicyValue.value()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableServer.RequestProcessingPolicyValue#value() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.RequestProcessingPolicyValue#value() public int
      * org.omg.PortableServer.RequestProcessingPolicyValue.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +45,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableServer.RequestProcessingPolicyValue#value() public int
-     *      org.omg.PortableServer.RequestProcessingPolicyValue.value() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,5 +56,9 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicyValue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicyValue]
 
 }

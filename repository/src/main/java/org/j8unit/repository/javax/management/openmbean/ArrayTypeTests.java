@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
+import javax.management.openmbean.ArrayType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.openmbean.ArrayType class
- * javax.management.openmbean.ArrayType}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link ArrayTypeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ArrayType
+ * public class javax.management.openmbean.ArrayType<T>}.
  * </p>
  *
- * @see javax.management.openmbean.ArrayType class javax.management.openmbean.ArrayType (the hereby targeted
- *      class-under-test class)
- * @see ArrayTypeClassTests ArrayTypeClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayTypeTests<SUT extends javax.management.openmbean.ArrayType<T>, T>
+public abstract interface ArrayTypeTests<SUT extends ArrayType<T>, T>
 extends OpenTypeTests<SUT, T> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#toString() public java.lang.String
-     * javax.management.openmbean.ArrayType.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#toString() public java.lang.String
-     * javax.management.openmbean.ArrayType.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#toString()
+     * public java.lang.String javax.management.openmbean.ArrayType.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#toString() public java.lang.String
-     *      javax.management.openmbean.ArrayType.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#getDimension() public int
-     * javax.management.openmbean.ArrayType.getDimension()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#getDimension() public int
-     * javax.management.openmbean.ArrayType.getDimension()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#getDimension()
+     * public int javax.management.openmbean.ArrayType.getDimension()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#getDimension() public int
-     *      javax.management.openmbean.ArrayType.getDimension() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,20 +79,15 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#isValue(Object) public boolean
-     * javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#isValue(Object) public boolean
-     * javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#isValue(Object)
+     * public boolean javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#isValue(Object) public boolean
-     *      javax.management.openmbean.ArrayType.isValue(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -113,20 +102,16 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#getElementOpenType() public
-     * javax.management.openmbean.OpenType<?> javax.management.openmbean.ArrayType.getElementOpenType()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#getElementOpenType() public
-     * javax.management.openmbean.OpenType javax.management.openmbean.ArrayType.getElementOpenType()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#getElementOpenType() public javax.management.openmbean.OpenType<?>
+     * javax.management.openmbean.ArrayType.getElementOpenType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#getElementOpenType() public javax.management.openmbean.OpenType
-     *      javax.management.openmbean.ArrayType.getElementOpenType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,20 +125,15 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#equals(Object) public boolean
-     * javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#equals(Object) public boolean
-     * javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#equals(Object)
+     * public boolean javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#equals(Object) public boolean
-     *      javax.management.openmbean.ArrayType.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -168,20 +148,15 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#hashCode() public int
-     * javax.management.openmbean.ArrayType.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#hashCode() public int
-     * javax.management.openmbean.ArrayType.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.ArrayType#hashCode()
+     * public int javax.management.openmbean.ArrayType.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#hashCode() public int javax.management.openmbean.ArrayType.hashCode()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -196,11 +171,8 @@ extends OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#isPrimitiveArray() public boolean
-     * javax.management.openmbean.ArrayType.isPrimitiveArray()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#isPrimitiveArray() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.ArrayType#isPrimitiveArray() public boolean
      * javax.management.openmbean.ArrayType.isPrimitiveArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,8 +180,7 @@ extends OpenTypeTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.ArrayType#isPrimitiveArray() public boolean
-     *      javax.management.openmbean.ArrayType.isPrimitiveArray() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,5 +191,9 @@ extends OpenTypeTests<SUT, T> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.ArrayType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 
 }

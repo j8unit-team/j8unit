@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
+import javax.swing.text.StyledDocument;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.StyledDocument interface javax.swing.text.StyledDocument}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link StyledDocumentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StyledDocument
+ * public abstract interface javax.swing.text.StyledDocument}.
  * </p>
  *
- * @see javax.swing.text.StyledDocument interface javax.swing.text.StyledDocument (the hereby targeted class-under-test
- *      class)
- * @see StyledDocumentClassTests StyledDocumentClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.StyledDocumentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StyledDocumentTests<SUT extends javax.swing.text.StyledDocument>
+public abstract interface StyledDocumentTests<SUT extends StyledDocument>
 extends DocumentTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledDocument]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.StyledDocument#setCharacterAttributes(int, int, javax.swing.text.AttributeSet, boolean)
-     * public abstract void
-     * javax.swing.text.StyledDocument.setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyledDocument#setCharacterAttributes(int, int, javax.swing.text.AttributeSet, boolean)
      * public abstract void
      * javax.swing.text.StyledDocument.setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
@@ -45,10 +44,7 @@ extends DocumentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#setCharacterAttributes(int, int, javax.swing.text.AttributeSet, boolean)
-     *      public abstract void
-     *      javax.swing.text.StyledDocument.setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -62,39 +58,8 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public abstract java.awt.Color
-     *      javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackground_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#addStyle(String, javax.swing.text.Style) public abstract
-     * javax.swing.text.Style javax.swing.text.StyledDocument.addStyle(java.lang.String,javax.swing.text.Style)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#addStyle(String, javax.swing.text.Style) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#addStyle(String, javax.swing.text.Style) public abstract
      * javax.swing.text.Style javax.swing.text.StyledDocument.addStyle(java.lang.String,javax.swing.text.Style)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,9 +67,7 @@ extends DocumentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#addStyle(String, javax.swing.text.Style) public abstract
-     *      javax.swing.text.Style javax.swing.text.StyledDocument.addStyle(java.lang.String,javax.swing.text.Style)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,20 +81,38 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getLogicalStyle(int) public abstract
-     * javax.swing.text.Style javax.swing.text.StyledDocument.getLogicalStyle(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getLogicalStyle(int) public abstract
-     * javax.swing.text.Style javax.swing.text.StyledDocument.getLogicalStyle(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public abstract
+     * java.awt.Color javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getLogicalStyle(int) public abstract javax.swing.text.Style
-     *      javax.swing.text.StyledDocument.getLogicalStyle(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBackground_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledDocument#getLogicalStyle(int)
+     * public abstract javax.swing.text.Style javax.swing.text.StyledDocument.getLogicalStyle(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,20 +126,16 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getCharacterElement(int) public abstract
-     * javax.swing.text.Element javax.swing.text.StyledDocument.getCharacterElement(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getCharacterElement(int) public abstract
-     * javax.swing.text.Element javax.swing.text.StyledDocument.getCharacterElement(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#getCharacterElement(int) public abstract javax.swing.text.Element
+     * javax.swing.text.StyledDocument.getCharacterElement(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getCharacterElement(int) public abstract javax.swing.text.Element
-     *      javax.swing.text.StyledDocument.getCharacterElement(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,48 +149,15 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getFont(javax.swing.text.AttributeSet) public abstract
-     * java.awt.Font javax.swing.text.StyledDocument.getFont(javax.swing.text.AttributeSet)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getFont(javax.swing.text.AttributeSet) public abstract
-     * java.awt.Font javax.swing.text.StyledDocument.getFont(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledDocument#removeStyle(String)
+     * public abstract void javax.swing.text.StyledDocument.removeStyle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getFont(javax.swing.text.AttributeSet) public abstract java.awt.Font
-     *      javax.swing.text.StyledDocument.getFont(javax.swing.text.AttributeSet) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#removeStyle(String) public abstract void
-     * javax.swing.text.StyledDocument.removeStyle(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#removeStyle(String) public abstract void
-     * javax.swing.text.StyledDocument.removeStyle(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.StyledDocument#removeStyle(String) public abstract void
-     *      javax.swing.text.StyledDocument.removeStyle(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,20 +171,39 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getParagraphElement(int) public abstract
-     * javax.swing.text.Element javax.swing.text.StyledDocument.getParagraphElement(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getParagraphElement(int) public abstract
-     * javax.swing.text.Element javax.swing.text.StyledDocument.getParagraphElement(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#getFont(javax.swing.text.AttributeSet) public abstract java.awt.Font
+     * javax.swing.text.StyledDocument.getFont(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getParagraphElement(int) public abstract javax.swing.text.Element
-     *      javax.swing.text.StyledDocument.getParagraphElement(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#getParagraphElement(int) public abstract javax.swing.text.Element
+     * javax.swing.text.StyledDocument.getParagraphElement(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,21 +217,16 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public abstract
+     * java.awt.Color javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public abstract java.awt.Color
-     *      javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,13 +240,7 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.StyledDocument#setParagraphAttributes(int, int, javax.swing.text.AttributeSet, boolean)
-     * public abstract void
-     * javax.swing.text.StyledDocument.setParagraphAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyledDocument#setParagraphAttributes(int, int, javax.swing.text.AttributeSet, boolean)
      * public abstract void
      * javax.swing.text.StyledDocument.setParagraphAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
@@ -298,10 +250,7 @@ extends DocumentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#setParagraphAttributes(int, int, javax.swing.text.AttributeSet, boolean)
-     *      public abstract void
-     *      javax.swing.text.StyledDocument.setParagraphAttributes(int,int,javax.swing.text.AttributeSet,boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -315,20 +264,15 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getStyle(String) public abstract javax.swing.text.Style
-     * javax.swing.text.StyledDocument.getStyle(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getStyle(String) public abstract javax.swing.text.Style
-     * javax.swing.text.StyledDocument.getStyle(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyledDocument#getStyle(String)
+     * public abstract javax.swing.text.Style javax.swing.text.StyledDocument.getStyle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#getStyle(String) public abstract javax.swing.text.Style
-     *      javax.swing.text.StyledDocument.getStyle(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -342,21 +286,16 @@ extends DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#setLogicalStyle(int, javax.swing.text.Style) public
-     * abstract void javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#setLogicalStyle(int, javax.swing.text.Style) public
-     * abstract void javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyledDocument#setLogicalStyle(int, javax.swing.text.Style) public abstract void
+     * javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyledDocument#setLogicalStyle(int, javax.swing.text.Style) public abstract void
-     *      javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -367,5 +306,9 @@ extends DocumentTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledDocument]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledDocument]
 
 }

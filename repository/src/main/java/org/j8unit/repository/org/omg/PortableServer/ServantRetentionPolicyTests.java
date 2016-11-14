@@ -1,29 +1,37 @@
 package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyTests;
 import org.junit.experimental.categories.Category;
+import org.omg.PortableServer.ServantRetentionPolicy;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableServer.ServantRetentionPolicy interface
- * org.omg.PortableServer.ServantRetentionPolicy}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ServantRetentionPolicyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ServantRetentionPolicy public abstract interface org.omg.PortableServer.ServantRetentionPolicy}.
  * </p>
  *
- * @see org.omg.PortableServer.ServantRetentionPolicy interface org.omg.PortableServer.ServantRetentionPolicy (the
- *      hereby targeted class-under-test class)
- * @see ServantRetentionPolicyClassTests ServantRetentionPolicyClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServantRetentionPolicyTests<SUT extends org.omg.PortableServer.ServantRetentionPolicy>
-extends ServantRetentionPolicyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+public abstract interface ServantRetentionPolicyTests<SUT extends ServantRetentionPolicy>
+extends ServantRetentionPolicyOperationsTests<SUT>, PolicyTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicy]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicy]
 
 }

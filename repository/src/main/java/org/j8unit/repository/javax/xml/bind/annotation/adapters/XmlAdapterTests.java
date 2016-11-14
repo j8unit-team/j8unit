@@ -1,51 +1,50 @@
 package org.j8unit.repository.javax.xml.bind.annotation.adapters;
 
+import javax.xml.bind.annotation.adapters.XmlAdapter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.adapters.XmlAdapter class
- * javax.xml.bind.annotation.adapters.XmlAdapter}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link XmlAdapterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XmlAdapter
+ * public abstract class javax.xml.bind.annotation.adapters.XmlAdapter<ValueType,BoundType>}.
  * </p>
  *
- * @see javax.xml.bind.annotation.adapters.XmlAdapter class javax.xml.bind.annotation.adapters.XmlAdapter (the hereby
- *      targeted class-under-test class)
- * @see XmlAdapterClassTests XmlAdapterClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XmlAdapterTests<SUT extends javax.xml.bind.annotation.adapters.XmlAdapter<ValueType, BoundType>, ValueType, BoundType>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface XmlAdapterTests<SUT extends XmlAdapter<ValueType, BoundType>, ValueType, BoundType>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.XmlAdapter]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.adapters.XmlAdapter#marshal(Object) public abstract ValueType
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlAdapter#marshal(Object) public abstract ValueType
      * javax.xml.bind.annotation.adapters.XmlAdapter.marshal(BoundType) throws java.lang.Exception}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.adapters.XmlAdapter#marshal(Object) public abstract
-     * java.lang.Object javax.xml.bind.annotation.adapters.XmlAdapter.marshal(java.lang.Object) throws
-     * java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.adapters.XmlAdapter#marshal(Object) public abstract java.lang.Object
-     *      javax.xml.bind.annotation.adapters.XmlAdapter.marshal(java.lang.Object) throws java.lang.Exception (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,22 +58,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.adapters.XmlAdapter#unmarshal(Object) public abstract BoundType
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.annotation.adapters.XmlAdapter#unmarshal(Object) public abstract BoundType
      * javax.xml.bind.annotation.adapters.XmlAdapter.unmarshal(ValueType) throws java.lang.Exception}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.adapters.XmlAdapter#unmarshal(Object) public abstract
-     * java.lang.Object javax.xml.bind.annotation.adapters.XmlAdapter.unmarshal(java.lang.Object) throws
-     * java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.adapters.XmlAdapter#unmarshal(Object) public abstract java.lang.Object
-     *      javax.xml.bind.annotation.adapters.XmlAdapter.unmarshal(java.lang.Object) throws java.lang.Exception (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,5 +78,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.adapters.XmlAdapter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.adapters.XmlAdapter]
 
 }

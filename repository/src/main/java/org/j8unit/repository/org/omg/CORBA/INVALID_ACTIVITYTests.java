@@ -2,25 +2,35 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.INVALID_ACTIVITY;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.CORBA.INVALID_ACTIVITY class org.omg.CORBA.INVALID_ACTIVITY}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link INVALID_ACTIVITYClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link INVALID_ACTIVITY public final class org.omg.CORBA.INVALID_ACTIVITY}.
  * </p>
  *
- * @see org.omg.CORBA.INVALID_ACTIVITY class org.omg.CORBA.INVALID_ACTIVITY (the hereby targeted class-under-test class)
- * @see INVALID_ACTIVITYClassTests INVALID_ACTIVITYClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.CORBA.INVALID_ACTIVITYClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface INVALID_ACTIVITYTests<SUT extends org.omg.CORBA.INVALID_ACTIVITY>
+public abstract interface INVALID_ACTIVITYTests<SUT extends INVALID_ACTIVITY>
 extends SystemExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INVALID_ACTIVITY]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.INVALID_ACTIVITY]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.INVALID_ACTIVITY]
 
 }

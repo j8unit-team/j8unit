@@ -1,47 +1,50 @@
 package org.j8unit.repository.java.io;
 
+import java.io.ObjectOutputStream;
+import java.io.ObjectOutputStream.PutField;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.ObjectOutputStream class java.io.ObjectOutputStream}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ObjectOutputStreamClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ObjectOutputStream public class java.io.ObjectOutputStream}.
  * </p>
  *
- * @see java.io.ObjectOutputStream class java.io.ObjectOutputStream (the hereby targeted class-under-test class)
- * @see ObjectOutputStreamClassTests ObjectOutputStreamClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.ObjectOutputStreamClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectOutputStreamTests<SUT extends java.io.ObjectOutputStream>
+public abstract interface ObjectOutputStreamTests<SUT extends ObjectOutputStream>
 extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream]
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#defaultWriteObject() public void
-     * java.io.ObjectOutputStream.defaultWriteObject() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#defaultWriteObject() public void
-     * java.io.ObjectOutputStream.defaultWriteObject() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#defaultWriteObject()
+     * public void java.io.ObjectOutputStream.defaultWriteObject() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#defaultWriteObject() public void java.io.ObjectOutputStream.defaultWriteObject()
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +58,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeShort(int) public void
-     * java.io.ObjectOutputStream.writeShort(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeShort(int) public void
-     * java.io.ObjectOutputStream.writeShort(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeShort(int) public
+     * void java.io.ObjectOutputStream.writeShort(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeShort(int) public void java.io.ObjectOutputStream.writeShort(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,21 +81,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeChars(String) public void
-     * java.io.ObjectOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeChars(String) public void
-     * java.io.ObjectOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeChars(String) public
+     * void java.io.ObjectOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeChars(String) public void
-     *      java.io.ObjectOutputStream.writeChars(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,21 +104,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeUTF(String) public void
-     * java.io.ObjectOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeUTF(String) public void
-     * java.io.ObjectOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeUTF(String) public
+     * void java.io.ObjectOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeUTF(String) public void
-     *      java.io.ObjectOutputStream.writeUTF(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -141,20 +127,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#reset() public void java.io.ObjectOutputStream.reset() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#reset() public void java.io.ObjectOutputStream.reset() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#reset() public void
+     * java.io.ObjectOutputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#reset() public void java.io.ObjectOutputStream.reset() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,21 +149,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeBoolean(boolean) public void
-     * java.io.ObjectOutputStream.writeBoolean(boolean) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeBoolean(boolean) public void
-     * java.io.ObjectOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeBoolean(boolean)
+     * public void java.io.ObjectOutputStream.writeBoolean(boolean) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeBoolean(boolean) public void
-     *      java.io.ObjectOutputStream.writeBoolean(boolean) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -197,20 +172,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#putFields() public java.io.ObjectOutputStream$PutField
-     * java.io.ObjectOutputStream.putFields() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#putFields() public java.io.ObjectOutputStream$PutField
-     * java.io.ObjectOutputStream.putFields() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#putFields() public
+     * java.io.ObjectOutputStream$PutField java.io.ObjectOutputStream.putFields() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#putFields() public java.io.ObjectOutputStream$PutField
-     *      java.io.ObjectOutputStream.putFields() throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,20 +194,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeDouble(double) public void
-     * java.io.ObjectOutputStream.writeDouble(double) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeDouble(double) public void
-     * java.io.ObjectOutputStream.writeDouble(double) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeDouble(double)
+     * public void java.io.ObjectOutputStream.writeDouble(double) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeDouble(double) public void java.io.ObjectOutputStream.writeDouble(double)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -252,105 +217,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(int) public void java.io.ObjectOutputStream.write(int)
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(int) public void java.io.ObjectOutputStream.write(int)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#close() public void
+     * java.io.ObjectOutputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#write(int) public void java.io.ObjectOutputStream.write(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(byte[]) public void
-     * java.io.ObjectOutputStream.write(byte[]) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(byte[]) public void
-     * java.io.ObjectOutputStream.write(byte[]) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.ObjectOutputStream#write(byte[]) public void java.io.ObjectOutputStream.write(byte[]) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(byte[], int, int) public void
-     * java.io.ObjectOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#write(byte[], int, int) public void
-     * java.io.ObjectOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.ObjectOutputStream#write(byte[], int, int) public void
-     *      java.io.ObjectOutputStream.write(byte[],int,int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#close() public void java.io.ObjectOutputStream.close() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#close() public void java.io.ObjectOutputStream.close() throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.ObjectOutputStream#close() public void java.io.ObjectOutputStream.close() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -365,20 +240,84 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeLong(long) public void
-     * java.io.ObjectOutputStream.writeLong(long) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeLong(long) public void
-     * java.io.ObjectOutputStream.writeLong(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#write(byte[]) public void
+     * java.io.ObjectOutputStream.write(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeLong(long) public void java.io.ObjectOutputStream.writeLong(long) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#write(byte[], int, int)
+     * public void java.io.ObjectOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#write(int) public void
+     * java.io.ObjectOutputStream.write(int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeLong(long) public
+     * void java.io.ObjectOutputStream.writeLong(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -393,21 +332,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeBytes(String) public void
-     * java.io.ObjectOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeBytes(String) public void
-     * java.io.ObjectOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeBytes(String) public
+     * void java.io.ObjectOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeBytes(String) public void
-     *      java.io.ObjectOutputStream.writeBytes(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -422,21 +355,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeUnshared(Object) public void
-     * java.io.ObjectOutputStream.writeUnshared(java.lang.Object) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeUnshared(Object) public void
-     * java.io.ObjectOutputStream.writeUnshared(java.lang.Object) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeUnshared(Object)
+     * public void java.io.ObjectOutputStream.writeUnshared(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeUnshared(Object) public void
-     *      java.io.ObjectOutputStream.writeUnshared(java.lang.Object) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -450,20 +377,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeChar(int) public void
-     * java.io.ObjectOutputStream.writeChar(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeChar(int) public void
-     * java.io.ObjectOutputStream.writeChar(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeChar(int) public
+     * void java.io.ObjectOutputStream.writeChar(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeChar(int) public void java.io.ObjectOutputStream.writeChar(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -478,20 +400,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#flush() public void java.io.ObjectOutputStream.flush() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#flush() public void java.io.ObjectOutputStream.flush() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#flush() public void
+     * java.io.ObjectOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#flush() public void java.io.ObjectOutputStream.flush() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -506,20 +423,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeFloat(float) public void
-     * java.io.ObjectOutputStream.writeFloat(float) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeFloat(float) public void
-     * java.io.ObjectOutputStream.writeFloat(float) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeFloat(float) public
+     * void java.io.ObjectOutputStream.writeFloat(float) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeFloat(float) public void java.io.ObjectOutputStream.writeFloat(float) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -534,21 +446,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#useProtocolVersion(int) public void
-     * java.io.ObjectOutputStream.useProtocolVersion(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#useProtocolVersion(int) public void
-     * java.io.ObjectOutputStream.useProtocolVersion(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#useProtocolVersion(int)
+     * public void java.io.ObjectOutputStream.useProtocolVersion(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#useProtocolVersion(int) public void
-     *      java.io.ObjectOutputStream.useProtocolVersion(int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -562,20 +468,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeByte(int) public void
-     * java.io.ObjectOutputStream.writeByte(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeByte(int) public void
-     * java.io.ObjectOutputStream.writeByte(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeByte(int) public
+     * void java.io.ObjectOutputStream.writeByte(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeByte(int) public void java.io.ObjectOutputStream.writeByte(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -590,11 +491,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeInt(int) public void
-     * java.io.ObjectOutputStream.writeInt(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeInt(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeInt(int) public void
      * java.io.ObjectOutputStream.writeInt(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -602,8 +499,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeInt(int) public void java.io.ObjectOutputStream.writeInt(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -618,21 +514,15 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeObject(Object) public final void
-     * java.io.ObjectOutputStream.writeObject(java.lang.Object) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeObject(Object) public final void
-     * java.io.ObjectOutputStream.writeObject(java.lang.Object) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeObject(Object)
+     * public final void java.io.ObjectOutputStream.writeObject(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeObject(Object) public final void
-     *      java.io.ObjectOutputStream.writeObject(java.lang.Object) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -647,11 +537,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeFields() public void
-     * java.io.ObjectOutputStream.writeFields() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutputStream#writeFields() public void
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectOutputStream#writeFields() public void
      * java.io.ObjectOutputStream.writeFields() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -659,8 +545,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutputStream#writeFields() public void java.io.ObjectOutputStream.writeFields() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -672,253 +557,39 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.io.ObjectOutputStream.PutField class
-     * java.io.ObjectOutputStream$PutField}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link ObjectOutputStreamClassTests.PutFieldClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PutField
+     * public abstract static class java.io.ObjectOutputStream$PutField}.
      * </p>
      *
-     * @see java.io.ObjectOutputStream.PutField class java.io.ObjectOutputStream$PutField (the hereby targeted
-     *      class-under-test class)
-     * @see ObjectOutputStreamClassTests.PutFieldClassTests ObjectOutputStreamClassTests.PutFieldClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.io.ObjectOutputStreamClassTests.PutFieldClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PutFieldTests<SUT extends java.io.ObjectOutputStream.PutField>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface PutFieldTests<SUT extends PutField>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
 
         /**
          * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, float) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,float)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, float) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,float)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, float) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,float) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_float()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, long) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,long)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, long) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,long)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, long) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,long) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_long()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, int) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,int)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, int) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, int) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,int) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, double) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,double)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, double) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,double)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, double) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,double) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_double()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, Object) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,java.lang.Object)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, Object) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,java.lang.Object)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, Object) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,java.lang.Object) (the hereby targeted
-         *      method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_Object()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, boolean) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,boolean)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, boolean) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, boolean) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,boolean) (the hereby targeted
-         *      method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_boolean()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, byte) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,byte)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, byte) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,byte)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, byte) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,byte) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_byte()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, char) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,char)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, char) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,char)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.io.ObjectOutputStream.PutField#put(String, char) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,char) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_put_String_char()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, short) public abstract void
-         * java.io.ObjectOutputStream$PutField.put(java.lang.String,short)}.
-         *
-         * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#put(String, short) public abstract void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, short) public abstract void
          * java.io.ObjectOutputStream$PutField.put(java.lang.String,short)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -926,8 +597,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
          * test methods soon.
          * </p>
          *
-         * @see java.io.ObjectOutputStream.PutField#put(String, short) public abstract void
-         *      java.io.ObjectOutputStream$PutField.put(java.lang.String,short) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -941,11 +611,192 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
 
         /**
          * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#write(java.io.ObjectOutput) public abstract void
-         * java.io.ObjectOutputStream$PutField.write(java.io.ObjectOutput) throws java.io.IOException}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, char) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,char)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_char()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for {@link java.io.ObjectOutputStream.PutField#write(java.io.ObjectOutput) public abstract void
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, byte) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,byte)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_byte()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, boolean) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_boolean()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, Object) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,java.lang.Object)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_Object()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, double) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_double()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, int) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, long) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,long)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_long()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#put(String, float) public abstract void
+         * java.io.ObjectOutputStream$PutField.put(java.lang.String,float)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_put_String_float()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectOutputStream.PutField#write(java.io.ObjectOutput) public abstract void
          * java.io.ObjectOutputStream$PutField.write(java.io.ObjectOutput) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -953,9 +804,7 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
          * test methods soon.
          * </p>
          *
-         * @see java.io.ObjectOutputStream.PutField#write(java.io.ObjectOutput) public abstract void
-         *      java.io.ObjectOutputStream$PutField.write(java.io.ObjectOutput) throws java.io.IOException (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -966,6 +815,10 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
 
     }
 

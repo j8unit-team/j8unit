@@ -1,40 +1,42 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
+import javax.security.auth.kerberos.ServicePermission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.PermissionTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.kerberos.ServicePermission class
- * javax.security.auth.kerberos.ServicePermission}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link ServicePermissionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ServicePermission public final class javax.security.auth.kerberos.ServicePermission}.
  * </p>
  *
- * @see javax.security.auth.kerberos.ServicePermission class javax.security.auth.kerberos.ServicePermission (the hereby
- *      targeted class-under-test class)
- * @see ServicePermissionClassTests ServicePermissionClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.kerberos.ServicePermissionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServicePermissionTests<SUT extends javax.security.auth.kerberos.ServicePermission>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.security.PermissionTests<SUT> {
+public abstract interface ServicePermissionTests<SUT extends ServicePermission>
+extends PermissionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.kerberos.ServicePermission]
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#equals(Object) public boolean
-     * javax.security.auth.kerberos.ServicePermission.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#equals(Object) public boolean
      * javax.security.auth.kerberos.ServicePermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +44,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.ServicePermission#equals(Object) public boolean
-     *      javax.security.auth.kerberos.ServicePermission.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +59,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#hashCode() public int
-     * javax.security.auth.kerberos.ServicePermission.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#hashCode() public int
      * javax.security.auth.kerberos.ServicePermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +68,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.ServicePermission#hashCode() public int
-     *      javax.security.auth.kerberos.ServicePermission.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +83,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
-     * java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
      * java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,9 +92,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
-     *      java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -116,21 +107,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#implies(java.security.Permission) public
-     * boolean javax.security.auth.kerberos.ServicePermission.implies(java.security.Permission)}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#implies(java.security.Permission) public
-     * boolean javax.security.auth.kerberos.ServicePermission.implies(java.security.Permission)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#implies(java.security.Permission) public boolean
+     * javax.security.auth.kerberos.ServicePermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.ServicePermission#implies(java.security.Permission) public boolean
-     *      javax.security.auth.kerberos.ServicePermission.implies(java.security.Permission) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -145,11 +131,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
-     * javax.security.auth.kerberos.ServicePermission.getActions()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
      * javax.security.auth.kerberos.ServicePermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,8 +140,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
-     *      javax.security.auth.kerberos.ServicePermission.getActions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -170,5 +152,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.kerberos.ServicePermission]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.kerberos.ServicePermission]
 
 }

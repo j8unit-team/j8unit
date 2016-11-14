@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util.function;
 
+import java.util.function.IntConsumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,32 +10,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.function.IntConsumer interface java.util.function.IntConsumer}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link IntConsumerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link IntConsumer
+ * public abstract interface java.util.function.IntConsumer}.
  * </p>
  *
- * @see java.util.function.IntConsumer interface java.util.function.IntConsumer (the hereby targeted class-under-test
- *      class)
- * @see IntConsumerClassTests IntConsumerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.function.IntConsumerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IntConsumerTests<SUT extends java.util.function.IntConsumer>
+public abstract interface IntConsumerTests<SUT extends IntConsumer>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.IntConsumer]
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
-     * java.util.function.IntConsumer java.util.function.IntConsumer.andThen(java.util.function.IntConsumer)}.
-     *
-     * <p>
-     * Test method for {@link java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
      * java.util.function.IntConsumer java.util.function.IntConsumer.andThen(java.util.function.IntConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +44,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
-     *      java.util.function.IntConsumer java.util.function.IntConsumer.andThen(java.util.function.IntConsumer) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,20 +58,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntConsumer#accept(int) public abstract void
-     * java.util.function.IntConsumer.accept(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.function.IntConsumer#accept(int) public abstract void
-     * java.util.function.IntConsumer.accept(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.function.IntConsumer#accept(int) public
+     * abstract void java.util.function.IntConsumer.accept(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.function.IntConsumer#accept(int) public abstract void java.util.function.IntConsumer.accept(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,5 +77,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.function.IntConsumer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.function.IntConsumer]
 
 }

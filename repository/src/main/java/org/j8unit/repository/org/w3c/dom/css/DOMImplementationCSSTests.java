@@ -2,41 +2,41 @@ package org.j8unit.repository.org.w3c.dom.css;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.DOMImplementationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.css.DOMImplementationCSS;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.css.DOMImplementationCSS interface
- * org.w3c.dom.css.DOMImplementationCSS}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link DOMImplementationCSSClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DOMImplementationCSS public abstract interface org.w3c.dom.css.DOMImplementationCSS}.
  * </p>
  *
- * @see org.w3c.dom.css.DOMImplementationCSS interface org.w3c.dom.css.DOMImplementationCSS (the hereby targeted
- *      class-under-test class)
- * @see DOMImplementationCSSClassTests DOMImplementationCSSClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.css.DOMImplementationCSSClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DOMImplementationCSSTests<SUT extends org.w3c.dom.css.DOMImplementationCSS>
-extends org.j8unit.repository.org.w3c.dom.DOMImplementationTests<SUT> {
+public abstract interface DOMImplementationCSSTests<SUT extends DOMImplementationCSS>
+extends DOMImplementationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.DOMImplementationCSS]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract
-     * org.w3c.dom.css.CSSStyleSheet
-     * org.w3c.dom.css.DOMImplementationCSS.createCSSStyleSheet(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.css.DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract
      * org.w3c.dom.css.CSSStyleSheet
      * org.w3c.dom.css.DOMImplementationCSS.createCSSStyleSheet(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -46,10 +46,7 @@ extends org.j8unit.repository.org.w3c.dom.DOMImplementationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.css.DOMImplementationCSS#createCSSStyleSheet(String, String) public abstract
-     *      org.w3c.dom.css.CSSStyleSheet
-     *      org.w3c.dom.css.DOMImplementationCSS.createCSSStyleSheet(java.lang.String,java.lang.String) throws
-     *      org.w3c.dom.DOMException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,5 +57,9 @@ extends org.j8unit.repository.org.w3c.dom.DOMImplementationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.DOMImplementationCSS]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.DOMImplementationCSS]
 
 }

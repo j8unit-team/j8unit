@@ -1,47 +1,49 @@
 package org.j8unit.repository.java.time.format;
 
+import java.time.format.TextStyle;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.format.TextStyle class java.time.format.TextStyle}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link TextStyleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TextStyle
+ * public final enum java.time.format.TextStyle}.
  * </p>
  *
- * @see java.time.format.TextStyle class java.time.format.TextStyle (the hereby targeted class-under-test class)
- * @see TextStyleClassTests TextStyleClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.format.TextStyleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TextStyleTests<SUT extends java.time.format.TextStyle>
-extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyle> {
+public abstract interface TextStyleTests<SUT extends TextStyle>
+extends EnumTests<SUT, TextStyle> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.TextStyle]
 
     /**
      * <p>
-     * Test method for {@link java.time.format.TextStyle#isStandalone() public boolean
-     * java.time.format.TextStyle.isStandalone()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.TextStyle#isStandalone() public boolean
-     * java.time.format.TextStyle.isStandalone()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.TextStyle#isStandalone() public
+     * boolean java.time.format.TextStyle.isStandalone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.TextStyle#isStandalone() public boolean java.time.format.TextStyle.isStandalone() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyl
 
     /**
      * <p>
-     * Test method for {@link java.time.format.TextStyle#asNormal() public java.time.format.TextStyle
-     * java.time.format.TextStyle.asNormal()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.TextStyle#asNormal() public java.time.format.TextStyle
-     * java.time.format.TextStyle.asNormal()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.TextStyle#asNormal() public
+     * java.time.format.TextStyle java.time.format.TextStyle.asNormal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.TextStyle#asNormal() public java.time.format.TextStyle
-     *      java.time.format.TextStyle.asNormal() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +79,15 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyl
 
     /**
      * <p>
-     * Test method for {@link java.time.format.TextStyle#asStandalone() public java.time.format.TextStyle
-     * java.time.format.TextStyle.asStandalone()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.TextStyle#asStandalone() public java.time.format.TextStyle
-     * java.time.format.TextStyle.asStandalone()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.format.TextStyle#asStandalone() public
+     * java.time.format.TextStyle java.time.format.TextStyle.asStandalone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.TextStyle#asStandalone() public java.time.format.TextStyle
-     *      java.time.format.TextStyle.asStandalone() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,5 +98,9 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyl
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.TextStyle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.TextStyle]
 
 }

@@ -1,50 +1,49 @@
 package org.j8unit.repository.javax.imageio.stream;
 
+import javax.imageio.stream.ImageInputStreamImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.imageio.stream.ImageInputStreamImpl class
- * javax.imageio.stream.ImageInputStreamImpl}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ImageInputStreamImplClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ImageInputStreamImpl public abstract class javax.imageio.stream.ImageInputStreamImpl}.
  * </p>
  *
- * @see javax.imageio.stream.ImageInputStreamImpl class javax.imageio.stream.ImageInputStreamImpl (the hereby targeted
- *      class-under-test class)
- * @see ImageInputStreamImplClassTests ImageInputStreamImplClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageInputStreamImplTests<SUT extends javax.imageio.stream.ImageInputStreamImpl>
-extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ImageInputStreamImplTests<SUT extends ImageInputStreamImpl>
+extends ImageInputStreamTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.stream.ImageInputStreamImpl]
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readChar() public char
-     * javax.imageio.stream.ImageInputStreamImpl.readChar() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readChar() public char
-     * javax.imageio.stream.ImageInputStreamImpl.readChar() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readChar()
+     * public char javax.imageio.stream.ImageInputStreamImpl.readChar() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readChar() public char
-     *      javax.imageio.stream.ImageInputStreamImpl.readChar() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +58,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCached() public boolean
-     * javax.imageio.stream.ImageInputStreamImpl.isCached()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCached() public boolean
-     * javax.imageio.stream.ImageInputStreamImpl.isCached()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#isCached()
+     * public boolean javax.imageio.stream.ImageInputStreamImpl.isCached()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#isCached() public boolean
-     *      javax.imageio.stream.ImageInputStreamImpl.isCached() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,21 +81,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#seek(long) public void
-     * javax.imageio.stream.ImageInputStreamImpl.seek(long) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#seek(long) public void
-     * javax.imageio.stream.ImageInputStreamImpl.seek(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#seek(long)
+     * public void javax.imageio.stream.ImageInputStreamImpl.seek(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#seek(long) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.seek(long) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -116,11 +104,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#setBitOffset(int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.setBitOffset(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#setBitOffset(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#setBitOffset(int) public void
      * javax.imageio.stream.ImageInputStreamImpl.setBitOffset(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -128,9 +113,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#setBitOffset(int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.setBitOffset(int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -145,11 +128,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFloat() public float
-     * javax.imageio.stream.ImageInputStreamImpl.readFloat() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFloat() public float
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFloat() public float
      * javax.imageio.stream.ImageInputStreamImpl.readFloat() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,9 +137,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFloat() public float
-     *      javax.imageio.stream.ImageInputStreamImpl.readFloat() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -174,21 +152,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#close() public void
-     * javax.imageio.stream.ImageInputStreamImpl.close() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#close() public void
-     * javax.imageio.stream.ImageInputStreamImpl.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#close()
+     * public void javax.imageio.stream.ImageInputStreamImpl.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#close() public void
-     *      javax.imageio.stream.ImageInputStreamImpl.close() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -203,11 +175,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedByte() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readUnsignedByte() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedByte() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedByte() public int
      * javax.imageio.stream.ImageInputStreamImpl.readUnsignedByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,9 +184,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readUnsignedByte() public int
-     *      javax.imageio.stream.ImageInputStreamImpl.readUnsignedByte() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -232,21 +199,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readInt() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readInt() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readInt() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readInt() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readInt()
+     * public int javax.imageio.stream.ImageInputStreamImpl.readInt() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readInt() public int
-     *      javax.imageio.stream.ImageInputStreamImpl.readInt() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -261,11 +222,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) public void
-     * javax.imageio.stream.ImageInputStreamImpl.flushBefore(long) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) public void
      * javax.imageio.stream.ImageInputStreamImpl.flushBefore(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -273,9 +231,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#flushBefore(long) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.flushBefore(long) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -290,11 +246,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCachedFile() public boolean
-     * javax.imageio.stream.ImageInputStreamImpl.isCachedFile()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCachedFile() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#isCachedFile() public boolean
      * javax.imageio.stream.ImageInputStreamImpl.isCachedFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -302,8 +255,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#isCachedFile() public boolean
-     *      javax.imageio.stream.ImageInputStreamImpl.isCachedFile() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -318,11 +270,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCachedMemory() public boolean
-     * javax.imageio.stream.ImageInputStreamImpl.isCachedMemory()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#isCachedMemory() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#isCachedMemory() public boolean
      * javax.imageio.stream.ImageInputStreamImpl.isCachedMemory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -330,8 +279,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#isCachedMemory() public boolean
-     *      javax.imageio.stream.ImageInputStreamImpl.isCachedMemory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -346,11 +294,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(short[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(short[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(short[], int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(short[], int, int) public void
      * javax.imageio.stream.ImageInputStreamImpl.readFully(short[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -358,9 +303,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(short[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(short[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -375,11 +318,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[]) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(byte[]) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[]) public void
      * javax.imageio.stream.ImageInputStreamImpl.readFully(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -387,9 +327,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(byte[]) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(byte[]) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -404,11 +342,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[], int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(byte[], int, int) public void
      * javax.imageio.stream.ImageInputStreamImpl.readFully(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -416,9 +351,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(byte[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(byte[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -433,127 +366,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(float[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(float[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(float[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(float[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(float[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(float[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_floatArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(long[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(long[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(long[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(long[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(long[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(long[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(int[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(int[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(int[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(int[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(int[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(int[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(char[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(char[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(char[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(char[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(char[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(char[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(double[], int, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readFully(double[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readFully(double[], int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(double[], int, int) public void
      * javax.imageio.stream.ImageInputStreamImpl.readFully(double[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -561,9 +375,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readFully(double[], int, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readFully(double[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -578,11 +390,104 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readDouble() public double
-     * javax.imageio.stream.ImageInputStreamImpl.readDouble() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(char[], int, int) public void
+     * javax.imageio.stream.ImageInputStreamImpl.readFully(char[],int,int) throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readDouble() public double
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(long[], int, int) public void
+     * javax.imageio.stream.ImageInputStreamImpl.readFully(long[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(float[], int, int) public void
+     * javax.imageio.stream.ImageInputStreamImpl.readFully(float[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_floatArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readFully(int[], int, int) public void
+     * javax.imageio.stream.ImageInputStreamImpl.readFully(int[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readDouble() public double
      * javax.imageio.stream.ImageInputStreamImpl.readDouble() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -590,9 +495,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readDouble() public double
-     *      javax.imageio.stream.ImageInputStreamImpl.readDouble() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -607,50 +510,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#flush() public void
-     * javax.imageio.stream.ImageInputStreamImpl.flush() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#flush() public void
-     * javax.imageio.stream.ImageInputStreamImpl.flush() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readUTF()
+     * public java.lang.String javax.imageio.stream.ImageInputStreamImpl.readUTF() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#flush() public void
-     *      javax.imageio.stream.ImageInputStreamImpl.flush() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_flush()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUTF() public java.lang.String
-     * javax.imageio.stream.ImageInputStreamImpl.readUTF() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUTF() public java.lang.String
-     * javax.imageio.stream.ImageInputStreamImpl.readUTF() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readUTF() public java.lang.String
-     *      javax.imageio.stream.ImageInputStreamImpl.readUTF() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -665,20 +533,38 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#length() public long
-     * javax.imageio.stream.ImageInputStreamImpl.length()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#length() public long
-     * javax.imageio.stream.ImageInputStreamImpl.length()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#flush()
+     * public void javax.imageio.stream.ImageInputStreamImpl.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#length() public long
-     *      javax.imageio.stream.ImageInputStreamImpl.length() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_flush()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#length()
+     * public long javax.imageio.stream.ImageInputStreamImpl.length()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -693,69 +579,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(long) public long
-     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(long) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(long) public long
-     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(long) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#skipBytes(long) public long
-     *      javax.imageio.stream.ImageInputStreamImpl.skipBytes(long) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_skipBytes_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(int) public int
-     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(int) public int
-     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#skipBytes(int) public int
-     *      javax.imageio.stream.ImageInputStreamImpl.skipBytes(int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_skipBytes_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getFlushedPosition() public long
-     * javax.imageio.stream.ImageInputStreamImpl.getFlushedPosition()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getFlushedPosition() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#getFlushedPosition() public long
      * javax.imageio.stream.ImageInputStreamImpl.getFlushedPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -763,8 +588,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#getFlushedPosition() public long
-     *      javax.imageio.stream.ImageInputStreamImpl.getFlushedPosition() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -779,11 +603,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedInt() public long
-     * javax.imageio.stream.ImageInputStreamImpl.readUnsignedInt() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedInt() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedInt() public long
      * javax.imageio.stream.ImageInputStreamImpl.readUnsignedInt() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -791,9 +612,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readUnsignedInt() public long
-     *      javax.imageio.stream.ImageInputStreamImpl.readUnsignedInt() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -808,11 +627,56 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getStreamPosition() public long
-     * javax.imageio.stream.ImageInputStreamImpl.getStreamPosition() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(int) public int
+     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(int) throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_skipBytes_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getStreamPosition() public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#skipBytes(long) public long
+     * javax.imageio.stream.ImageInputStreamImpl.skipBytes(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_skipBytes_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#getStreamPosition() public long
      * javax.imageio.stream.ImageInputStreamImpl.getStreamPosition() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -820,9 +684,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#getStreamPosition() public long
-     *      javax.imageio.stream.ImageInputStreamImpl.getStreamPosition() throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -837,21 +699,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readLine() public java.lang.String
-     * javax.imageio.stream.ImageInputStreamImpl.readLine() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readLine() public java.lang.String
-     * javax.imageio.stream.ImageInputStreamImpl.readLine() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readLine()
+     * public java.lang.String javax.imageio.stream.ImageInputStreamImpl.readLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readLine() public java.lang.String
-     *      javax.imageio.stream.ImageInputStreamImpl.readLine() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -866,79 +722,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[]) public int
-     * javax.imageio.stream.ImageInputStreamImpl.read(byte[]) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[]) public int
-     * javax.imageio.stream.ImageInputStreamImpl.read(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#read()
+     * public abstract int javax.imageio.stream.ImageInputStreamImpl.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#read(byte[]) public int
-     *      javax.imageio.stream.ImageInputStreamImpl.read(byte[]) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_read_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[], int, int) public abstract int
-     * javax.imageio.stream.ImageInputStreamImpl.read(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[], int, int) public abstract int
-     * javax.imageio.stream.ImageInputStreamImpl.read(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#read(byte[], int, int) public abstract int
-     *      javax.imageio.stream.ImageInputStreamImpl.read(byte[],int,int) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read() public abstract int
-     * javax.imageio.stream.ImageInputStreamImpl.read() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#read() public abstract int
-     * javax.imageio.stream.ImageInputStreamImpl.read() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#read() public abstract int
-     *      javax.imageio.stream.ImageInputStreamImpl.read() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -953,11 +745,56 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getBitOffset() public int
-     * javax.imageio.stream.ImageInputStreamImpl.getBitOffset() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[], int, int) public abstract int
+     * javax.imageio.stream.ImageInputStreamImpl.read(byte[],int,int) throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getBitOffset() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#read(byte[]) public int
+     * javax.imageio.stream.ImageInputStreamImpl.read(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#getBitOffset() public int
      * javax.imageio.stream.ImageInputStreamImpl.getBitOffset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -965,9 +802,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#getBitOffset() public int
-     *      javax.imageio.stream.ImageInputStreamImpl.getBitOffset() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -982,11 +817,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBoolean() public boolean
-     * javax.imageio.stream.ImageInputStreamImpl.readBoolean() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBoolean() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readBoolean() public boolean
      * javax.imageio.stream.ImageInputStreamImpl.readBoolean() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -994,9 +826,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readBoolean() public boolean
-     *      javax.imageio.stream.ImageInputStreamImpl.readBoolean() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1011,42 +841,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#reset() public void
-     * javax.imageio.stream.ImageInputStreamImpl.reset() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#reset() public void
-     * javax.imageio.stream.ImageInputStreamImpl.reset() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.stream.ImageInputStreamImpl#reset() public void
-     *      javax.imageio.stream.ImageInputStreamImpl.reset() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.stream.ImageInputStreamImpl#readBytes(javax.imageio.stream.IIOByteBuffer, int) public void
-     * javax.imageio.stream.ImageInputStreamImpl.readBytes(javax.imageio.stream.IIOByteBuffer,int) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.stream.ImageInputStreamImpl#readBytes(javax.imageio.stream.IIOByteBuffer, int) public void
      * javax.imageio.stream.ImageInputStreamImpl.readBytes(javax.imageio.stream.IIOByteBuffer,int) throws
      * java.io.IOException}.
@@ -1056,9 +851,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readBytes(javax.imageio.stream.IIOByteBuffer, int) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.readBytes(javax.imageio.stream.IIOByteBuffer,int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1073,11 +866,31 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getByteOrder() public java.nio.ByteOrder
-     * javax.imageio.stream.ImageInputStreamImpl.getByteOrder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#reset()
+     * public void javax.imageio.stream.ImageInputStreamImpl.reset() throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#getByteOrder() public java.nio.ByteOrder
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#getByteOrder() public java.nio.ByteOrder
      * javax.imageio.stream.ImageInputStreamImpl.getByteOrder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1085,8 +898,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#getByteOrder() public java.nio.ByteOrder
-     *      javax.imageio.stream.ImageInputStreamImpl.getByteOrder() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1101,11 +913,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#setByteOrder(java.nio.ByteOrder) public void
-     * javax.imageio.stream.ImageInputStreamImpl.setByteOrder(java.nio.ByteOrder)}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#setByteOrder(java.nio.ByteOrder) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#setByteOrder(java.nio.ByteOrder) public void
      * javax.imageio.stream.ImageInputStreamImpl.setByteOrder(java.nio.ByteOrder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1113,9 +922,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#setByteOrder(java.nio.ByteOrder) public void
-     *      javax.imageio.stream.ImageInputStreamImpl.setByteOrder(java.nio.ByteOrder) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1130,20 +937,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#mark() public void
-     * javax.imageio.stream.ImageInputStreamImpl.mark()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#mark() public void
-     * javax.imageio.stream.ImageInputStreamImpl.mark()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#mark()
+     * public void javax.imageio.stream.ImageInputStreamImpl.mark()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#mark() public void
-     *      javax.imageio.stream.ImageInputStreamImpl.mark() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1158,11 +960,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedShort() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readUnsignedShort() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedShort() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readUnsignedShort() public int
      * javax.imageio.stream.ImageInputStreamImpl.readUnsignedShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1170,9 +969,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readUnsignedShort() public int
-     *      javax.imageio.stream.ImageInputStreamImpl.readUnsignedShort() throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1187,11 +984,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBits(int) public long
-     * javax.imageio.stream.ImageInputStreamImpl.readBits(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBits(int) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readBits(int) public long
      * javax.imageio.stream.ImageInputStreamImpl.readBits(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1199,9 +993,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readBits(int) public long
-     *      javax.imageio.stream.ImageInputStreamImpl.readBits(int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1216,21 +1008,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readByte() public byte
-     * javax.imageio.stream.ImageInputStreamImpl.readByte() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readByte() public byte
-     * javax.imageio.stream.ImageInputStreamImpl.readByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readByte()
+     * public byte javax.imageio.stream.ImageInputStreamImpl.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readByte() public byte
-     *      javax.imageio.stream.ImageInputStreamImpl.readByte() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1245,21 +1031,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBit() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readBit() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readBit() public int
-     * javax.imageio.stream.ImageInputStreamImpl.readBit() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readBit()
+     * public int javax.imageio.stream.ImageInputStreamImpl.readBit() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readBit() public int
-     *      javax.imageio.stream.ImageInputStreamImpl.readBit() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1274,11 +1054,8 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readShort() public short
-     * javax.imageio.stream.ImageInputStreamImpl.readShort() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readShort() public short
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageInputStreamImpl#readShort() public short
      * javax.imageio.stream.ImageInputStreamImpl.readShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1286,9 +1063,7 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readShort() public short
-     *      javax.imageio.stream.ImageInputStreamImpl.readShort() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1303,21 +1078,15 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readLong() public long
-     * javax.imageio.stream.ImageInputStreamImpl.readLong() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageInputStreamImpl#readLong() public long
-     * javax.imageio.stream.ImageInputStreamImpl.readLong() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.stream.ImageInputStreamImpl#readLong()
+     * public long javax.imageio.stream.ImageInputStreamImpl.readLong() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.stream.ImageInputStreamImpl#readLong() public long
-     *      javax.imageio.stream.ImageInputStreamImpl.readLong() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1329,5 +1098,9 @@ extends ImageInputStreamTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.stream.ImageInputStreamImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.ImageInputStreamImpl]
 
 }

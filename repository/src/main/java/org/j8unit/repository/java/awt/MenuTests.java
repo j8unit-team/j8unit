@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.Menu;
+import java.awt.MenuItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,37 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.Menu class java.awt.Menu}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link MenuClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Menu public
+ * class java.awt.Menu}.
  * </p>
  *
- * @see java.awt.Menu class java.awt.Menu (the hereby targeted class-under-test class)
- * @see MenuClassTests MenuClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.MenuClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MenuTests<SUT extends java.awt.Menu>
-extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuItemTests<SUT> {
+public abstract interface MenuTests<SUT extends Menu>
+extends MenuContainerTests<SUT>, MenuItemTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Menu]
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#isTearOff() public boolean java.awt.Menu.isTearOff()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#isTearOff() public boolean java.awt.Menu.isTearOff()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#isTearOff() public boolean
+     * java.awt.Menu.isTearOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#isTearOff() public boolean java.awt.Menu.isTearOff() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,18 +57,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#insert(String, int) public void java.awt.Menu.insert(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#insert(String, int) public void java.awt.Menu.insert(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#insert(String, int) public void
+     * java.awt.Menu.insert(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#insert(String, int) public void java.awt.Menu.insert(java.lang.String,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,20 +79,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#insert(java.awt.MenuItem, int) public void
-     * java.awt.Menu.insert(java.awt.MenuItem,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#insert(java.awt.MenuItem, int) public void
-     * java.awt.Menu.insert(java.awt.MenuItem,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#insert(java.awt.MenuItem, int) public
+     * void java.awt.Menu.insert(java.awt.MenuItem,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#insert(java.awt.MenuItem, int) public void java.awt.Menu.insert(java.awt.MenuItem,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,18 +101,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#getItem(int) public java.awt.MenuItem java.awt.Menu.getItem(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#getItem(int) public java.awt.MenuItem java.awt.Menu.getItem(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItem(int) public java.awt.MenuItem
+     * java.awt.Menu.getItem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#getItem(int) public java.awt.MenuItem java.awt.Menu.getItem(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,20 +123,37 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#remove(java.awt.MenuComponent) public void
-     * java.awt.Menu.remove(java.awt.MenuComponent)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#remove(java.awt.MenuComponent) public void
-     * java.awt.Menu.remove(java.awt.MenuComponent)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#remove(int) public void
+     * java.awt.Menu.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#remove(java.awt.MenuComponent) public void java.awt.Menu.remove(java.awt.MenuComponent) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#remove(java.awt.MenuComponent) public
+     * void java.awt.Menu.remove(java.awt.MenuComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -157,44 +168,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#remove(int) public void java.awt.Menu.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#remove(int) public void java.awt.Menu.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext java.awt.Menu.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#remove(int) public void java.awt.Menu.remove(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Menu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.Menu.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.Menu.getAccessibleContext()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Menu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      java.awt.Menu.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -209,45 +191,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#add(String) public void java.awt.Menu.add(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#add(String) public void java.awt.Menu.add(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#add(java.awt.MenuItem) public
+     * java.awt.MenuItem java.awt.Menu.add(java.awt.MenuItem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#add(String) public void java.awt.Menu.add(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Menu#add(java.awt.MenuItem) public java.awt.MenuItem
-     * java.awt.Menu.add(java.awt.MenuItem)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#add(java.awt.MenuItem) public java.awt.MenuItem
-     * java.awt.Menu.add(java.awt.MenuItem)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Menu#add(java.awt.MenuItem) public java.awt.MenuItem java.awt.Menu.add(java.awt.MenuItem) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -261,17 +213,37 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#countItems() public int java.awt.Menu.countItems()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#countItems() public int java.awt.Menu.countItems()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#add(String) public void
+     * java.awt.Menu.add(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#countItems() public int java.awt.Menu.countItems() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#countItems() public int
+     * java.awt.Menu.countItems()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -285,17 +257,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#getItemCount() public int java.awt.Menu.getItemCount()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#getItemCount() public int java.awt.Menu.getItemCount()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItemCount() public int
+     * java.awt.Menu.getItemCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#getItemCount() public int java.awt.Menu.getItemCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -309,18 +279,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#insertSeparator(int) public void java.awt.Menu.insertSeparator(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#insertSeparator(int) public void java.awt.Menu.insertSeparator(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#insertSeparator(int) public void
+     * java.awt.Menu.insertSeparator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#insertSeparator(int) public void java.awt.Menu.insertSeparator(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,18 +301,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#removeNotify() public void java.awt.Menu.removeNotify()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#removeNotify() public void java.awt.Menu.removeNotify()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#removeNotify() public void
+     * java.awt.Menu.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#removeNotify() public void java.awt.Menu.removeNotify() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -360,17 +324,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#removeAll() public void java.awt.Menu.removeAll()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#removeAll() public void java.awt.Menu.removeAll()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#removeAll() public void
+     * java.awt.Menu.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#removeAll() public void java.awt.Menu.removeAll() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -384,18 +346,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#paramString() public java.lang.String java.awt.Menu.paramString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#paramString() public java.lang.String java.awt.Menu.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#paramString() public java.lang.String
+     * java.awt.Menu.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#paramString() public java.lang.String java.awt.Menu.paramString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -410,18 +369,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#addSeparator() public void java.awt.Menu.addSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#addSeparator() public void java.awt.Menu.addSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#addSeparator() public void
+     * java.awt.Menu.addSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#addSeparator() public void java.awt.Menu.addSeparator() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -435,17 +391,15 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
 
     /**
      * <p>
-     * Test method for {@link java.awt.Menu#addNotify() public void java.awt.Menu.addNotify()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Menu#addNotify() public void java.awt.Menu.addNotify()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#addNotify() public void
+     * java.awt.Menu.addNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Menu#addNotify() public void java.awt.Menu.addNotify() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -464,15 +418,18 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.awt.MenuComponent#getFont() class java.awt.MenuComponent}</li>
-     * <li>{@linkplain java.awt.MenuContainer#getFont() interface java.awt.MenuContainer}</li>
+     * <li>{@link java.awt.MenuComponent#getFont() class java.awt.MenuComponent} (via parent node(s) {@link MenuItem
+     * MenuItem})</li>
+     * <li>{@link java.awt.MenuContainer#getFont() interface java.awt.MenuContainer}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -480,6 +437,8 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
     @Category(Draft.class)
     public default void test_getFont()
     throws Exception {
+        MenuItemTests.super.test_getFont();
+        MenuContainerTests.super.test_getFont();
     }
 
     /**
@@ -488,15 +447,18 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.awt.MenuComponent#postEvent(java.awt.Event) class java.awt.MenuComponent}</li>
-     * <li>{@linkplain java.awt.MenuContainer#postEvent(java.awt.Event) interface java.awt.MenuContainer}</li>
+     * <li>{@link java.awt.MenuComponent#postEvent(java.awt.Event) class java.awt.MenuComponent} (via parent node(s)
+     * {@link MenuItem MenuItem})</li>
+     * <li>{@link java.awt.MenuContainer#postEvent(java.awt.Event) interface java.awt.MenuContainer}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -504,6 +466,12 @@ extends MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.Acces
     @Category(Draft.class)
     public default void test_postEvent_Event()
     throws Exception {
+        MenuItemTests.super.test_postEvent_Event();
+        MenuContainerTests.super.test_postEvent_Event();
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Menu]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Menu]
 
 }

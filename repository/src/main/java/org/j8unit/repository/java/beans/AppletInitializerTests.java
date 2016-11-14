@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.AppletInitializer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,32 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.AppletInitializer interface java.beans.AppletInitializer}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link AppletInitializerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AppletInitializer public abstract interface java.beans.AppletInitializer}.
  * </p>
  *
- * @see java.beans.AppletInitializer interface java.beans.AppletInitializer (the hereby targeted class-under-test class)
- * @see AppletInitializerClassTests AppletInitializerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.AppletInitializerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AppletInitializerTests<SUT extends java.beans.AppletInitializer>
+public abstract interface AppletInitializerTests<SUT extends AppletInitializer>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.AppletInitializer]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.AppletInitializer#initialize(java.applet.Applet, java.beans.beancontext.BeanContext) public
-     * abstract void java.beans.AppletInitializer.initialize(java.applet.Applet,java.beans.beancontext.BeanContext)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.AppletInitializer#initialize(java.applet.Applet, java.beans.beancontext.BeanContext) public
      * abstract void java.beans.AppletInitializer.initialize(java.applet.Applet,java.beans.beancontext.BeanContext)}.
      *
@@ -43,9 +44,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.AppletInitializer#initialize(java.applet.Applet, java.beans.beancontext.BeanContext) public
-     *      abstract void java.beans.AppletInitializer.initialize(java.applet.Applet,java.beans.beancontext.BeanContext)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,11 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.AppletInitializer#activate(java.applet.Applet) public abstract void
-     * java.beans.AppletInitializer.activate(java.applet.Applet)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.AppletInitializer#activate(java.applet.Applet) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.AppletInitializer#activate(java.applet.Applet) public abstract void
      * java.beans.AppletInitializer.activate(java.applet.Applet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +67,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.AppletInitializer#activate(java.applet.Applet) public abstract void
-     *      java.beans.AppletInitializer.activate(java.applet.Applet) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,5 +78,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.AppletInitializer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.AppletInitializer]
 
 }

@@ -1,50 +1,50 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import javax.swing.plaf.basic.BasicMenuItemUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.MenuItemUITests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicMenuItemUI class
- * javax.swing.plaf.basic.BasicMenuItemUI}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicMenuItemUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicMenuItemUI
+ * public class javax.swing.plaf.basic.BasicMenuItemUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicMenuItemUI class javax.swing.plaf.basic.BasicMenuItemUI (the hereby targeted
- *      class-under-test class)
- * @see BasicMenuItemUIClassTests BasicMenuItemUIClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicMenuItemUITests<SUT extends javax.swing.plaf.basic.BasicMenuItemUI>
-extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
+public abstract interface BasicMenuItemUITests<SUT extends BasicMenuItemUI>
+extends MenuItemUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuItemUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicMenuItemUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicMenuItemUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicMenuItemUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicMenuItemUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,50 +59,16 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicMenuItemUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicMenuItemUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicMenuItemUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicMenuItemUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#paint(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicMenuItemUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#paint(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicMenuItemUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicMenuItemUI.paint(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -117,20 +83,39 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getPath() public javax.swing.MenuElement[]
-     * javax.swing.plaf.basic.BasicMenuItemUI.getPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getPath() public javax.swing.MenuElement[]
-     * javax.swing.plaf.basic.BasicMenuItemUI.getPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicMenuItemUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#getPath() public javax.swing.MenuElement[]
-     *      javax.swing.plaf.basic.BasicMenuItemUI.getPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicMenuItemUI#getPath()
+     * public javax.swing.MenuElement[] javax.swing.plaf.basic.BasicMenuItemUI.getPath()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,21 +129,16 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getPreferredSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicMenuItemUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicMenuItemUI.getPreferredSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -173,50 +153,16 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicMenuItemUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicMenuItemUI.installUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicMenuItemUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicMenuItemUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicMenuItemUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -231,21 +177,40 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuItemUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuItemUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicMenuItemUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuItemUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicMenuItemUI.getMinimumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_installUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicMenuItemUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicMenuItemUI.getMinimumSize(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -257,5 +222,9 @@ extends org.j8unit.repository.javax.swing.plaf.MenuItemUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuItemUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuItemUI]
 
 }

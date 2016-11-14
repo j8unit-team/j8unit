@@ -1,42 +1,43 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.BlockingQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.QueueTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.BlockingQueue interface
- * java.util.concurrent.BlockingQueue}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link BlockingQueueClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BlockingQueue
+ * public abstract interface java.util.concurrent.BlockingQueue<E>}.
  * </p>
  *
- * @see java.util.concurrent.BlockingQueue interface java.util.concurrent.BlockingQueue (the hereby targeted
- *      class-under-test class)
- * @see BlockingQueueClassTests BlockingQueueClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BlockingQueueTests<SUT extends java.util.concurrent.BlockingQueue<E>, E>
-extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
+public abstract interface BlockingQueueTests<SUT extends BlockingQueue<E>, E>
+extends QueueTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.BlockingQueue]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#poll(long, java.util.concurrent.TimeUnit) public
-     * abstract E java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#poll(long, java.util.concurrent.TimeUnit) public
-     * abstract java.lang.Object java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.BlockingQueue#poll(long, java.util.concurrent.TimeUnit) public abstract E
+     * java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +45,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#poll(long, java.util.concurrent.TimeUnit) public abstract
-     *      java.lang.Object java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,20 +59,37 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remove(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remove(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#put(Object)
+     * public abstract void java.util.concurrent.BlockingQueue.put(E) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#remove(Object) public abstract boolean
-     *      java.util.concurrent.BlockingQueue.remove(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#remove(Object)
+     * public abstract boolean java.util.concurrent.BlockingQueue.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -88,75 +104,16 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#put(Object) public abstract void
-     * java.util.concurrent.BlockingQueue.put(E) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#put(Object) public abstract void
-     * java.util.concurrent.BlockingQueue.put(java.lang.Object) throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.BlockingQueue#put(Object) public abstract void
-     *      java.util.concurrent.BlockingQueue.put(java.lang.Object) throws java.lang.InterruptedException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection) public abstract int
-     * java.util.concurrent.BlockingQueue.drainTo(java.util.Collection<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection) public abstract int
-     * java.util.concurrent.BlockingQueue.drainTo(java.util.Collection)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.BlockingQueue#drainTo(java.util.Collection) public abstract int
-     *      java.util.concurrent.BlockingQueue.drainTo(java.util.Collection) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_drainTo_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection, int) public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection, int) public abstract int
      * java.util.concurrent.BlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection, int) public abstract int
-     * java.util.concurrent.BlockingQueue.drainTo(java.util.Collection,int)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#drainTo(java.util.Collection, int) public abstract int
-     *      java.util.concurrent.BlockingQueue.drainTo(java.util.Collection,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,11 +127,31 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
-     * java.util.concurrent.BlockingQueue.remainingCapacity()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.BlockingQueue#drainTo(java.util.Collection) public abstract int
+     * java.util.concurrent.BlockingQueue.drainTo(java.util.Collection<? super E>)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_drainTo_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
      * java.util.concurrent.BlockingQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,8 +159,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
-     *      java.util.concurrent.BlockingQueue.remainingCapacity() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -197,20 +173,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#contains(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.contains(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#contains(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#contains(Object)
+     * public abstract boolean java.util.concurrent.BlockingQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#contains(Object) public abstract boolean
-     *      java.util.concurrent.BlockingQueue.contains(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -225,20 +196,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#add(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#add(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#add(Object)
+     * public abstract boolean java.util.concurrent.BlockingQueue.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#add(Object) public abstract boolean
-     *      java.util.concurrent.BlockingQueue.add(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -253,20 +219,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#offer(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.offer(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#offer(Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.offer(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#offer(Object)
+     * public abstract boolean java.util.concurrent.BlockingQueue.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#offer(Object) public abstract boolean
-     *      java.util.concurrent.BlockingQueue.offer(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -281,14 +242,9 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit)
-     * public abstract boolean java.util.concurrent.BlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit)
-     * public abstract boolean
-     * java.util.concurrent.BlockingQueue.offer(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.BlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public abstract
+     * boolean java.util.concurrent.BlockingQueue.offer(E,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -296,9 +252,7 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public abstract
-     *      boolean java.util.concurrent.BlockingQueue.offer(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -312,21 +266,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#take() public abstract E
-     * java.util.concurrent.BlockingQueue.take() throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#take() public abstract java.lang.Object
-     * java.util.concurrent.BlockingQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingQueue#take() public
+     * abstract E java.util.concurrent.BlockingQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.BlockingQueue#take() public abstract java.lang.Object
-     *      java.util.concurrent.BlockingQueue.take() throws java.lang.InterruptedException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,5 +285,9 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.BlockingQueue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.BlockingQueue]
 
 }

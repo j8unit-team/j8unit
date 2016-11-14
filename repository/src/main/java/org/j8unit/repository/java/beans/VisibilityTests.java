@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.Visibility;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.Visibility interface java.beans.Visibility}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link VisibilityClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Visibility
+ * public abstract interface java.beans.Visibility}.
  * </p>
  *
- * @see java.beans.Visibility interface java.beans.Visibility (the hereby targeted class-under-test class)
- * @see VisibilityClassTests VisibilityClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.VisibilityClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VisibilityTests<SUT extends java.beans.Visibility>
+public abstract interface VisibilityTests<SUT extends Visibility>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Visibility]
 
     /**
      * <p>
-     * Test method for {@link java.beans.Visibility#okToUseGui() public abstract void
-     * java.beans.Visibility.okToUseGui()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Visibility#okToUseGui() public abstract void
-     * java.beans.Visibility.okToUseGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#okToUseGui() public abstract
+     * void java.beans.Visibility.okToUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Visibility#okToUseGui() public abstract void java.beans.Visibility.okToUseGui() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Visibility#needsGui() public abstract boolean java.beans.Visibility.needsGui()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.beans.Visibility#needsGui() public abstract boolean java.beans.Visibility.needsGui()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#needsGui() public abstract
+     * boolean java.beans.Visibility.needsGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Visibility#needsGui() public abstract boolean java.beans.Visibility.needsGui() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +79,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Visibility#dontUseGui() public abstract void
-     * java.beans.Visibility.dontUseGui()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Visibility#dontUseGui() public abstract void
-     * java.beans.Visibility.dontUseGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#dontUseGui() public abstract
+     * void java.beans.Visibility.dontUseGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Visibility#dontUseGui() public abstract void java.beans.Visibility.dontUseGui() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,20 +101,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Visibility#avoidingGui() public abstract boolean
-     * java.beans.Visibility.avoidingGui()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Visibility#avoidingGui() public abstract boolean
-     * java.beans.Visibility.avoidingGui()}.
+     * Test method for the hereby targeted method-under-test {@link java.beans.Visibility#avoidingGui() public abstract
+     * boolean java.beans.Visibility.avoidingGui()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Visibility#avoidingGui() public abstract boolean java.beans.Visibility.avoidingGui() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,5 +120,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.Visibility]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Visibility]
 
 }

@@ -1,719 +1,695 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
 import static org.junit.Assert.assertTrue;
+import javax.swing.plaf.basic.BasicSplitPaneUI;
+import javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager;
+import javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager;
+import javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler;
+import javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.j8unit.repository.java.awt.LayoutManager2ClassTests;
+import org.j8unit.repository.java.awt.event.ActionListenerClassTests;
+import org.j8unit.repository.java.awt.event.FocusAdapterClassTests;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI class
- * javax.swing.plaf.basic.BasicSplitPaneUI}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
- * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type is
- * verified by {@link #verifyGenericType()}).
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicSplitPaneUI
+ * public class javax.swing.plaf.basic.BasicSplitPaneUI}.
+ *
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link BasicSplitPaneUITests}).
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests}.
  * </p>
  *
  * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
  * </p>
  *
  * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
- * </p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
- * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicSplitPaneUITests}.
- * </p>
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
  *
- * @see javax.swing.plaf.basic.BasicSplitPaneUI class javax.swing.plaf.basic.BasicSplitPaneUI (the hereby targeted
- *      class-under-test class)
- * @see BasicSplitPaneUITests BasicSplitPaneUITests (The complementary j8unit test interface containing the instance
- *      relevant test methods)
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicSplitPaneUIClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI>
-extends org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SUT> {
+public abstract interface BasicSplitPaneUIClassTests<SUT extends BasicSplitPaneUI>
+extends SplitPaneUIClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.class!",
-                   javax.swing.plaf.basic.BasicSplitPaneUI.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BasicSplitPaneUI.class!",
+                   BasicSplitPaneUI.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI]
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BasicHorizontalLayoutManager public class
+     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.FocusHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.FocusHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler (the hereby targeted class-under-test class)
-     * @see BasicSplitPaneUITests.FocusHandlerTests BasicSplitPaneUITests.FocusHandlerTests (The complementary j8unit
-     *      test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FocusHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler>
-    extends org.j8unit.repository.java.awt.event.FocusAdapterClassTests<SUT> {
+    public static abstract interface BasicHorizontalLayoutManagerClassTests<SUT extends BasicHorizontalLayoutManager>
+    extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BasicHorizontalLayoutManager.class!",
+                              BasicHorizontalLayoutManager.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardResizeToggleHandler public class
+     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.KeyboardEndHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.KeyboardEndHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler (the hereby targeted class-under-test class)
-     * @see BasicSplitPaneUITests.KeyboardEndHandlerTests BasicSplitPaneUITests.KeyboardEndHandlerTests (The
-     *      complementary j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardEndHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeyboardResizeToggleHandlerClassTests<SUT extends KeyboardResizeToggleHandler>
+    extends ActionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeyboardResizeToggleHandler.class!",
+                              KeyboardResizeToggleHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardHomeHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.KeyboardHomeHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.KeyboardHomeHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler (the hereby targeted class-under-test class)
-     * @see BasicSplitPaneUITests.KeyboardHomeHandlerTests BasicSplitPaneUITests.KeyboardHomeHandlerTests (The
-     *      complementary j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardHomeHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeyboardHomeHandlerClassTests<SUT extends KeyboardHomeHandler>
+    extends ActionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeyboardHomeHandler.class!",
+                              KeyboardHomeHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardUpLeftHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.PropertyHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.PropertyHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler (the hereby targeted class-under-test class)
-     * @see BasicSplitPaneUITests.PropertyHandlerTests BasicSplitPaneUITests.PropertyHandlerTests (The complementary
-     *      j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler>
-    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeyboardUpLeftHandlerClassTests<SUT extends KeyboardUpLeftHandler>
+    extends ActionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeyboardUpLeftHandler.class!",
+                              KeyboardUpLeftHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for
-     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BasicVerticalLayoutManager public class
+     * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager (the hereby targeted class-under-test
-     *      class)
-     * @see BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests
-     *      BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicHorizontalLayoutManagerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager>
-    extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface BasicVerticalLayoutManagerClassTests<SUT extends BasicVerticalLayoutManager>
+    extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BasicVerticalLayoutManager.class!",
+                              BasicVerticalLayoutManager.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler
-     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardEndHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler (the hereby targeted class-under-test class)
-     * @see BasicSplitPaneUITests.KeyboardUpLeftHandlerTests BasicSplitPaneUITests.KeyboardUpLeftHandlerTests (The
-     *      complementary j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardUpLeftHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeyboardEndHandlerClassTests<SUT extends KeyboardEndHandler>
+    extends ActionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeyboardEndHandler.class!",
+                              KeyboardEndHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler
-     * class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeyboardDownRightHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.KeyboardDownRightHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.KeyboardDownRightHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler (the hereby targeted class-under-test
-     *      class)
-     * @see BasicSplitPaneUITests.KeyboardDownRightHandlerTests BasicSplitPaneUITests.KeyboardDownRightHandlerTests (The
-     *      complementary j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardDownRightHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface KeyboardDownRightHandlerClassTests<SUT extends KeyboardDownRightHandler>
+    extends ActionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeyboardDownRightHandler.class!",
+                              KeyboardDownRightHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for
-     * {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler class
-     * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FocusHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler (the hereby targeted class-under-test
-     *      class)
-     * @see BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests
-     *      BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyboardResizeToggleHandlerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface FocusHandlerClassTests<SUT extends FocusHandler>
+    extends FocusAdapterClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to FocusHandler.class!",
+                              FocusHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$FocusHandler]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager
-     * class javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PropertyHandler public class javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager class
-     *      javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager (the hereby targeted class-under-test
-     *      class)
-     * @see BasicSplitPaneUITests.BasicVerticalLayoutManagerTests BasicSplitPaneUITests.BasicVerticalLayoutManagerTests
-     *      (The complementary j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicVerticalLayoutManagerClassTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager>
-    extends BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests<SUT> {
+    public static abstract interface PropertyHandlerClassTests<SUT extends PropertyHandler>
+    extends PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager.class!",
-                       javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PropertyHandler.class!",
+                              PropertyHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$PropertyHandler]
 
     }
 

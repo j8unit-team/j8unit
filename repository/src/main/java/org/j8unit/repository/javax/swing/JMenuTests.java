@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JMenu;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JMenu class javax.swing.JMenu}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link JMenuClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JMenu public
+ * class javax.swing.JMenu}.
  * </p>
  *
- * @see javax.swing.JMenu class javax.swing.JMenu (the hereby targeted class-under-test class)
- * @see JMenuClassTests JMenuClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JMenuClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMenuTests<SUT extends javax.swing.JMenu>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElementTests<SUT>, JMenuItemTests<SUT> {
+public abstract interface JMenuTests<SUT extends JMenu>
+extends JMenuItemTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JMenu]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#removeMenuListener(javax.swing.event.MenuListener) public void
-     * javax.swing.JMenu.removeMenuListener(javax.swing.event.MenuListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#removeMenuListener(javax.swing.event.MenuListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#removeMenuListener(javax.swing.event.MenuListener) public void
      * javax.swing.JMenu.removeMenuListener(javax.swing.event.MenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#removeMenuListener(javax.swing.event.MenuListener) public void
-     *      javax.swing.JMenu.removeMenuListener(javax.swing.event.MenuListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JMenu.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JMenu.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JMenu.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JMenu.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,11 +80,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setAccelerator(javax.swing.KeyStroke) public void
-     * javax.swing.JMenu.setAccelerator(javax.swing.KeyStroke)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setAccelerator(javax.swing.KeyStroke) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#setAccelerator(javax.swing.KeyStroke) public void
      * javax.swing.JMenu.setAccelerator(javax.swing.KeyStroke)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,8 +89,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setAccelerator(javax.swing.KeyStroke) public void
-     *      javax.swing.JMenu.setAccelerator(javax.swing.KeyStroke) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,20 +104,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setMenuLocation(int, int) public void
-     * javax.swing.JMenu.setMenuLocation(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setMenuLocation(int, int) public void
-     * javax.swing.JMenu.setMenuLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setMenuLocation(int, int) public
+     * void javax.swing.JMenu.setMenuLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setMenuLocation(int, int) public void javax.swing.JMenu.setMenuLocation(int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,47 +126,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#add(String) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(String) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.Action) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#add(String) public javax.swing.JMenuItem javax.swing.JMenu.add(java.lang.String) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(javax.swing.Action) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(javax.swing.Action)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(javax.swing.Action) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(javax.swing.Action)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#add(javax.swing.Action) public javax.swing.JMenuItem
-     *      javax.swing.JMenu.add(javax.swing.Action) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,26 +148,20 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#add(java.awt.Component, int) public java.awt.Component
-     * javax.swing.JMenu.add(java.awt.Component,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(java.awt.Component, int) public java.awt.Component
-     * javax.swing.JMenu.add(java.awt.Component,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(String) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#add(java.awt.Component, int) public java.awt.Component
-     *      javax.swing.JMenu.add(java.awt.Component,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_add_Component_int()
+    public default void test_add_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,20 +170,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#add(java.awt.Component) public java.awt.Component
-     * javax.swing.JMenu.add(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(java.awt.Component) public java.awt.Component
-     * javax.swing.JMenu.add(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(java.awt.Component) public
+     * java.awt.Component javax.swing.JMenu.add(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#add(java.awt.Component) public java.awt.Component
-     *      javax.swing.JMenu.add(java.awt.Component) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -248,20 +193,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#add(javax.swing.JMenuItem) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(javax.swing.JMenuItem)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#add(javax.swing.JMenuItem) public javax.swing.JMenuItem
-     * javax.swing.JMenu.add(javax.swing.JMenuItem)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(javax.swing.JMenuItem) public
+     * javax.swing.JMenuItem javax.swing.JMenu.add(javax.swing.JMenuItem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#add(javax.swing.JMenuItem) public javax.swing.JMenuItem
-     *      javax.swing.JMenu.add(javax.swing.JMenuItem) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,11 +215,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#isMenuComponent(java.awt.Component) public boolean
-     * javax.swing.JMenu.isMenuComponent(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#add(java.awt.Component, int)
+     * public java.awt.Component javax.swing.JMenu.add(java.awt.Component,int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Component_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#isMenuComponent(java.awt.Component) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#isMenuComponent(java.awt.Component) public boolean
      * javax.swing.JMenu.isMenuComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,8 +247,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#isMenuComponent(java.awt.Component) public boolean
-     *      javax.swing.JMenu.isMenuComponent(java.awt.Component) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,18 +261,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#isTopLevelMenu() public boolean javax.swing.JMenu.isTopLevelMenu()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#isTopLevelMenu() public boolean javax.swing.JMenu.isTopLevelMenu()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#isTopLevelMenu() public boolean
+     * javax.swing.JMenu.isTopLevelMenu()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#isTopLevelMenu() public boolean javax.swing.JMenu.isTopLevelMenu() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,11 +283,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setComponentOrientation(java.awt.ComponentOrientation) public void
-     * javax.swing.JMenu.setComponentOrientation(java.awt.ComponentOrientation)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setComponentOrientation(java.awt.ComponentOrientation) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#setComponentOrientation(java.awt.ComponentOrientation) public void
      * javax.swing.JMenu.setComponentOrientation(java.awt.ComponentOrientation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -339,9 +292,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setComponentOrientation(java.awt.ComponentOrientation) public void
-     *      javax.swing.JMenu.setComponentOrientation(java.awt.ComponentOrientation) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -356,20 +307,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setModel(javax.swing.ButtonModel) public void
-     * javax.swing.JMenu.setModel(javax.swing.ButtonModel)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setModel(javax.swing.ButtonModel) public void
-     * javax.swing.JMenu.setModel(javax.swing.ButtonModel)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setModel(javax.swing.ButtonModel)
+     * public void javax.swing.JMenu.setModel(javax.swing.ButtonModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setModel(javax.swing.ButtonModel) public void
-     *      javax.swing.JMenu.setModel(javax.swing.ButtonModel) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -384,20 +330,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getComponent() public java.awt.Component
-     * javax.swing.JMenu.getComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getComponent() public java.awt.Component
-     * javax.swing.JMenu.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#insertSeparator(int) public void
+     * javax.swing.JMenu.insertSeparator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getComponent() public java.awt.Component javax.swing.JMenu.getComponent() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertSeparator_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getComponent() public
+     * java.awt.Component javax.swing.JMenu.getComponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -412,38 +375,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#insertSeparator(int) public void javax.swing.JMenu.insertSeparator(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#insertSeparator(int) public void javax.swing.JMenu.insertSeparator(int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#insertSeparator(int) public void javax.swing.JMenu.insertSeparator(int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertSeparator_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#addMenuListener(javax.swing.event.MenuListener) public void
-     * javax.swing.JMenu.addMenuListener(javax.swing.event.MenuListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#addMenuListener(javax.swing.event.MenuListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#addMenuListener(javax.swing.event.MenuListener) public void
      * javax.swing.JMenu.addMenuListener(javax.swing.event.MenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -451,8 +384,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#addMenuListener(javax.swing.event.MenuListener) public void
-     *      javax.swing.JMenu.addMenuListener(javax.swing.event.MenuListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -466,20 +398,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponent(int) public java.awt.Component
-     * javax.swing.JMenu.getMenuComponent(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponent(int) public java.awt.Component
-     * javax.swing.JMenu.getMenuComponent(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuComponent(int) public
+     * java.awt.Component javax.swing.JMenu.getMenuComponent(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getMenuComponent(int) public java.awt.Component javax.swing.JMenu.getMenuComponent(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -493,47 +420,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponents() public java.awt.Component[]
-     * javax.swing.JMenu.getMenuComponents()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponents() public java.awt.Component[]
-     * javax.swing.JMenu.getMenuComponents()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#menuSelectionChanged(boolean)
+     * public void javax.swing.JMenu.menuSelectionChanged(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getMenuComponents() public java.awt.Component[] javax.swing.JMenu.getMenuComponents() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMenuComponents()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#menuSelectionChanged(boolean) public void
-     * javax.swing.JMenu.menuSelectionChanged(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#menuSelectionChanged(boolean) public void
-     * javax.swing.JMenu.menuSelectionChanged(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#menuSelectionChanged(boolean) public void javax.swing.JMenu.menuSelectionChanged(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -548,20 +443,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#insert(javax.swing.JMenuItem, int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.insert(javax.swing.JMenuItem,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#insert(javax.swing.JMenuItem, int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.insert(javax.swing.JMenuItem,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuComponents() public
+     * java.awt.Component[] javax.swing.JMenu.getMenuComponents()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#insert(javax.swing.JMenuItem, int) public javax.swing.JMenuItem
-     *      javax.swing.JMenu.insert(javax.swing.JMenuItem,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMenuComponents()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#insert(javax.swing.JMenuItem, int)
+     * public javax.swing.JMenuItem javax.swing.JMenu.insert(javax.swing.JMenuItem,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -575,47 +487,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#insert(String, int) public void
-     * javax.swing.JMenu.insert(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#insert(String, int) public void
-     * javax.swing.JMenu.insert(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#insert(javax.swing.Action, int)
+     * public javax.swing.JMenuItem javax.swing.JMenu.insert(javax.swing.Action,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#insert(String, int) public void javax.swing.JMenu.insert(java.lang.String,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#insert(javax.swing.Action, int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.insert(javax.swing.Action,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#insert(javax.swing.Action, int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.insert(javax.swing.Action,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#insert(javax.swing.Action, int) public javax.swing.JMenuItem
-     *      javax.swing.JMenu.insert(javax.swing.Action,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -629,20 +509,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuListeners() public javax.swing.event.MenuListener[]
-     * javax.swing.JMenu.getMenuListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuListeners() public javax.swing.event.MenuListener[]
-     * javax.swing.JMenu.getMenuListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#insert(String, int) public void
+     * javax.swing.JMenu.insert(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getMenuListeners() public javax.swing.event.MenuListener[]
-     *      javax.swing.JMenu.getMenuListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuListeners() public
+     * javax.swing.event.MenuListener[] javax.swing.JMenu.getMenuListeners()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -656,20 +553,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getItem(int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.getItem(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getItem(int) public javax.swing.JMenuItem
-     * javax.swing.JMenu.getItem(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getItem(int) public
+     * javax.swing.JMenuItem javax.swing.JMenu.getItem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getItem(int) public javax.swing.JMenuItem javax.swing.JMenu.getItem(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -683,18 +575,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#updateUI() public void javax.swing.JMenu.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#updateUI() public void javax.swing.JMenu.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#updateUI() public void
+     * javax.swing.JMenu.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#updateUI() public void javax.swing.JMenu.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -709,20 +598,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getUIClassID() public java.lang.String javax.swing.JMenu.getUIClassID()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getUIClassID() public java.lang.String javax.swing.JMenu.getUIClassID()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#isTearOff() public boolean
+     * javax.swing.JMenu.isTearOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getUIClassID() public java.lang.String javax.swing.JMenu.getUIClassID() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTearOff()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getUIClassID() public
+     * java.lang.String javax.swing.JMenu.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -737,45 +643,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#isTearOff() public boolean javax.swing.JMenu.isTearOff()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#isTearOff() public boolean javax.swing.JMenu.isTearOff()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#isPopupMenuVisible() public
+     * boolean javax.swing.JMenu.isPopupMenuVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#isTearOff() public boolean javax.swing.JMenu.isTearOff() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTearOff()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#isPopupMenuVisible() public boolean
-     * javax.swing.JMenu.isPopupMenuVisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#isPopupMenuVisible() public boolean
-     * javax.swing.JMenu.isPopupMenuVisible()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#isPopupMenuVisible() public boolean javax.swing.JMenu.isPopupMenuVisible() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -789,20 +665,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#remove(javax.swing.JMenuItem) public void
-     * javax.swing.JMenu.remove(javax.swing.JMenuItem)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#remove(javax.swing.JMenuItem) public void
-     * javax.swing.JMenu.remove(javax.swing.JMenuItem)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#remove(javax.swing.JMenuItem)
+     * public void javax.swing.JMenu.remove(javax.swing.JMenuItem)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#remove(javax.swing.JMenuItem) public void javax.swing.JMenu.remove(javax.swing.JMenuItem)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -816,20 +687,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#remove(java.awt.Component) public void
-     * javax.swing.JMenu.remove(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#remove(java.awt.Component) public void
-     * javax.swing.JMenu.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#remove(java.awt.Component) public
+     * void javax.swing.JMenu.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#remove(java.awt.Component) public void javax.swing.JMenu.remove(java.awt.Component) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -844,18 +710,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#remove(int) public void javax.swing.JMenu.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#remove(int) public void javax.swing.JMenu.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#remove(int) public void
+     * javax.swing.JMenu.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#remove(int) public void javax.swing.JMenu.remove(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -870,44 +733,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getDelay() public int javax.swing.JMenu.getDelay()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getDelay() public int javax.swing.JMenu.getDelay()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setPopupMenuVisible(boolean)
+     * public void javax.swing.JMenu.setPopupMenuVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getDelay() public int javax.swing.JMenu.getDelay() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDelay()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setPopupMenuVisible(boolean) public void
-     * javax.swing.JMenu.setPopupMenuVisible(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setPopupMenuVisible(boolean) public void
-     * javax.swing.JMenu.setPopupMenuVisible(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JMenu#setPopupMenuVisible(boolean) public void javax.swing.JMenu.setPopupMenuVisible(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -921,20 +755,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getPopupMenu() public javax.swing.JPopupMenu
-     * javax.swing.JMenu.getPopupMenu()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getPopupMenu() public javax.swing.JPopupMenu
-     * javax.swing.JMenu.getPopupMenu()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getDelay() public int
+     * javax.swing.JMenu.getDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getPopupMenu() public javax.swing.JPopupMenu javax.swing.JMenu.getPopupMenu() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDelay()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getPopupMenu() public
+     * javax.swing.JPopupMenu javax.swing.JMenu.getPopupMenu()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -948,20 +799,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setSelected(boolean) public void javax.swing.JMenu.setSelected(boolean)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setSelected(boolean) public void javax.swing.JMenu.setSelected(boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setSelected(boolean) public void
+     * javax.swing.JMenu.setSelected(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setSelected(boolean) public void javax.swing.JMenu.setSelected(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -976,18 +822,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getItemCount() public int javax.swing.JMenu.getItemCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getItemCount() public int javax.swing.JMenu.getItemCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getItemCount() public int
+     * javax.swing.JMenu.getItemCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getItemCount() public int javax.swing.JMenu.getItemCount() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1001,18 +844,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#doClick(int) public void javax.swing.JMenu.doClick(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#doClick(int) public void javax.swing.JMenu.doClick(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#doClick(int) public void
+     * javax.swing.JMenu.doClick(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#doClick(int) public void javax.swing.JMenu.doClick(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1027,18 +867,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#isSelected() public boolean javax.swing.JMenu.isSelected()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#isSelected() public boolean javax.swing.JMenu.isSelected()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#isSelected() public boolean
+     * javax.swing.JMenu.isSelected()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#isSelected() public boolean javax.swing.JMenu.isSelected() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1053,11 +890,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponentCount() public int
-     * javax.swing.JMenu.getMenuComponentCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getMenuComponentCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getMenuComponentCount() public int
      * javax.swing.JMenu.getMenuComponentCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1065,8 +898,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getMenuComponentCount() public int javax.swing.JMenu.getMenuComponentCount() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1080,18 +912,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#setDelay(int) public void javax.swing.JMenu.setDelay(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#setDelay(int) public void javax.swing.JMenu.setDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#setDelay(int) public void
+     * javax.swing.JMenu.setDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#setDelay(int) public void javax.swing.JMenu.setDelay(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1105,11 +934,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#applyComponentOrientation(java.awt.ComponentOrientation) public void
-     * javax.swing.JMenu.applyComponentOrientation(java.awt.ComponentOrientation)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#applyComponentOrientation(java.awt.ComponentOrientation) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenu#applyComponentOrientation(java.awt.ComponentOrientation) public void
      * javax.swing.JMenu.applyComponentOrientation(java.awt.ComponentOrientation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1117,9 +943,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#applyComponentOrientation(java.awt.ComponentOrientation) public void
-     *      javax.swing.JMenu.applyComponentOrientation(java.awt.ComponentOrientation) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1134,20 +958,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#getSubElements() public javax.swing.MenuElement[]
-     * javax.swing.JMenu.getSubElements()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#getSubElements() public javax.swing.MenuElement[]
-     * javax.swing.JMenu.getSubElements()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#getSubElements() public
+     * javax.swing.MenuElement[] javax.swing.JMenu.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#getSubElements() public javax.swing.MenuElement[] javax.swing.JMenu.getSubElements() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1162,18 +981,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#removeAll() public void javax.swing.JMenu.removeAll()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#removeAll() public void javax.swing.JMenu.removeAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#removeAll() public void
+     * javax.swing.JMenu.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#removeAll() public void javax.swing.JMenu.removeAll() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1188,18 +1004,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenu#addSeparator() public void javax.swing.JMenu.addSeparator()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JMenu#addSeparator() public void javax.swing.JMenu.addSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenu#addSeparator() public void
+     * javax.swing.JMenu.addSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JMenu#addSeparator() public void javax.swing.JMenu.addSeparator() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1211,60 +1024,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, MenuElem
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>
-     * {@linkplain javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * class javax.swing.JMenuItem}</li>
-     * <li>
-     * {@linkplain javax.swing.MenuElement#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * interface javax.swing.MenuElement}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_processKeyEvent_KeyEvent_MenuElementArray_MenuSelectionManager()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JMenu]
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>
-     * {@linkplain javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * class javax.swing.JMenuItem}</li>
-     * <li>
-     * {@linkplain javax.swing.MenuElement#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * interface javax.swing.MenuElement}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_processMouseEvent_MouseEvent_MenuElementArray_MenuSelectionManager()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JMenu]
 
 }

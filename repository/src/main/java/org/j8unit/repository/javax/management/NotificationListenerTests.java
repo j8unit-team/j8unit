@@ -1,42 +1,41 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.NotificationListener interface
- * javax.management.NotificationListener}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link NotificationListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NotificationListener public abstract interface javax.management.NotificationListener}.
  * </p>
  *
- * @see javax.management.NotificationListener interface javax.management.NotificationListener (the hereby targeted
- *      class-under-test class)
- * @see NotificationListenerClassTests NotificationListenerClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.NotificationListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NotificationListenerTests<SUT extends javax.management.NotificationListener>
-extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
+public abstract interface NotificationListenerTests<SUT extends NotificationListener>
+extends EventListenerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotificationListener]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
-     * abstract void
-     * javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
      * abstract void
      * javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)}.
@@ -46,10 +45,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.NotificationListener#handleNotification(javax.management.Notification, Object) public
-     *      abstract void
-     *      javax.management.NotificationListener.handleNotification(javax.management.Notification,java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,5 +56,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.NotificationListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationListener]
 
 }

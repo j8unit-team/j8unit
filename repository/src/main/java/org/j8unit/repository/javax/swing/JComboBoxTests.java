@@ -1,49 +1,54 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JComboBox;
+import javax.swing.JComboBox.KeySelectionManager;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ItemSelectableTests;
+import org.j8unit.repository.java.awt.event.ActionListenerTests;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
+import org.j8unit.repository.javax.swing.event.ListDataListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JComboBox class javax.swing.JComboBox}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link JComboBoxClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JComboBox
+ * public class javax.swing.JComboBox<E>}.
  * </p>
  *
- * @see javax.swing.JComboBox class javax.swing.JComboBox (the hereby targeted class-under-test class)
- * @see JComboBoxClassTests JComboBoxClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JComboBoxClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JComboBoxTests<SUT extends javax.swing.JComboBox<E>, E>
-extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JComponentTests<SUT> {
+public abstract interface JComboBoxTests<SUT extends JComboBox<E>, E>
+extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedItem() public java.lang.Object
-     * javax.swing.JComboBox.getSelectedItem()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedItem() public java.lang.Object
-     * javax.swing.JComboBox.getSelectedItem()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedItem() public
+     * java.lang.Object javax.swing.JComboBox.getSelectedItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getSelectedItem() public java.lang.Object javax.swing.JComboBox.getSelectedItem() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,18 +62,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#showPopup() public void javax.swing.JComboBox.showPopup()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#showPopup() public void javax.swing.JComboBox.showPopup()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#showPopup() public void
+     * javax.swing.JComboBox.showPopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#showPopup() public void javax.swing.JComboBox.showPopup() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +84,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#isLightWeightPopupEnabled() public boolean
-     * javax.swing.JComboBox.isLightWeightPopupEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#isLightWeightPopupEnabled() public boolean
-     * javax.swing.JComboBox.isLightWeightPopupEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isLightWeightPopupEnabled()
+     * public boolean javax.swing.JComboBox.isLightWeightPopupEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#isLightWeightPopupEnabled() public boolean
-     *      javax.swing.JComboBox.isLightWeightPopupEnabled() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,18 +106,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#isEditable() public boolean javax.swing.JComboBox.isEditable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#isEditable() public boolean javax.swing.JComboBox.isEditable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isEditable() public boolean
+     * javax.swing.JComboBox.isEditable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#isEditable() public boolean javax.swing.JComboBox.isEditable() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,11 +128,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuWillBecomeVisible() public void
-     * javax.swing.JComboBox.firePopupMenuWillBecomeVisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuWillBecomeVisible() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#firePopupMenuWillBecomeVisible() public void
      * javax.swing.JComboBox.firePopupMenuWillBecomeVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +137,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#firePopupMenuWillBecomeVisible() public void
-     *      javax.swing.JComboBox.firePopupMenuWillBecomeVisible() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,20 +151,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#selectWithKeyChar(char) public boolean
-     * javax.swing.JComboBox.selectWithKeyChar(char)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#selectWithKeyChar(char) public boolean
-     * javax.swing.JComboBox.selectWithKeyChar(char)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#selectWithKeyChar(char) public
+     * boolean javax.swing.JComboBox.selectWithKeyChar(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#selectWithKeyChar(char) public boolean javax.swing.JComboBox.selectWithKeyChar(char)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,11 +173,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#processKeyEvent(java.awt.event.KeyEvent) public void
-     * javax.swing.JComboBox.processKeyEvent(java.awt.event.KeyEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#processKeyEvent(java.awt.event.KeyEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#processKeyEvent(java.awt.event.KeyEvent) public void
      * javax.swing.JComboBox.processKeyEvent(java.awt.event.KeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,8 +182,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#processKeyEvent(java.awt.event.KeyEvent) public void
-     *      javax.swing.JComboBox.processKeyEvent(java.awt.event.KeyEvent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -215,21 +196,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#removePopupMenuListener(javax.swing.event.PopupMenuListener) public
-     * void javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removePopupMenuListener(javax.swing.event.PopupMenuListener) public
-     * void javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removePopupMenuListener(javax.swing.event.PopupMenuListener) public void
+     * javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#removePopupMenuListener(javax.swing.event.PopupMenuListener) public void
-     *      javax.swing.JComboBox.removePopupMenuListener(javax.swing.event.PopupMenuListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,20 +219,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedObjects() public java.lang.Object[]
-     * javax.swing.JComboBox.getSelectedObjects()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedObjects() public java.lang.Object[]
-     * javax.swing.JComboBox.getSelectedObjects()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedObjects() public
+     * java.lang.Object[] javax.swing.JComboBox.getSelectedObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getSelectedObjects() public java.lang.Object[]
-     *      javax.swing.JComboBox.getSelectedObjects() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -271,20 +242,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuCanceled() public void
-     * javax.swing.JComboBox.firePopupMenuCanceled()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuCanceled() public void
-     * javax.swing.JComboBox.firePopupMenuCanceled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#firePopupMenuCanceled() public
+     * void javax.swing.JComboBox.firePopupMenuCanceled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#firePopupMenuCanceled() public void javax.swing.JComboBox.firePopupMenuCanceled() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,45 +264,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getPrototypeDisplayValue() public E
-     * javax.swing.JComboBox.getPrototypeDisplayValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getPrototypeDisplayValue() public java.lang.Object
-     * javax.swing.JComboBox.getPrototypeDisplayValue()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#hidePopup() public void
+     * javax.swing.JComboBox.hidePopup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getPrototypeDisplayValue() public java.lang.Object
-     *      javax.swing.JComboBox.getPrototypeDisplayValue() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrototypeDisplayValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#hidePopup() public void javax.swing.JComboBox.hidePopup()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#hidePopup() public void javax.swing.JComboBox.hidePopup()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JComboBox#hidePopup() public void javax.swing.JComboBox.hidePopup() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -350,20 +286,37 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#isPopupVisible() public boolean
-     * javax.swing.JComboBox.isPopupVisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#isPopupVisible() public boolean
-     * javax.swing.JComboBox.isPopupVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getPrototypeDisplayValue()
+     * public E javax.swing.JComboBox.getPrototypeDisplayValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#isPopupVisible() public boolean javax.swing.JComboBox.isPopupVisible() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrototypeDisplayValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#isPopupVisible() public
+     * boolean javax.swing.JComboBox.isPopupVisible()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -377,11 +330,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
-     * javax.swing.JComboBox.intervalAdded(javax.swing.event.ListDataEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.intervalAdded(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -389,8 +339,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#intervalAdded(javax.swing.event.ListDataEvent) public void
-     *      javax.swing.JComboBox.intervalAdded(javax.swing.event.ListDataEvent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -405,11 +354,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setLightWeightPopupEnabled(boolean) public void
-     * javax.swing.JComboBox.setLightWeightPopupEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setLightWeightPopupEnabled(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setLightWeightPopupEnabled(boolean) public void
      * javax.swing.JComboBox.setLightWeightPopupEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -417,8 +363,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setLightWeightPopupEnabled(boolean) public void
-     *      javax.swing.JComboBox.setLightWeightPopupEnabled(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -432,11 +377,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#contentsChanged(javax.swing.event.ListDataEvent) public void
-     * javax.swing.JComboBox.contentsChanged(javax.swing.event.ListDataEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#contentsChanged(javax.swing.event.ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#contentsChanged(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.contentsChanged(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -444,9 +386,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#contentsChanged(javax.swing.event.ListDataEvent) public void
-     *      javax.swing.JComboBox.contentsChanged(javax.swing.event.ListDataEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -461,20 +401,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setPrototypeDisplayValue(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setPrototypeDisplayValue(Object) public void
      * javax.swing.JComboBox.setPrototypeDisplayValue(E)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setPrototypeDisplayValue(Object) public void
-     * javax.swing.JComboBox.setPrototypeDisplayValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setPrototypeDisplayValue(Object) public void
-     *      javax.swing.JComboBox.setPrototypeDisplayValue(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -488,20 +424,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setModel(javax.swing.ComboBoxModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setModel(javax.swing.ComboBoxModel) public void
      * javax.swing.JComboBox.setModel(javax.swing.ComboBoxModel<E>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setModel(javax.swing.ComboBoxModel) public void
-     * javax.swing.JComboBox.setModel(javax.swing.ComboBoxModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setModel(javax.swing.ComboBoxModel) public void
-     *      javax.swing.JComboBox.setModel(javax.swing.ComboBoxModel) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -515,11 +447,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedIndex() public int
-     * javax.swing.JComboBox.getSelectedIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getSelectedIndex() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getSelectedIndex() public int
      * javax.swing.JComboBox.getSelectedIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,8 +455,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getSelectedIndex() public int javax.swing.JComboBox.getSelectedIndex() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,21 +469,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setKeySelectionManager(javax.swing.JComboBox.KeySelectionManager)
-     * public void javax.swing.JComboBox.setKeySelectionManager(javax.swing.JComboBox$KeySelectionManager)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setKeySelectionManager(javax.swing.JComboBox.KeySelectionManager)
-     * public void javax.swing.JComboBox.setKeySelectionManager(javax.swing.JComboBox$KeySelectionManager)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setKeySelectionManager(javax.swing.JComboBox.KeySelectionManager) public void
+     * javax.swing.JComboBox.setKeySelectionManager(javax.swing.JComboBox$KeySelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setKeySelectionManager(javax.swing.JComboBox.KeySelectionManager) public void
-     *      javax.swing.JComboBox.setKeySelectionManager(javax.swing.JComboBox$KeySelectionManager) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -570,20 +492,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getActionCommand() public java.lang.String
-     * javax.swing.JComboBox.getActionCommand()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getActionCommand() public java.lang.String
-     * javax.swing.JComboBox.getActionCommand()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getActionCommand() public
+     * java.lang.String javax.swing.JComboBox.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getActionCommand() public java.lang.String javax.swing.JComboBox.getActionCommand()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -597,20 +514,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setPopupVisible(boolean) public void
-     * javax.swing.JComboBox.setPopupVisible(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setPopupVisible(boolean) public void
-     * javax.swing.JComboBox.setPopupVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setPopupVisible(boolean)
+     * public void javax.swing.JComboBox.setPopupVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setPopupVisible(boolean) public void javax.swing.JComboBox.setPopupVisible(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -624,11 +536,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#configureEditor(javax.swing.ComboBoxEditor, Object) public void
-     * javax.swing.JComboBox.configureEditor(javax.swing.ComboBoxEditor,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#configureEditor(javax.swing.ComboBoxEditor, Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#configureEditor(javax.swing.ComboBoxEditor, Object) public void
      * javax.swing.JComboBox.configureEditor(javax.swing.ComboBoxEditor,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -636,9 +545,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#configureEditor(javax.swing.ComboBoxEditor, Object) public void
-     *      javax.swing.JComboBox.configureEditor(javax.swing.ComboBoxEditor,java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -652,11 +559,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setEditor(javax.swing.ComboBoxEditor) public void
-     * javax.swing.JComboBox.setEditor(javax.swing.ComboBoxEditor)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setEditor(javax.swing.ComboBoxEditor) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setEditor(javax.swing.ComboBoxEditor) public void
      * javax.swing.JComboBox.setEditor(javax.swing.ComboBoxEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -664,8 +568,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setEditor(javax.swing.ComboBoxEditor) public void
-     *      javax.swing.JComboBox.setEditor(javax.swing.ComboBoxEditor) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -679,47 +582,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getUI() public javax.swing.plaf.ComboBoxUI
-     * javax.swing.JComboBox.getUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getUI() public javax.swing.plaf.ComboBoxUI
-     * javax.swing.JComboBox.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setEnabled(boolean) public
+     * void javax.swing.JComboBox.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getUI() public javax.swing.plaf.ComboBoxUI javax.swing.JComboBox.getUI() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setEnabled(boolean) public void
-     * javax.swing.JComboBox.setEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setEnabled(boolean) public void
-     * javax.swing.JComboBox.setEnabled(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JComboBox#setEnabled(boolean) public void javax.swing.JComboBox.setEnabled(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -734,20 +605,37 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#removeAllItems() public void javax.swing.JComboBox.removeAllItems()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeAllItems() public void javax.swing.JComboBox.removeAllItems()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getUI() public
+     * javax.swing.plaf.ComboBoxUI javax.swing.JComboBox.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#removeAllItems() public void javax.swing.JComboBox.removeAllItems() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeAllItems() public void
+     * javax.swing.JComboBox.removeAllItems()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -761,11 +649,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItemListener(java.awt.event.ItemListener) public void
-     * javax.swing.JComboBox.removeItemListener(java.awt.event.ItemListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItemListener(java.awt.event.ItemListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removeItemListener(java.awt.event.ItemListener) public void
      * javax.swing.JComboBox.removeItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -773,9 +658,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#removeItemListener(java.awt.event.ItemListener) public void
-     *      javax.swing.JComboBox.removeItemListener(java.awt.event.ItemListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -790,21 +673,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#addPopupMenuListener(javax.swing.event.PopupMenuListener) public
-     * void javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#addPopupMenuListener(javax.swing.event.PopupMenuListener) public
-     * void javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addPopupMenuListener(javax.swing.event.PopupMenuListener) public void
+     * javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#addPopupMenuListener(javax.swing.event.PopupMenuListener) public void
-     *      javax.swing.JComboBox.addPopupMenuListener(javax.swing.event.PopupMenuListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -818,11 +696,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#addActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.JComboBox.addActionListener(java.awt.event.ActionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#addActionListener(java.awt.event.ActionListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addActionListener(java.awt.event.ActionListener) public void
      * javax.swing.JComboBox.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -830,9 +705,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#addActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.JComboBox.addActionListener(java.awt.event.ActionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -846,20 +719,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setMaximumRowCount(int) public void
-     * javax.swing.JComboBox.setMaximumRowCount(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setMaximumRowCount(int) public void
-     * javax.swing.JComboBox.setMaximumRowCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setMaximumRowCount(int) public
+     * void javax.swing.JComboBox.setMaximumRowCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setMaximumRowCount(int) public void javax.swing.JComboBox.setMaximumRowCount(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -873,20 +741,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getModel() public javax.swing.ComboBoxModel
-     * <E> javax.swing.JComboBox.getModel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getModel() public javax.swing.ComboBoxModel
-     * javax.swing.JComboBox.getModel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getModel() public
+     * javax.swing.ComboBoxModel<E> javax.swing.JComboBox.getModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getModel() public javax.swing.ComboBoxModel javax.swing.JComboBox.getModel() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -900,20 +763,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemListeners() public java.awt.event.ItemListener[]
-     * javax.swing.JComboBox.getItemListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemListeners() public java.awt.event.ItemListener[]
-     * javax.swing.JComboBox.getItemListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemListeners() public
+     * java.awt.event.ItemListener[] javax.swing.JComboBox.getItemListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getItemListeners() public java.awt.event.ItemListener[]
-     *      javax.swing.JComboBox.getItemListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -927,11 +785,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#addItemListener(java.awt.event.ItemListener) public void
-     * javax.swing.JComboBox.addItemListener(java.awt.event.ItemListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#addItemListener(java.awt.event.ItemListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#addItemListener(java.awt.event.ItemListener) public void
      * javax.swing.JComboBox.addItemListener(java.awt.event.ItemListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -939,8 +794,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#addItemListener(java.awt.event.ItemListener) public void
-     *      javax.swing.JComboBox.addItemListener(java.awt.event.ItemListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -955,11 +809,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#removeActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.JComboBox.removeActionListener(java.awt.event.ActionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeActionListener(java.awt.event.ActionListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#removeActionListener(java.awt.event.ActionListener) public void
      * javax.swing.JComboBox.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -967,9 +818,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#removeActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.JComboBox.removeActionListener(java.awt.event.ActionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -983,20 +832,16 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setRenderer(javax.swing.ListCellRenderer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setRenderer(javax.swing.ListCellRenderer) public void
      * javax.swing.JComboBox.setRenderer(javax.swing.ListCellRenderer<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setRenderer(javax.swing.ListCellRenderer) public void
-     * javax.swing.JComboBox.setRenderer(javax.swing.ListCellRenderer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setRenderer(javax.swing.ListCellRenderer) public void
-     *      javax.swing.JComboBox.setRenderer(javax.swing.ListCellRenderer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1010,20 +855,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getPopupMenuListeners() public javax.swing.event.PopupMenuListener[]
-     * javax.swing.JComboBox.getPopupMenuListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getPopupMenuListeners() public javax.swing.event.PopupMenuListener[]
-     * javax.swing.JComboBox.getPopupMenuListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getPopupMenuListeners() public
+     * javax.swing.event.PopupMenuListener[] javax.swing.JComboBox.getPopupMenuListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getPopupMenuListeners() public javax.swing.event.PopupMenuListener[]
-     *      javax.swing.JComboBox.getPopupMenuListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1037,19 +877,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#addItem(Object) public void javax.swing.JComboBox.addItem(E)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#addItem(Object) public void
-     * javax.swing.JComboBox.addItem(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#addItem(Object) public void
+     * javax.swing.JComboBox.addItem(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#addItem(Object) public void javax.swing.JComboBox.addItem(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1063,11 +899,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#actionPerformed(java.awt.event.ActionEvent) public void
-     * javax.swing.JComboBox.actionPerformed(java.awt.event.ActionEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#actionPerformed(java.awt.event.ActionEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#actionPerformed(java.awt.event.ActionEvent) public void
      * javax.swing.JComboBox.actionPerformed(java.awt.event.ActionEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1075,8 +908,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#actionPerformed(java.awt.event.ActionEvent) public void
-     *      javax.swing.JComboBox.actionPerformed(java.awt.event.ActionEvent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1091,18 +923,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#updateUI() public void javax.swing.JComboBox.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#updateUI() public void javax.swing.JComboBox.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#updateUI() public void
+     * javax.swing.JComboBox.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#updateUI() public void javax.swing.JComboBox.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1117,20 +946,37 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getUIClassID() public java.lang.String
-     * javax.swing.JComboBox.getUIClassID()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getUIClassID() public java.lang.String
-     * javax.swing.JComboBox.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemAt(int) public E
+     * javax.swing.JComboBox.getItemAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getUIClassID() public java.lang.String javax.swing.JComboBox.getUIClassID() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getItemAt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getUIClassID() public
+     * java.lang.String javax.swing.JComboBox.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1145,44 +991,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemAt(int) public E javax.swing.JComboBox.getItemAt(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemAt(int) public java.lang.Object
-     * javax.swing.JComboBox.getItemAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getItemCount() public int
+     * javax.swing.JComboBox.getItemCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getItemAt(int) public java.lang.Object javax.swing.JComboBox.getItemAt(int) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItemAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemCount() public int javax.swing.JComboBox.getItemCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getItemCount() public int javax.swing.JComboBox.getItemCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JComboBox#getItemCount() public int javax.swing.JComboBox.getItemCount() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1196,20 +1013,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getEditor() public javax.swing.ComboBoxEditor
-     * javax.swing.JComboBox.getEditor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getEditor() public javax.swing.ComboBoxEditor
-     * javax.swing.JComboBox.getEditor()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getEditor() public
+     * javax.swing.ComboBoxEditor javax.swing.JComboBox.getEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getEditor() public javax.swing.ComboBoxEditor javax.swing.JComboBox.getEditor() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1223,38 +1035,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItem(Object) public void
-     * javax.swing.JComboBox.removeItem(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItem(Object) public void
-     * javax.swing.JComboBox.removeItem(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JComboBox#removeItem(Object) public void javax.swing.JComboBox.removeItem(java.lang.Object) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeItem_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItemAt(int) public void
-     * javax.swing.JComboBox.removeItemAt(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#removeItemAt(int) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeItemAt(int) public void
      * javax.swing.JComboBox.removeItemAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1262,8 +1043,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#removeItemAt(int) public void javax.swing.JComboBox.removeItemAt(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1277,20 +1057,37 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getMaximumRowCount() public int
-     * javax.swing.JComboBox.getMaximumRowCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getMaximumRowCount() public int
-     * javax.swing.JComboBox.getMaximumRowCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#removeItem(Object) public void
+     * javax.swing.JComboBox.removeItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getMaximumRowCount() public int javax.swing.JComboBox.getMaximumRowCount() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeItem_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getMaximumRowCount() public
+     * int javax.swing.JComboBox.getMaximumRowCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1304,20 +1101,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setAction(javax.swing.Action) public void
-     * javax.swing.JComboBox.setAction(javax.swing.Action)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setAction(javax.swing.Action) public void
-     * javax.swing.JComboBox.setAction(javax.swing.Action)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setAction(javax.swing.Action)
+     * public void javax.swing.JComboBox.setAction(javax.swing.Action)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setAction(javax.swing.Action) public void
-     *      javax.swing.JComboBox.setAction(javax.swing.Action) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1331,20 +1123,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getActionListeners() public java.awt.event.ActionListener[]
-     * javax.swing.JComboBox.getActionListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getActionListeners() public java.awt.event.ActionListener[]
-     * javax.swing.JComboBox.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getActionListeners() public
+     * java.awt.event.ActionListener[] javax.swing.JComboBox.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getActionListeners() public java.awt.event.ActionListener[]
-     *      javax.swing.JComboBox.getActionListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1358,20 +1145,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setSelectedIndex(int) public void
-     * javax.swing.JComboBox.setSelectedIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setSelectedIndex(int) public void
-     * javax.swing.JComboBox.setSelectedIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedIndex(int) public
+     * void javax.swing.JComboBox.setSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setSelectedIndex(int) public void javax.swing.JComboBox.setSelectedIndex(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1385,20 +1167,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getKeySelectionManager() public
-     * javax.swing.JComboBox$KeySelectionManager javax.swing.JComboBox.getKeySelectionManager()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getKeySelectionManager() public
-     * javax.swing.JComboBox$KeySelectionManager javax.swing.JComboBox.getKeySelectionManager()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getKeySelectionManager()
+     * public javax.swing.JComboBox$KeySelectionManager javax.swing.JComboBox.getKeySelectionManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getKeySelectionManager() public javax.swing.JComboBox$KeySelectionManager
-     *      javax.swing.JComboBox.getKeySelectionManager() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1412,11 +1189,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#intervalRemoved(javax.swing.event.ListDataEvent) public void
-     * javax.swing.JComboBox.intervalRemoved(javax.swing.event.ListDataEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#intervalRemoved(javax.swing.event.ListDataEvent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#intervalRemoved(javax.swing.event.ListDataEvent) public void
      * javax.swing.JComboBox.intervalRemoved(javax.swing.event.ListDataEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1424,9 +1198,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#intervalRemoved(javax.swing.event.ListDataEvent) public void
-     *      javax.swing.JComboBox.intervalRemoved(javax.swing.event.ListDataEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1441,11 +1213,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuWillBecomeInvisible() public void
-     * javax.swing.JComboBox.firePopupMenuWillBecomeInvisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#firePopupMenuWillBecomeInvisible() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#firePopupMenuWillBecomeInvisible() public void
      * javax.swing.JComboBox.firePopupMenuWillBecomeInvisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1453,8 +1222,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#firePopupMenuWillBecomeInvisible() public void
-     *      javax.swing.JComboBox.firePopupMenuWillBecomeInvisible() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1468,11 +1236,8 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setUI(javax.swing.plaf.ComboBoxUI) public void
-     * javax.swing.JComboBox.setUI(javax.swing.plaf.ComboBoxUI)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setUI(javax.swing.plaf.ComboBoxUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComboBox#setUI(javax.swing.plaf.ComboBoxUI) public void
      * javax.swing.JComboBox.setUI(javax.swing.plaf.ComboBoxUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1480,8 +1245,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setUI(javax.swing.plaf.ComboBoxUI) public void
-     *      javax.swing.JComboBox.setUI(javax.swing.plaf.ComboBoxUI) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1495,47 +1259,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setSelectedItem(Object) public void
-     * javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setSelectedItem(Object) public void
-     * javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setEditable(boolean) public
+     * void javax.swing.JComboBox.setEditable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setSelectedItem(Object) public void
-     *      javax.swing.JComboBox.setSelectedItem(java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedItem_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setEditable(boolean) public void
-     * javax.swing.JComboBox.setEditable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setEditable(boolean) public void
-     * javax.swing.JComboBox.setEditable(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JComboBox#setEditable(boolean) public void javax.swing.JComboBox.setEditable(boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1549,20 +1281,37 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JComboBox.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JComboBox.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setSelectedItem(Object) public
+     * void javax.swing.JComboBox.setSelectedItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JComboBox.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedItem_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JComboBox.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1577,20 +1326,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#setActionCommand(String) public void
-     * javax.swing.JComboBox.setActionCommand(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#setActionCommand(String) public void
-     * javax.swing.JComboBox.setActionCommand(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#setActionCommand(String)
+     * public void javax.swing.JComboBox.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#setActionCommand(String) public void
-     *      javax.swing.JComboBox.setActionCommand(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1604,20 +1348,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getAction() public javax.swing.Action
-     * javax.swing.JComboBox.getAction()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getAction() public javax.swing.Action
-     * javax.swing.JComboBox.getAction()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getAction() public
+     * javax.swing.Action javax.swing.JComboBox.getAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getAction() public javax.swing.Action javax.swing.JComboBox.getAction() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1631,20 +1370,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#getRenderer() public javax.swing.ListCellRenderer<? super E>
-     * javax.swing.JComboBox.getRenderer()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#getRenderer() public javax.swing.ListCellRenderer
-     * javax.swing.JComboBox.getRenderer()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#getRenderer() public
+     * javax.swing.ListCellRenderer<? super E> javax.swing.JComboBox.getRenderer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#getRenderer() public javax.swing.ListCellRenderer javax.swing.JComboBox.getRenderer()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1658,20 +1392,15 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JComboBox#insertItemAt(Object, int) public void
-     * javax.swing.JComboBox.insertItemAt(E,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JComboBox#insertItemAt(Object, int) public void
-     * javax.swing.JComboBox.insertItemAt(java.lang.Object,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComboBox#insertItemAt(Object, int)
+     * public void javax.swing.JComboBox.insertItemAt(E,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JComboBox#insertItemAt(Object, int) public void
-     *      javax.swing.JComboBox.insertItemAt(java.lang.Object,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1683,36 +1412,38 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.JComboBox.KeySelectionManager interface
-     * javax.swing.JComboBox$KeySelectionManager}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link JComboBoxClassTests.KeySelectionManagerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link KeySelectionManager public abstract static interface javax.swing.JComboBox$KeySelectionManager}.
      * </p>
      *
-     * @see javax.swing.JComboBox.KeySelectionManager interface javax.swing.JComboBox$KeySelectionManager (the hereby
-     *      targeted class-under-test class)
-     * @see JComboBoxClassTests.KeySelectionManagerClassTests JComboBoxClassTests.KeySelectionManagerClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeySelectionManagerTests<SUT extends javax.swing.JComboBox.KeySelectionManager>
+    public static abstract interface KeySelectionManagerTests<SUT extends KeySelectionManager>
     extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.JComboBox.KeySelectionManager#selectionForKey(char, javax.swing.ComboBoxModel) public
-         * abstract int javax.swing.JComboBox$KeySelectionManager.selectionForKey(char,javax.swing.ComboBoxModel)}.
-         *
-         * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JComboBox.KeySelectionManager#selectionForKey(char, javax.swing.ComboBoxModel) public
          * abstract int javax.swing.JComboBox$KeySelectionManager.selectionForKey(char,javax.swing.ComboBoxModel)}.
          *
@@ -1721,9 +1452,7 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JComboBox.KeySelectionManager#selectionForKey(char, javax.swing.ComboBoxModel) public
-         *      abstract int javax.swing.JComboBox$KeySelectionManager.selectionForKey(char,javax.swing.ComboBoxModel)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1734,6 +1463,10 @@ org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.reposi
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
 
     }
 

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.print;
 
+import javax.print.MultiDocPrintService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.MultiDocPrintService interface
- * javax.print.MultiDocPrintService}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link MultiDocPrintServiceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MultiDocPrintService public abstract interface javax.print.MultiDocPrintService}.
  * </p>
  *
- * @see javax.print.MultiDocPrintService interface javax.print.MultiDocPrintService (the hereby targeted
- *      class-under-test class)
- * @see MultiDocPrintServiceClassTests MultiDocPrintServiceClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.MultiDocPrintServiceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MultiDocPrintServiceTests<SUT extends javax.print.MultiDocPrintService>
+public abstract interface MultiDocPrintServiceTests<SUT extends MultiDocPrintService>
 extends PrintServiceTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.MultiDocPrintService]
 
     /**
      * <p>
-     * Test method for {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract
-     * javax.print.MultiDocPrintJob javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract
-     * javax.print.MultiDocPrintJob javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract javax.print.MultiDocPrintJob
+     * javax.print.MultiDocPrintService.createMultiDocPrintJob()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.MultiDocPrintService#createMultiDocPrintJob() public abstract javax.print.MultiDocPrintJob
-     *      javax.print.MultiDocPrintService.createMultiDocPrintJob() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,5 +54,9 @@ extends PrintServiceTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.MultiDocPrintService]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.MultiDocPrintService]
 
 }

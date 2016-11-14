@@ -1,45 +1,49 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.Phaser;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.Phaser class java.util.concurrent.Phaser}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PhaserClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Phaser public
+ * class java.util.concurrent.Phaser}.
  * </p>
  *
- * @see java.util.concurrent.Phaser class java.util.concurrent.Phaser (the hereby targeted class-under-test class)
- * @see PhaserClassTests PhaserClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.PhaserClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PhaserTests<SUT extends java.util.concurrent.Phaser>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PhaserTests<SUT extends Phaser>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.Phaser]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arrive() public int java.util.concurrent.Phaser.arrive()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arrive() public int java.util.concurrent.Phaser.arrive()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#arrive() public int
+     * java.util.concurrent.Phaser.arrive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#arrive() public int java.util.concurrent.Phaser.arrive() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,20 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRegisteredParties() public int
-     * java.util.concurrent.Phaser.getRegisteredParties()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRegisteredParties() public int
-     * java.util.concurrent.Phaser.getRegisteredParties()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getRegisteredParties()
+     * public int java.util.concurrent.Phaser.getRegisteredParties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getRegisteredParties() public int
-     *      java.util.concurrent.Phaser.getRegisteredParties() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,18 +79,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#register() public int java.util.concurrent.Phaser.register()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#register() public int java.util.concurrent.Phaser.register()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#register() public int
+     * java.util.concurrent.Phaser.register()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#register() public int java.util.concurrent.Phaser.register() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,20 +101,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#awaitAdvance(int) public int
-     * java.util.concurrent.Phaser.awaitAdvance(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#awaitAdvance(int) public int
-     * java.util.concurrent.Phaser.awaitAdvance(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#awaitAdvance(int) public
+     * int java.util.concurrent.Phaser.awaitAdvance(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#awaitAdvance(int) public int java.util.concurrent.Phaser.awaitAdvance(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,20 +123,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getPhase() public final int
-     * java.util.concurrent.Phaser.getPhase()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getPhase() public final int
-     * java.util.concurrent.Phaser.getPhase()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getPhase() public final
+     * int java.util.concurrent.Phaser.getPhase()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getPhase() public final int java.util.concurrent.Phaser.getPhase() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,20 +145,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRoot() public java.util.concurrent.Phaser
-     * java.util.concurrent.Phaser.getRoot()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRoot() public java.util.concurrent.Phaser
-     * java.util.concurrent.Phaser.getRoot()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getRoot() public
+     * java.util.concurrent.Phaser java.util.concurrent.Phaser.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getRoot() public java.util.concurrent.Phaser
-     *      java.util.concurrent.Phaser.getRoot() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,20 +167,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getUnarrivedParties() public int
-     * java.util.concurrent.Phaser.getUnarrivedParties()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getUnarrivedParties() public int
-     * java.util.concurrent.Phaser.getUnarrivedParties()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getUnarrivedParties()
+     * public int java.util.concurrent.Phaser.getUnarrivedParties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getUnarrivedParties() public int
-     *      java.util.concurrent.Phaser.getUnarrivedParties() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,20 +189,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#toString() public java.lang.String
-     * java.util.concurrent.Phaser.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#toString() public java.lang.String
-     * java.util.concurrent.Phaser.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#toString() public
+     * java.lang.String java.util.concurrent.Phaser.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#toString() public java.lang.String java.util.concurrent.Phaser.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -241,11 +212,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int) public int
-     * java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int) public int
      * java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -253,9 +221,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int) public int
-     *      java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int) throws java.lang.InterruptedException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,13 +235,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int, long, java.util.concurrent.TimeUnit) public int
-     * java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int,long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException,java.util.concurrent.TimeoutException}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int, long, java.util.concurrent.TimeUnit) public int
      * java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int,long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException,java.util.concurrent.TimeoutException}.
@@ -285,9 +245,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#awaitAdvanceInterruptibly(int, long, java.util.concurrent.TimeUnit) public int
-     *      java.util.concurrent.Phaser.awaitAdvanceInterruptibly(int,long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException,java.util.concurrent.TimeoutException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -301,20 +259,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#bulkRegister(int) public int
-     * java.util.concurrent.Phaser.bulkRegister(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#bulkRegister(int) public int
-     * java.util.concurrent.Phaser.bulkRegister(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#bulkRegister(int) public
+     * int java.util.concurrent.Phaser.bulkRegister(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#bulkRegister(int) public int java.util.concurrent.Phaser.bulkRegister(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,20 +281,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#isTerminated() public boolean
-     * java.util.concurrent.Phaser.isTerminated()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#isTerminated() public boolean
-     * java.util.concurrent.Phaser.isTerminated()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#isTerminated() public
+     * boolean java.util.concurrent.Phaser.isTerminated()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#isTerminated() public boolean java.util.concurrent.Phaser.isTerminated() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,20 +303,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getParent() public java.util.concurrent.Phaser
-     * java.util.concurrent.Phaser.getParent()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getParent() public java.util.concurrent.Phaser
-     * java.util.concurrent.Phaser.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getParent() public
+     * java.util.concurrent.Phaser java.util.concurrent.Phaser.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getParent() public java.util.concurrent.Phaser
-     *      java.util.concurrent.Phaser.getParent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,20 +325,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndAwaitAdvance() public int
-     * java.util.concurrent.Phaser.arriveAndAwaitAdvance()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndAwaitAdvance() public int
-     * java.util.concurrent.Phaser.arriveAndAwaitAdvance()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#arriveAndAwaitAdvance()
+     * public int java.util.concurrent.Phaser.arriveAndAwaitAdvance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#arriveAndAwaitAdvance() public int
-     *      java.util.concurrent.Phaser.arriveAndAwaitAdvance() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,20 +347,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#forceTermination() public void
-     * java.util.concurrent.Phaser.forceTermination()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#forceTermination() public void
-     * java.util.concurrent.Phaser.forceTermination()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#forceTermination()
+     * public void java.util.concurrent.Phaser.forceTermination()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#forceTermination() public void java.util.concurrent.Phaser.forceTermination()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -436,20 +369,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndDeregister() public int
-     * java.util.concurrent.Phaser.arriveAndDeregister()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndDeregister() public int
-     * java.util.concurrent.Phaser.arriveAndDeregister()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#arriveAndDeregister()
+     * public int java.util.concurrent.Phaser.arriveAndDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#arriveAndDeregister() public int
-     *      java.util.concurrent.Phaser.arriveAndDeregister() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -463,20 +391,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getArrivedParties() public int
-     * java.util.concurrent.Phaser.getArrivedParties()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getArrivedParties() public int
-     * java.util.concurrent.Phaser.getArrivedParties()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.Phaser#getArrivedParties()
+     * public int java.util.concurrent.Phaser.getArrivedParties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.Phaser#getArrivedParties() public int java.util.concurrent.Phaser.getArrivedParties()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -487,5 +410,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.Phaser]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.Phaser]
 
 }

@@ -1,28 +1,37 @@
 package org.j8unit.repository.org.omg.IOP.CodecPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
+import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.IOP.CodecPackage.InvalidTypeForEncoding class
- * org.omg.IOP.CodecPackage.InvalidTypeForEncoding}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link InvalidTypeForEncodingClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link InvalidTypeForEncoding public final class org.omg.IOP.CodecPackage.InvalidTypeForEncoding}.
  * </p>
  *
- * @see org.omg.IOP.CodecPackage.InvalidTypeForEncoding class org.omg.IOP.CodecPackage.InvalidTypeForEncoding (the
- *      hereby targeted class-under-test class)
- * @see InvalidTypeForEncodingClassTests InvalidTypeForEncodingClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvalidTypeForEncodingTests<SUT extends org.omg.IOP.CodecPackage.InvalidTypeForEncoding>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+public abstract interface InvalidTypeForEncodingTests<SUT extends InvalidTypeForEncoding>
+extends UserExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
 
 }

@@ -1,28 +1,36 @@
 package org.j8unit.repository.java.security;
 
+import java.security.NoSuchAlgorithmException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.NoSuchAlgorithmException class
- * java.security.NoSuchAlgorithmException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link NoSuchAlgorithmExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NoSuchAlgorithmException public class java.security.NoSuchAlgorithmException}.
  * </p>
  *
- * @see java.security.NoSuchAlgorithmException class java.security.NoSuchAlgorithmException (the hereby targeted
- *      class-under-test class)
- * @see NoSuchAlgorithmExceptionClassTests NoSuchAlgorithmExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NoSuchAlgorithmExceptionTests<SUT extends java.security.NoSuchAlgorithmException>
+public abstract interface NoSuchAlgorithmExceptionTests<SUT extends NoSuchAlgorithmException>
 extends GeneralSecurityExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.NoSuchAlgorithmException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.NoSuchAlgorithmException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.NoSuchAlgorithmException]
 
 }

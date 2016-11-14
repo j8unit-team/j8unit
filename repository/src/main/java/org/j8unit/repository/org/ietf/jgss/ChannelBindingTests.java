@@ -1,47 +1,49 @@
 package org.j8unit.repository.org.ietf.jgss;
 
+import org.ietf.jgss.ChannelBinding;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.ietf.jgss.ChannelBinding class org.ietf.jgss.ChannelBinding}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ChannelBindingClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ChannelBinding
+ * public class org.ietf.jgss.ChannelBinding}.
  * </p>
  *
- * @see org.ietf.jgss.ChannelBinding class org.ietf.jgss.ChannelBinding (the hereby targeted class-under-test class)
- * @see ChannelBindingClassTests ChannelBindingClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.ietf.jgss.ChannelBindingClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ChannelBindingTests<SUT extends org.ietf.jgss.ChannelBinding>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ChannelBindingTests<SUT extends ChannelBinding>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
-     *
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress()
+     * public java.net.InetAddress org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
-     *      org.ietf.jgss.ChannelBinding.getAcceptorAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
-     *
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress()
+     * public java.net.InetAddress org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
-     *      org.ietf.jgss.ChannelBinding.getInitiatorAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +79,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#equals(Object) public boolean
-     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#equals(Object) public boolean
-     * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#equals(Object) public
+     * boolean org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.ietf.jgss.ChannelBinding#equals(Object) public boolean
-     *      org.ietf.jgss.ChannelBinding.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,20 +102,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
-     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
-     *
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
-     * org.ietf.jgss.ChannelBinding.getApplicationData()}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#getApplicationData()
+     * public byte[] org.ietf.jgss.ChannelBinding.getApplicationData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
-     *      org.ietf.jgss.ChannelBinding.getApplicationData() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,11 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#hashCode() public int
-     * org.ietf.jgss.ChannelBinding.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.ChannelBinding#hashCode() public int
      * org.ietf.jgss.ChannelBinding.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +132,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.ietf.jgss.ChannelBinding#hashCode() public int org.ietf.jgss.ChannelBinding.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -162,5 +144,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
 
 }

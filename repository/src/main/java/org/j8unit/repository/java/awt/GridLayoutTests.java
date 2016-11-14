@@ -1,45 +1,50 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.GridLayout;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.GridLayout class java.awt.GridLayout}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link GridLayoutClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link GridLayout
+ * public class java.awt.GridLayout}.
  * </p>
  *
- * @see java.awt.GridLayout class java.awt.GridLayout (the hereby targeted class-under-test class)
- * @see GridLayoutClassTests GridLayoutClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.GridLayoutClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GridLayoutTests<SUT extends java.awt.GridLayout>
-extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface GridLayoutTests<SUT extends GridLayout>
+extends LayoutManagerTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GridLayout]
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#getVgap() public int java.awt.GridLayout.getVgap()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#getVgap() public int java.awt.GridLayout.getVgap()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getVgap() public int
+     * java.awt.GridLayout.getVgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#getVgap() public int java.awt.GridLayout.getVgap() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,18 +58,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#setVgap(int) public void java.awt.GridLayout.setVgap(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#setVgap(int) public void java.awt.GridLayout.setVgap(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setVgap(int) public void
+     * java.awt.GridLayout.setVgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#setVgap(int) public void java.awt.GridLayout.setVgap(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,18 +80,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#setRows(int) public void java.awt.GridLayout.setRows(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#setRows(int) public void java.awt.GridLayout.setRows(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setRows(int) public void
+     * java.awt.GridLayout.setRows(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#setRows(int) public void java.awt.GridLayout.setRows(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,11 +102,8 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
-     * java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
      * java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -115,8 +111,7 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
-     *      java.awt.GridLayout.minimumLayoutSize(java.awt.Container) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -131,11 +126,8 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void
-     * java.awt.GridLayout.layoutContainer(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void
      * java.awt.GridLayout.layoutContainer(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,8 +135,7 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#layoutContainer(java.awt.Container) public void
-     *      java.awt.GridLayout.layoutContainer(java.awt.Container) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -159,11 +150,8 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#addLayoutComponent(String, java.awt.Component) public void
-     * java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#addLayoutComponent(String, java.awt.Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#addLayoutComponent(String, java.awt.Component) public void
      * java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -171,9 +159,7 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#addLayoutComponent(String, java.awt.Component) public void
-     *      java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -188,18 +174,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#toString() public java.lang.String java.awt.GridLayout.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#toString() public java.lang.String java.awt.GridLayout.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#toString() public
+     * java.lang.String java.awt.GridLayout.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#toString() public java.lang.String java.awt.GridLayout.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -214,18 +197,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#setHgap(int) public void java.awt.GridLayout.setHgap(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#setHgap(int) public void java.awt.GridLayout.setHgap(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setHgap(int) public void
+     * java.awt.GridLayout.setHgap(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#setHgap(int) public void java.awt.GridLayout.setHgap(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -239,11 +219,8 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
-     * java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
      * java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -251,8 +228,7 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
-     *      java.awt.GridLayout.preferredLayoutSize(java.awt.Container) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -267,18 +243,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#setColumns(int) public void java.awt.GridLayout.setColumns(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#setColumns(int) public void java.awt.GridLayout.setColumns(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#setColumns(int) public void
+     * java.awt.GridLayout.setColumns(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#setColumns(int) public void java.awt.GridLayout.setColumns(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,11 +265,8 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
-     * java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
      * java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,8 +274,7 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
-     *      java.awt.GridLayout.removeLayoutComponent(java.awt.Component) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -320,18 +289,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#getHgap() public int java.awt.GridLayout.getHgap()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#getHgap() public int java.awt.GridLayout.getHgap()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getHgap() public int
+     * java.awt.GridLayout.getHgap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#getHgap() public int java.awt.GridLayout.getHgap() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,18 +311,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#getRows() public int java.awt.GridLayout.getRows()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#getRows() public int java.awt.GridLayout.getRows()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getRows() public int
+     * java.awt.GridLayout.getRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#getRows() public int java.awt.GridLayout.getRows() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -370,18 +333,15 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#getColumns() public int java.awt.GridLayout.getColumns()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.GridLayout#getColumns() public int java.awt.GridLayout.getColumns()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.GridLayout#getColumns() public int
+     * java.awt.GridLayout.getColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.GridLayout#getColumns() public int java.awt.GridLayout.getColumns() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,5 +352,9 @@ extends LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GridLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GridLayout]
 
 }

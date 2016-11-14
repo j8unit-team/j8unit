@@ -1,5 +1,8 @@
 package org.j8unit;
 
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+
 /**
  * <p>
  * Base interface of subject-under-test (SUT) based J8Unit tests. It straightforwardly specifies
@@ -106,5 +109,15 @@ public abstract interface J8UnitTest<SUT> {
      * @return a new subject-under-test
      */
     public abstract SUT createNewSUT();
+
+    /**
+     * <p>
+     * If this test fails, the creation of the subject-under-test instance failed by returning {@code null}!
+     * </p>
+     */
+    @Test
+    public default void subjectUnderTestMustBeNotNull() {
+        assertNotNull("The subject-under-test must be a valid non-null instance!", this.createNewSUT());
+    }
 
 }

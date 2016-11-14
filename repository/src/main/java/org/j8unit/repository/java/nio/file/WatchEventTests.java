@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.WatchEvent;
+import java.nio.file.WatchEvent.Kind;
+import java.nio.file.WatchEvent.Modifier;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,40 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.WatchEvent interface java.nio.file.WatchEvent}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link WatchEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link WatchEvent
+ * public abstract interface java.nio.file.WatchEvent<T>}.
  * </p>
  *
- * @see java.nio.file.WatchEvent interface java.nio.file.WatchEvent (the hereby targeted class-under-test class)
- * @see WatchEventClassTests WatchEventClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.WatchEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WatchEventTests<SUT extends java.nio.file.WatchEvent<T>, T>
+public abstract interface WatchEventTests<SUT extends WatchEvent<T>, T>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent]
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchEvent#kind() public abstract
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#kind() public abstract
      * java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<T> java.nio.file.WatchEvent.kind()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.WatchEvent#kind() public abstract java.nio.file.WatchEvent$Kind
-     * java.nio.file.WatchEvent.kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.WatchEvent#kind() public abstract java.nio.file.WatchEvent$Kind
-     *      java.nio.file.WatchEvent.kind() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,44 +59,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchEvent#context() public abstract T java.nio.file.WatchEvent.context()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.WatchEvent#context() public abstract java.lang.Object
-     * java.nio.file.WatchEvent.context()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#count() public abstract int
+     * java.nio.file.WatchEvent.count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.WatchEvent#context() public abstract java.lang.Object java.nio.file.WatchEvent.context() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_context()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.WatchEvent#count() public abstract int java.nio.file.WatchEvent.count()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.WatchEvent#count() public abstract int java.nio.file.WatchEvent.count()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.file.WatchEvent#count() public abstract int java.nio.file.WatchEvent.count() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,42 +81,66 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.nio.file.WatchEvent.Modifier interface
-     * java.nio.file.WatchEvent$Modifier}. The complementary j8unit test interface containing the class relevant aspects
-     * is {@link WatchEventClassTests.ModifierClassTests}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent#context() public abstract T
+     * java.nio.file.WatchEvent.context()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see java.nio.file.WatchEvent.Modifier interface java.nio.file.WatchEvent$Modifier (the hereby targeted
-     *      class-under-test class)
-     * @see WatchEventClassTests.ModifierClassTests WatchEventClassTests.ModifierClassTests (the complementary j8unit
-     *      test interface containing the class relevant test methods)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_context()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Modifier
+     * public abstract static interface java.nio.file.WatchEvent$Modifier}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModifierTests<SUT extends java.nio.file.WatchEvent.Modifier>
+    public static abstract interface ModifierTests<SUT extends Modifier>
     extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
 
         /**
          * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Modifier#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Modifier.name()}.
-         *
-         * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Modifier#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Modifier.name()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Modifier#name() public
+         * abstract java.lang.String java.nio.file.WatchEvent$Modifier.name()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.nio.file.WatchEvent.Modifier#name() public abstract java.lang.String
-         *      java.nio.file.WatchEvent$Modifier.name() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -154,46 +152,48 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
+
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.nio.file.WatchEvent.Kind interface java.nio.file.WatchEvent$Kind}
-     * . The complementary j8unit test interface containing the class relevant aspects is
-     * {@link WatchEventClassTests.KindClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Kind public
+     * abstract static interface java.nio.file.WatchEvent$Kind<T>}.
      * </p>
      *
-     * @see java.nio.file.WatchEvent.Kind interface java.nio.file.WatchEvent$Kind (the hereby targeted class-under-test
-     *      class)
-     * @see WatchEventClassTests.KindClassTests WatchEventClassTests.KindClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KindTests<SUT extends java.nio.file.WatchEvent.Kind<T>, T>
+    public static abstract interface KindTests<SUT extends Kind<T>, T>
     extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 
         /**
          * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Kind#type() public abstract java.lang.Class
-         * <T> java.nio.file.WatchEvent$Kind.type()}.
-         *
-         * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Kind#type() public abstract java.lang.Class
-         * java.nio.file.WatchEvent$Kind.type()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Kind#type() public
+         * abstract java.lang.Class<T> java.nio.file.WatchEvent$Kind.type()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.nio.file.WatchEvent.Kind#type() public abstract java.lang.Class
-         *      java.nio.file.WatchEvent$Kind.type() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -207,20 +207,15 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Kind#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Kind.name()}.
-         *
-         * <p>
-         * Test method for {@link java.nio.file.WatchEvent.Kind#name() public abstract java.lang.String
-         * java.nio.file.WatchEvent$Kind.name()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.file.WatchEvent.Kind#name() public
+         * abstract java.lang.String java.nio.file.WatchEvent$Kind.name()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.nio.file.WatchEvent.Kind#name() public abstract java.lang.String
-         *      java.nio.file.WatchEvent$Kind.name() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -231,6 +226,10 @@ extends RepositoryTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 
     }
 

@@ -1,45 +1,49 @@
 package org.j8unit.repository.java.util;
 
+import java.util.OptionalLong;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.OptionalLong class java.util.OptionalLong}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link OptionalLongClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OptionalLong
+ * public final class java.util.OptionalLong}.
  * </p>
  *
- * @see java.util.OptionalLong class java.util.OptionalLong (the hereby targeted class-under-test class)
- * @see OptionalLongClassTests OptionalLongClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.OptionalLongClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OptionalLongTests<SUT extends java.util.OptionalLong>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface OptionalLongTests<SUT extends OptionalLong>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.OptionalLong]
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#getAsLong() public long java.util.OptionalLong.getAsLong()}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#getAsLong() public long java.util.OptionalLong.getAsLong()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#getAsLong() public long
+     * java.util.OptionalLong.getAsLong()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#getAsLong() public long java.util.OptionalLong.getAsLong() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
-     * java.util.OptionalLong.orElseGet(java.util.function.LongSupplier)}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
      * java.util.OptionalLong.orElseGet(java.util.function.LongSupplier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +66,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
-     *      java.util.OptionalLong.orElseGet(java.util.function.LongSupplier) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,11 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#equals(Object) public boolean
-     * java.util.OptionalLong.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#equals(Object) public boolean
      * java.util.OptionalLong.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,8 +88,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#equals(Object) public boolean java.util.OptionalLong.equals(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -108,11 +103,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
-     * java.util.OptionalLong.ifPresent(java.util.function.LongConsumer)}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
      * java.util.OptionalLong.ifPresent(java.util.function.LongConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -120,8 +112,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
-     *      java.util.OptionalLong.ifPresent(java.util.function.LongConsumer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,18 +126,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#hashCode() public int java.util.OptionalLong.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#hashCode() public int java.util.OptionalLong.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#hashCode() public int
+     * java.util.OptionalLong.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#hashCode() public int java.util.OptionalLong.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -161,18 +149,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#isPresent() public boolean java.util.OptionalLong.isPresent()}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#isPresent() public boolean java.util.OptionalLong.isPresent()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#isPresent() public boolean
+     * java.util.OptionalLong.isPresent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#isPresent() public boolean java.util.OptionalLong.isPresent() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,20 +171,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#toString() public java.lang.String
-     * java.util.OptionalLong.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#toString() public java.lang.String
-     * java.util.OptionalLong.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#toString() public
+     * java.lang.String java.util.OptionalLong.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#toString() public java.lang.String java.util.OptionalLong.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -214,18 +194,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#orElse(long) public long java.util.OptionalLong.orElse(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#orElse(long) public long java.util.OptionalLong.orElse(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.OptionalLong#orElse(long) public long
+     * java.util.OptionalLong.orElse(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#orElse(long) public long java.util.OptionalLong.orElse(long) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -239,21 +216,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public <X> long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public <X> long
      * java.util.OptionalLong.orElseThrow(java.util.function.Supplier<X>) throws X}.
-     *
-     * <p>
-     * Test method for {@link java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public long
-     * java.util.OptionalLong.orElseThrow(java.util.function.Supplier) throws java.lang.Throwable}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public long
-     *      java.util.OptionalLong.orElseThrow(java.util.function.Supplier) throws java.lang.Throwable (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -264,5 +236,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.OptionalLong]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.OptionalLong]
 
 }

@@ -8,41 +8,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain TypeNotPresentException class java.lang.TypeNotPresentException}. The
- * complementary j8unit test interface containing the class relevant aspects is
- * {@link TypeNotPresentExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TypeNotPresentException public class java.lang.TypeNotPresentException}.
  * </p>
  *
- * @see TypeNotPresentException class java.lang.TypeNotPresentException (the hereby targeted class-under-test class)
- * @see TypeNotPresentExceptionClassTests TypeNotPresentExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.TypeNotPresentExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeNotPresentExceptionTests<SUT extends TypeNotPresentException>
 extends RuntimeExceptionTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.TypeNotPresentException]
+
     /**
      * <p>
-     * Test method for {@link TypeNotPresentException#typeName() public java.lang.String
-     * java.lang.TypeNotPresentException.typeName()}.
-     *
-     * <p>
-     * Test method for {@link TypeNotPresentException#typeName() public java.lang.String
-     * java.lang.TypeNotPresentException.typeName()}.
+     * Test method for the hereby targeted method-under-test {@link TypeNotPresentException#typeName() public
+     * java.lang.String java.lang.TypeNotPresentException.typeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see TypeNotPresentException#typeName() public java.lang.String java.lang.TypeNotPresentException.typeName() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,5 +52,9 @@ extends RuntimeExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.TypeNotPresentException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.TypeNotPresentException]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang.management;
 
+import java.lang.management.MonitorInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,32 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.lang.management.MonitorInfo class java.lang.management.MonitorInfo}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link MonitorInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MonitorInfo
+ * public class java.lang.management.MonitorInfo}.
  * </p>
  *
- * @see java.lang.management.MonitorInfo class java.lang.management.MonitorInfo (the hereby targeted class-under-test
- *      class)
- * @see MonitorInfoClassTests MonitorInfoClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.management.MonitorInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MonitorInfoTests<SUT extends java.lang.management.MonitorInfo>
+public abstract interface MonitorInfoTests<SUT extends MonitorInfo>
 extends LockInfoTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.MonitorInfo]
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.MonitorInfo#getLockedStackDepth() public int
-     * java.lang.management.MonitorInfo.getLockedStackDepth()}.
-     *
-     * <p>
-     * Test method for {@link java.lang.management.MonitorInfo#getLockedStackDepth() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MonitorInfo#getLockedStackDepth() public int
      * java.lang.management.MonitorInfo.getLockedStackDepth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,8 +43,7 @@ extends LockInfoTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.lang.management.MonitorInfo#getLockedStackDepth() public int
-     *      java.lang.management.MonitorInfo.getLockedStackDepth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,11 +57,8 @@ extends LockInfoTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.MonitorInfo#getLockedStackFrame() public java.lang.StackTraceElement
-     * java.lang.management.MonitorInfo.getLockedStackFrame()}.
-     *
-     * <p>
-     * Test method for {@link java.lang.management.MonitorInfo#getLockedStackFrame() public java.lang.StackTraceElement
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.MonitorInfo#getLockedStackFrame() public java.lang.StackTraceElement
      * java.lang.management.MonitorInfo.getLockedStackFrame()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +66,7 @@ extends LockInfoTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.lang.management.MonitorInfo#getLockedStackFrame() public java.lang.StackTraceElement
-     *      java.lang.management.MonitorInfo.getLockedStackFrame() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,5 +77,9 @@ extends LockInfoTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.MonitorInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MonitorInfo]
 
 }

@@ -1,28 +1,36 @@
 package org.j8unit.repository.javax.smartcardio;
 
+import javax.smartcardio.CardNotPresentException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.smartcardio.CardNotPresentException class
- * javax.smartcardio.CardNotPresentException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link CardNotPresentExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CardNotPresentException public class javax.smartcardio.CardNotPresentException}.
  * </p>
  *
- * @see javax.smartcardio.CardNotPresentException class javax.smartcardio.CardNotPresentException (the hereby targeted
- *      class-under-test class)
- * @see CardNotPresentExceptionClassTests CardNotPresentExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CardNotPresentExceptionTests<SUT extends javax.smartcardio.CardNotPresentException>
+public abstract interface CardNotPresentExceptionTests<SUT extends CardNotPresentException>
 extends CardExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
 
 }

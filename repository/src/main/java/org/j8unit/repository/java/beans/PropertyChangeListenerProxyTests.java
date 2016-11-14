@@ -1,50 +1,51 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeListenerProxy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerProxyTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.PropertyChangeListenerProxy class
- * java.beans.PropertyChangeListenerProxy}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link PropertyChangeListenerProxyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PropertyChangeListenerProxy public class java.beans.PropertyChangeListenerProxy}.
  * </p>
  *
- * @see java.beans.PropertyChangeListenerProxy class java.beans.PropertyChangeListenerProxy (the hereby targeted
- *      class-under-test class)
- * @see PropertyChangeListenerProxyClassTests PropertyChangeListenerProxyClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.PropertyChangeListenerProxyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyChangeListenerProxyTests<SUT extends java.beans.PropertyChangeListenerProxy>
-extends PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyTests<SUT, java.beans.PropertyChangeListener> {
+public abstract interface PropertyChangeListenerProxyTests<SUT extends PropertyChangeListenerProxy>
+extends PropertyChangeListenerTests<SUT>, EventListenerProxyTests<SUT, PropertyChangeListener> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyChangeListenerProxy#propertyChange(java.beans.PropertyChangeEvent)
-     * public void java.beans.PropertyChangeListenerProxy.propertyChange(java.beans.PropertyChangeEvent)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyChangeListenerProxy#propertyChange(java.beans.PropertyChangeEvent)
-     * public void java.beans.PropertyChangeListenerProxy.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyChangeListenerProxy#propertyChange(java.beans.PropertyChangeEvent) public void
+     * java.beans.PropertyChangeListenerProxy.propertyChange(java.beans.PropertyChangeEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyChangeListenerProxy#propertyChange(java.beans.PropertyChangeEvent) public void
-     *      java.beans.PropertyChangeListenerProxy.propertyChange(java.beans.PropertyChangeEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +60,8 @@ extends PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyChangeListenerProxy#getPropertyName() public java.lang.String
-     * java.beans.PropertyChangeListenerProxy.getPropertyName()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyChangeListenerProxy#getPropertyName() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.PropertyChangeListenerProxy#getPropertyName() public java.lang.String
      * java.beans.PropertyChangeListenerProxy.getPropertyName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +69,7 @@ extends PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyChangeListenerProxy#getPropertyName() public java.lang.String
-     *      java.beans.PropertyChangeListenerProxy.getPropertyName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,5 +80,9 @@ extends PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
 
 }

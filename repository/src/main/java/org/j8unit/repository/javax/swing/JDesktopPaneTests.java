@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JDesktopPane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JDesktopPane class javax.swing.JDesktopPane}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link JDesktopPaneClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JDesktopPane
+ * public class javax.swing.JDesktopPane}.
  * </p>
  *
- * @see javax.swing.JDesktopPane class javax.swing.JDesktopPane (the hereby targeted class-under-test class)
- * @see JDesktopPaneClassTests JDesktopPaneClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JDesktopPaneClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JDesktopPaneTests<SUT extends javax.swing.JDesktopPane>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayeredPaneTests<SUT> {
+public abstract interface JDesktopPaneTests<SUT extends JDesktopPane>
+extends JLayeredPaneTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JDesktopPane]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setComponentZOrder(java.awt.Component, int) public void
-     * javax.swing.JDesktopPane.setComponentZOrder(java.awt.Component,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setComponentZOrder(java.awt.Component, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setComponentZOrder(java.awt.Component, int) public void
      * javax.swing.JDesktopPane.setComponentZOrder(java.awt.Component,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#setComponentZOrder(java.awt.Component, int) public void
-     *      javax.swing.JDesktopPane.setComponentZOrder(java.awt.Component,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,20 +58,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAllFramesInLayer(int) public javax.swing.JInternalFrame[]
-     * javax.swing.JDesktopPane.getAllFramesInLayer(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAllFramesInLayer(int) public javax.swing.JInternalFrame[]
-     * javax.swing.JDesktopPane.getAllFramesInLayer(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAllFramesInLayer(int)
+     * public javax.swing.JInternalFrame[] javax.swing.JDesktopPane.getAllFramesInLayer(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getAllFramesInLayer(int) public javax.swing.JInternalFrame[]
-     *      javax.swing.JDesktopPane.getAllFramesInLayer(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,18 +80,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getDragMode() public int javax.swing.JDesktopPane.getDragMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getDragMode() public int javax.swing.JDesktopPane.getDragMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getDragMode() public int
+     * javax.swing.JDesktopPane.getDragMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getDragMode() public int javax.swing.JDesktopPane.getDragMode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,20 +102,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#selectFrame(boolean) public javax.swing.JInternalFrame
-     * javax.swing.JDesktopPane.selectFrame(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#selectFrame(boolean) public javax.swing.JInternalFrame
-     * javax.swing.JDesktopPane.selectFrame(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#selectFrame(boolean) public
+     * javax.swing.JInternalFrame javax.swing.JDesktopPane.selectFrame(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#selectFrame(boolean) public javax.swing.JInternalFrame
-     *      javax.swing.JDesktopPane.selectFrame(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,20 +124,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getUIClassID() public java.lang.String
-     * javax.swing.JDesktopPane.getUIClassID()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getUIClassID() public java.lang.String
-     * javax.swing.JDesktopPane.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getUIClassID() public
+     * java.lang.String javax.swing.JDesktopPane.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getUIClassID() public java.lang.String javax.swing.JDesktopPane.getUIClassID() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -163,18 +147,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#updateUI() public void javax.swing.JDesktopPane.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#updateUI() public void javax.swing.JDesktopPane.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#updateUI() public void
+     * javax.swing.JDesktopPane.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#updateUI() public void javax.swing.JDesktopPane.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -189,18 +170,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#remove(int) public void javax.swing.JDesktopPane.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#remove(int) public void javax.swing.JDesktopPane.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#remove(int) public void
+     * javax.swing.JDesktopPane.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#remove(int) public void javax.swing.JDesktopPane.remove(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -215,20 +193,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#remove(java.awt.Component) public void
-     * javax.swing.JDesktopPane.remove(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#remove(java.awt.Component) public void
-     * javax.swing.JDesktopPane.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#remove(java.awt.Component)
+     * public void javax.swing.JDesktopPane.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#remove(java.awt.Component) public void
-     *      javax.swing.JDesktopPane.remove(java.awt.Component) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -243,20 +216,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getDesktopManager() public javax.swing.DesktopManager
-     * javax.swing.JDesktopPane.getDesktopManager()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getDesktopManager() public javax.swing.DesktopManager
-     * javax.swing.JDesktopPane.getDesktopManager()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getDesktopManager() public
+     * javax.swing.DesktopManager javax.swing.JDesktopPane.getDesktopManager()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getDesktopManager() public javax.swing.DesktopManager
-     *      javax.swing.JDesktopPane.getDesktopManager() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -270,11 +238,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setDesktopManager(javax.swing.DesktopManager) public void
-     * javax.swing.JDesktopPane.setDesktopManager(javax.swing.DesktopManager)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setDesktopManager(javax.swing.DesktopManager) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setDesktopManager(javax.swing.DesktopManager) public void
      * javax.swing.JDesktopPane.setDesktopManager(javax.swing.DesktopManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -282,9 +247,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#setDesktopManager(javax.swing.DesktopManager) public void
-     *      javax.swing.JDesktopPane.setDesktopManager(javax.swing.DesktopManager) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,20 +261,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JDesktopPane.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JDesktopPane.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAccessibleContext()
+     * public javax.accessibility.AccessibleContext javax.swing.JDesktopPane.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JDesktopPane.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -326,18 +284,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#removeAll() public void javax.swing.JDesktopPane.removeAll()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#removeAll() public void javax.swing.JDesktopPane.removeAll()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#removeAll() public void
+     * javax.swing.JDesktopPane.removeAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#removeAll() public void javax.swing.JDesktopPane.removeAll() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -352,11 +307,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setUI(javax.swing.plaf.DesktopPaneUI) public void
-     * javax.swing.JDesktopPane.setUI(javax.swing.plaf.DesktopPaneUI)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setUI(javax.swing.plaf.DesktopPaneUI) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setUI(javax.swing.plaf.DesktopPaneUI) public void
      * javax.swing.JDesktopPane.setUI(javax.swing.plaf.DesktopPaneUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -364,8 +316,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#setUI(javax.swing.plaf.DesktopPaneUI) public void
-     *      javax.swing.JDesktopPane.setUI(javax.swing.plaf.DesktopPaneUI) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -379,20 +330,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getSelectedFrame() public javax.swing.JInternalFrame
-     * javax.swing.JDesktopPane.getSelectedFrame()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getSelectedFrame() public javax.swing.JInternalFrame
-     * javax.swing.JDesktopPane.getSelectedFrame()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getSelectedFrame() public
+     * javax.swing.JInternalFrame javax.swing.JDesktopPane.getSelectedFrame()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getSelectedFrame() public javax.swing.JInternalFrame
-     *      javax.swing.JDesktopPane.getSelectedFrame() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -406,20 +352,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAllFrames() public javax.swing.JInternalFrame[]
-     * javax.swing.JDesktopPane.getAllFrames()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getAllFrames() public javax.swing.JInternalFrame[]
-     * javax.swing.JDesktopPane.getAllFrames()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getAllFrames() public
+     * javax.swing.JInternalFrame[] javax.swing.JDesktopPane.getAllFrames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getAllFrames() public javax.swing.JInternalFrame[]
-     *      javax.swing.JDesktopPane.getAllFrames() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -433,20 +374,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getUI() public javax.swing.plaf.DesktopPaneUI
-     * javax.swing.JDesktopPane.getUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#getUI() public javax.swing.plaf.DesktopPaneUI
-     * javax.swing.JDesktopPane.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#getUI() public
+     * javax.swing.plaf.DesktopPaneUI javax.swing.JDesktopPane.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#getUI() public javax.swing.plaf.DesktopPaneUI javax.swing.JDesktopPane.getUI() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -460,11 +396,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setSelectedFrame(javax.swing.JInternalFrame) public void
-     * javax.swing.JDesktopPane.setSelectedFrame(javax.swing.JInternalFrame)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setSelectedFrame(javax.swing.JInternalFrame) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JDesktopPane#setSelectedFrame(javax.swing.JInternalFrame) public void
      * javax.swing.JDesktopPane.setSelectedFrame(javax.swing.JInternalFrame)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -472,9 +405,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#setSelectedFrame(javax.swing.JInternalFrame) public void
-     *      javax.swing.JDesktopPane.setSelectedFrame(javax.swing.JInternalFrame) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -488,20 +419,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setDragMode(int) public void
-     * javax.swing.JDesktopPane.setDragMode(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JDesktopPane#setDragMode(int) public void
-     * javax.swing.JDesktopPane.setDragMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JDesktopPane#setDragMode(int) public
+     * void javax.swing.JDesktopPane.setDragMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JDesktopPane#setDragMode(int) public void javax.swing.JDesktopPane.setDragMode(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -512,5 +438,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JLayered
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JDesktopPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JDesktopPane]
 
 }

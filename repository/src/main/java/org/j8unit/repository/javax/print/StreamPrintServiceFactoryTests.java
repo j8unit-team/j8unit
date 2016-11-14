@@ -1,52 +1,50 @@
 package org.j8unit.repository.javax.print;
 
+import javax.print.StreamPrintServiceFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.StreamPrintServiceFactory class
- * javax.print.StreamPrintServiceFactory}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link StreamPrintServiceFactoryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link StreamPrintServiceFactory public abstract class javax.print.StreamPrintServiceFactory}.
  * </p>
  *
- * @see javax.print.StreamPrintServiceFactory class javax.print.StreamPrintServiceFactory (the hereby targeted
- *      class-under-test class)
- * @see StreamPrintServiceFactoryClassTests StreamPrintServiceFactoryClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StreamPrintServiceFactoryTests<SUT extends javax.print.StreamPrintServiceFactory>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StreamPrintServiceFactoryTests<SUT extends StreamPrintServiceFactory>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public
-     * abstract javax.print.StreamPrintService
-     * javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public
-     * abstract javax.print.StreamPrintService
-     * javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public abstract
+     * javax.print.StreamPrintService javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public abstract
-     *      javax.print.StreamPrintService javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,11 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintServiceFactory.getOutputFormat()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
      * javax.print.StreamPrintServiceFactory.getOutputFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -72,8 +67,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
-     *      javax.print.StreamPrintServiceFactory.getOutputFormat() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,20 +81,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getSupportedDocFlavors() public abstract
-     * javax.print.DocFlavor[] javax.print.StreamPrintServiceFactory.getSupportedDocFlavors()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getSupportedDocFlavors() public abstract
-     * javax.print.DocFlavor[] javax.print.StreamPrintServiceFactory.getSupportedDocFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.StreamPrintServiceFactory#getSupportedDocFlavors() public abstract javax.print.DocFlavor[]
+     * javax.print.StreamPrintServiceFactory.getSupportedDocFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintServiceFactory#getSupportedDocFlavors() public abstract javax.print.DocFlavor[]
-     *      javax.print.StreamPrintServiceFactory.getSupportedDocFlavors() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,5 +101,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
 
 }

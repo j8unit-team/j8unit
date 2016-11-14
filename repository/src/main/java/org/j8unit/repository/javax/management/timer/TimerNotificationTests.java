@@ -1,40 +1,42 @@
 package org.j8unit.repository.javax.management.timer;
 
+import javax.management.timer.TimerNotification;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.NotificationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.timer.TimerNotification class
- * javax.management.timer.TimerNotification}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link TimerNotificationClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TimerNotification public class javax.management.timer.TimerNotification}.
  * </p>
  *
- * @see javax.management.timer.TimerNotification class javax.management.timer.TimerNotification (the hereby targeted
- *      class-under-test class)
- * @see TimerNotificationClassTests TimerNotificationClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.timer.TimerNotificationClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimerNotificationTests<SUT extends javax.management.timer.TimerNotification>
-extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
+public abstract interface TimerNotificationTests<SUT extends TimerNotification>
+extends NotificationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.timer.TimerNotification]
 
     /**
      * <p>
-     * Test method for {@link javax.management.timer.TimerNotification#getNotificationID() public java.lang.Integer
-     * javax.management.timer.TimerNotification.getNotificationID()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.timer.TimerNotification#getNotificationID() public java.lang.Integer
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.timer.TimerNotification#getNotificationID() public java.lang.Integer
      * javax.management.timer.TimerNotification.getNotificationID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +44,7 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.timer.TimerNotification#getNotificationID() public java.lang.Integer
-     *      javax.management.timer.TimerNotification.getNotificationID() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,5 +55,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.timer.TimerNotification]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.timer.TimerNotification]
 
 }

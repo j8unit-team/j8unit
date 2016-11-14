@@ -1,49 +1,54 @@
 package org.j8unit.repository.java.security.cert;
 
+import java.security.cert.CertPathValidatorException;
+import java.security.cert.CertPathValidatorException.BasicReason;
+import java.security.cert.CertPathValidatorException.Reason;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.security.GeneralSecurityExceptionTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.cert.CertPathValidatorException class
- * java.security.cert.CertPathValidatorException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link CertPathValidatorExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CertPathValidatorException public class java.security.cert.CertPathValidatorException}.
  * </p>
  *
- * @see java.security.cert.CertPathValidatorException class java.security.cert.CertPathValidatorException (the hereby
- *      targeted class-under-test class)
- * @see CertPathValidatorExceptionClassTests CertPathValidatorExceptionClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CertPathValidatorExceptionTests<SUT extends java.security.cert.CertPathValidatorException>
-extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
+public abstract interface CertPathValidatorExceptionTests<SUT extends CertPathValidatorException>
+extends GeneralSecurityExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getCertPath() public
-     * java.security.cert.CertPath java.security.cert.CertPathValidatorException.getCertPath()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getCertPath() public
-     * java.security.cert.CertPath java.security.cert.CertPathValidatorException.getCertPath()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getCertPath() public java.security.cert.CertPath
+     * java.security.cert.CertPathValidatorException.getCertPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidatorException#getCertPath() public java.security.cert.CertPath
-     *      java.security.cert.CertPathValidatorException.getCertPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +62,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getReason() public
-     * java.security.cert.CertPathValidatorException$Reason java.security.cert.CertPathValidatorException.getReason()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getReason() public
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getReason() public
      * java.security.cert.CertPathValidatorException$Reason java.security.cert.CertPathValidatorException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,9 +71,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidatorException#getReason() public
-     *      java.security.cert.CertPathValidatorException$Reason
-     *      java.security.cert.CertPathValidatorException.getReason() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +85,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getIndex() public int
-     * java.security.cert.CertPathValidatorException.getIndex()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getIndex() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.CertPathValidatorException#getIndex() public int
      * java.security.cert.CertPathValidatorException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +94,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidatorException#getIndex() public int
-     *      java.security.cert.CertPathValidatorException.getIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,53 +106,70 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.security.cert.CertPathValidatorException.Reason interface
-     * java.security.cert.CertPathValidatorException$Reason}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link CertPathValidatorExceptionClassTests.ReasonClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Reason
+     * public abstract static interface java.security.cert.CertPathValidatorException$Reason}.
      * </p>
      *
-     * @see java.security.cert.CertPathValidatorException.Reason interface
-     *      java.security.cert.CertPathValidatorException$Reason (the hereby targeted class-under-test class)
-     * @see CertPathValidatorExceptionClassTests.ReasonClassTests CertPathValidatorExceptionClassTests.ReasonClassTests
-     *      (the complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ReasonTests<SUT extends java.security.cert.CertPathValidatorException.Reason>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT> {
+    public static abstract interface ReasonTests<SUT extends Reason>
+    extends SerializableTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.security.cert.CertPathValidatorException.BasicReason class
-     * java.security.cert.CertPathValidatorException$BasicReason}. The complementary j8unit test interface containing
-     * the class relevant aspects is {@link CertPathValidatorExceptionClassTests.BasicReasonClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicReason
+     * public static final enum java.security.cert.CertPathValidatorException$BasicReason}.
      * </p>
      *
-     * @see java.security.cert.CertPathValidatorException.BasicReason class
-     *      java.security.cert.CertPathValidatorException$BasicReason (the hereby targeted class-under-test class)
-     * @see CertPathValidatorExceptionClassTests.BasicReasonClassTests
-     *      CertPathValidatorExceptionClassTests.BasicReasonClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BasicReasonTests<SUT extends java.security.cert.CertPathValidatorException.BasicReason>
-    extends CertPathValidatorExceptionTests.ReasonTests<SUT>,
-    org.j8unit.repository.java.lang.EnumTests<SUT, java.security.cert.CertPathValidatorException.BasicReason> {
+    public static abstract interface BasicReasonTests<SUT extends BasicReason>
+    extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests<SUT>, EnumTests<SUT, BasicReason> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
     }
 

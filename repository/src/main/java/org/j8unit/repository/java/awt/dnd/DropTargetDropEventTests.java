@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.dnd;
 
+import java.awt.dnd.DropTargetDropEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.dnd.DropTargetDropEvent class java.awt.dnd.DropTargetDropEvent}.
- * The complementary j8unit test interface containing the class relevant aspects is
- * {@link DropTargetDropEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DropTargetDropEvent public class java.awt.dnd.DropTargetDropEvent}.
  * </p>
  *
- * @see java.awt.dnd.DropTargetDropEvent class java.awt.dnd.DropTargetDropEvent (the hereby targeted class-under-test
- *      class)
- * @see DropTargetDropEventClassTests DropTargetDropEventClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.dnd.DropTargetDropEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DropTargetDropEventTests<SUT extends java.awt.dnd.DropTargetDropEvent>
+public abstract interface DropTargetDropEventTests<SUT extends DropTargetDropEvent>
 extends DropTargetEventTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DropTargetDropEvent]
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#dropComplete(boolean) public void
-     * java.awt.dnd.DropTargetDropEvent.dropComplete(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#dropComplete(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetDropEvent#dropComplete(boolean) public void
      * java.awt.dnd.DropTargetDropEvent.dropComplete(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,7 @@ extends DropTargetEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#dropComplete(boolean) public void
-     *      java.awt.dnd.DropTargetDropEvent.dropComplete(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +57,16 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavors() public
-     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavors()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavors() public
-     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavors()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavors() public java.awt.datatransfer.DataFlavor[]
+     * java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavors() public java.awt.datatransfer.DataFlavor[]
-     *      java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavors() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +80,15 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getSourceActions() public int
-     * java.awt.dnd.DropTargetDropEvent.getSourceActions()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getSourceActions() public int
-     * java.awt.dnd.DropTargetDropEvent.getSourceActions()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#getSourceActions()
+     * public int java.awt.dnd.DropTargetDropEvent.getSourceActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#getSourceActions() public int
-     *      java.awt.dnd.DropTargetDropEvent.getSourceActions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,47 +102,15 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getTransferable() public
-     * java.awt.datatransfer.Transferable java.awt.dnd.DropTargetDropEvent.getTransferable()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getTransferable() public
-     * java.awt.datatransfer.Transferable java.awt.dnd.DropTargetDropEvent.getTransferable()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#isLocalTransfer()
+     * public boolean java.awt.dnd.DropTargetDropEvent.isLocalTransfer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#getTransferable() public java.awt.datatransfer.Transferable
-     *      java.awt.dnd.DropTargetDropEvent.getTransferable() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransferable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isLocalTransfer() public boolean
-     * java.awt.dnd.DropTargetDropEvent.isLocalTransfer()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isLocalTransfer() public boolean
-     * java.awt.dnd.DropTargetDropEvent.isLocalTransfer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.dnd.DropTargetDropEvent#isLocalTransfer() public boolean
-     *      java.awt.dnd.DropTargetDropEvent.isLocalTransfer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +124,37 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getDropAction() public int
-     * java.awt.dnd.DropTargetDropEvent.getDropAction()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getDropAction() public int
-     * java.awt.dnd.DropTargetDropEvent.getDropAction()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#getTransferable()
+     * public java.awt.datatransfer.Transferable java.awt.dnd.DropTargetDropEvent.getTransferable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#getDropAction() public int java.awt.dnd.DropTargetDropEvent.getDropAction()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransferable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#getDropAction()
+     * public int java.awt.dnd.DropTargetDropEvent.getDropAction()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,47 +168,16 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#acceptDrop(int) public void
-     * java.awt.dnd.DropTargetDropEvent.acceptDrop(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#acceptDrop(int) public void
-     * java.awt.dnd.DropTargetDropEvent.acceptDrop(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public
+     * java.util.List<java.awt.datatransfer.DataFlavor> java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#acceptDrop(int) public void
-     *      java.awt.dnd.DropTargetDropEvent.acceptDrop(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptDrop_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public java.util.List
-     * <java.awt.datatransfer.DataFlavor> java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public java.util.List
-     * java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public java.util.List
-     *      java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,20 +191,37 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getLocation() public java.awt.Point
-     * java.awt.dnd.DropTargetDropEvent.getLocation()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getLocation() public java.awt.Point
-     * java.awt.dnd.DropTargetDropEvent.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#acceptDrop(int)
+     * public void java.awt.dnd.DropTargetDropEvent.acceptDrop(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#getLocation() public java.awt.Point
-     *      java.awt.dnd.DropTargetDropEvent.getLocation() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_acceptDrop_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#getLocation()
+     * public java.awt.Point java.awt.dnd.DropTargetDropEvent.getLocation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,21 +235,16 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
-     * public boolean java.awt.dnd.DropTargetDropEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
-     * public boolean java.awt.dnd.DropTargetDropEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.dnd.DropTargetDropEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public boolean
+     * java.awt.dnd.DropTargetDropEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public boolean
-     *      java.awt.dnd.DropTargetDropEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -301,20 +258,15 @@ extends DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#rejectDrop() public void
-     * java.awt.dnd.DropTargetDropEvent.rejectDrop()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#rejectDrop() public void
-     * java.awt.dnd.DropTargetDropEvent.rejectDrop()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.dnd.DropTargetDropEvent#rejectDrop() public
+     * void java.awt.dnd.DropTargetDropEvent.rejectDrop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.dnd.DropTargetDropEvent#rejectDrop() public void java.awt.dnd.DropTargetDropEvent.rejectDrop() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,5 +277,9 @@ extends DropTargetEventTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DropTargetDropEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DropTargetDropEvent]
 
 }

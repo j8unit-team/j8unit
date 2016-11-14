@@ -1,45 +1,50 @@
 package org.j8unit.repository.java.net;
 
+import java.net.HttpCookie;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.net.HttpCookie class java.net.HttpCookie}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link HttpCookieClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HttpCookie
+ * public final class java.net.HttpCookie}.
  * </p>
  *
- * @see java.net.HttpCookie class java.net.HttpCookie (the hereby targeted class-under-test class)
- * @see HttpCookieClassTests HttpCookieClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.net.HttpCookieClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HttpCookieTests<SUT extends java.net.HttpCookie>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface HttpCookieTests<SUT extends HttpCookie>
+extends CloneableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.HttpCookie]
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getMaxAge() public long java.net.HttpCookie.getMaxAge()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getMaxAge() public long java.net.HttpCookie.getMaxAge()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getMaxAge() public long
+     * java.net.HttpCookie.getMaxAge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getMaxAge() public long java.net.HttpCookie.getMaxAge() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,18 +58,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#hashCode() public int java.net.HttpCookie.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#hashCode() public int java.net.HttpCookie.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#hashCode() public int
+     * java.net.HttpCookie.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#hashCode() public int java.net.HttpCookie.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -79,18 +81,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getPath() public java.lang.String java.net.HttpCookie.getPath()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getPath() public java.lang.String java.net.HttpCookie.getPath()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getPath() public
+     * java.lang.String java.net.HttpCookie.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getPath() public java.lang.String java.net.HttpCookie.getPath() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,18 +103,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#isHttpOnly() public boolean java.net.HttpCookie.isHttpOnly()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#isHttpOnly() public boolean java.net.HttpCookie.isHttpOnly()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#isHttpOnly() public boolean
+     * java.net.HttpCookie.isHttpOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#isHttpOnly() public boolean java.net.HttpCookie.isHttpOnly() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,20 +125,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getComment() public java.lang.String java.net.HttpCookie.getComment()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getComment() public java.lang.String java.net.HttpCookie.getComment()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getComment() public
+     * java.lang.String java.net.HttpCookie.getComment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getComment() public java.lang.String java.net.HttpCookie.getComment() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -156,20 +147,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getPortlist() public java.lang.String
-     * java.net.HttpCookie.getPortlist()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getPortlist() public java.lang.String
-     * java.net.HttpCookie.getPortlist()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getPortlist() public
+     * java.lang.String java.net.HttpCookie.getPortlist()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getPortlist() public java.lang.String java.net.HttpCookie.getPortlist() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -183,20 +169,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getCommentURL() public java.lang.String
-     * java.net.HttpCookie.getCommentURL()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getCommentURL() public java.lang.String
-     * java.net.HttpCookie.getCommentURL()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getCommentURL() public
+     * java.lang.String java.net.HttpCookie.getCommentURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getCommentURL() public java.lang.String java.net.HttpCookie.getCommentURL() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -210,11 +191,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setDiscard(boolean) public void
-     * java.net.HttpCookie.setDiscard(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setDiscard(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setDiscard(boolean) public void
      * java.net.HttpCookie.setDiscard(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -222,8 +199,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setDiscard(boolean) public void java.net.HttpCookie.setDiscard(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -237,18 +213,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getName() public java.lang.String java.net.HttpCookie.getName()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getName() public java.lang.String java.net.HttpCookie.getName()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getName() public
+     * java.lang.String java.net.HttpCookie.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getName() public java.lang.String java.net.HttpCookie.getName() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -262,18 +235,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getDiscard() public boolean java.net.HttpCookie.getDiscard()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getDiscard() public boolean java.net.HttpCookie.getDiscard()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getDiscard() public boolean
+     * java.net.HttpCookie.getDiscard()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getDiscard() public boolean java.net.HttpCookie.getDiscard() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -287,11 +257,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setDomain(String) public void
-     * java.net.HttpCookie.setDomain(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setDomain(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setDomain(String) public void
      * java.net.HttpCookie.setDomain(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -299,8 +265,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setDomain(String) public void java.net.HttpCookie.setDomain(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -314,18 +279,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getValue() public java.lang.String java.net.HttpCookie.getValue()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getValue() public java.lang.String java.net.HttpCookie.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getValue() public
+     * java.lang.String java.net.HttpCookie.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getValue() public java.lang.String java.net.HttpCookie.getValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -339,18 +301,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#hasExpired() public boolean java.net.HttpCookie.hasExpired()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#hasExpired() public boolean java.net.HttpCookie.hasExpired()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#hasExpired() public boolean
+     * java.net.HttpCookie.hasExpired()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#hasExpired() public boolean java.net.HttpCookie.hasExpired() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,18 +323,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getDomain() public java.lang.String java.net.HttpCookie.getDomain()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getDomain() public java.lang.String java.net.HttpCookie.getDomain()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getDomain() public
+     * java.lang.String java.net.HttpCookie.getDomain()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getDomain() public java.lang.String java.net.HttpCookie.getDomain() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -389,11 +345,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#equals(Object) public boolean
-     * java.net.HttpCookie.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setValue(String) public void
+     * java.net.HttpCookie.setValue(java.lang.String)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValue_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#equals(Object) public boolean
      * java.net.HttpCookie.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -401,8 +375,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#equals(Object) public boolean java.net.HttpCookie.equals(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -417,38 +390,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setValue(String) public void
-     * java.net.HttpCookie.setValue(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setValue(String) public void
-     * java.net.HttpCookie.setValue(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.net.HttpCookie#setValue(String) public void java.net.HttpCookie.setValue(java.lang.String) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setHttpOnly(boolean) public void
-     * java.net.HttpCookie.setHttpOnly(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setHttpOnly(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setHttpOnly(boolean) public void
      * java.net.HttpCookie.setHttpOnly(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,8 +398,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setHttpOnly(boolean) public void java.net.HttpCookie.setHttpOnly(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -471,11 +412,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setComment(String) public void
-     * java.net.HttpCookie.setComment(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setComment(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setComment(String) public void
      * java.net.HttpCookie.setComment(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -483,8 +420,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setComment(String) public void java.net.HttpCookie.setComment(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -498,18 +434,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#clone() public java.lang.Object java.net.HttpCookie.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#clone() public java.lang.Object java.net.HttpCookie.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#clone() public java.lang.Object
+     * java.net.HttpCookie.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#clone() public java.lang.Object java.net.HttpCookie.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,18 +456,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#toString() public java.lang.String java.net.HttpCookie.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#toString() public java.lang.String java.net.HttpCookie.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#toString() public
+     * java.lang.String java.net.HttpCookie.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#toString() public java.lang.String java.net.HttpCookie.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -549,18 +479,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getSecure() public boolean java.net.HttpCookie.getSecure()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getSecure() public boolean java.net.HttpCookie.getSecure()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getSecure() public boolean
+     * java.net.HttpCookie.getSecure()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getSecure() public boolean java.net.HttpCookie.getSecure() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,20 +501,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setSecure(boolean) public void java.net.HttpCookie.setSecure(boolean)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setSecure(boolean) public void java.net.HttpCookie.setSecure(boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setSecure(boolean) public void
+     * java.net.HttpCookie.setSecure(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setSecure(boolean) public void java.net.HttpCookie.setSecure(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -601,18 +523,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getVersion() public int java.net.HttpCookie.getVersion()}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#getVersion() public int java.net.HttpCookie.getVersion()}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#getVersion() public int
+     * java.net.HttpCookie.getVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#getVersion() public int java.net.HttpCookie.getVersion() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -626,18 +545,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setVersion(int) public void java.net.HttpCookie.setVersion(int)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setVersion(int) public void java.net.HttpCookie.setVersion(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setVersion(int) public void
+     * java.net.HttpCookie.setVersion(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setVersion(int) public void java.net.HttpCookie.setVersion(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -651,45 +567,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setPortlist(String) public void
-     * java.net.HttpCookie.setPortlist(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setPortlist(String) public void
-     * java.net.HttpCookie.setPortlist(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setMaxAge(long) public void
+     * java.net.HttpCookie.setMaxAge(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setPortlist(String) public void java.net.HttpCookie.setPortlist(java.lang.String) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPortlist_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setMaxAge(long) public void java.net.HttpCookie.setMaxAge(long)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setMaxAge(long) public void java.net.HttpCookie.setMaxAge(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.net.HttpCookie#setMaxAge(long) public void java.net.HttpCookie.setMaxAge(long) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -703,11 +589,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setPath(String) public void
-     * java.net.HttpCookie.setPath(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setPortlist(String) public void
+     * java.net.HttpCookie.setPortlist(java.lang.String)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPortlist_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setPath(String) public void
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setPath(String) public void
      * java.net.HttpCookie.setPath(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -715,8 +619,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setPath(String) public void java.net.HttpCookie.setPath(java.lang.String) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -730,20 +633,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setCommentURL(String) public void
-     * java.net.HttpCookie.setCommentURL(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.HttpCookie#setCommentURL(String) public void
-     * java.net.HttpCookie.setCommentURL(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpCookie#setCommentURL(String) public
+     * void java.net.HttpCookie.setCommentURL(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.HttpCookie#setCommentURL(String) public void java.net.HttpCookie.setCommentURL(java.lang.String)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -754,5 +652,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.HttpCookie]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpCookie]
 
 }

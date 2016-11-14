@@ -1,51 +1,51 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
+import javax.print.attribute.standard.NumberUpSupported;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests;
+import org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.NumberUpSupported class
- * javax.print.attribute.standard.NumberUpSupported}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link NumberUpSupportedClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NumberUpSupported public final class javax.print.attribute.standard.NumberUpSupported}.
  * </p>
  *
- * @see javax.print.attribute.standard.NumberUpSupported class javax.print.attribute.standard.NumberUpSupported (the
- *      hereby targeted class-under-test class)
- * @see NumberUpSupportedClassTests NumberUpSupportedClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.standard.NumberUpSupportedClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NumberUpSupportedTests<SUT extends javax.print.attribute.standard.NumberUpSupported>
-extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTests<SUT>,
-org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
+public abstract interface NumberUpSupportedTests<SUT extends NumberUpSupported>
+extends SupportedValuesAttributeTests<SUT>, SetOfIntegerSyntaxTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.NumberUpSupported]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#getCategory() public final
-     * java.lang.Class<? extends javax.print.attribute.Attribute>
-     * javax.print.attribute.standard.NumberUpSupported.getCategory()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#getCategory() public final
-     * java.lang.Class javax.print.attribute.standard.NumberUpSupported.getCategory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.NumberUpSupported#getCategory() public final java.lang.Class<? extends
+     * javax.print.attribute.Attribute> javax.print.attribute.standard.NumberUpSupported.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.NumberUpSupported#getCategory() public final java.lang.Class
-     *      javax.print.attribute.standard.NumberUpSupported.getCategory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -60,11 +60,8 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#getName() public final java.lang.String
-     * javax.print.attribute.standard.NumberUpSupported.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#getName() public final java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.NumberUpSupported#getName() public final java.lang.String
      * javax.print.attribute.standard.NumberUpSupported.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -72,8 +69,7 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.NumberUpSupported#getName() public final java.lang.String
-     *      javax.print.attribute.standard.NumberUpSupported.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -88,11 +84,8 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#equals(Object) public boolean
-     * javax.print.attribute.standard.NumberUpSupported.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.standard.NumberUpSupported#equals(Object) public boolean
      * javax.print.attribute.standard.NumberUpSupported.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,9 +93,7 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.NumberUpSupported#equals(Object) public boolean
-     *      javax.print.attribute.standard.NumberUpSupported.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,5 +105,9 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.NumberUpSupported]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.NumberUpSupported]
 
 }

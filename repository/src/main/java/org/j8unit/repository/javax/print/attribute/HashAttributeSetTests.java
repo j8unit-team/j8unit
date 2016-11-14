@@ -1,107 +1,51 @@
 package org.j8unit.repository.javax.print.attribute;
 
+import javax.print.attribute.HashAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.HashAttributeSet class
- * javax.print.attribute.HashAttributeSet}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link HashAttributeSetClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HashAttributeSet public class javax.print.attribute.HashAttributeSet}.
  * </p>
  *
- * @see javax.print.attribute.HashAttributeSet class javax.print.attribute.HashAttributeSet (the hereby targeted
- *      class-under-test class)
- * @see HashAttributeSetClassTests HashAttributeSetClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HashAttributeSetTests<SUT extends javax.print.attribute.HashAttributeSet>
-extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface HashAttributeSetTests<SUT extends HashAttributeSet>
+extends AttributeSetTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#remove(javax.print.attribute.Attribute) public
-     * boolean javax.print.attribute.HashAttributeSet.remove(javax.print.attribute.Attribute)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#remove(javax.print.attribute.Attribute) public
-     * boolean javax.print.attribute.HashAttributeSet.remove(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#containsValue(javax.print.attribute.Attribute) public boolean
+     * javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#remove(javax.print.attribute.Attribute) public boolean
-     *      javax.print.attribute.HashAttributeSet.remove(javax.print.attribute.Attribute) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#remove(Class) public boolean
-     * javax.print.attribute.HashAttributeSet.remove(java.lang.Class<?>)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#remove(Class) public boolean
-     * javax.print.attribute.HashAttributeSet.remove(java.lang.Class)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.print.attribute.HashAttributeSet#remove(Class) public boolean
-     *      javax.print.attribute.HashAttributeSet.remove(java.lang.Class) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#containsValue(javax.print.attribute.Attribute)
-     * public boolean javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#containsValue(javax.print.attribute.Attribute)
-     * public boolean javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.print.attribute.HashAttributeSet#containsValue(javax.print.attribute.Attribute) public boolean
-     *      javax.print.attribute.HashAttributeSet.containsValue(javax.print.attribute.Attribute) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -116,26 +60,21 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#clear() public void
-     * javax.print.attribute.HashAttributeSet.clear()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#clear() public void
-     * javax.print.attribute.HashAttributeSet.clear()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#remove(Class)
+     * public boolean javax.print.attribute.HashAttributeSet.remove(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#clear() public void javax.print.attribute.HashAttributeSet.clear()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_clear()
+    public default void test_remove_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,26 +83,22 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#isEmpty() public boolean
-     * javax.print.attribute.HashAttributeSet.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#isEmpty() public boolean
-     * javax.print.attribute.HashAttributeSet.isEmpty()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#remove(javax.print.attribute.Attribute) public boolean
+     * javax.print.attribute.HashAttributeSet.remove(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#isEmpty() public boolean
-     *      javax.print.attribute.HashAttributeSet.isEmpty() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_isEmpty()
+    public default void test_remove_Attribute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,77 +107,15 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#containsKey(Class) public boolean
-     * javax.print.attribute.HashAttributeSet.containsKey(java.lang.Class<?>)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#containsKey(Class) public boolean
-     * javax.print.attribute.HashAttributeSet.containsKey(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#toArray()
+     * public javax.print.attribute.Attribute[] javax.print.attribute.HashAttributeSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#containsKey(Class) public boolean
-     *      javax.print.attribute.HashAttributeSet.containsKey(java.lang.Class) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsKey_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) public boolean
-     * javax.print.attribute.HashAttributeSet.add(javax.print.attribute.Attribute)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) public boolean
-     * javax.print.attribute.HashAttributeSet.add(javax.print.attribute.Attribute)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) public boolean
-     *      javax.print.attribute.HashAttributeSet.add(javax.print.attribute.Attribute) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#toArray() public javax.print.attribute.Attribute[]
-     * javax.print.attribute.HashAttributeSet.toArray()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#toArray() public javax.print.attribute.Attribute[]
-     * javax.print.attribute.HashAttributeSet.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.print.attribute.HashAttributeSet#toArray() public javax.print.attribute.Attribute[]
-     *      javax.print.attribute.HashAttributeSet.toArray() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -257,20 +130,61 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#size() public int
-     * javax.print.attribute.HashAttributeSet.size()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#size() public int
-     * javax.print.attribute.HashAttributeSet.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#isEmpty()
+     * public boolean javax.print.attribute.HashAttributeSet.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#size() public int javax.print.attribute.HashAttributeSet.size() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#clear()
+     * public void javax.print.attribute.HashAttributeSet.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#size() public
+     * int javax.print.attribute.HashAttributeSet.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -285,21 +199,16 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) public
-     * boolean javax.print.attribute.HashAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) public
-     * boolean javax.print.attribute.HashAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) public boolean
+     * javax.print.attribute.HashAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) public boolean
-     *      javax.print.attribute.HashAttributeSet.addAll(javax.print.attribute.AttributeSet) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -314,20 +223,39 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#hashCode() public int
-     * javax.print.attribute.HashAttributeSet.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#hashCode() public int
-     * javax.print.attribute.HashAttributeSet.hashCode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#containsKey(Class) public boolean
+     * javax.print.attribute.HashAttributeSet.containsKey(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#hashCode() public int
-     *      javax.print.attribute.HashAttributeSet.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsKey_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#hashCode()
+     * public int javax.print.attribute.HashAttributeSet.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -342,20 +270,39 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#get(Class) public javax.print.attribute.Attribute
-     * javax.print.attribute.HashAttributeSet.get(java.lang.Class<?>)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#get(Class) public javax.print.attribute.Attribute
-     * javax.print.attribute.HashAttributeSet.get(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#equals(Object) public boolean
+     * javax.print.attribute.HashAttributeSet.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#get(Class) public javax.print.attribute.Attribute
-     *      javax.print.attribute.HashAttributeSet.get(java.lang.Class) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.HashAttributeSet#get(Class)
+     * public javax.print.attribute.Attribute javax.print.attribute.HashAttributeSet.get(java.lang.Class<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -370,30 +317,30 @@ extends AttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#equals(Object) public boolean
-     * javax.print.attribute.HashAttributeSet.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.HashAttributeSet#equals(Object) public boolean
-     * javax.print.attribute.HashAttributeSet.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) public boolean
+     * javax.print.attribute.HashAttributeSet.add(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.HashAttributeSet#equals(Object) public boolean
-     *      javax.print.attribute.HashAttributeSet.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_equals_Object()
+    public default void test_add_Attribute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
 
 }

@@ -1,48 +1,57 @@
 package org.j8unit.repository.javax.swing.text;
 
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyleConstants.CharacterConstants;
+import javax.swing.text.StyleConstants.ColorConstants;
+import javax.swing.text.StyleConstants.FontConstants;
+import javax.swing.text.StyleConstants.ParagraphConstants;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests;
+import org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests;
+import org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests;
+import org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.StyleConstants class javax.swing.text.StyleConstants}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link StyleConstantsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StyleConstants
+ * public class javax.swing.text.StyleConstants}.
  * </p>
  *
- * @see javax.swing.text.StyleConstants class javax.swing.text.StyleConstants (the hereby targeted class-under-test
- *      class)
- * @see StyleConstantsClassTests StyleConstantsClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StyleConstantsTests<SUT extends javax.swing.text.StyleConstants>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StyleConstantsTests<SUT extends StyleConstants>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#toString() public java.lang.String
-     * javax.swing.text.StyleConstants.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.StyleConstants#toString() public java.lang.String
-     * javax.swing.text.StyleConstants.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyleConstants#toString() public
+     * java.lang.String javax.swing.text.StyleConstants.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.StyleConstants#toString() public java.lang.String
-     *      javax.swing.text.StyleConstants.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -55,99 +64,131 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.StyleConstants.FontConstants class
-     * javax.swing.text.StyleConstants$FontConstants}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link StyleConstantsClassTests.FontConstantsClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link CharacterConstants public static class javax.swing.text.StyleConstants$CharacterConstants}.
      * </p>
      *
-     * @see javax.swing.text.StyleConstants.FontConstants class javax.swing.text.StyleConstants$FontConstants (the
-     *      hereby targeted class-under-test class)
-     * @see StyleConstantsClassTests.FontConstantsClassTests StyleConstantsClassTests.FontConstantsClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.CharacterConstantsClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FontConstantsTests<SUT extends javax.swing.text.StyleConstants.FontConstants>
-    extends AttributeSetTests.FontAttributeTests<SUT>, AttributeSetTests.CharacterAttributeTests<SUT>, StyleConstantsTests<SUT> {
+    public static abstract interface CharacterConstantsTests<SUT extends CharacterConstants>
+    extends CharacterAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.StyleConstants.ParagraphConstants class
-     * javax.swing.text.StyleConstants$ParagraphConstants}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link StyleConstantsClassTests.ParagraphConstantsClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ParagraphConstants public static class javax.swing.text.StyleConstants$ParagraphConstants}.
      * </p>
      *
-     * @see javax.swing.text.StyleConstants.ParagraphConstants class javax.swing.text.StyleConstants$ParagraphConstants
-     *      (the hereby targeted class-under-test class)
-     * @see StyleConstantsClassTests.ParagraphConstantsClassTests StyleConstantsClassTests.ParagraphConstantsClassTests
-     *      (the complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParagraphConstantsTests<SUT extends javax.swing.text.StyleConstants.ParagraphConstants>
-    extends AttributeSetTests.ParagraphAttributeTests<SUT>, StyleConstantsTests<SUT> {
+    public static abstract interface ParagraphConstantsTests<SUT extends ParagraphConstants>
+    extends ParagraphAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.StyleConstants.ColorConstants class
-     * javax.swing.text.StyleConstants$ColorConstants}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link StyleConstantsClassTests.ColorConstantsClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FontConstants public static class javax.swing.text.StyleConstants$FontConstants}.
      * </p>
      *
-     * @see javax.swing.text.StyleConstants.ColorConstants class javax.swing.text.StyleConstants$ColorConstants (the
-     *      hereby targeted class-under-test class)
-     * @see StyleConstantsClassTests.ColorConstantsClassTests StyleConstantsClassTests.ColorConstantsClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.FontConstantsClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorConstantsTests<SUT extends javax.swing.text.StyleConstants.ColorConstants>
-    extends AttributeSetTests.ColorAttributeTests<SUT>, AttributeSetTests.CharacterAttributeTests<SUT>, StyleConstantsTests<SUT> {
+    public static abstract interface FontConstantsTests<SUT extends FontConstants>
+    extends FontAttributeTests<SUT>, CharacterAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.StyleConstants.CharacterConstants class
-     * javax.swing.text.StyleConstants$CharacterConstants}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link StyleConstantsClassTests.CharacterConstantsClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ColorConstants public static class javax.swing.text.StyleConstants$ColorConstants}.
      * </p>
      *
-     * @see javax.swing.text.StyleConstants.CharacterConstants class javax.swing.text.StyleConstants$CharacterConstants
-     *      (the hereby targeted class-under-test class)
-     * @see StyleConstantsClassTests.CharacterConstantsClassTests StyleConstantsClassTests.CharacterConstantsClassTests
-     *      (the complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ColorConstantsClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacterConstantsTests<SUT extends javax.swing.text.StyleConstants.CharacterConstants>
-    extends AttributeSetTests.CharacterAttributeTests<SUT>, StyleConstantsTests<SUT> {
+    public static abstract interface ColorConstantsTests<SUT extends ColorConstants>
+    extends ColorAttributeTests<SUT>, CharacterAttributeTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
 
     }
 

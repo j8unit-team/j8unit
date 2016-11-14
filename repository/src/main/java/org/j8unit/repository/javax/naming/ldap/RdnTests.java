@@ -1,44 +1,51 @@
 package org.j8unit.repository.javax.naming.ldap;
 
+import javax.naming.ldap.Rdn;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ComparableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.ldap.Rdn class javax.naming.ldap.Rdn}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link RdnClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Rdn public
+ * class javax.naming.ldap.Rdn}.
  * </p>
  *
- * @see javax.naming.ldap.Rdn class javax.naming.ldap.Rdn (the hereby targeted class-under-test class)
- * @see RdnClassTests RdnClassTests (the complementary j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.ldap.RdnClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RdnTests<SUT extends javax.naming.ldap.Rdn>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, Object>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface RdnTests<SUT extends Rdn>
+extends SerializableTests<SUT>, ComparableTests<SUT, Object>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.Rdn]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#size() public int javax.naming.ldap.Rdn.size()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#size() public int javax.naming.ldap.Rdn.size()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#size() public int
+     * javax.naming.ldap.Rdn.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#size() public int javax.naming.ldap.Rdn.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,18 +59,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#getType() public java.lang.String javax.naming.ldap.Rdn.getType()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#getType() public java.lang.String javax.naming.ldap.Rdn.getType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#getType() public
+     * java.lang.String javax.naming.ldap.Rdn.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#getType() public java.lang.String javax.naming.ldap.Rdn.getType() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,20 +81,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#toAttributes() public javax.naming.directory.Attributes
-     * javax.naming.ldap.Rdn.toAttributes()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#toAttributes() public javax.naming.directory.Attributes
-     * javax.naming.ldap.Rdn.toAttributes()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#toAttributes() public
+     * javax.naming.directory.Attributes javax.naming.ldap.Rdn.toAttributes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#toAttributes() public javax.naming.directory.Attributes
-     *      javax.naming.ldap.Rdn.toAttributes() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,18 +103,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#hashCode() public int javax.naming.ldap.Rdn.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#hashCode() public int javax.naming.ldap.Rdn.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#hashCode() public int
+     * javax.naming.ldap.Rdn.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#hashCode() public int javax.naming.ldap.Rdn.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -130,11 +126,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#equals(Object) public boolean
-     * javax.naming.ldap.Rdn.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#equals(Object) public boolean
      * javax.naming.ldap.Rdn.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -142,8 +134,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#equals(Object) public boolean javax.naming.ldap.Rdn.equals(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -158,20 +149,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#getValue() public java.lang.Object javax.naming.ldap.Rdn.getValue()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#getValue() public java.lang.Object javax.naming.ldap.Rdn.getValue()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#getValue() public
+     * java.lang.Object javax.naming.ldap.Rdn.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#getValue() public java.lang.Object javax.naming.ldap.Rdn.getValue() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -185,20 +171,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#toString() public java.lang.String javax.naming.ldap.Rdn.toString()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#toString() public java.lang.String javax.naming.ldap.Rdn.toString()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#toString() public
+     * java.lang.String javax.naming.ldap.Rdn.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#toString() public java.lang.String javax.naming.ldap.Rdn.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -213,11 +194,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#compareTo(Object) public int
-     * javax.naming.ldap.Rdn.compareTo(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#compareTo(Object) public int
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.Rdn#compareTo(Object) public int
      * javax.naming.ldap.Rdn.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,8 +202,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.Rdn#compareTo(Object) public int javax.naming.ldap.Rdn.compareTo(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -238,5 +214,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.Rdn]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.Rdn]
 
 }

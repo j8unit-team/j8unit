@@ -1,40 +1,42 @@
 package org.j8unit.repository.javax.xml.crypto.dsig;
 
+import javax.xml.crypto.dsig.XMLSignatureException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.crypto.dsig.XMLSignatureException class
- * javax.xml.crypto.dsig.XMLSignatureException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link XMLSignatureExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link XMLSignatureException public class javax.xml.crypto.dsig.XMLSignatureException}.
  * </p>
  *
- * @see javax.xml.crypto.dsig.XMLSignatureException class javax.xml.crypto.dsig.XMLSignatureException (the hereby
- *      targeted class-under-test class)
- * @see XMLSignatureExceptionClassTests XMLSignatureExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLSignatureExceptionTests<SUT extends javax.xml.crypto.dsig.XMLSignatureException>
-extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+public abstract interface XMLSignatureExceptionTests<SUT extends XMLSignatureException>
+extends ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignatureException]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#getCause() public java.lang.Throwable
-     * javax.xml.crypto.dsig.XMLSignatureException.getCause()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#getCause() public java.lang.Throwable
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#getCause() public java.lang.Throwable
      * javax.xml.crypto.dsig.XMLSignatureException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +44,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.dsig.XMLSignatureException#getCause() public java.lang.Throwable
-     *      javax.xml.crypto.dsig.XMLSignatureException.getCause() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,26 +59,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace() public void
-     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace() public void
-     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.dsig.XMLSignatureException#printStackTrace() public void
-     *      javax.xml.crypto.dsig.XMLSignatureException.printStackTrace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_printStackTrace()
+    public default void test_printStackTrace_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,21 +83,16 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintStream) public
-     * void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintStream) public
-     * void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintStream) public void
-     *      javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintStream) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,31 +107,30 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintWriter) public
-     * void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintWriter) public
-     * void javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureException#printStackTrace() public void
+     * javax.xml.crypto.dsig.XMLSignatureException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.dsig.XMLSignatureException#printStackTrace(java.io.PrintWriter) public void
-     *      javax.xml.crypto.dsig.XMLSignatureException.printStackTrace(java.io.PrintWriter) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_printStackTrace_PrintWriter()
+    public default void test_printStackTrace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignatureException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignatureException]
 
 }

@@ -1,47 +1,50 @@
 package org.j8unit.repository.java.awt.event;
 
+import java.awt.event.InvocationEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.AWTEventTests;
+import org.j8unit.repository.java.awt.ActiveEventTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.event.InvocationEvent class java.awt.event.InvocationEvent}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link InvocationEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link InvocationEvent
+ * public class java.awt.event.InvocationEvent}.
  * </p>
  *
- * @see java.awt.event.InvocationEvent class java.awt.event.InvocationEvent (the hereby targeted class-under-test class)
- * @see InvocationEventClassTests InvocationEventClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.event.InvocationEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvocationEventTests<SUT extends java.awt.event.InvocationEvent>
-extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.repository.java.awt.AWTEventTests<SUT> {
+public abstract interface InvocationEventTests<SUT extends InvocationEvent>
+extends ActiveEventTests<SUT>, AWTEventTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.event.InvocationEvent]
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#paramString() public java.lang.String
-     * java.awt.event.InvocationEvent.paramString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#paramString() public java.lang.String
-     * java.awt.event.InvocationEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#paramString() public
+     * java.lang.String java.awt.event.InvocationEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#paramString() public java.lang.String
-     *      java.awt.event.InvocationEvent.paramString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,20 +59,15 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#dispatch() public void
-     * java.awt.event.InvocationEvent.dispatch()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#dispatch() public void
-     * java.awt.event.InvocationEvent.dispatch()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#dispatch() public
+     * void java.awt.event.InvocationEvent.dispatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#dispatch() public void java.awt.event.InvocationEvent.dispatch() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,20 +82,15 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getException() public java.lang.Exception
-     * java.awt.event.InvocationEvent.getException()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getException() public java.lang.Exception
-     * java.awt.event.InvocationEvent.getException()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#getException() public
+     * java.lang.Exception java.awt.event.InvocationEvent.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#getException() public java.lang.Exception
-     *      java.awt.event.InvocationEvent.getException() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +104,15 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#isDispatched() public boolean
-     * java.awt.event.InvocationEvent.isDispatched()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#isDispatched() public boolean
-     * java.awt.event.InvocationEvent.isDispatched()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#isDispatched() public
+     * boolean java.awt.event.InvocationEvent.isDispatched()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#isDispatched() public boolean java.awt.event.InvocationEvent.isDispatched()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,11 +126,7 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getWhen() public long
-     * java.awt.event.InvocationEvent.getWhen()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getWhen() public long
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#getWhen() public long
      * java.awt.event.InvocationEvent.getWhen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +134,7 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#getWhen() public long java.awt.event.InvocationEvent.getWhen() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +148,15 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getThrowable() public java.lang.Throwable
-     * java.awt.event.InvocationEvent.getThrowable()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getThrowable() public java.lang.Throwable
-     * java.awt.event.InvocationEvent.getThrowable()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.InvocationEvent#getThrowable() public
+     * java.lang.Throwable java.awt.event.InvocationEvent.getThrowable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InvocationEvent#getThrowable() public java.lang.Throwable
-     *      java.awt.event.InvocationEvent.getThrowable() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,5 +167,9 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.InvocationEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.InvocationEvent]
 
 }

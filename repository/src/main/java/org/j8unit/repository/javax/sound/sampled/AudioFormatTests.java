@@ -1,75 +1,50 @@
 package org.j8unit.repository.javax.sound.sampled;
 
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioFormat.Encoding;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sound.sampled.AudioFormat class javax.sound.sampled.AudioFormat}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link AudioFormatClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link AudioFormat
+ * public class javax.sound.sampled.AudioFormat}.
  * </p>
  *
- * @see javax.sound.sampled.AudioFormat class javax.sound.sampled.AudioFormat (the hereby targeted class-under-test
- *      class)
- * @see AudioFormatClassTests AudioFormatClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AudioFormatTests<SUT extends javax.sound.sampled.AudioFormat>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface AudioFormatTests<SUT extends AudioFormat>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioFormat]
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getSampleSizeInBits() public int
-     * javax.sound.sampled.AudioFormat.getSampleSizeInBits()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getSampleSizeInBits() public int
-     * javax.sound.sampled.AudioFormat.getSampleSizeInBits()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#isBigEndian() public
+     * boolean javax.sound.sampled.AudioFormat.isBigEndian()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getSampleSizeInBits() public int
-     *      javax.sound.sampled.AudioFormat.getSampleSizeInBits() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSampleSizeInBits()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#isBigEndian() public boolean
-     * javax.sound.sampled.AudioFormat.isBigEndian()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#isBigEndian() public boolean
-     * javax.sound.sampled.AudioFormat.isBigEndian()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.sound.sampled.AudioFormat#isBigEndian() public boolean javax.sound.sampled.AudioFormat.isBigEndian()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +58,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getChannels() public int
-     * javax.sound.sampled.AudioFormat.getChannels()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getChannels() public int
-     * javax.sound.sampled.AudioFormat.getChannels()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioFormat#getSampleSizeInBits() public int
+     * javax.sound.sampled.AudioFormat.getSampleSizeInBits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getChannels() public int javax.sound.sampled.AudioFormat.getChannels() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSampleSizeInBits()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getChannels() public
+     * int javax.sound.sampled.AudioFormat.getChannels()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,20 +103,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getSampleRate() public float
-     * javax.sound.sampled.AudioFormat.getSampleRate()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getSampleRate() public float
-     * javax.sound.sampled.AudioFormat.getSampleRate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getSampleRate()
+     * public float javax.sound.sampled.AudioFormat.getSampleRate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getSampleRate() public float javax.sound.sampled.AudioFormat.getSampleRate()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,20 +125,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#toString() public java.lang.String
-     * javax.sound.sampled.AudioFormat.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#toString() public java.lang.String
-     * javax.sound.sampled.AudioFormat.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#toString() public
+     * java.lang.String javax.sound.sampled.AudioFormat.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#toString() public java.lang.String
-     *      javax.sound.sampled.AudioFormat.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -165,11 +148,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#matches(javax.sound.sampled.AudioFormat) public boolean
-     * javax.sound.sampled.AudioFormat.matches(javax.sound.sampled.AudioFormat)}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#matches(javax.sound.sampled.AudioFormat) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.AudioFormat#matches(javax.sound.sampled.AudioFormat) public boolean
      * javax.sound.sampled.AudioFormat.matches(javax.sound.sampled.AudioFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,9 +157,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#matches(javax.sound.sampled.AudioFormat) public boolean
-     *      javax.sound.sampled.AudioFormat.matches(javax.sound.sampled.AudioFormat) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,20 +171,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getFrameRate() public float
-     * javax.sound.sampled.AudioFormat.getFrameRate()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getFrameRate() public float
-     * javax.sound.sampled.AudioFormat.getFrameRate()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getFrameRate()
+     * public float javax.sound.sampled.AudioFormat.getFrameRate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getFrameRate() public float javax.sound.sampled.AudioFormat.getFrameRate()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,20 +193,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#properties() public java.util.Map<java.lang.String,
-     * java.lang.Object> javax.sound.sampled.AudioFormat.properties()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#properties() public java.util.Map
-     * javax.sound.sampled.AudioFormat.properties()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#properties() public
+     * java.util.Map<java.lang.String, java.lang.Object> javax.sound.sampled.AudioFormat.properties()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#properties() public java.util.Map
-     *      javax.sound.sampled.AudioFormat.properties() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -247,11 +215,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getEncoding() public
-     * javax.sound.sampled.AudioFormat$Encoding javax.sound.sampled.AudioFormat.getEncoding()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getEncoding() public
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getEncoding() public
      * javax.sound.sampled.AudioFormat$Encoding javax.sound.sampled.AudioFormat.getEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +223,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getEncoding() public javax.sound.sampled.AudioFormat$Encoding
-     *      javax.sound.sampled.AudioFormat.getEncoding() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,20 +237,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getProperty(String) public java.lang.Object
-     * javax.sound.sampled.AudioFormat.getProperty(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getProperty(String) public java.lang.Object
-     * javax.sound.sampled.AudioFormat.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getProperty(String)
+     * public java.lang.Object javax.sound.sampled.AudioFormat.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getProperty(String) public java.lang.Object
-     *      javax.sound.sampled.AudioFormat.getProperty(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -301,20 +259,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getFrameSize() public int
-     * javax.sound.sampled.AudioFormat.getFrameSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioFormat#getFrameSize() public int
-     * javax.sound.sampled.AudioFormat.getFrameSize()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.AudioFormat#getFrameSize()
+     * public int javax.sound.sampled.AudioFormat.getFrameSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat#getFrameSize() public int javax.sound.sampled.AudioFormat.getFrameSize()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -326,35 +279,39 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.AudioFormat]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.AudioFormat]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.sound.sampled.AudioFormat.Encoding class
-     * javax.sound.sampled.AudioFormat$Encoding}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link AudioFormatClassTests.EncodingClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Encoding
+     * public static class javax.sound.sampled.AudioFormat$Encoding}.
      * </p>
      *
-     * @see javax.sound.sampled.AudioFormat.Encoding class javax.sound.sampled.AudioFormat$Encoding (the hereby targeted
-     *      class-under-test class)
-     * @see AudioFormatClassTests.EncodingClassTests AudioFormatClassTests.EncodingClassTests (the complementary j8unit
-     *      test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests.EncodingClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EncodingTests<SUT extends javax.sound.sampled.AudioFormat.Encoding>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface EncodingTests<SUT extends Encoding>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioFormat$Encoding]
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#toString() public final java.lang.String
-         * javax.sound.sampled.AudioFormat$Encoding.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#toString() public final java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFormat.Encoding#toString() public final java.lang.String
          * javax.sound.sampled.AudioFormat$Encoding.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -362,8 +319,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.sampled.AudioFormat.Encoding#toString() public final java.lang.String
-         *      javax.sound.sampled.AudioFormat$Encoding.toString() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -378,11 +334,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#equals(Object) public final boolean
-         * javax.sound.sampled.AudioFormat$Encoding.equals(java.lang.Object)}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#equals(Object) public final boolean
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFormat.Encoding#equals(Object) public final boolean
          * javax.sound.sampled.AudioFormat$Encoding.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -390,9 +343,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.sampled.AudioFormat.Encoding#equals(Object) public final boolean
-         *      javax.sound.sampled.AudioFormat$Encoding.equals(java.lang.Object) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -407,11 +358,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#hashCode() public final int
-         * javax.sound.sampled.AudioFormat$Encoding.hashCode()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.sampled.AudioFormat.Encoding#hashCode() public final int
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.sound.sampled.AudioFormat.Encoding#hashCode() public final int
          * javax.sound.sampled.AudioFormat$Encoding.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -419,8 +367,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.sampled.AudioFormat.Encoding#hashCode() public final int
-         *      javax.sound.sampled.AudioFormat$Encoding.hashCode() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -432,6 +379,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.AudioFormat$Encoding]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.AudioFormat$Encoding]
 
     }
 

@@ -1,48 +1,69 @@
 package org.j8unit.repository.java.text;
 
+import java.text.Normalizer;
+import java.text.Normalizer.Form;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.text.Normalizer class java.text.Normalizer}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link NormalizerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Normalizer
+ * public final class java.text.Normalizer}.
  * </p>
  *
- * @see java.text.Normalizer class java.text.Normalizer (the hereby targeted class-under-test class)
- * @see NormalizerClassTests NormalizerClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.text.NormalizerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NormalizerTests<SUT extends java.text.Normalizer>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface NormalizerTests<SUT extends Normalizer>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer]
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.text.Normalizer.Form class java.text.Normalizer$Form}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link NormalizerClassTests.FormClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Form public
+     * static final enum java.text.Normalizer$Form}.
      * </p>
      *
-     * @see java.text.Normalizer.Form class java.text.Normalizer$Form (the hereby targeted class-under-test class)
-     * @see NormalizerClassTests.FormClassTests NormalizerClassTests.FormClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FormTests<SUT extends java.text.Normalizer.Form>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.text.Normalizer.Form> {
+    public static abstract interface FormTests<SUT extends Form>
+    extends EnumTests<SUT, Form> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer$Form]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer$Form]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer$Form]
 
     }
 

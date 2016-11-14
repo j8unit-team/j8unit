@@ -1,28 +1,37 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
+import javax.xml.bind.annotation.XmlValue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.annotation.AnnotationTests;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.XmlValue interface
- * javax.xml.bind.annotation.XmlValue}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link XmlValueClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XmlValue public
+ * abstract @interface javax.xml.bind.annotation.XmlValue}.
  * </p>
  *
- * @see javax.xml.bind.annotation.XmlValue interface javax.xml.bind.annotation.XmlValue (the hereby targeted
- *      class-under-test class)
- * @see XmlValueClassTests XmlValueClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlValueClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XmlValueTests<SUT extends javax.xml.bind.annotation.XmlValue>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+public abstract interface XmlValueTests<SUT extends XmlValue>
+extends AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlValue]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlValue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlValue]
 
 }

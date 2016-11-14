@@ -1,41 +1,45 @@
 package org.j8unit.repository.javax.swing.text;
 
+import javax.swing.text.EditorKit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.EditorKit class javax.swing.text.EditorKit}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link EditorKitClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link EditorKit
+ * public abstract class javax.swing.text.EditorKit}.
  * </p>
  *
- * @see javax.swing.text.EditorKit class javax.swing.text.EditorKit (the hereby targeted class-under-test class)
- * @see EditorKitClassTests EditorKitClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.EditorKitClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EditorKitTests<SUT extends javax.swing.text.EditorKit>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface EditorKitTests<SUT extends EditorKit>
+extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.EditorKit]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.InputStream, javax.swing.text.Document, int)
-     * public abstract void javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.InputStream, javax.swing.text.Document, int)
-     * public abstract void javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.EditorKit#read(java.io.InputStream, javax.swing.text.Document, int) public abstract void
+     * javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,9 +47,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#read(java.io.InputStream, javax.swing.text.Document, int) public abstract void
-     *      javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
-     *      java.io.IOException,javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,13 +61,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.Reader, javax.swing.text.Document, int) public
-     * abstract void javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.Reader, javax.swing.text.Document, int) public
-     * abstract void javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.EditorKit#read(java.io.Reader, javax.swing.text.Document, int) public abstract void
+     * javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -73,9 +71,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#read(java.io.Reader, javax.swing.text.Document, int) public abstract void
-     *      javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
-     *      java.io.IOException,javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,20 +85,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getViewFactory() public abstract javax.swing.text.ViewFactory
-     * javax.swing.text.EditorKit.getViewFactory()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getViewFactory() public abstract javax.swing.text.ViewFactory
-     * javax.swing.text.EditorKit.getViewFactory()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#getViewFactory() public
+     * abstract javax.swing.text.ViewFactory javax.swing.text.EditorKit.getViewFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#getViewFactory() public abstract javax.swing.text.ViewFactory
-     *      javax.swing.text.EditorKit.getViewFactory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,20 +107,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#createCaret() public abstract javax.swing.text.Caret
-     * javax.swing.text.EditorKit.createCaret()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#createCaret() public abstract javax.swing.text.Caret
-     * javax.swing.text.EditorKit.createCaret()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#createCaret() public
+     * abstract javax.swing.text.Caret javax.swing.text.EditorKit.createCaret()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#createCaret() public abstract javax.swing.text.Caret
-     *      javax.swing.text.EditorKit.createCaret() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,20 +129,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#createDefaultDocument() public abstract
-     * javax.swing.text.Document javax.swing.text.EditorKit.createDefaultDocument()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#createDefaultDocument() public abstract
-     * javax.swing.text.Document javax.swing.text.EditorKit.createDefaultDocument()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#createDefaultDocument()
+     * public abstract javax.swing.text.Document javax.swing.text.EditorKit.createDefaultDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#createDefaultDocument() public abstract javax.swing.text.Document
-     *      javax.swing.text.EditorKit.createDefaultDocument() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,11 +151,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
-     * javax.swing.text.EditorKit.install(javax.swing.JEditorPane)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
      * javax.swing.text.EditorKit.install(javax.swing.JEditorPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,8 +160,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
-     *      javax.swing.text.EditorKit.install(javax.swing.JEditorPane) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -197,20 +174,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getActions() public abstract javax.swing.Action[]
-     * javax.swing.text.EditorKit.getActions()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getActions() public abstract javax.swing.Action[]
-     * javax.swing.text.EditorKit.getActions()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#getActions() public
+     * abstract javax.swing.Action[] javax.swing.text.EditorKit.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#getActions() public abstract javax.swing.Action[]
-     *      javax.swing.text.EditorKit.getActions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,11 +196,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
-     * javax.swing.text.EditorKit.deinstall(javax.swing.JEditorPane)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
      * javax.swing.text.EditorKit.deinstall(javax.swing.JEditorPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,8 +205,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
-     *      javax.swing.text.EditorKit.deinstall(javax.swing.JEditorPane) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -251,20 +219,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#clone() public java.lang.Object
-     * javax.swing.text.EditorKit.clone()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#clone() public java.lang.Object
-     * javax.swing.text.EditorKit.clone()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#clone() public
+     * java.lang.Object javax.swing.text.EditorKit.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#clone() public java.lang.Object javax.swing.text.EditorKit.clone() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,20 +241,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getContentType() public abstract java.lang.String
-     * javax.swing.text.EditorKit.getContentType()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getContentType() public abstract java.lang.String
-     * javax.swing.text.EditorKit.getContentType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.EditorKit#getContentType() public
+     * abstract java.lang.String javax.swing.text.EditorKit.getContentType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#getContentType() public abstract java.lang.String
-     *      javax.swing.text.EditorKit.getContentType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -305,13 +263,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#write(java.io.Writer, javax.swing.text.Document, int, int)
-     * public abstract void javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#write(java.io.Writer, javax.swing.text.Document, int, int)
-     * public abstract void javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.EditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public abstract void
+     * javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -319,9 +273,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public abstract void
-     *      javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
-     *      java.io.IOException,javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,13 +287,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.EditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
-     * abstract void javax.swing.text.EditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.EditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
      * abstract void javax.swing.text.EditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
@@ -351,9 +297,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.EditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public abstract
-     *      void javax.swing.text.EditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
-     *      java.io.IOException,javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,5 +308,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.EditorKit]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.EditorKit]
 
 }

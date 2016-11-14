@@ -1,47 +1,52 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JTree;
+import javax.swing.JTree.DropLocation;
+import javax.swing.JTree.DynamicUtilTreeNode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
+import org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JTree class javax.swing.JTree}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link JTreeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JTree public
+ * class javax.swing.JTree}.
  * </p>
  *
- * @see javax.swing.JTree class javax.swing.JTree (the hereby targeted class-under-test class)
- * @see JTreeClassTests JTreeClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JTreeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JTreeTests<SUT extends javax.swing.JTree>
-extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JComponentTests<SUT> {
+public abstract interface JTreeTests<SUT extends JTree>
+extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JTree.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JTree.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JTree.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JTree.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,18 +61,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#cancelEditing() public void javax.swing.JTree.cancelEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#cancelEditing() public void javax.swing.JTree.cancelEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#cancelEditing() public void
+     * javax.swing.JTree.cancelEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#cancelEditing() public void javax.swing.JTree.cancelEditing() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,18 +83,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#collapseRow(int) public void javax.swing.JTree.collapseRow(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#collapseRow(int) public void javax.swing.JTree.collapseRow(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#collapseRow(int) public void
+     * javax.swing.JTree.collapseRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#collapseRow(int) public void javax.swing.JTree.collapseRow(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,18 +105,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#expandRow(int) public void javax.swing.JTree.expandRow(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#expandRow(int) public void javax.swing.JTree.expandRow(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#expandRow(int) public void
+     * javax.swing.JTree.expandRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#expandRow(int) public void javax.swing.JTree.expandRow(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -131,11 +127,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getPreferredScrollableViewportSize() public java.awt.Dimension
-     * javax.swing.JTree.getPreferredScrollableViewportSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getPreferredScrollableViewportSize() public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getPreferredScrollableViewportSize() public java.awt.Dimension
      * javax.swing.JTree.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -143,8 +136,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getPreferredScrollableViewportSize() public java.awt.Dimension
-     *      javax.swing.JTree.getPreferredScrollableViewportSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -159,20 +151,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionInterval(int, int) public void
-     * javax.swing.JTree.setSelectionInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionInterval(int, int) public void
-     * javax.swing.JTree.setSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setSelectionInterval(int, int)
+     * public void javax.swing.JTree.setSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionInterval(int, int) public void javax.swing.JTree.setSelectionInterval(int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,45 +173,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isEditing() public boolean javax.swing.JTree.isEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isEditing() public boolean javax.swing.JTree.isEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setScrollsOnExpand(boolean) public
+     * void javax.swing.JTree.setScrollsOnExpand(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isEditing() public boolean javax.swing.JTree.isEditing() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#setScrollsOnExpand(boolean) public void
-     * javax.swing.JTree.setScrollsOnExpand(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setScrollsOnExpand(boolean) public void
-     * javax.swing.JTree.setScrollsOnExpand(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#setScrollsOnExpand(boolean) public void javax.swing.JTree.setScrollsOnExpand(boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -238,25 +195,20 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.JTree.removeSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.JTree.removeSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isEditing() public boolean
+     * javax.swing.JTree.isEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.JTree.removeSelectionPaths(javax.swing.tree.TreePath[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeSelectionPaths_TreePathArray()
+    public default void test_isEditing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -265,11 +217,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeWillCollapse(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.fireTreeWillCollapse(javax.swing.tree.TreePath) throws javax.swing.tree.ExpandVetoException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeWillCollapse(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#fireTreeWillCollapse(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.fireTreeWillCollapse(javax.swing.tree.TreePath) throws javax.swing.tree.ExpandVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,9 +226,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#fireTreeWillCollapse(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.fireTreeWillCollapse(javax.swing.tree.TreePath) throws
-     *      javax.swing.tree.ExpandVetoException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -293,11 +240,31 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getPathBounds(javax.swing.tree.TreePath) public java.awt.Rectangle
-     * javax.swing.JTree.getPathBounds(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
+     * javax.swing.JTree.removeSelectionPaths(javax.swing.tree.TreePath[])}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeSelectionPaths_TreePathArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getPathBounds(javax.swing.tree.TreePath) public java.awt.Rectangle
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getPathBounds(javax.swing.tree.TreePath) public java.awt.Rectangle
      * javax.swing.JTree.getPathBounds(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -305,8 +272,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getPathBounds(javax.swing.tree.TreePath) public java.awt.Rectangle
-     *      javax.swing.JTree.getPathBounds(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -320,20 +286,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getRowBounds(int) public java.awt.Rectangle
-     * javax.swing.JTree.getRowBounds(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowBounds(int) public java.awt.Rectangle
-     * javax.swing.JTree.getRowBounds(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowBounds(int) public
+     * java.awt.Rectangle javax.swing.JTree.getRowBounds(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getRowBounds(int) public java.awt.Rectangle javax.swing.JTree.getRowBounds(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -347,20 +308,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getPathForLocation(int, int) public javax.swing.tree.TreePath
-     * javax.swing.JTree.getPathForLocation(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getPathForLocation(int, int) public javax.swing.tree.TreePath
-     * javax.swing.JTree.getPathForLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getPathForLocation(int, int)
+     * public javax.swing.tree.TreePath javax.swing.JTree.getPathForLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getPathForLocation(int, int) public javax.swing.tree.TreePath
-     *      javax.swing.JTree.getPathForLocation(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -374,11 +330,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#expandPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.expandPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#expandPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#expandPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.expandPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -386,8 +339,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#expandPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.expandPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -401,21 +353,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)
-     * public void javax.swing.JTree.removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)
-     * public void javax.swing.JTree.removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) public void
+     * javax.swing.JTree.removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) public void
-     *      javax.swing.JTree.removeTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -429,20 +376,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setUI(javax.swing.plaf.TreeUI) public void
-     * javax.swing.JTree.setUI(javax.swing.plaf.TreeUI)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setUI(javax.swing.plaf.TreeUI) public void
-     * javax.swing.JTree.setUI(javax.swing.plaf.TreeUI)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setUI(javax.swing.plaf.TreeUI)
+     * public void javax.swing.JTree.setUI(javax.swing.plaf.TreeUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setUI(javax.swing.plaf.TreeUI) public void
-     *      javax.swing.JTree.setUI(javax.swing.plaf.TreeUI) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -456,20 +398,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setEditable(boolean) public void javax.swing.JTree.setEditable(boolean)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setEditable(boolean) public void javax.swing.JTree.setEditable(boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setEditable(boolean) public void
+     * javax.swing.JTree.setEditable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setEditable(boolean) public void javax.swing.JTree.setEditable(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -483,20 +420,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollsOnExpand() public boolean
-     * javax.swing.JTree.getScrollsOnExpand()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getScrollsOnExpand() public boolean
-     * javax.swing.JTree.getScrollsOnExpand()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getScrollsOnExpand() public
+     * boolean javax.swing.JTree.getScrollsOnExpand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getScrollsOnExpand() public boolean javax.swing.JTree.getScrollsOnExpand() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -510,11 +442,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getTreeSelectionListeners() public
-     * javax.swing.event.TreeSelectionListener[] javax.swing.JTree.getTreeSelectionListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getTreeSelectionListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getTreeSelectionListeners() public
      * javax.swing.event.TreeSelectionListener[] javax.swing.JTree.getTreeSelectionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -522,8 +450,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getTreeSelectionListeners() public javax.swing.event.TreeSelectionListener[]
-     *      javax.swing.JTree.getTreeSelectionListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -537,18 +464,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#updateUI() public void javax.swing.JTree.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#updateUI() public void javax.swing.JTree.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#updateUI() public void
+     * javax.swing.JTree.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#updateUI() public void javax.swing.JTree.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -563,20 +487,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getUIClassID() public java.lang.String javax.swing.JTree.getUIClassID()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getUIClassID() public java.lang.String javax.swing.JTree.getUIClassID()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getUIClassID() public
+     * java.lang.String javax.swing.JTree.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getUIClassID() public java.lang.String javax.swing.JTree.getUIClassID() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -591,11 +510,53 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
-     * javax.swing.JTree.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setLeadSelectionPath(javax.swing.tree.TreePath) public void
+     * javax.swing.JTree.setLeadSelectionPath(javax.swing.tree.TreePath)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLeadSelectionPath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setInvokesStopCellEditing(boolean)
+     * public void javax.swing.JTree.setInvokesStopCellEditing(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInvokesStopCellEditing_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JTree.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -603,9 +564,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
-     *      javax.swing.JTree.getScrollableBlockIncrement(java.awt.Rectangle,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -620,74 +579,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setInvokesStopCellEditing(boolean) public void
-     * javax.swing.JTree.setInvokesStopCellEditing(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setInvokesStopCellEditing(boolean) public void
-     * javax.swing.JTree.setInvokesStopCellEditing(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setRootVisible(boolean) public
+     * void javax.swing.JTree.setRootVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setInvokesStopCellEditing(boolean) public void
-     *      javax.swing.JTree.setInvokesStopCellEditing(boolean) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInvokesStopCellEditing_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#setLeadSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.setLeadSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setLeadSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.setLeadSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#setLeadSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.setLeadSelectionPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLeadSelectionPath_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#setRootVisible(boolean) public void
-     * javax.swing.JTree.setRootVisible(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setRootVisible(boolean) public void
-     * javax.swing.JTree.setRootVisible(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#setRootVisible(boolean) public void javax.swing.JTree.setRootVisible(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -701,18 +601,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isRootVisible() public boolean javax.swing.JTree.isRootVisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isRootVisible() public boolean javax.swing.JTree.isRootVisible()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isRootVisible() public boolean
+     * javax.swing.JTree.isRootVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isRootVisible() public boolean javax.swing.JTree.isRootVisible() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -726,36 +623,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getRowHeight() public int javax.swing.JTree.getRowHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowHeight() public int javax.swing.JTree.getRowHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getRowHeight() public int javax.swing.JTree.getRowHeight() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#collapsePath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.collapsePath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#collapsePath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#collapsePath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.collapsePath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -763,8 +632,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#collapsePath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.collapsePath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -778,11 +646,30 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#startEditingAtPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.startEditingAtPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowHeight() public int
+     * javax.swing.JTree.getRowHeight()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#startEditingAtPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#startEditingAtPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.startEditingAtPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -790,8 +677,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#startEditingAtPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.startEditingAtPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -805,20 +691,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getLeadSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getLeadSelectionPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getLeadSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getLeadSelectionPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getLeadSelectionPath() public
+     * javax.swing.tree.TreePath javax.swing.JTree.getLeadSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getLeadSelectionPath() public javax.swing.tree.TreePath
-     *      javax.swing.JTree.getLeadSelectionPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -832,46 +713,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setRowHeight(int) public void javax.swing.JTree.setRowHeight(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setRowHeight(int) public void javax.swing.JTree.setRowHeight(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#setRowHeight(int) public void javax.swing.JTree.setRowHeight(int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRowHeight_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#addTreeExpansionListener(javax.swing.event.TreeExpansionListener) public
-     * void javax.swing.JTree.addTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addTreeExpansionListener(javax.swing.event.TreeExpansionListener) public
-     * void javax.swing.JTree.addTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#addTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
+     * javax.swing.JTree.addTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
-     *      javax.swing.JTree.addTreeExpansionListener(javax.swing.event.TreeExpansionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -885,11 +736,30 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isPathSelected(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.isPathSelected(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setRowHeight(int) public void
+     * javax.swing.JTree.setRowHeight(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRowHeight_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isPathSelected(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#isPathSelected(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.isPathSelected(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -897,8 +767,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isPathSelected(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.isPathSelected(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -912,18 +781,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#stopEditing() public boolean javax.swing.JTree.stopEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#stopEditing() public boolean javax.swing.JTree.stopEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#stopEditing() public boolean
+     * javax.swing.JTree.stopEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#stopEditing() public boolean javax.swing.JTree.stopEditing() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -937,11 +803,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
-     * javax.swing.JTree.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JTree.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -949,9 +812,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
-     *      javax.swing.JTree.getScrollableUnitIncrement(java.awt.Rectangle,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -966,11 +827,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#scrollPathToVisible(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.scrollPathToVisible(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#scrollPathToVisible(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#scrollPathToVisible(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.scrollPathToVisible(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -978,8 +836,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#scrollPathToVisible(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.scrollPathToVisible(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -993,20 +850,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getCellRenderer() public javax.swing.tree.TreeCellRenderer
-     * javax.swing.JTree.getCellRenderer()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getCellRenderer() public javax.swing.tree.TreeCellRenderer
-     * javax.swing.JTree.getCellRenderer()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getCellRenderer() public
+     * javax.swing.tree.TreeCellRenderer javax.swing.JTree.getCellRenderer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getCellRenderer() public javax.swing.tree.TreeCellRenderer
-     *      javax.swing.JTree.getCellRenderer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1020,11 +872,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isVisible(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.isVisible(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isVisible(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#isVisible(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.isVisible(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1032,8 +881,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isVisible(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.isVisible(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1047,11 +895,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableTracksViewportHeight() public boolean
-     * javax.swing.JTree.getScrollableTracksViewportHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableTracksViewportHeight() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getScrollableTracksViewportHeight() public boolean
      * javax.swing.JTree.getScrollableTracksViewportHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1059,8 +904,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getScrollableTracksViewportHeight() public boolean
-     *      javax.swing.JTree.getScrollableTracksViewportHeight() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1075,38 +919,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getDropMode() public final javax.swing.DropMode
-     * javax.swing.JTree.getDropMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getDropMode() public final javax.swing.DropMode
-     * javax.swing.JTree.getDropMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getDropMode() public final javax.swing.DropMode javax.swing.JTree.getDropMode() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDropMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.setSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.setSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1114,8 +928,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.setSelectionPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1129,20 +942,37 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getModel() public javax.swing.tree.TreeModel
-     * javax.swing.JTree.getModel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getModel() public javax.swing.tree.TreeModel
-     * javax.swing.JTree.getModel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getDropMode() public final
+     * javax.swing.DropMode javax.swing.JTree.getDropMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getModel() public javax.swing.tree.TreeModel javax.swing.JTree.getModel() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDropMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getModel() public
+     * javax.swing.tree.TreeModel javax.swing.JTree.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1156,20 +986,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getExpandsSelectedPaths() public boolean
-     * javax.swing.JTree.getExpandsSelectedPaths()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getExpandsSelectedPaths() public boolean
-     * javax.swing.JTree.getExpandsSelectedPaths()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getExpandsSelectedPaths() public
+     * boolean javax.swing.JTree.getExpandsSelectedPaths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getExpandsSelectedPaths() public boolean javax.swing.JTree.getExpandsSelectedPaths() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1183,20 +1008,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setDragEnabled(boolean) public void
-     * javax.swing.JTree.setDragEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setDragEnabled(boolean) public void
-     * javax.swing.JTree.setDragEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setDragEnabled(boolean) public
+     * void javax.swing.JTree.setDragEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setDragEnabled(boolean) public void javax.swing.JTree.setDragEnabled(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1210,21 +1030,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)
-     * public void javax.swing.JTree.addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)
-     * public void javax.swing.JTree.addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) public void
+     * javax.swing.JTree.addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) public void
-     *      javax.swing.JTree.addTreeWillExpandListener(javax.swing.event.TreeWillExpandListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1238,11 +1053,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
-     * javax.swing.JTree.setModel(javax.swing.tree.TreeModel)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
      * javax.swing.JTree.setModel(javax.swing.tree.TreeModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1250,8 +1062,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setModel(javax.swing.tree.TreeModel) public void
-     *      javax.swing.JTree.setModel(javax.swing.tree.TreeModel) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1265,36 +1076,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getUI() public javax.swing.plaf.TreeUI javax.swing.JTree.getUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getUI() public javax.swing.plaf.TreeUI javax.swing.JTree.getUI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getUI() public javax.swing.plaf.TreeUI javax.swing.JTree.getUI() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#setLargeModel(boolean) public void
-     * javax.swing.JTree.setLargeModel(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setLargeModel(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setLargeModel(boolean) public void
      * javax.swing.JTree.setLargeModel(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1302,8 +1084,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setLargeModel(boolean) public void javax.swing.JTree.setLargeModel(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1317,20 +1098,37 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionInterval(int, int) public void
-     * javax.swing.JTree.removeSelectionInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionInterval(int, int) public void
-     * javax.swing.JTree.removeSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getUI() public
+     * javax.swing.plaf.TreeUI javax.swing.JTree.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeSelectionInterval(int, int) public void
-     *      javax.swing.JTree.removeSelectionInterval(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#removeSelectionInterval(int, int)
+     * public void javax.swing.JTree.removeSelectionInterval(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1344,20 +1142,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionRow(int) public void
-     * javax.swing.JTree.removeSelectionRow(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionRow(int) public void
-     * javax.swing.JTree.removeSelectionRow(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#removeSelectionRow(int) public
+     * void javax.swing.JTree.removeSelectionRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeSelectionRow(int) public void javax.swing.JTree.removeSelectionRow(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1371,20 +1164,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getClosestRowForLocation(int, int) public int
-     * javax.swing.JTree.getClosestRowForLocation(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getClosestRowForLocation(int, int) public int
-     * javax.swing.JTree.getClosestRowForLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getClosestRowForLocation(int, int)
+     * public int javax.swing.JTree.getClosestRowForLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getClosestRowForLocation(int, int) public int
-     *      javax.swing.JTree.getClosestRowForLocation(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1398,21 +1186,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void javax.swing.JTree.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void javax.swing.JTree.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener) public void
+     * javax.swing.JTree.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener) public void
-     *      javax.swing.JTree.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1426,11 +1209,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isPathEditable(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.isPathEditable(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isPathEditable(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#isPathEditable(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.isPathEditable(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1438,8 +1218,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isPathEditable(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.isPathEditable(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1453,18 +1232,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isSelectionEmpty() public boolean javax.swing.JTree.isSelectionEmpty()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isSelectionEmpty() public boolean javax.swing.JTree.isSelectionEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isSelectionEmpty() public boolean
+     * javax.swing.JTree.isSelectionEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isSelectionEmpty() public boolean javax.swing.JTree.isSelectionEmpty() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1478,18 +1254,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionRows() public int[] javax.swing.JTree.getSelectionRows()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionRows() public int[] javax.swing.JTree.getSelectionRows()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getSelectionRows() public int[]
+     * javax.swing.JTree.getSelectionRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getSelectionRows() public int[] javax.swing.JTree.getSelectionRows() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1503,11 +1276,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.addSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#addSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.addSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1515,8 +1285,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.addSelectionPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1530,45 +1299,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
-     * javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
-     * javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getDragEnabled() public boolean
+     * javax.swing.JTree.getDragEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
-     *      javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCellRenderer_TreeCellRenderer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#getDragEnabled() public boolean javax.swing.JTree.getDragEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getDragEnabled() public boolean javax.swing.JTree.getDragEnabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getDragEnabled() public boolean javax.swing.JTree.getDragEnabled() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1582,11 +1321,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.removeSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.removeSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1594,8 +1330,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.removeSelectionPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1609,20 +1344,38 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getRowForLocation(int, int) public int
-     * javax.swing.JTree.getRowForLocation(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowForLocation(int, int) public int
-     * javax.swing.JTree.getRowForLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setCellRenderer(javax.swing.tree.TreeCellRenderer) public void
+     * javax.swing.JTree.setCellRenderer(javax.swing.tree.TreeCellRenderer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getRowForLocation(int, int) public int javax.swing.JTree.getRowForLocation(int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCellRenderer_TreeCellRenderer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowForLocation(int, int) public
+     * int javax.swing.JTree.getRowForLocation(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1636,18 +1389,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isEditable() public boolean javax.swing.JTree.isEditable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isEditable() public boolean javax.swing.JTree.isEditable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isEditable() public boolean
+     * javax.swing.JTree.isEditable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isEditable() public boolean javax.swing.JTree.isEditable() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1661,18 +1411,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionCount() public int javax.swing.JTree.getSelectionCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionCount() public int javax.swing.JTree.getSelectionCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getSelectionCount() public int
+     * javax.swing.JTree.getSelectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getSelectionCount() public int javax.swing.JTree.getSelectionCount() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1686,20 +1433,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getEditingPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getEditingPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getEditingPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getEditingPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getEditingPath() public
+     * javax.swing.tree.TreePath javax.swing.JTree.getEditingPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getEditingPath() public javax.swing.tree.TreePath javax.swing.JTree.getEditingPath() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1713,20 +1455,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getPathForRow(int) public javax.swing.tree.TreePath
-     * javax.swing.JTree.getPathForRow(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getPathForRow(int) public javax.swing.tree.TreePath
-     * javax.swing.JTree.getPathForRow(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getPathForRow(int) public
+     * javax.swing.tree.TreePath javax.swing.JTree.getPathForRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getPathForRow(int) public javax.swing.tree.TreePath javax.swing.JTree.getPathForRow(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1740,20 +1477,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionRows(int[]) public void
-     * javax.swing.JTree.setSelectionRows(int[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionRows(int[]) public void
-     * javax.swing.JTree.setSelectionRows(int[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setSelectionRows(int[]) public
+     * void javax.swing.JTree.setSelectionRows(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionRows(int[]) public void javax.swing.JTree.setSelectionRows(int[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1767,20 +1499,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setExpandsSelectedPaths(boolean) public void
-     * javax.swing.JTree.setExpandsSelectedPaths(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setExpandsSelectedPaths(boolean) public void
-     * javax.swing.JTree.setExpandsSelectedPaths(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setExpandsSelectedPaths(boolean)
+     * public void javax.swing.JTree.setExpandsSelectedPaths(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setExpandsSelectedPaths(boolean) public void
-     *      javax.swing.JTree.setExpandsSelectedPaths(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1794,11 +1521,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getTreeExpansionListeners() public
-     * javax.swing.event.TreeExpansionListener[] javax.swing.JTree.getTreeExpansionListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getTreeExpansionListeners() public
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getTreeExpansionListeners() public
      * javax.swing.event.TreeExpansionListener[] javax.swing.JTree.getTreeExpansionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1806,8 +1529,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getTreeExpansionListeners() public javax.swing.event.TreeExpansionListener[]
-     *      javax.swing.JTree.getTreeExpansionListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1821,23 +1543,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#convertValueToText(Object, boolean, boolean, boolean, int, boolean)
-     * public java.lang.String
-     * javax.swing.JTree.convertValueToText(java.lang.Object,boolean,boolean,boolean,int,boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#convertValueToText(Object, boolean, boolean, boolean, int, boolean)
-     * public java.lang.String
-     * javax.swing.JTree.convertValueToText(java.lang.Object,boolean,boolean,boolean,int,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#convertValueToText(Object, boolean, boolean, boolean, int, boolean) public
+     * java.lang.String javax.swing.JTree.convertValueToText(java.lang.Object,boolean,boolean,boolean,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#convertValueToText(Object, boolean, boolean, boolean, int, boolean) public
-     *      java.lang.String javax.swing.JTree.convertValueToText(java.lang.Object,boolean,boolean,boolean,int,boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1851,39 +1566,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addTreeSelectionListener(javax.swing.event.TreeSelectionListener) public
-     * void javax.swing.JTree.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addTreeSelectionListener(javax.swing.event.TreeSelectionListener) public
-     * void javax.swing.JTree.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#addTreeSelectionListener(javax.swing.event.TreeSelectionListener) public void
-     *      javax.swing.JTree.addTreeSelectionListener(javax.swing.event.TreeSelectionListener) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTreeSelectionListener_TreeSelectionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#getLeadSelectionRow() public int
-     * javax.swing.JTree.getLeadSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getLeadSelectionRow() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getLeadSelectionRow() public int
      * javax.swing.JTree.getLeadSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1891,8 +1574,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getLeadSelectionRow() public int javax.swing.JTree.getLeadSelectionRow() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1906,11 +1588,31 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
-     * javax.swing.JTree.getToolTipText(java.awt.event.MouseEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#addTreeSelectionListener(javax.swing.event.TreeSelectionListener) public void
+     * javax.swing.JTree.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTreeSelectionListener_TreeSelectionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
      * javax.swing.JTree.getToolTipText(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1918,8 +1620,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
-     *      javax.swing.JTree.getToolTipText(java.awt.event.MouseEvent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1934,43 +1635,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isFixedRowHeight() public boolean javax.swing.JTree.isFixedRowHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isFixedRowHeight() public boolean javax.swing.JTree.isFixedRowHeight()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isLargeModel() public boolean
+     * javax.swing.JTree.isLargeModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isFixedRowHeight() public boolean javax.swing.JTree.isFixedRowHeight() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFixedRowHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#isLargeModel() public boolean javax.swing.JTree.isLargeModel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isLargeModel() public boolean javax.swing.JTree.isLargeModel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#isLargeModel() public boolean javax.swing.JTree.isLargeModel() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1984,20 +1657,37 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setToggleClickCount(int) public void
-     * javax.swing.JTree.setToggleClickCount(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setToggleClickCount(int) public void
-     * javax.swing.JTree.setToggleClickCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isFixedRowHeight() public boolean
+     * javax.swing.JTree.isFixedRowHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setToggleClickCount(int) public void javax.swing.JTree.setToggleClickCount(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFixedRowHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setToggleClickCount(int) public
+     * void javax.swing.JTree.setToggleClickCount(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2011,11 +1701,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getToggleClickCount() public int
-     * javax.swing.JTree.getToggleClickCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getToggleClickCount() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getToggleClickCount() public int
      * javax.swing.JTree.getToggleClickCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2023,8 +1709,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getToggleClickCount() public int javax.swing.JTree.getToggleClickCount() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2038,47 +1723,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.JTree.addSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.JTree.addSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getTreeWillExpandListeners()
+     * public javax.swing.event.TreeWillExpandListener[] javax.swing.JTree.getTreeWillExpandListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.JTree.addSelectionPaths(javax.swing.tree.TreePath[]) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addSelectionPaths_TreePathArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#getTreeWillExpandListeners() public
-     * javax.swing.event.TreeWillExpandListener[] javax.swing.JTree.getTreeWillExpandListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getTreeWillExpandListeners() public
-     * javax.swing.event.TreeWillExpandListener[] javax.swing.JTree.getTreeWillExpandListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getTreeWillExpandListeners() public javax.swing.event.TreeWillExpandListener[]
-     *      javax.swing.JTree.getTreeWillExpandListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2092,11 +1745,31 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getClosestPathForLocation(int, int) public javax.swing.tree.TreePath
-     * javax.swing.JTree.getClosestPathForLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#addSelectionPaths(javax.swing.tree.TreePath[]) public void
+     * javax.swing.JTree.addSelectionPaths(javax.swing.tree.TreePath[])}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addSelectionPaths_TreePathArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getClosestPathForLocation(int, int) public javax.swing.tree.TreePath
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getClosestPathForLocation(int, int) public javax.swing.tree.TreePath
      * javax.swing.JTree.getClosestPathForLocation(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2104,8 +1777,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getClosestPathForLocation(int, int) public javax.swing.tree.TreePath
-     *      javax.swing.JTree.getClosestPathForLocation(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2119,45 +1791,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setDropMode(javax.swing.DropMode) public final void
-     * javax.swing.JTree.setDropMode(javax.swing.DropMode)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setDropMode(javax.swing.DropMode) public final void
-     * javax.swing.JTree.setDropMode(javax.swing.DropMode)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#treeDidChange() public void
+     * javax.swing.JTree.treeDidChange()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setDropMode(javax.swing.DropMode) public final void
-     *      javax.swing.JTree.setDropMode(javax.swing.DropMode) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDropMode_DropMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#treeDidChange() public void javax.swing.JTree.treeDidChange()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#treeDidChange() public void javax.swing.JTree.treeDidChange()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#treeDidChange() public void javax.swing.JTree.treeDidChange() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2171,20 +1813,37 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionInterval(int, int) public void
-     * javax.swing.JTree.addSelectionInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionInterval(int, int) public void
-     * javax.swing.JTree.addSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setDropMode(javax.swing.DropMode)
+     * public final void javax.swing.JTree.setDropMode(javax.swing.DropMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addSelectionInterval(int, int) public void javax.swing.JTree.addSelectionInterval(int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDropMode_DropMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#addSelectionInterval(int, int)
+     * public void javax.swing.JTree.addSelectionInterval(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2198,47 +1857,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getSelectionPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getSelectionPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#addSelectionRow(int) public void
+     * javax.swing.JTree.addSelectionRow(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getSelectionPath() public javax.swing.tree.TreePath javax.swing.JTree.getSelectionPath()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionRow(int) public void javax.swing.JTree.addSelectionRow(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionRow(int) public void javax.swing.JTree.addSelectionRow(int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#addSelectionRow(int) public void javax.swing.JTree.addSelectionRow(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2252,11 +1879,30 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeCollapsed(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.fireTreeCollapsed(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getSelectionPath() public
+     * javax.swing.tree.TreePath javax.swing.JTree.getSelectionPath()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionPath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeCollapsed(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#fireTreeCollapsed(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.fireTreeCollapsed(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2264,8 +1910,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#fireTreeCollapsed(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.fireTreeCollapsed(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2279,11 +1924,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setAnchorSelectionPath(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.setAnchorSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setAnchorSelectionPath(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setAnchorSelectionPath(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.setAnchorSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2291,8 +1933,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setAnchorSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.setAnchorSelectionPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2306,20 +1947,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionPaths() public javax.swing.tree.TreePath[]
-     * javax.swing.JTree.getSelectionPaths()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionPaths() public javax.swing.tree.TreePath[]
-     * javax.swing.JTree.getSelectionPaths()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getSelectionPaths() public
+     * javax.swing.tree.TreePath[] javax.swing.JTree.getSelectionPaths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getSelectionPaths() public javax.swing.tree.TreePath[]
-     *      javax.swing.JTree.getSelectionPaths() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2333,21 +1969,17 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getExpandedDescendants(javax.swing.tree.TreePath) public
-     * java.util.Enumeration
-     * <javax.swing.tree.TreePath> javax.swing.JTree.getExpandedDescendants(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getExpandedDescendants(javax.swing.tree.TreePath) public
-     * java.util.Enumeration javax.swing.JTree.getExpandedDescendants(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getExpandedDescendants(javax.swing.tree.TreePath) public
+     * java.util.Enumeration<javax.swing.tree.TreePath>
+     * javax.swing.JTree.getExpandedDescendants(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getExpandedDescendants(javax.swing.tree.TreePath) public java.util.Enumeration
-     *      javax.swing.JTree.getExpandedDescendants(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2361,75 +1993,16 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getCellEditor() public javax.swing.tree.TreeCellEditor
-     * javax.swing.JTree.getCellEditor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getCellEditor() public javax.swing.tree.TreeCellEditor
-     * javax.swing.JTree.getCellEditor()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
+     * javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getCellEditor() public javax.swing.tree.TreeCellEditor javax.swing.JTree.getCellEditor()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellEditor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowForPath(javax.swing.tree.TreePath) public int
-     * javax.swing.JTree.getRowForPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowForPath(javax.swing.tree.TreePath) public int
-     * javax.swing.JTree.getRowForPath(javax.swing.tree.TreePath)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getRowForPath(javax.swing.tree.TreePath) public int
-     *      javax.swing.JTree.getRowForPath(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowForPath_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)
-     * public void javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)
-     * public void javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#removeTreeExpansionListener(javax.swing.event.TreeExpansionListener) public void
-     *      javax.swing.JTree.removeTreeExpansionListener(javax.swing.event.TreeExpansionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2443,18 +2016,60 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isRowSelected(int) public boolean javax.swing.JTree.isRowSelected(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isRowSelected(int) public boolean javax.swing.JTree.isRowSelected(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getRowForPath(javax.swing.tree.TreePath) public int
+     * javax.swing.JTree.getRowForPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isRowSelected(int) public boolean javax.swing.JTree.isRowSelected(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowForPath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getCellEditor() public
+     * javax.swing.tree.TreeCellEditor javax.swing.JTree.getCellEditor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellEditor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isRowSelected(int) public boolean
+     * javax.swing.JTree.isRowSelected(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2468,20 +2083,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setVisibleRowCount(int) public void
-     * javax.swing.JTree.setVisibleRowCount(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setVisibleRowCount(int) public void
-     * javax.swing.JTree.setVisibleRowCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setVisibleRowCount(int) public
+     * void javax.swing.JTree.setVisibleRowCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setVisibleRowCount(int) public void javax.swing.JTree.setVisibleRowCount(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2495,47 +2105,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionRows(int[]) public void
-     * javax.swing.JTree.addSelectionRows(int[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#addSelectionRows(int[]) public void
-     * javax.swing.JTree.addSelectionRows(int[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#scrollRowToVisible(int) public
+     * void javax.swing.JTree.scrollRowToVisible(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#addSelectionRows(int[]) public void javax.swing.JTree.addSelectionRows(int[]) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addSelectionRows_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#scrollRowToVisible(int) public void
-     * javax.swing.JTree.scrollRowToVisible(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#scrollRowToVisible(int) public void
-     * javax.swing.JTree.scrollRowToVisible(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#scrollRowToVisible(int) public void javax.swing.JTree.scrollRowToVisible(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2549,11 +2127,30 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeWillExpand(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.fireTreeWillExpand(javax.swing.tree.TreePath) throws javax.swing.tree.ExpandVetoException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#addSelectionRows(int[]) public
+     * void javax.swing.JTree.addSelectionRows(int[])}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addSelectionRows_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeWillExpand(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#fireTreeWillExpand(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.fireTreeWillExpand(javax.swing.tree.TreePath) throws javax.swing.tree.ExpandVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2561,9 +2158,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#fireTreeWillExpand(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.fireTreeWillExpand(javax.swing.tree.TreePath) throws javax.swing.tree.ExpandVetoException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2577,20 +2172,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionRows(int[]) public void
-     * javax.swing.JTree.removeSelectionRows(int[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#removeSelectionRows(int[]) public void
-     * javax.swing.JTree.removeSelectionRows(int[])}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#removeSelectionRows(int[]) public
+     * void javax.swing.JTree.removeSelectionRows(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#removeSelectionRows(int[]) public void javax.swing.JTree.removeSelectionRows(int[]) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2604,11 +2194,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setCellEditor(javax.swing.tree.TreeCellEditor) public void
-     * javax.swing.JTree.setCellEditor(javax.swing.tree.TreeCellEditor)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setCellEditor(javax.swing.tree.TreeCellEditor) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setCellEditor(javax.swing.tree.TreeCellEditor) public void
      * javax.swing.JTree.setCellEditor(javax.swing.tree.TreeCellEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2616,8 +2203,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setCellEditor(javax.swing.tree.TreeCellEditor) public void
-     *      javax.swing.JTree.setCellEditor(javax.swing.tree.TreeCellEditor) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2631,18 +2217,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getMinSelectionRow() public int javax.swing.JTree.getMinSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getMinSelectionRow() public int javax.swing.JTree.getMinSelectionRow()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getMinSelectionRow() public int
+     * javax.swing.JTree.getMinSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getMinSelectionRow() public int javax.swing.JTree.getMinSelectionRow() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2656,11 +2239,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getNextMatch(String, int, javax.swing.text.Position.Bias) public
-     * javax.swing.tree.TreePath javax.swing.JTree.getNextMatch(java.lang.String,int,javax.swing.text.Position$Bias)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getNextMatch(String, int, javax.swing.text.Position.Bias) public
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#getNextMatch(String, int, javax.swing.text.Position.Bias) public
      * javax.swing.tree.TreePath javax.swing.JTree.getNextMatch(java.lang.String,int,javax.swing.text.Position$Bias)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2668,9 +2248,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getNextMatch(String, int, javax.swing.text.Position.Bias) public javax.swing.tree.TreePath
-     *      javax.swing.JTree.getNextMatch(java.lang.String,int,javax.swing.text.Position$Bias) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2684,20 +2262,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getLastSelectedPathComponent() public java.lang.Object
-     * javax.swing.JTree.getLastSelectedPathComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getLastSelectedPathComponent() public java.lang.Object
-     * javax.swing.JTree.getLastSelectedPathComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getLastSelectedPathComponent()
+     * public java.lang.Object javax.swing.JTree.getLastSelectedPathComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getLastSelectedPathComponent() public java.lang.Object
-     *      javax.swing.JTree.getLastSelectedPathComponent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2711,20 +2284,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setShowsRootHandles(boolean) public void
-     * javax.swing.JTree.setShowsRootHandles(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setShowsRootHandles(boolean) public void
-     * javax.swing.JTree.setShowsRootHandles(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setShowsRootHandles(boolean)
+     * public void javax.swing.JTree.setShowsRootHandles(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setShowsRootHandles(boolean) public void javax.swing.JTree.setShowsRootHandles(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2738,20 +2306,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionModel() public javax.swing.tree.TreeSelectionModel
-     * javax.swing.JTree.getSelectionModel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getSelectionModel() public javax.swing.tree.TreeSelectionModel
-     * javax.swing.JTree.getSelectionModel()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getSelectionModel() public
+     * javax.swing.tree.TreeSelectionModel javax.swing.JTree.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getSelectionModel() public javax.swing.tree.TreeSelectionModel
-     *      javax.swing.JTree.getSelectionModel() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2765,18 +2328,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isExpanded(int) public boolean javax.swing.JTree.isExpanded(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isExpanded(int) public boolean javax.swing.JTree.isExpanded(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isExpanded(int) public boolean
+     * javax.swing.JTree.isExpanded(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isExpanded(int) public boolean javax.swing.JTree.isExpanded(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2790,11 +2350,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isExpanded(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.isExpanded(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isExpanded(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#isExpanded(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.isExpanded(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2802,8 +2359,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isExpanded(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.isExpanded(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2817,18 +2373,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getRowCount() public int javax.swing.JTree.getRowCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getRowCount() public int javax.swing.JTree.getRowCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getRowCount() public int
+     * javax.swing.JTree.getRowCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getRowCount() public int javax.swing.JTree.getRowCount() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2842,11 +2395,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeExpanded(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.fireTreeExpanded(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#fireTreeExpanded(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#fireTreeExpanded(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.fireTreeExpanded(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2854,8 +2404,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#fireTreeExpanded(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.fireTreeExpanded(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2869,20 +2418,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getAnchorSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getAnchorSelectionPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getAnchorSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.JTree.getAnchorSelectionPath()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getAnchorSelectionPath() public
+     * javax.swing.tree.TreePath javax.swing.JTree.getAnchorSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getAnchorSelectionPath() public javax.swing.tree.TreePath
-     *      javax.swing.JTree.getAnchorSelectionPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2896,20 +2440,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getShowsRootHandles() public boolean
-     * javax.swing.JTree.getShowsRootHandles()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getShowsRootHandles() public boolean
-     * javax.swing.JTree.getShowsRootHandles()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getShowsRootHandles() public
+     * boolean javax.swing.JTree.getShowsRootHandles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getShowsRootHandles() public boolean javax.swing.JTree.getShowsRootHandles() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2923,11 +2462,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionModel(javax.swing.tree.TreeSelectionModel) public void
-     * javax.swing.JTree.setSelectionModel(javax.swing.tree.TreeSelectionModel)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionModel(javax.swing.tree.TreeSelectionModel) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setSelectionModel(javax.swing.tree.TreeSelectionModel) public void
      * javax.swing.JTree.setSelectionModel(javax.swing.tree.TreeSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2935,9 +2471,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionModel(javax.swing.tree.TreeSelectionModel) public void
-     *      javax.swing.JTree.setSelectionModel(javax.swing.tree.TreeSelectionModel) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2951,11 +2485,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.JTree.setSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionPaths(javax.swing.tree.TreePath[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#setSelectionPaths(javax.swing.tree.TreePath[]) public void
      * javax.swing.JTree.setSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2963,8 +2494,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.JTree.setSelectionPaths(javax.swing.tree.TreePath[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2978,20 +2508,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableTracksViewportWidth() public boolean
-     * javax.swing.JTree.getScrollableTracksViewportWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getScrollableTracksViewportWidth() public boolean
-     * javax.swing.JTree.getScrollableTracksViewportWidth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getScrollableTracksViewportWidth()
+     * public boolean javax.swing.JTree.getScrollableTracksViewportWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getScrollableTracksViewportWidth() public boolean
-     *      javax.swing.JTree.getScrollableTracksViewportWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -3006,36 +2531,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getMaxSelectionRow() public int javax.swing.JTree.getMaxSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getMaxSelectionRow() public int javax.swing.JTree.getMaxSelectionRow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#getMaxSelectionRow() public int javax.swing.JTree.getMaxSelectionRow() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxSelectionRow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#hasBeenExpanded(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.hasBeenExpanded(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#hasBeenExpanded(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#hasBeenExpanded(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.hasBeenExpanded(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -3043,8 +2540,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#hasBeenExpanded(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.hasBeenExpanded(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3058,11 +2554,30 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#makeVisible(javax.swing.tree.TreePath) public void
-     * javax.swing.JTree.makeVisible(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getMaxSelectionRow() public int
+     * javax.swing.JTree.getMaxSelectionRow()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxSelectionRow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JTree#makeVisible(javax.swing.tree.TreePath) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#makeVisible(javax.swing.tree.TreePath) public void
      * javax.swing.JTree.makeVisible(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -3070,8 +2585,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#makeVisible(javax.swing.tree.TreePath) public void
-     *      javax.swing.JTree.makeVisible(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3085,20 +2599,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getInvokesStopCellEditing() public boolean
-     * javax.swing.JTree.getInvokesStopCellEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getInvokesStopCellEditing() public boolean
-     * javax.swing.JTree.getInvokesStopCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getInvokesStopCellEditing() public
+     * boolean javax.swing.JTree.getInvokesStopCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getInvokesStopCellEditing() public boolean javax.swing.JTree.getInvokesStopCellEditing()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3112,18 +2621,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isCollapsed(int) public boolean javax.swing.JTree.isCollapsed(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isCollapsed(int) public boolean javax.swing.JTree.isCollapsed(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#isCollapsed(int) public boolean
+     * javax.swing.JTree.isCollapsed(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isCollapsed(int) public boolean javax.swing.JTree.isCollapsed(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3137,11 +2643,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#isCollapsed(javax.swing.tree.TreePath) public boolean
-     * javax.swing.JTree.isCollapsed(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#isCollapsed(javax.swing.tree.TreePath) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTree#isCollapsed(javax.swing.tree.TreePath) public boolean
      * javax.swing.JTree.isCollapsed(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -3149,8 +2652,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#isCollapsed(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.JTree.isCollapsed(javax.swing.tree.TreePath) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3164,20 +2666,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getDropLocation() public final javax.swing.JTree$DropLocation
-     * javax.swing.JTree.getDropLocation()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getDropLocation() public final javax.swing.JTree$DropLocation
-     * javax.swing.JTree.getDropLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getDropLocation() public final
+     * javax.swing.JTree$DropLocation javax.swing.JTree.getDropLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getDropLocation() public final javax.swing.JTree$DropLocation
-     *      javax.swing.JTree.getDropLocation() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3191,43 +2688,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#getVisibleRowCount() public int javax.swing.JTree.getVisibleRowCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#getVisibleRowCount() public int javax.swing.JTree.getVisibleRowCount()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#clearSelection() public void
+     * javax.swing.JTree.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#getVisibleRowCount() public int javax.swing.JTree.getVisibleRowCount() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVisibleRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTree#clearSelection() public void javax.swing.JTree.clearSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#clearSelection() public void javax.swing.JTree.clearSelection()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JTree#clearSelection() public void javax.swing.JTree.clearSelection() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3241,20 +2710,37 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionRow(int) public void javax.swing.JTree.setSelectionRow(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.JTree#setSelectionRow(int) public void javax.swing.JTree.setSelectionRow(int)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#getVisibleRowCount() public int
+     * javax.swing.JTree.getVisibleRowCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JTree#setSelectionRow(int) public void javax.swing.JTree.setSelectionRow(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVisibleRowCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTree#setSelectionRow(int) public void
+     * javax.swing.JTree.setSelectionRow(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -3266,141 +2752,39 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.JTree.DropLocation class javax.swing.JTree$DropLocation}.
-     * The complementary j8unit test interface containing the class relevant aspects is
-     * {@link JTreeClassTests.DropLocationClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link DynamicUtilTreeNode public static class javax.swing.JTree$DynamicUtilTreeNode}.
      * </p>
      *
-     * @see javax.swing.JTree.DropLocation class javax.swing.JTree$DropLocation (the hereby targeted class-under-test
-     *      class)
-     * @see JTreeClassTests.DropLocationClassTests JTreeClassTests.DropLocationClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.JTreeClassTests.DynamicUtilTreeNodeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationTests<SUT extends javax.swing.JTree.DropLocation>
-    extends TransferHandlerTests.DropLocationTests<SUT> {
+    public static abstract interface DynamicUtilTreeNodeTests<SUT extends DynamicUtilTreeNode>
+    extends DefaultMutableTreeNodeTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#toString() public java.lang.String
-         * javax.swing.JTree$DropLocation.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#toString() public java.lang.String
-         * javax.swing.JTree$DropLocation.toString()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.JTree.DropLocation#toString() public java.lang.String
-         *      javax.swing.JTree$DropLocation.toString() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#getPath() public javax.swing.tree.TreePath
-         * javax.swing.JTree$DropLocation.getPath()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#getPath() public javax.swing.tree.TreePath
-         * javax.swing.JTree$DropLocation.getPath()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.JTree.DropLocation#getPath() public javax.swing.tree.TreePath
-         *      javax.swing.JTree$DropLocation.getPath() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getPath()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#getChildIndex() public int
-         * javax.swing.JTree$DropLocation.getChildIndex()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DropLocation#getChildIndex() public int
-         * javax.swing.JTree$DropLocation.getChildIndex()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.JTree.DropLocation#getChildIndex() public int javax.swing.JTree$DropLocation.getChildIndex()
-         *      (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getChildIndex()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.JTree.DynamicUtilTreeNode class
-     * javax.swing.JTree$DynamicUtilTreeNode}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link JTreeClassTests.DynamicUtilTreeNodeClassTests}.
-     * </p>
-     *
-     * @see javax.swing.JTree.DynamicUtilTreeNode class javax.swing.JTree$DynamicUtilTreeNode (the hereby targeted
-     *      class-under-test class)
-     * @see JTreeClassTests.DynamicUtilTreeNodeClassTests JTreeClassTests.DynamicUtilTreeNodeClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface DynamicUtilTreeNodeTests<SUT extends javax.swing.JTree.DynamicUtilTreeNode>
-    extends org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#getChildAt(int) public javax.swing.tree.TreeNode
-         * javax.swing.JTree$DynamicUtilTreeNode.getChildAt(int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#getChildAt(int) public javax.swing.tree.TreeNode
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JTree.DynamicUtilTreeNode#getChildAt(int) public javax.swing.tree.TreeNode
          * javax.swing.JTree$DynamicUtilTreeNode.getChildAt(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -3408,8 +2792,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JTree.DynamicUtilTreeNode#getChildAt(int) public javax.swing.tree.TreeNode
-         *      javax.swing.JTree$DynamicUtilTreeNode.getChildAt(int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3424,11 +2807,8 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#getChildCount() public int
-         * javax.swing.JTree$DynamicUtilTreeNode.getChildCount()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#getChildCount() public int
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JTree.DynamicUtilTreeNode#getChildCount() public int
          * javax.swing.JTree$DynamicUtilTreeNode.getChildCount()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -3436,8 +2816,7 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JTree.DynamicUtilTreeNode#getChildCount() public int
-         *      javax.swing.JTree$DynamicUtilTreeNode.getChildCount() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3452,20 +2831,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#children() public java.util.Enumeration
-         * javax.swing.JTree$DynamicUtilTreeNode.children()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#children() public java.util.Enumeration
-         * javax.swing.JTree$DynamicUtilTreeNode.children()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTree.DynamicUtilTreeNode#children()
+         * public java.util.Enumeration javax.swing.JTree$DynamicUtilTreeNode.children()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JTree.DynamicUtilTreeNode#children() public java.util.Enumeration
-         *      javax.swing.JTree$DynamicUtilTreeNode.children() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3480,20 +2854,15 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#isLeaf() public boolean
-         * javax.swing.JTree$DynamicUtilTreeNode.isLeaf()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JTree.DynamicUtilTreeNode#isLeaf() public boolean
-         * javax.swing.JTree$DynamicUtilTreeNode.isLeaf()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTree.DynamicUtilTreeNode#isLeaf()
+         * public boolean javax.swing.JTree$DynamicUtilTreeNode.isLeaf()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JTree.DynamicUtilTreeNode#isLeaf() public boolean
-         *      javax.swing.JTree$DynamicUtilTreeNode.isLeaf() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3505,6 +2874,108 @@ extends ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.Accessib
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link DropLocation public static final class javax.swing.JTree$DropLocation}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface DropLocationTests<SUT extends DropLocation>
+    extends org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree$DropLocation]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTree.DropLocation#toString() public
+         * java.lang.String javax.swing.JTree$DropLocation.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_toString()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTree.DropLocation#getPath() public
+         * javax.swing.tree.TreePath javax.swing.JTree$DropLocation.getPath()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getPath()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JTree.DropLocation#getChildIndex()
+         * public int javax.swing.JTree$DropLocation.getChildIndex()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getChildIndex()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DropLocation]
 
     }
 

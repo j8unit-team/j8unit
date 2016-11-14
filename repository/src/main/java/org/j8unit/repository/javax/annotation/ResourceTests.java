@@ -1,47 +1,51 @@
 package org.j8unit.repository.javax.annotation;
 
+import javax.annotation.Resource;
+import javax.annotation.Resource.AuthenticationType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.annotation.AnnotationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.annotation.Resource interface javax.annotation.Resource}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ResourceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Resource public
+ * abstract @interface javax.annotation.Resource}.
  * </p>
  *
- * @see javax.annotation.Resource interface javax.annotation.Resource (the hereby targeted class-under-test class)
- * @see ResourceClassTests ResourceClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.annotation.ResourceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ResourceTests<SUT extends javax.annotation.Resource>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+public abstract interface ResourceTests<SUT extends Resource>
+extends AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource]
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#name() public abstract java.lang.String
-     * javax.annotation.Resource.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#name() public abstract java.lang.String
-     * javax.annotation.Resource.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#name() public abstract
+     * java.lang.String javax.annotation.Resource.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#name() public abstract java.lang.String javax.annotation.Resource.name() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +59,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#description() public abstract java.lang.String
-     * javax.annotation.Resource.description()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#description() public abstract java.lang.String
-     * javax.annotation.Resource.description()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#description() public
+     * abstract java.lang.String javax.annotation.Resource.description()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#description() public abstract java.lang.String
-     *      javax.annotation.Resource.description() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +81,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#authenticationType() public abstract
-     * javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#authenticationType() public abstract
-     * javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#authenticationType()
+     * public abstract javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#authenticationType() public abstract javax.annotation.Resource$AuthenticationType
-     *      javax.annotation.Resource.authenticationType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,20 +103,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#type() public abstract java.lang.Class
-     * <?> javax.annotation.Resource.type()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#type() public abstract java.lang.Class
-     * javax.annotation.Resource.type()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#type() public abstract
+     * java.lang.Class<?> javax.annotation.Resource.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#type() public abstract java.lang.Class javax.annotation.Resource.type() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,20 +125,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#mappedName() public abstract java.lang.String
-     * javax.annotation.Resource.mappedName()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#mappedName() public abstract java.lang.String
-     * javax.annotation.Resource.mappedName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#mappedName() public
+     * abstract java.lang.String javax.annotation.Resource.mappedName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#mappedName() public abstract java.lang.String
-     *      javax.annotation.Resource.mappedName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,20 +147,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#shareable() public abstract boolean
-     * javax.annotation.Resource.shareable()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#shareable() public abstract boolean
-     * javax.annotation.Resource.shareable()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#shareable() public
+     * abstract boolean javax.annotation.Resource.shareable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#shareable() public abstract boolean javax.annotation.Resource.shareable() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,20 +169,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#lookup() public abstract java.lang.String
-     * javax.annotation.Resource.lookup()}.
-     *
-     * <p>
-     * Test method for {@link javax.annotation.Resource#lookup() public abstract java.lang.String
-     * javax.annotation.Resource.lookup()}.
+     * Test method for the hereby targeted method-under-test {@link javax.annotation.Resource#lookup() public abstract
+     * java.lang.String javax.annotation.Resource.lookup()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.annotation.Resource#lookup() public abstract java.lang.String javax.annotation.Resource.lookup() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -215,27 +189,38 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.Resource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.Resource]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.annotation.Resource.AuthenticationType class
-     * javax.annotation.Resource$AuthenticationType}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link ResourceClassTests.AuthenticationTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link AuthenticationType public static final enum javax.annotation.Resource$AuthenticationType}.
      * </p>
      *
-     * @see javax.annotation.Resource.AuthenticationType class javax.annotation.Resource$AuthenticationType (the hereby
-     *      targeted class-under-test class)
-     * @see ResourceClassTests.AuthenticationTypeClassTests ResourceClassTests.AuthenticationTypeClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AuthenticationTypeTests<SUT extends javax.annotation.Resource.AuthenticationType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.annotation.Resource.AuthenticationType> {
+    public static abstract interface AuthenticationTypeTests<SUT extends AuthenticationType>
+    extends EnumTests<SUT, AuthenticationType> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
 
     }
 

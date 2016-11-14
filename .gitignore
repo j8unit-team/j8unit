@@ -17,3 +17,6 @@ Desktop.ini
 check-dependency-updates.log
 check-plugin-updates.log
 check-property-updates.log
+
+### Temporary Data ###
+tmp/

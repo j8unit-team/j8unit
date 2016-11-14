@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.imageio.spi;
 
+import javax.imageio.spi.IIORegistry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.imageio.spi.IIORegistry class javax.imageio.spi.IIORegistry}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link IIORegistryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link IIORegistry
+ * public final class javax.imageio.spi.IIORegistry}.
  * </p>
  *
- * @see javax.imageio.spi.IIORegistry class javax.imageio.spi.IIORegistry (the hereby targeted class-under-test class)
- * @see IIORegistryClassTests IIORegistryClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.imageio.spi.IIORegistryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IIORegistryTests<SUT extends javax.imageio.spi.IIORegistry>
+public abstract interface IIORegistryTests<SUT extends IIORegistry>
 extends ServiceRegistryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.IIORegistry#registerApplicationClasspathSpis() public void
-     * javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.IIORegistry#registerApplicationClasspathSpis() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.IIORegistry#registerApplicationClasspathSpis() public void
      * javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends ServiceRegistryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.IIORegistry#registerApplicationClasspathSpis() public void
-     *      javax.imageio.spi.IIORegistry.registerApplicationClasspathSpis() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,5 +54,9 @@ extends ServiceRegistryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
 
 }

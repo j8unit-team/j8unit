@@ -6,46 +6,45 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.events.EventListener;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.events.EventListener interface
- * org.w3c.dom.events.EventListener}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link EventListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link EventListener
+ * public abstract interface org.w3c.dom.events.EventListener}.
  * </p>
  *
- * @see org.w3c.dom.events.EventListener interface org.w3c.dom.events.EventListener (the hereby targeted
- *      class-under-test class)
- * @see EventListenerClassTests EventListenerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.events.EventListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EventListenerTests<SUT extends org.w3c.dom.events.EventListener>
+public abstract interface EventListenerTests<SUT extends EventListener>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.EventListener]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.events.EventListener#handleEvent(org.w3c.dom.events.Event) public abstract
-     * void org.w3c.dom.events.EventListener.handleEvent(org.w3c.dom.events.Event)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.events.EventListener#handleEvent(org.w3c.dom.events.Event) public abstract
-     * void org.w3c.dom.events.EventListener.handleEvent(org.w3c.dom.events.Event)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.events.EventListener#handleEvent(org.w3c.dom.events.Event) public abstract void
+     * org.w3c.dom.events.EventListener.handleEvent(org.w3c.dom.events.Event)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.events.EventListener#handleEvent(org.w3c.dom.events.Event) public abstract void
-     *      org.w3c.dom.events.EventListener.handleEvent(org.w3c.dom.events.Event) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,5 +55,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.events.EventListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.events.EventListener]
 
 }

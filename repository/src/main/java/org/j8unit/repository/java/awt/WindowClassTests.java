@@ -1,137 +1,144 @@
 package org.j8unit.repository.java.awt;
 
 import static org.junit.Assert.assertTrue;
+import java.awt.Window;
+import java.awt.Window.Type;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain java.awt.Window class java.awt.Window}, containing all type relevant
- * aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
- * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Window public class
+ * java.awt.Window}.
+ *
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link WindowTests}).
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.awt.WindowTests}.
  * </p>
  *
  * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
  * </p>
  *
  * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
- * </p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
- * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link WindowTests}.
- * </p>
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
  *
- * @see java.awt.Window class java.awt.Window (the hereby targeted class-under-test class)
- * @see WindowTests WindowTests (The complementary j8unit test interface containing the instance relevant test methods)
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WindowClassTests<SUT extends java.awt.Window>
-extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, ContainerClassTests<SUT> {
+public abstract interface WindowClassTests<SUT extends Window>
+extends AccessibleClassTests<SUT>, ContainerClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Window]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to java.awt.Window.class!",
-                   java.awt.Window.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Window.class!",
+                   Window.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Window]
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Window]
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain java.awt.Window.Type class java.awt.Window$Type}, containing all
-     * type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition,
-     * the runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link Type public static final enum java.awt.Window$Type}.
+     *
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see {@link WindowTests.TypeTests}).
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.awt.WindowTests.TypeTests}.
      * </p>
      *
      * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
      * </p>
      *
      * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
      *
-     * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is {@link WindowTests.TypeTests}
-     * .
-     * </p>
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
      *
-     * @see java.awt.Window.Type class java.awt.Window$Type (the hereby targeted class-under-test class)
-     * @see WindowTests.TypeTests WindowTests.TypeTests (The complementary j8unit test interface containing the instance
-     *      relevant test methods)
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TypeClassTests<SUT extends java.awt.Window.Type>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    public static abstract interface TypeClassTests<SUT extends Type>
+    extends EnumClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Window$Type]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to java.awt.Window.Type.class!",
-                       java.awt.Window.Type.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Type.class!",
+                              Type.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Window$Type]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Window$Type]
 
     }
 

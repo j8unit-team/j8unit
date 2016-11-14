@@ -1,147 +1,144 @@
 package org.j8unit.repository.javax.security.auth.login;
 
 import static org.junit.Assert.assertTrue;
+import javax.security.auth.login.AppConfigurationEntry;
+import javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain javax.security.auth.login.AppConfigurationEntry class
- * javax.security.auth.login.AppConfigurationEntry}, containing all type relevant aspects (e.&thinsp;g., runtime
- * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test interface's
- * generic type is verified by {@link #verifyGenericType()}).
- * </p>
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AppConfigurationEntry public class javax.security.auth.login.AppConfigurationEntry}.
  *
- * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link AppConfigurationEntryTests}).
- * </p>
- *
- * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
- * </p>
- *
- * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AppConfigurationEntryTests}.
+ * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests}.
  * </p>
  *
- * @see javax.security.auth.login.AppConfigurationEntry class javax.security.auth.login.AppConfigurationEntry (the
- *      hereby targeted class-under-test class)
- * @see AppConfigurationEntryTests AppConfigurationEntryTests (The complementary j8unit test interface containing the
- *      instance relevant test methods)
+ * <p>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+ *
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
+ *
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AppConfigurationEntryClassTests<SUT extends javax.security.auth.login.AppConfigurationEntry>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface AppConfigurationEntryClassTests<SUT extends AppConfigurationEntry>
+extends ObjectClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.security.auth.login.AppConfigurationEntry.class!",
-                   javax.security.auth.login.AppConfigurationEntry.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AppConfigurationEntry.class!",
+                   AppConfigurationEntry.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
 
     /**
      * <p>
-     * Reusable j8unit test interface for
-     * {@linkplain javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag class
-     * javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag}, containing all type relevant aspects
-     * (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
-     * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link LoginModuleControlFlag public static class
+     * javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link AppConfigurationEntryTests.LoginModuleControlFlagTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link AppConfigurationEntryTests.LoginModuleControlFlagTests}.
+     * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests.LoginModuleControlFlagTests}.
      * </p>
      *
-     * @see javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag class
-     *      javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag (the hereby targeted class-under-test
-     *      class)
-     * @see AppConfigurationEntryTests.LoginModuleControlFlagTests
-     *      AppConfigurationEntryTests.LoginModuleControlFlagTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LoginModuleControlFlagClassTests<SUT extends javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface LoginModuleControlFlagClassTests<SUT extends LoginModuleControlFlag>
+    extends ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag.class!",
-                       javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LoginModuleControlFlag.class!",
+                              LoginModuleControlFlag.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
 
     }
 

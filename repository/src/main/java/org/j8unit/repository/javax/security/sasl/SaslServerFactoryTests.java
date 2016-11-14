@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.security.sasl;
 
+import javax.security.sasl.SaslServerFactory;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,43 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.sasl.SaslServerFactory interface
- * javax.security.sasl.SaslServerFactory}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link SaslServerFactoryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SaslServerFactory public abstract interface javax.security.sasl.SaslServerFactory}.
  * </p>
  *
- * @see javax.security.sasl.SaslServerFactory interface javax.security.sasl.SaslServerFactory (the hereby targeted
- *      class-under-test class)
- * @see SaslServerFactoryClassTests SaslServerFactoryClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.sasl.SaslServerFactoryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SaslServerFactoryTests<SUT extends javax.security.sasl.SaslServerFactory>
+public abstract interface SaslServerFactoryTests<SUT extends SaslServerFactory>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.SaslServerFactory]
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
-     * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map<java.lang.String, ?>)}.
-     *
-     * <p>
-     * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
-     * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract java.lang.String[]
+     * javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map<java.lang.String, ?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract java.lang.String[]
-     *      javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,29 +58,18 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map, javax.security.auth.callback.CallbackHandler)
      * public abstract javax.security.sasl.SaslServer
      * javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,
      * ?>,javax.security.auth.callback.CallbackHandler) throws javax.security.sasl.SaslException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map, javax.security.auth.callback.CallbackHandler)
-     * public abstract javax.security.sasl.SaslServer
-     * javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
-     * throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.sasl.SaslServerFactory#createSaslServer(String, String, String, java.util.Map,
-     *      javax.security.auth.callback.CallbackHandler) public abstract javax.security.sasl.SaslServer
-     *      javax.security.sasl.SaslServerFactory.createSaslServer(java.lang.String,java.lang.String,java.lang.String,
-     *      java.util.Map,javax.security.auth.callback.CallbackHandler) throws javax.security.sasl.SaslException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,5 +80,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.SaslServerFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.SaslServerFactory]
 
 }

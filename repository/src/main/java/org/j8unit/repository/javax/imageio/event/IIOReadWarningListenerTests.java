@@ -1,42 +1,41 @@
 package org.j8unit.repository.javax.imageio.event;
 
+import javax.imageio.event.IIOReadWarningListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.imageio.event.IIOReadWarningListener interface
- * javax.imageio.event.IIOReadWarningListener}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link IIOReadWarningListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link IIOReadWarningListener public abstract interface javax.imageio.event.IIOReadWarningListener}.
  * </p>
  *
- * @see javax.imageio.event.IIOReadWarningListener interface javax.imageio.event.IIOReadWarningListener (the hereby
- *      targeted class-under-test class)
- * @see IIOReadWarningListenerClassTests IIOReadWarningListenerClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.imageio.event.IIOReadWarningListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IIOReadWarningListenerTests<SUT extends javax.imageio.event.IIOReadWarningListener>
-extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
+public abstract interface IIOReadWarningListenerTests<SUT extends IIOReadWarningListener>
+extends EventListenerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.event.IIOReadWarningListener]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.imageio.event.IIOReadWarningListener#warningOccurred(javax.imageio.ImageReader, String) public
-     * abstract void
-     * javax.imageio.event.IIOReadWarningListener.warningOccurred(javax.imageio.ImageReader,java.lang.String)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadWarningListener#warningOccurred(javax.imageio.ImageReader, String) public
      * abstract void
      * javax.imageio.event.IIOReadWarningListener.warningOccurred(javax.imageio.ImageReader,java.lang.String)}.
@@ -46,10 +45,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.event.IIOReadWarningListener#warningOccurred(javax.imageio.ImageReader, String) public
-     *      abstract void
-     *      javax.imageio.event.IIOReadWarningListener.warningOccurred(javax.imageio.ImageReader,java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,5 +56,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.event.IIOReadWarningListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.event.IIOReadWarningListener]
 
 }

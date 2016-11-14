@@ -1,0 +1,27 @@
+package org.j8unit.repository.javax.xml.soap;
+
+import javax.xml.soap.SAAJMetaFactory;
+import org.j8unit.runners.J8Unit4;
+import org.junit.runner.RunWith;
+
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SAAJMetaFactory} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.javax.xml.soap.SAAJMetaFactoryClassTests}).
+ */
+
+@RunWith(J8Unit4.class)
+public class SAAJMetaFactoryClassTest
+implements SAAJMetaFactoryClassTests<SAAJMetaFactory> {
+
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SAAJMetaFactory]
+
+    @Override
+    public Class<SAAJMetaFactory> createNewSUT() {
+        return SAAJMetaFactory.class;
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SAAJMetaFactory]
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SAAJMetaFactory]
+
+}

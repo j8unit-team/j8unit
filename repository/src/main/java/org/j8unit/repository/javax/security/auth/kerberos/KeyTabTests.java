@@ -1,42 +1,41 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
+import javax.security.auth.kerberos.KeyTab;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.kerberos.KeyTab class
- * javax.security.auth.kerberos.KeyTab}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link KeyTabClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link KeyTab public
+ * final class javax.security.auth.kerberos.KeyTab}.
  * </p>
  *
- * @see javax.security.auth.kerberos.KeyTab class javax.security.auth.kerberos.KeyTab (the hereby targeted
- *      class-under-test class)
- * @see KeyTabClassTests KeyTabClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.kerberos.KeyTabClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyTabTests<SUT extends javax.security.auth.kerberos.KeyTab>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface KeyTabTests<SUT extends KeyTab>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.kerberos.KeyTab]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
-     * javax.security.auth.kerberos.KerberosKey[]
-     * javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
      * javax.security.auth.kerberos.KerberosKey[]
      * javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal)}.
@@ -46,10 +45,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
-     *      javax.security.auth.kerberos.KerberosKey[]
-     *      javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,20 +59,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#toString() public java.lang.String
-     * javax.security.auth.kerberos.KeyTab.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#toString() public java.lang.String
-     * javax.security.auth.kerberos.KeyTab.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#toString()
+     * public java.lang.String javax.security.auth.kerberos.KeyTab.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#toString() public java.lang.String
-     *      javax.security.auth.kerberos.KeyTab.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -91,20 +82,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#exists() public boolean
-     * javax.security.auth.kerberos.KeyTab.exists()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#exists() public boolean
-     * javax.security.auth.kerberos.KeyTab.exists()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#exists() public
+     * boolean javax.security.auth.kerberos.KeyTab.exists()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#exists() public boolean javax.security.auth.kerberos.KeyTab.exists()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,20 +104,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#equals(Object) public boolean
-     * javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#equals(Object) public boolean
-     * javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#equals(Object)
+     * public boolean javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#equals(Object) public boolean
-     *      javax.security.auth.kerberos.KeyTab.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -146,20 +127,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#hashCode() public int
-     * javax.security.auth.kerberos.KeyTab.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#hashCode() public int
-     * javax.security.auth.kerberos.KeyTab.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#hashCode()
+     * public int javax.security.auth.kerberos.KeyTab.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#hashCode() public int javax.security.auth.kerberos.KeyTab.hashCode()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -174,20 +150,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#isBound() public boolean
-     * javax.security.auth.kerberos.KeyTab.isBound()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#isBound() public boolean
-     * javax.security.auth.kerberos.KeyTab.isBound()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#isBound() public
+     * boolean javax.security.auth.kerberos.KeyTab.isBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#isBound() public boolean javax.security.auth.kerberos.KeyTab.isBound()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -201,20 +172,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#getPrincipal() public
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#getPrincipal() public
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KeyTab#getPrincipal()
+     * public javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KeyTab#getPrincipal() public javax.security.auth.kerberos.KerberosPrincipal
-     *      javax.security.auth.kerberos.KeyTab.getPrincipal() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,5 +191,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.kerberos.KeyTab]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.kerberos.KeyTab]
 
 }

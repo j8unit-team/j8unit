@@ -1,26 +1,37 @@
 package org.j8unit.repository.java.nio.channels;
 
+import java.nio.channels.Channels;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.channels.Channels class java.nio.channels.Channels}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ChannelsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Channels public
+ * final class java.nio.channels.Channels}.
  * </p>
  *
- * @see java.nio.channels.Channels class java.nio.channels.Channels (the hereby targeted class-under-test class)
- * @see ChannelsClassTests ChannelsClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.channels.ChannelsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ChannelsTests<SUT extends java.nio.channels.Channels>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ChannelsTests<SUT extends Channels>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Channels]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Channels]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Channels]
 
 }

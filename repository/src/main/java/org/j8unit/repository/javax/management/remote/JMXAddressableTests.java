@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management.remote;
 
+import javax.management.remote.JMXAddressable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.remote.JMXAddressable interface
- * javax.management.remote.JMXAddressable}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link JMXAddressableClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JMXAddressable
+ * public abstract interface javax.management.remote.JMXAddressable}.
  * </p>
  *
- * @see javax.management.remote.JMXAddressable interface javax.management.remote.JMXAddressable (the hereby targeted
- *      class-under-test class)
- * @see JMXAddressableClassTests JMXAddressableClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.remote.JMXAddressableClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMXAddressableTests<SUT extends javax.management.remote.JMXAddressable>
+public abstract interface JMXAddressableTests<SUT extends JMXAddressable>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXAddressable]
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.JMXAddressable#getAddress() public abstract
-     * javax.management.remote.JMXServiceURL javax.management.remote.JMXAddressable.getAddress()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.JMXAddressable#getAddress() public abstract
-     * javax.management.remote.JMXServiceURL javax.management.remote.JMXAddressable.getAddress()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.remote.JMXAddressable#getAddress()
+     * public abstract javax.management.remote.JMXServiceURL javax.management.remote.JMXAddressable.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.JMXAddressable#getAddress() public abstract javax.management.remote.JMXServiceURL
-     *      javax.management.remote.JMXAddressable.getAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,5 +54,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXAddressable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXAddressable]
 
 }

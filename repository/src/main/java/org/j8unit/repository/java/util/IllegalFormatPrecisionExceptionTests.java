@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import java.util.IllegalFormatPrecisionException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.IllegalFormatPrecisionException class
- * java.util.IllegalFormatPrecisionException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link IllegalFormatPrecisionExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link IllegalFormatPrecisionException public class java.util.IllegalFormatPrecisionException}.
  * </p>
  *
- * @see java.util.IllegalFormatPrecisionException class java.util.IllegalFormatPrecisionException (the hereby targeted
- *      class-under-test class)
- * @see IllegalFormatPrecisionExceptionClassTests IllegalFormatPrecisionExceptionClassTests (the complementary j8unit
- *      test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.IllegalFormatPrecisionExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalFormatPrecisionExceptionTests<SUT extends java.util.IllegalFormatPrecisionException>
+public abstract interface IllegalFormatPrecisionExceptionTests<SUT extends IllegalFormatPrecisionException>
 extends IllegalFormatExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IllegalFormatPrecisionException]
 
     /**
      * <p>
-     * Test method for {@link java.util.IllegalFormatPrecisionException#getMessage() public java.lang.String
-     * java.util.IllegalFormatPrecisionException.getMessage()}.
-     *
-     * <p>
-     * Test method for {@link java.util.IllegalFormatPrecisionException#getMessage() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IllegalFormatPrecisionException#getMessage() public java.lang.String
      * java.util.IllegalFormatPrecisionException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,7 @@ extends IllegalFormatExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.IllegalFormatPrecisionException#getMessage() public java.lang.String
-     *      java.util.IllegalFormatPrecisionException.getMessage() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +58,8 @@ extends IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.IllegalFormatPrecisionException#getPrecision() public int
-     * java.util.IllegalFormatPrecisionException.getPrecision()}.
-     *
-     * <p>
-     * Test method for {@link java.util.IllegalFormatPrecisionException#getPrecision() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.IllegalFormatPrecisionException#getPrecision() public int
      * java.util.IllegalFormatPrecisionException.getPrecision()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +67,7 @@ extends IllegalFormatExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.IllegalFormatPrecisionException#getPrecision() public int
-     *      java.util.IllegalFormatPrecisionException.getPrecision() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,5 +78,9 @@ extends IllegalFormatExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IllegalFormatPrecisionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IllegalFormatPrecisionException]
 
 }

@@ -1,40 +1,42 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
+import javax.swing.plaf.metal.MetalScrollButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalScrollButton class
- * javax.swing.plaf.metal.MetalScrollButton}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link MetalScrollButtonClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MetalScrollButton public class javax.swing.plaf.metal.MetalScrollButton}.
  * </p>
  *
- * @see javax.swing.plaf.metal.MetalScrollButton class javax.swing.plaf.metal.MetalScrollButton (the hereby targeted
- *      class-under-test class)
- * @see MetalScrollButtonClassTests MetalScrollButtonClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalScrollButtonClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalScrollButtonTests<SUT extends javax.swing.plaf.metal.MetalScrollButton>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> {
+public abstract interface MetalScrollButtonTests<SUT extends MetalScrollButton>
+extends BasicArrowButtonTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getButtonWidth() public int
-     * javax.swing.plaf.metal.MetalScrollButton.getButtonWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getButtonWidth() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#getButtonWidth() public int
      * javax.swing.plaf.metal.MetalScrollButton.getButtonWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +44,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#getButtonWidth() public int
-     *      javax.swing.plaf.metal.MetalScrollButton.getButtonWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +58,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
-     * javax.swing.plaf.metal.MetalScrollButton.paint(java.awt.Graphics)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
      * javax.swing.plaf.metal.MetalScrollButton.paint(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +67,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
-     *      javax.swing.plaf.metal.MetalScrollButton.paint(java.awt.Graphics) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -85,11 +82,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMaximumSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalScrollButton.getMaximumSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMaximumSize() public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#getMaximumSize() public java.awt.Dimension
      * javax.swing.plaf.metal.MetalScrollButton.getMaximumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +91,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#getMaximumSize() public java.awt.Dimension
-     *      javax.swing.plaf.metal.MetalScrollButton.getMaximumSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -113,11 +106,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getPreferredSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalScrollButton.getPreferredSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getPreferredSize() public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#getPreferredSize() public java.awt.Dimension
      * javax.swing.plaf.metal.MetalScrollButton.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +115,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#getPreferredSize() public java.awt.Dimension
-     *      javax.swing.plaf.metal.MetalScrollButton.getPreferredSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -141,11 +130,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
-     * javax.swing.plaf.metal.MetalScrollButton.setFreeStanding(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
      * javax.swing.plaf.metal.MetalScrollButton.setFreeStanding(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +139,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
-     *      javax.swing.plaf.metal.MetalScrollButton.setFreeStanding(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,11 +153,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalScrollButton.getMinimumSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
      * javax.swing.plaf.metal.MetalScrollButton.getMinimumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,8 +162,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
-     *      javax.swing.plaf.metal.MetalScrollButton.getMinimumSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -193,5 +174,9 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
 
 }

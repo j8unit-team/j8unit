@@ -1,40 +1,43 @@
 package org.j8unit.repository.javax.management.relation;
 
+import javax.management.relation.RelationSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.management.MBeanRegistrationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.relation.RelationSupport class
- * javax.management.relation.RelationSupport}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RelationSupportClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RelationSupport
+ * public class javax.management.relation.RelationSupport}.
  * </p>
  *
- * @see javax.management.relation.RelationSupport class javax.management.relation.RelationSupport (the hereby targeted
- *      class-under-test class)
- * @see RelationSupportClassTests RelationSupportClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.relation.RelationSupportClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RelationSupportTests<SUT extends javax.management.relation.RelationSupport>
-extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface RelationSupportTests<SUT extends RelationSupport>
+extends RelationSupportMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationSupport]
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationId() public java.lang.String
-     * javax.management.relation.RelationSupport.getRelationId()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationId() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRelationId() public java.lang.String
      * javax.management.relation.RelationSupport.getRelationId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +45,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRelationId() public java.lang.String
-     *      javax.management.relation.RelationSupport.getRelationId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,28 +60,17 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRole(javax.management.relation.Role) public
-     * void javax.management.relation.RelationSupport.setRole(javax.management.relation.Role) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRole(javax.management.relation.Role) public
-     * void javax.management.relation.RelationSupport.setRole(javax.management.relation.Role) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#setRole(javax.management.relation.Role) public void
+     * javax.management.relation.RelationSupport.setRole(javax.management.relation.Role) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#setRole(javax.management.relation.Role) public void
-     *      javax.management.relation.RelationSupport.setRole(javax.management.relation.Role) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation
-     *      .RelationTypeNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation
-     *      .RelationServiceNotRegisteredException,javax.management.relation.RelationNotFoundException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -94,40 +85,8 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#postRegister(Boolean) public void
-     * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#postRegister(Boolean) public void
-     * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.RelationSupport#postRegister(Boolean) public void
-     *      javax.management.relation.RelationSupport.postRegister(java.lang.Boolean) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_postRegister_Boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
-     * javax.management.relation.RelationSupport.isInRelationService()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
      * javax.management.relation.RelationSupport.isInRelationService()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,8 +94,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#isInRelationService() public java.lang.Boolean
-     *      javax.management.relation.RelationSupport.isInRelationService() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -151,14 +109,31 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
-     * public javax.management.ObjectName
-     * javax.management.relation.RelationSupport.preRegister(javax.management.MBeanServer,javax.management.ObjectName)
-     * throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#postRegister(Boolean) public void
+     * javax.management.relation.RelationSupport.postRegister(java.lang.Boolean)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_postRegister_Boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
      * public javax.management.ObjectName
      * javax.management.relation.RelationSupport.preRegister(javax.management.MBeanServer,javax.management.ObjectName)
@@ -169,10 +144,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#preRegister(javax.management.MBeanServer,
-     *      javax.management.ObjectName) public javax.management.ObjectName
-     *      javax.management.relation.RelationSupport.preRegister(javax.management.MBeanServer,javax.management.
-     *      ObjectName) throws java.lang.Exception (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -187,11 +159,8 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationTypeName() public java.lang.String
-     * javax.management.relation.RelationSupport.getRelationTypeName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationTypeName() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRelationTypeName() public java.lang.String
      * javax.management.relation.RelationSupport.getRelationTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +168,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRelationTypeName() public java.lang.String
-     *      javax.management.relation.RelationSupport.getRelationTypeName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -215,24 +183,17 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRoles(String[]) public
-     * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getRoles(java.lang.String[])
-     * throws java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRoles(String[]) public
-     * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getRoles(java.lang.String[])
-     * throws java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRoles(String[]) public javax.management.relation.RoleResult
+     * javax.management.relation.RelationSupport.getRoles(java.lang.String[]) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRoles(String[]) public javax.management.relation.RoleResult
-     *      javax.management.relation.RelationSupport.getRoles(java.lang.String[]) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -247,30 +208,18 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRoles(javax.management.relation.RoleList)
-     * public javax.management.relation.RoleResult
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#setRoles(javax.management.relation.RoleList) public
+     * javax.management.relation.RoleResult
      * javax.management.relation.RelationSupport.setRoles(javax.management.relation.RoleList) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRoles(javax.management.relation.RoleList)
-     * public javax.management.relation.RoleResult
-     * javax.management.relation.RelationSupport.setRoles(javax.management.relation.RoleList) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
-     * .
+     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#setRoles(javax.management.relation.RoleList) public
-     *      javax.management.relation.RoleResult
-     *      javax.management.relation.RelationSupport.setRoles(javax.management.relation.RoleList) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.
-     *      management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -285,67 +234,19 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getAllRoles() public
-     * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getAllRoles() throws
-     * javax.management.relation.RelationServiceNotRegisteredException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getAllRoles() public
-     * javax.management.relation.RoleResult javax.management.relation.RelationSupport.getAllRoles() throws
-     * javax.management.relation.RelationServiceNotRegisteredException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName, String)
+     * public void
+     * javax.management.relation.RelationSupport.handleMBeanUnregistration(javax.management.ObjectName,java.lang.String)
+     * throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getAllRoles() public javax.management.relation.RoleResult
-     *      javax.management.relation.RelationSupport.getAllRoles() throws
-     *      javax.management.relation.RelationServiceNotRegisteredException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllRoles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName, String)
-     * public void
-     * javax.management.relation.RelationSupport.handleMBeanUnregistration(javax.management.ObjectName,java.lang.String)
-     * throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName, String)
-     * public void
-     * javax.management.relation.RelationSupport.handleMBeanUnregistration(javax.management.ObjectName,java.lang.String)
-     * throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.RelationSupport#handleMBeanUnregistration(javax.management.ObjectName, String)
-     *      public void
-     *      javax.management.relation.RelationSupport.handleMBeanUnregistration(javax.management.ObjectName,java.lang.
-     *      String) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation
-     *      .InvalidRoleValueException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.
-     *      relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -360,12 +261,34 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getReferencedMBeans() public
-     * java.util.Map<javax.management.ObjectName, java.util.List<java.lang.String>>
-     * javax.management.relation.RelationSupport.getReferencedMBeans()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getAllRoles() public javax.management.relation.RoleResult
+     * javax.management.relation.RelationSupport.getAllRoles() throws
+     * javax.management.relation.RelationServiceNotRegisteredException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAllRoles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getReferencedMBeans() public java.util.Map
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getReferencedMBeans() public
+     * java.util.Map<javax.management.ObjectName, java.util.List<java.lang.String>>
      * javax.management.relation.RelationSupport.getReferencedMBeans()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -373,8 +296,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getReferencedMBeans() public java.util.Map
-     *      javax.management.relation.RelationSupport.getReferencedMBeans() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -389,11 +311,8 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#postDeregister() public void
-     * javax.management.relation.RelationSupport.postDeregister()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#postDeregister() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#postDeregister() public void
      * javax.management.relation.RelationSupport.postDeregister()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -401,8 +320,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#postDeregister() public void
-     *      javax.management.relation.RelationSupport.postDeregister() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -417,11 +335,8 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#preDeregister() public void
-     * javax.management.relation.RelationSupport.preDeregister() throws java.lang.Exception}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#preDeregister() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#preDeregister() public void
      * javax.management.relation.RelationSupport.preDeregister() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -429,9 +344,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#preDeregister() public void
-     *      javax.management.relation.RelationSupport.preDeregister() throws java.lang.Exception (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -446,41 +359,9 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#retrieveAllRoles() public
-     * javax.management.relation.RoleList javax.management.relation.RelationSupport.retrieveAllRoles()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#retrieveAllRoles() public
-     * javax.management.relation.RoleList javax.management.relation.RelationSupport.retrieveAllRoles()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.RelationSupport#retrieveAllRoles() public javax.management.relation.RoleList
-     *      javax.management.relation.RelationSupport.retrieveAllRoles() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_retrieveAllRoles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRelationServiceManagementFlag(Boolean) public
-     * void javax.management.relation.RelationSupport.setRelationServiceManagementFlag(java.lang.Boolean) throws
-     * java.lang.IllegalArgumentException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#setRelationServiceManagementFlag(Boolean) public
-     * void javax.management.relation.RelationSupport.setRelationServiceManagementFlag(java.lang.Boolean) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#setRelationServiceManagementFlag(Boolean) public void
+     * javax.management.relation.RelationSupport.setRelationServiceManagementFlag(java.lang.Boolean) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -488,9 +369,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#setRelationServiceManagementFlag(Boolean) public void
-     *      javax.management.relation.RelationSupport.setRelationServiceManagementFlag(java.lang.Boolean) throws
-     *      java.lang.IllegalArgumentException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -505,20 +384,40 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationServiceName() public
-     * javax.management.ObjectName javax.management.relation.RelationSupport.getRelationServiceName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRelationServiceName() public
-     * javax.management.ObjectName javax.management.relation.RelationSupport.getRelationServiceName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#retrieveAllRoles() public javax.management.relation.RoleList
+     * javax.management.relation.RelationSupport.retrieveAllRoles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRelationServiceName() public javax.management.ObjectName
-     *      javax.management.relation.RelationSupport.getRelationServiceName() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_retrieveAllRoles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRelationServiceName() public javax.management.ObjectName
+     * javax.management.relation.RelationSupport.getRelationServiceName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -533,13 +432,9 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRoleCardinality(String) public
-     * java.lang.Integer javax.management.relation.RelationSupport.getRoleCardinality(java.lang.String) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRoleCardinality(String) public
-     * java.lang.Integer javax.management.relation.RelationSupport.getRoleCardinality(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRoleCardinality(String) public java.lang.Integer
+     * javax.management.relation.RelationSupport.getRoleCardinality(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -547,10 +442,7 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRoleCardinality(String) public java.lang.Integer
-     *      javax.management.relation.RelationSupport.getRoleCardinality(java.lang.String) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -565,26 +457,18 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRole(String) public java.util.List
-     * <javax.management.ObjectName> javax.management.relation.RelationSupport.getRole(java.lang.String) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationSupport#getRole(String) public java.util.List
-     * javax.management.relation.RelationSupport.getRole(java.lang.String) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RelationSupport#getRole(String) public
+     * java.util.List<javax.management.ObjectName> javax.management.relation.RelationSupport.getRole(java.lang.String)
+     * throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationSupport#getRole(String) public java.util.List
-     *      javax.management.relation.RelationSupport.getRole(java.lang.String) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation
-     *      .RelationServiceNotRegisteredException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -596,5 +480,9 @@ extends RelationSupportMBeanTests<SUT>, org.j8unit.repository.javax.management.M
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationSupport]
 
 }

@@ -7,6 +7,9 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
+/**
+ * @since 0.9.5
+ */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnmodifiableListTests<SUT extends List<E>, E>

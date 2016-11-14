@@ -1,47 +1,49 @@
 package org.j8unit.repository.java.io;
 
+import java.io.StreamTokenizer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.StreamTokenizer class java.io.StreamTokenizer}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link StreamTokenizerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StreamTokenizer
+ * public class java.io.StreamTokenizer}.
  * </p>
  *
- * @see java.io.StreamTokenizer class java.io.StreamTokenizer (the hereby targeted class-under-test class)
- * @see StreamTokenizerClassTests StreamTokenizerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.StreamTokenizerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StreamTokenizerTests<SUT extends java.io.StreamTokenizer>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StreamTokenizerTests<SUT extends StreamTokenizer>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StreamTokenizer]
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#lowerCaseMode(boolean) public void
-     * java.io.StreamTokenizer.lowerCaseMode(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#lowerCaseMode(boolean) public void
-     * java.io.StreamTokenizer.lowerCaseMode(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lowerCaseMode(boolean)
+     * public void java.io.StreamTokenizer.lowerCaseMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#lowerCaseMode(boolean) public void java.io.StreamTokenizer.lowerCaseMode(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#toString() public java.lang.String
-     * java.io.StreamTokenizer.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#toString() public java.lang.String
-     * java.io.StreamTokenizer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#toString() public
+     * java.lang.String java.io.StreamTokenizer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#toString() public java.lang.String java.io.StreamTokenizer.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,18 +80,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#lineno() public int java.io.StreamTokenizer.lineno()}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#lineno() public int java.io.StreamTokenizer.lineno()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lineno() public int
+     * java.io.StreamTokenizer.lineno()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#lineno() public int java.io.StreamTokenizer.lineno() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,47 +102,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#parseNumbers() public void java.io.StreamTokenizer.parseNumbers()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#parseNumbers() public void java.io.StreamTokenizer.parseNumbers()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#slashStarComments(boolean)
+     * public void java.io.StreamTokenizer.slashStarComments(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#parseNumbers() public void java.io.StreamTokenizer.parseNumbers() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parseNumbers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#slashStarComments(boolean) public void
-     * java.io.StreamTokenizer.slashStarComments(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#slashStarComments(boolean) public void
-     * java.io.StreamTokenizer.slashStarComments(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.StreamTokenizer#slashStarComments(boolean) public void
-     *      java.io.StreamTokenizer.slashStarComments(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,20 +124,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#whitespaceChars(int, int) public void
-     * java.io.StreamTokenizer.whitespaceChars(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#whitespaceChars(int, int) public void
-     * java.io.StreamTokenizer.whitespaceChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#parseNumbers() public void
+     * java.io.StreamTokenizer.parseNumbers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#whitespaceChars(int, int) public void
-     *      java.io.StreamTokenizer.whitespaceChars(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parseNumbers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#whitespaceChars(int, int)
+     * public void java.io.StreamTokenizer.whitespaceChars(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,18 +168,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#pushBack() public void java.io.StreamTokenizer.pushBack()}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#pushBack() public void java.io.StreamTokenizer.pushBack()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#pushBack() public void
+     * java.io.StreamTokenizer.pushBack()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#pushBack() public void java.io.StreamTokenizer.pushBack() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -214,20 +190,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#ordinaryChar(int) public void
-     * java.io.StreamTokenizer.ordinaryChar(int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#ordinaryChar(int) public void
-     * java.io.StreamTokenizer.ordinaryChar(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#ordinaryChar(int) public
+     * void java.io.StreamTokenizer.ordinaryChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#ordinaryChar(int) public void java.io.StreamTokenizer.ordinaryChar(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,20 +212,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#nextToken() public int java.io.StreamTokenizer.nextToken() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#nextToken() public int java.io.StreamTokenizer.nextToken() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#nextToken() public int
+     * java.io.StreamTokenizer.nextToken() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#nextToken() public int java.io.StreamTokenizer.nextToken() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,20 +234,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#eolIsSignificant(boolean) public void
-     * java.io.StreamTokenizer.eolIsSignificant(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#eolIsSignificant(boolean) public void
-     * java.io.StreamTokenizer.eolIsSignificant(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#eolIsSignificant(boolean)
+     * public void java.io.StreamTokenizer.eolIsSignificant(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#eolIsSignificant(boolean) public void
-     *      java.io.StreamTokenizer.eolIsSignificant(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -295,11 +256,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#commentChar(int) public void
-     * java.io.StreamTokenizer.commentChar(int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#commentChar(int) public void
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#commentChar(int) public void
      * java.io.StreamTokenizer.commentChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -307,8 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#commentChar(int) public void java.io.StreamTokenizer.commentChar(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -322,20 +278,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#wordChars(int, int) public void
-     * java.io.StreamTokenizer.wordChars(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#wordChars(int, int) public void
-     * java.io.StreamTokenizer.wordChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#wordChars(int, int) public
+     * void java.io.StreamTokenizer.wordChars(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#wordChars(int, int) public void java.io.StreamTokenizer.wordChars(int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -349,20 +300,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#quoteChar(int) public void java.io.StreamTokenizer.quoteChar(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#quoteChar(int) public void java.io.StreamTokenizer.quoteChar(int)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#quoteChar(int) public void
+     * java.io.StreamTokenizer.quoteChar(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#quoteChar(int) public void java.io.StreamTokenizer.quoteChar(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -376,18 +322,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#resetSyntax() public void java.io.StreamTokenizer.resetSyntax()}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#resetSyntax() public void java.io.StreamTokenizer.resetSyntax()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#resetSyntax() public void
+     * java.io.StreamTokenizer.resetSyntax()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#resetSyntax() public void java.io.StreamTokenizer.resetSyntax() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -401,20 +344,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.StreamTokenizer#ordinaryChars(int, int) public void
-     * java.io.StreamTokenizer.ordinaryChars(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#ordinaryChars(int, int) public void
-     * java.io.StreamTokenizer.ordinaryChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#slashSlashComments(boolean)
+     * public void java.io.StreamTokenizer.slashSlashComments(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.StreamTokenizer#ordinaryChars(int, int) public void java.io.StreamTokenizer.ordinaryChars(int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_slashSlashComments_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#ordinaryChars(int, int)
+     * public void java.io.StreamTokenizer.ordinaryChars(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -426,31 +386,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#slashSlashComments(boolean) public void
-     * java.io.StreamTokenizer.slashSlashComments(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.StreamTokenizer#slashSlashComments(boolean) public void
-     * java.io.StreamTokenizer.slashSlashComments(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.StreamTokenizer#slashSlashComments(boolean) public void
-     *      java.io.StreamTokenizer.slashSlashComments(boolean) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_slashSlashComments_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.StreamTokenizer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.StreamTokenizer]
 
 }

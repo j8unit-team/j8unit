@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import java.util.AbstractSequentialList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.AbstractSequentialList class java.util.AbstractSequentialList}.
- * The complementary j8unit test interface containing the class relevant aspects is
- * {@link AbstractSequentialListClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AbstractSequentialList public abstract class java.util.AbstractSequentialList<E>}.
  * </p>
  *
- * @see java.util.AbstractSequentialList class java.util.AbstractSequentialList (the hereby targeted class-under-test
- *      class)
- * @see AbstractSequentialListClassTests AbstractSequentialListClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.AbstractSequentialListClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractSequentialListTests<SUT extends java.util.AbstractSequentialList<E>, E>
+public abstract interface AbstractSequentialListTests<SUT extends AbstractSequentialList<E>, E>
 extends AbstractListTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractSequentialList]
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#remove(int) public E
-     * java.util.AbstractSequentialList.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#remove(int) public java.lang.Object
-     * java.util.AbstractSequentialList.remove(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#remove(int) public
+     * E java.util.AbstractSequentialList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#remove(int) public java.lang.Object
-     *      java.util.AbstractSequentialList.remove(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#listIterator(int) public abstract java.util.ListIterator
-     * <E> java.util.AbstractSequentialList.listIterator(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#listIterator(int) public abstract java.util.ListIterator
-     * java.util.AbstractSequentialList.listIterator(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#listIterator(int)
+     * public abstract java.util.ListIterator<E> java.util.AbstractSequentialList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#listIterator(int) public abstract java.util.ListIterator
-     *      java.util.AbstractSequentialList.listIterator(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,20 +80,16 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#addAll(int, java.util.Collection) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.AbstractSequentialList#addAll(int, java.util.Collection) public boolean
      * java.util.AbstractSequentialList.addAll(int,java.util.Collection<? extends E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#addAll(int, java.util.Collection) public boolean
-     * java.util.AbstractSequentialList.addAll(int,java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#addAll(int, java.util.Collection) public boolean
-     *      java.util.AbstractSequentialList.addAll(int,java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,11 +104,7 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#get(int) public E
-     * java.util.AbstractSequentialList.get(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#get(int) public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#get(int) public E
      * java.util.AbstractSequentialList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +112,7 @@ extends AbstractListTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#get(int) public java.lang.Object java.util.AbstractSequentialList.get(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -142,20 +127,15 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#add(int, Object) public void
-     * java.util.AbstractSequentialList.add(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#add(int, Object) public void
-     * java.util.AbstractSequentialList.add(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#add(int, Object)
+     * public void java.util.AbstractSequentialList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#add(int, Object) public void
-     *      java.util.AbstractSequentialList.add(int,java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -170,20 +150,15 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#set(int, Object) public E
-     * java.util.AbstractSequentialList.set(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#set(int, Object) public java.lang.Object
-     * java.util.AbstractSequentialList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#set(int, Object)
+     * public E java.util.AbstractSequentialList.set(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#set(int, Object) public java.lang.Object
-     *      java.util.AbstractSequentialList.set(int,java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -198,20 +173,15 @@ extends AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#iterator() public java.util.Iterator
-     * <E> java.util.AbstractSequentialList.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#iterator() public java.util.Iterator
-     * java.util.AbstractSequentialList.iterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.AbstractSequentialList#iterator() public
+     * java.util.Iterator<E> java.util.AbstractSequentialList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractSequentialList#iterator() public java.util.Iterator
-     *      java.util.AbstractSequentialList.iterator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -223,5 +193,9 @@ extends AbstractListTests<SUT, E> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractSequentialList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractSequentialList]
 
 }

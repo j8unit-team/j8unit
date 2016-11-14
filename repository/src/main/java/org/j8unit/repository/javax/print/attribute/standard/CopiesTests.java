@@ -1,50 +1,51 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
+import javax.print.attribute.standard.Copies;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.Copies class
- * javax.print.attribute.standard.Copies}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link CopiesClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Copies public
+ * final class javax.print.attribute.standard.Copies}.
  * </p>
  *
- * @see javax.print.attribute.standard.Copies class javax.print.attribute.standard.Copies (the hereby targeted
- *      class-under-test class)
- * @see CopiesClassTests CopiesClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.standard.CopiesClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CopiesTests<SUT extends javax.print.attribute.standard.Copies>
-extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
-org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
+public abstract interface CopiesTests<SUT extends Copies>
+extends PrintRequestAttributeTests<SUT>, PrintJobAttributeTests<SUT>, IntegerSyntaxTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Copies]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#equals(Object) public boolean
-     * javax.print.attribute.standard.Copies.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#equals(Object) public boolean
-     * javax.print.attribute.standard.Copies.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#equals(Object)
+     * public boolean javax.print.attribute.standard.Copies.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.Copies#equals(Object) public boolean
-     *      javax.print.attribute.standard.Copies.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +60,15 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#getName() public final java.lang.String
-     * javax.print.attribute.standard.Copies.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#getName() public final java.lang.String
-     * javax.print.attribute.standard.Copies.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#getName()
+     * public final java.lang.String javax.print.attribute.standard.Copies.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.Copies#getName() public final java.lang.String
-     *      javax.print.attribute.standard.Copies.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +83,8 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#getCategory() public final java.lang.Class<? extends
-     * javax.print.attribute.Attribute> javax.print.attribute.standard.Copies.getCategory()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.Copies#getCategory() public final java.lang.Class
+     * Test method for the hereby targeted method-under-test {@link javax.print.attribute.standard.Copies#getCategory()
+     * public final java.lang.Class<? extends javax.print.attribute.Attribute>
      * javax.print.attribute.standard.Copies.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,8 +92,7 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.Copies#getCategory() public final java.lang.Class
-     *      javax.print.attribute.standard.Copies.getCategory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,5 +104,9 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Copies]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Copies]
 
 }

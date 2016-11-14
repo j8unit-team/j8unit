@@ -1,28 +1,37 @@
 package org.j8unit.repository.javax.activity;
 
+import javax.activity.ActivityRequiredException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.activity.ActivityRequiredException class
- * javax.activity.ActivityRequiredException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ActivityRequiredExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ActivityRequiredException public class javax.activity.ActivityRequiredException}.
  * </p>
  *
- * @see javax.activity.ActivityRequiredException class javax.activity.ActivityRequiredException (the hereby targeted
- *      class-under-test class)
- * @see ActivityRequiredExceptionClassTests ActivityRequiredExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivityRequiredExceptionTests<SUT extends javax.activity.ActivityRequiredException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
+public abstract interface ActivityRequiredExceptionTests<SUT extends ActivityRequiredException>
+extends RemoteExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityRequiredException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.ActivityRequiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 
 }

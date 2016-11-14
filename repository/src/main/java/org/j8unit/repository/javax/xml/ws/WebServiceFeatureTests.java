@@ -1,47 +1,49 @@
 package org.j8unit.repository.javax.xml.ws;
 
+import javax.xml.ws.WebServiceFeature;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.ws.WebServiceFeature class javax.xml.ws.WebServiceFeature}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link WebServiceFeatureClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link WebServiceFeature public abstract class javax.xml.ws.WebServiceFeature}.
  * </p>
  *
- * @see javax.xml.ws.WebServiceFeature class javax.xml.ws.WebServiceFeature (the hereby targeted class-under-test class)
- * @see WebServiceFeatureClassTests WebServiceFeatureClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebServiceFeatureTests<SUT extends javax.xml.ws.WebServiceFeature>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface WebServiceFeatureTests<SUT extends WebServiceFeature>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServiceFeature]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceFeature#getID() public abstract java.lang.String
-     * javax.xml.ws.WebServiceFeature.getID()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceFeature#getID() public abstract java.lang.String
-     * javax.xml.ws.WebServiceFeature.getID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceFeature#getID() public
+     * abstract java.lang.String javax.xml.ws.WebServiceFeature.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.WebServiceFeature#getID() public abstract java.lang.String
-     *      javax.xml.ws.WebServiceFeature.getID() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceFeature#isEnabled() public boolean
-     * javax.xml.ws.WebServiceFeature.isEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceFeature#isEnabled() public boolean
-     * javax.xml.ws.WebServiceFeature.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceFeature#isEnabled() public
+     * boolean javax.xml.ws.WebServiceFeature.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.WebServiceFeature#isEnabled() public boolean javax.xml.ws.WebServiceFeature.isEnabled() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -79,5 +76,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.WebServiceFeature]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServiceFeature]
 
 }

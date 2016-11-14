@@ -9,65 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain CharSequence interface java.lang.CharSequence}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link CharSequenceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CharSequence
+ * public abstract interface java.lang.CharSequence}.
  * </p>
  *
- * @see CharSequence interface java.lang.CharSequence (the hereby targeted class-under-test class)
- * @see CharSequenceClassTests CharSequenceClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.CharSequenceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharSequenceTests<SUT extends CharSequence>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link CharSequence#charAt(int) public abstract char java.lang.CharSequence.charAt(int)}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#charAt(int) public abstract char java.lang.CharSequence.charAt(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see CharSequence#charAt(int) public abstract char java.lang.CharSequence.charAt(int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_charAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.CharSequence]
 
     /**
      * <p>
-     * Test method for {@link CharSequence#chars() public default java.util.stream.IntStream
-     * java.lang.CharSequence.chars()}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#chars() public default java.util.stream.IntStream
-     * java.lang.CharSequence.chars()}.
+     * Test method for the hereby targeted method-under-test {@link CharSequence#chars() public default
+     * java.util.stream.IntStream java.lang.CharSequence.chars()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see CharSequence#chars() public default java.util.stream.IntStream java.lang.CharSequence.chars() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,20 +56,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link CharSequence#codePoints() public default java.util.stream.IntStream
-     * java.lang.CharSequence.codePoints()}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#codePoints() public default java.util.stream.IntStream
-     * java.lang.CharSequence.codePoints()}.
+     * Test method for the hereby targeted method-under-test {@link CharSequence#charAt(int) public abstract char
+     * java.lang.CharSequence.charAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see CharSequence#codePoints() public default java.util.stream.IntStream java.lang.CharSequence.codePoints() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_charAt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link CharSequence#codePoints() public default
+     * java.util.stream.IntStream java.lang.CharSequence.codePoints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,18 +100,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link CharSequence#length() public abstract int java.lang.CharSequence.length()}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#length() public abstract int java.lang.CharSequence.length()}.
+     * Test method for the hereby targeted method-under-test {@link CharSequence#length() public abstract int
+     * java.lang.CharSequence.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see CharSequence#length() public abstract int java.lang.CharSequence.length() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,20 +122,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link CharSequence#toString() public abstract java.lang.String
-     * java.lang.CharSequence.toString()}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#toString() public abstract java.lang.String
-     * java.lang.CharSequence.toString()}.
+     * Test method for the hereby targeted method-under-test {@link CharSequence#toString() public abstract
+     * java.lang.String java.lang.CharSequence.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see CharSequence#toString() public abstract java.lang.String java.lang.CharSequence.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,20 +144,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link CharSequence#subSequence(int, int) public abstract java.lang.CharSequence
-     * java.lang.CharSequence.subSequence(int,int)}.
-     *
-     * <p>
-     * Test method for {@link CharSequence#subSequence(int, int) public abstract java.lang.CharSequence
-     * java.lang.CharSequence.subSequence(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link CharSequence#subSequence(int, int) public abstract
+     * java.lang.CharSequence java.lang.CharSequence.subSequence(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see CharSequence#subSequence(int, int) public abstract java.lang.CharSequence
-     *      java.lang.CharSequence.subSequence(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -184,5 +163,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.CharSequence]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.CharSequence]
 
 }

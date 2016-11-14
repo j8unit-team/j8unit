@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import java.util.SortedSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.SortedSet interface java.util.SortedSet}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link SortedSetClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SortedSet
+ * public abstract interface java.util.SortedSet<E>}.
  * </p>
  *
- * @see java.util.SortedSet interface java.util.SortedSet (the hereby targeted class-under-test class)
- * @see SortedSetClassTests SortedSetClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.SortedSetClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortedSetTests<SUT extends java.util.SortedSet<E>, E>
+public abstract interface SortedSetTests<SUT extends SortedSet<E>, E>
 extends SetTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.SortedSet]
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#last() public abstract E java.util.SortedSet.last()}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#last() public abstract java.lang.Object java.util.SortedSet.last()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#last() public abstract E
+     * java.util.SortedSet.last()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#last() public abstract java.lang.Object java.util.SortedSet.last() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,20 +56,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#spliterator() public default java.util.Spliterator
-     * <E> java.util.SortedSet.spliterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#spliterator() public default java.util.Spliterator
-     * java.util.SortedSet.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#spliterator() public default
+     * java.util.Spliterator<E> java.util.SortedSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#spliterator() public default java.util.Spliterator java.util.SortedSet.spliterator()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -81,20 +79,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#headSet(Object) public abstract java.util.SortedSet
-     * <E> java.util.SortedSet.headSet(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#headSet(Object) public abstract java.util.SortedSet
-     * java.util.SortedSet.headSet(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#headSet(Object) public abstract
+     * java.util.SortedSet<E> java.util.SortedSet.headSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#headSet(Object) public abstract java.util.SortedSet
-     *      java.util.SortedSet.headSet(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,20 +101,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#tailSet(Object) public abstract java.util.SortedSet
-     * <E> java.util.SortedSet.tailSet(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#tailSet(Object) public abstract java.util.SortedSet
-     * java.util.SortedSet.tailSet(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#tailSet(Object) public abstract
+     * java.util.SortedSet<E> java.util.SortedSet.tailSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#tailSet(Object) public abstract java.util.SortedSet
-     *      java.util.SortedSet.tailSet(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,20 +123,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#comparator() public abstract java.util.Comparator<? super E>
-     * java.util.SortedSet.comparator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#comparator() public abstract java.util.Comparator
-     * java.util.SortedSet.comparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#comparator() public abstract
+     * java.util.Comparator<? super E> java.util.SortedSet.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#comparator() public abstract java.util.Comparator java.util.SortedSet.comparator() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,18 +145,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#first() public abstract E java.util.SortedSet.first()}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#first() public abstract java.lang.Object java.util.SortedSet.first()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#first() public abstract E
+     * java.util.SortedSet.first()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#first() public abstract java.lang.Object java.util.SortedSet.first() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,20 +167,15 @@ extends SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#subSet(Object, Object) public abstract java.util.SortedSet
-     * <E> java.util.SortedSet.subSet(E,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.SortedSet#subSet(Object, Object) public abstract java.util.SortedSet
-     * java.util.SortedSet.subSet(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.SortedSet#subSet(Object, Object) public
+     * abstract java.util.SortedSet<E> java.util.SortedSet.subSet(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.SortedSet#subSet(Object, Object) public abstract java.util.SortedSet
-     *      java.util.SortedSet.subSet(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,5 +186,9 @@ extends SetTests<SUT, E> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.SortedSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.SortedSet]
 
 }

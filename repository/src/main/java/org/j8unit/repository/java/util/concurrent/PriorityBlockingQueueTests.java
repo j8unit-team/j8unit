@@ -1,49 +1,50 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.PriorityBlockingQueue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.util.AbstractQueueTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.PriorityBlockingQueue class
- * java.util.concurrent.PriorityBlockingQueue}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link PriorityBlockingQueueClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PriorityBlockingQueue public class java.util.concurrent.PriorityBlockingQueue<E>}.
  * </p>
  *
- * @see java.util.concurrent.PriorityBlockingQueue class java.util.concurrent.PriorityBlockingQueue (the hereby targeted
- *      class-under-test class)
- * @see PriorityBlockingQueueClassTests PriorityBlockingQueueClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PriorityBlockingQueueTests<SUT extends java.util.concurrent.PriorityBlockingQueue<E>, E>
-extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
+public abstract interface PriorityBlockingQueueTests<SUT extends PriorityBlockingQueue<E>, E>
+extends BlockingQueueTests<SUT, E>, SerializableTests<SUT>, AbstractQueueTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#peek() public E
-     * java.util.concurrent.PriorityBlockingQueue.peek()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#peek() public java.lang.Object
-     * java.util.concurrent.PriorityBlockingQueue.peek()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#peek()
+     * public E java.util.concurrent.PriorityBlockingQueue.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#peek() public java.lang.Object
-     *      java.util.concurrent.PriorityBlockingQueue.peek() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,48 +59,16 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#remove(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#remove(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.remove(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.PriorityBlockingQueue#remove(Object) public boolean
-     *      java.util.concurrent.PriorityBlockingQueue.remove(java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#put(Object) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#put(Object) public void
      * java.util.concurrent.PriorityBlockingQueue.put(E)}.
      *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#put(Object) public void
-     * java.util.concurrent.PriorityBlockingQueue.put(java.lang.Object)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#put(Object) public void
-     *      java.util.concurrent.PriorityBlockingQueue.put(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,27 +83,22 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection, int) public int
-     * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection, int) public int
-     * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#remove(Object) public boolean
+     * java.util.concurrent.PriorityBlockingQueue.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection, int) public int
-     *      java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_drainTo_Collection_int()
+    public default void test_remove_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,21 +107,16 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection) public int
-     * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection) public int
-     *      java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -172,26 +131,22 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#poll() public E
-     * java.util.concurrent.PriorityBlockingQueue.poll()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#poll() public java.lang.Object
-     * java.util.concurrent.PriorityBlockingQueue.poll()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.PriorityBlockingQueue.drainTo(java.util.Collection<? super E>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#poll() public java.lang.Object
-     *      java.util.concurrent.PriorityBlockingQueue.poll() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_poll()
+    public default void test_drainTo_Collection_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,23 +155,17 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#poll(long, java.util.concurrent.TimeUnit)
-     * public E java.util.concurrent.PriorityBlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#poll(long, java.util.concurrent.TimeUnit) public E
+     * java.util.concurrent.PriorityBlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
      * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#poll(long, java.util.concurrent.TimeUnit)
-     * public java.lang.Object java.util.concurrent.PriorityBlockingQueue.poll(long,java.util.concurrent.TimeUnit)
-     * throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#poll(long, java.util.concurrent.TimeUnit) public java.lang.Object
-     *      java.util.concurrent.PriorityBlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -231,20 +180,38 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#clear() public void
-     * java.util.concurrent.PriorityBlockingQueue.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#clear() public void
-     * java.util.concurrent.PriorityBlockingQueue.clear()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#poll()
+     * public E java.util.concurrent.PriorityBlockingQueue.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#clear() public void
-     *      java.util.concurrent.PriorityBlockingQueue.clear() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_poll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#clear()
+     * public void java.util.concurrent.PriorityBlockingQueue.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -259,11 +226,8 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#spliterator() public java.util.Spliterator
-     * <E> java.util.concurrent.PriorityBlockingQueue.spliterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#spliterator() public java.util.Spliterator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#spliterator() public java.util.Spliterator<E>
      * java.util.concurrent.PriorityBlockingQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -271,8 +235,7 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#spliterator() public java.util.Spliterator
-     *      java.util.concurrent.PriorityBlockingQueue.spliterator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -287,20 +250,16 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#add(Object) public boolean
      * java.util.concurrent.PriorityBlockingQueue.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#add(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#add(Object) public boolean
-     *      java.util.concurrent.PriorityBlockingQueue.add(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -315,11 +274,8 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#remainingCapacity() public int
-     * java.util.concurrent.PriorityBlockingQueue.remainingCapacity()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#remainingCapacity() public int
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#remainingCapacity() public int
      * java.util.concurrent.PriorityBlockingQueue.remainingCapacity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +283,7 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#remainingCapacity() public int
-     *      java.util.concurrent.PriorityBlockingQueue.remainingCapacity() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -343,11 +298,8 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toString() public java.lang.String
-     * java.util.concurrent.PriorityBlockingQueue.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#toString() public java.lang.String
      * java.util.concurrent.PriorityBlockingQueue.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -355,8 +307,7 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#toString() public java.lang.String
-     *      java.util.concurrent.PriorityBlockingQueue.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -371,49 +322,15 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toArray(Object[]) public <T> T[]
-     * java.util.concurrent.PriorityBlockingQueue.toArray(T[])}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toArray(Object[]) public java.lang.Object[]
-     * java.util.concurrent.PriorityBlockingQueue.toArray(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#toArray()
+     * public java.lang.Object[] java.util.concurrent.PriorityBlockingQueue.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#toArray(Object[]) public java.lang.Object[]
-     *      java.util.concurrent.PriorityBlockingQueue.toArray(java.lang.Object[]) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toArray() public java.lang.Object[]
-     * java.util.concurrent.PriorityBlockingQueue.toArray()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#toArray() public java.lang.Object[]
-     * java.util.concurrent.PriorityBlockingQueue.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.PriorityBlockingQueue#toArray() public java.lang.Object[]
-     *      java.util.concurrent.PriorityBlockingQueue.toArray() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -428,20 +345,39 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#size() public int
-     * java.util.concurrent.PriorityBlockingQueue.size()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#size() public int
-     * java.util.concurrent.PriorityBlockingQueue.size()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#toArray(Object[]) public <T> T[]
+     * java.util.concurrent.PriorityBlockingQueue.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#size() public int
-     *      java.util.concurrent.PriorityBlockingQueue.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#size()
+     * public int java.util.concurrent.PriorityBlockingQueue.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -456,40 +392,8 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#contains(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#contains(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.PriorityBlockingQueue#contains(Object) public boolean
-     *      java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#iterator() public java.util.Iterator
-     * <E> java.util.concurrent.PriorityBlockingQueue.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#iterator() public java.util.Iterator
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#iterator() public java.util.Iterator<E>
      * java.util.concurrent.PriorityBlockingQueue.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -497,8 +401,7 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#iterator() public java.util.Iterator
-     *      java.util.concurrent.PriorityBlockingQueue.iterator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -513,25 +416,22 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#comparator() public java.util.Comparator<?
-     * super E> java.util.concurrent.PriorityBlockingQueue.comparator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#comparator() public java.util.Comparator
-     * java.util.concurrent.PriorityBlockingQueue.comparator()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#contains(Object) public boolean
+     * java.util.concurrent.PriorityBlockingQueue.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#comparator() public java.util.Comparator
-     *      java.util.concurrent.PriorityBlockingQueue.comparator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_comparator()
+    public default void test_contains_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -540,21 +440,15 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#take() public E
-     * java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#take() public java.lang.Object
-     * java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.PriorityBlockingQueue#take()
+     * public E java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#take() public java.lang.Object
-     *      java.util.concurrent.PriorityBlockingQueue.take() throws java.lang.InterruptedException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -569,29 +463,21 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public
-     * boolean java.util.concurrent.PriorityBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public
-     * boolean java.util.concurrent.PriorityBlockingQueue.offer(java.lang.Object,long,java.util.concurrent.TimeUnit)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#comparator() public java.util.Comparator<? super E>
+     * java.util.concurrent.PriorityBlockingQueue.comparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
-     *      java.util.concurrent.PriorityBlockingQueue.offer(java.lang.Object,long,java.util.concurrent.TimeUnit) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_offer_Object_long_TimeUnit()
+    public default void test_comparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -600,20 +486,16 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#offer(Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object) public boolean
      * java.util.concurrent.PriorityBlockingQueue.offer(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#offer(Object) public boolean
-     * java.util.concurrent.PriorityBlockingQueue.offer(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.PriorityBlockingQueue#offer(Object) public boolean
-     *      java.util.concurrent.PriorityBlockingQueue.offer(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -628,218 +510,30 @@ extends BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTe
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#removeAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#removeAll(java.util.Collection) class java.util.AbstractQueue}</li>
-     * </ul>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.PriorityBlockingQueue#offer(Object, long, java.util.concurrent.TimeUnit) public
+     * boolean java.util.concurrent.PriorityBlockingQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeAll_Collection()
+    public default void test_offer_Object_long_TimeUnit()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#containsAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#containsAll(java.util.Collection) class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsAll_Collection()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractQueue#element() class java.util.AbstractQueue}</li>
-     * <li>{@linkplain java.util.Queue#element() interface java.util.Queue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_element()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractQueue#remove() class java.util.AbstractQueue}</li>
-     * <li>{@linkplain java.util.Queue#remove() interface java.util.Queue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#isEmpty() interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#isEmpty() class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isEmpty()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#addAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#addAll(java.util.Collection) class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#hashCode() interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#hashCode() class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#retainAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#retainAll(java.util.Collection) class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_retainAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#equals(Object) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractQueue#equals(Object) class java.util.AbstractQueue}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
 
 }

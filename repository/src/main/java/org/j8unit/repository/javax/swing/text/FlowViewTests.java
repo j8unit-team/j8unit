@@ -1,47 +1,50 @@
 package org.j8unit.repository.javax.swing.text;
 
+import javax.swing.text.FlowView;
+import javax.swing.text.FlowView.FlowStrategy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.FlowView class javax.swing.text.FlowView}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link FlowViewClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link FlowView public
+ * abstract class javax.swing.text.FlowView}.
  * </p>
  *
- * @see javax.swing.text.FlowView class javax.swing.text.FlowView (the hereby targeted class-under-test class)
- * @see FlowViewClassTests FlowViewClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FlowViewTests<SUT extends javax.swing.text.FlowView>
+public abstract interface FlowViewTests<SUT extends FlowView>
 extends BoxViewTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.FlowView]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowStart(int) public int
-     * javax.swing.text.FlowView.getFlowStart(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowStart(int) public int
-     * javax.swing.text.FlowView.getFlowStart(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.FlowView#getFlowStart(int) public
+     * int javax.swing.text.FlowView.getFlowStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#getFlowStart(int) public int javax.swing.text.FlowView.getFlowStart(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,28 +58,17 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.FlowView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.FlowView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.FlowView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.FlowView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.FlowView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *      javax.swing.text.ViewFactory) public void
-     *      javax.swing.text.FlowView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
-     *      ViewFactory) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -91,20 +83,15 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowSpan(int) public int
-     * javax.swing.text.FlowView.getFlowSpan(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowSpan(int) public int
-     * javax.swing.text.FlowView.getFlowSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.FlowView#getFlowSpan(int) public
+     * int javax.swing.text.FlowView.getFlowSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#getFlowSpan(int) public int javax.swing.text.FlowView.getFlowSpan(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -118,28 +105,17 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.FlowView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.FlowView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.FlowView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.FlowView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.FlowView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *      javax.swing.text.ViewFactory) public void
-     *      javax.swing.text.FlowView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
-     *      ViewFactory) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -154,28 +130,17 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.FlowView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.FlowView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.FlowView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.FlowView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.FlowView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *      javax.swing.text.ViewFactory) public void
-     *      javax.swing.text.FlowView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
-     *      ViewFactory) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -190,11 +155,7 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowAxis() public int
-     * javax.swing.text.FlowView.getFlowAxis()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.FlowView#getFlowAxis() public int
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.FlowView#getFlowAxis() public int
      * javax.swing.text.FlowView.getFlowAxis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +163,7 @@ extends BoxViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#getFlowAxis() public int javax.swing.text.FlowView.getFlowAxis() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,11 +177,8 @@ extends BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.FlowView#setParent(javax.swing.text.View) public void
-     * javax.swing.text.FlowView.setParent(javax.swing.text.View)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.FlowView#setParent(javax.swing.text.View) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.FlowView#setParent(javax.swing.text.View) public void
      * javax.swing.text.FlowView.setParent(javax.swing.text.View)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +186,7 @@ extends BoxViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.FlowView#setParent(javax.swing.text.View) public void
-     *      javax.swing.text.FlowView.setParent(javax.swing.text.View) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -243,52 +199,48 @@ extends BoxViewTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.FlowView]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.FlowView.FlowStrategy class
-     * javax.swing.text.FlowView$FlowStrategy}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link FlowViewClassTests.FlowStrategyClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FlowStrategy public static class javax.swing.text.FlowView$FlowStrategy}.
      * </p>
      *
-     * @see javax.swing.text.FlowView.FlowStrategy class javax.swing.text.FlowView$FlowStrategy (the hereby targeted
-     *      class-under-test class)
-     * @see FlowViewClassTests.FlowStrategyClassTests FlowViewClassTests.FlowStrategyClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FlowStrategyTests<SUT extends javax.swing.text.FlowView.FlowStrategy>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface FlowStrategyTests<SUT extends FlowStrategy>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
 
         /**
          * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.FlowView.FlowStrategy#changedUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
          * public void
-         * javax.swing.text.FlowView$FlowStrategy.changedUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.FlowView.FlowStrategy#changedUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
-         * public void
-         * javax.swing.text.FlowView$FlowStrategy.changedUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
+         * javax.swing.text.FlowView$FlowStrategy.changedUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.FlowView.FlowStrategy#changedUpdate(javax.swing.text.FlowView,
-         *      javax.swing.event.DocumentEvent, java.awt.Rectangle) public void
-         *      javax.swing.text.FlowView$FlowStrategy.changedUpdate(javax.swing.text.FlowView,javax.swing.event.
-         *      DocumentEvent,java.awt.Rectangle) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -302,28 +254,17 @@ extends BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.FlowView.FlowStrategy#insertUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
          * public void
-         * javax.swing.text.FlowView$FlowStrategy.insertUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.FlowView.FlowStrategy#insertUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
-         * public void
-         * javax.swing.text.FlowView$FlowStrategy.insertUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
+         * javax.swing.text.FlowView$FlowStrategy.insertUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.FlowView.FlowStrategy#insertUpdate(javax.swing.text.FlowView,
-         *      javax.swing.event.DocumentEvent, java.awt.Rectangle) public void
-         *      javax.swing.text.FlowView$FlowStrategy.insertUpdate(javax.swing.text.FlowView,javax.swing.event.
-         *      DocumentEvent,java.awt.Rectangle) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -337,11 +278,8 @@ extends BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.FlowView.FlowStrategy#layout(javax.swing.text.FlowView) public void
-         * javax.swing.text.FlowView$FlowStrategy.layout(javax.swing.text.FlowView)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.FlowView.FlowStrategy#layout(javax.swing.text.FlowView) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.FlowView.FlowStrategy#layout(javax.swing.text.FlowView) public void
          * javax.swing.text.FlowView$FlowStrategy.layout(javax.swing.text.FlowView)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,9 +287,7 @@ extends BoxViewTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.FlowView.FlowStrategy#layout(javax.swing.text.FlowView) public void
-         *      javax.swing.text.FlowView$FlowStrategy.layout(javax.swing.text.FlowView) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -365,28 +301,17 @@ extends BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.FlowView.FlowStrategy#removeUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
          * public void
-         * javax.swing.text.FlowView$FlowStrategy.removeUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.FlowView.FlowStrategy#removeUpdate(javax.swing.text.FlowView, javax.swing.event.DocumentEvent, java.awt.Rectangle)
-         * public void
-         * javax.swing.text.FlowView$FlowStrategy.removeUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}
-         * .
+         * javax.swing.text.FlowView$FlowStrategy.removeUpdate(javax.swing.text.FlowView,javax.swing.event.DocumentEvent,java.awt.Rectangle)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.FlowView.FlowStrategy#removeUpdate(javax.swing.text.FlowView,
-         *      javax.swing.event.DocumentEvent, java.awt.Rectangle) public void
-         *      javax.swing.text.FlowView$FlowStrategy.removeUpdate(javax.swing.text.FlowView,javax.swing.event.
-         *      DocumentEvent,java.awt.Rectangle) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -397,6 +322,10 @@ extends BoxViewTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
 
     }
 

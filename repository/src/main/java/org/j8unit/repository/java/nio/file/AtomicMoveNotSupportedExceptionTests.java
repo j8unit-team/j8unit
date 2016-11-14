@@ -1,28 +1,36 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.AtomicMoveNotSupportedException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.AtomicMoveNotSupportedException class
- * java.nio.file.AtomicMoveNotSupportedException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AtomicMoveNotSupportedExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AtomicMoveNotSupportedException public class java.nio.file.AtomicMoveNotSupportedException}.
  * </p>
  *
- * @see java.nio.file.AtomicMoveNotSupportedException class java.nio.file.AtomicMoveNotSupportedException (the hereby
- *      targeted class-under-test class)
- * @see AtomicMoveNotSupportedExceptionClassTests AtomicMoveNotSupportedExceptionClassTests (the complementary j8unit
- *      test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.AtomicMoveNotSupportedExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AtomicMoveNotSupportedExceptionTests<SUT extends java.nio.file.AtomicMoveNotSupportedException>
+public abstract interface AtomicMoveNotSupportedExceptionTests<SUT extends AtomicMoveNotSupportedException>
 extends FileSystemExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.AtomicMoveNotSupportedException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.AtomicMoveNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.AtomicMoveNotSupportedException]
 
 }

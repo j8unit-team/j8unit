@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.print.attribute;
 
+import javax.print.attribute.PrintRequestAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,45 +9,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.PrintRequestAttributeSet interface
- * javax.print.attribute.PrintRequestAttributeSet}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link PrintRequestAttributeSetClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PrintRequestAttributeSet public abstract interface javax.print.attribute.PrintRequestAttributeSet}.
  * </p>
  *
- * @see javax.print.attribute.PrintRequestAttributeSet interface javax.print.attribute.PrintRequestAttributeSet (the
- *      hereby targeted class-under-test class)
- * @see PrintRequestAttributeSetClassTests PrintRequestAttributeSetClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.PrintRequestAttributeSetClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrintRequestAttributeSetTests<SUT extends javax.print.attribute.PrintRequestAttributeSet>
+public abstract interface PrintRequestAttributeSetTests<SUT extends PrintRequestAttributeSet>
 extends AttributeSetTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.PrintRequestAttributeSet]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet)
-     * public abstract boolean
-     * javax.print.attribute.PrintRequestAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet)
-     * public abstract boolean
-     * javax.print.attribute.PrintRequestAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet) public abstract
+     * boolean javax.print.attribute.PrintRequestAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.PrintRequestAttributeSet#addAll(javax.print.attribute.AttributeSet) public abstract
-     *      boolean javax.print.attribute.PrintRequestAttributeSet.addAll(javax.print.attribute.AttributeSet) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -61,21 +58,16 @@ extends AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) public
-     * abstract boolean javax.print.attribute.PrintRequestAttributeSet.add(javax.print.attribute.Attribute)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) public
-     * abstract boolean javax.print.attribute.PrintRequestAttributeSet.add(javax.print.attribute.Attribute)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) public abstract
+     * boolean javax.print.attribute.PrintRequestAttributeSet.add(javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.PrintRequestAttributeSet#add(javax.print.attribute.Attribute) public abstract boolean
-     *      javax.print.attribute.PrintRequestAttributeSet.add(javax.print.attribute.Attribute) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,5 +79,9 @@ extends AttributeSetTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.PrintRequestAttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.PrintRequestAttributeSet]
 
 }

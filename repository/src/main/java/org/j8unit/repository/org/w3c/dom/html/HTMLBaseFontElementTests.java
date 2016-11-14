@@ -5,45 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.html.HTMLBaseFontElement;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLBaseFontElement interface
- * org.w3c.dom.html.HTMLBaseFontElement}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link HTMLBaseFontElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HTMLBaseFontElement public abstract interface org.w3c.dom.html.HTMLBaseFontElement}.
  * </p>
  *
- * @see org.w3c.dom.html.HTMLBaseFontElement interface org.w3c.dom.html.HTMLBaseFontElement (the hereby targeted
- *      class-under-test class)
- * @see HTMLBaseFontElementClassTests HTMLBaseFontElementClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLBaseFontElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLBaseFontElementTests<SUT extends org.w3c.dom.html.HTMLBaseFontElement>
+public abstract interface HTMLBaseFontElementTests<SUT extends HTMLBaseFontElement>
 extends HTMLElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLBaseFontElement]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setFace(String) public abstract void
-     * org.w3c.dom.html.HTMLBaseFontElement.setFace(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setFace(String) public abstract void
-     * org.w3c.dom.html.HTMLBaseFontElement.setFace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBaseFontElement#setFace(String)
+     * public abstract void org.w3c.dom.html.HTMLBaseFontElement.setFace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#setFace(String) public abstract void
-     *      org.w3c.dom.html.HTMLBaseFontElement.setFace(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getSize() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getSize()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getSize() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getSize()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBaseFontElement#getSize()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLBaseFontElement.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#getSize() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLBaseFontElement.getSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setSize(String) public abstract void
-     * org.w3c.dom.html.HTMLBaseFontElement.setSize(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setSize(String) public abstract void
-     * org.w3c.dom.html.HTMLBaseFontElement.setSize(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBaseFontElement#setSize(String)
+     * public abstract void org.w3c.dom.html.HTMLBaseFontElement.setSize(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#setSize(String) public abstract void
-     *      org.w3c.dom.html.HTMLBaseFontElement.setSize(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,11 +100,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setColor(String) public abstract void
-     * org.w3c.dom.html.HTMLBaseFontElement.setColor(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#setColor(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLBaseFontElement#setColor(String) public abstract void
      * org.w3c.dom.html.HTMLBaseFontElement.setColor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +109,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#setColor(String) public abstract void
-     *      org.w3c.dom.html.HTMLBaseFontElement.setColor(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +123,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getFace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getFace()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getFace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getFace()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBaseFontElement#getFace()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLBaseFontElement.getFace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#getFace() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLBaseFontElement.getFace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +145,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getColor()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLBaseFontElement#getColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLBaseFontElement.getColor()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBaseFontElement#getColor()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLBaseFontElement.getColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLBaseFontElement#getColor() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLBaseFontElement.getColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,5 +164,9 @@ extends HTMLElementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLBaseFontElement]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLBaseFontElement]
 
 }

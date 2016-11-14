@@ -1,76 +1,52 @@
 package org.j8unit.repository.java.time;
 
+import java.time.DayOfWeek;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.time.temporal.TemporalAccessorTests;
+import org.j8unit.repository.java.time.temporal.TemporalAdjusterTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.DayOfWeek class java.time.DayOfWeek}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link DayOfWeekClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DayOfWeek
+ * public final enum java.time.DayOfWeek}.
  * </p>
  *
- * @see java.time.DayOfWeek class java.time.DayOfWeek (the hereby targeted class-under-test class)
- * @see DayOfWeekClassTests DayOfWeekClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.DayOfWeekClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DayOfWeekTests<SUT extends java.time.DayOfWeek>
-extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterTests<SUT>,
-org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
+public abstract interface DayOfWeekTests<SUT extends DayOfWeek>
+extends TemporalAccessorTests<SUT>, TemporalAdjusterTests<SUT>, EnumTests<SUT, DayOfWeek> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.DayOfWeek]
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#get(java.time.temporal.TemporalField) public int
-     * java.time.DayOfWeek.get(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#get(java.time.temporal.TemporalField) public int
-     * java.time.DayOfWeek.get(java.time.temporal.TemporalField)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.DayOfWeek#get(java.time.temporal.TemporalField) public int
-     *      java.time.DayOfWeek.get(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#query(java.time.temporal.TemporalQuery) public <R> R
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#query(java.time.temporal.TemporalQuery) public <R> R
      * java.time.DayOfWeek.query(java.time.temporal.TemporalQuery<R>)}.
      *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#query(java.time.temporal.TemporalQuery) public java.lang.Object
-     * java.time.DayOfWeek.query(java.time.temporal.TemporalQuery)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#query(java.time.temporal.TemporalQuery) public java.lang.Object
-     *      java.time.DayOfWeek.query(java.time.temporal.TemporalQuery) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -85,21 +61,40 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#getDisplayName(java.time.format.TextStyle, java.util.Locale) public
-     * java.lang.String java.time.DayOfWeek.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#getDisplayName(java.time.format.TextStyle, java.util.Locale) public
-     * java.lang.String java.time.DayOfWeek.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#get(java.time.temporal.TemporalField) public int
+     * java.time.DayOfWeek.get(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#getDisplayName(java.time.format.TextStyle, java.util.Locale) public java.lang.String
-     *      java.time.DayOfWeek.getDisplayName(java.time.format.TextStyle,java.util.Locale) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#getDisplayName(java.time.format.TextStyle, java.util.Locale) public java.lang.String
+     * java.time.DayOfWeek.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,18 +108,15 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#getValue() public int java.time.DayOfWeek.getValue()}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#getValue() public int java.time.DayOfWeek.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.DayOfWeek#getValue() public int
+     * java.time.DayOfWeek.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#getValue() public int java.time.DayOfWeek.getValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +130,15 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#minus(long) public java.time.DayOfWeek
-     * java.time.DayOfWeek.minus(long)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#minus(long) public java.time.DayOfWeek
-     * java.time.DayOfWeek.minus(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.DayOfWeek#minus(long) public
+     * java.time.DayOfWeek java.time.DayOfWeek.minus(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#minus(long) public java.time.DayOfWeek java.time.DayOfWeek.minus(long) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,11 +152,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#getLong(java.time.temporal.TemporalField) public long
-     * java.time.DayOfWeek.getLong(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#getLong(java.time.temporal.TemporalField) public long
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#getLong(java.time.temporal.TemporalField) public long
      * java.time.DayOfWeek.getLong(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +161,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#getLong(java.time.temporal.TemporalField) public long
-     *      java.time.DayOfWeek.getLong(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -193,18 +176,15 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#plus(long) public java.time.DayOfWeek java.time.DayOfWeek.plus(long)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#plus(long) public java.time.DayOfWeek java.time.DayOfWeek.plus(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.DayOfWeek#plus(long) public
+     * java.time.DayOfWeek java.time.DayOfWeek.plus(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#plus(long) public java.time.DayOfWeek java.time.DayOfWeek.plus(long) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,11 +198,8 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#isSupported(java.time.temporal.TemporalField) public boolean
-     * java.time.DayOfWeek.isSupported(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#isSupported(java.time.temporal.TemporalField) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.DayOfWeek.isSupported(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,8 +207,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#isSupported(java.time.temporal.TemporalField) public boolean
-     *      java.time.DayOfWeek.isSupported(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -246,20 +222,16 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#range(java.time.temporal.TemporalField) public
-     * java.time.temporal.ValueRange java.time.DayOfWeek.range(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#range(java.time.temporal.TemporalField) public
-     * java.time.temporal.ValueRange java.time.DayOfWeek.range(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
+     * java.time.DayOfWeek.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
-     *      java.time.DayOfWeek.range(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -274,20 +246,16 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
 
     /**
      * <p>
-     * Test method for {@link java.time.DayOfWeek#adjustInto(java.time.temporal.Temporal) public
-     * java.time.temporal.Temporal java.time.DayOfWeek.adjustInto(java.time.temporal.Temporal)}.
-     *
-     * <p>
-     * Test method for {@link java.time.DayOfWeek#adjustInto(java.time.temporal.Temporal) public
-     * java.time.temporal.Temporal java.time.DayOfWeek.adjustInto(java.time.temporal.Temporal)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.DayOfWeek#adjustInto(java.time.temporal.Temporal) public java.time.temporal.Temporal
+     * java.time.DayOfWeek.adjustInto(java.time.temporal.Temporal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.DayOfWeek#adjustInto(java.time.temporal.Temporal) public java.time.temporal.Temporal
-     *      java.time.DayOfWeek.adjustInto(java.time.temporal.Temporal) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -299,5 +267,9 @@ org.j8unit.repository.java.lang.EnumTests<SUT, java.time.DayOfWeek> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.DayOfWeek]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.DayOfWeek]
 
 }

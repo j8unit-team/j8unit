@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.lang;
 
+import java.lang.ProcessBuilder.Redirect;
+import java.lang.ProcessBuilder.Redirect.Type;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,67 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain ProcessBuilder class java.lang.ProcessBuilder}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link ProcessBuilderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ProcessBuilder
+ * public final class java.lang.ProcessBuilder}.
  * </p>
  *
- * @see ProcessBuilder class java.lang.ProcessBuilder (the hereby targeted class-under-test class)
- * @see ProcessBuilderClassTests ProcessBuilderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProcessBuilderTests<SUT extends ProcessBuilder>
 extends ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectError(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectError(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectError(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectError(java.io.File)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#redirectError(java.io.File) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectError(java.io.File) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_redirectError_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder]
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectError() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectError()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectError() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectError()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectError() public
+     * java.lang.ProcessBuilder$Redirect java.lang.ProcessBuilder.redirectError()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectError() public java.lang.ProcessBuilder$Redirect
-     *      java.lang.ProcessBuilder.redirectError() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +57,30 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectError(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectError(java.lang.ProcessBuilder$Redirect)}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectError(java.io.File) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectError(java.io.File)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_redirectError_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectError(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectError(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
      * java.lang.ProcessBuilder.redirectError(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,9 +88,7 @@ extends ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectError(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectError(java.lang.ProcessBuilder$Redirect) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,47 +102,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectErrorStream() public boolean
-     * java.lang.ProcessBuilder.redirectErrorStream()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectErrorStream() public boolean
-     * java.lang.ProcessBuilder.redirectErrorStream()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectErrorStream(boolean) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectErrorStream(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectErrorStream() public boolean java.lang.ProcessBuilder.redirectErrorStream() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_redirectErrorStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectErrorStream(boolean) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectErrorStream(boolean)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectErrorStream(boolean) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectErrorStream(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#redirectErrorStream(boolean) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectErrorStream(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,19 +124,37 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#environment() public java.util.Map<java.lang.String, java.lang.String>
-     * java.lang.ProcessBuilder.environment()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#environment() public java.util.Map java.lang.ProcessBuilder.environment()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectErrorStream() public boolean
+     * java.lang.ProcessBuilder.redirectErrorStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#environment() public java.util.Map java.lang.ProcessBuilder.environment() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_redirectErrorStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#environment() public
+     * java.util.Map<java.lang.String, java.lang.String> java.lang.ProcessBuilder.environment()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,47 +168,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectInput(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectInput(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectInput(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectInput(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectInput() public
+     * java.lang.ProcessBuilder$Redirect java.lang.ProcessBuilder.redirectInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectInput(java.io.File) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectInput(java.io.File) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_redirectInput_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectInput() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectInput()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectInput() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectInput()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#redirectInput() public java.lang.ProcessBuilder$Redirect
-     *      java.lang.ProcessBuilder.redirectInput() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,11 +190,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectInput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectInput(java.lang.ProcessBuilder$Redirect)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectInput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectInput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
      * java.lang.ProcessBuilder.redirectInput(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -256,9 +199,7 @@ extends ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectInput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectInput(java.lang.ProcessBuilder$Redirect) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,20 +213,37 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#start() public java.lang.Process java.lang.ProcessBuilder.start() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#start() public java.lang.Process java.lang.ProcessBuilder.start() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectInput(java.io.File) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectInput(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#start() public java.lang.Process java.lang.ProcessBuilder.start() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_redirectInput_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#start() public java.lang.Process
+     * java.lang.ProcessBuilder.start() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,73 +257,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#command(java.util.List) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.command(java.util.List<java.lang.String>)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#command(java.util.List) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.command(java.util.List)}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#command(String...) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.command(java.lang.String...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#command(java.util.List) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.command(java.util.List) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_command_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#command() public java.util.List
-     * <java.lang.String> java.lang.ProcessBuilder.command()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#command() public java.util.List java.lang.ProcessBuilder.command()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#command() public java.util.List java.lang.ProcessBuilder.command() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_command()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#command(String...) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.command(java.lang.String...)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#command(String...) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.command(java.lang.String...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#command(String...) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.command(java.lang.String[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -379,18 +279,59 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#directory() public java.io.File java.lang.ProcessBuilder.directory()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#directory() public java.io.File java.lang.ProcessBuilder.directory()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#command(java.util.List) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.command(java.util.List<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#directory() public java.io.File java.lang.ProcessBuilder.directory() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_command_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#command() public
+     * java.util.List<java.lang.String> java.lang.ProcessBuilder.command()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_command()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#directory() public java.io.File
+     * java.lang.ProcessBuilder.directory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -404,20 +345,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#directory(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.directory(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#directory(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.directory(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#directory(java.io.File) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.directory(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#directory(java.io.File) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.directory(java.io.File) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -431,20 +367,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#inheritIO() public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.inheritIO()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#inheritIO() public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.inheritIO()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#inheritIO() public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.inheritIO()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#inheritIO() public java.lang.ProcessBuilder java.lang.ProcessBuilder.inheritIO() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -458,38 +389,8 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectOutput(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput(java.io.File) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectOutput(java.io.File)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see ProcessBuilder#redirectOutput(java.io.File) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectOutput(java.io.File) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_redirectOutput_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     * java.lang.ProcessBuilder.redirectOutput(java.lang.ProcessBuilder$Redirect)}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link ProcessBuilder#redirectOutput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
      * java.lang.ProcessBuilder.redirectOutput(java.lang.ProcessBuilder$Redirect)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -497,9 +398,7 @@ extends ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectOutput(ProcessBuilder.Redirect) public java.lang.ProcessBuilder
-     *      java.lang.ProcessBuilder.redirectOutput(java.lang.ProcessBuilder$Redirect) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,20 +412,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectOutput()}.
-     *
-     * <p>
-     * Test method for {@link ProcessBuilder#redirectOutput() public java.lang.ProcessBuilder$Redirect
-     * java.lang.ProcessBuilder.redirectOutput()}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectOutput() public
+     * java.lang.ProcessBuilder$Redirect java.lang.ProcessBuilder.redirectOutput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see ProcessBuilder#redirectOutput() public java.lang.ProcessBuilder$Redirect
-     *      java.lang.ProcessBuilder.redirectOutput() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -540,41 +434,66 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain ProcessBuilder.Redirect class java.lang.ProcessBuilder$Redirect}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link ProcessBuilderClassTests.RedirectClassTests}.
+     * Test method for the hereby targeted method-under-test {@link ProcessBuilder#redirectOutput(java.io.File) public
+     * java.lang.ProcessBuilder java.lang.ProcessBuilder.redirectOutput(java.io.File)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see ProcessBuilder.Redirect class java.lang.ProcessBuilder$Redirect (the hereby targeted class-under-test class)
-     * @see ProcessBuilderClassTests.RedirectClassTests ProcessBuilderClassTests.RedirectClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_redirectOutput_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Redirect
+     * public abstract static class java.lang.ProcessBuilder$Redirect}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RedirectTests<SUT extends ProcessBuilder.Redirect>
+    public static abstract interface RedirectTests<SUT extends Redirect>
     extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
         /**
          * <p>
-         * Test method for {@link ProcessBuilder.Redirect#file() public java.io.File
-         * java.lang.ProcessBuilder$Redirect.file()}.
-         *
-         * <p>
-         * Test method for {@link ProcessBuilder.Redirect#file() public java.io.File
-         * java.lang.ProcessBuilder$Redirect.file()}.
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#file() public
+         * java.io.File java.lang.ProcessBuilder$Redirect.file()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see ProcessBuilder.Redirect#file() public java.io.File java.lang.ProcessBuilder$Redirect.file() (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -588,11 +507,7 @@ extends ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link ProcessBuilder.Redirect#hashCode() public int
-         * java.lang.ProcessBuilder$Redirect.hashCode()}.
-         *
-         * <p>
-         * Test method for {@link ProcessBuilder.Redirect#hashCode() public int
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#hashCode() public int
          * java.lang.ProcessBuilder$Redirect.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -600,8 +515,7 @@ extends ObjectTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see ProcessBuilder.Redirect#hashCode() public int java.lang.ProcessBuilder$Redirect.hashCode() (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -616,20 +530,15 @@ extends ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link ProcessBuilder.Redirect#equals(Object) public boolean
-         * java.lang.ProcessBuilder$Redirect.equals(java.lang.Object)}.
-         *
-         * <p>
-         * Test method for {@link ProcessBuilder.Redirect#equals(Object) public boolean
-         * java.lang.ProcessBuilder$Redirect.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#equals(Object) public
+         * boolean java.lang.ProcessBuilder$Redirect.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see ProcessBuilder.Redirect#equals(Object) public boolean
-         *      java.lang.ProcessBuilder$Redirect.equals(java.lang.Object) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -644,20 +553,15 @@ extends ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link ProcessBuilder.Redirect#type() public abstract java.lang.ProcessBuilder$Redirect$Type
-         * java.lang.ProcessBuilder$Redirect.type()}.
-         *
-         * <p>
-         * Test method for {@link ProcessBuilder.Redirect#type() public abstract java.lang.ProcessBuilder$Redirect$Type
-         * java.lang.ProcessBuilder$Redirect.type()}.
+         * Test method for the hereby targeted method-under-test {@link ProcessBuilder.Redirect#type() public abstract
+         * java.lang.ProcessBuilder$Redirect$Type java.lang.ProcessBuilder$Redirect.type()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see ProcessBuilder.Redirect#type() public abstract java.lang.ProcessBuilder$Redirect$Type
-         *      java.lang.ProcessBuilder$Redirect.type() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -669,28 +573,39 @@ extends ObjectTests<SUT> {
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+
         /**
          * <p>
-         * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting
-         * the non-{@code static} methods) of {@linkplain ProcessBuilder.Redirect.Type class
-         * java.lang.ProcessBuilder$Redirect$Type}. The complementary j8unit test interface containing the class
-         * relevant aspects is {@link ProcessBuilderClassTests.RedirectClassTests.TypeClassTests}.
+         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
+         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+         * {@link Type public static final enum java.lang.ProcessBuilder$Redirect$Type}.
          * </p>
          *
-         * @see ProcessBuilder.Redirect.Type class java.lang.ProcessBuilder$Redirect$Type (the hereby targeted
-         *      class-under-test class)
-         * @see ProcessBuilderClassTests.RedirectClassTests.TypeClassTests
-         *      ProcessBuilderClassTests.RedirectClassTests.TypeClassTests (the complementary j8unit test interface
-         *      containing the class relevant test methods)
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
+         * relevant aspects (see
+         * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests.TypeClassTests}).
+         * </p>
          *
          * @param SUT
          *            the type of the subject-under-test
          * @since 0.9.0
          */
+
         @FunctionalInterface
         @Category(J8UnitRepository.class)
-        public static abstract interface TypeTests<SUT extends ProcessBuilder.Redirect.Type>
-        extends EnumTests<SUT, ProcessBuilder.Redirect.Type> {
+        public static abstract interface TypeTests<SUT extends Type>
+        extends EnumTests<SUT, Type> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
         }
 

@@ -1,47 +1,52 @@
 package org.j8unit.repository.java.nio.channels;
 
+import java.nio.channels.Pipe;
+import java.nio.channels.Pipe.SinkChannel;
+import java.nio.channels.Pipe.SourceChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.channels.Pipe class java.nio.channels.Pipe}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link PipeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Pipe public
+ * abstract class java.nio.channels.Pipe}.
  * </p>
  *
- * @see java.nio.channels.Pipe class java.nio.channels.Pipe (the hereby targeted class-under-test class)
- * @see PipeClassTests PipeClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.channels.PipeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PipeTests<SUT extends java.nio.channels.Pipe>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PipeTests<SUT extends Pipe>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe]
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Pipe#source() public abstract java.nio.channels.Pipe$SourceChannel
-     * java.nio.channels.Pipe.source()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.Pipe#source() public abstract java.nio.channels.Pipe$SourceChannel
-     * java.nio.channels.Pipe.source()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe#source() public abstract
+     * java.nio.channels.Pipe$SourceChannel java.nio.channels.Pipe.source()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.Pipe#source() public abstract java.nio.channels.Pipe$SourceChannel
-     *      java.nio.channels.Pipe.source() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +60,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Pipe#sink() public abstract java.nio.channels.Pipe$SinkChannel
-     * java.nio.channels.Pipe.sink()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.Pipe#sink() public abstract java.nio.channels.Pipe$SinkChannel
-     * java.nio.channels.Pipe.sink()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe#sink() public abstract
+     * java.nio.channels.Pipe$SinkChannel java.nio.channels.Pipe.sink()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.Pipe#sink() public abstract java.nio.channels.Pipe$SinkChannel
-     *      java.nio.channels.Pipe.sink() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,44 +80,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.nio.channels.Pipe.SourceChannel class
-     * java.nio.channels.Pipe$SourceChannel}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link PipeClassTests.SourceChannelClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link SourceChannel public abstract static class java.nio.channels.Pipe$SourceChannel}.
      * </p>
      *
-     * @see java.nio.channels.Pipe.SourceChannel class java.nio.channels.Pipe$SourceChannel (the hereby targeted
-     *      class-under-test class)
-     * @see PipeClassTests.SourceChannelClassTests PipeClassTests.SourceChannelClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SourceChannelTests<SUT extends java.nio.channels.Pipe.SourceChannel>
-    extends ReadableByteChannelTests<SUT>, ScatteringByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> {
+    public static abstract interface SourceChannelTests<SUT extends SourceChannel>
+    extends ScatteringByteChannelTests<SUT>, AbstractSelectableChannelTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
         /**
          * <p>
-         * Test method for {@link java.nio.channels.Pipe.SourceChannel#validOps() public final int
-         * java.nio.channels.Pipe$SourceChannel.validOps()}.
-         *
-         * <p>
-         * Test method for {@link java.nio.channels.Pipe.SourceChannel#validOps() public final int
-         * java.nio.channels.Pipe$SourceChannel.validOps()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe.SourceChannel#validOps()
+         * public final int java.nio.channels.Pipe$SourceChannel.validOps()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.nio.channels.Pipe.SourceChannel#validOps() public final int
-         *      java.nio.channels.Pipe$SourceChannel.validOps() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -130,94 +132,48 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-         * class-under-test:
-         * </p>
-         * <ul>
-         * <li>{@linkplain java.nio.channels.SelectableChannel#close() class java.nio.channels.SelectableChannel}</li>
-         * <li>{@linkplain java.nio.channels.Channel#close() interface java.nio.channels.Channel}</li>
-         * </ul>
-         *
-         * <p>
-         * In result, there are duplicated according test methods within the parent test classes. To solve this
-         * situation, this method must be overridden. Dont't worry, there will be meaningful test methods soon and,
-         * thus, overriding becomes unnecessary.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_close()
-        throws Exception {
-        }
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
-        /**
-         * <p>
-         * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-         * class-under-test:
-         * </p>
-         * <ul>
-         * <li>{@linkplain java.nio.channels.SelectableChannel#isOpen() class java.nio.channels.SelectableChannel}</li>
-         * <li>{@linkplain java.nio.channels.Channel#isOpen() interface java.nio.channels.Channel}</li>
-         * </ul>
-         *
-         * <p>
-         * In result, there are duplicated according test methods within the parent test classes. To solve this
-         * situation, this method must be overridden. Dont't worry, there will be meaningful test methods soon and,
-         * thus, overriding becomes unnecessary.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_isOpen()
-        throws Exception {
-        }
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.nio.channels.Pipe.SinkChannel class
-     * java.nio.channels.Pipe$SinkChannel}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link PipeClassTests.SinkChannelClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SinkChannel
+     * public abstract static class java.nio.channels.Pipe$SinkChannel}.
      * </p>
      *
-     * @see java.nio.channels.Pipe.SinkChannel class java.nio.channels.Pipe$SinkChannel (the hereby targeted
-     *      class-under-test class)
-     * @see PipeClassTests.SinkChannelClassTests PipeClassTests.SinkChannelClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SinkChannelTests<SUT extends java.nio.channels.Pipe.SinkChannel>
-    extends WritableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> {
+    public static abstract interface SinkChannelTests<SUT extends SinkChannel>
+    extends GatheringByteChannelTests<SUT>, AbstractSelectableChannelTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 
         /**
          * <p>
-         * Test method for {@link java.nio.channels.Pipe.SinkChannel#validOps() public final int
-         * java.nio.channels.Pipe$SinkChannel.validOps()}.
-         *
-         * <p>
-         * Test method for {@link java.nio.channels.Pipe.SinkChannel#validOps() public final int
-         * java.nio.channels.Pipe$SinkChannel.validOps()}.
+         * Test method for the hereby targeted method-under-test {@link java.nio.channels.Pipe.SinkChannel#validOps()
+         * public final int java.nio.channels.Pipe$SinkChannel.validOps()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.nio.channels.Pipe.SinkChannel#validOps() public final int
-         *      java.nio.channels.Pipe$SinkChannel.validOps() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -230,53 +186,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-         * class-under-test:
-         * </p>
-         * <ul>
-         * <li>{@linkplain java.nio.channels.SelectableChannel#close() class java.nio.channels.SelectableChannel}</li>
-         * <li>{@linkplain java.nio.channels.Channel#close() interface java.nio.channels.Channel}</li>
-         * </ul>
-         *
-         * <p>
-         * In result, there are duplicated according test methods within the parent test classes. To solve this
-         * situation, this method must be overridden. Dont't worry, there will be meaningful test methods soon and,
-         * thus, overriding becomes unnecessary.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_close()
-        throws Exception {
-        }
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 
-        /**
-         * <p>
-         * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-         * class-under-test:
-         * </p>
-         * <ul>
-         * <li>{@linkplain java.nio.channels.SelectableChannel#isOpen() class java.nio.channels.SelectableChannel}</li>
-         * <li>{@linkplain java.nio.channels.Channel#isOpen() interface java.nio.channels.Channel}</li>
-         * </ul>
-         *
-         * <p>
-         * In result, there are duplicated according test methods within the parent test classes. To solve this
-         * situation, this method must be overridden. Dont't worry, there will be meaningful test methods soon and,
-         * thus, overriding becomes unnecessary.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_isOpen()
-        throws Exception {
-        }
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 
     }
 

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management.openmbean;
 
+import javax.management.openmbean.OpenMBeanParameterInfo;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,33 +10,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.openmbean.OpenMBeanParameterInfo interface
- * javax.management.openmbean.OpenMBeanParameterInfo}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link OpenMBeanParameterInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link OpenMBeanParameterInfo public abstract interface javax.management.openmbean.OpenMBeanParameterInfo}.
  * </p>
  *
- * @see javax.management.openmbean.OpenMBeanParameterInfo interface javax.management.openmbean.OpenMBeanParameterInfo
- *      (the hereby targeted class-under-test class)
- * @see OpenMBeanParameterInfoClassTests OpenMBeanParameterInfoClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OpenMBeanParameterInfoTests<SUT extends javax.management.openmbean.OpenMBeanParameterInfo>
+public abstract interface OpenMBeanParameterInfoTests<SUT extends OpenMBeanParameterInfo>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanParameterInfo]
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasLegalValues() public abstract boolean
-     * javax.management.openmbean.OpenMBeanParameterInfo.hasLegalValues()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasLegalValues() public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#hasLegalValues() public abstract boolean
      * javax.management.openmbean.OpenMBeanParameterInfo.hasLegalValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +44,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#hasLegalValues() public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.hasLegalValues() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,20 +58,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract
-     * java.lang.Comparable<?> javax.management.openmbean.OpenMBeanParameterInfo.getMinValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract
-     * java.lang.Comparable javax.management.openmbean.OpenMBeanParameterInfo.getMinValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getMinValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract java.lang.Comparable
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getMinValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#isValue(Object) public abstract boolean
-     * javax.management.openmbean.OpenMBeanParameterInfo.isValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#isValue(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#isValue(Object) public abstract boolean
      * javax.management.openmbean.OpenMBeanParameterInfo.isValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,9 +90,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#isValue(Object) public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.isValue(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,20 +104,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract
-     * java.util.Set<?> javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract
-     * java.util.Set javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract java.util.Set<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract java.util.Set
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,11 +127,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hashCode() public abstract int
-     * javax.management.openmbean.OpenMBeanParameterInfo.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hashCode() public abstract int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#hashCode() public abstract int
      * javax.management.openmbean.OpenMBeanParameterInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +136,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#hashCode() public abstract int
-     *      javax.management.openmbean.OpenMBeanParameterInfo.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,11 +150,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#equals(Object) public abstract boolean
-     * javax.management.openmbean.OpenMBeanParameterInfo.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#equals(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#equals(Object) public abstract boolean
      * javax.management.openmbean.OpenMBeanParameterInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,9 +159,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#equals(Object) public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,11 +173,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMinValue() public abstract boolean
-     * javax.management.openmbean.OpenMBeanParameterInfo.hasMinValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMinValue() public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMinValue() public abstract boolean
      * javax.management.openmbean.OpenMBeanParameterInfo.hasMinValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -207,8 +182,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#hasMinValue() public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.hasMinValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,20 +196,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#toString() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#toString() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#toString() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanParameterInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#toString() public abstract java.lang.String
-     *      javax.management.openmbean.OpenMBeanParameterInfo.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,21 +219,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getOpenType() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getOpenType() public abstract
      * javax.management.openmbean.OpenType<?> javax.management.openmbean.OpenMBeanParameterInfo.getOpenType()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getOpenType() public abstract
-     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanParameterInfo.getOpenType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getOpenType() public abstract
-     *      javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanParameterInfo.getOpenType() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,20 +242,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasDefaultValue() public abstract
-     * boolean javax.management.openmbean.OpenMBeanParameterInfo.hasDefaultValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasDefaultValue() public abstract
-     * boolean javax.management.openmbean.OpenMBeanParameterInfo.hasDefaultValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#hasDefaultValue() public abstract boolean
+     * javax.management.openmbean.OpenMBeanParameterInfo.hasDefaultValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#hasDefaultValue() public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.hasDefaultValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,20 +265,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getName() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getName() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getName() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanParameterInfo.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getName() public abstract java.lang.String
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,20 +288,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract
-     * java.lang.Comparable<?> javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract
-     * java.lang.Comparable javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract java.lang.Comparable
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -358,11 +311,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMaxValue() public abstract boolean
-     * javax.management.openmbean.OpenMBeanParameterInfo.hasMaxValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMaxValue() public abstract boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#hasMaxValue() public abstract boolean
      * javax.management.openmbean.OpenMBeanParameterInfo.hasMaxValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -370,8 +320,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#hasMaxValue() public abstract boolean
-     *      javax.management.openmbean.OpenMBeanParameterInfo.hasMaxValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -385,20 +334,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.getDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfo.getDescription()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() public abstract java.lang.String
+     * javax.management.openmbean.OpenMBeanParameterInfo.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getDescription() public abstract java.lang.String
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getDescription() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,20 +357,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getDefaultValue() public abstract
-     * java.lang.Object javax.management.openmbean.OpenMBeanParameterInfo.getDefaultValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfo#getDefaultValue() public abstract
-     * java.lang.Object javax.management.openmbean.OpenMBeanParameterInfo.getDefaultValue()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getDefaultValue() public abstract java.lang.Object
+     * javax.management.openmbean.OpenMBeanParameterInfo.getDefaultValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanParameterInfo#getDefaultValue() public abstract java.lang.Object
-     *      javax.management.openmbean.OpenMBeanParameterInfo.getDefaultValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -436,5 +377,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanParameterInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanParameterInfo]
 
 }

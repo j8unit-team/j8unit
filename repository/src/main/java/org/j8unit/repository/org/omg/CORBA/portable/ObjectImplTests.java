@@ -2,38 +2,41 @@ package org.j8unit.repository.org.omg.CORBA.portable;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.portable.ObjectImpl;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.CORBA.portable.ObjectImpl class org.omg.CORBA.portable.ObjectImpl}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link ObjectImplClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ObjectImpl
+ * public abstract class org.omg.CORBA.portable.ObjectImpl}.
  * </p>
  *
- * @see org.omg.CORBA.portable.ObjectImpl class org.omg.CORBA.portable.ObjectImpl (the hereby targeted class-under-test
- *      class)
- * @see ObjectImplClassTests ObjectImplClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectImplTests<SUT extends org.omg.CORBA.portable.ObjectImpl>
-extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ObjectImplTests<SUT extends ObjectImpl>
+extends ObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_equivalent(org.omg.CORBA.Object) public boolean
-     * org.omg.CORBA.portable.ObjectImpl._is_equivalent(org.omg.CORBA.Object)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_equivalent(org.omg.CORBA.Object) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_is_equivalent(org.omg.CORBA.Object) public boolean
      * org.omg.CORBA.portable.ObjectImpl._is_equivalent(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,9 +44,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_is_equivalent(org.omg.CORBA.Object) public boolean
-     *      org.omg.CORBA.portable.ObjectImpl._is_equivalent(org.omg.CORBA.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,30 +59,17 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
      * public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
-     * public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
-     * .
+     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList,
-     *      org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList) public
-     *      org.omg.CORBA.Request
-     *      org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.
-     *      NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -96,28 +84,17 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
      * public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
-     * public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
-     * .
+     * org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList,
-     *      org.omg.CORBA.NamedValue) public org.omg.CORBA.Request
-     *      org.omg.CORBA.portable.ObjectImpl._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.
-     *      NVList,org.omg.CORBA.NamedValue) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -132,20 +109,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_hash(int) public int
-     * org.omg.CORBA.portable.ObjectImpl._hash(int)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_hash(int) public int
-     * org.omg.CORBA.portable.ObjectImpl._hash(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_hash(int) public
+     * int org.omg.CORBA.portable.ObjectImpl._hash(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_hash(int) public int org.omg.CORBA.portable.ObjectImpl._hash(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -160,20 +132,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_a(String) public boolean
-     * org.omg.CORBA.portable.ObjectImpl._is_a(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_a(String) public boolean
-     * org.omg.CORBA.portable.ObjectImpl._is_a(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_is_a(String)
+     * public boolean org.omg.CORBA.portable.ObjectImpl._is_a(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_is_a(String) public boolean
-     *      org.omg.CORBA.portable.ObjectImpl._is_a(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -188,20 +155,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_policy(int) public org.omg.CORBA.Policy
-     * org.omg.CORBA.portable.ObjectImpl._get_policy(int)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_policy(int) public org.omg.CORBA.Policy
-     * org.omg.CORBA.portable.ObjectImpl._get_policy(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_get_policy(int)
+     * public org.omg.CORBA.Policy org.omg.CORBA.portable.ObjectImpl._get_policy(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_get_policy(int) public org.omg.CORBA.Policy
-     *      org.omg.CORBA.portable.ObjectImpl._get_policy(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -216,21 +178,16 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_set_delegate(org.omg.CORBA.portable.Delegate) public
-     * void org.omg.CORBA.portable.ObjectImpl._set_delegate(org.omg.CORBA.portable.Delegate)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_set_delegate(org.omg.CORBA.portable.Delegate) public
-     * void org.omg.CORBA.portable.ObjectImpl._set_delegate(org.omg.CORBA.portable.Delegate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_set_delegate(org.omg.CORBA.portable.Delegate) public void
+     * org.omg.CORBA.portable.ObjectImpl._set_delegate(org.omg.CORBA.portable.Delegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_set_delegate(org.omg.CORBA.portable.Delegate) public void
-     *      org.omg.CORBA.portable.ObjectImpl._set_delegate(org.omg.CORBA.portable.Delegate) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,20 +201,16 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_domain_managers() public
-     * org.omg.CORBA.DomainManager[] org.omg.CORBA.portable.ObjectImpl._get_domain_managers()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_domain_managers() public
-     * org.omg.CORBA.DomainManager[] org.omg.CORBA.portable.ObjectImpl._get_domain_managers()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_get_domain_managers() public org.omg.CORBA.DomainManager[]
+     * org.omg.CORBA.portable.ObjectImpl._get_domain_managers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_get_domain_managers() public org.omg.CORBA.DomainManager[]
-     *      org.omg.CORBA.portable.ObjectImpl._get_domain_managers() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -272,47 +225,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_request(String, boolean) public
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ObjectImpl._request(java.lang.String,boolean)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_request(String, boolean) public
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ObjectImpl._request(java.lang.String,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_request(String)
+     * public org.omg.CORBA.Request org.omg.CORBA.portable.ObjectImpl._request(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_request(String, boolean) public org.omg.CORBA.portable.OutputStream
-     *      org.omg.CORBA.portable.ObjectImpl._request(java.lang.String,boolean) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__request_String_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_request(String) public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._request(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_request(String) public org.omg.CORBA.Request
-     * org.omg.CORBA.portable.ObjectImpl._request(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.CORBA.portable.ObjectImpl#_request(String) public org.omg.CORBA.Request
-     *      org.omg.CORBA.portable.ObjectImpl._request(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -327,20 +248,38 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_orb() public org.omg.CORBA.ORB
-     * org.omg.CORBA.portable.ObjectImpl._orb()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_orb() public org.omg.CORBA.ORB
-     * org.omg.CORBA.portable.ObjectImpl._orb()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_request(String, boolean) public org.omg.CORBA.portable.OutputStream
+     * org.omg.CORBA.portable.ObjectImpl._request(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_orb() public org.omg.CORBA.ORB org.omg.CORBA.portable.ObjectImpl._orb()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__request_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_orb() public
+     * org.omg.CORBA.ORB org.omg.CORBA.portable.ObjectImpl._orb()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,20 +293,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#hashCode() public int
-     * org.omg.CORBA.portable.ObjectImpl.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#hashCode() public int
-     * org.omg.CORBA.portable.ObjectImpl.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#hashCode() public
+     * int org.omg.CORBA.portable.ObjectImpl.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#hashCode() public int org.omg.CORBA.portable.ObjectImpl.hashCode() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -382,20 +316,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_ids() public abstract java.lang.String[]
-     * org.omg.CORBA.portable.ObjectImpl._ids()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_ids() public abstract java.lang.String[]
-     * org.omg.CORBA.portable.ObjectImpl._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_ids() public
+     * abstract java.lang.String[] org.omg.CORBA.portable.ObjectImpl._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_ids() public abstract java.lang.String[]
-     *      org.omg.CORBA.portable.ObjectImpl._ids() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,20 +338,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_local() public boolean
-     * org.omg.CORBA.portable.ObjectImpl._is_local()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_is_local() public boolean
-     * org.omg.CORBA.portable.ObjectImpl._is_local()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_is_local() public
+     * boolean org.omg.CORBA.portable.ObjectImpl._is_local()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_is_local() public boolean org.omg.CORBA.portable.ObjectImpl._is_local()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -436,20 +360,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_release() public void
-     * org.omg.CORBA.portable.ObjectImpl._release()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_release() public void
-     * org.omg.CORBA.portable.ObjectImpl._release()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_release() public
+     * void org.omg.CORBA.portable.ObjectImpl._release()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_release() public void org.omg.CORBA.portable.ObjectImpl._release() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -464,11 +383,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_interface_def() public org.omg.CORBA.Object
-     * org.omg.CORBA.portable.ObjectImpl._get_interface_def()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_interface_def() public org.omg.CORBA.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_get_interface_def() public org.omg.CORBA.Object
      * org.omg.CORBA.portable.ObjectImpl._get_interface_def()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -476,8 +392,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_get_interface_def() public org.omg.CORBA.Object
-     *      org.omg.CORBA.portable.ObjectImpl._get_interface_def() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -492,12 +407,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_servant_preinvoke(String, Class) public
-     * org.omg.CORBA.portable.ServantObject
-     * org.omg.CORBA.portable.ObjectImpl._servant_preinvoke(java.lang.String,java.lang.Class)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_servant_preinvoke(String, Class) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_servant_preinvoke(String, Class) public
      * org.omg.CORBA.portable.ServantObject
      * org.omg.CORBA.portable.ObjectImpl._servant_preinvoke(java.lang.String,java.lang.Class)}.
      *
@@ -506,10 +417,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_servant_preinvoke(String, Class) public
-     *      org.omg.CORBA.portable.ServantObject
-     *      org.omg.CORBA.portable.ObjectImpl._servant_preinvoke(java.lang.String,java.lang.Class) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,12 +431,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA.portable.ObjectImpl#_servant_postinvoke(org.omg.CORBA.portable.ServantObject) public void
-     * org.omg.CORBA.portable.ObjectImpl._servant_postinvoke(org.omg.CORBA.portable.ServantObject)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.ObjectImpl#_servant_postinvoke(org.omg.CORBA.portable.ServantObject) public void
      * org.omg.CORBA.portable.ObjectImpl._servant_postinvoke(org.omg.CORBA.portable.ServantObject)}.
      *
@@ -537,9 +440,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_servant_postinvoke(org.omg.CORBA.portable.ServantObject) public void
-     *      org.omg.CORBA.portable.ObjectImpl._servant_postinvoke(org.omg.CORBA.portable.ServantObject) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -553,20 +454,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_non_existent() public boolean
-     * org.omg.CORBA.portable.ObjectImpl._non_existent()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_non_existent() public boolean
-     * org.omg.CORBA.portable.ObjectImpl._non_existent()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_non_existent()
+     * public boolean org.omg.CORBA.portable.ObjectImpl._non_existent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_non_existent() public boolean
-     *      org.omg.CORBA.portable.ObjectImpl._non_existent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -581,41 +477,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_duplicate() public org.omg.CORBA.Object
-     * org.omg.CORBA.portable.ObjectImpl._duplicate()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_duplicate() public org.omg.CORBA.Object
-     * org.omg.CORBA.portable.ObjectImpl._duplicate()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.CORBA.portable.ObjectImpl#_duplicate() public org.omg.CORBA.Object
-     *      org.omg.CORBA.portable.ObjectImpl._duplicate() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__duplicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.portable.ObjectImpl#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
-     * public org.omg.CORBA.Object
-     * org.omg.CORBA.portable.ObjectImpl._set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.ObjectImpl#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
      * public org.omg.CORBA.Object
      * org.omg.CORBA.portable.ObjectImpl._set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}.
@@ -625,10 +487,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_set_policy_override(org.omg.CORBA.Policy[],
-     *      org.omg.CORBA.SetOverrideType) public org.omg.CORBA.Object
-     *      org.omg.CORBA.portable.ObjectImpl._set_policy_override(org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -643,20 +502,38 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#equals(Object) public boolean
-     * org.omg.CORBA.portable.ObjectImpl.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#equals(Object) public boolean
-     * org.omg.CORBA.portable.ObjectImpl.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_duplicate()
+     * public org.omg.CORBA.Object org.omg.CORBA.portable.ObjectImpl._duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#equals(Object) public boolean
-     *      org.omg.CORBA.portable.ObjectImpl.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__duplicate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#equals(Object)
+     * public boolean org.omg.CORBA.portable.ObjectImpl.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -671,12 +548,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_invoke(org.omg.CORBA.portable.OutputStream) public
-     * org.omg.CORBA.portable.InputStream org.omg.CORBA.portable.ObjectImpl._invoke(org.omg.CORBA.portable.OutputStream)
-     * throws org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_invoke(org.omg.CORBA.portable.OutputStream) public
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_invoke(org.omg.CORBA.portable.OutputStream) public
      * org.omg.CORBA.portable.InputStream org.omg.CORBA.portable.ObjectImpl._invoke(org.omg.CORBA.portable.OutputStream)
      * throws org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException}.
      *
@@ -685,11 +558,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_invoke(org.omg.CORBA.portable.OutputStream) public
-     *      org.omg.CORBA.portable.InputStream
-     *      org.omg.CORBA.portable.ObjectImpl._invoke(org.omg.CORBA.portable.OutputStream) throws
-     *      org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -703,20 +572,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#toString() public java.lang.String
-     * org.omg.CORBA.portable.ObjectImpl.toString()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#toString() public java.lang.String
-     * org.omg.CORBA.portable.ObjectImpl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#toString() public
+     * java.lang.String org.omg.CORBA.portable.ObjectImpl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#toString() public java.lang.String
-     *      org.omg.CORBA.portable.ObjectImpl.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -731,20 +595,15 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_delegate() public org.omg.CORBA.portable.Delegate
-     * org.omg.CORBA.portable.ObjectImpl._get_delegate()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_get_delegate() public org.omg.CORBA.portable.Delegate
-     * org.omg.CORBA.portable.ObjectImpl._get_delegate()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.ObjectImpl#_get_delegate()
+     * public org.omg.CORBA.portable.Delegate org.omg.CORBA.portable.ObjectImpl._get_delegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_get_delegate() public org.omg.CORBA.portable.Delegate
-     *      org.omg.CORBA.portable.ObjectImpl._get_delegate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -758,21 +617,16 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_releaseReply(org.omg.CORBA.portable.InputStream) public
-     * void org.omg.CORBA.portable.ObjectImpl._releaseReply(org.omg.CORBA.portable.InputStream)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ObjectImpl#_releaseReply(org.omg.CORBA.portable.InputStream) public
-     * void org.omg.CORBA.portable.ObjectImpl._releaseReply(org.omg.CORBA.portable.InputStream)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.ObjectImpl#_releaseReply(org.omg.CORBA.portable.InputStream) public void
+     * org.omg.CORBA.portable.ObjectImpl._releaseReply(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ObjectImpl#_releaseReply(org.omg.CORBA.portable.InputStream) public void
-     *      org.omg.CORBA.portable.ObjectImpl._releaseReply(org.omg.CORBA.portable.InputStream) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -783,5 +637,9 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 
 }

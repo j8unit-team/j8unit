@@ -1,50 +1,50 @@
 package org.j8unit.repository.javax.swing.event;
 
+import javax.swing.event.MenuKeyListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.event.MenuKeyListener interface
- * javax.swing.event.MenuKeyListener}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link MenuKeyListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MenuKeyListener
+ * public abstract interface javax.swing.event.MenuKeyListener}.
  * </p>
  *
- * @see javax.swing.event.MenuKeyListener interface javax.swing.event.MenuKeyListener (the hereby targeted
- *      class-under-test class)
- * @see MenuKeyListenerClassTests MenuKeyListenerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.event.MenuKeyListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MenuKeyListenerTests<SUT extends javax.swing.event.MenuKeyListener>
-extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
+public abstract interface MenuKeyListenerTests<SUT extends MenuKeyListener>
+extends EventListenerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.MenuKeyListener]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyReleased(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyReleased(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuKeyListener#menuKeyReleased(javax.swing.event.MenuKeyEvent) public abstract void
+     * javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.MenuKeyListener#menuKeyReleased(javax.swing.event.MenuKeyEvent) public abstract void
-     *      javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,21 +58,16 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyPressed(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyPressed(javax.swing.event.MenuKeyEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyPressed(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyPressed(javax.swing.event.MenuKeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuKeyListener#menuKeyPressed(javax.swing.event.MenuKeyEvent) public abstract void
+     * javax.swing.event.MenuKeyListener.menuKeyPressed(javax.swing.event.MenuKeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.MenuKeyListener#menuKeyPressed(javax.swing.event.MenuKeyEvent) public abstract void
-     *      javax.swing.event.MenuKeyListener.menuKeyPressed(javax.swing.event.MenuKeyEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,21 +81,16 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyTyped(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyTyped(javax.swing.event.MenuKeyEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.MenuKeyListener#menuKeyTyped(javax.swing.event.MenuKeyEvent) public
-     * abstract void javax.swing.event.MenuKeyListener.menuKeyTyped(javax.swing.event.MenuKeyEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.event.MenuKeyListener#menuKeyTyped(javax.swing.event.MenuKeyEvent) public abstract void
+     * javax.swing.event.MenuKeyListener.menuKeyTyped(javax.swing.event.MenuKeyEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.MenuKeyListener#menuKeyTyped(javax.swing.event.MenuKeyEvent) public abstract void
-     *      javax.swing.event.MenuKeyListener.menuKeyTyped(javax.swing.event.MenuKeyEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,5 +101,9 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.MenuKeyListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.MenuKeyListener]
 
 }

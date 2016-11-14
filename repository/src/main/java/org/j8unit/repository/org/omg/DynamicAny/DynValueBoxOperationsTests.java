@@ -5,37 +5,37 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynValueBoxOperations;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynValueBoxOperations interface
- * org.omg.DynamicAny.DynValueBoxOperations}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link DynValueBoxOperationsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DynValueBoxOperations public abstract interface org.omg.DynamicAny.DynValueBoxOperations}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynValueBoxOperations interface org.omg.DynamicAny.DynValueBoxOperations (the hereby targeted
- *      class-under-test class)
- * @see DynValueBoxOperationsClassTests DynValueBoxOperationsClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueBoxOperationsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynValueBoxOperationsTests<SUT extends org.omg.DynamicAny.DynValueBoxOperations>
+public abstract interface DynValueBoxOperationsTests<SUT extends DynValueBoxOperations>
 extends DynValueCommonOperationsTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynValueBoxOperations]
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value_as_dyn_any() public abstract
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value_as_dyn_any() throws
-     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value_as_dyn_any() public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value_as_dyn_any() public abstract
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value_as_dyn_any() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -44,9 +44,7 @@ extends DynValueCommonOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value_as_dyn_any() public abstract
-     *      org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value_as_dyn_any() throws
-     *      org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,13 +58,9 @@ extends DynValueCommonOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value(org.omg.CORBA.Any) public
-     * abstract void org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value(org.omg.CORBA.Any) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value(org.omg.CORBA.Any) public
-     * abstract void org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value(org.omg.CORBA.Any) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value(org.omg.CORBA.Any) public abstract void
+     * org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -74,9 +68,7 @@ extends DynValueCommonOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value(org.omg.CORBA.Any) public abstract void
-     *      org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value(org.omg.CORBA.Any) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,13 +82,7 @@ extends DynValueCommonOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny) public
-     * abstract void org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny)
-     * throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny) public
      * abstract void org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny)
      * throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
@@ -106,9 +92,7 @@ extends DynValueCommonOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny.DynValueBoxOperations#set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny) public
-     *      abstract void org.omg.DynamicAny.DynValueBoxOperations.set_boxed_value_as_dyn_any(org.omg.DynamicAny.DynAny)
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -122,23 +106,16 @@ extends DynValueCommonOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract
-     * org.omg.CORBA.Any org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws
-     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract
-     * org.omg.CORBA.Any org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws
-     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract org.omg.CORBA.Any
+     * org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract org.omg.CORBA.Any
-     *      org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws
-     *      org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -149,5 +126,9 @@ extends DynValueCommonOperationsTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynValueBoxOperations]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynValueBoxOperations]
 
 }

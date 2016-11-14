@@ -1,1067 +1,1030 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
 import static org.junit.Assert.assertTrue;
+import javax.swing.plaf.metal.MetalBorders;
+import javax.swing.plaf.metal.MetalBorders.ButtonBorder;
+import javax.swing.plaf.metal.MetalBorders.Flush3DBorder;
+import javax.swing.plaf.metal.MetalBorders.InternalFrameBorder;
+import javax.swing.plaf.metal.MetalBorders.MenuBarBorder;
+import javax.swing.plaf.metal.MetalBorders.MenuItemBorder;
+import javax.swing.plaf.metal.MetalBorders.OptionDialogBorder;
+import javax.swing.plaf.metal.MetalBorders.PaletteBorder;
+import javax.swing.plaf.metal.MetalBorders.PopupMenuBorder;
+import javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder;
+import javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder;
+import javax.swing.plaf.metal.MetalBorders.TableHeaderBorder;
+import javax.swing.plaf.metal.MetalBorders.TextFieldBorder;
+import javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder;
+import javax.swing.plaf.metal.MetalBorders.ToolBarBorder;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.SwingConstantsClassTests;
+import org.j8unit.repository.javax.swing.border.AbstractBorderClassTests;
+import org.j8unit.repository.javax.swing.plaf.UIResourceClassTests;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders class
- * javax.swing.plaf.metal.MetalBorders}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
- * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type is
- * verified by {@link #verifyGenericType()}).
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link MetalBorders public
+ * class javax.swing.plaf.metal.MetalBorders}.
+ *
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link MetalBordersTests}).
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests}.
  * </p>
  *
  * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
  * </p>
  *
  * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
- * </p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
- * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalBordersTests}.
- * </p>
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
  *
- * @see javax.swing.plaf.metal.MetalBorders class javax.swing.plaf.metal.MetalBorders (the hereby targeted
- *      class-under-test class)
- * @see MetalBordersTests MetalBordersTests (The complementary j8unit test interface containing the instance relevant
- *      test methods)
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalBordersClassTests<SUT extends javax.swing.plaf.metal.MetalBorders>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+public abstract interface MetalBordersClassTests<SUT extends MetalBorders>
+extends ObjectClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.class!",
-                   javax.swing.plaf.metal.MetalBorders.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalBorders.class!",
+                   MetalBorders.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders]
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders]
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.Flush3DBorder class
-     * javax.swing.plaf.metal.MetalBorders$Flush3DBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ButtonBorder public static class javax.swing.plaf.metal.MetalBorders$ButtonBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.Flush3DBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.Flush3DBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.Flush3DBorder class javax.swing.plaf.metal.MetalBorders$Flush3DBorder
-     *      (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.Flush3DBorderTests MetalBordersTests.Flush3DBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface Flush3DBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.Flush3DBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface ButtonBorderClassTests<SUT extends ButtonBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.Flush3DBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.Flush3DBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ButtonBorder.class!",
+                              ButtonBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.PopupMenuBorder class
-     * javax.swing.plaf.metal.MetalBorders$PopupMenuBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ToolBarBorder public static class javax.swing.plaf.metal.MetalBorders$ToolBarBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.PopupMenuBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.PopupMenuBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.PopupMenuBorder class
-     *      javax.swing.plaf.metal.MetalBorders$PopupMenuBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.PopupMenuBorderTests MetalBordersTests.PopupMenuBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PopupMenuBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.PopupMenuBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface ToolBarBorderClassTests<SUT extends ToolBarBorder>
+    extends UIResourceClassTests<SUT>, SwingConstantsClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.PopupMenuBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.PopupMenuBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ToolBarBorder.class!",
+                              ToolBarBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder class
-     * javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ToggleButtonBorder public static class javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.ScrollPaneBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.ScrollPaneBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder class
-     *      javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.ScrollPaneBorderTests MetalBordersTests.ScrollPaneBorderTests (The complementary j8unit
-     *      test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ScrollPaneBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface ToggleButtonBorderClassTests<SUT extends ToggleButtonBorder>
+    extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ToggleButtonBorder.class!",
+                              ToggleButtonBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.OptionDialogBorder class
-     * javax.swing.plaf.metal.MetalBorders$OptionDialogBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PaletteBorder public static class javax.swing.plaf.metal.MetalBorders$PaletteBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.OptionDialogBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.OptionDialogBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PaletteBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.OptionDialogBorder class
-     *      javax.swing.plaf.metal.MetalBorders$OptionDialogBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.OptionDialogBorderTests MetalBordersTests.OptionDialogBorderTests (The complementary
-     *      j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OptionDialogBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.OptionDialogBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface PaletteBorderClassTests<SUT extends PaletteBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.OptionDialogBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.OptionDialogBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PaletteBorder.class!",
+                              PaletteBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.TextFieldBorder class
-     * javax.swing.plaf.metal.MetalBorders$TextFieldBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ScrollPaneBorder public static class javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.TextFieldBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.TextFieldBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ScrollPaneBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.TextFieldBorder class
-     *      javax.swing.plaf.metal.MetalBorders$TextFieldBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.TextFieldBorderTests MetalBordersTests.TextFieldBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TextFieldBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.TextFieldBorder>
-    extends MetalBordersClassTests.Flush3DBorderClassTests<SUT> {
+    public static abstract interface ScrollPaneBorderClassTests<SUT extends ScrollPaneBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.TextFieldBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.TextFieldBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ScrollPaneBorder.class!",
+                              ScrollPaneBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.MenuBarBorder class
-     * javax.swing.plaf.metal.MetalBorders$MenuBarBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TextFieldBorder public static class javax.swing.plaf.metal.MetalBorders$TextFieldBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.MenuBarBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.MenuBarBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.MenuBarBorder class javax.swing.plaf.metal.MetalBorders$MenuBarBorder
-     *      (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.MenuBarBorderTests MetalBordersTests.MenuBarBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MenuBarBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.MenuBarBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface TextFieldBorderClassTests<SUT extends TextFieldBorder>
+    extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.MenuBarBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.MenuBarBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to TextFieldBorder.class!",
+                              TextFieldBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder class
-     * javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link MenuItemBorder public static class javax.swing.plaf.metal.MetalBorders$MenuItemBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.ToggleButtonBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.ToggleButtonBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder class
-     *      javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.ToggleButtonBorderTests MetalBordersTests.ToggleButtonBorderTests (The complementary
-     *      j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ToggleButtonBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder>
-    extends MetalBordersClassTests.ButtonBorderClassTests<SUT> {
+    public static abstract interface MenuItemBorderClassTests<SUT extends MenuItemBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MenuItemBorder.class!",
+                              MenuItemBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.ToolBarBorder class
-     * javax.swing.plaf.metal.MetalBorders$ToolBarBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link OptionDialogBorder public static class javax.swing.plaf.metal.MetalBorders$OptionDialogBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.ToolBarBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.ToolBarBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.ToolBarBorder class javax.swing.plaf.metal.MetalBorders$ToolBarBorder
-     *      (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.ToolBarBorderTests MetalBordersTests.ToolBarBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ToolBarBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.ToolBarBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>,
-    org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface OptionDialogBorderClassTests<SUT extends OptionDialogBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.ToolBarBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.ToolBarBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OptionDialogBorder.class!",
+                              OptionDialogBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.TableHeaderBorder class
-     * javax.swing.plaf.metal.MetalBorders$TableHeaderBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link RolloverButtonBorder public static class javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.TableHeaderBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.TableHeaderBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.RolloverButtonBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.TableHeaderBorder class
-     *      javax.swing.plaf.metal.MetalBorders$TableHeaderBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.TableHeaderBorderTests MetalBordersTests.TableHeaderBorderTests (The complementary j8unit
-     *      test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TableHeaderBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.TableHeaderBorder>
-    extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface RolloverButtonBorderClassTests<SUT extends RolloverButtonBorder>
+    extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.TableHeaderBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.TableHeaderBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to RolloverButtonBorder.class!",
+                              RolloverButtonBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.ButtonBorder class
-     * javax.swing.plaf.metal.MetalBorders$ButtonBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PopupMenuBorder public static class javax.swing.plaf.metal.MetalBorders$PopupMenuBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.ButtonBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.ButtonBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.ButtonBorder class javax.swing.plaf.metal.MetalBorders$ButtonBorder (the
-     *      hereby targeted class-under-test class)
-     * @see MetalBordersTests.ButtonBorderTests MetalBordersTests.ButtonBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.ButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface PopupMenuBorderClassTests<SUT extends PopupMenuBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.ButtonBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.ButtonBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PopupMenuBorder.class!",
+                              PopupMenuBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.MenuItemBorder class
-     * javax.swing.plaf.metal.MetalBorders$MenuItemBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InternalFrameBorder public static class javax.swing.plaf.metal.MetalBorders$InternalFrameBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.MenuItemBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.MenuItemBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.MenuItemBorder class javax.swing.plaf.metal.MetalBorders$MenuItemBorder
-     *      (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.MenuItemBorderTests MetalBordersTests.MenuItemBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MenuItemBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.MenuItemBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface InternalFrameBorderClassTests<SUT extends InternalFrameBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.MenuItemBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.MenuItemBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InternalFrameBorder.class!",
+                              InternalFrameBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder class
-     * javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TableHeaderBorder public static class javax.swing.plaf.metal.MetalBorders$TableHeaderBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.RolloverButtonBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.RolloverButtonBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TableHeaderBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder class
-     *      javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.RolloverButtonBorderTests MetalBordersTests.RolloverButtonBorderTests (The complementary
-     *      j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface RolloverButtonBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder>
-    extends MetalBordersClassTests.ButtonBorderClassTests<SUT> {
+    public static abstract interface TableHeaderBorderClassTests<SUT extends TableHeaderBorder>
+    extends AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to TableHeaderBorder.class!",
+                              TableHeaderBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.InternalFrameBorder class
-     * javax.swing.plaf.metal.MetalBorders$InternalFrameBorder}, containing all type relevant aspects (e.&thinsp;g.,
-     * runtime constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link MenuBarBorder public static class javax.swing.plaf.metal.MetalBorders$MenuBarBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.InternalFrameBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.InternalFrameBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.InternalFrameBorder class
-     *      javax.swing.plaf.metal.MetalBorders$InternalFrameBorder (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.InternalFrameBorderTests MetalBordersTests.InternalFrameBorderTests (The complementary
-     *      j8unit test interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFrameBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.InternalFrameBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface MenuBarBorderClassTests<SUT extends MenuBarBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.InternalFrameBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.InternalFrameBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MenuBarBorder.class!",
+                              MenuBarBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.swing.plaf.metal.MetalBorders.PaletteBorder class
-     * javax.swing.plaf.metal.MetalBorders$PaletteBorder}, containing all type relevant aspects (e.&thinsp;g., runtime
-     * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test
-     * interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link Flush3DBorder public static class javax.swing.plaf.metal.MetalBorders$Flush3DBorder}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link MetalBordersTests.PaletteBorderTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link MetalBordersTests.PaletteBorderTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.Flush3DBorderTests}.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalBorders.PaletteBorder class javax.swing.plaf.metal.MetalBorders$PaletteBorder
-     *      (the hereby targeted class-under-test class)
-     * @see MetalBordersTests.PaletteBorderTests MetalBordersTests.PaletteBorderTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PaletteBorderClassTests<SUT extends javax.swing.plaf.metal.MetalBorders.PaletteBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+    public static abstract interface Flush3DBorderClassTests<SUT extends Flush3DBorder>
+    extends UIResourceClassTests<SUT>, AbstractBorderClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.swing.plaf.metal.MetalBorders.PaletteBorder.class!",
-                       javax.swing.plaf.metal.MetalBorders.PaletteBorder.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Flush3DBorder.class!",
+                              Flush3DBorder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
 
     }
 

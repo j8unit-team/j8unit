@@ -1,49 +1,49 @@
 package org.j8unit.repository.javax.crypto;
 
+import javax.crypto.ExemptionMechanism;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.ExemptionMechanism class javax.crypto.ExemptionMechanism}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link ExemptionMechanismClassTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ExemptionMechanism public class javax.crypto.ExemptionMechanism}.
  * </p>
  *
- * @see javax.crypto.ExemptionMechanism class javax.crypto.ExemptionMechanism (the hereby targeted class-under-test
- *      class)
- * @see ExemptionMechanismClassTests ExemptionMechanismClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.ExemptionMechanismClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExemptionMechanismTests<SUT extends javax.crypto.ExemptionMechanism>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ExemptionMechanismTests<SUT extends ExemptionMechanism>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ExemptionMechanism]
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getProvider() public final java.security.Provider
-     * javax.crypto.ExemptionMechanism.getProvider()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getProvider() public final java.security.Provider
-     * javax.crypto.ExemptionMechanism.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#getProvider() public
+     * final java.security.Provider javax.crypto.ExemptionMechanism.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#getProvider() public final java.security.Provider
-     *      javax.crypto.ExemptionMechanism.getProvider() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,21 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getOutputSize(int) public final int
-     * javax.crypto.ExemptionMechanism.getOutputSize(int) throws java.lang.IllegalStateException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getOutputSize(int) public final int
-     * javax.crypto.ExemptionMechanism.getOutputSize(int) throws java.lang.IllegalStateException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#getOutputSize(int)
+     * public final int javax.crypto.ExemptionMechanism.getOutputSize(int) throws java.lang.IllegalStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#getOutputSize(int) public final int
-     *      javax.crypto.ExemptionMechanism.getOutputSize(int) throws java.lang.IllegalStateException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,12 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
-     * javax.crypto.ExemptionMechanism.init(java.security.Key) throws
-     * java.security.InvalidKeyException,javax.crypto.ExemptionMechanismException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
      * javax.crypto.ExemptionMechanism.init(java.security.Key) throws
      * java.security.InvalidKeyException,javax.crypto.ExemptionMechanismException}.
      *
@@ -99,10 +89,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
-     *      javax.crypto.ExemptionMechanism.init(java.security.Key) throws
-     *      java.security.InvalidKeyException,javax.crypto.ExemptionMechanismException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,30 +103,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.spec.AlgorithmParameterSpec) public
      * final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.spec.AlgorithmParameterSpec)
      * throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.spec.AlgorithmParameterSpec) public
-     * final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.spec.AlgorithmParameterSpec)
-     * throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.spec.AlgorithmParameterSpec) public
-     *      final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.spec.AlgorithmParameterSpec)
-     *      throws java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.
-     *      ExemptionMechanismException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,28 +128,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters)
-     * public final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters)
-     * throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters)
-     * public final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters)
-     * throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters) public final
+     * void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters) throws
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters) public final void
-     *      javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters) throws
-     *      java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.
-     *      ExemptionMechanismException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -188,20 +152,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getName() public final java.lang.String
-     * javax.crypto.ExemptionMechanism.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#getName() public final java.lang.String
-     * javax.crypto.ExemptionMechanism.getName()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#getName() public
+     * final java.lang.String javax.crypto.ExemptionMechanism.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#getName() public final java.lang.String
-     *      javax.crypto.ExemptionMechanism.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -215,12 +174,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
-     * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[]) throws
-     * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
      * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[]) throws
      * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
      *
@@ -229,10 +184,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
-     *      javax.crypto.ExemptionMechanism.genExemptionBlob(byte[]) throws
-     *      java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,12 +198,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[], int) public final int
-     * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[],int) throws
-     * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[], int) public final int
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[], int) public final int
      * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[],int) throws
      * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
      *
@@ -260,10 +208,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#genExemptionBlob(byte[], int) public final int
-     *      javax.crypto.ExemptionMechanism.genExemptionBlob(byte[],int) throws
-     *      java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,13 +222,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob() public final byte[]
-     * javax.crypto.ExemptionMechanism.genExemptionBlob() throws
-     * java.lang.IllegalStateException,javax.crypto.ExemptionMechanismException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#genExemptionBlob() public final byte[]
-     * javax.crypto.ExemptionMechanism.genExemptionBlob() throws
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#genExemptionBlob()
+     * public final byte[] javax.crypto.ExemptionMechanism.genExemptionBlob() throws
      * java.lang.IllegalStateException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,10 +231,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#genExemptionBlob() public final byte[]
-     *      javax.crypto.ExemptionMechanism.genExemptionBlob() throws
-     *      java.lang.IllegalStateException,javax.crypto.ExemptionMechanismException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,12 +245,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#isCryptoAllowed(java.security.Key) public final boolean
-     * javax.crypto.ExemptionMechanism.isCryptoAllowed(java.security.Key) throws
-     * javax.crypto.ExemptionMechanismException}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.ExemptionMechanism#isCryptoAllowed(java.security.Key) public final boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#isCryptoAllowed(java.security.Key) public final boolean
      * javax.crypto.ExemptionMechanism.isCryptoAllowed(java.security.Key) throws
      * javax.crypto.ExemptionMechanismException}.
      *
@@ -322,9 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.ExemptionMechanism#isCryptoAllowed(java.security.Key) public final boolean
-     *      javax.crypto.ExemptionMechanism.isCryptoAllowed(java.security.Key) throws
-     *      javax.crypto.ExemptionMechanismException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,5 +266,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.ExemptionMechanism]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.ExemptionMechanism]
 
 }

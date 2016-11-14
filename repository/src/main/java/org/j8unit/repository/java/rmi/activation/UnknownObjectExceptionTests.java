@@ -1,28 +1,36 @@
 package org.j8unit.repository.java.rmi.activation;
 
+import java.rmi.activation.UnknownObjectException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.activation.UnknownObjectException class
- * java.rmi.activation.UnknownObjectException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link UnknownObjectExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link UnknownObjectException public class java.rmi.activation.UnknownObjectException}.
  * </p>
  *
- * @see java.rmi.activation.UnknownObjectException class java.rmi.activation.UnknownObjectException (the hereby targeted
- *      class-under-test class)
- * @see UnknownObjectExceptionClassTests UnknownObjectExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnknownObjectExceptionTests<SUT extends java.rmi.activation.UnknownObjectException>
+public abstract interface UnknownObjectExceptionTests<SUT extends UnknownObjectException>
 extends ActivationExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.UnknownObjectException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.UnknownObjectException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.UnknownObjectException]
 
 }

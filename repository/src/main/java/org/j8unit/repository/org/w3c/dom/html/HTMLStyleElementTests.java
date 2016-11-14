@@ -5,45 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.html.HTMLStyleElement;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLStyleElement interface
- * org.w3c.dom.html.HTMLStyleElement}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link HTMLStyleElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HTMLStyleElement public abstract interface org.w3c.dom.html.HTMLStyleElement}.
  * </p>
  *
- * @see org.w3c.dom.html.HTMLStyleElement interface org.w3c.dom.html.HTMLStyleElement (the hereby targeted
- *      class-under-test class)
- * @see HTMLStyleElementClassTests HTMLStyleElementClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLStyleElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLStyleElementTests<SUT extends org.w3c.dom.html.HTMLStyleElement>
+public abstract interface HTMLStyleElementTests<SUT extends HTMLStyleElement>
 extends HTMLElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLStyleElement]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getMedia() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLStyleElement.getMedia()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getMedia() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLStyleElement.getMedia()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLStyleElement#getMedia() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLStyleElement.getMedia()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#getMedia() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLStyleElement.getMedia() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getDisabled() public abstract boolean
-     * org.w3c.dom.html.HTMLStyleElement.getDisabled()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getDisabled() public abstract boolean
-     * org.w3c.dom.html.HTMLStyleElement.getDisabled()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLStyleElement#getDisabled()
+     * public abstract boolean org.w3c.dom.html.HTMLStyleElement.getDisabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#getDisabled() public abstract boolean
-     *      org.w3c.dom.html.HTMLStyleElement.getDisabled() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getType() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLStyleElement.getType()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#getType() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLStyleElement.getType()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLStyleElement#getType() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLStyleElement.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#getType() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLStyleElement.getType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,11 +100,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setDisabled(boolean) public abstract void
-     * org.w3c.dom.html.HTMLStyleElement.setDisabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setDisabled(boolean) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLStyleElement#setDisabled(boolean) public abstract void
      * org.w3c.dom.html.HTMLStyleElement.setDisabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +109,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#setDisabled(boolean) public abstract void
-     *      org.w3c.dom.html.HTMLStyleElement.setDisabled(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +123,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setMedia(String) public abstract void
-     * org.w3c.dom.html.HTMLStyleElement.setMedia(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setMedia(String) public abstract void
-     * org.w3c.dom.html.HTMLStyleElement.setMedia(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLStyleElement#setMedia(String)
+     * public abstract void org.w3c.dom.html.HTMLStyleElement.setMedia(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#setMedia(String) public abstract void
-     *      org.w3c.dom.html.HTMLStyleElement.setMedia(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +145,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setType(String) public abstract void
-     * org.w3c.dom.html.HTMLStyleElement.setType(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLStyleElement#setType(String) public abstract void
-     * org.w3c.dom.html.HTMLStyleElement.setType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLStyleElement#setType(String)
+     * public abstract void org.w3c.dom.html.HTMLStyleElement.setType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLStyleElement#setType(String) public abstract void
-     *      org.w3c.dom.html.HTMLStyleElement.setType(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,5 +164,9 @@ extends HTMLElementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLStyleElement]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLStyleElement]
 
 }

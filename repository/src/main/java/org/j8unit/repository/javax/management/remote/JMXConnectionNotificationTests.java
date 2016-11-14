@@ -1,49 +1,50 @@
 package org.j8unit.repository.javax.management.remote;
 
+import javax.management.remote.JMXConnectionNotification;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.NotificationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.remote.JMXConnectionNotification class
- * javax.management.remote.JMXConnectionNotification}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link JMXConnectionNotificationClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link JMXConnectionNotification public class javax.management.remote.JMXConnectionNotification}.
  * </p>
  *
- * @see javax.management.remote.JMXConnectionNotification class javax.management.remote.JMXConnectionNotification (the
- *      hereby targeted class-under-test class)
- * @see JMXConnectionNotificationClassTests JMXConnectionNotificationClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.remote.JMXConnectionNotificationClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JMXConnectionNotificationTests<SUT extends javax.management.remote.JMXConnectionNotification>
-extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
+public abstract interface JMXConnectionNotificationTests<SUT extends JMXConnectionNotification>
+extends NotificationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXConnectionNotification]
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.JMXConnectionNotification#getConnectionId() public
-     * java.lang.String javax.management.remote.JMXConnectionNotification.getConnectionId()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.JMXConnectionNotification#getConnectionId() public
-     * java.lang.String javax.management.remote.JMXConnectionNotification.getConnectionId()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectionNotification#getConnectionId() public java.lang.String
+     * javax.management.remote.JMXConnectionNotification.getConnectionId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.JMXConnectionNotification#getConnectionId() public java.lang.String
-     *      javax.management.remote.JMXConnectionNotification.getConnectionId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,5 +55,9 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnectionNotification]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectionNotification]
 
 }

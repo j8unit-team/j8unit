@@ -6,34 +6,37 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.xml.sax.ErrorHandler;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.xml.sax.ErrorHandler interface org.xml.sax.ErrorHandler}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ErrorHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ErrorHandler
+ * public abstract interface org.xml.sax.ErrorHandler}.
  * </p>
  *
- * @see org.xml.sax.ErrorHandler interface org.xml.sax.ErrorHandler (the hereby targeted class-under-test class)
- * @see ErrorHandlerClassTests ErrorHandlerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ErrorHandlerTests<SUT extends org.xml.sax.ErrorHandler>
+public abstract interface ErrorHandlerTests<SUT extends ErrorHandler>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ErrorHandler]
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#fatalError(org.xml.sax.SAXParseException) public abstract void
-     * org.xml.sax.ErrorHandler.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#fatalError(org.xml.sax.SAXParseException) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ErrorHandler#fatalError(org.xml.sax.SAXParseException) public abstract void
      * org.xml.sax.ErrorHandler.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,9 +44,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.ErrorHandler#fatalError(org.xml.sax.SAXParseException) public abstract void
-     *      org.xml.sax.ErrorHandler.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +58,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#warning(org.xml.sax.SAXParseException) public abstract void
-     * org.xml.sax.ErrorHandler.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#warning(org.xml.sax.SAXParseException) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ErrorHandler#warning(org.xml.sax.SAXParseException) public abstract void
      * org.xml.sax.ErrorHandler.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,9 +67,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.ErrorHandler#warning(org.xml.sax.SAXParseException) public abstract void
-     *      org.xml.sax.ErrorHandler.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +81,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
-     * org.xml.sax.ErrorHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
      * org.xml.sax.ErrorHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,9 +90,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
-     *      org.xml.sax.ErrorHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,5 +101,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ErrorHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ErrorHandler]
 
 }

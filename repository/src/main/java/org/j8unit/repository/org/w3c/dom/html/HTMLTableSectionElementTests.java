@@ -5,45 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.html.HTMLTableSectionElement;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLTableSectionElement interface
- * org.w3c.dom.html.HTMLTableSectionElement}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link HTMLTableSectionElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HTMLTableSectionElement public abstract interface org.w3c.dom.html.HTMLTableSectionElement}.
  * </p>
  *
- * @see org.w3c.dom.html.HTMLTableSectionElement interface org.w3c.dom.html.HTMLTableSectionElement (the hereby targeted
- *      class-under-test class)
- * @see HTMLTableSectionElementClassTests HTMLTableSectionElementClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableSectionElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLTableSectionElementTests<SUT extends org.w3c.dom.html.HTMLTableSectionElement>
+public abstract interface HTMLTableSectionElementTests<SUT extends HTMLTableSectionElement>
 extends HTMLElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLTableSectionElement]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getCh()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getCh()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableSectionElement#getCh()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableSectionElement.getCh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#getCh() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableSectionElement.getCh() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +56,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#deleteRow(int) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.deleteRow(int) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#deleteRow(int) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#deleteRow(int) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.deleteRow(int) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,9 +65,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#deleteRow(int) public abstract void
-     *      org.w3c.dom.html.HTMLTableSectionElement.deleteRow(int) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +79,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setCh(String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setCh(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setCh(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#setCh(String) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.setCh(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +88,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#setCh(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableSectionElement.setCh(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,23 +102,16 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract
-     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract
-     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract org.w3c.dom.html.HTMLElement
+     * org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract org.w3c.dom.html.HTMLElement
-     *      org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,20 +125,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getChOff() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getChOff()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getChOff() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getChOff()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableSectionElement#getChOff()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableSectionElement.getChOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#getChOff() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableSectionElement.getChOff() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,11 +147,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setAlign(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setAlign(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#setAlign(String) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -181,8 +156,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#setAlign(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableSectionElement.setAlign(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -196,11 +170,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setChOff(String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setChOff(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setChOff(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#setChOff(String) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.setChOff(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,8 +179,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#setChOff(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableSectionElement.setChOff(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,20 +193,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getAlign()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableSectionElement#getAlign()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableSectionElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#getAlign() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableSectionElement.getAlign() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,20 +215,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getRows() public abstract
-     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableSectionElement.getRows()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getRows() public abstract
-     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableSectionElement.getRows()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableSectionElement#getRows()
+     * public abstract org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableSectionElement.getRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#getRows() public abstract org.w3c.dom.html.HTMLCollection
-     *      org.w3c.dom.html.HTMLTableSectionElement.getRows() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,20 +237,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getVAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getVAlign()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getVAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getVAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLTableSectionElement#getVAlign()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLTableSectionElement.getVAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#getVAlign() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableSectionElement.getVAlign() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,11 +259,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setVAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setVAlign(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setVAlign(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLTableSectionElement#setVAlign(String) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.setVAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,8 +268,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableSectionElement#setVAlign(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableSectionElement.setVAlign(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,5 +279,9 @@ extends HTMLElementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLTableSectionElement]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLTableSectionElement]
 
 }

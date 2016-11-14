@@ -1,49 +1,55 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import javax.swing.plaf.basic.BasicComboPopup;
+import javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler;
+import javax.swing.plaf.basic.BasicComboPopup.ListDataHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.KeyAdapterTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.JPopupMenuTests;
+import org.j8unit.repository.javax.swing.event.ListDataListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboPopup class
- * javax.swing.plaf.basic.BasicComboPopup}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicComboPopupClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicComboPopup
+ * public class javax.swing.plaf.basic.BasicComboPopup}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicComboPopup class javax.swing.plaf.basic.BasicComboPopup (the hereby targeted
- *      class-under-test class)
- * @see BasicComboPopupClassTests BasicComboPopupClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboPopupTests<SUT extends javax.swing.plaf.basic.BasicComboPopup>
-extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<SUT> {
+public abstract interface BasicComboPopupTests<SUT extends BasicComboPopup>
+extends ComboPopupTests<SUT>, JPopupMenuTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.plaf.basic.BasicComboPopup.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.plaf.basic.BasicComboPopup.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.plaf.basic.BasicComboPopup.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.plaf.basic.BasicComboPopup.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +64,8 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#isFocusTraversable() public boolean
-     * javax.swing.plaf.basic.BasicComboPopup.isFocusTraversable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#isFocusTraversable() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#isFocusTraversable() public boolean
      * javax.swing.plaf.basic.BasicComboPopup.isFocusTraversable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +73,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#isFocusTraversable() public boolean
-     *      javax.swing.plaf.basic.BasicComboPopup.isFocusTraversable() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,20 +88,16 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public
-     * java.awt.event.MouseListener javax.swing.plaf.basic.BasicComboPopup.getMouseListener()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public
-     * java.awt.event.MouseListener javax.swing.plaf.basic.BasicComboPopup.getMouseListener()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public java.awt.event.MouseListener
+     * javax.swing.plaf.basic.BasicComboPopup.getMouseListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public java.awt.event.MouseListener
-     *      javax.swing.plaf.basic.BasicComboPopup.getMouseListener() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,20 +112,15 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#show() public void
-     * javax.swing.plaf.basic.BasicComboPopup.show()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#show() public void
-     * javax.swing.plaf.basic.BasicComboPopup.show()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboPopup#show() public
+     * void javax.swing.plaf.basic.BasicComboPopup.show()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#show() public void javax.swing.plaf.basic.BasicComboPopup.show() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -142,11 +135,8 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getKeyListener() public java.awt.event.KeyListener
-     * javax.swing.plaf.basic.BasicComboPopup.getKeyListener()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getKeyListener() public java.awt.event.KeyListener
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#getKeyListener() public java.awt.event.KeyListener
      * javax.swing.plaf.basic.BasicComboPopup.getKeyListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +144,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#getKeyListener() public java.awt.event.KeyListener
-     *      javax.swing.plaf.basic.BasicComboPopup.getKeyListener() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -170,20 +159,16 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getMouseMotionListener() public
-     * java.awt.event.MouseMotionListener javax.swing.plaf.basic.BasicComboPopup.getMouseMotionListener()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getMouseMotionListener() public
-     * java.awt.event.MouseMotionListener javax.swing.plaf.basic.BasicComboPopup.getMouseMotionListener()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#getMouseMotionListener() public java.awt.event.MouseMotionListener
+     * javax.swing.plaf.basic.BasicComboPopup.getMouseMotionListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#getMouseMotionListener() public java.awt.event.MouseMotionListener
-     *      javax.swing.plaf.basic.BasicComboPopup.getMouseMotionListener() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -198,20 +183,15 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getList() public javax.swing.JList
-     * javax.swing.plaf.basic.BasicComboPopup.getList()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#getList() public javax.swing.JList
-     * javax.swing.plaf.basic.BasicComboPopup.getList()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboPopup#getList()
+     * public javax.swing.JList javax.swing.plaf.basic.BasicComboPopup.getList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#getList() public javax.swing.JList
-     *      javax.swing.plaf.basic.BasicComboPopup.getList() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -226,11 +206,8 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#uninstallingUI() public void
-     * javax.swing.plaf.basic.BasicComboPopup.uninstallingUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#uninstallingUI() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#uninstallingUI() public void
      * javax.swing.plaf.basic.BasicComboPopup.uninstallingUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +215,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#uninstallingUI() public void
-     *      javax.swing.plaf.basic.BasicComboPopup.uninstallingUI() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -254,20 +230,15 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#hide() public void
-     * javax.swing.plaf.basic.BasicComboPopup.hide()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboPopup#hide() public void
-     * javax.swing.plaf.basic.BasicComboPopup.hide()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.basic.BasicComboPopup#hide() public
+     * void javax.swing.plaf.basic.BasicComboPopup.hide()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup#hide() public void javax.swing.plaf.basic.BasicComboPopup.hide() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -286,15 +257,17 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain javax.swing.JPopupMenu#isVisible() class javax.swing.JPopupMenu}</li>
-     * <li>{@linkplain javax.swing.plaf.basic.ComboPopup#isVisible() interface javax.swing.plaf.basic.ComboPopup}</li>
+     * <li>{@link javax.swing.plaf.basic.ComboPopup#isVisible() interface javax.swing.plaf.basic.ComboPopup}</li>
+     * <li>{@link javax.swing.JPopupMenu#isVisible() class javax.swing.JPopupMenu}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -302,39 +275,42 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
     @Category(Draft.class)
     public default void test_isVisible()
     throws Exception {
+        ComboPopupTests.super.test_isVisible();
+        JPopupMenuTests.super.test_isVisible();
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboPopup.ListDataHandler class
-     * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BasicComboPopupClassTests.ListDataHandlerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ListDataHandler public class javax.swing.plaf.basic.BasicComboPopup$ListDataHandler}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup.ListDataHandler class
-     *      javax.swing.plaf.basic.BasicComboPopup$ListDataHandler (the hereby targeted class-under-test class)
-     * @see BasicComboPopupClassTests.ListDataHandlerClassTests BasicComboPopupClassTests.ListDataHandlerClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.ListDataHandlerClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ListDataHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.ListDataHandler>
-    extends org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface ListDataHandlerTests<SUT extends ListDataHandler>
+    extends ListDataListenerTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#contentsChanged(javax.swing.event.ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)}.
-         *
-         * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#contentsChanged(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)}.
@@ -344,10 +320,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#contentsChanged(javax.swing.event.ListDataEvent)
-         *      public void
-         *      javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.contentsChanged(javax.swing.event.ListDataEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -362,13 +335,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)}.
-         *
-         * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)}.
@@ -378,10 +345,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalAdded(javax.swing.event.ListDataEvent)
-         *      public void
-         *      javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalAdded(javax.swing.event.ListDataEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -396,13 +360,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalRemoved(javax.swing.event.ListDataEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)}.
-         *
-         * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalRemoved(javax.swing.event.ListDataEvent)
          * public void
          * javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)}.
@@ -412,10 +370,7 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicComboPopup.ListDataHandler#intervalRemoved(javax.swing.event.ListDataEvent)
-         *      public void
-         *      javax.swing.plaf.basic.BasicComboPopup$ListDataHandler.intervalRemoved(javax.swing.event.ListDataEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -428,52 +383,51 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
+
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler class
-     * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler}. The complementary j8unit test interface containing
-     * the class relevant aspects is {@link BasicComboPopupClassTests.InvocationKeyHandlerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InvocationKeyHandler public class javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler class
-     *      javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler (the hereby targeted class-under-test class)
-     * @see BasicComboPopupClassTests.InvocationKeyHandlerClassTests
-     *      BasicComboPopupClassTests.InvocationKeyHandlerClassTests (the complementary j8unit test interface containing
-     *      the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.InvocationKeyHandlerClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InvocationKeyHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler>
-    extends org.j8unit.repository.java.awt.event.KeyAdapterTests<SUT> {
+    public static abstract interface InvocationKeyHandlerTests<SUT extends InvocationKeyHandler>
+    extends KeyAdapterTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 
         /**
          * <p>
-         * Test method for
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent)
-         * public void javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent)
-         * public void javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}
-         * .
+         * public void
+         * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent) public
-         *      void javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -485,6 +439,10 @@ extends ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 
     }
 

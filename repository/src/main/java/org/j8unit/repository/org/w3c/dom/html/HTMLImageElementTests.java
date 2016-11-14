@@ -5,45 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.html.HTMLImageElement;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLImageElement interface
- * org.w3c.dom.html.HTMLImageElement}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link HTMLImageElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HTMLImageElement public abstract interface org.w3c.dom.html.HTMLImageElement}.
  * </p>
  *
- * @see org.w3c.dom.html.HTMLImageElement interface org.w3c.dom.html.HTMLImageElement (the hereby targeted
- *      class-under-test class)
- * @see HTMLImageElementClassTests HTMLImageElementClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLImageElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLImageElementTests<SUT extends org.w3c.dom.html.HTMLImageElement>
+public abstract interface HTMLImageElementTests<SUT extends HTMLImageElement>
 extends HTMLElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLImageElement]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getLowSrc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getLowSrc()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getLowSrc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getLowSrc()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getLowSrc() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getLowSrc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getLowSrc() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getLowSrc() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getHeight() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getHeight()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getHeight() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getHeight() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getHeight() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getHeight() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setLowSrc(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setLowSrc(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setLowSrc(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setLowSrc(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setLowSrc(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setLowSrc(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setLowSrc(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setLowSrc(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +100,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getBorder() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getBorder()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getBorder() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getBorder()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getBorder() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getBorder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getBorder() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getBorder() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +122,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setName(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setName(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setName(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setName(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setName(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setName(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +144,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getName() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getName()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getName() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getName()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getName() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getName() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,20 +166,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getIsMap() public abstract boolean
-     * org.w3c.dom.html.HTMLImageElement.getIsMap()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getIsMap() public abstract boolean
-     * org.w3c.dom.html.HTMLImageElement.getIsMap()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getIsMap() public
+     * abstract boolean org.w3c.dom.html.HTMLImageElement.getIsMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getIsMap() public abstract boolean
-     *      org.w3c.dom.html.HTMLImageElement.getIsMap() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,11 +188,8 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setLongDesc(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setLongDesc(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setLongDesc(String) public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.html.HTMLImageElement#setLongDesc(String) public abstract void
      * org.w3c.dom.html.HTMLImageElement.setLongDesc(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -231,8 +197,7 @@ extends HTMLElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setLongDesc(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setLongDesc(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,20 +211,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getWidth() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getWidth()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getWidth() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getWidth() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getWidth() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,20 +233,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getUseMap() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getUseMap()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getUseMap() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getUseMap()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getUseMap() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getUseMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getUseMap() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getUseMap() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,20 +255,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getHspace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getHspace()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getHspace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getHspace()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getHspace() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getHspace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getHspace() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getHspace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,20 +277,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getLongDesc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getLongDesc()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getLongDesc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getLongDesc()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getLongDesc()
+     * public abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getLongDesc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getLongDesc() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getLongDesc() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,47 +299,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setBorder(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setBorder(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setBorder(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setBorder(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setAlign(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setBorder(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setBorder(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBorder_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setAlign(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setAlign(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLImageElement#setAlign(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setAlign(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -408,20 +321,37 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setIsMap(boolean) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setIsMap(boolean)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setIsMap(boolean) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setIsMap(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setBorder(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setBorder(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setIsMap(boolean) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setIsMap(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorder_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setIsMap(boolean)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setIsMap(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -435,20 +365,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getAlt() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getAlt()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getAlt() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getAlt()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getAlt() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getAlt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getAlt() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getAlt() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,20 +387,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getVspace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getVspace()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getVspace() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getVspace()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getVspace() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getVspace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getVspace() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getVspace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -489,20 +409,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setUseMap(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setUseMap(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setUseMap(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setUseMap(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setUseMap(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setUseMap(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setUseMap(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setUseMap(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -516,20 +431,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setSrc(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setSrc(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setSrc(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setSrc(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setSrc(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setSrc(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setSrc(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setSrc(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -543,20 +453,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setVspace(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setVspace(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setVspace(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setVspace(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setVspace(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setVspace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setVspace(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setVspace(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -570,20 +475,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setAlt(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setAlt(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setAlt(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setAlt(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setAlt(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setAlt(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setAlt(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setAlt(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -597,20 +497,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getSrc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getSrc()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getSrc() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getSrc()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getSrc() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getSrc()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getSrc() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getSrc() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -624,20 +519,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getAlign()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLImageElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#getAlign() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLImageElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#getAlign() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLImageElement.getAlign() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -651,20 +541,37 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setHeight(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setHeight(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setHeight(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setHeight(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setHspace(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setHspace(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setHeight(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setHeight(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHspace_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setHeight(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setHeight(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -678,20 +585,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setWidth(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setWidth(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setWidth(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setWidth(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLImageElement#setWidth(String)
+     * public abstract void org.w3c.dom.html.HTMLImageElement.setWidth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLImageElement#setWidth(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setWidth(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -703,31 +605,8 @@ extends HTMLElementTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setHspace(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setHspace(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLImageElement#setHspace(String) public abstract void
-     * org.w3c.dom.html.HTMLImageElement.setHspace(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLImageElement#setHspace(String) public abstract void
-     *      org.w3c.dom.html.HTMLImageElement.setHspace(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHspace_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.html.HTMLImageElement]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLImageElement]
 
 }

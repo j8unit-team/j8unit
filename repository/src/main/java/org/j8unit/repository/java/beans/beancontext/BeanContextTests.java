@@ -1,23 +1,27 @@
 package org.j8unit.repository.java.beans.beancontext;
 
+import java.beans.beancontext.BeanContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.DesignModeTests;
+import org.j8unit.repository.java.beans.VisibilityTests;
+import org.j8unit.repository.java.util.CollectionTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.beancontext.BeanContext interface
- * java.beans.beancontext.BeanContext}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link BeanContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BeanContext
+ * public abstract interface java.beans.beancontext.BeanContext}.
  * </p>
  *
- * @see java.beans.beancontext.BeanContext interface java.beans.beancontext.BeanContext (the hereby targeted
- *      class-under-test class)
- * @see BeanContextClassTests BeanContextClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.beancontext.BeanContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
@@ -26,26 +30,20 @@ import org.junit.experimental.categories.Category;
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BeanContextTests<SUT extends java.beans.beancontext.BeanContext>
-extends BeanContextChildTests, org.j8unit.repository.java.util.CollectionTests, org.j8unit.repository.java.beans.DesignModeTests,
-org.j8unit.repository.java.beans.VisibilityTests {
+public abstract interface BeanContextTests<SUT extends BeanContext>
+extends BeanContextChildTests, CollectionTests, DesignModeTests, VisibilityTests {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.beancontext.BeanContext]
 
     // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this J8Unit test interface
-    // (caused by the "rawtypes" nature of the class-under-test).
+    // because of the "rawtypes" nature of this j8unit test interface
+    // (caused by the "rawtypes" nature of the type-under-test).
     @Override
     public abstract SUT createNewSUT();
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.beancontext.BeanContext#getResource(String, java.beans.beancontext.BeanContextChild) public
-     * abstract java.net.URL
-     * java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild) throws
-     * java.lang.IllegalArgumentException}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContext#getResource(String, java.beans.beancontext.BeanContextChild) public
      * abstract java.net.URL
      * java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild) throws
@@ -56,10 +54,7 @@ org.j8unit.repository.java.beans.VisibilityTests {
      * methods soon.
      * </p>
      *
-     * @see java.beans.beancontext.BeanContext#getResource(String, java.beans.beancontext.BeanContextChild) public
-     *      abstract java.net.URL
-     *      java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild)
-     *      throws java.lang.IllegalArgumentException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -73,28 +68,17 @@ org.j8unit.repository.java.beans.VisibilityTests {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContext#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public abstract void
-     * java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.beans.beancontext.BeanContext#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
-     * public abstract void
-     * java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
+     * java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.beancontext.BeanContext#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
-     *      public abstract void
-     *      java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.
-     *      BeanContextMembershipListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,14 +92,7 @@ org.j8unit.repository.java.beans.VisibilityTests {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.beancontext.BeanContext#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
-     * public abstract java.io.InputStream
-     * java.beans.beancontext.BeanContext.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)
-     * throws java.lang.IllegalArgumentException}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContext#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
      * public abstract java.io.InputStream
      * java.beans.beancontext.BeanContext.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)
@@ -126,10 +103,7 @@ org.j8unit.repository.java.beans.VisibilityTests {
      * methods soon.
      * </p>
      *
-     * @see java.beans.beancontext.BeanContext#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
-     *      public abstract java.io.InputStream
-     *      java.beans.beancontext.BeanContext.getResourceAsStream(java.lang.String,java.beans.beancontext.
-     *      BeanContextChild) throws java.lang.IllegalArgumentException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -143,28 +117,17 @@ org.j8unit.repository.java.beans.VisibilityTests {
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContext#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public abstract void
-     * java.beans.beancontext.BeanContext.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.beans.beancontext.BeanContext#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
-     * public abstract void
-     * java.beans.beancontext.BeanContext.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
+     * java.beans.beancontext.BeanContext.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.beancontext.BeanContext#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
-     *      public abstract void
-     *      java.beans.beancontext.BeanContext.removeBeanContextMembershipListener(java.beans.beancontext.
-     *      BeanContextMembershipListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,13 +141,9 @@ org.j8unit.repository.java.beans.VisibilityTests {
 
     /**
      * <p>
-     * Test method for {@link java.beans.beancontext.BeanContext#instantiateChild(String) public abstract
-     * java.lang.Object java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
-     * java.io.IOException,java.lang.ClassNotFoundException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContext#instantiateChild(String) public abstract
-     * java.lang.Object java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContext#instantiateChild(String) public abstract java.lang.Object
+     * java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -192,9 +151,7 @@ org.j8unit.repository.java.beans.VisibilityTests {
      * methods soon.
      * </p>
      *
-     * @see java.beans.beancontext.BeanContext#instantiateChild(String) public abstract java.lang.Object
-     *      java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
-     *      java.io.IOException,java.lang.ClassNotFoundException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -205,5 +162,9 @@ org.j8unit.repository.java.beans.VisibilityTests {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContext]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContext]
 
 }

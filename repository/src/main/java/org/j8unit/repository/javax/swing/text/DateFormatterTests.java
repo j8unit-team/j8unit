@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.text;
 
+import javax.swing.text.DateFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.DateFormatter class javax.swing.text.DateFormatter}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DateFormatterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DateFormatter
+ * public class javax.swing.text.DateFormatter}.
  * </p>
  *
- * @see javax.swing.text.DateFormatter class javax.swing.text.DateFormatter (the hereby targeted class-under-test class)
- * @see DateFormatterClassTests DateFormatterClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.DateFormatterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateFormatterTests<SUT extends javax.swing.text.DateFormatter>
+public abstract interface DateFormatterTests<SUT extends DateFormatter>
 extends InternationalFormatterTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DateFormatter]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DateFormatter#setFormat(java.text.DateFormat) public void
-     * javax.swing.text.DateFormatter.setFormat(java.text.DateFormat)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.DateFormatter#setFormat(java.text.DateFormat) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DateFormatter#setFormat(java.text.DateFormat) public void
      * javax.swing.text.DateFormatter.setFormat(java.text.DateFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends InternationalFormatterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.DateFormatter#setFormat(java.text.DateFormat) public void
-     *      javax.swing.text.DateFormatter.setFormat(java.text.DateFormat) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,5 +54,9 @@ extends InternationalFormatterTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DateFormatter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DateFormatter]
 
 }

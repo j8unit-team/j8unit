@@ -1,48 +1,50 @@
 package org.j8unit.repository.javax.crypto.spec;
 
+import javax.crypto.spec.DHPublicKeySpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.security.spec.KeySpecTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.spec.DHPublicKeySpec class javax.crypto.spec.DHPublicKeySpec}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link DHPublicKeySpecClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DHPublicKeySpec
+ * public class javax.crypto.spec.DHPublicKeySpec}.
  * </p>
  *
- * @see javax.crypto.spec.DHPublicKeySpec class javax.crypto.spec.DHPublicKeySpec (the hereby targeted class-under-test
- *      class)
- * @see DHPublicKeySpecClassTests DHPublicKeySpecClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.spec.DHPublicKeySpecClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DHPublicKeySpecTests<SUT extends javax.crypto.spec.DHPublicKeySpec>
-extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface DHPublicKeySpecTests<SUT extends DHPublicKeySpec>
+extends KeySpecTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.DHPublicKeySpec]
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getP() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getP()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getP() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getP()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHPublicKeySpec#getP() public
+     * java.math.BigInteger javax.crypto.spec.DHPublicKeySpec.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.DHPublicKeySpec#getP() public java.math.BigInteger
-     *      javax.crypto.spec.DHPublicKeySpec.getP() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +58,15 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getG() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getG()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getG() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getG()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHPublicKeySpec#getG() public
+     * java.math.BigInteger javax.crypto.spec.DHPublicKeySpec.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.DHPublicKeySpec#getG() public java.math.BigInteger
-     *      javax.crypto.spec.DHPublicKeySpec.getG() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +80,15 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getY() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getY()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.DHPublicKeySpec#getY() public java.math.BigInteger
-     * javax.crypto.spec.DHPublicKeySpec.getY()}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.spec.DHPublicKeySpec#getY() public
+     * java.math.BigInteger javax.crypto.spec.DHPublicKeySpec.getY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.DHPublicKeySpec#getY() public java.math.BigInteger
-     *      javax.crypto.spec.DHPublicKeySpec.getY() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,5 +99,9 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.DHPublicKeySpec]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.DHPublicKeySpec]
 
 }

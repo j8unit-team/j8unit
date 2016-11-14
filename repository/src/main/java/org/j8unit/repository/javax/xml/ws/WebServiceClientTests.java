@@ -1,48 +1,49 @@
 package org.j8unit.repository.javax.xml.ws;
 
+import javax.xml.ws.WebServiceClient;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.annotation.AnnotationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.ws.WebServiceClient interface javax.xml.ws.WebServiceClient}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link WebServiceClientClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link WebServiceClient public abstract @interface javax.xml.ws.WebServiceClient}.
  * </p>
  *
- * @see javax.xml.ws.WebServiceClient interface javax.xml.ws.WebServiceClient (the hereby targeted class-under-test
- *      class)
- * @see WebServiceClientClassTests WebServiceClientClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.ws.WebServiceClientClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebServiceClientTests<SUT extends javax.xml.ws.WebServiceClient>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+public abstract interface WebServiceClientTests<SUT extends WebServiceClient>
+extends AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServiceClient]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#targetNamespace() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.targetNamespace()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#targetNamespace() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#targetNamespace()
+     * public abstract java.lang.String javax.xml.ws.WebServiceClient.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.WebServiceClient#targetNamespace() public abstract java.lang.String
-     *      javax.xml.ws.WebServiceClient.targetNamespace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +57,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#wsdlLocation() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.wsdlLocation()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#wsdlLocation() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.wsdlLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#wsdlLocation() public
+     * abstract java.lang.String javax.xml.ws.WebServiceClient.wsdlLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.WebServiceClient#wsdlLocation() public abstract java.lang.String
-     *      javax.xml.ws.WebServiceClient.wsdlLocation() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +79,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#name() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceClient#name() public abstract java.lang.String
-     * javax.xml.ws.WebServiceClient.name()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.ws.WebServiceClient#name() public abstract
+     * java.lang.String javax.xml.ws.WebServiceClient.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.WebServiceClient#name() public abstract java.lang.String javax.xml.ws.WebServiceClient.name()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,5 +98,9 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.WebServiceClient]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServiceClient]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.security;
 
+import java.security.DomainCombiner;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,33 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.DomainCombiner interface java.security.DomainCombiner}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DomainCombinerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DomainCombiner
+ * public abstract interface java.security.DomainCombiner}.
  * </p>
  *
- * @see java.security.DomainCombiner interface java.security.DomainCombiner (the hereby targeted class-under-test class)
- * @see DomainCombinerClassTests DomainCombinerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.DomainCombinerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DomainCombinerTests<SUT extends java.security.DomainCombiner>
+public abstract interface DomainCombinerTests<SUT extends DomainCombiner>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.DomainCombiner]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.DomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
-     * public abstract java.security.ProtectionDomain[]
-     * java.security.DomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.security.DomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
      * public abstract java.security.ProtectionDomain[]
      * java.security.DomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[])}.
@@ -45,10 +45,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.DomainCombiner#combine(java.security.ProtectionDomain[], java.security.ProtectionDomain[])
-     *      public abstract java.security.ProtectionDomain[]
-     *      java.security.DomainCombiner.combine(java.security.ProtectionDomain[],java.security.ProtectionDomain[]) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,5 +56,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.DomainCombiner]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.DomainCombiner]
 
 }

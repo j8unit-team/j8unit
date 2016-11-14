@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.image;
 
+import java.awt.image.ImageObserver;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,41 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.image.ImageObserver interface java.awt.image.ImageObserver}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ImageObserverClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ImageObserver
+ * public abstract interface java.awt.image.ImageObserver}.
  * </p>
  *
- * @see java.awt.image.ImageObserver interface java.awt.image.ImageObserver (the hereby targeted class-under-test class)
- * @see ImageObserverClassTests ImageObserverClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.image.ImageObserverClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageObserverTests<SUT extends java.awt.image.ImageObserver>
+public abstract interface ImageObserverTests<SUT extends ImageObserver>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.ImageObserver]
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageObserver#imageUpdate(java.awt.Image, int, int, int, int, int) public
-     * abstract boolean java.awt.image.ImageObserver.imageUpdate(java.awt.Image,int,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.ImageObserver#imageUpdate(java.awt.Image, int, int, int, int, int) public
-     * abstract boolean java.awt.image.ImageObserver.imageUpdate(java.awt.Image,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ImageObserver#imageUpdate(java.awt.Image, int, int, int, int, int) public abstract boolean
+     * java.awt.image.ImageObserver.imageUpdate(java.awt.Image,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.ImageObserver#imageUpdate(java.awt.Image, int, int, int, int, int) public abstract boolean
-     *      java.awt.image.ImageObserver.imageUpdate(java.awt.Image,int,int,int,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,5 +55,9 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.ImageObserver]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.ImageObserver]
 
 }

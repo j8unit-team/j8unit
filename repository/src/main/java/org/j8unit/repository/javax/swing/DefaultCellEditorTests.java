@@ -1,56 +1,52 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.DefaultCellEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.table.TableCellEditorTests;
+import org.j8unit.repository.javax.swing.tree.TreeCellEditorTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.DefaultCellEditor class javax.swing.DefaultCellEditor}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DefaultCellEditorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultCellEditor public class javax.swing.DefaultCellEditor}.
  * </p>
  *
- * @see javax.swing.DefaultCellEditor class javax.swing.DefaultCellEditor (the hereby targeted class-under-test class)
- * @see DefaultCellEditorClassTests DefaultCellEditorClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.DefaultCellEditorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultCellEditorTests<SUT extends javax.swing.DefaultCellEditor>
-extends org.j8unit.repository.javax.swing.table.TableCellEditorTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorTests<SUT>,
-AbstractCellEditorTests<SUT> {
+public abstract interface DefaultCellEditorTests<SUT extends DefaultCellEditor>
+extends TableCellEditorTests<SUT>, TreeCellEditorTests<SUT>, AbstractCellEditorTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultCellEditor]
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
      * public java.awt.Component
-     * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
-     * public java.awt.Component
-     * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
-     * .
+     * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean,
-     *      boolean, int) public java.awt.Component
-     *      javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,
-     *      boolean,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -65,20 +61,15 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#stopCellEditing() public boolean
-     * javax.swing.DefaultCellEditor.stopCellEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#stopCellEditing() public boolean
-     * javax.swing.DefaultCellEditor.stopCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#stopCellEditing()
+     * public boolean javax.swing.DefaultCellEditor.stopCellEditing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#stopCellEditing() public boolean
-     *      javax.swing.DefaultCellEditor.stopCellEditing() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -93,13 +84,7 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
-     * public java.awt.Component
-     * javax.swing.DefaultCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.DefaultCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
      * public java.awt.Component
      * javax.swing.DefaultCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}.
@@ -109,10 +94,7 @@ AbstractCellEditorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
-     *      public java.awt.Component
-     *      javax.swing.DefaultCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,
-     *      int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -127,11 +109,8 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
-     * javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
      * javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -139,8 +118,7 @@ AbstractCellEditorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
-     *      javax.swing.DefaultCellEditor.setClickCountToStart(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -154,20 +132,15 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getComponent() public java.awt.Component
-     * javax.swing.DefaultCellEditor.getComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getComponent() public java.awt.Component
-     * javax.swing.DefaultCellEditor.getComponent()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getComponent() public
+     * java.awt.Component javax.swing.DefaultCellEditor.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#getComponent() public java.awt.Component
-     *      javax.swing.DefaultCellEditor.getComponent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -181,76 +154,15 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#cancelCellEditing() public void
-     * javax.swing.DefaultCellEditor.cancelCellEditing()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#cancelCellEditing() public void
-     * javax.swing.DefaultCellEditor.cancelCellEditing()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getCellEditorValue()
+     * public java.lang.Object javax.swing.DefaultCellEditor.getCellEditorValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#cancelCellEditing() public void
-     *      javax.swing.DefaultCellEditor.cancelCellEditing() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_cancelCellEditing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#isCellEditable(java.util.EventObject) public boolean
-     * javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#isCellEditable(java.util.EventObject) public boolean
-     * javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultCellEditor#isCellEditable(java.util.EventObject) public boolean
-     *      javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isCellEditable_EventObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getCellEditorValue() public java.lang.Object
-     * javax.swing.DefaultCellEditor.getCellEditorValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getCellEditorValue() public java.lang.Object
-     * javax.swing.DefaultCellEditor.getCellEditorValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultCellEditor#getCellEditorValue() public java.lang.Object
-     *      javax.swing.DefaultCellEditor.getCellEditorValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -265,11 +177,55 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#shouldSelectCell(java.util.EventObject) public boolean
-     * javax.swing.DefaultCellEditor.shouldSelectCell(java.util.EventObject)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#cancelCellEditing()
+     * public void javax.swing.DefaultCellEditor.cancelCellEditing()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_cancelCellEditing()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#shouldSelectCell(java.util.EventObject) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#isCellEditable(java.util.EventObject) public boolean
+     * javax.swing.DefaultCellEditor.isCellEditable(java.util.EventObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isCellEditable_EventObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultCellEditor#shouldSelectCell(java.util.EventObject) public boolean
      * javax.swing.DefaultCellEditor.shouldSelectCell(java.util.EventObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -277,9 +233,7 @@ AbstractCellEditorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#shouldSelectCell(java.util.EventObject) public boolean
-     *      javax.swing.DefaultCellEditor.shouldSelectCell(java.util.EventObject) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -294,20 +248,15 @@ AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getClickCountToStart() public int
-     * javax.swing.DefaultCellEditor.getClickCountToStart()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getClickCountToStart() public int
-     * javax.swing.DefaultCellEditor.getClickCountToStart()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultCellEditor#getClickCountToStart()
+     * public int javax.swing.DefaultCellEditor.getClickCountToStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultCellEditor#getClickCountToStart() public int
-     *      javax.swing.DefaultCellEditor.getClickCountToStart() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -319,56 +268,8 @@ AbstractCellEditorTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain javax.swing.AbstractCellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener)
-     * class javax.swing.AbstractCellEditor}</li>
-     * <li>{@linkplain javax.swing.CellEditor#removeCellEditorListener(javax.swing.event.CellEditorListener) interface
-     * javax.swing.CellEditor}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeCellEditorListener_CellEditorListener()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultCellEditor]
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain javax.swing.AbstractCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener) class
-     * javax.swing.AbstractCellEditor}</li>
-     * <li>{@linkplain javax.swing.CellEditor#addCellEditorListener(javax.swing.event.CellEditorListener) interface
-     * javax.swing.CellEditor}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addCellEditorListener_CellEditorListener()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultCellEditor]
 
 }

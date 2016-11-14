@@ -1,47 +1,52 @@
 package org.j8unit.repository.javax.net.ssl;
 
+import javax.net.ssl.SSLEngineResult;
+import javax.net.ssl.SSLEngineResult.HandshakeStatus;
+import javax.net.ssl.SSLEngineResult.Status;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.net.ssl.SSLEngineResult class javax.net.ssl.SSLEngineResult}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SSLEngineResultClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SSLEngineResult
+ * public class javax.net.ssl.SSLEngineResult}.
  * </p>
  *
- * @see javax.net.ssl.SSLEngineResult class javax.net.ssl.SSLEngineResult (the hereby targeted class-under-test class)
- * @see SSLEngineResultClassTests SSLEngineResultClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SSLEngineResultTests<SUT extends javax.net.ssl.SSLEngineResult>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface SSLEngineResultTests<SUT extends SSLEngineResult>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#bytesProduced() public final int
-     * javax.net.ssl.SSLEngineResult.bytesProduced()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#bytesProduced() public final int
-     * javax.net.ssl.SSLEngineResult.bytesProduced()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#bytesProduced() public
+     * final int javax.net.ssl.SSLEngineResult.bytesProduced()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult#bytesProduced() public final int javax.net.ssl.SSLEngineResult.bytesProduced()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,21 +60,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#getHandshakeStatus() public final
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#getHandshakeStatus() public final
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#getHandshakeStatus()
+     * public final javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult#getHandshakeStatus() public final
-     *      javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngineResult.getHandshakeStatus() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +82,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#toString() public java.lang.String
-     * javax.net.ssl.SSLEngineResult.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#toString() public java.lang.String
-     * javax.net.ssl.SSLEngineResult.toString()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#toString() public
+     * java.lang.String javax.net.ssl.SSLEngineResult.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult#toString() public java.lang.String javax.net.ssl.SSLEngineResult.toString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,20 +105,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#bytesConsumed() public final int
-     * javax.net.ssl.SSLEngineResult.bytesConsumed()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#bytesConsumed() public final int
-     * javax.net.ssl.SSLEngineResult.bytesConsumed()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#bytesConsumed() public
+     * final int javax.net.ssl.SSLEngineResult.bytesConsumed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult#bytesConsumed() public final int javax.net.ssl.SSLEngineResult.bytesConsumed()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +127,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#getStatus() public final
-     * javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult.getStatus()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngineResult#getStatus() public final
-     * javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult.getStatus()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngineResult#getStatus() public
+     * final javax.net.ssl.SSLEngineResult$Status javax.net.ssl.SSLEngineResult.getStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult#getStatus() public final javax.net.ssl.SSLEngineResult$Status
-     *      javax.net.ssl.SSLEngineResult.getStatus() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,51 +147,69 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.net.ssl.SSLEngineResult.Status class
-     * javax.net.ssl.SSLEngineResult$Status}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link SSLEngineResultClassTests.StatusClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Status
+     * public static final enum javax.net.ssl.SSLEngineResult$Status}.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult.Status class javax.net.ssl.SSLEngineResult$Status (the hereby targeted
-     *      class-under-test class)
-     * @see SSLEngineResultClassTests.StatusClassTests SSLEngineResultClassTests.StatusClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.StatusClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StatusTests<SUT extends javax.net.ssl.SSLEngineResult.Status>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.net.ssl.SSLEngineResult.Status> {
+    public static abstract interface StatusTests<SUT extends Status>
+    extends EnumTests<SUT, Status> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.net.ssl.SSLEngineResult.HandshakeStatus class
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link SSLEngineResultClassTests.HandshakeStatusClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link HandshakeStatus public static final enum javax.net.ssl.SSLEngineResult$HandshakeStatus}.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngineResult.HandshakeStatus class javax.net.ssl.SSLEngineResult$HandshakeStatus (the
-     *      hereby targeted class-under-test class)
-     * @see SSLEngineResultClassTests.HandshakeStatusClassTests SSLEngineResultClassTests.HandshakeStatusClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HandshakeStatusTests<SUT extends javax.net.ssl.SSLEngineResult.HandshakeStatus>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.net.ssl.SSLEngineResult.HandshakeStatus> {
+    public static abstract interface HandshakeStatusTests<SUT extends HandshakeStatus>
+    extends EnumTests<SUT, HandshakeStatus> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
 
     }
 

@@ -1,45 +1,49 @@
 package org.j8unit.repository.java.time.chrono;
 
+import java.time.chrono.MinguoEra;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.chrono.MinguoEra class java.time.chrono.MinguoEra}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link MinguoEraClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MinguoEra
+ * public final enum java.time.chrono.MinguoEra}.
  * </p>
  *
- * @see java.time.chrono.MinguoEra class java.time.chrono.MinguoEra (the hereby targeted class-under-test class)
- * @see MinguoEraClassTests MinguoEraClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.chrono.MinguoEraClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MinguoEraTests<SUT extends java.time.chrono.MinguoEra>
-extends EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.chrono.MinguoEra> {
+public abstract interface MinguoEraTests<SUT extends MinguoEra>
+extends EraTests<SUT>, EnumTests<SUT, MinguoEra> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.MinguoEra]
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue()}.
-     *
-     * <p>
-     * Test method for {@link java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.MinguoEra#getValue() public int
+     * java.time.chrono.MinguoEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.chrono.MinguoEra#getValue() public int java.time.chrono.MinguoEra.getValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -51,5 +55,9 @@ extends EraTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.time.
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.MinguoEra]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.MinguoEra]
 
 }

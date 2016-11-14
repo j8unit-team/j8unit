@@ -14,29 +14,102 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain Iterable interface java.lang.Iterable}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link IterableClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Iterable public
+ * abstract interface java.lang.Iterable<T>}.
  * </p>
  *
- * @see Iterable interface java.lang.Iterable (the hereby targeted class-under-test class)
- * @see IterableClassTests IterableClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.IterableClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IterableTests<SUT extends Iterable<T>, T>
 extends RepositoryTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Iterable]
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Iterable#forEach(java.util.function.Consumer) public
+     * default void java.lang.Iterable.forEach(java.util.function.Consumer<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_forEach_Consumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Iterable#spliterator() public default
+     * java.util.Spliterator<T> java.lang.Iterable.spliterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Iterable#iterator() public abstract
+     * java.util.Iterator<T> java.lang.Iterable.iterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Iterable]
+
     /**
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 0.9.2
+     * @since 0.9.3
      */
     @Test
     @Category(TimeLinear.class)
@@ -51,7 +124,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 0.9.2
+     * @since 0.9.3
      */
     @Test
     public default void forEachMustRelayException() {
@@ -78,7 +151,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#forEach(java.util.function.Consumer) public default void
      *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
      *
-     * @since 0.9.2
+     * @since 0.9.3
      */
     @Test(expected = NullPointerException.class)
     @Category(TimeLinear.class)
@@ -99,7 +172,7 @@ extends RepositoryTests<SUT> {
      * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
      *      targeted method-under-test)
      *
-     * @since 0.9.2
+     * @since 0.9.3
      */
     @Test
     public default void spliteratorMustReturnNotNull() {
@@ -108,83 +181,6 @@ extends RepositoryTests<SUT> {
         assertNotNull(sut.spliterator());
     }
 
-    /**
-     * <p>
-     * Test method for {@link Iterable#forEach(java.util.function.Consumer) public default void
-     * java.lang.Iterable.forEach(java.util.function.Consumer<? super T>)}.
-     *
-     * <p>
-     * Test method for {@link Iterable#forEach(java.util.function.Consumer) public default void
-     * java.lang.Iterable.forEach(java.util.function.Consumer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Iterable#forEach(java.util.function.Consumer) public default void
-     *      java.lang.Iterable.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_forEach_Consumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Iterable#spliterator() public default java.util.Spliterator
-     * <T> java.lang.Iterable.spliterator()}.
-     *
-     * <p>
-     * Test method for {@link Iterable#spliterator() public default java.util.Spliterator
-     * java.lang.Iterable.spliterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_spliterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Iterable#iterator() public abstract java.util.Iterator<T> java.lang.Iterable.iterator()}.
-     *
-     * <p>
-     * Test method for {@link Iterable#iterator() public abstract java.util.Iterator java.lang.Iterable.iterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Iterable#iterator() public abstract java.util.Iterator java.lang.Iterable.iterator() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Iterable]
 
 }

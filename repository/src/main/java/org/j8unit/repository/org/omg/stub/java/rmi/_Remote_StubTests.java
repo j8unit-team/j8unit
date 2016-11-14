@@ -2,48 +2,49 @@ package org.j8unit.repository.org.omg.stub.java.rmi;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteTests;
+import org.j8unit.repository.javax.rmi.CORBA.StubTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.stub.java.rmi._Remote_Stub;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.stub.java.rmi._Remote_Stub class
- * org.omg.stub.java.rmi._Remote_Stub}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link _Remote_StubClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link _Remote_Stub
+ * public final class org.omg.stub.java.rmi._Remote_Stub}.
  * </p>
  *
- * @see org.omg.stub.java.rmi._Remote_Stub class org.omg.stub.java.rmi._Remote_Stub (the hereby targeted
- *      class-under-test class)
- * @see _Remote_StubClassTests _Remote_StubClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _Remote_StubTests<SUT extends org.omg.stub.java.rmi._Remote_Stub>
-extends org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubTests<SUT> {
+public abstract interface _Remote_StubTests<SUT extends _Remote_Stub>
+extends RemoteTests<SUT>, StubTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 
     /**
      * <p>
-     * Test method for {@link org.omg.stub.java.rmi._Remote_Stub#_ids() public java.lang.String[]
-     * org.omg.stub.java.rmi._Remote_Stub._ids()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.stub.java.rmi._Remote_Stub#_ids() public java.lang.String[]
-     * org.omg.stub.java.rmi._Remote_Stub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.stub.java.rmi._Remote_Stub#_ids() public
+     * java.lang.String[] org.omg.stub.java.rmi._Remote_Stub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.stub.java.rmi._Remote_Stub#_ids() public java.lang.String[]
-     *      org.omg.stub.java.rmi._Remote_Stub._ids() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -55,5 +56,9 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.j
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 
 }

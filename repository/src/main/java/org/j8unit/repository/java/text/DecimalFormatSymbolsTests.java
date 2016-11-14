@@ -1,48 +1,51 @@
 package org.j8unit.repository.java.text;
 
+import java.text.DecimalFormatSymbols;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.text.DecimalFormatSymbols class java.text.DecimalFormatSymbols}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DecimalFormatSymbolsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DecimalFormatSymbols public class java.text.DecimalFormatSymbols}.
  * </p>
  *
- * @see java.text.DecimalFormatSymbols class java.text.DecimalFormatSymbols (the hereby targeted class-under-test class)
- * @see DecimalFormatSymbolsClassTests DecimalFormatSymbolsClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.text.DecimalFormatSymbolsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DecimalFormatSymbolsTests<SUT extends java.text.DecimalFormatSymbols>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface DecimalFormatSymbolsTests<SUT extends DecimalFormatSymbols>
+extends CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DecimalFormatSymbols]
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getCurrencySymbol() public java.lang.String
-     * java.text.DecimalFormatSymbols.getCurrencySymbol()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getCurrencySymbol() public java.lang.String
-     * java.text.DecimalFormatSymbols.getCurrencySymbol()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getCurrencySymbol()
+     * public java.lang.String java.text.DecimalFormatSymbols.getCurrencySymbol()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getCurrencySymbol() public java.lang.String
-     *      java.text.DecimalFormatSymbols.getCurrencySymbol() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +59,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPercent(char) public void
-     * java.text.DecimalFormatSymbols.setPercent(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPercent(char) public void
-     * java.text.DecimalFormatSymbols.setPercent(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setPercent(char)
+     * public void java.text.DecimalFormatSymbols.setPercent(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setPercent(char) public void java.text.DecimalFormatSymbols.setPercent(char)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,38 +81,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setInfinity(String) public void
-     * java.text.DecimalFormatSymbols.setInfinity(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setInfinity(String) public void
-     * java.text.DecimalFormatSymbols.setInfinity(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DecimalFormatSymbols#setInfinity(String) public void
-     *      java.text.DecimalFormatSymbols.setInfinity(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInfinity_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setMonetaryDecimalSeparator(char) public void
-     * java.text.DecimalFormatSymbols.setMonetaryDecimalSeparator(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setMonetaryDecimalSeparator(char) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setMonetaryDecimalSeparator(char) public void
      * java.text.DecimalFormatSymbols.setMonetaryDecimalSeparator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +90,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setMonetaryDecimalSeparator(char) public void
-     *      java.text.DecimalFormatSymbols.setMonetaryDecimalSeparator(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,25 +104,20 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getNaN() public java.lang.String
-     * java.text.DecimalFormatSymbols.getNaN()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getNaN() public java.lang.String
-     * java.text.DecimalFormatSymbols.getNaN()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setInfinity(String)
+     * public void java.text.DecimalFormatSymbols.setInfinity(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getNaN() public java.lang.String java.text.DecimalFormatSymbols.getNaN() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNaN()
+    public default void test_setInfinity_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,11 +126,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setCurrency(java.util.Currency) public void
-     * java.text.DecimalFormatSymbols.setCurrency(java.util.Currency)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setCurrency(java.util.Currency) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setCurrency(java.util.Currency) public void
      * java.text.DecimalFormatSymbols.setCurrency(java.util.Currency)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +135,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setCurrency(java.util.Currency) public void
-     *      java.text.DecimalFormatSymbols.setCurrency(java.util.Currency) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,20 +149,37 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPatternSeparator() public char
-     * java.text.DecimalFormatSymbols.getPatternSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPatternSeparator() public char
-     * java.text.DecimalFormatSymbols.getPatternSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getNaN() public
+     * java.lang.String java.text.DecimalFormatSymbols.getNaN()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getPatternSeparator() public char
-     *      java.text.DecimalFormatSymbols.getPatternSeparator() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNaN()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getPatternSeparator()
+     * public char java.text.DecimalFormatSymbols.getPatternSeparator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,11 +193,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#hashCode() public int
-     * java.text.DecimalFormatSymbols.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#hashCode() public int
      * java.text.DecimalFormatSymbols.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,8 +201,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#hashCode() public int java.text.DecimalFormatSymbols.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -246,11 +216,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getGroupingSeparator() public char
-     * java.text.DecimalFormatSymbols.getGroupingSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getGroupingSeparator() public char
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#getGroupingSeparator() public char
      * java.text.DecimalFormatSymbols.getGroupingSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +225,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getGroupingSeparator() public char
-     *      java.text.DecimalFormatSymbols.getGroupingSeparator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,20 +239,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPercent() public char
-     * java.text.DecimalFormatSymbols.getPercent()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPercent() public char
-     * java.text.DecimalFormatSymbols.getPercent()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getPercent() public
+     * char java.text.DecimalFormatSymbols.getPercent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getPercent() public char java.text.DecimalFormatSymbols.getPercent() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,20 +261,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setMinusSign(char) public void
-     * java.text.DecimalFormatSymbols.setMinusSign(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setMinusSign(char) public void
-     * java.text.DecimalFormatSymbols.setMinusSign(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setMinusSign(char)
+     * public void java.text.DecimalFormatSymbols.setMinusSign(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setMinusSign(char) public void
-     *      java.text.DecimalFormatSymbols.setMinusSign(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,20 +283,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getDigit() public char
-     * java.text.DecimalFormatSymbols.getDigit()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getDigit() public char
-     * java.text.DecimalFormatSymbols.getDigit()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getDigit() public
+     * char java.text.DecimalFormatSymbols.getDigit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getDigit() public char java.text.DecimalFormatSymbols.getDigit() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,11 +305,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setCurrencySymbol(String) public void
-     * java.text.DecimalFormatSymbols.setCurrencySymbol(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setCurrencySymbol(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setCurrencySymbol(String) public void
      * java.text.DecimalFormatSymbols.setCurrencySymbol(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -366,8 +314,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setCurrencySymbol(String) public void
-     *      java.text.DecimalFormatSymbols.setCurrencySymbol(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,20 +328,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getDecimalSeparator() public char
-     * java.text.DecimalFormatSymbols.getDecimalSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getDecimalSeparator() public char
-     * java.text.DecimalFormatSymbols.getDecimalSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getDecimalSeparator()
+     * public char java.text.DecimalFormatSymbols.getDecimalSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getDecimalSeparator() public char
-     *      java.text.DecimalFormatSymbols.getDecimalSeparator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -408,20 +350,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getCurrency() public java.util.Currency
-     * java.text.DecimalFormatSymbols.getCurrency()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getCurrency() public java.util.Currency
-     * java.text.DecimalFormatSymbols.getCurrency()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getCurrency() public
+     * java.util.Currency java.text.DecimalFormatSymbols.getCurrency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getCurrency() public java.util.Currency
-     *      java.text.DecimalFormatSymbols.getCurrency() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -435,20 +372,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getZeroDigit() public char
-     * java.text.DecimalFormatSymbols.getZeroDigit()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getZeroDigit() public char
-     * java.text.DecimalFormatSymbols.getZeroDigit()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getZeroDigit() public
+     * char java.text.DecimalFormatSymbols.getZeroDigit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getZeroDigit() public char java.text.DecimalFormatSymbols.getZeroDigit() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -462,11 +394,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getExponentSeparator() public java.lang.String
-     * java.text.DecimalFormatSymbols.getExponentSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getExponentSeparator() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#getExponentSeparator() public java.lang.String
      * java.text.DecimalFormatSymbols.getExponentSeparator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -474,8 +403,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getExponentSeparator() public java.lang.String
-     *      java.text.DecimalFormatSymbols.getExponentSeparator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -489,47 +417,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getMinusSign() public char
-     * java.text.DecimalFormatSymbols.getMinusSign()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getMinusSign() public char
-     * java.text.DecimalFormatSymbols.getMinusSign()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setPerMill(char)
+     * public void java.text.DecimalFormatSymbols.setPerMill(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getMinusSign() public char java.text.DecimalFormatSymbols.getMinusSign() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinusSign()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPerMill(char) public void
-     * java.text.DecimalFormatSymbols.setPerMill(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPerMill(char) public void
-     * java.text.DecimalFormatSymbols.setPerMill(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DecimalFormatSymbols#setPerMill(char) public void java.text.DecimalFormatSymbols.setPerMill(char)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -543,25 +439,20 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getInternationalCurrencySymbol() public java.lang.String
-     * java.text.DecimalFormatSymbols.getInternationalCurrencySymbol()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getInternationalCurrencySymbol() public java.lang.String
-     * java.text.DecimalFormatSymbols.getInternationalCurrencySymbol()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getMinusSign() public
+     * char java.text.DecimalFormatSymbols.getMinusSign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getInternationalCurrencySymbol() public java.lang.String
-     *      java.text.DecimalFormatSymbols.getInternationalCurrencySymbol() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInternationalCurrencySymbol()
+    public default void test_getMinusSign()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -570,38 +461,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPerMill() public char
-     * java.text.DecimalFormatSymbols.getPerMill()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getPerMill() public char
-     * java.text.DecimalFormatSymbols.getPerMill()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DecimalFormatSymbols#getPerMill() public char java.text.DecimalFormatSymbols.getPerMill() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPerMill()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPatternSeparator(char) public void
-     * java.text.DecimalFormatSymbols.setPatternSeparator(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setPatternSeparator(char) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setPatternSeparator(char) public void
      * java.text.DecimalFormatSymbols.setPatternSeparator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -609,8 +470,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setPatternSeparator(char) public void
-     *      java.text.DecimalFormatSymbols.setPatternSeparator(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -624,11 +484,53 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setExponentSeparator(String) public void
-     * java.text.DecimalFormatSymbols.setExponentSeparator(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getPerMill() public
+     * char java.text.DecimalFormatSymbols.getPerMill()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPerMill()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setExponentSeparator(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#getInternationalCurrencySymbol() public java.lang.String
+     * java.text.DecimalFormatSymbols.getInternationalCurrencySymbol()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInternationalCurrencySymbol()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setExponentSeparator(String) public void
      * java.text.DecimalFormatSymbols.setExponentSeparator(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -636,9 +538,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setExponentSeparator(String) public void
-     *      java.text.DecimalFormatSymbols.setExponentSeparator(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -652,20 +552,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#equals(Object) public boolean
-     * java.text.DecimalFormatSymbols.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#equals(Object) public boolean
-     * java.text.DecimalFormatSymbols.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#equals(Object) public
+     * boolean java.text.DecimalFormatSymbols.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#equals(Object) public boolean
-     *      java.text.DecimalFormatSymbols.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -680,47 +575,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getMonetaryDecimalSeparator() public char
-     * java.text.DecimalFormatSymbols.getMonetaryDecimalSeparator()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getMonetaryDecimalSeparator() public char
-     * java.text.DecimalFormatSymbols.getMonetaryDecimalSeparator()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setZeroDigit(char)
+     * public void java.text.DecimalFormatSymbols.setZeroDigit(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getMonetaryDecimalSeparator() public char
-     *      java.text.DecimalFormatSymbols.getMonetaryDecimalSeparator() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMonetaryDecimalSeparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setZeroDigit(char) public void
-     * java.text.DecimalFormatSymbols.setZeroDigit(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setZeroDigit(char) public void
-     * java.text.DecimalFormatSymbols.setZeroDigit(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DecimalFormatSymbols#setZeroDigit(char) public void
-     *      java.text.DecimalFormatSymbols.setZeroDigit(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -734,11 +597,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setInternationalCurrencySymbol(String) public void
-     * java.text.DecimalFormatSymbols.setInternationalCurrencySymbol(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#getMonetaryDecimalSeparator() public char
+     * java.text.DecimalFormatSymbols.getMonetaryDecimalSeparator()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMonetaryDecimalSeparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setInternationalCurrencySymbol(String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setInternationalCurrencySymbol(String) public void
      * java.text.DecimalFormatSymbols.setInternationalCurrencySymbol(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -746,9 +629,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setInternationalCurrencySymbol(String) public void
-     *      java.text.DecimalFormatSymbols.setInternationalCurrencySymbol(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -762,20 +643,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setDigit(char) public void
-     * java.text.DecimalFormatSymbols.setDigit(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setDigit(char) public void
-     * java.text.DecimalFormatSymbols.setDigit(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setDigit(char) public
+     * void java.text.DecimalFormatSymbols.setDigit(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setDigit(char) public void java.text.DecimalFormatSymbols.setDigit(char) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -789,20 +665,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getInfinity() public java.lang.String
-     * java.text.DecimalFormatSymbols.getInfinity()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getInfinity() public java.lang.String
-     * java.text.DecimalFormatSymbols.getInfinity()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#getInfinity() public
+     * java.lang.String java.text.DecimalFormatSymbols.getInfinity()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#getInfinity() public java.lang.String
-     *      java.text.DecimalFormatSymbols.getInfinity() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -816,11 +687,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setDecimalSeparator(char) public void
-     * java.text.DecimalFormatSymbols.setDecimalSeparator(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setDecimalSeparator(char) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setDecimalSeparator(char) public void
      * java.text.DecimalFormatSymbols.setDecimalSeparator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -828,8 +696,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setDecimalSeparator(char) public void
-     *      java.text.DecimalFormatSymbols.setDecimalSeparator(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -843,11 +710,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setGroupingSeparator(char) public void
-     * java.text.DecimalFormatSymbols.setGroupingSeparator(char)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setGroupingSeparator(char) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormatSymbols#setGroupingSeparator(char) public void
      * java.text.DecimalFormatSymbols.setGroupingSeparator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -855,8 +719,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setGroupingSeparator(char) public void
-     *      java.text.DecimalFormatSymbols.setGroupingSeparator(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -870,20 +733,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setNaN(String) public void
-     * java.text.DecimalFormatSymbols.setNaN(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#setNaN(String) public void
-     * java.text.DecimalFormatSymbols.setNaN(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#setNaN(String) public
+     * void java.text.DecimalFormatSymbols.setNaN(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#setNaN(String) public void
-     *      java.text.DecimalFormatSymbols.setNaN(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -897,20 +755,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#clone() public java.lang.Object
-     * java.text.DecimalFormatSymbols.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#clone() public java.lang.Object
-     * java.text.DecimalFormatSymbols.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormatSymbols#clone() public
+     * java.lang.Object java.text.DecimalFormatSymbols.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DecimalFormatSymbols#clone() public java.lang.Object java.text.DecimalFormatSymbols.clone() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -921,5 +774,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.DecimalFormatSymbols]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.DecimalFormatSymbols]
 
 }

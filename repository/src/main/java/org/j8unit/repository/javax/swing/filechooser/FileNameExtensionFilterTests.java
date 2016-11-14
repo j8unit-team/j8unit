@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.filechooser;
 
+import javax.swing.filechooser.FileNameExtensionFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.filechooser.FileNameExtensionFilter class
- * javax.swing.filechooser.FileNameExtensionFilter}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link FileNameExtensionFilterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link FileNameExtensionFilter public final class javax.swing.filechooser.FileNameExtensionFilter}.
  * </p>
  *
- * @see javax.swing.filechooser.FileNameExtensionFilter class javax.swing.filechooser.FileNameExtensionFilter (the
- *      hereby targeted class-under-test class)
- * @see FileNameExtensionFilterClassTests FileNameExtensionFilterClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.filechooser.FileNameExtensionFilterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileNameExtensionFilterTests<SUT extends javax.swing.filechooser.FileNameExtensionFilter>
+public abstract interface FileNameExtensionFilterTests<SUT extends FileNameExtensionFilter>
 extends FileFilterTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#accept(java.io.File) public boolean
-     * javax.swing.filechooser.FileNameExtensionFilter.accept(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#accept(java.io.File) public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileNameExtensionFilter#accept(java.io.File) public boolean
      * javax.swing.filechooser.FileNameExtensionFilter.accept(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,7 @@ extends FileFilterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.filechooser.FileNameExtensionFilter#accept(java.io.File) public boolean
-     *      javax.swing.filechooser.FileNameExtensionFilter.accept(java.io.File) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +58,8 @@ extends FileFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
-     * javax.swing.filechooser.FileNameExtensionFilter.getExtensions()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
      * javax.swing.filechooser.FileNameExtensionFilter.getExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +67,7 @@ extends FileFilterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
-     *      javax.swing.filechooser.FileNameExtensionFilter.getExtensions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +81,8 @@ extends FileFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getDescription() public java.lang.String
-     * javax.swing.filechooser.FileNameExtensionFilter.getDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getDescription() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileNameExtensionFilter#getDescription() public java.lang.String
      * javax.swing.filechooser.FileNameExtensionFilter.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +90,7 @@ extends FileFilterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.filechooser.FileNameExtensionFilter#getDescription() public java.lang.String
-     *      javax.swing.filechooser.FileNameExtensionFilter.getDescription() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -113,11 +105,8 @@ extends FileFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#toString() public java.lang.String
-     * javax.swing.filechooser.FileNameExtensionFilter.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.filechooser.FileNameExtensionFilter#toString() public java.lang.String
      * javax.swing.filechooser.FileNameExtensionFilter.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +114,7 @@ extends FileFilterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.filechooser.FileNameExtensionFilter#toString() public java.lang.String
-     *      javax.swing.filechooser.FileNameExtensionFilter.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -138,5 +126,9 @@ extends FileFilterTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
 
 }

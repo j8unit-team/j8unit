@@ -1,45 +1,49 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.AWTEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.AWTEvent class java.awt.AWTEvent}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link AWTEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link AWTEvent public
+ * abstract class java.awt.AWTEvent}.
  * </p>
  *
- * @see java.awt.AWTEvent class java.awt.AWTEvent (the hereby targeted class-under-test class)
- * @see AWTEventClassTests AWTEventClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.AWTEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AWTEventTests<SUT extends java.awt.AWTEvent>
-extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
+public abstract interface AWTEventTests<SUT extends AWTEvent>
+extends EventObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AWTEvent]
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEvent#paramString() public java.lang.String java.awt.AWTEvent.paramString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.AWTEvent#paramString() public java.lang.String java.awt.AWTEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#paramString() public
+     * java.lang.String java.awt.AWTEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.AWTEvent#paramString() public java.lang.String java.awt.AWTEvent.paramString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +57,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEvent#setSource(Object) public void
-     * java.awt.AWTEvent.setSource(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.AWTEvent#setSource(Object) public void
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#setSource(Object) public void
      * java.awt.AWTEvent.setSource(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.AWTEvent#setSource(Object) public void java.awt.AWTEvent.setSource(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,18 +79,37 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEvent#toString() public java.lang.String java.awt.AWTEvent.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.AWTEvent#toString() public java.lang.String java.awt.AWTEvent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#getID() public int
+     * java.awt.AWTEvent.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.AWTEvent#toString() public java.lang.String java.awt.AWTEvent.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTEvent#toString() public java.lang.String
+     * java.awt.AWTEvent.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -104,28 +122,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.AWTEvent#getID() public int java.awt.AWTEvent.getID()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.AWTEvent#getID() public int java.awt.AWTEvent.getID()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.AWTEvent#getID() public int java.awt.AWTEvent.getID() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.AWTEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AWTEvent]
 
 }

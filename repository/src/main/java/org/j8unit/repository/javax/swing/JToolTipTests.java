@@ -1,45 +1,49 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JToolTip;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JToolTip class javax.swing.JToolTip}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link JToolTipClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JToolTip public
+ * class javax.swing.JToolTip}.
  * </p>
  *
- * @see javax.swing.JToolTip class javax.swing.JToolTip (the hereby targeted class-under-test class)
- * @see JToolTipClassTests JToolTipClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JToolTipClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JToolTipTests<SUT extends javax.swing.JToolTip>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JComponentTests<SUT> {
+public abstract interface JToolTipTests<SUT extends JToolTip>
+extends AccessibleTests<SUT>, JComponentTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolTip]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#updateUI() public void javax.swing.JToolTip.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#updateUI() public void javax.swing.JToolTip.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#updateUI() public void
+     * javax.swing.JToolTip.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#updateUI() public void javax.swing.JToolTip.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,38 +58,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#getComponent() public javax.swing.JComponent
-     * javax.swing.JToolTip.getComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#getComponent() public javax.swing.JComponent
-     * javax.swing.JToolTip.getComponent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JToolTip#getComponent() public javax.swing.JComponent javax.swing.JToolTip.getComponent() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#setComponent(javax.swing.JComponent) public void
-     * javax.swing.JToolTip.setComponent(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#setComponent(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JToolTip#setComponent(javax.swing.JComponent) public void
      * javax.swing.JToolTip.setComponent(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,8 +67,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#setComponent(javax.swing.JComponent) public void
-     *      javax.swing.JToolTip.setComponent(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,20 +81,37 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#getUIClassID() public java.lang.String
-     * javax.swing.JToolTip.getUIClassID()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#getUIClassID() public java.lang.String
-     * javax.swing.JToolTip.getUIClassID()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getComponent() public
+     * javax.swing.JComponent javax.swing.JToolTip.getComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#getUIClassID() public java.lang.String javax.swing.JToolTip.getUIClassID() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getUIClassID() public
+     * java.lang.String javax.swing.JToolTip.getUIClassID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -136,20 +126,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JToolTip.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JToolTip.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JToolTip.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JToolTip.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -164,20 +149,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#getTipText() public java.lang.String
-     * javax.swing.JToolTip.getTipText()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#getTipText() public java.lang.String
-     * javax.swing.JToolTip.getTipText()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getTipText() public
+     * java.lang.String javax.swing.JToolTip.getTipText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#getTipText() public java.lang.String javax.swing.JToolTip.getTipText() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,20 +171,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#getUI() public javax.swing.plaf.ToolTipUI
-     * javax.swing.JToolTip.getUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#getUI() public javax.swing.plaf.ToolTipUI
-     * javax.swing.JToolTip.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#getUI() public
+     * javax.swing.plaf.ToolTipUI javax.swing.JToolTip.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#getUI() public javax.swing.plaf.ToolTipUI javax.swing.JToolTip.getUI() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,11 +193,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToolTip#setTipText(String) public void
-     * javax.swing.JToolTip.setTipText(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToolTip#setTipText(String) public void
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolTip#setTipText(String) public void
      * javax.swing.JToolTip.setTipText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,8 +201,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToolTip#setTipText(String) public void javax.swing.JToolTip.setTipText(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -242,5 +212,9 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, JCompone
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolTip]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolTip]
 
 }

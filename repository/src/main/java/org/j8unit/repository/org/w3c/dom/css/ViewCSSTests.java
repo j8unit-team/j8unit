@@ -2,38 +2,41 @@ package org.j8unit.repository.org.w3c.dom.css;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.views.AbstractViewTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.css.ViewCSS;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.css.ViewCSS interface org.w3c.dom.css.ViewCSS}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ViewCSSClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ViewCSS public
+ * abstract interface org.w3c.dom.css.ViewCSS}.
  * </p>
  *
- * @see org.w3c.dom.css.ViewCSS interface org.w3c.dom.css.ViewCSS (the hereby targeted class-under-test class)
- * @see ViewCSSClassTests ViewCSSClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.css.ViewCSSClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ViewCSSTests<SUT extends org.w3c.dom.css.ViewCSS>
-extends org.j8unit.repository.org.w3c.dom.views.AbstractViewTests<SUT> {
+public abstract interface ViewCSSTests<SUT extends ViewCSS>
+extends AbstractViewTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.ViewCSS]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.ViewCSS#getComputedStyle(org.w3c.dom.Element, String) public abstract
-     * org.w3c.dom.css.CSSStyleDeclaration
-     * org.w3c.dom.css.ViewCSS.getComputedStyle(org.w3c.dom.Element,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.css.ViewCSS#getComputedStyle(org.w3c.dom.Element, String) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.css.ViewCSS#getComputedStyle(org.w3c.dom.Element, String) public abstract
      * org.w3c.dom.css.CSSStyleDeclaration
      * org.w3c.dom.css.ViewCSS.getComputedStyle(org.w3c.dom.Element,java.lang.String)}.
      *
@@ -42,10 +45,7 @@ extends org.j8unit.repository.org.w3c.dom.views.AbstractViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.css.ViewCSS#getComputedStyle(org.w3c.dom.Element, String) public abstract
-     *      org.w3c.dom.css.CSSStyleDeclaration
-     *      org.w3c.dom.css.ViewCSS.getComputedStyle(org.w3c.dom.Element,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,5 +56,9 @@ extends org.j8unit.repository.org.w3c.dom.views.AbstractViewTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.ViewCSS]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.ViewCSS]
 
 }

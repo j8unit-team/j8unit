@@ -1,74 +1,55 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.PageAttributes;
+import java.awt.PageAttributes.ColorType;
+import java.awt.PageAttributes.MediaType;
+import java.awt.PageAttributes.OrientationRequestedType;
+import java.awt.PageAttributes.OriginType;
+import java.awt.PageAttributes.PrintQualityType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.PageAttributes class java.awt.PageAttributes}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link PageAttributesClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PageAttributes
+ * public final class java.awt.PageAttributes}.
  * </p>
  *
- * @see java.awt.PageAttributes class java.awt.PageAttributes (the hereby targeted class-under-test class)
- * @see PageAttributesClassTests PageAttributesClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.PageAttributesClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PageAttributesTests<SUT extends java.awt.PageAttributes>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PageAttributesTests<SUT extends PageAttributes>
+extends CloneableTests<SUT>, ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes]
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setColor(java.awt.PageAttributes.ColorType) public void
-     * java.awt.PageAttributes.setColor(java.awt.PageAttributes$ColorType)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setColor(java.awt.PageAttributes.ColorType) public void
-     * java.awt.PageAttributes.setColor(java.awt.PageAttributes$ColorType)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getPrintQuality() public
+     * java.awt.PageAttributes$PrintQualityType java.awt.PageAttributes.getPrintQuality()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setColor(java.awt.PageAttributes.ColorType) public void
-     *      java.awt.PageAttributes.setColor(java.awt.PageAttributes$ColorType) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setColor_ColorType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getPrintQuality() public java.awt.PageAttributes$PrintQualityType
-     * java.awt.PageAttributes.getPrintQuality()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getPrintQuality() public java.awt.PageAttributes$PrintQualityType
-     * java.awt.PageAttributes.getPrintQuality()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.PageAttributes#getPrintQuality() public java.awt.PageAttributes$PrintQualityType
-     *      java.awt.PageAttributes.getPrintQuality() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +63,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setMediaToDefault() public void
-     * java.awt.PageAttributes.setMediaToDefault()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setMediaToDefault() public void
-     * java.awt.PageAttributes.setMediaToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setMediaToDefault() public
+     * void java.awt.PageAttributes.setMediaToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setMediaToDefault() public void java.awt.PageAttributes.setMediaToDefault() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,20 +85,38 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQuality(int) public void
-     * java.awt.PageAttributes.setPrintQuality(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQuality(int) public void
-     * java.awt.PageAttributes.setPrintQuality(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setColor(java.awt.PageAttributes.ColorType) public void
+     * java.awt.PageAttributes.setColor(java.awt.PageAttributes$ColorType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrintQuality(int) public void java.awt.PageAttributes.setPrintQuality(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setColor_ColorType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setPrintQuality(int) public
+     * void java.awt.PageAttributes.setPrintQuality(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,21 +130,16 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQuality(java.awt.PageAttributes.PrintQualityType) public
-     * void java.awt.PageAttributes.setPrintQuality(java.awt.PageAttributes$PrintQualityType)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQuality(java.awt.PageAttributes.PrintQualityType) public
-     * void java.awt.PageAttributes.setPrintQuality(java.awt.PageAttributes$PrintQualityType)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setPrintQuality(java.awt.PageAttributes.PrintQualityType) public void
+     * java.awt.PageAttributes.setPrintQuality(java.awt.PageAttributes$PrintQualityType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrintQuality(java.awt.PageAttributes.PrintQualityType) public void
-     *      java.awt.PageAttributes.setPrintQuality(java.awt.PageAttributes$PrintQualityType) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,18 +153,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#hashCode() public int java.awt.PageAttributes.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#hashCode() public int java.awt.PageAttributes.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#hashCode() public int
+     * java.awt.PageAttributes.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#hashCode() public int java.awt.PageAttributes.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -190,20 +176,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#equals(Object) public boolean
-     * java.awt.PageAttributes.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#equals(Object) public boolean
-     * java.awt.PageAttributes.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#equals(Object) public
+     * boolean java.awt.PageAttributes.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#equals(Object) public boolean java.awt.PageAttributes.equals(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,20 +199,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#getPrinterResolution() public int[]
-     * java.awt.PageAttributes.getPrinterResolution()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getPrinterResolution() public int[]
-     * java.awt.PageAttributes.getPrinterResolution()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getPrinterResolution()
+     * public int[] java.awt.PageAttributes.getPrinterResolution()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#getPrinterResolution() public int[] java.awt.PageAttributes.getPrinterResolution()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,20 +221,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#toString() public java.lang.String
-     * java.awt.PageAttributes.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#toString() public java.lang.String
-     * java.awt.PageAttributes.toString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#toString() public
+     * java.lang.String java.awt.PageAttributes.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#toString() public java.lang.String java.awt.PageAttributes.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -273,18 +244,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#clone() public java.lang.Object java.awt.PageAttributes.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#clone() public java.lang.Object java.awt.PageAttributes.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#clone() public
+     * java.lang.Object java.awt.PageAttributes.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#clone() public java.lang.Object java.awt.PageAttributes.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,11 +266,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setMedia(java.awt.PageAttributes.MediaType) public void
-     * java.awt.PageAttributes.setMedia(java.awt.PageAttributes$MediaType)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setMedia(java.awt.PageAttributes.MediaType) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setMedia(java.awt.PageAttributes.MediaType) public void
      * java.awt.PageAttributes.setMedia(java.awt.PageAttributes$MediaType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,8 +275,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setMedia(java.awt.PageAttributes.MediaType) public void
-     *      java.awt.PageAttributes.setMedia(java.awt.PageAttributes$MediaType) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,20 +289,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolution(int) public void
-     * java.awt.PageAttributes.setPrinterResolution(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolution(int) public void
-     * java.awt.PageAttributes.setPrinterResolution(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setPrinterResolution(int)
+     * public void java.awt.PageAttributes.setPrinterResolution(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrinterResolution(int) public void
-     *      java.awt.PageAttributes.setPrinterResolution(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -352,20 +311,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolution(int[]) public void
-     * java.awt.PageAttributes.setPrinterResolution(int[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolution(int[]) public void
-     * java.awt.PageAttributes.setPrinterResolution(int[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setPrinterResolution(int[])
+     * public void java.awt.PageAttributes.setPrinterResolution(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrinterResolution(int[]) public void
-     *      java.awt.PageAttributes.setPrinterResolution(int[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -379,20 +333,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#set(java.awt.PageAttributes) public void
-     * java.awt.PageAttributes.set(java.awt.PageAttributes)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#set(java.awt.PageAttributes) public void
-     * java.awt.PageAttributes.set(java.awt.PageAttributes)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#set(java.awt.PageAttributes)
+     * public void java.awt.PageAttributes.set(java.awt.PageAttributes)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#set(java.awt.PageAttributes) public void
-     *      java.awt.PageAttributes.set(java.awt.PageAttributes) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -406,47 +355,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#getMedia() public java.awt.PageAttributes$MediaType
-     * java.awt.PageAttributes.getMedia()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getMedia() public java.awt.PageAttributes$MediaType
-     * java.awt.PageAttributes.getMedia()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getOrientationRequested()
+     * public java.awt.PageAttributes$OrientationRequestedType java.awt.PageAttributes.getOrientationRequested()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#getMedia() public java.awt.PageAttributes$MediaType
-     *      java.awt.PageAttributes.getMedia() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMedia()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getOrientationRequested() public
-     * java.awt.PageAttributes$OrientationRequestedType java.awt.PageAttributes.getOrientationRequested()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getOrientationRequested() public
-     * java.awt.PageAttributes$OrientationRequestedType java.awt.PageAttributes.getOrientationRequested()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.PageAttributes#getOrientationRequested() public java.awt.PageAttributes$OrientationRequestedType
-     *      java.awt.PageAttributes.getOrientationRequested() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -460,11 +377,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrientationRequestedToDefault() public void
-     * java.awt.PageAttributes.setOrientationRequestedToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getMedia() public
+     * java.awt.PageAttributes$MediaType java.awt.PageAttributes.getMedia()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMedia()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrientationRequestedToDefault() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setOrientationRequestedToDefault() public void
      * java.awt.PageAttributes.setOrientationRequestedToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -472,8 +408,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setOrientationRequestedToDefault() public void
-     *      java.awt.PageAttributes.setOrientationRequestedToDefault() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -487,11 +422,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrigin(java.awt.PageAttributes.OriginType) public void
-     * java.awt.PageAttributes.setOrigin(java.awt.PageAttributes$OriginType)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrigin(java.awt.PageAttributes.OriginType) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setOrigin(java.awt.PageAttributes.OriginType) public void
      * java.awt.PageAttributes.setOrigin(java.awt.PageAttributes$OriginType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -499,9 +431,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setOrigin(java.awt.PageAttributes.OriginType) public void
-     *      java.awt.PageAttributes.setOrigin(java.awt.PageAttributes$OriginType) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -515,20 +445,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#getOrigin() public java.awt.PageAttributes$OriginType
-     * java.awt.PageAttributes.getOrigin()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getOrigin() public java.awt.PageAttributes$OriginType
-     * java.awt.PageAttributes.getOrigin()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getOrigin() public
+     * java.awt.PageAttributes$OriginType java.awt.PageAttributes.getOrigin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#getOrigin() public java.awt.PageAttributes$OriginType
-     *      java.awt.PageAttributes.getOrigin() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,39 +467,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrientationRequested(int) public void
-     * java.awt.PageAttributes.setOrientationRequested(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setOrientationRequested(int) public void
-     * java.awt.PageAttributes.setOrientationRequested(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.PageAttributes#setOrientationRequested(int) public void
-     *      java.awt.PageAttributes.setOrientationRequested(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOrientationRequested_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.PageAttributes#setOrientationRequested(java.awt.PageAttributes.OrientationRequestedType) public
-     * void java.awt.PageAttributes.setOrientationRequested(java.awt.PageAttributes$OrientationRequestedType)}.
-     *
-     * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.PageAttributes#setOrientationRequested(java.awt.PageAttributes.OrientationRequestedType) public
      * void java.awt.PageAttributes.setOrientationRequested(java.awt.PageAttributes$OrientationRequestedType)}.
      *
@@ -583,9 +476,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setOrientationRequested(java.awt.PageAttributes.OrientationRequestedType) public
-     *      void java.awt.PageAttributes.setOrientationRequested(java.awt.PageAttributes$OrientationRequestedType) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -599,25 +490,20 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#getColor() public java.awt.PageAttributes$ColorType
-     * java.awt.PageAttributes.getColor()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#getColor() public java.awt.PageAttributes$ColorType
-     * java.awt.PageAttributes.getColor()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setOrientationRequested(int)
+     * public void java.awt.PageAttributes.setOrientationRequested(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#getColor() public java.awt.PageAttributes$ColorType
-     *      java.awt.PageAttributes.getColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColor()
+    public default void test_setOrientationRequested_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -626,20 +512,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQualityToDefault() public void
-     * java.awt.PageAttributes.setPrintQualityToDefault()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrintQualityToDefault() public void
-     * java.awt.PageAttributes.setPrintQualityToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#setPrintQualityToDefault()
+     * public void java.awt.PageAttributes.setPrintQualityToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrintQualityToDefault() public void
-     *      java.awt.PageAttributes.setPrintQualityToDefault() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -653,11 +534,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolutionToDefault() public void
-     * java.awt.PageAttributes.setPrinterResolutionToDefault()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.PageAttributes#getColor() public
+     * java.awt.PageAttributes$ColorType java.awt.PageAttributes.getColor()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.PageAttributes#setPrinterResolutionToDefault() public void
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.PageAttributes#setPrinterResolutionToDefault() public void
      * java.awt.PageAttributes.setPrinterResolutionToDefault()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -665,8 +565,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.PageAttributes#setPrinterResolutionToDefault() public void
-     *      java.awt.PageAttributes.setPrinterResolutionToDefault() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -678,124 +577,162 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.awt.PageAttributes.ColorType class
-     * java.awt.PageAttributes$ColorType}. The complementary j8unit test interface containing the class relevant aspects
-     * is {@link PageAttributesClassTests.ColorTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PrintQualityType public static final class java.awt.PageAttributes$PrintQualityType}.
      * </p>
      *
-     * @see java.awt.PageAttributes.ColorType class java.awt.PageAttributes$ColorType (the hereby targeted
-     *      class-under-test class)
-     * @see PageAttributesClassTests.ColorTypeClassTests PageAttributesClassTests.ColorTypeClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorTypeTests<SUT extends java.awt.PageAttributes.ColorType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface PrintQualityTypeTests<SUT extends PrintQualityType>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.awt.PageAttributes.OriginType class
-     * java.awt.PageAttributes$OriginType}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link PageAttributesClassTests.OriginTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ColorType
+     * public static final class java.awt.PageAttributes$ColorType}.
      * </p>
      *
-     * @see java.awt.PageAttributes.OriginType class java.awt.PageAttributes$OriginType (the hereby targeted
-     *      class-under-test class)
-     * @see PageAttributesClassTests.OriginTypeClassTests PageAttributesClassTests.OriginTypeClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OriginTypeTests<SUT extends java.awt.PageAttributes.OriginType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface ColorTypeTests<SUT extends ColorType>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.awt.PageAttributes.OrientationRequestedType class
-     * java.awt.PageAttributes$OrientationRequestedType}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link PageAttributesClassTests.OrientationRequestedTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OriginType
+     * public static final class java.awt.PageAttributes$OriginType}.
      * </p>
      *
-     * @see java.awt.PageAttributes.OrientationRequestedType class java.awt.PageAttributes$OrientationRequestedType (the
-     *      hereby targeted class-under-test class)
-     * @see PageAttributesClassTests.OrientationRequestedTypeClassTests
-     *      PageAttributesClassTests.OrientationRequestedTypeClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OrientationRequestedTypeTests<SUT extends java.awt.PageAttributes.OrientationRequestedType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface OriginTypeTests<SUT extends OriginType>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.awt.PageAttributes.PrintQualityType class
-     * java.awt.PageAttributes$PrintQualityType}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link PageAttributesClassTests.PrintQualityTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MediaType
+     * public static final class java.awt.PageAttributes$MediaType}.
      * </p>
      *
-     * @see java.awt.PageAttributes.PrintQualityType class java.awt.PageAttributes$PrintQualityType (the hereby targeted
-     *      class-under-test class)
-     * @see PageAttributesClassTests.PrintQualityTypeClassTests PageAttributesClassTests.PrintQualityTypeClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.awt.PageAttributesClassTests.MediaTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PrintQualityTypeTests<SUT extends java.awt.PageAttributes.PrintQualityType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface MediaTypeTests<SUT extends MediaType>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.awt.PageAttributes.MediaType class
-     * java.awt.PageAttributes$MediaType}. The complementary j8unit test interface containing the class relevant aspects
-     * is {@link PageAttributesClassTests.MediaTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link OrientationRequestedType public static final class java.awt.PageAttributes$OrientationRequestedType}.
      * </p>
      *
-     * @see java.awt.PageAttributes.MediaType class java.awt.PageAttributes$MediaType (the hereby targeted
-     *      class-under-test class)
-     * @see PageAttributesClassTests.MediaTypeClassTests PageAttributesClassTests.MediaTypeClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MediaTypeTests<SUT extends java.awt.PageAttributes.MediaType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface OrientationRequestedTypeTests<SUT extends OrientationRequestedType>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
 
     }
 

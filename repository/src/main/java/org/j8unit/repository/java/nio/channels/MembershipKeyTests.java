@@ -1,48 +1,49 @@
 package org.j8unit.repository.java.nio.channels;
 
+import java.nio.channels.MembershipKey;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.channels.MembershipKey class java.nio.channels.MembershipKey}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link MembershipKeyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MembershipKey
+ * public abstract class java.nio.channels.MembershipKey}.
  * </p>
  *
- * @see java.nio.channels.MembershipKey class java.nio.channels.MembershipKey (the hereby targeted class-under-test
- *      class)
- * @see MembershipKeyClassTests MembershipKeyClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.channels.MembershipKeyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MembershipKeyTests<SUT extends java.nio.channels.MembershipKey>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface MembershipKeyTests<SUT extends MembershipKey>
+extends ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.MembershipKey]
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#group() public abstract java.net.InetAddress
-     * java.nio.channels.MembershipKey.group()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#group() public abstract java.net.InetAddress
-     * java.nio.channels.MembershipKey.group()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#group() public
+     * abstract java.net.InetAddress java.nio.channels.MembershipKey.group()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#group() public abstract java.net.InetAddress
-     *      java.nio.channels.MembershipKey.group() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,12 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#block(java.net.InetAddress) public abstract
-     * java.nio.channels.MembershipKey java.nio.channels.MembershipKey.block(java.net.InetAddress) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#block(java.net.InetAddress) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.MembershipKey#block(java.net.InetAddress) public abstract
      * java.nio.channels.MembershipKey java.nio.channels.MembershipKey.block(java.net.InetAddress) throws
      * java.io.IOException}.
      *
@@ -70,9 +67,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#block(java.net.InetAddress) public abstract java.nio.channels.MembershipKey
-     *      java.nio.channels.MembershipKey.block(java.net.InetAddress) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,20 +81,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#channel() public abstract
-     * java.nio.channels.MulticastChannel java.nio.channels.MembershipKey.channel()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#channel() public abstract
-     * java.nio.channels.MulticastChannel java.nio.channels.MembershipKey.channel()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#channel() public
+     * abstract java.nio.channels.MulticastChannel java.nio.channels.MembershipKey.channel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#channel() public abstract java.nio.channels.MulticastChannel
-     *      java.nio.channels.MembershipKey.channel() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,20 +103,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#isValid() public abstract boolean
-     * java.nio.channels.MembershipKey.isValid()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#isValid() public abstract boolean
-     * java.nio.channels.MembershipKey.isValid()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#isValid() public
+     * abstract boolean java.nio.channels.MembershipKey.isValid()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#isValid() public abstract boolean java.nio.channels.MembershipKey.isValid()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,20 +125,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#networkInterface() public abstract
-     * java.net.NetworkInterface java.nio.channels.MembershipKey.networkInterface()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#networkInterface() public abstract
-     * java.net.NetworkInterface java.nio.channels.MembershipKey.networkInterface()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#networkInterface()
+     * public abstract java.net.NetworkInterface java.nio.channels.MembershipKey.networkInterface()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#networkInterface() public abstract java.net.NetworkInterface
-     *      java.nio.channels.MembershipKey.networkInterface() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,20 +147,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#sourceAddress() public abstract java.net.InetAddress
-     * java.nio.channels.MembershipKey.sourceAddress()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#sourceAddress() public abstract java.net.InetAddress
-     * java.nio.channels.MembershipKey.sourceAddress()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#sourceAddress()
+     * public abstract java.net.InetAddress java.nio.channels.MembershipKey.sourceAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#sourceAddress() public abstract java.net.InetAddress
-     *      java.nio.channels.MembershipKey.sourceAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,11 +169,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#unblock(java.net.InetAddress) public abstract
-     * java.nio.channels.MembershipKey java.nio.channels.MembershipKey.unblock(java.net.InetAddress)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#unblock(java.net.InetAddress) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.MembershipKey#unblock(java.net.InetAddress) public abstract
      * java.nio.channels.MembershipKey java.nio.channels.MembershipKey.unblock(java.net.InetAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -206,9 +178,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#unblock(java.net.InetAddress) public abstract
-     *      java.nio.channels.MembershipKey java.nio.channels.MembershipKey.unblock(java.net.InetAddress) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,20 +192,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#drop() public abstract void
-     * java.nio.channels.MembershipKey.drop()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.channels.MembershipKey#drop() public abstract void
-     * java.nio.channels.MembershipKey.drop()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.MembershipKey#drop() public
+     * abstract void java.nio.channels.MembershipKey.drop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.channels.MembershipKey#drop() public abstract void java.nio.channels.MembershipKey.drop() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,5 +211,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.MembershipKey]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.MembershipKey]
 
 }

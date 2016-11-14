@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.color;
 
+import java.awt.color.ICC_ColorSpace;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.color.ICC_ColorSpace class java.awt.color.ICC_ColorSpace}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ICC_ColorSpaceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ICC_ColorSpace
+ * public class java.awt.color.ICC_ColorSpace}.
  * </p>
  *
- * @see java.awt.color.ICC_ColorSpace class java.awt.color.ICC_ColorSpace (the hereby targeted class-under-test class)
- * @see ICC_ColorSpaceClassTests ICC_ColorSpaceClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.color.ICC_ColorSpaceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ICC_ColorSpaceTests<SUT extends java.awt.color.ICC_ColorSpace>
+public abstract interface ICC_ColorSpaceTests<SUT extends ICC_ColorSpace>
 extends ColorSpaceTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.color.ICC_ColorSpace]
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getProfile() public java.awt.color.ICC_Profile
-     * java.awt.color.ICC_ColorSpace.getProfile()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getProfile() public java.awt.color.ICC_Profile
-     * java.awt.color.ICC_ColorSpace.getProfile()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#getProfile() public
+     * java.awt.color.ICC_Profile java.awt.color.ICC_ColorSpace.getProfile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#getProfile() public java.awt.color.ICC_Profile
-     *      java.awt.color.ICC_ColorSpace.getProfile() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +56,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#fromCIEXYZ(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.fromCIEXYZ(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#fromCIEXYZ(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.fromCIEXYZ(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#fromCIEXYZ(float[])
+     * public float[] java.awt.color.ICC_ColorSpace.fromCIEXYZ(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#fromCIEXYZ(float[]) public float[]
-     *      java.awt.color.ICC_ColorSpace.fromCIEXYZ(float[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,20 +79,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#toRGB(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.toRGB(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#toRGB(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.toRGB(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#toRGB(float[]) public
+     * float[] java.awt.color.ICC_ColorSpace.toRGB(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#toRGB(float[]) public float[] java.awt.color.ICC_ColorSpace.toRGB(float[])
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,20 +102,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getMaxValue(int) public float
-     * java.awt.color.ICC_ColorSpace.getMaxValue(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getMaxValue(int) public float
-     * java.awt.color.ICC_ColorSpace.getMaxValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#getMaxValue(int)
+     * public float java.awt.color.ICC_ColorSpace.getMaxValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#getMaxValue(int) public float java.awt.color.ICC_ColorSpace.getMaxValue(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -139,20 +125,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#fromRGB(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.fromRGB(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#fromRGB(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.fromRGB(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#fromRGB(float[])
+     * public float[] java.awt.color.ICC_ColorSpace.fromRGB(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#fromRGB(float[]) public float[] java.awt.color.ICC_ColorSpace.fromRGB(float[])
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -167,20 +148,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getMinValue(int) public float
-     * java.awt.color.ICC_ColorSpace.getMinValue(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getMinValue(int) public float
-     * java.awt.color.ICC_ColorSpace.getMinValue(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#getMinValue(int)
+     * public float java.awt.color.ICC_ColorSpace.getMinValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#getMinValue(int) public float java.awt.color.ICC_ColorSpace.getMinValue(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -195,20 +171,15 @@ extends ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#toCIEXYZ(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.toCIEXYZ(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#toCIEXYZ(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.toCIEXYZ(float[])}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.color.ICC_ColorSpace#toCIEXYZ(float[])
+     * public float[] java.awt.color.ICC_ColorSpace.toCIEXYZ(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.color.ICC_ColorSpace#toCIEXYZ(float[]) public float[]
-     *      java.awt.color.ICC_ColorSpace.toCIEXYZ(float[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -220,5 +191,9 @@ extends ColorSpaceTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.color.ICC_ColorSpace]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.color.ICC_ColorSpace]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.LinearGradientPaint;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,49 +9,42 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.LinearGradientPaint class java.awt.LinearGradientPaint}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LinearGradientPaintClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link LinearGradientPaint public final class java.awt.LinearGradientPaint}.
  * </p>
  *
- * @see java.awt.LinearGradientPaint class java.awt.LinearGradientPaint (the hereby targeted class-under-test class)
- * @see LinearGradientPaintClassTests LinearGradientPaintClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.LinearGradientPaintClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinearGradientPaintTests<SUT extends java.awt.LinearGradientPaint>
+public abstract interface LinearGradientPaintTests<SUT extends LinearGradientPaint>
 extends MultipleGradientPaintTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.LinearGradientPaint]
 
     /**
      * <p>
-     * Test method for
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.LinearGradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
      * public java.awt.PaintContext
-     * java.awt.LinearGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.LinearGradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
-     * public java.awt.PaintContext
-     * java.awt.LinearGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
-     * .
+     * java.awt.LinearGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.LinearGradientPaint#createContext(java.awt.image.ColorModel, java.awt.Rectangle,
-     *      java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints) public
-     *      java.awt.PaintContext
-     *      java.awt.LinearGradientPaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.
-     *      Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -65,20 +59,15 @@ extends MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LinearGradientPaint#getEndPoint() public java.awt.geom.Point2D
-     * java.awt.LinearGradientPaint.getEndPoint()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.LinearGradientPaint#getEndPoint() public java.awt.geom.Point2D
-     * java.awt.LinearGradientPaint.getEndPoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.LinearGradientPaint#getEndPoint() public
+     * java.awt.geom.Point2D java.awt.LinearGradientPaint.getEndPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.LinearGradientPaint#getEndPoint() public java.awt.geom.Point2D
-     *      java.awt.LinearGradientPaint.getEndPoint() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -92,20 +81,15 @@ extends MultipleGradientPaintTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LinearGradientPaint#getStartPoint() public java.awt.geom.Point2D
-     * java.awt.LinearGradientPaint.getStartPoint()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.LinearGradientPaint#getStartPoint() public java.awt.geom.Point2D
-     * java.awt.LinearGradientPaint.getStartPoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.LinearGradientPaint#getStartPoint() public
+     * java.awt.geom.Point2D java.awt.LinearGradientPaint.getStartPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.LinearGradientPaint#getStartPoint() public java.awt.geom.Point2D
-     *      java.awt.LinearGradientPaint.getStartPoint() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,5 +100,9 @@ extends MultipleGradientPaintTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.LinearGradientPaint]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.LinearGradientPaint]
 
 }

@@ -1,64 +1,67 @@
 package org.j8unit.repository.java.lang;
 
 import static org.junit.Assert.assertTrue;
+import java.lang.Character.Subset;
+import java.lang.Character.UnicodeBlock;
+import java.lang.Character.UnicodeScript;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain Character class java.lang.Character}, containing all type relevant
- * aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the runtime type of
- * this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Character public
+ * final class java.lang.Character}.
+ *
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link CharacterTests}).
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.java.lang.CharacterTests}.
  * </p>
  *
  * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
  * </p>
  *
  * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
- * </p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
- * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link CharacterTests}.
- * </p>
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
  *
- * @see Character class java.lang.Character (the hereby targeted class-under-test class)
- * @see CharacterTests CharacterTests (The complementary j8unit test interface containing the instance relevant test
- *      methods)
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterClassTests<SUT extends Character>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests<SUT> {
+extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -68,212 +71,208 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, ComparableCla
                    Character.class.isAssignableFrom(sut));
     }
 
-    /**
-     * <p>
-     * Reusable j8unit test interface for {@linkplain Character.Subset class java.lang.Character$Subset}, containing all
-     * type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition,
-     * the runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link CharacterTests.SubsetTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CharacterTests.SubsetTests}.
-     * </p>
-     *
-     * @see Character.Subset class java.lang.Character$Subset (the hereby targeted class-under-test class)
-     * @see CharacterTests.SubsetTests CharacterTests.SubsetTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface SubsetClassTests<SUT extends Character.Subset>
-    extends ObjectClassTests<SUT> {
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character]
 
-        /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
-         *      (the hereby targeted method-under-test)
-         *
-         * @since 0.9.2
-         */
-        @Override
-        @BeforeClass
-        public default void verifyGenericType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Character.Subset.class!",
-                       Character.Subset.class.isAssignableFrom(sut));
-        }
-
-    }
+    // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character]
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain Character.UnicodeScript class java.lang.Character$UnicodeScript},
-     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link UnicodeScript public static final enum java.lang.Character$UnicodeScript}.
+     *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link CharacterTests.UnicodeScriptTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CharacterTests.UnicodeScriptTests}.
+     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests}.
      * </p>
      *
-     * @see Character.UnicodeScript class java.lang.Character$UnicodeScript (the hereby targeted class-under-test class)
-     * @see CharacterTests.UnicodeScriptTests CharacterTests.UnicodeScriptTests (The complementary j8unit test interface
-     *      containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UnicodeScriptClassTests<SUT extends Character.UnicodeScript>
+    public static abstract interface UnicodeScriptClassTests<SUT extends UnicodeScript>
     extends EnumClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeScript]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Character.UnicodeScript.class!",
-                       Character.UnicodeScript.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnicodeScript.class!",
+                              UnicodeScript.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeScript]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeScript]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain Character.UnicodeBlock class java.lang.Character$UnicodeBlock},
-     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link Subset public static class java.lang.Character$Subset}.
+     *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link CharacterTests.UnicodeBlockTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link CharacterTests.UnicodeBlockTests}.
+     * {@link org.j8unit.repository.java.lang.CharacterTests.SubsetTests}.
      * </p>
      *
-     * @see Character.UnicodeBlock class java.lang.Character$UnicodeBlock (the hereby targeted class-under-test class)
-     * @see CharacterTests.UnicodeBlockTests CharacterTests.UnicodeBlockTests (The complementary j8unit test interface
-     *      containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UnicodeBlockClassTests<SUT extends Character.UnicodeBlock>
-    extends CharacterClassTests.SubsetClassTests<SUT> {
+    public static abstract interface SubsetClassTests<SUT extends Subset>
+    extends ObjectClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$Subset]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Character.UnicodeBlock.class!",
-                       Character.UnicodeBlock.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Subset.class!",
+                              Subset.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$Subset]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$Subset]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link UnicodeBlock public static final class java.lang.Character$UnicodeBlock}.
+     *
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests}.
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface UnicodeBlockClassTests<SUT extends UnicodeBlock>
+    extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeBlock]
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @Test
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnicodeBlock.class!",
+                              UnicodeBlock.class.isAssignableFrom(sut));
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeBlock]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
 
     }
 

@@ -1,28 +1,36 @@
 package org.j8unit.repository.javax.naming;
 
+import javax.naming.NameNotFoundException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.NameNotFoundException class
- * javax.naming.NameNotFoundException}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link NameNotFoundExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NameNotFoundException public class javax.naming.NameNotFoundException}.
  * </p>
  *
- * @see javax.naming.NameNotFoundException class javax.naming.NameNotFoundException (the hereby targeted
- *      class-under-test class)
- * @see NameNotFoundExceptionClassTests NameNotFoundExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.NameNotFoundExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NameNotFoundExceptionTests<SUT extends javax.naming.NameNotFoundException>
+public abstract interface NameNotFoundExceptionTests<SUT extends NameNotFoundException>
 extends NamingExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NameNotFoundException]
+
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.NameNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.NameNotFoundException]
 
 }
