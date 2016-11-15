@@ -151,8 +151,9 @@ extends org.junit.Assert {
     }
 
     public static void assertSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        // TODO
-        Assert.assertSame(resolve(message), expected, actual);
+        if (expected != actual) {
+            failNotSame(message, expected, actual);
+        }
     }
 
     public static void assertNotSame(final Supplier<? extends String> message, final Object unexpected, final Object actual) {
@@ -204,6 +205,10 @@ extends org.junit.Assert {
 
     static private void failNotNull(final Supplier<? extends String> message, final Object actual) {
         Assert.fail(Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">");
+    }
+
+    static private void failNotSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
+        Assert.fail(Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">");
     }
 
 }
