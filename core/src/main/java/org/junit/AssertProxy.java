@@ -1,5 +1,6 @@
 package org.junit;
 
+import java.util.Objects;
 import java.util.function.Supplier;
 import org.j8unit.Assert;
 import org.junit.internal.ArrayComparisonFailure;
@@ -26,8 +27,13 @@ extends org.junit.Assert {
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        // TODO
-        Assert.assertEquals(resolve(message), expected, actual);
+        if (Objects.equals(expected, actual)) {
+            return;
+        } else if ((expected instanceof String) && (actual instanceof String)) {
+            throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
+        } else {
+            fail(format(resolve(message), expected, actual));
+        }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final Object unexpected, final Object actual) {
