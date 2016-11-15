@@ -144,10 +144,12 @@ extends org.junit.Assert {
         Assert.assertNotSame(resolve(message), unexpected, actual);
     }
 
+    /**
+     * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
+     */
     @Deprecated
     public static void assertEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals) {
-        // TODO
-        Assert.assertEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(message, expecteds, actuals);
     }
 
 }
