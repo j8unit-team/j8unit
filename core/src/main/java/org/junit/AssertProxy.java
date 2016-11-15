@@ -144,8 +144,9 @@ extends org.junit.Assert {
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual, final float delta) {
-        // TODO
-        Assert.assertNotEquals(resolve(message), unexpected, actual, delta);
+        if (!floatIsDifferent(unexpected, actual, delta)) {
+            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Float.valueOf(actual));
+        }
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final long expected, final long actual) {
