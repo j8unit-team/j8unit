@@ -43,8 +43,9 @@ extends org.junit.Assert {
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final long unexpected, final long actual) {
-        // TODO
-        Assert.assertNotEquals(resolve(message), unexpected, actual);
+        if (unexpected == actual) {
+            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Long.valueOf(actual));
+        }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual, final double delta) {
