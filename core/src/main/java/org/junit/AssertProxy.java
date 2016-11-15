@@ -1,6 +1,7 @@
-package org.j8unit;
+package org.junit;
 
 import java.util.function.Supplier;
+import org.j8unit.Assert;
 import org.junit.internal.ArrayComparisonFailure;
 
 public class AssertProxy
