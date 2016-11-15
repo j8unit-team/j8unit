@@ -118,10 +118,12 @@ extends org.junit.Assert {
         Assert.assertEquals(resolve(message), expected, actual);
     }
 
+    /**
+     * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
+     */
     @Deprecated
     public static void assertEquals(final Supplier<? extends String> message, final double expected, final double actual) {
-        // TODO
-        Assert.assertEquals(resolve(message), expected, actual);
+        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     public static void assertNotNull(final Supplier<? extends String> message, final Object object) {
