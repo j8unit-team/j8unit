@@ -150,8 +150,9 @@ extends org.junit.Assert {
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final long expected, final long actual) {
-        // TODO
-        Assert.assertEquals(resolve(message), expected, actual);
+        if (expected != actual) {
+            Assert.fail(format(resolve(message), Long.valueOf(expected), Long.valueOf(actual)));
+        }
     }
 
     /**
