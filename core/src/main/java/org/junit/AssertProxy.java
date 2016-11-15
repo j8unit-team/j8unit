@@ -97,12 +97,12 @@ extends org.junit.Assert {
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        if (Objects.equals(expected, actual)) {
-            return;
-        } else if ((expected instanceof String) && (actual instanceof String)) {
-            throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
-        } else {
-            failNotEquals(message, expected, actual);
+        if (!Objects.equals(expected, actual)) {
+            if ((expected instanceof String) && (actual instanceof String)) {
+                throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
+            } else {
+                failNotEquals(message, expected, actual);
+            }
         }
     }
 
