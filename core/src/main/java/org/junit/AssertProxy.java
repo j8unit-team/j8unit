@@ -118,6 +118,10 @@ extends org.junit.Assert {
         assertTrue(message, !condition);
     }
 
+    /**
+     * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
+     */
+    @Deprecated
     public static void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual) {
         Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
@@ -128,6 +132,10 @@ extends org.junit.Assert {
         }
     }
 
+    /**
+     * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
+     */
+    @Deprecated
     public static void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual) {
         Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
