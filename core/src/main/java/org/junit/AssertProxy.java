@@ -76,6 +76,14 @@ extends org.junit.Assert {
         }
     }
 
+    /**
+     * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
+     */
+    @Deprecated
+    public static void assertEquals(final Supplier<? extends String> message, final float expected, final float actual) {
+        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+    }
+
     public static void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta) {
         if (floatIsDifferent(expected, actual, delta)) {
             failNotEquals(message, Float.valueOf(expected), Float.valueOf(actual));
