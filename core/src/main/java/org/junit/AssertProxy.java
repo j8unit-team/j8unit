@@ -180,15 +180,7 @@ extends org.junit.Assert {
     }
 
     static private boolean doubleIsDifferent(final double d1, final double d2, final double delta) {
-        // TODO: Inline this method
-        if (Double.compare(d1, d2) == 0) {
-            return false;
-        }
-        if ((Math.abs(d1 - d2) <= delta)) {
-            return false;
-        }
-
-        return true;
+        return !((Double.compare(d1, d2) == 0) || (Math.abs(d1 - d2) <= delta));
     }
 
     public static void fail(final Supplier<? extends String> message) {
