@@ -21,7 +21,6 @@ extends org.junit.Assert {
     }
 
     public static void fail(final Supplier<? extends String> message) {
-        // TODO
         Assert.fail(resolve(message));
     }
 
