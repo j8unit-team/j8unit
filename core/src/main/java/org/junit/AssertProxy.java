@@ -141,8 +141,7 @@ extends org.junit.Assert {
     }
 
     public static void assertNotNull(final Supplier<? extends String> message, final Object object) {
-        // TODO
-        Assert.assertNotNull(resolve(message), object);
+        assertTrue(message, object != null);
     }
 
     public static void assertNull(final Supplier<? extends String> message, final Object object) {
