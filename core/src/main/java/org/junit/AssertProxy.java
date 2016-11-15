@@ -186,10 +186,28 @@ extends org.junit.Assert {
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * @deprecated Use {@link #assertArrayEquals(Supplier, double[], double[], double)} instead!
+     */
+    @Deprecated
+    public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals)
+    throws ArrayComparisonFailure {
+        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
+    }
+
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
     throws ArrayComparisonFailure {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
+    }
+
+    /**
+     * @deprecated Use {@link #assertArrayEquals(Supplier, float[], float[], float)} instead!
+     */
+    @Deprecated
+    public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals)
+    throws ArrayComparisonFailure {
+        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
