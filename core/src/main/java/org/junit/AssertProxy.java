@@ -66,6 +66,17 @@ extends org.junit.Assert {
         return true;
     }
 
+    static private boolean floatIsDifferent(final float f1, final float f2, final float delta) {
+        if (Float.compare(f1, f2) == 0) {
+            return false;
+        }
+        if ((Math.abs(f1 - f2) <= delta)) {
+            return false;
+        }
+
+        return true;
+    }
+
     public static void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws ArrayComparisonFailure {
         // TODO
@@ -127,8 +138,9 @@ extends org.junit.Assert {
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta) {
-        // TODO
-        Assert.assertEquals(resolve(message), expected, actual, delta);
+        if (floatIsDifferent(expected, actual, delta)) {
+            Assert.fail(format(resolve(message), Float.valueOf(expected), Float.valueOf(actual)));
+        }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual, final float delta) {
