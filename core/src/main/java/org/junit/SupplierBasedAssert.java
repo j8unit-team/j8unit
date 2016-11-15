@@ -88,7 +88,7 @@ extends org.junit.Assert {
     }
 
     protected static final boolean doubleIsDifferent(final double d1, final double d2, final double delta) {
-        return !((Double.compare(d1, d2) == 0) || (Math.abs(d1 - d2) <= delta));
+        return (Double.compare(d1, d2) != 0) && (Math.abs(d1 - d2) > delta);
     }
 
     public static final void assertEquals(final Supplier<? extends String> message, final double expected, final double actual, final double delta) {
@@ -120,7 +120,7 @@ extends org.junit.Assert {
     }
 
     protected static final boolean floatIsDifferent(final float f1, final float f2, final float delta) {
-        return !((Float.compare(f1, f2) == 0) || (Math.abs(f1 - f2) <= delta));
+        return (Float.compare(f1, f2) != 0) && (Math.abs(f1 - f2) > delta);
     }
 
     public static final void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta) {
