@@ -213,15 +213,7 @@ extends org.junit.Assert {
     }
 
     static private boolean floatIsDifferent(final float f1, final float f2, final float delta) {
-        // TODO: Inline this method
-        if (Float.compare(f1, f2) == 0) {
-            return false;
-        }
-        if ((Math.abs(f1 - f2) <= delta)) {
-            return false;
-        }
-
-        return true;
+        return !((Float.compare(f1, f2) == 0) || (Math.abs(f1 - f2) <= delta));
     }
 
     private static final String resolve(final Supplier<? extends String> supplier) {
