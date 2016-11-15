@@ -14,12 +14,6 @@ import org.junit.internal.ArrayComparisonFailure;
  * the {@link CharSequence}-based assertion methods give you more flexibility and allow deferred message creation.
  * </p>
  *
- * <p>
- * To be honest, all the methods currently just delegate to the origin {@link String}-based methods of
- * {@linkplain org.junit.Assert the JUnit Assert class}. Nevertheless, you can use them by now; The next version will
- * contain smart implementations too. Promised.
- * </p>
- *
  * @since 4.12
  */
 public class Assert
