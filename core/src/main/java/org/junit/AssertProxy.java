@@ -32,13 +32,14 @@ extends org.junit.Assert {
         } else if ((expected instanceof String) && (actual instanceof String)) {
             throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
         } else {
-            fail(format(resolve(message), expected, actual));
+            Assert.fail(format(resolve(message), expected, actual));
         }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final Object unexpected, final Object actual) {
-        // TODO
-        Assert.assertNotEquals(resolve(message), unexpected, actual);
+        if (Objects.equals(unexpected, actual)) {
+            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
+        }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final long unexpected, final long actual) {
