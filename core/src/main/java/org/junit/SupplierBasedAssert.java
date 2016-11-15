@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 import org.j8unit.Assert;
 import org.junit.internal.ArrayComparisonFailure;
 
-public class AssertProxy
+public class SupplierBasedAssert
 extends org.junit.Assert {
 
     private static final String resolve(final Supplier<? extends String> supplier) {
