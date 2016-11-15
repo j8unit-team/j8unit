@@ -8,6 +8,9 @@ import org.junit.internal.ArrayComparisonFailure;
 public class SupplierBasedAssert
 extends org.junit.Assert {
 
+    protected SupplierBasedAssert() {
+    }
+
     private static final String resolve(final Supplier<? extends String> supplier) {
         return (supplier == null) ? null : supplier.get();
     }
