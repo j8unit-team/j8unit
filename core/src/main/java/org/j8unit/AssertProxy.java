@@ -11,8 +11,9 @@ extends org.junit.Assert {
     }
 
     public static void assertTrue(final Supplier<? extends String> message, final boolean condition) {
-        // TODO
-        Assert.assertTrue(resolve(message), condition);
+        if (!condition) {
+            fail(message);
+        }
     }
 
     public static void assertFalse(final Supplier<? extends String> message, final boolean condition) {
