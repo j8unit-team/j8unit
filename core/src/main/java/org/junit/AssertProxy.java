@@ -18,17 +18,17 @@ extends org.junit.Assert {
 
     protected static final void failNotNull(final Supplier<? extends String> message, final Object actual) {
         // TODO: Inline this method
-        Assert.fail(Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">");
+        Assert.fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
     }
 
     protected static final void failNotSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
         // TODO: Inline this method
-        Assert.fail(Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">");
+        Assert.fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
     }
 
     protected static final void failSame(final Supplier<? extends String> message) {
         // TODO: Inline this method
-        Assert.fail(Objects.toString(resolve(message), "") + " expected not same");
+        Assert.fail((Objects.toString(resolve(message), "") + " expected not same").trim());
     }
 
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
