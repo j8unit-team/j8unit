@@ -49,8 +49,21 @@ extends org.junit.Assert {
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual, final double delta) {
-        // TODO
-        Assert.assertNotEquals(resolve(message), unexpected, actual, delta);
+        if (!doubleIsDifferent(unexpected, actual, delta)) {
+            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Double.valueOf(actual));
+        }
+    }
+
+    // TODO: Inline this method
+    static private boolean doubleIsDifferent(final double d1, final double d2, final double delta) {
+        if (Double.compare(d1, d2) == 0) {
+            return false;
+        }
+        if ((Math.abs(d1 - d2) <= delta)) {
+            return false;
+        }
+
+        return true;
     }
 
     public static void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
