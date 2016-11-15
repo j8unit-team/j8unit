@@ -32,49 +32,26 @@ extends org.junit.Assert {
         } else if ((expected instanceof String) && (actual instanceof String)) {
             throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
         } else {
-            Assert.fail(format(resolve(message), expected, actual));
+            failNotEquals(message, expected, actual);
         }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final Object unexpected, final Object actual) {
         if (Objects.equals(unexpected, actual)) {
-            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
+            failEquals(message, actual);
         }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final long unexpected, final long actual) {
         if (unexpected == actual) {
-            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Long.valueOf(actual));
+            failEquals(message, Long.valueOf(actual));
         }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual, final double delta) {
         if (!doubleIsDifferent(unexpected, actual, delta)) {
-            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Double.valueOf(actual));
+            failEquals(message, Double.valueOf(actual));
         }
-    }
-
-    // TODO: Inline this method
-    static private boolean doubleIsDifferent(final double d1, final double d2, final double delta) {
-        if (Double.compare(d1, d2) == 0) {
-            return false;
-        }
-        if ((Math.abs(d1 - d2) <= delta)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    static private boolean floatIsDifferent(final float f1, final float f2, final float delta) {
-        if (Float.compare(f1, f2) == 0) {
-            return false;
-        }
-        if ((Math.abs(f1 - f2) <= delta)) {
-            return false;
-        }
-
-        return true;
     }
 
     public static void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
@@ -133,25 +110,25 @@ extends org.junit.Assert {
 
     public static void assertEquals(final Supplier<? extends String> message, final double expected, final double actual, final double delta) {
         if (doubleIsDifferent(expected, actual, delta)) {
-            Assert.fail(format(resolve(message), Double.valueOf(expected), Double.valueOf(actual)));
+            failNotEquals(message, Double.valueOf(expected), Double.valueOf(actual));
         }
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta) {
         if (floatIsDifferent(expected, actual, delta)) {
-            Assert.fail(format(resolve(message), Float.valueOf(expected), Float.valueOf(actual)));
+            failNotEquals(message, Float.valueOf(expected), Float.valueOf(actual));
         }
     }
 
     public static void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual, final float delta) {
         if (!floatIsDifferent(unexpected, actual, delta)) {
-            Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + Float.valueOf(actual));
+            failEquals(message, Float.valueOf(actual));
         }
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final long expected, final long actual) {
         if (expected != actual) {
-            Assert.fail(format(resolve(message), Long.valueOf(expected), Long.valueOf(actual)));
+            failNotEquals(message, Long.valueOf(expected), Long.valueOf(actual));
         }
     }
 
@@ -189,6 +166,40 @@ extends org.junit.Assert {
     @Deprecated
     public static void assertEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals) {
         assertArrayEquals(message, expecteds, actuals);
+    }
+
+    // TODO: Inline this method
+    static private boolean doubleIsDifferent(final double d1, final double d2, final double delta) {
+        if (Double.compare(d1, d2) == 0) {
+            return false;
+        }
+        if ((Math.abs(d1 - d2) <= delta)) {
+            return false;
+        }
+
+        return true;
+    }
+
+    // TODO: Inline this method
+    static private boolean floatIsDifferent(final float f1, final float f2, final float delta) {
+        if (Float.compare(f1, f2) == 0) {
+            return false;
+        }
+        if ((Math.abs(f1 - f2) <= delta)) {
+            return false;
+        }
+
+        return true;
+    }
+
+    // TODO: Inline this method
+    private static void failEquals(final Supplier<? extends String> message, final Object actual) {
+        Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
+    }
+
+    // TODO: Inline this method
+    static private void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
+        Assert.fail(format(resolve(message), expected, actual));
     }
 
 }
