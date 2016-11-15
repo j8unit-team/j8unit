@@ -121,8 +121,9 @@ extends org.junit.Assert {
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final double expected, final double actual, final double delta) {
-        // TODO
-        Assert.assertEquals(resolve(message), expected, actual, delta);
+        if (doubleIsDifferent(expected, actual, delta)) {
+            Assert.fail(format(resolve(message), Double.valueOf(expected), Double.valueOf(actual)));
+        }
     }
 
     public static void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta) {
