@@ -3,11 +3,10 @@ package org.junit;
 import static java.lang.Math.abs;
 import java.util.Objects;
 import java.util.function.Supplier;
-import org.j8unit.Assert;
 import org.junit.internal.ArrayComparisonFailure;
 
 public class SupplierBasedAssert
-extends org.junit.Assert {
+extends Assert {
 
     protected SupplierBasedAssert() {
     }
@@ -33,7 +32,7 @@ extends org.junit.Assert {
     }
 
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        Assert.fail(format(resolve(message), expected, actual));
+        Assert.fail(Assert.format(resolve(message), expected, actual));
     }
 
     protected static final void failEquals(final Supplier<? extends String> message, final Object actual) {
