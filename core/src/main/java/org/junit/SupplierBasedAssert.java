@@ -5,6 +5,20 @@ import java.util.Objects;
 import java.util.function.Supplier;
 import org.junit.internal.ArrayComparisonFailure;
 
+/**
+ * <p>
+ * In addition to the assertion methods of {@link Assert}, this extensions allows the provision of supplied fail
+ * messages which are requested if and only if an assertion fails. (In other words, the message creation is deferred
+ * until needed and, thus, the costs of constructing a message parameter do not incur unless really necessary.)
+ * </p>
+ *
+ * <p>
+ * Similar to {@link Assert}, these methods can be used directly or can be referenced through static import. But in
+ * order to increase flexibility even further, the usage of {@link org.j8unit.Assert} is preferred.
+ * </p>
+ *
+ * @see org.j8unit.Assert
+ */
 public class SupplierBasedAssert
 extends Assert {
 
