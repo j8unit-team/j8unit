@@ -490,7 +490,7 @@ extends Assert {
 
     /**
      * Throws an {@link AssertionError}; You better use {@link #assertArrayEquals(Supplier, double[], double[], double)}
-     * instead! instead!
+     * instead!
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -517,7 +517,7 @@ extends Assert {
 
     /**
      * Throws an {@link AssertionError}; You better use {@link #assertArrayEquals(Supplier, float[], float[], float)}
-     * instead! instead!
+     * instead!
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
