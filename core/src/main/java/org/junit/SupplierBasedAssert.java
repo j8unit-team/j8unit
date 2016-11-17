@@ -438,8 +438,7 @@ extends Assert {
     }
 
     /**
-     * Throws an {@link AssertionError}; You better use {@link #assertArrayEquals(Supplier, Object[], Object[])}
-     * instead!
+     * Immediately refers to {@link #assertArrayEquals(Supplier, Object[], Object[])}.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -448,7 +447,7 @@ extends Assert {
      * @param actual
      *            the actual {@code Object} array to compare against {@code expected}
      * @throws AssertionError
-     *             always
+     *             iff the assertion fails
      *
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
