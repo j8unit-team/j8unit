@@ -493,7 +493,7 @@ extends Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals)
     throws ArrayComparisonFailure {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
+        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
