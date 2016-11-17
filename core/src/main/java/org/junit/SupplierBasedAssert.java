@@ -470,18 +470,60 @@ extends Assert {
         assertArrayEquals(message, expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, boolean, boolean)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code boolean} array with expected values
+     * @param actual
+     *            the {@code boolean} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, byte, byte)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code byte} array with expected values
+     * @param actual
+     *            the {@code byte} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, char, char)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code char} array with expected values
+     * @param actual
+     *            the {@code char} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
@@ -509,6 +551,22 @@ extends Assert {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, double, double)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code double} array with expected values
+     * @param actual
+     *            the {@code double} array with actual values to compare against {@code expected}
+     * @param delta
+     *            the maximum delta between two floating-point numbers for which they are still considered equal
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
@@ -536,30 +594,102 @@ extends Assert {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, float, float)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code float} array with expected values
+     * @param actual
+     *            the {@code float} array with actual values to compare against {@code expected}
+     * @param delta
+     *            the maximum delta between two floating-point numbers for which they are still considered equal
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, int, int)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code int} array with expected values
+     * @param actual
+     *            the {@code int} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, long, long)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code long} array with expected values
+     * @param actual
+     *            the {@code long} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, Object, Object)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code Object} array with expected values
+     * @param actual
+     *            the {@code Object} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertArrayEquals(String, short, short)}, but uses a supplied fail message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. (Next implementation will defer message creation
+     * until needed.)
+     *
+     * @param message
+     *            the supplied fail message ({@code null} will be ignored without any further notice)
+     * @param expected
+     *            the {@code short} array with expected values
+     * @param actual
+     *            the {@code short} array with actual values to compare against {@code expected}
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
         // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
