@@ -3,7 +3,6 @@ package org.junit;
 import static java.lang.Math.abs;
 import java.util.Objects;
 import java.util.function.Supplier;
-import org.junit.internal.ArrayComparisonFailure;
 
 /**
  * <p>
@@ -467,24 +466,24 @@ extends Assert {
      */
     @Deprecated
     public static final void assertEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         assertArrayEquals(message, expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -506,12 +505,12 @@ extends Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
@@ -533,36 +532,36 @@ extends Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
