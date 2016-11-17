@@ -472,19 +472,19 @@ extends Assert {
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -511,7 +511,7 @@ extends Assert {
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
@@ -538,31 +538,31 @@ extends Assert {
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
-        // TODO
+        // TODO: Fancy implementation which requests the supplied fail message only if the assertion fails
         Assert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
