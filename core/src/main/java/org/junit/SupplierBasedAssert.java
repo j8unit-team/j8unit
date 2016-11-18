@@ -6,8 +6,7 @@ import java.util.function.Supplier;
 
 /**
  * <p>
- * In addition to the assertion methods of {@link Assert}, this extensions allows the provision of supplied fail
- * messages.
+ * In addition to the assertion methods of {@link Assert}, this extensions allows the use of supplied fail messages.
  *
  * Beside the increased flexibility, the fail messages are requested if and only if an assertion fails. (In other words,
  * the message creation is deferred until needed and, thus, the costs of constructing a message parameter do not incur
@@ -15,9 +14,18 @@ import java.util.function.Supplier;
  * </p>
  *
  * <p>
- * Similar to {@link Assert}, these methods can be used directly or can be referenced through static import. But in
- * order to increase readability, the usage of {@link org.j8unit.Assert} is preferred.
+ * Similar to {@link Assert}, these methods can be used directly or can be referenced through static import.
  * </p>
+ *
+ * <p>
+ * <em>Please note:</em> There is another assertion extension ({@link org.j8unit.Assert}) that allows to use
+ * {@link CharSequence}-based or {@linkplain Supplier supplied} {@code CharSequence} fail messages. In result, these
+ * assertion methods extend the supplied-{@link String}-API of this component and allow a more general approach of
+ * providing fail messages; and, thus, its usage is preferred!
+ * </p>
+ *
+ * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component, this assertion
+ *          extension is located within the JUnit's name-space {@code org.junit} intentionally.
  *
  * @see org.j8unit.Assert
  */
@@ -478,7 +486,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, boolean, boolean)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -498,7 +506,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, byte, byte)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -518,7 +526,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, char, char)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -559,7 +567,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, double, double)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -602,7 +610,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, float, float)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -624,7 +632,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, int, int)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -644,7 +652,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, long, long)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -664,7 +672,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, Object, Object)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -684,7 +692,7 @@ extends Assert {
     /**
      * Similar to {@link Assert#assertArrayEquals(String, short, short)}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until needed.
+     * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
