@@ -255,6 +255,22 @@ extends RepositoryTests<SUT> {
      * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
      *      method-under-test)
      *
+     * @since 0.9.7
+     */
+    @Test
+    @Category(Should.class)
+    public default void equalsShouldBeSymmetric() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Object other = new Object();
+        assertFalse(other.equals(sut));
+        assertFalse(sut.equals(other));
+    }
+
+    /**
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     *
      * @since 0.9.3
      */
     @Test
