@@ -7,12 +7,107 @@ import org.junit.internal.ArrayComparisonFailure;
 
 /**
  * <p>
- * In addition to the JUnit's {@link org.junit.Assert} this extension provides {@link Supplier}-based assertion methods.
- * In result, it is possible to defer the message creation until required (or even skip creation unless necessary).
- *
- * Further, the message may be provided as a more general {@link CharSequence}. Similar to the aforementioned methods
- * the {@link CharSequence}-based assertion methods give you more flexibility and allow deferred message creation.
+ * In addition to the assertion methods of {@link Assert}, this extensions allows the use of supplied fail
+ * messages&nbsp;&ndash; either via {@link CharSequence} {@code interface} or via {@link Supplier} API. In both cases it
+ * is possible to defer the message creation until required (or even skip creation unless necessary).
  * </p>
+ *
+ * <p>
+ * This more general approach of providing fail messages allows convenient solutions such as:
+ * </p>
+ *
+ * <dl>
+ * <dt>Skip creation unless necessary</dt>
+ * <dd>
+ *
+ * <pre class="brush:java">
+ * import static org.j8unit.Assert.*;
+ * import org.junit.Test;
+ *
+ * public class MyTest {
+ *
+ *     private String someExpensiveMessageCreation() {
+ *         // do some very expensive message creation; for example:
+ *         //   (1) calculate string representation of long array,
+ *         //   (2) calculate string representation of deeply nested object,
+ *         //   (3) query message from remote database,
+ *         //   (4) ...
+ *     }
+ *
+ *     &#64;Test
+ *     public void someTest_1()
+ *     throws Exception {
+ *         // ...
+ *         assertNotNull(() -> someExpensiveMessageCreation(), expected, actual);
+ *     }
+ *
+ *     &#64;Test
+ *     public void someTest_2()
+ *     throws Exception {
+ *         // ...
+ *         assertNotNull(MyTest::someExpensiveMessageCreation(), expected, actual);
+ *     }
+ *
+ * }
+ * </pre>
+ *
+ * </dd>
+ * <dt>Enumerating the fail messages</dt>
+ * <dd>
+ *
+ * <pre class="brush:java">
+ * package mypackage;
+ * import static mypackage.FailMessages.*;
+ * import static org.j8unit.Assert.*;
+ * import org.junit.Test;
+ *
+ * public class MyTest {
+ *
+ *     static enum FailMessages
+ *     implements StringBasedCharSequence {
+ *         NULL("illegal null string"),
+ *         LENGTH("string has illegal length"),
+ *         INVALID("malformed java identifier string"),
+ *         // ... YOUR FAIL MESSAGES HERE ...;
+ *
+ *         private final String msg;
+ *
+ *         private FailMessages(final String msg) {
+ *             this.msg = msg;
+ *         }
+ *
+ *         &#64;Override
+ *         public String toString() {
+ *             return this.msg;
+ *         }
+ *     }
+ *
+ *     &#64;Test
+ *     public void testNotNullString()
+ *     throws Exception {
+ *         final String s = "...";
+ *         assertNotNull(NULL, s);
+ *     }
+ *
+ *     &#64;Test
+ *     public void testStringLength()
+ *     throws Exception {
+ *         final String s = "...";
+ *         assertTrue(LENGTH, s.length() > 14);
+ *     }
+ *
+ *     &#64;Test
+ *     public void testStringFormat()
+ *     throws Exception {
+ *         final String s = "...";
+ *         assertTrue(INVALID, javax.lang.model.SourceVersion.isName(s));
+ *     }
+ *
+ * }
+ * </pre>
+ *
+ * </dd>
+ * </dl>
  *
  * @since 4.12
  */
