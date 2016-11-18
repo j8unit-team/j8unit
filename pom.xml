@@ -140,6 +140,37 @@
         <module>./tools</module>
       </modules>
     </profile>
+
+    <profile>
+      <!-- This profile is motivated by: http://stackoverflow.com/questions/14825039/suppressing-gpg-signing-for-maven-based-continous-integration-builds-travis-ci -->
+      <!-- Activate by providing the "gpg.passphrase" property which must be provided anyway when doing signing. -->
+      <id>ossrh</id>
+      <activation>
+        <property>
+          <name>gpg.passphrase</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <!-- In order to disable artifact signing, run "mvn -Dgpg.skip ..." -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
   </profiles>
 
   <dependencyManagement>
