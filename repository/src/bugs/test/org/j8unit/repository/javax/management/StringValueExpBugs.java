@@ -1,7 +1,7 @@
 package org.j8unit.repository.javax.management;
 
 import javax.management.StringValueExp;
-import org.j8unit.repository.JavaBug;
+import org.j8unit.repository.categories.JavaBug;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 

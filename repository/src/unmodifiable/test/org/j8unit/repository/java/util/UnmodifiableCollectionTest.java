@@ -9,7 +9,7 @@ import static java.util.Collections.unmodifiableCollection;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.Collection;
-import org.j8unit.repository.JavaBug;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.experimental.categories.Category;
