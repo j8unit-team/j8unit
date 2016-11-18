@@ -1,88 +1,110 @@
 package org.j8unit.repository.java.util;
 
+import static java.lang.String.format;
+import static java.util.function.UnaryOperator.identity;
+import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import java.util.Collections;
 import java.util.List;
 import org.junit.Test;
 
 /**
- * {@link Collections#emptyList()} is said to be immutable. Thus it should be unmodifiable too. Unfortunately, it does
+ * {@link Collections#emptyList()} is said to be immutable. Thus, it must be unmodifiable too. Unfortunately, it does
  * not behave accordingly!
+ *
+ * @see <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html">The Java definition
+ *      of <em>unmodifiable</em> and <em>immutable</em> collections</a>
  *
  * @since 0.9.6
  */
 public class EmptyListBugs {
 
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsClear() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.clearMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsRemove() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.removeMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsRemoveAll() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.removeAllMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsReplaceAll() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.replaceAllMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsRetainAll() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.retainAllMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsSort() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.sortMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
-    public void emptyListIllegallySupportsRemoveIf() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
-        try {
-            lt.removeIfMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
-    }
-
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void emptyListIllegallySupportsAddAll() {
-        final UnmodifiableListTests<List<Object>, Object> lt = Collections::emptyList;
+        final List<Object> immutable = Collections.emptyList();
         try {
-            lt.addAllMustThrowUOE();
-            fail("According to the immutable/unmodifiable definition, a UnsupportedOperationException must have been thrown!");
-        } catch (final UnsupportedOperationException missing) {}
+            immutable.addAll(Collections.emptyList());
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsClear() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.clear();
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsRemove() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.remove(new Object());
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsRemoveAll() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.removeAll(Collections.emptyList());
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsRemoveIf() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.removeIf(e -> false);
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsReplaceAll() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.replaceAll(identity());
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsRetainAll() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.retainAll(immutable);
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
+    }
+
+    @Test(expected = AssertionError.class /* because there is a bug! */)
+    public void emptyListIllegallySupportsSort() {
+        final List<Object> immutable = Collections.emptyList();
+        try {
+            immutable.sort((x, y) -> immutable.indexOf(x) - immutable.indexOf(y));
+            fail(format("According to the unmodifiable/immutable definition, an %s must have been thrown!", UnsupportedOperationException.class));
+        } catch (final UnsupportedOperationException unmodifiableBarrier) {
+            assertTrue("A really unmodifiable collection does not support the operation above!", true);
+        }
     }
 
 }

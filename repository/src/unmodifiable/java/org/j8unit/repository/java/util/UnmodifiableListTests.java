@@ -1,6 +1,5 @@
 package org.j8unit.repository.java.util;
 
-import static java.util.Comparator.comparing;
 import static java.util.function.UnaryOperator.identity;
 import java.util.List;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -26,7 +25,7 @@ extends UnmodifiableCollectionTests<SUT, E>, ListTests<SUT, E> {
     public default void sortMustThrowUOE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.sort(comparing(Object::toString));
+        sut.sort((x, y) -> sut.indexOf(x) - sut.indexOf(y));
     }
 
 }

@@ -1,5 +1,8 @@
 package org.j8unit.repository.org.omg.stub.java.rmi;
 
+import java.util.HashSet;
+import java.util.Set;
+import javax.rmi.CORBA.Stub;
 import org.junit.Test;
 import org.omg.CORBA.BAD_OPERATION;
 import org.omg.stub.java.rmi._Remote_Stub;
@@ -9,10 +12,17 @@ import org.omg.stub.java.rmi._Remote_Stub;
  */
 public class _Remote_StubBugs {
 
-    @Test(expected = BAD_OPERATION.class)
+    @Test(expected = BAD_OPERATION.class /* because there is a bug! */)
     public void hashCodeThrowsAnException() {
-        final _Remote_StubTests<_Remote_Stub> rs = _Remote_Stub::new;
-        rs.hashCodeMustBeConsistent();
+        final Stub instance = new _Remote_Stub();
+        instance.hashCode();
+    }
+
+    @Test(expected = BAD_OPERATION.class /* because there is a bug! */)
+    public void hashSetAddCrashes() {
+        final Set<Stub> set = new HashSet<>();
+        final Stub instance = new _Remote_Stub();
+        set.add(instance);
     }
 
 }

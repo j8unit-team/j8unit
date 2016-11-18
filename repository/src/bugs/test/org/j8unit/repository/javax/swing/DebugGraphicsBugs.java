@@ -8,16 +8,16 @@ import org.junit.Test;
  */
 public class DebugGraphicsBugs {
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException() {
-        final DebugGraphicsTests<DebugGraphics> dg = DebugGraphics::new;
-        dg.toStringMustReturnNotNull();
+        final DebugGraphics instance = new DebugGraphics();
+        instance.toString();
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException2() {
-        final DebugGraphicsTests<DebugGraphics> dg = () -> new DebugGraphics(null);
-        dg.toStringMustReturnNotNull();
+        final DebugGraphics instance = new DebugGraphics(null);
+        instance.toString();
     }
 
 }

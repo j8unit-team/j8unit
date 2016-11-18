@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>showcases-j8unit</artifactId>
-  <name>J8Unit Project (Showcases)</name>
+  <name>J8Unit Project (Showcases Usage)</name>
   <description>Various showcases of J8Unit, J8Unit test interfaces, Runner scenarios, and further ...</description>
 
   <dependencies>

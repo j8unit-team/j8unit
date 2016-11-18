@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management;
 
+import static org.junit.Assert.assertNotNull;
 import javax.management.AttributeValueExp;
 import org.junit.Test;
 
@@ -8,16 +9,16 @@ import org.junit.Test;
  */
 public class AttributeValueExpBugs {
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void toStringReturnsNull() {
-        final AttributeValueExpTests<AttributeValueExp> ave = AttributeValueExp::new;
-        ave.toStringMustReturnNotNull();
+        final AttributeValueExp instance = new AttributeValueExp();
+        assertNotNull(null, instance.toString());
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = AssertionError.class /* because there is a bug! */)
     public void toStringReturnsNull2() {
-        final AttributeValueExpTests<AttributeValueExp> ave = () -> new AttributeValueExp(null);
-        ave.toStringMustReturnNotNull();
+        final AttributeValueExp instance = new AttributeValueExp(null);
+        assertNotNull(null, instance.toString());
     }
 
 }

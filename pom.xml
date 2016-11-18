@@ -117,11 +117,12 @@
       <!-- Up to now, the next release will contain the J8Unit Repository. -->
       <!-- TODO: Further, the Spring Framework has been updated; thus, we should release according updates -->
       <!-- of the J8Unit Spring project too. -->
-      <id>release</id>
+      <id>repository</id>
       <activation>
-        <activeByDefault>false</activeByDefault>
+        <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
+        <module>./core</module>
         <module>./repository</module>
       </modules>
     </profile>
@@ -129,7 +130,7 @@
     <profile>
       <id>showcases</id>
       <activation>
-        <activeByDefault>true</activeByDefault>
+        <activeByDefault>false</activeByDefault>
       </activation>
       <modules>
         <module>./core</module>

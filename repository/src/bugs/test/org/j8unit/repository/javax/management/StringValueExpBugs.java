@@ -11,16 +11,16 @@ import org.junit.experimental.categories.Category;
 @Category(JavaBug.class)
 public class StringValueExpBugs {
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException() {
-        final StringValueExpTests<StringValueExp> sve = StringValueExp::new;
-        sve.toStringMustReturnNotNull();
+        final StringValueExp instance = new StringValueExp();
+        instance.toString();
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class /* because there is a bug! */)
     public void toStringThrowsAnException2() {
-        final StringValueExpTests<StringValueExp> sve = () -> new StringValueExp(null);
-        sve.toStringMustReturnNotNull();
+        final StringValueExp instance = new StringValueExp(null);
+        instance.toString();
     }
 
 }
