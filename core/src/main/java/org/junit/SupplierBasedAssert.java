@@ -74,7 +74,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertTrue(String, boolean)}, but uses a supplied fail message which is requested if and
-     * only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the costs
+     * only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the costs
      * of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -93,7 +93,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertFalse(String, boolean)}, but uses a supplied fail message which is requested if
-     * and only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the
+     * and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
      * costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -110,7 +110,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNull(String, Object)}, but uses a supplied fail message which is requested if and
-     * only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the costs
+     * only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the costs
      * of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -129,7 +129,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotNull(String, Object)}, but uses a supplied fail message which is requested if
-     * and only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the
+     * and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
      * costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -146,7 +146,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertSame(String, Object, Object)}, but uses a supplied fail message which is requested
-     * if and only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the
+     * if and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
      * costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -167,7 +167,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotSame(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -235,7 +235,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertEquals(String, double, double, double)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -259,7 +259,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotEquals(String, double, double, double)}, but uses a supplied fail message which
-     * is requested if and only if the assertion fails. (In other words, the message creation is deferred until needed
+     * is requested if and only if the assertion fails. (In other words: The message creation is deferred until needed
      * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -329,7 +329,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertEquals(String, float, float, float)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -353,7 +353,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotEquals(String, float, float, float)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -377,7 +377,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertEquals(String, long, long)}, but uses a supplied fail message which is requested
-     * if and only if the assertion fails. (In other words, the message creation is deferred until needed and, thus, the
+     * if and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
      * costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -398,7 +398,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotEquals(String, long, long)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -419,7 +419,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertEquals(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
@@ -444,7 +444,7 @@ extends Assert {
 
     /**
      * Similar to {@link Assert#assertNotEquals(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words, the message creation is deferred until needed and,
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
      * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
