@@ -28,6 +28,7 @@ import java.util.function.Supplier;
  *          extension is located within the JUnit's name-space {@code org.junit} intentionally.
  *
  * @see org.j8unit.Assert
+ * @since 4.12.1
  */
 public class SupplierBasedAssert
 extends Assert {
