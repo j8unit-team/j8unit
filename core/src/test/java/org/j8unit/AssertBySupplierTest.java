@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class AssertBySupplierTest {
 
-    private static String someExpensiveMessageCreation() {
+    private String someExpensiveMessageCreation() {
         // do some very expensive message creation ...
         final String msg = "Damn, test failed!";
         // ... and return the result
