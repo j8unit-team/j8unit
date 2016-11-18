@@ -2,7 +2,7 @@ package org.j8unit;
 
 import org.junit.Test;
 
-public class CharSequenceAssertTest {
+public class AssertByCharSequenceTest {
 
     private static final CharSequence SUP = "FAILED";
 

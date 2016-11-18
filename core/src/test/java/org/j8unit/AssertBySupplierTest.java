@@ -2,7 +2,7 @@ package org.j8unit;
 
 import org.junit.Test;
 
-public class SupplierBasedAssertTest {
+public class AssertBySupplierTest {
 
     private static String someExpensiveMessageCreation() {
         // do some very expensive message creation ...
