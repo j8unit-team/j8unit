@@ -160,12 +160,16 @@ public class SupplierBasedAssertTest {
     public void test_assertEquals_float_success()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 0.0f, 0.0f);
+        SupplierBasedAssert.assertEquals(SUP, 0.0f, 0.1f, 0.2f);
+        SupplierBasedAssert.assertEquals(SUP, 0.0f, 1.0f, 2.0f);
     }
 
     @Test(expected = AssertionError.class)
     public void test_assertEquals_float_failure()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 1.0f, 0.0f);
+        SupplierBasedAssert.assertEquals(SUP, 0.0f, 0.1f, 0.05f);
+        SupplierBasedAssert.assertEquals(SUP, 0.0f, 1.0f, 0.9f);
     }
 
     @Test
