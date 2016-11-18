@@ -56,7 +56,6 @@ import org.junit.internal.ArrayComparisonFailure;
  * <dd>
  *
  * <pre class="brush:java">
- * package mypackage;
  * import static mypackage.FailMessages.*;
  * import static org.j8unit.Assert.*;
  * import org.junit.Test;
@@ -68,18 +67,11 @@ import org.junit.internal.ArrayComparisonFailure;
  *         NULL("illegal null string"),
  *         LENGTH("string has illegal length"),
  *         INVALID("malformed java identifier string"),
- *         // ... YOUR FAIL MESSAGES HERE ...;
+ *         // ... FURTHER FAIL MESSAGES HERE ...;
  *
  *         private final String msg;
- *
- *         private FailMessages(final String msg) {
- *             this.msg = msg;
- *         }
- *
- *         &#64;Override
- *         public String toString() {
- *             return this.msg;
- *         }
+ *         private FailMessages(final String msg) { this.msg = msg; }
+ *         public String toString() { return this.msg; }
  *     }
  *
  *     &#64;Test
@@ -89,19 +81,7 @@ import org.junit.internal.ArrayComparisonFailure;
  *         assertNotNull(NULL, s);
  *     }
  *
- *     &#64;Test
- *     public void testStringLength()
- *     throws Exception {
- *         final String s = "...";
- *         assertTrue(LENGTH, s.length() > 14);
- *     }
- *
- *     &#64;Test
- *     public void testStringFormat()
- *     throws Exception {
- *         final String s = "...";
- *         assertTrue(INVALID, javax.lang.model.SourceVersion.isName(s));
- *     }
+ *     // ... FURTHER TESTS HERE ...
  *
  * }
  * </pre>
