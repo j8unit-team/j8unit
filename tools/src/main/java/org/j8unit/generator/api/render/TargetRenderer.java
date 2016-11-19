@@ -88,8 +88,8 @@ public abstract interface TargetRenderer {
      * @implSpec The default implementation refers to {@link #targetCanonicalNameOf(Class)} and appends
      *           {@link Java#CLASS_SUFFIX}.
      *
-     * @see #basicCanonicalTestClassOf(Class)
-     * @see #simpleCanonicalTestClassOf(Class)
+     * @see #targetBasicClassOf(Class)
+     * @see #targetSimpleClassOf(Class)
      *
      * @param type
      *            the origin type
