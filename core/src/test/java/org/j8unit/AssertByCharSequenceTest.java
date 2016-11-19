@@ -2,6 +2,7 @@ package org.j8unit;
 
 import org.junit.Test;
 
+@SuppressWarnings("deprecation")
 public class AssertByCharSequenceTest {
 
     private static final CharSequence SUP = "FAILED";
