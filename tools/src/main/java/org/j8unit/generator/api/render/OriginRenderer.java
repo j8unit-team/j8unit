@@ -26,7 +26,7 @@ import java.lang.reflect.TypeVariable;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
-import org.j8unit.generator.util.Strings;
+import org.j8unit.generator.util.Java;
 
 /**
  * Definition of a behaviour for rendering the origin packages and names of given types.
@@ -181,8 +181,8 @@ public abstract interface OriginRenderer {
 
     /**
      * <p>
-     * Maps {@linkplain Type#getActualTypeArguments() each argument} of the given {@link Type type} to its definition
-     * statement and returns a {@linkplain List list} of these values.
+     * Maps {@linkplain ParameterizedType#getActualTypeArguments() each argument} of the given {@link ParameterizedType
+     * type} to its definition statement and returns a {@linkplain List list} of these values.
      * </p>
      *
      * <p>
@@ -191,7 +191,7 @@ public abstract interface OriginRenderer {
      *
      * @implSpec The default implementation already provides the aforementioned behaviour.
      *
-     * @param entity
+     * @param type
      *            the given type (that potentially declares type parameters)
      * @return a list of the {@code type}'s arguments, each mapped to its definition statement
      */
@@ -256,7 +256,7 @@ public abstract interface OriginRenderer {
     /**
      * <p>
      * Returns the {@linkplain #originCanonicalNameOf(Type) canonical name} of the given {@link ParameterizedType type}
-     * 's {@linkplain ParameterizedType#getRawType() raw type}, succeeded by a {@linkplain Strings#diamond(Iterable)
+     * 's {@linkplain ParameterizedType#getRawType() raw type}, succeeded by a {@linkplain Java#diamond(Iterable)
      * bcsv'ed} presentation of the result of the given suffix function (applied to the given {@code type}).
      * </p>
      *
@@ -281,8 +281,8 @@ public abstract interface OriginRenderer {
     /**
      * <p>
      * Returns the {@linkplain #originCanonicalNameOf(Type) canonical name} of the given {@link Class type}, succeeded
-     * by a {@linkplain Strings#diamond(Iterable) bcsv'ed} presentation of the result of the given suffix function
-     * (applied to the given {@code type}).
+     * by a {@linkplain Java#diamond(Iterable) bcsv'ed} presentation of the result of the given suffix function (applied
+     * to the given {@code type}).
      * </p>
      *
      * @implSpec The default implementation already provides the aforementioned behaviour.
