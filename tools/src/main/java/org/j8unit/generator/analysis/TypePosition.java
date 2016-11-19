@@ -119,7 +119,7 @@ implements Mismatcher<Class<?>> {
      * @see #LOCAL
      * @see #ANONYMOUS
      *
-     * @param modifier
+     * @param type
      *            the Java type to use for matching query
      * @return {@code true} if the given modifier fits to the specific kind of Java type; {@code false} otherwise
      */
