@@ -469,9 +469,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code Object} array
-     * @param actual
+     * @param actuals
      *            the actual {@code Object} array to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -491,9 +491,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code boolean} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code boolean} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -511,9 +511,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code byte} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code byte} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -531,9 +531,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code char} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code char} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
