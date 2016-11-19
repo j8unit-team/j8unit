@@ -28,7 +28,7 @@ import org.j8unit.repository.RepositoryTests;
 
 /**
  * <p>
- * Enumeration of the access scopes of {@linkplain Member type members]; Actually, there are only two.
+ * Enumeration of the access scopes of {@linkplain Member type members}; Actually, there are only two.
  * </p>
  *
  * <dl>
@@ -50,7 +50,7 @@ import org.j8unit.repository.RepositoryTests;
  * </p>
  * <ul>
  * <li>{@link #getBaseJ8UnitInterfaceType()}</li>
- * <li>{@link #getGenericStatement(OriginRenderer, Class)</li>
+ * <li>{@link #getGenericStatement(OriginRenderer, Class)}</li>
  * <li>{@link #getTestInterfaceSuperTypeDefinition(OriginRenderer, Entry)}</li>
  * </ul>
  */
