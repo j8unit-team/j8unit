@@ -51,6 +51,7 @@ public enum Lists {
      *            the further elements
      * @return the joined list
      */
+    @SafeVarargs
     public static final <T> List<T> join(final T element, final T... elements) {
         return concat(Stream.of(element), stream(elements)).collect(toList());
     }
