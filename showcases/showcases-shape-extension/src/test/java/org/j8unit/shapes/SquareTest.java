@@ -1,10 +1,7 @@
 package org.j8unit.shapes;
 
 import static java.util.Arrays.asList;
-
 import java.util.concurrent.Callable;
-import java.util.function.Supplier;
-
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
@@ -21,7 +18,7 @@ public class SquareTest implements RectangleTest<Square>, FactoryBasedJ8UnitTest
 
     @Parameters(name = "{index}: {1}")
     public static Iterable<Object[]> data() {
-        final Supplier<Square> fac1 = () -> new Square(3);
+        final Callable<Square> fac1 = () -> new Square(3);
         return asList(new Object[][] { { fac1, "sq-3x3()" } });
     }
 
