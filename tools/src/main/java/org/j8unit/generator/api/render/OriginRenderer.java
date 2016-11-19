@@ -332,7 +332,7 @@ public abstract interface OriginRenderer {
      * Returns the canonical class name of the given origin {@link Class type}'s class.
      * </p>
      *
-     * @implSpec The default implementation refers to {@link #originCanonicalNameOf(Class)} and appends
+     * @implSpec The default implementation refers to {@link #originCanonicalNameOf(Type)} and appends
      *           {@link org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      *
      * @see #originBasicClassOf(Class)
@@ -358,7 +358,7 @@ public abstract interface OriginRenderer {
      *
      * @implSpec The default implementation provides exactly the behaviour as described above.
      *
-     * @see #originCanonicalNameOf(Class)
+     * @see #originCanonicalNameOf(Type)
      * @see #originSimpleNameOf(Class)
      *
      * @param type
@@ -403,7 +403,7 @@ public abstract interface OriginRenderer {
      *
      * @implSpec The default implementation just refers to {@link Class#getSimpleName()}.
      *
-     * @see #originCanonicalNameOf(Class)
+     * @see #originCanonicalNameOf(Type)
      * @see #originBasicNameOf(Class)
      *
      * @param type
