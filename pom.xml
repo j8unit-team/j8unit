@@ -119,7 +119,7 @@
       <!-- of the J8Unit Spring project too. -->
       <id>repository</id>
       <activation>
-        <activeByDefault>true</activeByDefault>
+        <activeByDefault>false</activeByDefault>
       </activation>
       <modules>
         <module>./core</module>
@@ -130,7 +130,7 @@
     <profile>
       <id>showcases</id>
       <activation>
-        <activeByDefault>false</activeByDefault>
+        <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
         <module>./core</module>
