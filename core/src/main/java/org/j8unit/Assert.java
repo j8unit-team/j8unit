@@ -479,8 +479,8 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, boolean, boolean)}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * Similar to {@link Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a {@link CharSequence}-based
+     * fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
      * @param message
@@ -499,7 +499,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, byte, byte)}, but uses a {@link CharSequence}-based fail
+     * Similar to {@link Assert#assertArrayEquals(String, byte[], byte[])}, but uses a {@link CharSequence}-based fail
      * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
@@ -519,7 +519,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, char, char)}, but uses a {@link CharSequence}-based fail
+     * Similar to {@link Assert#assertArrayEquals(String, char[], char[])}, but uses a {@link CharSequence}-based fail
      * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
@@ -560,9 +560,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, double, double)}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, double[], double[], double)}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -603,9 +603,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, float, float)}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, float[], float[], float)}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -625,9 +625,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, int, int)}, but uses a {@link CharSequence}-based fail message
-     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
-     * creation until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, int[], int[])}, but uses a {@link CharSequence}-based fail
+     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -645,7 +645,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, long, long)}, but uses a {@link CharSequence}-based fail
+     * Similar to {@link Assert#assertArrayEquals(String, long[], long[])}, but uses a {@link CharSequence}-based fail
      * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
@@ -665,8 +665,8 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, Object, Object)}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * Similar to {@link Assert#assertArrayEquals(String, Object[], Object[])}, but uses a {@link CharSequence}-based
+     * fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
      * @param message
@@ -685,7 +685,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, short, short)}, but uses a {@link CharSequence}-based fail
+     * Similar to {@link Assert#assertArrayEquals(String, short[], short[])}, but uses a {@link CharSequence}-based fail
      * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
@@ -1073,7 +1073,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, boolean, boolean)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1093,7 +1093,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, byte, byte)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, byte[], byte[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1113,7 +1113,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, char, char)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, char[], char[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1154,9 +1154,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, double, double)}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, double[], double[], double)}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1198,9 +1198,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, float, float)}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, float[], float[], float)}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1221,7 +1221,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, int, int)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, int[], int[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1241,7 +1241,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, long, long)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, long[], long[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1261,7 +1261,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, Object, Object)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, Object[], Object[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1281,7 +1281,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, short, short)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, short[], short[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
