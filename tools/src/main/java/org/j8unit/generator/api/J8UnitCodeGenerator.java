@@ -47,15 +47,15 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
      * must be such complementary renderer.
      * </p>
      *
-     * @impleNote The default implementation skips any type that is not
-     *            {@linkplain org.j8unit.generator.analysis.TypePosition#TOP_LEVEL top-level} or is
-     *            {@linkplain GeneratorSetup#skipType(Class) identified to be skipped} by the given {@code control}.
+     * @implNote The default implementation skips any type that is not
+     *           {@linkplain org.j8unit.generator.analysis.TypePosition#TOP_LEVEL top-level} or is
+     *           {@linkplain GeneratorSetup#skipType(Class) identified to be skipped} by the given {@code control}.
      *
-     *            It then creates the test code source file (see {@link GeneratorOutputControler#targetFileFor(Class)})
-     *            containing the code returned by
-     *            {@link #generateSourceCode(Class, GeneratorUseControler, RenderBehaviour, TargetRenderer)}. If the
-     *            target file already exists, it will be overwritten if and only if the {@code control}
-     *            {@linkplain GeneratorOutputControler#doOverwrite(Class) allows} to do so.
+     *           It then creates the test code source file (see {@link GeneratorOutputControler#targetFileFor(Class)})
+     *           containing the code returned by
+     *           {@link #generateSourceCode(Class, GeneratorUseControler, RenderBehaviour, TargetRenderer)}. If the
+     *           target file already exists, it will be overwritten if and only if the {@code control}
+     *           {@linkplain GeneratorOutputControler#doOverwrite(Class) allows} to do so.
      *
      * @param type
      *            the target type
