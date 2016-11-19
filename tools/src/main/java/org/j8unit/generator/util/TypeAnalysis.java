@@ -47,7 +47,7 @@ public enum TypeAnalysis {
      * Tries to load a class by its name. If for any exceptional reason the class cannot be loaded, the thrown
      * {@link Exception} will print its stack trace to {@link System#err}.
      *
-     * @see optionalise
+     * @see Optionals#optionalise(java.util.concurrent.Callable, Consumer)
      * @param name
      *            the name of the {@link Class} to load
      * @return the loaded {@link Class}, enveloped into an {@link Optional}
@@ -469,7 +469,7 @@ public enum TypeAnalysis {
 
     /**
      * <p>
-     * Similar to {@link #calculateNearestDeclaringParents(Class, Method, Predicate, Consumer, Predicate, Consumer) but
+     * Similar to {@link #calculateNearestDeclaringParents(Class, Method, Predicate, Consumer, Predicate, Consumer)} but
      * (1) uses the given matcher to filter both the super classes and the super interfaces, and (2) uses the given
      * {@link Consumer consumer} to get informed about both the non-matching super classes and the non-matching super
      * interfaces.
