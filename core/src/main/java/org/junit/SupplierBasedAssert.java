@@ -550,9 +550,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code double} array
-     * @param actual
+     * @param actuals
      *            the actual {@code double} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -572,9 +572,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code double} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code double} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -593,9 +593,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code float} array
-     * @param actual
+     * @param actuals
      *            the actual {@code float} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -615,9 +615,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code float} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code float} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -637,9 +637,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code int} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code int} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -657,9 +657,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code long} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code long} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -677,9 +677,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code Object} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code Object} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -697,9 +697,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code short} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code short} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
