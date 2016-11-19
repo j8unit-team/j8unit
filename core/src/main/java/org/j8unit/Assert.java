@@ -3,7 +3,6 @@ package org.j8unit;
 import java.util.Objects;
 import java.util.function.Supplier;
 import org.junit.SupplierBasedAssert;
-import org.junit.internal.ArrayComparisonFailure;
 
 /**
  * <p>
@@ -465,9 +464,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code Object} array
-     * @param actual
+     * @param actuals
      *            the actual {@code Object} array to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -486,15 +485,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code boolean} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code boolean} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final boolean[] expecteds, final boolean[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -506,15 +505,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code byte} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code byte} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final byte[] expecteds, final byte[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -526,15 +525,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code char} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code char} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final char[] expecteds, final char[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -545,9 +544,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code double} array
-     * @param actual
+     * @param actuals
      *            the actual {@code double} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -556,7 +555,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final CharSequence message, final double[] expecteds, final double[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
     }
 
@@ -567,9 +566,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code double} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code double} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -577,7 +576,7 @@ extends org.junit.Assert {
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final double[] expecteds, final double[] actuals, final double delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals, delta);
     }
@@ -588,9 +587,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code float} array
-     * @param actual
+     * @param actuals
      *            the actual {@code float} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -599,7 +598,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final CharSequence message, final float[] expecteds, final float[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
@@ -610,9 +609,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code float} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code float} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -620,7 +619,7 @@ extends org.junit.Assert {
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final float[] expecteds, final float[] actuals, final float delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals, delta);
     }
@@ -632,15 +631,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code int} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code int} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final int[] expecteds, final int[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -652,15 +651,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code long} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code long} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final long[] expecteds, final long[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -672,15 +671,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code Object} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code Object} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -692,15 +691,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code short} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code short} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final CharSequence message, final short[] expecteds, final short[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
@@ -1059,9 +1058,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code Object} array
-     * @param actual
+     * @param actuals
      *            the actual {@code Object} array to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -1080,15 +1079,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code boolean} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code boolean} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final boolean[] expecteds, final boolean[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1100,15 +1099,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code byte} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code byte} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final byte[] expecteds, final byte[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1120,15 +1119,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code char} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code char} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final char[] expecteds, final char[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1139,9 +1138,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code double} array
-     * @param actual
+     * @param actuals
      *            the actual {@code double} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -1150,7 +1149,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
     }
 
@@ -1161,9 +1160,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code double} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code double} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -1172,7 +1171,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals,
                                                final double delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
@@ -1183,9 +1182,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code float} array
-     * @param actual
+     * @param actuals
      *            the actual {@code float} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -1194,7 +1193,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
@@ -1205,9 +1204,9 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code float} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code float} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -1216,7 +1215,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals,
                                                final float delta)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
@@ -1228,15 +1227,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code int} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code int} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final int[] expecteds, final int[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1248,15 +1247,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code long} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code long} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final long[] expecteds, final long[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1268,15 +1267,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code Object} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code Object} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
@@ -1288,15 +1287,15 @@ extends org.junit.Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code short} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code short} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final short[] expecteds, final short[] actuals)
-    throws ArrayComparisonFailure {
+    throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
     }
