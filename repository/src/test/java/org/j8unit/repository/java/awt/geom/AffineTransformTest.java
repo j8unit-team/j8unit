@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AffineTransform>, AffineTransformTests<AffineT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.AffineTransform]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AffineTransform::new);
     }
 

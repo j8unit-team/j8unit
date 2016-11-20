@@ -28,7 +28,7 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HTMLEditorKit::new);
     }
 
@@ -52,7 +52,7 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(HTMLFactory::new);
         }
 
@@ -123,7 +123,7 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(LinkController::new);
         }
 
@@ -149,7 +149,7 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ParserCallback::new);
         }
 

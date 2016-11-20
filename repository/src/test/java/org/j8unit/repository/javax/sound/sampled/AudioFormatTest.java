@@ -45,7 +45,7 @@ implements AudioFormatTests<AudioFormat> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioFormat$Encoding]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Encoding.ALAW, //
                                     Encoding.PCM_SIGNED, //
                                     Encoding.PCM_FLOAT, //

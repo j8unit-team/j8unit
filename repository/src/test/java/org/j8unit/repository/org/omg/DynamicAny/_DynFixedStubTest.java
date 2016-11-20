@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<_DynFixedStub>, _DynFixedStubTests<_DynFixedSt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynFixedStub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_DynFixedStub::new);
     }
 

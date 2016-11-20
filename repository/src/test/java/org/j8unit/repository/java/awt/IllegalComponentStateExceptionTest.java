@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IllegalComponentStateException>, IllegalCompon
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.IllegalComponentStateException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IllegalComponentStateException::new);
     }
 

@@ -22,7 +22,7 @@ implements ElementTypeTests<ElementType> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.annotation.ElementType]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(ElementType.class);
     }
 

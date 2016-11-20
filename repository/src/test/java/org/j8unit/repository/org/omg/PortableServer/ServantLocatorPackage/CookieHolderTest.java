@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CookieHolder>, CookieHolderTests<CookieHolder>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantLocatorPackage.CookieHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CookieHolder::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FileHandler>, FileHandlerTests<FileHandler> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.FileHandler]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FileHandler::new);
     }
 

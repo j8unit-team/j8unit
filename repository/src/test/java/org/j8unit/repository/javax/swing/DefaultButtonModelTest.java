@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DefaultButtonModel>, DefaultButtonModelTests<D
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultButtonModel]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultButtonModel::new);
     }
 

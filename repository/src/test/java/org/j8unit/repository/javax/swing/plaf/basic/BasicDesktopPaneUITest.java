@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BasicDesktopPaneUI>, BasicDesktopPaneUITests<B
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicDesktopPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicDesktopPaneUI::new);
     }
 

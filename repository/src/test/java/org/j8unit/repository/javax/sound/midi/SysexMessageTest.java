@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SysexMessage>, SysexMessageTests<SysexMessage>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.SysexMessage]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SysexMessage::new);
     }
 

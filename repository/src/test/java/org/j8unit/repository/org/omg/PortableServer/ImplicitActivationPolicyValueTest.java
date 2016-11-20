@@ -23,7 +23,7 @@ implements ImplicitActivationPolicyValueTests<ImplicitActivationPolicyValue> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ImplicitActivationPolicyValue.IMPLICIT_ACTIVATION, //
                                 ImplicitActivationPolicyValue.NO_IMPLICIT_ACTIVATION);
     }

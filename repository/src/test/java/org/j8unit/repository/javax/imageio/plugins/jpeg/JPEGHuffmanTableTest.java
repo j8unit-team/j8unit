@@ -22,7 +22,7 @@ implements JPEGHuffmanTableTests<JPEGHuffmanTable> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JPEGHuffmanTable.StdACLuminance, //
                                 JPEGHuffmanTable.StdACChrominance, //
                                 JPEGHuffmanTable.StdDCChrominance, //

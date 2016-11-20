@@ -22,7 +22,7 @@ implements XmlAccessTypeTests<XmlAccessType> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlAccessType]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(XmlAccessType.class);
     }
 

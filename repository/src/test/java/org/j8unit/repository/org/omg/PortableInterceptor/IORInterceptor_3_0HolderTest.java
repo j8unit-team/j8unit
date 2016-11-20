@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IORInterceptor_3_0Holder>, IORInterceptor_3_0H
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IORInterceptor_3_0Holder::new);
     }
 

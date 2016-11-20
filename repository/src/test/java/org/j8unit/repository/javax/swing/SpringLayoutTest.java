@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<SpringLayout>, SpringLayoutTests<SpringLayout>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SpringLayout::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<SpringLayout>, SpringLayoutTests<SpringLayout>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout$Constraints]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Constraints::new);
         }
 

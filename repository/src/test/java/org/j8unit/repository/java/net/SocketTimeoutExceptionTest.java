@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SocketTimeoutException>, SocketTimeoutExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketTimeoutException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SocketTimeoutException::new);
     }
 

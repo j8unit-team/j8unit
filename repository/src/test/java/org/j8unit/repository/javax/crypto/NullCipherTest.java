@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NullCipher>, NullCipherTests<NullCipher> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NullCipher]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NullCipher::new);
     }
 

@@ -22,7 +22,7 @@ implements CodingErrorActionTests<CodingErrorAction> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CodingErrorAction]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CodingErrorAction.IGNORE, //
                                 CodingErrorAction.REPLACE, //
                                 CodingErrorAction.REPORT);

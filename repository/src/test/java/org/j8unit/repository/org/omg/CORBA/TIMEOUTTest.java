@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TIMEOUT>, TIMEOUTTests<TIMEOUT> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TIMEOUT]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TIMEOUT::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TransactionRequiredException>, TransactionRequ
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TransactionRequiredException::new);
     }
 

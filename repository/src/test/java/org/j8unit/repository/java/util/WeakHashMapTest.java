@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<WeakHashMap<K, V>>, WeakHashMapTests<WeakHashM
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.WeakHashMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(WeakHashMap::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ServiceUI>, ServiceUITests<ServiceUI> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.ServiceUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ServiceUI::new);
     }
 

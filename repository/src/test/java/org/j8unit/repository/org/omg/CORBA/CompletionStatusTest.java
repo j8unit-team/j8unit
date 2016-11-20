@@ -22,7 +22,7 @@ implements CompletionStatusTests<CompletionStatus> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CompletionStatus]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CompletionStatus.COMPLETED_YES, //
                                 CompletionStatus.COMPLETED_NO, //
                                 CompletionStatus.COMPLETED_MAYBE);

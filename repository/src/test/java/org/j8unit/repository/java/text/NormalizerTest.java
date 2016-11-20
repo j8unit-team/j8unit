@@ -45,7 +45,7 @@ implements NormalizerTests<Normalizer> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer$Form]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Form.class);
         }
 

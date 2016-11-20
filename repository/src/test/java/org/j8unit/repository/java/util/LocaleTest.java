@@ -32,7 +32,7 @@ implements LocaleTests<Locale> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Locale.UK, //
                                 Locale.JAPAN, //
                                 Locale.ITALIAN, //
@@ -104,7 +104,7 @@ implements LocaleTests<Locale> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Category]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Category.class);
         }
 
@@ -135,7 +135,7 @@ implements LocaleTests<Locale> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$FilteringMode]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOfEnumClass(FilteringMode.class);
         }
 
@@ -161,7 +161,7 @@ implements LocaleTests<Locale> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Builder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Builder::new);
         }
 

@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<JToggleButton>, JToggleButtonTests<JToggleButt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JToggleButton::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<JToggleButton>, JToggleButtonTests<JToggleButt
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ToggleButtonModel::new);
         }
 

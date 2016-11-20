@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AccountNotFoundException>, AccountNotFoundExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountNotFoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AccountNotFoundException::new);
     }
 

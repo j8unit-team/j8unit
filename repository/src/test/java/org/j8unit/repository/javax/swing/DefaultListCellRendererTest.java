@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, DefaultListCellRende
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultListCellRenderer::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, DefaultListCellRende
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

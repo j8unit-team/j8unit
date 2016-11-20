@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JSeparator>, JSeparatorTests<JSeparator> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSeparator]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JSeparator::new);
     }
 

@@ -22,7 +22,7 @@ implements SetOverrideTypeTests<SetOverrideType> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.SetOverrideType]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SetOverrideType.ADD_OVERRIDE, //
                                 SetOverrideType.SET_OVERRIDE);
     }

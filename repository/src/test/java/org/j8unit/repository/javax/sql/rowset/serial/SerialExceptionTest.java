@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SerialException>, SerialExceptionTests<SerialE
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SerialException::new);
     }
 

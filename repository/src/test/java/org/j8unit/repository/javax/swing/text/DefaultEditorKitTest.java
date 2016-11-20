@@ -28,7 +28,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultEditorKit::new);
     }
 
@@ -52,7 +52,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(InsertBreakAction::new);
         }
 
@@ -78,7 +78,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$DefaultKeyTypedAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(DefaultKeyTypedAction::new);
         }
 
@@ -104,7 +104,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(InsertTabAction::new);
         }
 
@@ -130,7 +130,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CutAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(CutAction::new);
         }
 
@@ -156,7 +156,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(InsertContentAction::new);
         }
 
@@ -182,7 +182,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$PasteAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(PasteAction::new);
         }
 
@@ -208,7 +208,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$BeepAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(BeepAction::new);
         }
 
@@ -234,7 +234,7 @@ implements FactoryBasedJ8UnitTest<DefaultEditorKit>, DefaultEditorKitTests<Defau
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultEditorKit$CopyAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(CopyAction::new);
         }
 

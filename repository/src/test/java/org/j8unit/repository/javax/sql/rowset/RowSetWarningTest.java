@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RowSetWarning>, RowSetWarningTests<RowSetWarni
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetWarning]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RowSetWarning::new);
     }
 

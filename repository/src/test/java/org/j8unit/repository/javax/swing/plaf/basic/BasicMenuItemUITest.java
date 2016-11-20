@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BasicMenuItemUI>, BasicMenuItemUITests<BasicMe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuItemUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicMenuItemUI::new);
     }
 

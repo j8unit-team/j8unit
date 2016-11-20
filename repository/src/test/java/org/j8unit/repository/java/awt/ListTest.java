@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<List>, org.j8unit.repository.java.awt.ListTest
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.List]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(List::new);
     }
 

@@ -22,7 +22,7 @@ implements JapaneseChronologyTests<JapaneseChronology> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.JapaneseChronology]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JapaneseChronology.INSTANCE);
     }
 

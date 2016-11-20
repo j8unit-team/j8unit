@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthMenuItemUI>, SynthMenuItemUITests<SynthMe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuItemUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthMenuItemUI::new);
     }
 

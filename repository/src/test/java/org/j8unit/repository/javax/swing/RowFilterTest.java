@@ -68,7 +68,7 @@ implements RowFilterTests<RowFilter<M, I>, M, I> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(ComparisonType.class);
         }
 

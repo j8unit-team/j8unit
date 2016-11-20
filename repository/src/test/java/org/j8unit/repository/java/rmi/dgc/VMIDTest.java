@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<VMID>, VMIDTests<VMID> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.dgc.VMID]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(VMID::new);
     }
 

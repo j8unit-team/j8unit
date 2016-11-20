@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ValidationEventLocatorImpl>, ValidationEventLo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ValidationEventLocatorImpl::new);
     }
 

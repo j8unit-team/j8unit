@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NonWritableChannelException>, NonWritableChann
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NonWritableChannelException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NonWritableChannelException::new);
     }
 

@@ -22,7 +22,7 @@ implements InputSubsetTests<InputSubset> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.im.InputSubset]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InputSubset.LATIN_DIGITS, //
                                 InputSubset.FULLWIDTH_LATIN, //
                                 InputSubset.SIMPLIFIED_HANZI, //

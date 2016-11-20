@@ -20,7 +20,7 @@ implements FactoryBasedJ8UnitTest<TableRowSorter<M>>, TableRowSorterTests<TableR
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableRowSorter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TableRowSorter::new);
     }
 

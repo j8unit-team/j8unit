@@ -22,7 +22,7 @@ implements ThaiBuddhistEraTests<ThaiBuddhistEra> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.ThaiBuddhistEra]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(ThaiBuddhistEra.class);
     }
 

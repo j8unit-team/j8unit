@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ContainerOrderFocusTraversalPolicy>, Container
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ContainerOrderFocusTraversalPolicy]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ContainerOrderFocusTraversalPolicy::new);
     }
 

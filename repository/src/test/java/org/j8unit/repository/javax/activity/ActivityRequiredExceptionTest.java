@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ActivityRequiredException>, ActivityRequiredEx
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ActivityRequiredException::new);
     }
 

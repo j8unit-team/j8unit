@@ -22,7 +22,7 @@ implements XmlNsFormTests<XmlNsForm> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlNsForm]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(XmlNsForm.class);
     }
 

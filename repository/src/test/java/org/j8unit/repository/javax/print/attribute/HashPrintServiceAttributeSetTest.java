@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<HashPrintServiceAttributeSet>, HashPrintServic
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashPrintServiceAttributeSet]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HashPrintServiceAttributeSet::new);
     }
 

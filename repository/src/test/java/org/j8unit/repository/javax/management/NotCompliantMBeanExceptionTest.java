@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotCompliantMBeanException>, NotCompliantMBean
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotCompliantMBeanException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotCompliantMBeanException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NO_IMPLEMENT>, NO_IMPLEMENTTests<NO_IMPLEMENT>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_IMPLEMENT]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NO_IMPLEMENT::new);
     }
 

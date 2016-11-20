@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiTextUI>, MultiTextUITests<MultiTextUI> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTextUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiTextUI::new);
     }
 

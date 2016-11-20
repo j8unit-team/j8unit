@@ -23,7 +23,7 @@ implements MultipleDocumentHandlingTests<MultipleDocumentHandling> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MultipleDocumentHandling]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultipleDocumentHandling.SINGLE_DOCUMENT, //
                                 MultipleDocumentHandling.SINGLE_DOCUMENT_NEW_SHEET, //
                                 MultipleDocumentHandling.SEPARATE_DOCUMENTS_UNCOLLATED_COPIES, //

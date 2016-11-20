@@ -31,7 +31,7 @@ implements FactoryBasedJ8UnitTest, EventReaderDelegateTests<EventReaderDelegate>
     }
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(EventReaderDelegate::new);
     }
 

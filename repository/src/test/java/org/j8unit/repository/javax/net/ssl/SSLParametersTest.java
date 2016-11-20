@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SSLParameters>, SSLParametersTests<SSLParamete
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLParameters]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SSLParameters::new);
     }
 

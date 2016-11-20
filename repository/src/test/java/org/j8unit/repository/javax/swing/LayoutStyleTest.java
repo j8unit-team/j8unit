@@ -46,7 +46,7 @@ implements LayoutStyleTests<LayoutStyle> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.LayoutStyle$ComponentPlacement]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(ComponentPlacement.class);
         }
 

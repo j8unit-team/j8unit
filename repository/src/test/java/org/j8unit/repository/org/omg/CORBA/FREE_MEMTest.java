@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FREE_MEM>, FREE_MEMTests<FREE_MEM> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.FREE_MEM]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FREE_MEM::new);
     }
 

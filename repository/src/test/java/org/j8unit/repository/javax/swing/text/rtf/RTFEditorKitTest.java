@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RTFEditorKit>, RTFEditorKitTests<RTFEditorKit>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.rtf.RTFEditorKit]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RTFEditorKit::new);
     }
 

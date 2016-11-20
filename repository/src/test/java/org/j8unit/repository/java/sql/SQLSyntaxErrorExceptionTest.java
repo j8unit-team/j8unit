@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SQLSyntaxErrorException>, SQLSyntaxErrorExcept
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLSyntaxErrorException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SQLSyntaxErrorException::new);
     }
 

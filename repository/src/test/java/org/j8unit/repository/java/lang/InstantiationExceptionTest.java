@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<InstantiationException>, InstantiationExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InstantiationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InstantiationException::new);
     }
 

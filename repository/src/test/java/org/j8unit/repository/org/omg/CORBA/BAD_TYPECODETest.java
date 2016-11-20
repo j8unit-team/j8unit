@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BAD_TYPECODE>, BAD_TYPECODETests<BAD_TYPECODE>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_TYPECODE]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BAD_TYPECODE::new);
     }
 

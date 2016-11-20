@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InvalidAlgorithmParameterException>, InvalidAl
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.InvalidAlgorithmParameterException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InvalidAlgorithmParameterException::new);
     }
 

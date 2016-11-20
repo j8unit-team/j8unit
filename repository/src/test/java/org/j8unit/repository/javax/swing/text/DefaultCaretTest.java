@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DefaultCaret>, DefaultCaretTests<DefaultCaret>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultCaret]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultCaret::new);
     }
 

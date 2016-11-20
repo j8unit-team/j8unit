@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DateTimeFormatterBuilder>, DateTimeFormatterBu
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.DateTimeFormatterBuilder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DateTimeFormatterBuilder::new);
     }
 

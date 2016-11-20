@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<AssertionError>, AssertionErrorTests<Assertion
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.AssertionError]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AssertionError::new);
     }
 

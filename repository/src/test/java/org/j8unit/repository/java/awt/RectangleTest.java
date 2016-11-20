@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Rectangle>, RectangleTests<Rectangle> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Rectangle]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Rectangle::new);
     }
 

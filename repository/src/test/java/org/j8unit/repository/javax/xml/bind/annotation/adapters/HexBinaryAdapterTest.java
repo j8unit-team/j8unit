@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<HexBinaryAdapter>, HexBinaryAdapterTests<HexBi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HexBinaryAdapter::new);
     }
 

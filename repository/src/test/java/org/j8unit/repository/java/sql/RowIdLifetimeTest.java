@@ -22,7 +22,7 @@ implements RowIdLifetimeTests<RowIdLifetime> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.RowIdLifetime]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(RowIdLifetime.class);
     }
 

@@ -23,7 +23,7 @@ implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(StyleContext::new);
     }
 

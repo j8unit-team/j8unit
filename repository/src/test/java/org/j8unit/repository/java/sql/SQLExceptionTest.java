@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SQLException>, SQLExceptionTests<SQLException>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SQLException::new);
     }
 

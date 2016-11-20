@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AtomicBoolean>, AtomicBooleanTests<AtomicBoole
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicBoolean]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AtomicBoolean::new);
     }
 

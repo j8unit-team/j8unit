@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<OpenDataException>, OpenDataExceptionTests<Ope
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenDataException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OpenDataException::new);
     }
 

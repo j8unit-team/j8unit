@@ -23,7 +23,7 @@ implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLoc
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ReentrantReadWriteLock::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CredentialNotFoundException>, CredentialNotFou
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.CredentialNotFoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CredentialNotFoundException::new);
     }
 

@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, _RMIServer_StubTests<_RMISer
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIServer_Stub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_RMIServer_Stub::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SOAPException>, SOAPExceptionTests<SOAPExcepti
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SOAPException::new);
     }
 

@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxEditor>, MetalComboBoxEditorTests
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalComboBoxEditor::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxEditor>, MetalComboBoxEditorTests
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor$UIResource]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

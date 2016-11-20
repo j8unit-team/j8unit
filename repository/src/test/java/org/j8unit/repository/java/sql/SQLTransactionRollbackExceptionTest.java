@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SQLTransactionRollbackException>, SQLTransacti
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTransactionRollbackException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SQLTransactionRollbackException::new);
     }
 

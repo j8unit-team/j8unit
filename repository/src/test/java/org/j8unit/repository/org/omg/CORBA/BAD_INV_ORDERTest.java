@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BAD_INV_ORDER>, BAD_INV_ORDERTests<BAD_INV_ORD
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_INV_ORDER]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BAD_INV_ORDER::new);
     }
 

@@ -25,7 +25,7 @@ implements UnmodifiableSetTests<Set<Object>, Object> {
      * @see SingletonSetBugs {@link Collections#singleton(Object)} has wrong behaviour!
      */
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> data() {
+    public static Iterable<? extends Object> data() {
         final Set<Object> emptySet = emptySet();
         final Set<String> singletonSet = singleton("set-single");
         return testParametersOf(/* emptySet, */ /* singletonSet, */ unmodifiableSet(emptySet), unmodifiableSet(singletonSet),

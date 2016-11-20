@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NoContext>, NoContextTests<NoContext> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NoContext::new);
     }
 

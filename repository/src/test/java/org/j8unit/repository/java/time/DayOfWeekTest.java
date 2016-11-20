@@ -22,7 +22,7 @@ implements DayOfWeekTests<DayOfWeek> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.DayOfWeek]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(DayOfWeek.class);
     }
 

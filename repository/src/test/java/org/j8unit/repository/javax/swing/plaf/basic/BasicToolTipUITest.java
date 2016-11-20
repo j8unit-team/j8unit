@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BasicToolTipUI>, BasicToolTipUITests<BasicTool
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolTipUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicToolTipUI::new);
     }
 

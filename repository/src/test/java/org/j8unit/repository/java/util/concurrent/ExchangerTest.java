@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Exchanger<V>>, ExchangerTests<Exchanger<V>, V>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.Exchanger]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Exchanger::new);
     }
 

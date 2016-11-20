@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<KeyManagementException>, KeyManagementExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyManagementException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(KeyManagementException::new);
     }
 

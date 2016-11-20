@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RemarshalException>, RemarshalExceptionTests<R
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RemarshalException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiPopupMenuUI>, MultiPopupMenuUITests<Multi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiPopupMenuUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiPopupMenuUI::new);
     }
 

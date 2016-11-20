@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MBeanServerBuilder>, MBeanServerBuilderTests<M
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServerBuilder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MBeanServerBuilder::new);
     }
 

@@ -24,7 +24,7 @@ implements UnmodifiableListTests<List<Object>, Object> {
      * @see SingletonListBugs {@link Collections#singletonList(Object)} has wrong behaviour!
      */
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> data() {
+    public static Iterable<? extends Object> data() {
         final List<Object> emptyList = emptyList();
         final List<String> singletonList = singletonList("single");
         return testParametersOf(/* emptyList, */ /* singletonList, */ unmodifiableList(emptyList), unmodifiableList(singletonList),

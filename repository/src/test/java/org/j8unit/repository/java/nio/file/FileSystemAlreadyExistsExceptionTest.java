@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FileSystemAlreadyExistsException>, FileSystemA
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystemAlreadyExistsException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FileSystemAlreadyExistsException::new);
     }
 

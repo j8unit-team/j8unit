@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<INV_IDENT>, INV_IDENTTests<INV_IDENT> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_IDENT]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(INV_IDENT::new);
     }
 

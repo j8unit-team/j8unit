@@ -45,7 +45,7 @@ implements DateFormatTests<DateFormat> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormat$Field]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Field.TIME_ZONE, //
                                     Field.ERA, //
                                     Field.YEAR, //

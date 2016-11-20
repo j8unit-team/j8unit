@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FlowLayout>, FlowLayoutTests<FlowLayout> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.FlowLayout]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FlowLayout::new);
     }
 

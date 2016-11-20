@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<ExceptionInInitializerError>, ExceptionInIniti
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ExceptionInInitializerError]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ExceptionInInitializerError::new);
     }
 

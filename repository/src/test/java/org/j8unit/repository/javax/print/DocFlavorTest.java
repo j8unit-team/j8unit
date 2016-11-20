@@ -53,7 +53,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(SERVICE_FORMATTED.PAGEABLE, //
                                     SERVICE_FORMATTED.RENDERABLE_IMAGE, //
                                     SERVICE_FORMATTED.PRINTABLE);
@@ -86,7 +86,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$URL]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(URL.POSTSCRIPT, //
                                                        URL.PCL, //
                                                        URL.TEXT_PLAIN_UTF_16LE, //
@@ -135,7 +135,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(CHAR_ARRAY.TEXT_HTML, //
                                                        CHAR_ARRAY.TEXT_PLAIN);
         }
@@ -167,7 +167,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$INPUT_STREAM]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(INPUT_STREAM.PDF, //
                                                        INPUT_STREAM.TEXT_PLAIN_UTF_16LE, //
                                                        INPUT_STREAM.TEXT_HTML_UTF_16LE, //
@@ -216,7 +216,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$STRING]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(STRING.TEXT_PLAIN, //
                                                        STRING.TEXT_HTML);
         }
@@ -248,7 +248,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$READER]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(READER.TEXT_PLAIN, //
                                                        READER.TEXT_HTML);
         }
@@ -280,7 +280,7 @@ implements DocFlavorTests<DocFlavor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(BYTE_ARRAY.GIF, //
                                                        BYTE_ARRAY.TEXT_HTML_UTF_8, //
                                                        BYTE_ARRAY.TEXT_PLAIN_US_ASCII, //

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Button>, ButtonTests<Button> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Button]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Button::new);
     }
 

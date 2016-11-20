@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InvalidAttributeIdentifierException>, InvalidA
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InvalidAttributeIdentifierException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InvalidAttributeIdentifierException::new);
     }
 

@@ -22,7 +22,7 @@ implements AccessibleStateTests<AccessibleState> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleState]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AccessibleState.BUSY, //
                                 AccessibleState.FOCUSABLE, //
                                 AccessibleState.INDETERMINATE, //

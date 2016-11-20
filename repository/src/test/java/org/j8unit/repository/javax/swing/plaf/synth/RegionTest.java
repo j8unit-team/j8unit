@@ -22,7 +22,7 @@ implements RegionTests<Region> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.Region]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Region.TABBED_PANE, //
                                 Region.FORMATTED_TEXT_FIELD, //
                                 Region.DESKTOP_ICON, //

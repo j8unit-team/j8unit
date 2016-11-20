@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IllegalSelectorException>, IllegalSelectorExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.IllegalSelectorException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IllegalSelectorException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InvalidSlot>, InvalidSlotTests<InvalidSlot> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.InvalidSlot]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InvalidSlot::new);
     }
 

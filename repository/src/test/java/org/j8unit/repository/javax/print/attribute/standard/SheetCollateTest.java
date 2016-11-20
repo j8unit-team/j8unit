@@ -22,7 +22,7 @@ implements SheetCollateTests<SheetCollate> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.SheetCollate]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SheetCollate.COLLATED, //
                                 SheetCollate.UNCOLLATED);
     }

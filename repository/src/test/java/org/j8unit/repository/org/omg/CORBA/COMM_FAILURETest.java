@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<COMM_FAILURE>, COMM_FAILURETests<COMM_FAILURE>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.COMM_FAILURE]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(COMM_FAILURE::new);
     }
 

@@ -45,7 +45,7 @@ implements CardTerminalsTests<CardTerminals> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(State.class);
         }
 

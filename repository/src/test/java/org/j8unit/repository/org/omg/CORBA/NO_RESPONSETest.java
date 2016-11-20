@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NO_RESPONSE>, NO_RESPONSETests<NO_RESPONSE> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_RESPONSE]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NO_RESPONSE::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ParserConfigurationException>, ParserConfigura
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.parsers.ParserConfigurationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ParserConfigurationException::new);
     }
 

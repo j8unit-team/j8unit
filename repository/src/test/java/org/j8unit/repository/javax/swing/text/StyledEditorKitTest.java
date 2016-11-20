@@ -30,7 +30,7 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(StyledEditorKit::new);
     }
 
@@ -77,7 +77,7 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(BoldAction::new);
         }
 
@@ -103,7 +103,7 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ItalicAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ItalicAction::new);
         }
 
@@ -198,7 +198,7 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UnderlineAction::new);
         }
 

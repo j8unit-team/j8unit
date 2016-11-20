@@ -46,7 +46,7 @@ implements ZoneOffsetTransitionRuleTests<ZoneOffsetTransitionRule> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(TimeDefinition.class);
         }
 

@@ -22,7 +22,7 @@ implements OAEPParameterSpecTests<OAEPParameterSpec> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.OAEPParameterSpec]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OAEPParameterSpec.DEFAULT);
     }
 

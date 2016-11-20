@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DoubleHolder>, DoubleHolderTests<DoubleHolder>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DoubleHolder::new);
     }
 

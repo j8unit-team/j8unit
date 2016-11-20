@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<UnsupportedAddressTypeException>, UnsupportedA
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.UnsupportedAddressTypeException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UnsupportedAddressTypeException::new);
     }
 

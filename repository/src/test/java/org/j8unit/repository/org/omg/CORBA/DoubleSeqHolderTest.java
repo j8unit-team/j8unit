@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DoubleSeqHolder>, DoubleSeqHolderTests<DoubleS
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DoubleSeqHolder::new);
     }
 

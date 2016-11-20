@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InputMismatchException>, InputMismatchExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.InputMismatchException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InputMismatchException::new);
     }
 

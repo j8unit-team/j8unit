@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<DefaultTableCellRenderer>, DefaultTableCellRen
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultTableCellRenderer::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<DefaultTableCellRenderer>, DefaultTableCellRen
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

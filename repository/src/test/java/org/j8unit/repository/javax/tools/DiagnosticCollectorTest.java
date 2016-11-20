@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DiagnosticCollector<S>>, DiagnosticCollectorTe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DiagnosticCollector]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DiagnosticCollector::new);
     }
 

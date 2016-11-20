@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Area>, AreaTests<Area> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Area]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Area::new);
     }
 

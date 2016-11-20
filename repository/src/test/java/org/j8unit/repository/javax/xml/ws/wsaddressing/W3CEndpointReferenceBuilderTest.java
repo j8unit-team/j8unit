@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<W3CEndpointReferenceBuilder>, W3CEndpointRefer
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(W3CEndpointReferenceBuilder::new);
     }
 

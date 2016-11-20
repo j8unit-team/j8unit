@@ -22,7 +22,7 @@ implements PKIXReasonTests<PKIXReason> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PKIXReason]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(PKIXReason.class);
     }
 

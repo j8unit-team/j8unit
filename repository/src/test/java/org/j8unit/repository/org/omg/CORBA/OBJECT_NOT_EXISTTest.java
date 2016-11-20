@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<OBJECT_NOT_EXIST>, OBJECT_NOT_EXISTTests<OBJEC
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJECT_NOT_EXIST]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OBJECT_NOT_EXIST::new);
     }
 

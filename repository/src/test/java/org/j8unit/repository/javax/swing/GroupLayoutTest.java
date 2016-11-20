@@ -48,7 +48,7 @@ implements GroupLayoutTests<GroupLayout> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Alignment]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Alignment.class);
         }
 

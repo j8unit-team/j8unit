@@ -45,7 +45,7 @@ implements PSourceTests<PSource> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.PSource$PSpecified]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(PSpecified.DEFAULT);
         }
 

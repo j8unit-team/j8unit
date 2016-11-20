@@ -48,7 +48,7 @@ implements MultipleGradientPaintTests<MultipleGradientPaint> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(ColorSpaceType.class);
         }
 
@@ -79,7 +79,7 @@ implements MultipleGradientPaintTests<MultipleGradientPaint> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOfEnumClass(CycleMethod.class);
         }
 

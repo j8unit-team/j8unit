@@ -22,7 +22,7 @@ implements ColorSupportedTests<ColorSupported> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.ColorSupported]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ColorSupported.SUPPORTED, //
                                 ColorSupported.NOT_SUPPORTED);
     }

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SimpleDateFormat>, SimpleDateFormatTests<Simpl
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.SimpleDateFormat]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SimpleDateFormat::new);
     }
 

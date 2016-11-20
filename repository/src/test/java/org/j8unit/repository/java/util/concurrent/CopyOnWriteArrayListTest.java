@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CopyOnWriteArrayList<E>>, CopyOnWriteArrayList
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CopyOnWriteArrayList]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CopyOnWriteArrayList::new);
     }
 

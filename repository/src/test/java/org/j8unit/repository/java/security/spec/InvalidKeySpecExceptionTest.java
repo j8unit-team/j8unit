@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InvalidKeySpecException>, InvalidKeySpecExcept
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.InvalidKeySpecException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InvalidKeySpecException::new);
     }
 

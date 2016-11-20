@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AttributeInUseException>, AttributeInUseExcept
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.AttributeInUseException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AttributeInUseException::new);
     }
 

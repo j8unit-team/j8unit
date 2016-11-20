@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CookieManager>, CookieManagerTests<CookieManag
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookieManager]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CookieManager::new);
     }
 

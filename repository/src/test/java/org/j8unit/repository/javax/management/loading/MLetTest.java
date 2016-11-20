@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MLet>, MLetTests<MLet> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.MLet]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MLet::new);
     }
 

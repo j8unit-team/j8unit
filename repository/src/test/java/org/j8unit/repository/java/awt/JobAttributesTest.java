@@ -25,7 +25,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JobAttributes::new);
     }
 
@@ -54,7 +54,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(SidesType.TWO_SIDED_LONG_EDGE, //
                                                        SidesType.ONE_SIDED, //
                                                        SidesType.TWO_SIDED_SHORT_EDGE);
@@ -87,7 +87,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(DialogType.NATIVE, //
                                                        DialogType.COMMON, //
                                                        DialogType.NONE);
@@ -121,7 +121,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(DestinationType.PRINTER, //
                                                        DestinationType.FILE);
         }
@@ -154,7 +154,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_COLLATED_COPIES, //
                                                        MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_UNCOLLATED_COPIES);
         }
@@ -187,7 +187,7 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(DefaultSelectionType.ALL, //
                                                        DefaultSelectionType.RANGE, //
                                                        DefaultSelectionType.SELECTION);

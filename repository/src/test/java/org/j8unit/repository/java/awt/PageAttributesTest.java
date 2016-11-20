@@ -25,7 +25,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PageAttributes::new);
     }
 
@@ -55,7 +55,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(PrintQualityType.HIGH, //
                                                        PrintQualityType.DRAFT, //
                                                        PrintQualityType.NORMAL);
@@ -88,7 +88,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ColorType.COLOR, //
                                                        ColorType.MONOCHROME);
         }
@@ -120,7 +120,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(OriginType.PHYSICAL, //
                                                        OriginType.PRINTABLE);
         }
@@ -152,7 +152,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(MediaType.ISO_C1_ENVELOPE, //
                                                        MediaType.ISO_B5_ENVELOPE, //
                                                        MediaType.ISO_A3, //
@@ -330,7 +330,7 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttri
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(OrientationRequestedType.PORTRAIT, //
                                                        OrientationRequestedType.LANDSCAPE);
         }

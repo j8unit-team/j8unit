@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Hashtable<K, V>>, HashtableTests<Hashtable<K, 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Hashtable]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Hashtable::new);
     }
 

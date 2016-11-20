@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<INTF_REPOS>, INTF_REPOSTests<INTF_REPOS> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INTF_REPOS]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(INTF_REPOS::new);
     }
 

@@ -33,7 +33,7 @@ implements FactoryBasedJ8UnitTest, BasicComboBoxRendererTests<BasicComboBoxRende
     }
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicComboBoxRenderer::new);
     }
 
@@ -69,7 +69,7 @@ implements FactoryBasedJ8UnitTest, BasicComboBoxRendererTests<BasicComboBoxRende
         }
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

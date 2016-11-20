@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LocatorImpl>, LocatorImplTests<LocatorImpl> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LocatorImpl::new);
     }
 

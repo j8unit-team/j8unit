@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DatatypeConfigurationException>, DatatypeConfi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConfigurationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DatatypeConfigurationException::new);
     }
 

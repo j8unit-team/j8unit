@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<HashMap<K, V>>, HashMapTests<HashMap<K, V>, K,
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.HashMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HashMap::new);
     }
 

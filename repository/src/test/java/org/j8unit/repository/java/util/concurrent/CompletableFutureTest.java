@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<CompletableFuture<T>>, CompletableFutureTests<
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CompletableFuture]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CompletableFuture::new);
     }
 

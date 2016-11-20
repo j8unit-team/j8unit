@@ -22,7 +22,7 @@ implements SidesTests<Sides> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Sides]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Sides.TWO_SIDED_SHORT_EDGE, //
                                 Sides.TUMBLE, //
                                 Sides.ONE_SIDED, //

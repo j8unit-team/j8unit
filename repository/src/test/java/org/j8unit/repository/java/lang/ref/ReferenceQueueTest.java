@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ReferenceQueue<T>>, ReferenceQueueTests<Refere
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ref.ReferenceQueue]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ReferenceQueue::new);
     }
 

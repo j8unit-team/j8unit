@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ExcC14NParameterSpec>, ExcC14NParameterSpecTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ExcC14NParameterSpec::new);
     }
 

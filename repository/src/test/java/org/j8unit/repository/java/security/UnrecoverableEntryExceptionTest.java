@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<UnrecoverableEntryException>, UnrecoverableEnt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.UnrecoverableEntryException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UnrecoverableEntryException::new);
     }
 

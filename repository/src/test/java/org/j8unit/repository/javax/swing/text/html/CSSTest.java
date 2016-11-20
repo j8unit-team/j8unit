@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<CSS>, CSSTests<CSS> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CSS::new);
     }
 
@@ -50,7 +50,7 @@ implements FactoryBasedJ8UnitTest<CSS>, CSSTests<CSS> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Attribute.LIST_STYLE_POSITION, //
                                                        Attribute.BACKGROUND_IMAGE, //
                                                        Attribute.BORDER_RIGHT_WIDTH, //

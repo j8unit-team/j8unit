@@ -22,7 +22,7 @@ implements DefinitionKindTests<DefinitionKind> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DefinitionKind]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefinitionKind.dk_Sequence, //
                                 DefinitionKind.dk_String, //
                                 DefinitionKind.dk_Alias, //

@@ -22,7 +22,7 @@ implements PrinterStateTests<PrinterState> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PrinterState]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PrinterState.UNKNOWN, //
                                 PrinterState.PROCESSING, //
                                 PrinterState.IDLE, //

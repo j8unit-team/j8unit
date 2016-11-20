@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FailedLoginException>, FailedLoginExceptionTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.FailedLoginException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FailedLoginException::new);
     }
 

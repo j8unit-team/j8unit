@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DefaultFormatter>, DefaultFormatterTests<Defau
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultFormatter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DefaultFormatter::new);
     }
 

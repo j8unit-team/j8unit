@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FileSystemNotFoundException>, FileSystemNotFou
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystemNotFoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FileSystemNotFoundException::new);
     }
 

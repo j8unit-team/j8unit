@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Adler32>, Adler32Tests<Adler32> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Adler32]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Adler32::new);
     }
 

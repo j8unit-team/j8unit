@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MulticastSocket>, MulticastSocketTests<Multica
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.MulticastSocket]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MulticastSocket::new);
     }
 

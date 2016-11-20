@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AcceptPendingException>, AcceptPendingExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AcceptPendingException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AcceptPendingException::new);
     }
 

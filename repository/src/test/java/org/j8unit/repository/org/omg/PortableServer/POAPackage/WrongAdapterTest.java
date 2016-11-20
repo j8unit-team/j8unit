@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<WrongAdapter>, WrongAdapterTests<WrongAdapter>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(WrongAdapter::new);
     }
 

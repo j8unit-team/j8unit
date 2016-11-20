@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<XMLFormatter>, XMLFormatterTests<XMLFormatter>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.XMLFormatter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(XMLFormatter::new);
     }
 

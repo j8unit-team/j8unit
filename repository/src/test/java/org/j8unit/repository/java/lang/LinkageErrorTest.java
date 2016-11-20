@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<LinkageError>, LinkageErrorTests<LinkageError>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.LinkageError]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LinkageError::new);
     }
 

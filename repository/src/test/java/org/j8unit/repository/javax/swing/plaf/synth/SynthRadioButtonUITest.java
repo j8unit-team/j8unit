@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthRadioButtonUI>, SynthRadioButtonUITests<S
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthRadioButtonUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthRadioButtonUI::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MidiUnavailableException>, MidiUnavailableExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiUnavailableException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MidiUnavailableException::new);
     }
 

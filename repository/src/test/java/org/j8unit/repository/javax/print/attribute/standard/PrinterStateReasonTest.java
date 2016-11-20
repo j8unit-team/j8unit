@@ -23,7 +23,7 @@ implements PrinterStateReasonTests<PrinterStateReason> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReason]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PrinterStateReason.CONNECTING_TO_DEVICE, //
                                 PrinterStateReason.MOVING_TO_PAUSED, //
                                 PrinterStateReason.DEVELOPER_LOW, //

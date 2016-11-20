@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CollectionCertStoreParameters>, CollectionCert
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CollectionCertStoreParameters]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CollectionCertStoreParameters::new);
     }
 

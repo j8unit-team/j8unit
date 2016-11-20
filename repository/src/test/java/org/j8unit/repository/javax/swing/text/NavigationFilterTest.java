@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<NavigationFilter>, NavigationFilterTests<Navig
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NavigationFilter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NavigationFilter::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CertificateNotYetValidException>, CertificateN
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.cert.CertificateNotYetValidException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CertificateNotYetValidException::new);
     }
 

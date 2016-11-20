@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Formatter::new);
     }
 
@@ -51,7 +51,7 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(BigDecimalLayoutForm.class);
         }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AdapterAlreadyExists>, AdapterAlreadyExistsTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AdapterAlreadyExists::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LinkedHashMap<K, V>>, LinkedHashMapTests<Linke
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LinkedHashMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LinkedHashMap::new);
     }
 

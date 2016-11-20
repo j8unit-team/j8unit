@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NumberFormatter>, NumberFormatterTests<NumberF
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NumberFormatter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NumberFormatter::new);
     }
 

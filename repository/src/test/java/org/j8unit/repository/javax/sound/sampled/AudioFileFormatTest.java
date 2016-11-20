@@ -45,7 +45,7 @@ implements AudioFileFormatTests<AudioFileFormat> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioFileFormat$Type]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Type.SND, //
                                     Type.AIFC, //
                                     Type.AU, //

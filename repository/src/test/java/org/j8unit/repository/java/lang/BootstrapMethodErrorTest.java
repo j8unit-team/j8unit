@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<BootstrapMethodError>, BootstrapMethodErrorTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.BootstrapMethodError]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BootstrapMethodError::new);
     }
 

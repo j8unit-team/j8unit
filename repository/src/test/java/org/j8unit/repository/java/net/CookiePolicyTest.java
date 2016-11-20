@@ -22,7 +22,7 @@ implements CookiePolicyTests<CookiePolicy> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookiePolicy]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CookiePolicy.ACCEPT_ALL, //
                                 CookiePolicy.ACCEPT_NONE, //
                                 CookiePolicy.ACCEPT_ORIGINAL_SERVER);

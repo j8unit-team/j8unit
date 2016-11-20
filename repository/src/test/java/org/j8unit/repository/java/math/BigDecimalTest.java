@@ -22,7 +22,7 @@ implements BigDecimalTests<BigDecimal> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.BigDecimal]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BigDecimal.ZERO, //
                                 BigDecimal.ONE, //
                                 BigDecimal.TEN);

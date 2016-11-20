@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ListenerNotFoundException>, ListenerNotFoundEx
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ListenerNotFoundException::new);
     }
 

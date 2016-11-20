@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MetalToolBarUI>, MetalToolBarUITests<MetalTool
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalToolBarUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalToolBarUI::new);
     }
 

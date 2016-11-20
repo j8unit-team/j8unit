@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiViewportUI>, MultiViewportUITests<MultiVi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiViewportUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiViewportUI::new);
     }
 

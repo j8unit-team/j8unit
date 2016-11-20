@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ClosedFileSystemException>, ClosedFileSystemEx
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedFileSystemException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ClosedFileSystemException::new);
     }
 

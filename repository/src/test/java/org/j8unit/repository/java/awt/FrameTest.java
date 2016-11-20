@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Frame>, FrameTests<Frame> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Frame]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Frame::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PipedReader>, PipedReaderTests<PipedReader> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PipedReader]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PipedReader::new);
     }
 

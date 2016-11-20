@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Beans>, BeansTests<Beans> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Beans]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Beans::new);
     }
 

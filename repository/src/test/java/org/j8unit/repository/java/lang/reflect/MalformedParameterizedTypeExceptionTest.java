@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MalformedParameterizedTypeException>, Malforme
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.MalformedParameterizedTypeException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MalformedParameterizedTypeException::new);
     }
 

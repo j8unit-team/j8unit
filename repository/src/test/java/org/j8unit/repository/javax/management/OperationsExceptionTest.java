@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<OperationsException>, OperationsExceptionTests
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.OperationsException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OperationsException::new);
     }
 

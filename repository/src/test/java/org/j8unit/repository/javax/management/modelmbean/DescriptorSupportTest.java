@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DescriptorSupport>, DescriptorSupportTests<Des
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.DescriptorSupport]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DescriptorSupport::new);
     }
 

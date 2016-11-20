@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<BasicToolBarUI>, BasicToolBarUITests<BasicTool
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicToolBarUI::new);
     }
 

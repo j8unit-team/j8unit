@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CheckboxGroup>, CheckboxGroupTests<CheckboxGro
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.CheckboxGroup]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CheckboxGroup::new);
     }
 

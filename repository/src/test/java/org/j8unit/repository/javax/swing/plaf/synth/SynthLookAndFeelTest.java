@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthLookAndFeel>, SynthLookAndFeelTests<Synth
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthLookAndFeel]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthLookAndFeel::new);
     }
 

@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<UIManager>, UIManagerTests<UIManager> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIManager]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UIManager::new);
     }
 

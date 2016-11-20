@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SslRMIClientSocketFactory>, SslRMIClientSocket
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.ssl.SslRMIClientSocketFactory]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SslRMIClientSocketFactory::new);
     }
 

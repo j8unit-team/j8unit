@@ -28,7 +28,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalIconFactory::new);
     }
 
@@ -52,7 +52,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(FolderIcon16::new);
         }
 
@@ -78,7 +78,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(TreeLeafIcon::new);
         }
 
@@ -104,7 +104,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(FileIcon16::new);
         }
 
@@ -130,7 +130,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(TreeFolderIcon::new);
         }
 
@@ -156,7 +156,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(PaletteCloseIcon::new);
         }
 

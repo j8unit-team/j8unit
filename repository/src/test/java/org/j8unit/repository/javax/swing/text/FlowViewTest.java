@@ -42,7 +42,7 @@ implements FlowViewTests<FlowView> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(FlowStrategy::new);
         }
 

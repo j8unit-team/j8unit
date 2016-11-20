@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthRootPaneUI>, SynthRootPaneUITests<SynthRo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthRootPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthRootPaneUI::new);
     }
 

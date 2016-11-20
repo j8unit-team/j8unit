@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JColorChooser>, JColorChooserTests<JColorChoos
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JColorChooser]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JColorChooser::new);
     }
 

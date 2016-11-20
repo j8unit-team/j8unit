@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CharHolder>, CharHolderTests<CharHolder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CharHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CharHolder::new);
     }
 

@@ -46,7 +46,7 @@ implements ThreadPoolExecutorTests<ThreadPoolExecutor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(DiscardPolicy::new);
         }
 
@@ -72,7 +72,7 @@ implements ThreadPoolExecutorTests<ThreadPoolExecutor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(AbortPolicy::new);
         }
 
@@ -98,7 +98,7 @@ implements ThreadPoolExecutorTests<ThreadPoolExecutor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(CallerRunsPolicy::new);
         }
 
@@ -124,7 +124,7 @@ implements ThreadPoolExecutorTests<ThreadPoolExecutor> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(DiscardOldestPolicy::new);
         }
 

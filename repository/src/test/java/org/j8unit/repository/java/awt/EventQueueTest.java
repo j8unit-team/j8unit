@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<EventQueue>, EventQueueTests<EventQueue> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.EventQueue]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(EventQueue::new);
     }
 
