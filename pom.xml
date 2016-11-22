@@ -90,38 +90,22 @@
   </properties>
 
   <profiles>
-
     <profile>
-      <!-- The J8Unit JavaDoc (sub-) project (syntax highlighting) has been released as v1.0.0. -->
-      <!-- Immediately afterwards, the next SNAPSHOT version has been prepared; But as long as -->
-      <!-- there is no newer version of the Syntax-Highlighter (by Alex Gorbatchev) or there is -->
-      <!-- no further update (e.g., custom CSS files), there is no need to call this profile -->
-      <!-- any again. -->
-      <id>javadoc</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-      <modules>
-        <module>./javadoc</module>
-      </modules>
-    </profile>
-
-    <profile>
-      <!-- Up to now, the next release will contain the J8Unit Repository. -->
-      <!-- TODO: Further, the Spring Framework has been updated; thus, we should release according updates -->
-      <!-- of the J8Unit Spring project too. -->
-      <id>repository</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-      <modules>
-        <module>./core</module>
-        <module>./repository</module>
-      </modules>
-    </profile>
-
-    <profile>
-      <id>showcases</id>
+      <!--
+        ~ This default profile specifies everything we want to be build/tested by whatever continuous integration tool.
+        ~ Thus, it is activated by default intentionally.
+        ~
+        ~ Note:
+        ~  > [...] This profile will automatically be active for all builds unless another profile in the same POM is <
+        ~  > activated using one of the previously described methods. All profiles that are active by default are     <
+        ~  > automatically deactivated when a profile in the POM is activated on the command line or through its      <
+        ~  > activation config. [...]                                                                                 <
+        ~
+        ~ Further information can be found here:
+        ~ + http://greyfocus.com/2015/06/activebydefault-maven-other-profiles/
+        ~ + maven.apache.org/guides/introduction/introduction-to-profiles.html#Details_on_profile_activation
+      -->
+      <id>continuous-integration</id>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
@@ -135,22 +119,45 @@
     </profile>
 
     <profile>
-      <!-- This profile is motivated by: http://stackoverflow.com/questions/14825039/suppressing-gpg-signing-for-maven-based-continous-integration-builds-travis-ci -->
-      <!-- Activate by providing the "gpg.keyname" property which comes from command-line or local settings file. -->
+      <!--
+        ~ Up to now, the next release into OSSRH will contain the latest J8Unit Core and the J8Unit Repository.
+        ~
+        ~ TODO: Further, the Spring Framework has been updated; thus, we should release according updates of the J8Unit
+        ~ Spring project too.
+      -->
       <id>ossrh</id>
       <activation>
-        <property>
-          <name>gpg.keyname</name>
-        </property>
+        <activeByDefault>false</activeByDefault>
       </activation>
+      <modules>
+        <module>./core</module>
+        <module>./repository</module>
+      </modules>
       <build>
         <plugins>
+          <!-- In order to disable artifact signing, run "mvn -Dgpg.skip ..." -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
           </plugin>
         </plugins>
       </build>
+    </profile>
+
+    <profile>
+      <!--
+        ~ The J8Unit JavaDoc (sub-) project (syntax highlighting) has been released as v1.0.0. Immediately afterwards,
+        ~ the next SNAPSHOT version has been prepared; But as long as there is no newer version of the
+        ~ Syntax-Highlighter (by Alex Gorbatchev) or there is no further update (e.g., custom CSS files), there is no
+        ~ need to call this profile any again.
+      -->
+      <id>javadoc</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <modules>
+        <module>./javadoc</module>
+      </modules>
     </profile>
   </profiles>
 
