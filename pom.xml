@@ -21,13 +21,6 @@
     <maven>3.0</maven>
   </prerequisites>
 
-  <!--
-    ~ As a memory, here are some links dealing with public deployment:
-    ~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
-    ~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/
-    ~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/
-  -->
-
   <groupId>org.j8unit</groupId>
   <artifactId>project</artifactId>
   <version>2-SNAPSHOT</version>
