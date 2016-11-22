@@ -95,7 +95,7 @@
     <version.junit>4.12</version.junit>
     <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
   </properties>
-      
+
   <profiles>
 
     <profile>
