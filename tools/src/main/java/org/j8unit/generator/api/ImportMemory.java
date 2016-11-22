@@ -32,7 +32,6 @@ public final class ImportMemory {
             // return false;
             return this.add(Class.forName(name));
         } catch (final Throwable e) {
-            e.printStackTrace(System.err);
             return false;
         }
     }
@@ -96,9 +95,6 @@ public final class ImportMemory {
                     sb.append(format("import %s;%n", type.getCanonicalName()));
                 }
             } catch (final Exception e) {
-                e.printStackTrace();
-                System.err.println(reference);
-                System.err.println(type);
                 throw e;
             }
         }
