@@ -22,7 +22,7 @@ implements TextStyleTests<TextStyle> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.TextStyle]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(TextStyle.class);
     }
 

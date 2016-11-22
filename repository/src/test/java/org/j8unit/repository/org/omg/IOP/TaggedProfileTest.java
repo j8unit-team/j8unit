@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TaggedProfile>, TaggedProfileTests<TaggedProfi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TaggedProfile]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TaggedProfile::new);
     }
 

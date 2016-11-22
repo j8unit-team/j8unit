@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<X509CertSelector>, X509CertSelectorTests<X509C
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.X509CertSelector]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(X509CertSelector::new);
     }
 

@@ -22,7 +22,7 @@ implements ThaiBuddhistChronologyTests<ThaiBuddhistChronology> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.ThaiBuddhistChronology]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ThaiBuddhistChronology.INSTANCE);
     }
 

@@ -44,7 +44,7 @@ implements BasicTextUITests<BasicTextUI> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(BasicHighlighter::new);
         }
 
@@ -70,7 +70,7 @@ implements BasicTextUITests<BasicTextUI> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(BasicCaret::new);
         }
 

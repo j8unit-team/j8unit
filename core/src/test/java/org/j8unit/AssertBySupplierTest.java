@@ -2,6 +2,7 @@ package org.j8unit;
 
 import org.junit.Test;
 
+@SuppressWarnings("deprecation")
 public class AssertBySupplierTest {
 
     private String someExpensiveMessageCreation() {

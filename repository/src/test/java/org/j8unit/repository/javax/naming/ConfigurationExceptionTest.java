@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ConfigurationException>, ConfigurationExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ConfigurationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ConfigurationException::new);
     }
 

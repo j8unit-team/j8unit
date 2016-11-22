@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ArrayList<E>>, ArrayListTests<ArrayList<E>, E>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ArrayList]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ArrayList::new);
     }
 

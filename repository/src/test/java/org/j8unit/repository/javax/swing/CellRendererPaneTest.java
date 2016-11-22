@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CellRendererPane>, CellRendererPaneTests<CellR
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.CellRendererPane]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CellRendererPane::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<XAException>, XAExceptionTests<XAException> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.xa.XAException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(XAException::new);
     }
 

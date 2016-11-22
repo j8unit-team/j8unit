@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotBoundException>, NotBoundExceptionTests<Not
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.NotBoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotBoundException::new);
     }
 

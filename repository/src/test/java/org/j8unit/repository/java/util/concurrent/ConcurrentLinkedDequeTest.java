@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ConcurrentLinkedDeque<E>>, ConcurrentLinkedDeq
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentLinkedDeque]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ConcurrentLinkedDeque::new);
     }
 

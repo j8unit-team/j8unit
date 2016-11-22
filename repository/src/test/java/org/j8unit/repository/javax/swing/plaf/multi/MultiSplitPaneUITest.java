@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiSplitPaneUI>, MultiSplitPaneUITests<Multi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiSplitPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiSplitPaneUI::new);
     }
 

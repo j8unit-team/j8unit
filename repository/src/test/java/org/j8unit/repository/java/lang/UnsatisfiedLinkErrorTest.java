@@ -18,7 +18,7 @@ implements FactoryBasedJ8UnitTest<UnsatisfiedLinkError>, UnsatisfiedLinkErrorTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsatisfiedLinkError]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UnsatisfiedLinkError::new);
     }
 

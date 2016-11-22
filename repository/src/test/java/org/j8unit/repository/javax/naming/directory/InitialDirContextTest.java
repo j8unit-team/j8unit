@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InitialDirContext>, InitialDirContextTests<Ini
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InitialDirContext]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InitialDirContext::new);
     }
 

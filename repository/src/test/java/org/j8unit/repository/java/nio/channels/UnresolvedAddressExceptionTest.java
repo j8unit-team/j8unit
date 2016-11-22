@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<UnresolvedAddressException>, UnresolvedAddress
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.UnresolvedAddressException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UnresolvedAddressException::new);
     }
 

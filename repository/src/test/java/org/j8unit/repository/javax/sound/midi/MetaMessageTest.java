@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MetaMessage>, MetaMessageTests<MetaMessage> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MetaMessage]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetaMessage::new);
     }
 

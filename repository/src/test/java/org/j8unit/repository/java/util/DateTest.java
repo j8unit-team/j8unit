@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Date>, org.j8unit.repository.java.util.DateTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Date]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Date::new);
     }
 

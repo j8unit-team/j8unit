@@ -22,7 +22,7 @@ implements MinguoEraTests<MinguoEra> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.MinguoEra]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(MinguoEra.class);
     }
 

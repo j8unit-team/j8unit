@@ -22,7 +22,7 @@ implements FormatStyleTests<FormatStyle> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.FormatStyle]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(FormatStyle.class);
     }
 

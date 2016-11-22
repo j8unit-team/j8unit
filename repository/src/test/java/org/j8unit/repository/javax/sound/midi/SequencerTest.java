@@ -45,7 +45,7 @@ implements SequencerTests<Sequencer> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.Sequencer$SyncMode]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(SyncMode.INTERNAL_CLOCK, //
                                     SyncMode.MIDI_SYNC, //
                                     SyncMode.NO_SYNC, //

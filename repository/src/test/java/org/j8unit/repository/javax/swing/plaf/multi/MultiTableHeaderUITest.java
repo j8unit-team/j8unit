@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiTableHeaderUI>, MultiTableHeaderUITests<M
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTableHeaderUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiTableHeaderUI::new);
     }
 

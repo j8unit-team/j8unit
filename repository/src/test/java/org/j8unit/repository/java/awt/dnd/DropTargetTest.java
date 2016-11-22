@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DropTarget>, DropTargetTests<DropTarget> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DropTarget]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DropTarget::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ObjectReferenceTemplateSeqHolder>, ObjectRefer
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ObjectReferenceTemplateSeqHolder::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JDesktopPane>, JDesktopPaneTests<JDesktopPane>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JDesktopPane]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JDesktopPane::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DatagramSocket>, DatagramSocketTests<DatagramS
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.DatagramSocket]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DatagramSocket::new);
     }
 

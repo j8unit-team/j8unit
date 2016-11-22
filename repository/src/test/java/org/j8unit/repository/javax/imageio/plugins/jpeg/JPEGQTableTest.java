@@ -22,7 +22,7 @@ implements JPEGQTableTests<JPEGQTable> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGQTable]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JPEGQTable.K1Luminance, //
                                 JPEGQTable.K2Chrominance, //
                                 JPEGQTable.K1Div2Luminance, //

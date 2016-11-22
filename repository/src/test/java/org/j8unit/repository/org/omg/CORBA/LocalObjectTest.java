@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LocalObject>, LocalObjectTests<LocalObject> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.LocalObject]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LocalObject::new);
     }
 

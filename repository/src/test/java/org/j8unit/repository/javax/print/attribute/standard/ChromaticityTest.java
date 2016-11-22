@@ -22,7 +22,7 @@ implements ChromaticityTests<Chromaticity> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Chromaticity]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Chromaticity.MONOCHROME, //
                                 Chromaticity.COLOR);
     }

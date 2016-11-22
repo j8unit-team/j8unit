@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ProtocolException>, ProtocolExceptionTests<Pro
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.ProtocolException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ProtocolException::new);
     }
 

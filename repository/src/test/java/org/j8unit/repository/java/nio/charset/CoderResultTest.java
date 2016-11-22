@@ -22,7 +22,7 @@ implements CoderResultTests<CoderResult> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CoderResult]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CoderResult.OVERFLOW, //
                                 CoderResult.UNDERFLOW);
     }

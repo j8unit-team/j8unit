@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, ConcurrentHashMapTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ConcurrentHashMap::new);
     }
 

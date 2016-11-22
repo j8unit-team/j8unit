@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JMenu>, JMenuTests<JMenu> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JMenu]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JMenu::new);
     }
 

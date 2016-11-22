@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ConnectException>, org.j8unit.repository.java.
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.ConnectException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ConnectException::new);
     }
 

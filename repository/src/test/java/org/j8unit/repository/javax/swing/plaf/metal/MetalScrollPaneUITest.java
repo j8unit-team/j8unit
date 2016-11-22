@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MetalScrollPaneUI>, MetalScrollPaneUITests<Met
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalScrollPaneUI::new);
     }
 

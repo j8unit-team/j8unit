@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PrinterAbortException>, PrinterAbortExceptionT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PrinterAbortException::new);
     }
 

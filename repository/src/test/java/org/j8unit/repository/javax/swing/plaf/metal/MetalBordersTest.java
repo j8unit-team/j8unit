@@ -34,7 +34,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalBorders::new);
     }
 
@@ -58,7 +58,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ButtonBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ButtonBorder::new);
         }
 
@@ -84,7 +84,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToolBarBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ToolBarBorder::new);
         }
 
@@ -110,7 +110,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ToggleButtonBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ToggleButtonBorder::new);
         }
 
@@ -136,7 +136,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PaletteBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(PaletteBorder::new);
         }
 
@@ -162,7 +162,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$ScrollPaneBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(ScrollPaneBorder::new);
         }
 
@@ -188,7 +188,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TextFieldBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(TextFieldBorder::new);
         }
 
@@ -214,7 +214,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuItemBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(MenuItemBorder::new);
         }
 
@@ -240,7 +240,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$OptionDialogBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(OptionDialogBorder::new);
         }
 
@@ -266,7 +266,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$RolloverButtonBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(RolloverButtonBorder::new);
         }
 
@@ -292,7 +292,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$PopupMenuBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(PopupMenuBorder::new);
         }
 
@@ -318,7 +318,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$InternalFrameBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(InternalFrameBorder::new);
         }
 
@@ -344,7 +344,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$TableHeaderBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(TableHeaderBorder::new);
         }
 
@@ -370,7 +370,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$MenuBarBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(MenuBarBorder::new);
         }
 
@@ -396,7 +396,7 @@ implements FactoryBasedJ8UnitTest<MetalBorders>, MetalBordersTests<MetalBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalBorders$Flush3DBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Flush3DBorder::new);
         }
 

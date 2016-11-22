@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<StreamReaderDelegate>, StreamReaderDelegateTes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.StreamReaderDelegate]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(StreamReaderDelegate::new);
     }
 

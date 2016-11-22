@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NoConnectionPendingException>, NoConnectionPen
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NoConnectionPendingException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NoConnectionPendingException::new);
     }
 

@@ -45,7 +45,7 @@ implements WebParamTests<WebParam> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebParam$Mode]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Mode.class);
         }
 

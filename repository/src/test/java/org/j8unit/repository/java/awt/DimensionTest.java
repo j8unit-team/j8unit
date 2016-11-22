@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Dimension>, DimensionTests<Dimension> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dimension]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Dimension::new);
     }
 

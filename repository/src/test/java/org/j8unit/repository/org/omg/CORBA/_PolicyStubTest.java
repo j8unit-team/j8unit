@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<_PolicyStub>, _PolicyStubTests<_PolicyStub> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA._PolicyStub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_PolicyStub::new);
     }
 

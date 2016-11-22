@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SwitchPoint>, SwitchPointTests<SwitchPoint> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.SwitchPoint]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SwitchPoint::new);
     }
 

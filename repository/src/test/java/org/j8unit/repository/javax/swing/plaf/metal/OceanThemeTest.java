@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<OceanTheme>, OceanThemeTests<OceanTheme> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.OceanTheme]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OceanTheme::new);
     }
 

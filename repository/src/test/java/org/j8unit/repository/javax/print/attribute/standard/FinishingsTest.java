@@ -22,7 +22,7 @@ implements FinishingsTests<Finishings> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Finishings]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Finishings.STAPLE_BOTTOM_RIGHT, //
                                 Finishings.STAPLE_DUAL_LEFT, //
                                 Finishings.EDGE_STITCH, //

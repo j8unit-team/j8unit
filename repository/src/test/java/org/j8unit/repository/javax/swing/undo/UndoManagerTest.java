@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<UndoManager>, UndoManagerTests<UndoManager> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.UndoManager]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UndoManager::new);
     }
 

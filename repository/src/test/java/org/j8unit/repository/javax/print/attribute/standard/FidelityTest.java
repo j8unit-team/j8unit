@@ -22,7 +22,7 @@ implements FidelityTests<Fidelity> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Fidelity.FIDELITY_FALSE, //
                                 Fidelity.FIDELITY_TRUE);
     }

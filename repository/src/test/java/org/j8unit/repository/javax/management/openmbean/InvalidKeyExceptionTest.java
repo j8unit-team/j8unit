@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InvalidKeyException>, InvalidKeyExceptionTests
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.InvalidKeyException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InvalidKeyException::new);
     }
 

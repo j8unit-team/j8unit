@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InputMapUIResource>, InputMapUIResourceTests<I
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.InputMapUIResource]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InputMapUIResource::new);
     }
 

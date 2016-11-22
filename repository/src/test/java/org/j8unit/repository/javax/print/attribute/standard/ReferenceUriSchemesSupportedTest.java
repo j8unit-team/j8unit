@@ -23,7 +23,7 @@ implements ReferenceUriSchemesSupportedTests<ReferenceUriSchemesSupported> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.ReferenceUriSchemesSupported]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ReferenceUriSchemesSupported.NEWS, //
                                 ReferenceUriSchemesSupported.HTTPS, //
                                 ReferenceUriSchemesSupported.FTP, //

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RequiredModelMBean>, RequiredModelMBeanTests<R
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RequiredModelMBean::new);
     }
 

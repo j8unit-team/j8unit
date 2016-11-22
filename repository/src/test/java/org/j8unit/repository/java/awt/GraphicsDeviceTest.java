@@ -46,7 +46,7 @@ implements GraphicsDeviceTests<GraphicsDevice> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GraphicsDevice$WindowTranslucency]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(WindowTranslucency.class);
         }
 

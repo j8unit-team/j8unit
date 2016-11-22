@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Subject>, SubjectTests<Subject> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.Subject]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Subject::new);
     }
 

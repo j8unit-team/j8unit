@@ -21,7 +21,7 @@ public class UnmodifiableIterableTest
 implements UnmodifiableIterableTests<Iterable<Object>, Object> {
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> data() {
+    public static Iterable<? extends Object> data() {
         return testParametersOf(emptyList(), singletonList("single"), unmodifiableCollection(emptyList()), unmodifiableCollection(singletonList("single")),
                                 unmodifiableCollection(asList("first", "second")), emptySet(), singleton("set-single"), unmodifiableCollection(emptySet()),
                                 unmodifiableCollection(singleton("set-single")), unmodifiableCollection(asList("first", "second").stream().collect(toSet())));

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<GridBagLayout>, GridBagLayoutTests<GridBagLayo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GridBagLayout]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(GridBagLayout::new);
     }
 

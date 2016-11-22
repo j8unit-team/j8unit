@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<JToolBar>, JToolBarTests<JToolBar> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JToolBar::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<JToolBar>, JToolBarTests<JToolBar> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar$Separator]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Separator::new);
         }
 

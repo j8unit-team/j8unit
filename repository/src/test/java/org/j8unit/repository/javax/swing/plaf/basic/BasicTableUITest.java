@@ -24,7 +24,7 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicTableUI::new);
     }
 

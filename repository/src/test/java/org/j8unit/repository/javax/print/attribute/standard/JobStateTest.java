@@ -22,7 +22,7 @@ implements JobStateTests<JobState> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobState]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JobState.PROCESSING_STOPPED, //
                                 JobState.UNKNOWN, //
                                 JobState.PENDING, //

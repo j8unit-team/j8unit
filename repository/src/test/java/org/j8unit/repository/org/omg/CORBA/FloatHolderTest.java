@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FloatHolder>, FloatHolderTests<FloatHolder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.FloatHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FloatHolder::new);
     }
 

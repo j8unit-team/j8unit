@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RoleInfoNotFoundException>, RoleInfoNotFoundEx
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleInfoNotFoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RoleInfoNotFoundException::new);
     }
 

@@ -45,7 +45,7 @@ implements DiagnosticTests<Diagnostic<S>, S> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.Diagnostic$Kind]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Kind.class);
         }
 

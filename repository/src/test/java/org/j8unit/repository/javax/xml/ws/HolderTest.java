@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Holder<T>>, HolderTests<Holder<T>, T> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Holder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Holder::new);
     }
 

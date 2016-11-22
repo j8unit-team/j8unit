@@ -23,7 +23,7 @@ implements PrinterIsAcceptingJobsTests<PrinterIsAcceptingJobs> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PrinterIsAcceptingJobs]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PrinterIsAcceptingJobs.ACCEPTING_JOBS, //
                                 PrinterIsAcceptingJobs.NOT_ACCEPTING_JOBS);
     }

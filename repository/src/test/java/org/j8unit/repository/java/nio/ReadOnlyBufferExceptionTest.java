@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ReadOnlyBufferException>, ReadOnlyBufferExcept
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.ReadOnlyBufferException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ReadOnlyBufferException::new);
     }
 

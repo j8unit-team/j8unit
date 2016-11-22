@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PERSIST_STORE>, PERSIST_STORETests<PERSIST_STO
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PERSIST_STORE]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PERSIST_STORE::new);
     }
 

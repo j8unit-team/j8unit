@@ -22,7 +22,7 @@ implements CompressionTests<Compression> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Compression]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Compression.GZIP, //
                                 Compression.NONE, //
                                 Compression.DEFLATE, //

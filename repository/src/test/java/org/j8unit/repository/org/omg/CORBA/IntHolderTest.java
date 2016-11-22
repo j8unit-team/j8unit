@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IntHolder>, IntHolderTests<IntHolder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IntHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IntHolder::new);
     }
 

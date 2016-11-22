@@ -3,7 +3,7 @@ package org.j8unit.repository.org.omg.stub.javax.management.remote.rmi;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.repository.JavaBug;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.Test;
@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, _RMIServer_StubTests<_RMISer
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIServer_Stub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_RMIServer_Stub::new);
     }
 

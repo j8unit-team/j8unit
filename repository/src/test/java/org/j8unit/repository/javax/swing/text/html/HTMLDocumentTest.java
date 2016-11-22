@@ -34,7 +34,7 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HTMLDocument::new);
     }
 

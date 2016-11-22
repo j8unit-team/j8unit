@@ -24,7 +24,7 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CertPathValidatorException::new);
     }
 
@@ -77,7 +77,7 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(BasicReason.class);
         }
 

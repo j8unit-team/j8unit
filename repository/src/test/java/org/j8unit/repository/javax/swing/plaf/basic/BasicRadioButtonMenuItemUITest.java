@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BasicRadioButtonMenuItemUI>, BasicRadioButtonM
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicRadioButtonMenuItemUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicRadioButtonMenuItemUI::new);
     }
 

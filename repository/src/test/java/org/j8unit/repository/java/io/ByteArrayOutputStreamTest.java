@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ByteArrayOutputStream>, ByteArrayOutputStreamT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ByteArrayOutputStream]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ByteArrayOutputStream::new);
     }
 

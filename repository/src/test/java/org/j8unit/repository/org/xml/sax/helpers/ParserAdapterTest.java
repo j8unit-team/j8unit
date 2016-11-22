@@ -20,7 +20,7 @@ implements FactoryBasedJ8UnitTest<ParserAdapter>, ParserAdapterTests<ParserAdapt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserAdapter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ParserAdapter::new);
     }
 

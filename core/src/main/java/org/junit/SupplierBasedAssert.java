@@ -469,9 +469,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code Object} array
-     * @param actual
+     * @param actuals
      *            the actual {@code Object} array to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -485,15 +485,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, boolean, boolean)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code boolean} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code boolean} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -505,15 +505,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, byte, byte)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, byte[], byte[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code byte} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code byte} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -525,15 +525,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, char, char)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, char[], char[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code char} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code char} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -550,9 +550,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code double} array
-     * @param actual
+     * @param actuals
      *            the actual {@code double} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -566,15 +566,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, double, double)}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, double[], double[], double)}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code double} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code double} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -593,9 +593,9 @@ extends Assert {
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the expected {@code float} array
-     * @param actual
+     * @param actuals
      *            the actual {@code float} array to compare against {@code expected}
      * @throws AssertionError
      *             always
@@ -609,15 +609,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, float, float)}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link Assert#assertArrayEquals(String, float[], float[], float)}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code float} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code float} array with actual values to compare against {@code expected}
      * @param delta
      *            the maximum delta between two floating-point numbers for which they are still considered equal
@@ -631,15 +631,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, int, int)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, int[], int[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code int} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code int} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -651,15 +651,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, long, long)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, long[], long[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code long} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code long} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -671,15 +671,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, Object, Object)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, Object[], Object[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code Object} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code Object} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails
@@ -691,15 +691,15 @@ extends Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, short, short)}, but uses a supplied fail message which
+     * Similar to {@link Assert#assertArrayEquals(String, short[], short[])}, but uses a supplied fail message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
-     * @param expected
+     * @param expecteds
      *            the {@code short} array with expected values
-     * @param actual
+     * @param actuals
      *            the {@code short} array with actual values to compare against {@code expected}
      * @throws AssertionError
      *             iff the assertion fails

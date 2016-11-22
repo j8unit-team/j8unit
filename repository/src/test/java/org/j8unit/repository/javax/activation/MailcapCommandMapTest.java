@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MailcapCommandMap>, MailcapCommandMapTests<Mai
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MailcapCommandMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MailcapCommandMap::new);
     }
 

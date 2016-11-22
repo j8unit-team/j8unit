@@ -22,7 +22,7 @@ implements SystemColorTests<SystemColor> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.SystemColor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SystemColor.info, //
                                 SystemColor.text, //
                                 SystemColor.controlLtHighlight, //

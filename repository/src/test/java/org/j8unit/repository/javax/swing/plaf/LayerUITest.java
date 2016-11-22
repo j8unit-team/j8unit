@@ -20,7 +20,7 @@ implements FactoryBasedJ8UnitTest<LayerUI<V>>, LayerUITests<LayerUI<V>, V> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.LayerUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LayerUI::new);
     }
 

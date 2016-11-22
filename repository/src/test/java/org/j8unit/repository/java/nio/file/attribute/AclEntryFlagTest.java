@@ -22,7 +22,7 @@ implements AclEntryFlagTests<AclEntryFlag> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.AclEntryFlag]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(AclEntryFlag.class);
     }
 

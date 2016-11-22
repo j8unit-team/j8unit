@@ -46,7 +46,7 @@ implements ResourceTests<Resource> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(AuthenticationType.class);
         }
 

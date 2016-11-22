@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IMP_LIMIT>, IMP_LIMITTests<IMP_LIMIT> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IMP_LIMIT]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IMP_LIMIT::new);
     }
 

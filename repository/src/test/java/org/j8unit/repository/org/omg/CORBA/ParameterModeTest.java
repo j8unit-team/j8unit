@@ -22,7 +22,7 @@ implements ParameterModeTests<ParameterMode> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ParameterMode]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ParameterMode.PARAM_INOUT, //
                                 ParameterMode.PARAM_OUT, //
                                 ParameterMode.PARAM_IN);

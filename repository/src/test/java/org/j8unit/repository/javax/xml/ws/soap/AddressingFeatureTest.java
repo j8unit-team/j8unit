@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<AddressingFeature>, AddressingFeatureTests<Add
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AddressingFeature::new);
     }
 
@@ -50,7 +50,7 @@ implements FactoryBasedJ8UnitTest<AddressingFeature>, AddressingFeatureTests<Add
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Responses.class);
         }
 

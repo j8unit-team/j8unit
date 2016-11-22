@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AccountException>, AccountExceptionTests<Accou
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AccountException::new);
     }
 

@@ -22,7 +22,7 @@ implements MediaNameTests<MediaName> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaName]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MediaName.NA_LETTER_TRANSPARENT, //
                                 MediaName.NA_LETTER_WHITE, //
                                 MediaName.ISO_A4_WHITE, //

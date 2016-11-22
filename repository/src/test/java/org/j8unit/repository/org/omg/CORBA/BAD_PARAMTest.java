@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BAD_PARAM>, BAD_PARAMTests<BAD_PARAM> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_PARAM]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BAD_PARAM::new);
     }
 

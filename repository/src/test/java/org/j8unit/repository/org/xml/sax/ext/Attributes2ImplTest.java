@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Attributes2Impl>, Attributes2ImplTests<Attribu
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Attributes2Impl]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Attributes2Impl::new);
     }
 

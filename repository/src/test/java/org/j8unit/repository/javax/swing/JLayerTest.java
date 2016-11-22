@@ -20,7 +20,7 @@ implements FactoryBasedJ8UnitTest<JLayer<V>>, JLayerTests<JLayer<V>, V> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JLayer]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JLayer::new);
     }
 

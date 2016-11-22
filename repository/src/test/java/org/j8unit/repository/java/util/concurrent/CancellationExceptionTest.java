@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CancellationException>, CancellationExceptionT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CancellationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CancellationException::new);
     }
 

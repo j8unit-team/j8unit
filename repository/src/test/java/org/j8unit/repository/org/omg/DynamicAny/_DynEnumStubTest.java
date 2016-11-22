@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<_DynEnumStub>, _DynEnumStubTests<_DynEnumStub>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_DynEnumStub::new);
     }
 

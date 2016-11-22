@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CompoundBorder>, CompoundBorderTests<CompoundB
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.border.CompoundBorder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CompoundBorder::new);
     }
 

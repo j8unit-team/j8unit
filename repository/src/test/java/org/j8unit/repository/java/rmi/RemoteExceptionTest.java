@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RemoteException>, RemoteExceptionTests<RemoteE
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RemoteException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RemoteException::new);
     }
 

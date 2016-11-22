@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<GridBagConstraints>, GridBagConstraintsTests<G
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GridBagConstraints]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(GridBagConstraints::new);
     }
 

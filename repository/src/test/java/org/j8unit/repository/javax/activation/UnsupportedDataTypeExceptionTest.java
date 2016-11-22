@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<UnsupportedDataTypeException>, UnsupportedData
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.UnsupportedDataTypeException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(UnsupportedDataTypeException::new);
     }
 

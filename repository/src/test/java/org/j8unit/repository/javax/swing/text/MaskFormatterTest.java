@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MaskFormatter>, MaskFormatterTests<MaskFormatt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.MaskFormatter]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MaskFormatter::new);
     }
 

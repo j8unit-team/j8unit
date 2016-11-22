@@ -22,7 +22,7 @@ implements TextAttributeTests<TextAttribute> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TextAttribute]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TextAttribute.SIZE, //
                                 TextAttribute.SWAP_COLORS, //
                                 TextAttribute.INPUT_METHOD_UNDERLINE, //

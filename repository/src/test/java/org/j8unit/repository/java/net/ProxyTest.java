@@ -24,7 +24,7 @@ implements org.j8unit.repository.java.net.ProxyTests<Proxy> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Proxy.NO_PROXY);
     }
 
@@ -53,7 +53,7 @@ implements org.j8unit.repository.java.net.ProxyTests<Proxy> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy$Type]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Type.class);
         }
 

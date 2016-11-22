@@ -22,7 +22,7 @@ implements JapaneseEraTests<JapaneseEra> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.JapaneseEra]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JapaneseEra.SHOWA, //
                                 JapaneseEra.HEISEI, //
                                 JapaneseEra.TAISHO, //

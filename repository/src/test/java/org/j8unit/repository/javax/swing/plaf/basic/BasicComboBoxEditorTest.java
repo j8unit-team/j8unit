@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxEditor>, BasicComboBoxEditorTests
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicComboBoxEditor::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxEditor>, BasicComboBoxEditorTests
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

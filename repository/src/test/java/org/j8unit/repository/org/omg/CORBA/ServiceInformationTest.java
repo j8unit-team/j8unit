@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ServiceInformation>, ServiceInformationTests<S
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServiceInformation]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ServiceInformation::new);
     }
 

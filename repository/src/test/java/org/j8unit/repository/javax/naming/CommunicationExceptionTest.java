@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CommunicationException>, CommunicationExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CommunicationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CommunicationException::new);
     }
 

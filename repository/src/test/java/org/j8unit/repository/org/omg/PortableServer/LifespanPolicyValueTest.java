@@ -22,7 +22,7 @@ implements LifespanPolicyValueTests<LifespanPolicyValue> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.LifespanPolicyValue]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LifespanPolicyValue.PERSISTENT, //
                                 LifespanPolicyValue.TRANSIENT);
     }

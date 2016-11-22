@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JCheckBoxMenuItem>, JCheckBoxMenuItemTests<JCh
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JCheckBoxMenuItem]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JCheckBoxMenuItem::new);
     }
 

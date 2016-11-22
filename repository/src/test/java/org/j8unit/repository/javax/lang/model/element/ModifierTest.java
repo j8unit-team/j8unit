@@ -22,7 +22,7 @@ implements ModifierTests<Modifier> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.Modifier]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(Modifier.class);
     }
 

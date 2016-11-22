@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<HandlerBase>, HandlerBaseTests<HandlerBase> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.HandlerBase]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HandlerBase::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CertificateParsingException>, CertificateParsi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertificateParsingException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CertificateParsingException::new);
     }
 

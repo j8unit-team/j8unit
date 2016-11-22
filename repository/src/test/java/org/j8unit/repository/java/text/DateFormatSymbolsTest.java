@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DateFormatSymbols>, DateFormatSymbolsTests<Dat
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormatSymbols]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DateFormatSymbols::new);
     }
 

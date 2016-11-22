@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LongHolder>, LongHolderTests<LongHolder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.LongHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LongHolder::new);
     }
 

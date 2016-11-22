@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<JCheckBox>, JCheckBoxTests<JCheckBox> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JCheckBox]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JCheckBox::new);
     }
 

@@ -21,7 +21,7 @@ implements FactoryBasedJ8UnitTest<ScrollPaneLayout>, ScrollPaneLayoutTests<Scrol
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ScrollPaneLayout::new);
     }
 
@@ -45,7 +45,7 @@ implements FactoryBasedJ8UnitTest<ScrollPaneLayout>, ScrollPaneLayoutTests<Scrol
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(UIResource::new);
         }
 

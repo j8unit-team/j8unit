@@ -24,7 +24,7 @@ implements FactoryBasedJ8UnitTest<JTable>, JTableTests<JTable> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JTable::new);
     }
 
@@ -75,7 +75,7 @@ implements FactoryBasedJ8UnitTest<JTable>, JTableTests<JTable> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$PrintMode]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(PrintMode.class);
         }
 

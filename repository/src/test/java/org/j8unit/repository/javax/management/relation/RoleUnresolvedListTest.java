@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RoleUnresolvedList>, RoleUnresolvedListTests<R
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleUnresolvedList]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RoleUnresolvedList::new);
     }
 

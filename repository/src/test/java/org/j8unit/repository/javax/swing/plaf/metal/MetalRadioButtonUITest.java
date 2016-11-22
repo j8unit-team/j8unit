@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MetalRadioButtonUI>, MetalRadioButtonUITests<M
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalRadioButtonUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MetalRadioButtonUI::new);
     }
 

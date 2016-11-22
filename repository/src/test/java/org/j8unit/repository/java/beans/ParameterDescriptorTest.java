@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ParameterDescriptor>, ParameterDescriptorTests
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.ParameterDescriptor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ParameterDescriptor::new);
     }
 

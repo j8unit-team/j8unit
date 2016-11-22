@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CompoundEdit>, CompoundEditTests<CompoundEdit>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.CompoundEdit]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CompoundEdit::new);
     }
 

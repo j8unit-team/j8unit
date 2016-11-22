@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MenuItem>, MenuItemTests<MenuItem> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MenuItem]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MenuItem::new);
     }
 

@@ -22,7 +22,7 @@ implements InputMethodHighlightTests<InputMethodHighlight> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.im.InputMethodHighlight]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InputMethodHighlight.UNSELECTED_RAW_TEXT_HIGHLIGHT, //
                                 InputMethodHighlight.SELECTED_RAW_TEXT_HIGHLIGHT, //
                                 InputMethodHighlight.SELECTED_CONVERTED_TEXT_HIGHLIGHT, //

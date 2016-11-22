@@ -1,4 +1,4 @@
-package org.j8unit.repository;
+package org.j8unit.repository.categories;
 
 /**
  * Marker interface to tag Java bugs (enabling JUnit exclusion). If, otherwise, not excluded the maven build will abort

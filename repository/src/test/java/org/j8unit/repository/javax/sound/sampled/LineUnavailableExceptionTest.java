@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LineUnavailableException>, LineUnavailableExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LineUnavailableException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ContextNotEmptyException>, ContextNotEmptyExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ContextNotEmptyException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ContextNotEmptyException::new);
     }
 

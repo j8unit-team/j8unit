@@ -46,7 +46,7 @@ implements ProcessBuilderTests<ProcessBuilder> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Redirect.INHERIT, //
                                     Redirect.PIPE);
         }
@@ -76,7 +76,7 @@ implements ProcessBuilderTests<ProcessBuilder> {
             // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
             @Parameters(name = "{index}: {0}")
-            public static Iterable<Object[]> sutData() {
+            public static Iterable<? extends Object> sutData() {
                 return testParametersOfEnumClass(Type.class);
             }
 

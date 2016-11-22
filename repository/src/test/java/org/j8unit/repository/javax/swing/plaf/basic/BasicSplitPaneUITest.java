@@ -30,7 +30,7 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicSplitPaneUI::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ForwardRequest>, ForwardRequestTests<ForwardRe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ForwardRequest]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ForwardRequest::new);
     }
 

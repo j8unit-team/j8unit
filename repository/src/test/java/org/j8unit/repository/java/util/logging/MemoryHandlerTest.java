@@ -20,7 +20,7 @@ implements FactoryBasedJ8UnitTest<MemoryHandler>, MemoryHandlerTests<MemoryHandl
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.MemoryHandler]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MemoryHandler::new);
     }
 

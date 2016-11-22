@@ -31,7 +31,7 @@ implements FactoryBasedJ8UnitTest, BeanContextSupportTests<BeanContextSupport> {
     }
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BeanContextSupport::new);
     }
 

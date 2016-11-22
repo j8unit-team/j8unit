@@ -22,7 +22,7 @@ implements ImmutableDescriptorTests<ImmutableDescriptor> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ImmutableDescriptor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ImmutableDescriptor.EMPTY_DESCRIPTOR);
     }
 

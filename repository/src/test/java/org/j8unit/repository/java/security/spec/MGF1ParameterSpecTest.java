@@ -22,7 +22,7 @@ implements MGF1ParameterSpecTests<MGF1ParameterSpec> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.MGF1ParameterSpec]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MGF1ParameterSpec.SHA512, //
                                 MGF1ParameterSpec.SHA224, //
                                 MGF1ParameterSpec.SHA384, //

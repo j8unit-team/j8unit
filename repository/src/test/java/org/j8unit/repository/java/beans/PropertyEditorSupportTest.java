@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PropertyEditorSupport>, PropertyEditorSupportT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyEditorSupport]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PropertyEditorSupport::new);
     }
 

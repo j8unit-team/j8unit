@@ -25,7 +25,7 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(HTML::new);
     }
 
@@ -54,7 +54,7 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Attribute]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Attribute.CODEBASE, //
                                                        Attribute.ALIGN, //
                                                        Attribute.LINK, //
@@ -164,7 +164,7 @@ implements FactoryBasedJ8UnitTest<HTML>, HTMLTests<HTML> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTML$Tag]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(/* new Tag(), */ //
                                                        Tag.ADDRESS, //
                                                        Tag.SCRIPT, //

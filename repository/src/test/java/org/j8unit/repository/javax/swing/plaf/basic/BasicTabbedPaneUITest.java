@@ -26,7 +26,7 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicTabbedPaneUI::new);
     }
 

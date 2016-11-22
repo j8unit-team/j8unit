@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotYetConnectedException>, NotYetConnectedExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NotYetConnectedException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotYetConnectedException::new);
     }
 

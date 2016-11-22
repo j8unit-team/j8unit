@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LambdaMetafactory>, LambdaMetafactoryTests<Lam
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.LambdaMetafactory]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LambdaMetafactory::new);
     }
 

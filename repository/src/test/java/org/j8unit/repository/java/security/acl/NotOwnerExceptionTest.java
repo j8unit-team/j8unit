@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotOwnerException>, NotOwnerExceptionTests<Not
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.NotOwnerException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotOwnerException::new);
     }
 

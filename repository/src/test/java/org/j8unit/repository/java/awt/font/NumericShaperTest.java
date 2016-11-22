@@ -45,7 +45,7 @@ implements NumericShaperTests<NumericShaper> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.NumericShaper$Range]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Range.class);
         }
 

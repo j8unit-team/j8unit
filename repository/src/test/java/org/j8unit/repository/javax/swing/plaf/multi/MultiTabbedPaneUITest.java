@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiTabbedPaneUI>, MultiTabbedPaneUITests<Mul
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTabbedPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiTabbedPaneUI::new);
     }
 

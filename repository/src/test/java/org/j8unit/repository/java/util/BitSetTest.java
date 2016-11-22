@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<BitSet>, BitSetTests<BitSet> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.BitSet]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BitSet::new);
     }
 

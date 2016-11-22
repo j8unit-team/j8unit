@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AsynchronousCloseException>, AsynchronousClose
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AsynchronousCloseException::new);
     }
 

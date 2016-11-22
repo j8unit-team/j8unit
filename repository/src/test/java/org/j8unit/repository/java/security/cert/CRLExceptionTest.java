@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CRLException>, CRLExceptionTests<CRLException>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CRLException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CRLException::new);
     }
 

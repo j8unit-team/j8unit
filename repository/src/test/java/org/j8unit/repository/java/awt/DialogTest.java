@@ -47,7 +47,7 @@ implements DialogTests<Dialog> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(ModalExclusionType.class);
         }
 
@@ -78,7 +78,7 @@ implements DialogTests<Dialog> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalityType]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOfEnumClass(ModalityType.class);
         }
 

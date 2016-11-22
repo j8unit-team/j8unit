@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SyncProviderException>, SyncProviderExceptionT
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.spi.SyncProviderException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SyncProviderException::new);
     }
 

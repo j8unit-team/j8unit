@@ -44,7 +44,7 @@ implements Rectangle2DTests<Rectangle2D> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Float]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Float::new);
         }
 
@@ -70,7 +70,7 @@ implements Rectangle2DTests<Rectangle2D> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Double]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Double::new);
         }
 

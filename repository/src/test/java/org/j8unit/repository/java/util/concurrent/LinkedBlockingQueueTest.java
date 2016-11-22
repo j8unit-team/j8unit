@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<LinkedBlockingQueue<E>>, LinkedBlockingQueueTe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.LinkedBlockingQueue]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(LinkedBlockingQueue::new);
     }
 

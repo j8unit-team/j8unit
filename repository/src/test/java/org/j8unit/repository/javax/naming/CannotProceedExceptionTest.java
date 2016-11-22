@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<CannotProceedException>, CannotProceedExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CannotProceedException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(CannotProceedException::new);
     }
 

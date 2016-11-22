@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SAXNotSupportedException>, SAXNotSupportedExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXNotSupportedException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SAXNotSupportedException::new);
     }
 

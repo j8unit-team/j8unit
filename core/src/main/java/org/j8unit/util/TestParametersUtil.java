@@ -1,36 +1,94 @@
 package org.j8unit.util;
 
-import static java.util.Arrays.stream;
-import static java.util.stream.Collectors.toList;
+import static java.util.Arrays.asList;
 import java.util.List;
 import java.util.concurrent.Callable;
-import java.util.function.Function;
+import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.J8UnitTest;
 
+/**
+ * <p>
+ * Utility enum (aka. helper class) providing smart methods to prepare the parameters of parameterised JUnit/J8Unit
+ * tests.
+ * </p>
+ *
+ * @since 4.12
+ */
 public enum TestParametersUtil {
     ;
 
-    public static final Function<Object, Object[]> ENVELOPE = x -> new Object[] { x };
-
+    /**
+     * <p>
+     * Prepares a variable number of subject-under-test {@code instances} to be used in conjunction with parameterised
+     * JUnit/J8Unit tests.
+     *
+     * This preparation methods supports tests with a single parameter only. According to the documentation of
+     * {@link org.junit.runners.Parameterized}, this method therefore returns an {@link Iterable} of these objects.
+     * (Actually it returns a {@link List} which is a slightly more specific {@code Iterable} container.)
+     * </p>
+     *
+     * <p>
+     * Typically, this method is used for instance based {@link J8UnitTest J8Unit tests}, executed by
+     * {@link org.j8unit.runners.J8Parameterized} (together with
+     * {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory}).
+     * </p>
+     *
+     * @see #testParametersOf(Callable...)
+     * @see #testParametersOfEnumClass(Class)
+     * @see org.junit.runners.Parameterized
+     * @see org.j8unit.runners.J8Parameterized
+     *
+     * @param instances
+     *            the subject-under-test instances
+     * @return a list of the subject-under-test {@code instances}
+     */
     @SafeVarargs
-    public static final <T> List<Object[]> testParametersOf(final T... values) {
-        return stream(values).map(ENVELOPE).collect(toList());
+    public static final <T> List<? extends T> testParametersOf(final T... instances) {
+        return asList(instances);
     }
 
     /**
-     * Duplicated method to allow direct (lambda) notation of constructor references (e.&thinsp;g.,
-     * {@code testParametersOf(Object::new)}).
+     * <p>
+     * Prepares a variable number of subject-under-test instance {@code factories} to be used in conjunction with
+     * parameterised JUnit/J8Unit tests. Because of the {@link Callable}-API, this method allows to immediately use the
+     * lambda notation of constructor references and similar (e.&thinsp;g.,
+     * {@code testParametersOf(ArrayList::new, LinkedList::new, Collections::emptyList)}).
      *
-     * @param values
-     * @return
+     * This preparation methods supports tests with a single parameter only. According to the documentation of
+     * {@link org.junit.runners.Parameterized}, this method therefore returns an {@link Iterable} of these objects.
+     * (Actually it returns a {@link List} which is a slightly more specific {@code Iterable} container.)
+     * </p>
+     *
+     * <p>
+     * Typically, this method is used for {@link FactoryBasedJ8UnitTest factory based J8Unit tests}, executed by
+     * {@link org.j8unit.runners.J8Parameterized} (together with
+     * {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory}).
+     * </p>
+     *
+     * @see #testParametersOf(Object...)
+     * @see #testParametersOfEnumClass(Class)
+     * @see org.junit.runners.Parameterized
+     * @see org.j8unit.runners.J8Parameterized
+     *
+     * @param factories
+     *            the subject-under-test instance factories
+     * @return a list of the subject-under-test instance {@code factories}
      */
     @SafeVarargs
-    public static final <T> List<Object[]> testParametersOf(final Callable<T>... values) {
-        return testParametersOf((Object[]) values);
+    public static final <T> List<? extends Callable<T>> testParametersOf(final Callable<T>... factories) {
+        return asList(factories);
     }
 
-    public static final <E extends Enum<E>> List<Object[]> testParametersOfEnumClass(final Class<E> enumClass) {
-        assert enumClass.isEnum();
-        return testParametersOf(enumClass.getEnumConstants());
+    /**
+     * Returns a list containing all values comprising the {@code enum} class represented by the given {@code type}.
+     *
+     * @param type
+     *            the given {@code enum} type
+     * @return a list of the subject-under-test instances (actually all {@code enum}'s elements)
+     */
+    public static final <E extends Enum<E>> List<? extends E> testParametersOfEnumClass(final Class<E> type) {
+        assert type.isEnum();
+        return asList(type.getEnumConstants());
     }
 
 }

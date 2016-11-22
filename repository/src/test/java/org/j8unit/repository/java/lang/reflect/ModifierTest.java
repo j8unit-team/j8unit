@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Modifier>, org.j8unit.repository.java.lang.ref
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.Modifier]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Modifier::new);
     }
 

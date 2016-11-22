@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<OBJ_ADAPTER>, OBJ_ADAPTERTests<OBJ_ADAPTER> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJ_ADAPTER]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(OBJ_ADAPTER::new);
     }
 

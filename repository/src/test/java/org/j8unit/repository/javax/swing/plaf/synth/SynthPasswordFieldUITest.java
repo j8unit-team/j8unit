@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthPasswordFieldUI>, SynthPasswordFieldUITes
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthPasswordFieldUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthPasswordFieldUI::new);
     }
 

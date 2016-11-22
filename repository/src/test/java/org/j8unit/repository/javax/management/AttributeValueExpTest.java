@@ -4,7 +4,7 @@ import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import javax.management.AttributeValueExp;
 import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.repository.JavaBug;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.Test;
@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<AttributeValueExp>, AttributeValueExpTests<Att
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeValueExp]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AttributeValueExp::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RefreshFailedException>, RefreshFailedExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.RefreshFailedException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RefreshFailedException::new);
     }
 

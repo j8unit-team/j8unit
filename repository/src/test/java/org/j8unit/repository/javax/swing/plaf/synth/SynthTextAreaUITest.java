@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SynthTextAreaUI>, SynthTextAreaUITests<SynthTe
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTextAreaUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SynthTextAreaUI::new);
     }
 

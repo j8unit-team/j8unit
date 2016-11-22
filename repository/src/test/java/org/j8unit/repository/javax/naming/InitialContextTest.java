@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<InitialContext>, InitialContextTests<InitialCo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InitialContext]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(InitialContext::new);
     }
 

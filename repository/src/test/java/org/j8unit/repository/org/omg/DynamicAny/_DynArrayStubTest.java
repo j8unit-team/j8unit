@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<_DynArrayStub>, _DynArrayStubTests<_DynArraySt
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynArrayStub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_DynArrayStub::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SQLClientInfoException>, SQLClientInfoExceptio
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLClientInfoException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SQLClientInfoException::new);
     }
 

@@ -3,7 +3,7 @@ package org.j8unit.repository.org.omg.stub.java.rmi;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.repository.JavaBug;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.Test;
@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<_Remote_Stub>, _Remote_StubTests<_Remote_Stub>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(_Remote_Stub::new);
     }
 

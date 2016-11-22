@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ValueMember>, ValueMemberTests<ValueMember> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ValueMember]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ValueMember::new);
     }
 

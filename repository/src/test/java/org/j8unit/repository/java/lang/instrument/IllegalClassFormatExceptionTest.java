@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<IllegalClassFormatException>, IllegalClassForm
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.instrument.IllegalClassFormatException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(IllegalClassFormatException::new);
     }
 

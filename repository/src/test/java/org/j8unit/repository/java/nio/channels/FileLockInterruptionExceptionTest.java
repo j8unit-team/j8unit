@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<FileLockInterruptionException>, FileLockInterr
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileLockInterruptionException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(FileLockInterruptionException::new);
     }
 

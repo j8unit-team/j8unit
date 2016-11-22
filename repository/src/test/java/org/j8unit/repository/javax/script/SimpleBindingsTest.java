@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SimpleBindings>, SimpleBindingsTests<SimpleBin
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.SimpleBindings]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SimpleBindings::new);
     }
 

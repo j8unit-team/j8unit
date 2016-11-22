@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotEmptyHolder>, NotEmptyHolderTests<NotEmptyH
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotEmptyHolder::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<StringMonitor>, StringMonitorTests<StringMonit
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.StringMonitor]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(StringMonitor::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TimeoutException>, TimeoutExceptionTests<Timeo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.TimeoutException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TimeoutException::new);
     }
 

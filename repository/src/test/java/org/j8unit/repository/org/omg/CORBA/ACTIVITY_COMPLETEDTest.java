@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ACTIVITY_COMPLETED>, ACTIVITY_COMPLETEDTests<A
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ACTIVITY_COMPLETED]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ACTIVITY_COMPLETED::new);
     }
 

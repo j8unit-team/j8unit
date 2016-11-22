@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<URLDecoder>, URLDecoderTests<URLDecoder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.URLDecoder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(URLDecoder::new);
     }
 

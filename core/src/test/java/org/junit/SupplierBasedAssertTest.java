@@ -2,6 +2,7 @@ package org.junit;
 
 import java.util.function.Supplier;
 
+@SuppressWarnings("deprecation")
 public class SupplierBasedAssertTest {
 
     private static final Supplier<String> SUP = "FAILED"::toString;

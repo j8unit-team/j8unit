@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<MultiRootPaneUI>, MultiRootPaneUITests<MultiRo
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiRootPaneUI]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(MultiRootPaneUI::new);
     }
 

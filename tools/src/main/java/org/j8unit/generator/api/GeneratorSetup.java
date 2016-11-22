@@ -624,11 +624,11 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
          * Prepares {@link #testMethodPrefix} (with given prefix), {@link #testMethodInfixUpperCase} (with given
          * upper-case flag), and {@link #testMethodSuffix} (with given suffix).
          *
-         * @param prefix
+         * @param testMethodPrefix
          *            the prefix when naming method tests
          * @param upperCaseFlag
          *            the infix upper-case flag when naming method tests
-         * @param suffix
+         * @param testMethodSuffix
          *            the suffix when naming method tests
          * @return {@code this} builder instance for fluent API style
          */

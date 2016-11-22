@@ -22,7 +22,7 @@ implements WeekFieldsTests<WeekFields> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.WeekFields]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(WeekFields.SUNDAY_START, //
                                 WeekFields.ISO);
     }

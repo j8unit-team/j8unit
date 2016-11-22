@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NameAlreadyBoundException>, NameAlreadyBoundEx
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NameAlreadyBoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NameAlreadyBoundException::new);
     }
 

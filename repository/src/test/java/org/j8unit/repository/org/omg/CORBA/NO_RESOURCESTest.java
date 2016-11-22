@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NO_RESOURCES>, NO_RESOURCESTests<NO_RESOURCES>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_RESOURCES]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NO_RESOURCES::new);
     }
 

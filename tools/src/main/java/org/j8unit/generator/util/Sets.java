@@ -24,6 +24,7 @@ public enum Sets {
      *            the set's values
      * @return the set (uniquely) containing the given values
      */
+    @SafeVarargs
     public static final <T> Set<T> asSet(final T... values) {
         return stream(values).collect(toSet());
     }
@@ -52,6 +53,7 @@ public enum Sets {
      *            the further warnings
      * @return a joined set of the given warnings
      */
+    @SafeVarargs
     public static final <T> Set<T> join(final Set<T> origin, final T... additionals) {
         return concat(origin.stream(), Stream.of(additionals)).collect(toSet());
     }

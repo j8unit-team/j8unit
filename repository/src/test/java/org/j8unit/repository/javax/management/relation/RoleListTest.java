@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<RoleList>, RoleListTests<RoleList> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleList]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(RoleList::new);
     }
 

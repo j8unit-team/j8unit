@@ -49,7 +49,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(ParameterStyle.class);
         }
 
@@ -80,7 +80,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOfEnumClass(Use.class);
         }
 
@@ -111,7 +111,7 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOfEnumClass(Style.class);
         }
 

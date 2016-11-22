@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<SizeSequence>, SizeSequenceTests<SizeSequence>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SizeSequence]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(SizeSequence::new);
     }
 

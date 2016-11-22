@@ -30,7 +30,7 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(BasicBorders::new);
     }
 
@@ -192,7 +192,7 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicBorders$MarginBorder]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(MarginBorder::new);
         }
 

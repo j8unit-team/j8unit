@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PlainDocument>, PlainDocumentTests<PlainDocume
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.PlainDocument]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PlainDocument::new);
     }
 

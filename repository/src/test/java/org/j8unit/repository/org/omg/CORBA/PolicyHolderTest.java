@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<PolicyHolder>, PolicyHolderTests<PolicyHolder>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PolicyHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(PolicyHolder::new);
     }
 

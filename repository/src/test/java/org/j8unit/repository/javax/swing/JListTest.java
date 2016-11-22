@@ -22,7 +22,7 @@ implements FactoryBasedJ8UnitTest<JList<E>>, JListTests<JList<E>, E> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JList]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(JList::new);
     }
 

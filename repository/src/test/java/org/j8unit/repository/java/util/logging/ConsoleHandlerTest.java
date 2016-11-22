@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ConsoleHandler>, ConsoleHandlerTests<ConsoleHa
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.ConsoleHandler]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ConsoleHandler::new);
     }
 

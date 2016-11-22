@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AuthenticationException>, org.j8unit.repositor
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.AuthenticationException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AuthenticationException::new);
     }
 

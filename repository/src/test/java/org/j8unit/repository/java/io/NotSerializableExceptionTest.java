@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NotSerializableException>, NotSerializableExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.NotSerializableException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NotSerializableException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Random>, RandomTests<Random> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Random]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Random::new);
     }
 

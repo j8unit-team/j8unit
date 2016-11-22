@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ViewportLayout>, ViewportLayoutTests<ViewportL
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ViewportLayout]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ViewportLayout::new);
     }
 

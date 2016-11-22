@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<DecimalFormat>, DecimalFormatTests<DecimalForm
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DecimalFormat]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(DecimalFormat::new);
     }
 

@@ -22,7 +22,7 @@ implements SignStyleTests<SignStyle> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.SignStyle]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(SignStyle.class);
     }
 

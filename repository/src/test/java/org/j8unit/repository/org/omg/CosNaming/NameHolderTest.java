@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<NameHolder>, NameHolderTests<NameHolder> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NameHolder]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(NameHolder::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TreeMap<K, V>>, TreeMapTests<TreeMap<K, V>, K,
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TreeMap]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TreeMap::new);
     }
 

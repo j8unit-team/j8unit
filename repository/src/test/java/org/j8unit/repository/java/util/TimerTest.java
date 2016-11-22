@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<Timer>, TimerTests<Timer> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Timer]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Timer::new);
     }
 

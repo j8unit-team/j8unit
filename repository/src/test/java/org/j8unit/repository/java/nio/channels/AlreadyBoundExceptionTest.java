@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<AlreadyBoundException>, org.j8unit.repository.
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AlreadyBoundException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AlreadyBoundException::new);
     }
 

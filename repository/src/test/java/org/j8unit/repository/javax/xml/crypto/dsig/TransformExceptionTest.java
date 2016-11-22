@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TransformException>, TransformExceptionTests<T
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.TransformException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TransformException::new);
     }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<TRANSIENT>, TRANSIENTTests<TRANSIENT> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSIENT]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(TRANSIENT::new);
     }
 

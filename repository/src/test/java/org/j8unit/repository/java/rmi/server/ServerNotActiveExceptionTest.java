@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<ServerNotActiveException>, ServerNotActiveExce
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.ServerNotActiveException]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(ServerNotActiveException::new);
     }
 

@@ -23,7 +23,7 @@ implements FactoryBasedJ8UnitTest<Thread>, ThreadTests<Thread> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(Thread::new);
     }
 
@@ -75,7 +75,7 @@ implements FactoryBasedJ8UnitTest<Thread>, ThreadTests<Thread> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$State]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(State.class);
         }
 

@@ -19,7 +19,7 @@ implements FactoryBasedJ8UnitTest<GeneralPath>, GeneralPathTests<GeneralPath> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.GeneralPath]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(GeneralPath::new);
     }
 

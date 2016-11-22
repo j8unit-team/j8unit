@@ -46,7 +46,7 @@ implements CollectorTests<Collector<T, A, R>, T, A, R> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOfEnumClass(Characteristics.class);
         }
 

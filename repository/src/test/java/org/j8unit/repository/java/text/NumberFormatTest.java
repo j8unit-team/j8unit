@@ -45,7 +45,7 @@ implements NumberFormatTests<NumberFormat> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.NumberFormat$Field]
 
         @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
+        public static Iterable<? extends Object> sutData() {
             return testParametersOf(Field.EXPONENT, //
                                     Field.SIGN, //
                                     Field.INTEGER, //

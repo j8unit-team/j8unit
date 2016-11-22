@@ -22,7 +22,7 @@ implements AccessibleRoleTests<AccessibleRole> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleRole]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOf(AccessibleRole.COLUMN_HEADER, //
                                 AccessibleRole.ICON, //
                                 AccessibleRole.PAGE_TAB_LIST, //

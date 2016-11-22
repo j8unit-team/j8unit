@@ -21,13 +21,6 @@
     <maven>3.0</maven>
   </prerequisites>
 
-  <!--
-    ~ As a memory, here are some links dealing with public deployment:
-    ~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
-    ~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/
-    ~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/
-  -->
-
   <groupId>org.j8unit</groupId>
   <artifactId>project</artifactId>
   <version>2-SNAPSHOT</version>
@@ -95,7 +88,7 @@
     <version.junit>4.12</version.junit>
     <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
   </properties>
-      
+
   <profiles>
 
     <profile>
@@ -119,7 +112,7 @@
       <!-- of the J8Unit Spring project too. -->
       <id>repository</id>
       <activation>
-        <activeByDefault>true</activeByDefault>
+        <activeByDefault>false</activeByDefault>
       </activation>
       <modules>
         <module>./core</module>
@@ -130,7 +123,7 @@
     <profile>
       <id>showcases</id>
       <activation>
-        <activeByDefault>false</activeByDefault>
+        <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
         <module>./core</module>
@@ -139,6 +132,25 @@
         <module>./spring</module>
         <module>./tools</module>
       </modules>
+    </profile>
+
+    <profile>
+      <!-- This profile is motivated by: http://stackoverflow.com/questions/14825039/suppressing-gpg-signing-for-maven-based-continous-integration-builds-travis-ci -->
+      <!-- Activate by providing the "gpg.keyname" property which comes from command-line or local settings file. -->
+      <id>ossrh</id>
+      <activation>
+        <property>
+          <name>gpg.keyname</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
     </profile>
   </profiles>
 
@@ -221,6 +233,21 @@
           <version>2.8.2</version>
         </plugin>
         <plugin>
+          <!-- In order to disable artifact signing, run "mvn -Dgpg.skip ..." -->
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+          <executions>
+            <execution>
+              <id>sign-artifacts</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>sign</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
@@ -255,7 +282,7 @@
             <!-- <detectLinks>true</detectLinks> -->
             <detectJavaApiLink>true</detectJavaApiLink>
             <links>
-              <link>http://junit.org/javadoc/latest/</link>
+              <link>http://junit.org/junit4/javadoc/latest/</link>
             </links>
             <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
             <additionalparam>-Xdoclint:none</additionalparam>

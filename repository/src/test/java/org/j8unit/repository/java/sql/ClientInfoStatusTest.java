@@ -22,7 +22,7 @@ implements ClientInfoStatusTests<ClientInfoStatus> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.ClientInfoStatus]
 
     @Parameters(name = "{index}: {0}")
-    public static Iterable<Object[]> sutData() {
+    public static Iterable<? extends Object> sutData() {
         return testParametersOfEnumClass(ClientInfoStatus.class);
     }
 
