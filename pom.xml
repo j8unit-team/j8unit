@@ -14,7 +14,8 @@
     ~ + http://maven.apache.org/pom.html#Inheritance 
     ~ + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
     ~
-    ~ In the current case, the super POM of J8Unit project is made for inheritance and aggregation.
+    ~ In the current case, this POM file is doing the aggregation. Just choose your preferred profile to build your
+    ~ required modules. There is a separate parent POM managing all the plugins and dependencies.
   -->
   <modelVersion>4.0.0</modelVersion>
   <prerequisites>
@@ -26,68 +27,8 @@
   <version>2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>J8Unit Project (Parent POM)</name>
-  <description>The Parent POM of all the J8Unit Projects.</description>
-  <url>https://github.com/j8unit-team/j8unit</url>
-
-  <licenses>
-    <license>
-      <name>Eclipse Public License 1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <id>SGA</id>
-      <name>Stefan Gasterstädt</name>
-      <email>stefan@gasterstädt.de</email>
-      <url>http://stefan.gasterstädt.de</url>
-    </developer>
-    <developer>
-      <id>ZAK</id>
-      <name>Sascha Zak</name>
-      <email>sascha.zak@zakdigital.de</email>
-    </developer>
-  </developers>
-
-  <scm>
-    <connection>scm:git:https://github.com/j8unit-team/j8unit.git</connection>
-    <developerConnection>scm:git:https://j8unit-team@github.com/j8unit-team/j8unit.git</developerConnection>
-    <url>https://github.com/j8unit-team/j8unit.git</url>
-    <tag>HEAD</tag>
-  </scm>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
-  <properties>
-    <!-- === General Build Data === -->
-    <version.java>1.8</version.java>
-    <!-- http://maven.apache.org/general.html#encoding-warning -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-    <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
-    <version.j8unit.core>4.12.1-SNAPSHOT</version.j8unit.core>
-    <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
-    <version.j8unit.repository>0.9.7-SNAPSHOT</version.j8unit.repository>
-    <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
-    <version.j8unit.spring>4.1.7</version.j8unit.spring>
-
-    <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
-    <version.junit>4.12</version.junit>
-    <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
-  </properties>
+  <name>J8Unit Project (Aggregation POM)</name>
+  <description>The Aggregation POM of all the J8Unit Projects.</description>
 
   <profiles>
     <profile>
@@ -102,14 +43,15 @@
         ~  > activation config. [...]                                                                                 <
         ~
         ~ Further information can be found here:
-        ~ + http://greyfocus.com/2015/06/activebydefault-maven-other-profiles/
         ~ + maven.apache.org/guides/introduction/introduction-to-profiles.html#Details_on_profile_activation
+        ~ + http://greyfocus.com/2015/06/activebydefault-maven-other-profiles/
       -->
       <id>continuous-integration</id>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
+        <module>./parent</module>
         <module>./core</module>
         <module>./repository</module>
         <module>./showcases</module>
@@ -126,10 +68,8 @@
         ~ Spring project too.
       -->
       <id>ossrh</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
       <modules>
+        <module>./parent</module>
         <module>./core</module>
         <module>./repository</module>
       </modules>
@@ -152,221 +92,10 @@
         ~ need to call this profile any again.
       -->
       <id>javadoc</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
       <modules>
         <module>./javadoc</module>
       </modules>
     </profile>
   </profiles>
-
-  <dependencyManagement>
-    <dependencies>
-      <!-- === Managed Dependencies :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>core</artifactId>
-        <version>${version.j8unit.core}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>javadoc</artifactId>
-        <version>${version.j8unit.javadoc}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>repository</artifactId>
-        <version>${version.j8unit.repository}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>spring</artifactId>
-        <version>${version.j8unit.spring}</version>
-      </dependency>
-      <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
-      <dependency>
-        <!-- TODO: Could it be sufficient enough to refer to "org.springframework:spring-framework-bom"? -->
-        <groupId>io.spring.platform</groupId>
-        <artifactId>platform-bom</artifactId>
-        <version>${version.spring.platform}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${version.junit}</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <!-- === Managed Plugins (sorted alphabetically for traceability/reproducibility) === -->
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-antrun-plugin</artifactId>
-          <version>1.8</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.0.0</version>
-          <configuration>
-            <failOnError>true</failOnError>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.5.1</version>
-          <configuration>
-            <source>${version.java}</source>
-            <target>${version.java}</target>
-            <testSource>${version.java}</testSource>
-            <testTarget>${version.java}</testTarget>
-            <encoding>${project.build.sourceEncoding}</encoding>
-            <failOnError>true</failOnError>
-            <showDeprecation>true</showDeprecation>
-            <showWarnings>true</showWarnings>
-            <optimize>true</optimize>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
-        <plugin>
-          <!-- In order to disable artifact signing, run "mvn -Dgpg.skip ..." -->
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.6</version>
-          <executions>
-            <execution>
-              <id>sign-artifacts</id>
-              <phase>verify</phase>
-              <goals>
-                <goal>sign</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-          <configuration>
-            <forceCreation>true</forceCreation>
-            <archive>
-              <manifest>
-                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              </manifest>
-            </archive>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.10.4</version>
-          <configuration>
-            <encoding> ${project.build.sourceEncoding}</encoding>
-            <docencoding>${project.reporting.outputEncoding}</docencoding>
-            <failOnError>true</failOnError>
-            <level>protected</level>
-            <show>protected</show>
-            <serialwarn>true</serialwarn>
-            <validateLinks>true</validateLinks>
-            <detectLinks>false</detectLinks>
-            <!-- <detectLinks>true</detectLinks> -->
-            <detectJavaApiLink>true</detectJavaApiLink>
-            <links>
-              <link>http://junit.org/junit4/javadoc/latest/</link>
-            </links>
-            <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
-            <additionalparam>-Xdoclint:none</additionalparam>
-            <!-- http://blog.codefx.org/java/new-javadoc-tags/#apiNote-implSpec-and-implNote -->
-            <!-- https://github.com/CodeFX-org/demo-javadoc-8-tags/blob/master/pom.xml?ts=4#L110-L133 -->
-            <tags>
-              <tag>
-                <name>apiNote</name>
-                <placement>a</placement>
-                <head>API Note:</head>
-              </tag>
-              <tag>
-                <name>implSpec</name>
-                <placement>a</placement>
-                <head>Implementation Requirements:</head>
-              </tag>
-              <tag>
-                <name>implNote</name>
-                <placement>a</placement>
-                <head>Implementation Note:</head>
-              </tag>
-              <tag><name>param</name></tag>
-              <tag><name>return</name></tag>
-              <tag><name>throws</name></tag>
-              <tag><name>since</name></tag>
-              <tag><name>version</name></tag>
-              <tag><name>serialData</name></tag>
-              <tag><name>see</name></tag>
-            </tags>
-          </configuration>
-          <executions>
-            <execution>
-              <id>attach-javadocs</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.1</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.5.1</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-source-plugin</artifactId>
-          <version>3.0.1</version>
-          <configuration>
-            <includePom>false</includePom>
-          </configuration>
-          <executions>
-            <execution>
-              <id>attach-sources</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19.1</version>
-        </plugin>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>build-helper-maven-plugin</artifactId>
-          <version>1.12</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
 </project>
