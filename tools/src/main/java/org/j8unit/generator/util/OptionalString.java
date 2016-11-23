@@ -114,7 +114,7 @@ public final class OptionalString {
      * {@link String} value, if {@linkplain Optional#isPresent() present}; Otherwise returns an {@linkplain #empty()
      * empty OptionalString instance}.
      *
-     * @param value
+     * @param optional
      *            the possibly-empty value to describe
      * @return an instance of this class describing the specified {@code value}, if non-{@code null} <em>and</em>
      *         non-empty; Otherwise returns an empty {@link OptionalString} instance
