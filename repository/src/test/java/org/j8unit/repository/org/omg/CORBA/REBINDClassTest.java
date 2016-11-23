@@ -110,6 +110,7 @@ implements REBINDClassTests<REBIND> {
     public void create_REBIND()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final REBIND sut = new REBIND();
     }
 

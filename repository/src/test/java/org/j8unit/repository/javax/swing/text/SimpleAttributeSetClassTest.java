@@ -42,6 +42,7 @@ implements SimpleAttributeSetClassTests<SimpleAttributeSet> {
     public void create_SimpleAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleAttributeSet sut = new SimpleAttributeSet();
     }
 

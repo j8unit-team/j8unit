@@ -43,6 +43,7 @@ implements NimbusLookAndFeelClassTests<NimbusLookAndFeel> {
     public void create_NimbusLookAndFeel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NimbusLookAndFeel sut = new NimbusLookAndFeel();
     }
 

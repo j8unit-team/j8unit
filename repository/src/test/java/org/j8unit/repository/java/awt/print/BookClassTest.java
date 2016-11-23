@@ -42,6 +42,7 @@ implements BookClassTests<Book> {
     public void create_Book()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Book sut = new Book();
     }
 

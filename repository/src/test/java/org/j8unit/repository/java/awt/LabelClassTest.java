@@ -42,6 +42,7 @@ implements LabelClassTests<Label> {
     public void create_Label()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Label sut = new Label();
     }
 

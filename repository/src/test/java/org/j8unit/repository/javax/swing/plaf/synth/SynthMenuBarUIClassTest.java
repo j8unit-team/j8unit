@@ -42,6 +42,7 @@ implements SynthMenuBarUIClassTests<SynthMenuBarUI> {
     public void create_SynthMenuBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthMenuBarUI sut = new SynthMenuBarUI();
     }
 

@@ -43,6 +43,7 @@ implements _ServantLocatorStubClassTests<_ServantLocatorStub> {
     public void create__ServantLocatorStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _ServantLocatorStub sut = new _ServantLocatorStub();
     }
 

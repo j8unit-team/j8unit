@@ -44,6 +44,7 @@ implements CredentialNotFoundExceptionClassTests<CredentialNotFoundException> {
     public void create_CredentialNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CredentialNotFoundException sut = new CredentialNotFoundException();
     }
 

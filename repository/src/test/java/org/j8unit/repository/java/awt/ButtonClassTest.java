@@ -42,6 +42,7 @@ implements ButtonClassTests<Button> {
     public void create_Button()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Button sut = new Button();
     }
 

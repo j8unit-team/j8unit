@@ -146,6 +146,7 @@ implements BeanContextServicesSupportClassTests<BeanContextServicesSupport> {
     public void create_BeanContextServicesSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BeanContextServicesSupport sut = new BeanContextServicesSupport();
     }
 

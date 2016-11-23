@@ -43,6 +43,7 @@ implements MultiSeparatorUIClassTests<MultiSeparatorUI> {
     public void create_MultiSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSeparatorUI sut = new MultiSeparatorUI();
     }
 

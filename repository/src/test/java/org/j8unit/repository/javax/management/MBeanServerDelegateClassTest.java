@@ -42,6 +42,7 @@ implements MBeanServerDelegateClassTests<MBeanServerDelegate> {
     public void create_MBeanServerDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MBeanServerDelegate sut = new MBeanServerDelegate();
     }
 

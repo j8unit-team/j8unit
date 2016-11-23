@@ -65,6 +65,7 @@ implements CookieManagerClassTests<CookieManager> {
     public void create_CookieManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CookieManager sut = new CookieManager();
     }
 

@@ -44,6 +44,7 @@ implements BasicFormattedTextFieldUIClassTests<BasicFormattedTextFieldUI> {
     public void create_BasicFormattedTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicFormattedTextFieldUI sut = new BasicFormattedTextFieldUI();
     }
 

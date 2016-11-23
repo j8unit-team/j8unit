@@ -66,6 +66,7 @@ implements org.j8unit.repository.javax.naming.AuthenticationExceptionClassTests<
     public void create_AuthenticationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AuthenticationException sut = new AuthenticationException();
     }
 

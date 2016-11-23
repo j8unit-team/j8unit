@@ -67,6 +67,7 @@ implements NoSuchAttributeExceptionClassTests<NoSuchAttributeException> {
     public void create_NoSuchAttributeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchAttributeException sut = new NoSuchAttributeException();
     }
 

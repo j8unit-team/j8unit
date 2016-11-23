@@ -110,6 +110,7 @@ implements NO_RESOURCESClassTests<NO_RESOURCES> {
     public void create_NO_RESOURCES()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_RESOURCES sut = new NO_RESOURCES();
     }
 

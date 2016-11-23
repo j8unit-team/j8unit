@@ -42,6 +42,7 @@ implements BasicRootPaneUIClassTests<BasicRootPaneUI> {
     public void create_BasicRootPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicRootPaneUI sut = new BasicRootPaneUI();
     }
 

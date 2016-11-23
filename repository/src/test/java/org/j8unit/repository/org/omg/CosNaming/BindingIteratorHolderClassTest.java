@@ -66,6 +66,7 @@ implements BindingIteratorHolderClassTests<BindingIteratorHolder> {
     public void create_BindingIteratorHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindingIteratorHolder sut = new BindingIteratorHolder();
     }
 

@@ -65,6 +65,7 @@ implements JColorChooserClassTests<JColorChooser> {
     public void create_JColorChooser()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JColorChooser sut = new JColorChooser();
     }
 

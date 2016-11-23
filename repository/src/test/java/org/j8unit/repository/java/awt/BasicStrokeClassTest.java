@@ -132,6 +132,7 @@ implements BasicStrokeClassTests<BasicStroke> {
     public void create_BasicStroke()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicStroke sut = new BasicStroke();
     }
 

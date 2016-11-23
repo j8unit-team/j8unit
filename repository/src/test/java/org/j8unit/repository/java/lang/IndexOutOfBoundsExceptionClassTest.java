@@ -41,6 +41,7 @@ implements IndexOutOfBoundsExceptionClassTests<IndexOutOfBoundsException> {
     public void create_IndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IndexOutOfBoundsException sut = new IndexOutOfBoundsException();
     }
 

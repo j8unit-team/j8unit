@@ -130,6 +130,7 @@ implements JLabelClassTests<JLabel> {
     public void create_JLabel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JLabel sut = new JLabel();
     }
 

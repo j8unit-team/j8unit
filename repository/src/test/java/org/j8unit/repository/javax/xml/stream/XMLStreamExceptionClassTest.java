@@ -111,6 +111,7 @@ implements XMLStreamExceptionClassTests<XMLStreamException> {
     public void create_XMLStreamException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLStreamException sut = new XMLStreamException();
     }
 

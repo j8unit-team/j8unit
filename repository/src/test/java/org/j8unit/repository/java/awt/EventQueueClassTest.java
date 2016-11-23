@@ -42,6 +42,7 @@ implements EventQueueClassTests<EventQueue> {
     public void create_EventQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EventQueue sut = new EventQueue();
     }
 

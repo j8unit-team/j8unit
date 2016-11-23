@@ -41,6 +41,7 @@ implements StackOverflowErrorClassTests<StackOverflowError> {
     public void create_StackOverflowError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StackOverflowError sut = new StackOverflowError();
     }
 

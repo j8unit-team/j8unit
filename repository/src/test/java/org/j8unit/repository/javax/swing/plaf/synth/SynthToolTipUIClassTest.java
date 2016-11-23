@@ -42,6 +42,7 @@ implements SynthToolTipUIClassTests<SynthToolTipUI> {
     public void create_SynthToolTipUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthToolTipUI sut = new SynthToolTipUI();
     }
 

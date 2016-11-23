@@ -43,6 +43,7 @@ implements BasicGraphicsUtilsClassTests<BasicGraphicsUtils> {
     public void create_BasicGraphicsUtils()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicGraphicsUtils sut = new BasicGraphicsUtils();
     }
 

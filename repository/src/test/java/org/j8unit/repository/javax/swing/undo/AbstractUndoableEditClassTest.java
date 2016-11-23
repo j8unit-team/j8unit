@@ -43,6 +43,7 @@ implements AbstractUndoableEditClassTests<AbstractUndoableEdit> {
     public void create_AbstractUndoableEdit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AbstractUndoableEdit sut = new AbstractUndoableEdit();
     }
 

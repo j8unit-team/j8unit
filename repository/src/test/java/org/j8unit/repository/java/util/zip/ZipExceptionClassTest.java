@@ -42,6 +42,7 @@ implements ZipExceptionClassTests<ZipException> {
     public void create_ZipException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ZipException sut = new ZipException();
     }
 

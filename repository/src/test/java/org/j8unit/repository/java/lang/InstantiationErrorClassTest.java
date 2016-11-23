@@ -41,6 +41,7 @@ implements InstantiationErrorClassTests<InstantiationError> {
     public void create_InstantiationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstantiationError sut = new InstantiationError();
     }
 

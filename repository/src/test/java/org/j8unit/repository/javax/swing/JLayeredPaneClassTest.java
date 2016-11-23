@@ -42,6 +42,7 @@ implements JLayeredPaneClassTests<JLayeredPane> {
     public void create_JLayeredPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JLayeredPane sut = new JLayeredPane();
     }
 

@@ -111,6 +111,7 @@ implements KeyStoreExceptionClassTests<KeyStoreException> {
     public void create_KeyStoreException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyStoreException sut = new KeyStoreException();
     }
 

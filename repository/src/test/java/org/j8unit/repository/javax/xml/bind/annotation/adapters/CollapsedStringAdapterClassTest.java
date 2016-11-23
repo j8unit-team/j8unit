@@ -44,6 +44,7 @@ implements CollapsedStringAdapterClassTests<CollapsedStringAdapter> {
     public void create_CollapsedStringAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CollapsedStringAdapter sut = new CollapsedStringAdapter();
     }
 

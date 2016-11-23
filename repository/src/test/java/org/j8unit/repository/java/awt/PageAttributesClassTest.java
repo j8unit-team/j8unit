@@ -98,6 +98,7 @@ implements PageAttributesClassTests<PageAttributes> {
     public void create_PageAttributes()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PageAttributes sut = new PageAttributes();
     }
 

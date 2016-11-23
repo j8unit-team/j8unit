@@ -44,6 +44,7 @@ implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
     public void create_MetalComboBoxEditor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalComboBoxEditor sut = new MetalComboBoxEditor();
     }
 
@@ -87,6 +88,7 @@ implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

@@ -43,6 +43,7 @@ implements SynthRadioButtonUIClassTests<SynthRadioButtonUI> {
     public void create_SynthRadioButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthRadioButtonUI sut = new SynthRadioButtonUI();
     }
 

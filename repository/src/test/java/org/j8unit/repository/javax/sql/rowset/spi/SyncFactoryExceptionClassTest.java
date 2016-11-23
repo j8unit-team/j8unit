@@ -43,6 +43,7 @@ implements SyncFactoryExceptionClassTests<SyncFactoryException> {
     public void create_SyncFactoryException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SyncFactoryException sut = new SyncFactoryException();
     }
 

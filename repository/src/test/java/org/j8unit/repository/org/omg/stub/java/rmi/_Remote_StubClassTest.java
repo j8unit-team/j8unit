@@ -42,6 +42,7 @@ implements _Remote_StubClassTests<_Remote_Stub> {
     public void create__Remote_Stub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _Remote_Stub sut = new _Remote_Stub();
     }
 

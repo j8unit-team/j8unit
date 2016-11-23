@@ -42,6 +42,7 @@ implements PermissionsClassTests<Permissions> {
     public void create_Permissions()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Permissions sut = new Permissions();
     }
 

@@ -42,6 +42,7 @@ implements MultiTableUIClassTests<MultiTableUI> {
     public void create_MultiTableUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTableUI sut = new MultiTableUI();
     }
 

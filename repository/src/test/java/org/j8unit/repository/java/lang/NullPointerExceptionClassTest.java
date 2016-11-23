@@ -41,6 +41,7 @@ implements NullPointerExceptionClassTests<NullPointerException> {
     public void create_NullPointerException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NullPointerException sut = new NullPointerException();
     }
 

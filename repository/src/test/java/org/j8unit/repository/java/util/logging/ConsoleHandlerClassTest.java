@@ -42,6 +42,7 @@ implements ConsoleHandlerClassTests<ConsoleHandler> {
     public void create_ConsoleHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConsoleHandler sut = new ConsoleHandler();
     }
 

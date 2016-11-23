@@ -43,6 +43,7 @@ implements LayoutFocusTraversalPolicyClassTests<LayoutFocusTraversalPolicy> {
     public void create_LayoutFocusTraversalPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LayoutFocusTraversalPolicy sut = new LayoutFocusTraversalPolicy();
     }
 

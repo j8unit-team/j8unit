@@ -42,6 +42,7 @@ implements org.j8unit.repository.org.omg.PortableServer.ForwardRequestClassTests
     public void create_ForwardRequest()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ForwardRequest sut = new ForwardRequest();
     }
 

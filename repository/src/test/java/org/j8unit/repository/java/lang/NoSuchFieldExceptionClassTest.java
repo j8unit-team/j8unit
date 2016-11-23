@@ -41,6 +41,7 @@ implements NoSuchFieldExceptionClassTests<NoSuchFieldException> {
     public void create_NoSuchFieldException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchFieldException sut = new NoSuchFieldException();
     }
 

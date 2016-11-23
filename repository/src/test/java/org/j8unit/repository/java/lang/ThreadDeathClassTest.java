@@ -41,6 +41,7 @@ implements ThreadDeathClassTests<ThreadDeath> {
     public void create_ThreadDeath()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ThreadDeath sut = new ThreadDeath();
     }
 

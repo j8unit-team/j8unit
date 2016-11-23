@@ -42,6 +42,7 @@ implements JMExceptionClassTests<JMException> {
     public void create_JMException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMException sut = new JMException();
     }
 

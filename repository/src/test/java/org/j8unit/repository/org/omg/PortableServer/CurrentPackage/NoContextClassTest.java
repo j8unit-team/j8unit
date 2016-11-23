@@ -43,6 +43,7 @@ implements NoContextClassTests<NoContext> {
     public void create_NoContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoContext sut = new NoContext();
     }
 

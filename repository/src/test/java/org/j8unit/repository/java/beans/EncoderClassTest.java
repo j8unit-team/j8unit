@@ -42,6 +42,7 @@ implements org.j8unit.repository.java.beans.EncoderClassTests<Encoder> {
     public void create_Encoder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Encoder sut = new Encoder();
     }
 

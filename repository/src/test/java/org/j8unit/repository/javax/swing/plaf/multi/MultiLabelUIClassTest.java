@@ -42,6 +42,7 @@ implements MultiLabelUIClassTests<MultiLabelUI> {
     public void create_MultiLabelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiLabelUI sut = new MultiLabelUI();
     }
 

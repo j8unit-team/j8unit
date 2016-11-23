@@ -43,6 +43,7 @@ implements SizeLimitExceededExceptionClassTests<SizeLimitExceededException> {
     public void create_SizeLimitExceededException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SizeLimitExceededException sut = new SizeLimitExceededException();
     }
 

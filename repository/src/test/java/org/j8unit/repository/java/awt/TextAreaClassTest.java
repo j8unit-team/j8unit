@@ -64,6 +64,7 @@ implements TextAreaClassTests<TextArea> {
     public void create_TextArea()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TextArea sut = new TextArea();
     }
 

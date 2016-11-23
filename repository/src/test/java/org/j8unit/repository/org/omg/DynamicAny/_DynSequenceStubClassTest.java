@@ -42,6 +42,7 @@ implements _DynSequenceStubClassTests<_DynSequenceStub> {
     public void create__DynSequenceStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynSequenceStub sut = new _DynSequenceStub();
     }
 

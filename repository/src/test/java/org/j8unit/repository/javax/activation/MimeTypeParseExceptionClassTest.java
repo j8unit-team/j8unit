@@ -43,6 +43,7 @@ implements MimeTypeParseExceptionClassTests<MimeTypeParseException> {
     public void create_MimeTypeParseException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimeTypeParseException sut = new MimeTypeParseException();
     }
 

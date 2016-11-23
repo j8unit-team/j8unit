@@ -41,6 +41,7 @@ implements ClassCircularityErrorClassTests<ClassCircularityError> {
     public void create_ClassCircularityError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassCircularityError sut = new ClassCircularityError();
     }
 

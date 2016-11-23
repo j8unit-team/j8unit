@@ -44,6 +44,7 @@ implements InstanceAlreadyExistsExceptionClassTests<InstanceAlreadyExistsExcepti
     public void create_InstanceAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstanceAlreadyExistsException sut = new InstanceAlreadyExistsException();
     }
 

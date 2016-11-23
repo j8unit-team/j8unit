@@ -42,6 +42,7 @@ implements StringMonitorClassTests<StringMonitor> {
     public void create_StringMonitor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringMonitor sut = new StringMonitor();
     }
 

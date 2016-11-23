@@ -44,6 +44,7 @@ implements UnsupportedAddressTypeExceptionClassTests<UnsupportedAddressTypeExcep
     public void create_UnsupportedAddressTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedAddressTypeException sut = new UnsupportedAddressTypeException();
     }
 

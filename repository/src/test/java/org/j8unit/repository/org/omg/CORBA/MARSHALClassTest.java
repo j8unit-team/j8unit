@@ -110,6 +110,7 @@ implements MARSHALClassTests<MARSHAL> {
     public void create_MARSHAL()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MARSHAL sut = new MARSHAL();
     }
 

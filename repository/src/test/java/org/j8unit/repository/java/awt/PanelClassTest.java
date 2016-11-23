@@ -42,6 +42,7 @@ implements PanelClassTests<Panel> {
     public void create_Panel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Panel sut = new Panel();
     }
 

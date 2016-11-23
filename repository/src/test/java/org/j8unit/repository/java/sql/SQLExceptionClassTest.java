@@ -201,6 +201,7 @@ implements SQLExceptionClassTests<SQLException> {
     public void create_SQLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLException sut = new SQLException();
     }
 

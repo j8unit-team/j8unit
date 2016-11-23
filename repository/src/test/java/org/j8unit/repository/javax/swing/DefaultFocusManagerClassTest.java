@@ -42,6 +42,7 @@ implements DefaultFocusManagerClassTests<DefaultFocusManager> {
     public void create_DefaultFocusManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultFocusManager sut = new DefaultFocusManager();
     }
 

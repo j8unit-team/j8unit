@@ -44,6 +44,7 @@ implements InvalidTransactionExceptionClassTests<InvalidTransactionException> {
     public void create_InvalidTransactionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTransactionException sut = new InvalidTransactionException();
     }
 

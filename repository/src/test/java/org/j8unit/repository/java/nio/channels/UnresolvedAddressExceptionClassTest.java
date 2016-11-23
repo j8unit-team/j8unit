@@ -44,6 +44,7 @@ implements UnresolvedAddressExceptionClassTests<UnresolvedAddressException> {
     public void create_UnresolvedAddressException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnresolvedAddressException sut = new UnresolvedAddressException();
     }
 

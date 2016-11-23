@@ -43,6 +43,7 @@ implements ClosedChannelExceptionClassTests<ClosedChannelException> {
     public void create_ClosedChannelException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedChannelException sut = new ClosedChannelException();
     }
 

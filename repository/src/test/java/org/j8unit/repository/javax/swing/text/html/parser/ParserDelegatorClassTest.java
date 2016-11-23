@@ -43,6 +43,7 @@ implements ParserDelegatorClassTests<ParserDelegator> {
     public void create_ParserDelegator()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParserDelegator sut = new ParserDelegator();
     }
 

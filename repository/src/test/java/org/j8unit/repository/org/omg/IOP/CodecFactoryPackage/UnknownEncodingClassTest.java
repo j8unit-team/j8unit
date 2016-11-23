@@ -43,6 +43,7 @@ implements UnknownEncodingClassTests<UnknownEncoding> {
     public void create_UnknownEncoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownEncoding sut = new UnknownEncoding();
     }
 

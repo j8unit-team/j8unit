@@ -87,6 +87,7 @@ implements DecimalFormatClassTests<DecimalFormat> {
     public void create_DecimalFormat()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DecimalFormat sut = new DecimalFormat();
     }
 

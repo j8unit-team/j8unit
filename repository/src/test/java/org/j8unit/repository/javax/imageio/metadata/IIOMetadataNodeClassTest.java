@@ -42,6 +42,7 @@ implements IIOMetadataNodeClassTests<IIOMetadataNode> {
     public void create_IIOMetadataNode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IIOMetadataNode sut = new IIOMetadataNode();
     }
 

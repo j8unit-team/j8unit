@@ -42,6 +42,7 @@ implements QueryClassTests<Query> {
     public void create_Query()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Query sut = new Query();
     }
 

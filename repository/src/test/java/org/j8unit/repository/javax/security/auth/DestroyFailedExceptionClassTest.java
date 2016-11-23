@@ -44,6 +44,7 @@ implements DestroyFailedExceptionClassTests<DestroyFailedException> {
     public void create_DestroyFailedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DestroyFailedException sut = new DestroyFailedException();
     }
 

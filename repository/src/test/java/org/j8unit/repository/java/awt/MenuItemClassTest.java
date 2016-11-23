@@ -87,6 +87,7 @@ implements MenuItemClassTests<MenuItem> {
     public void create_MenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MenuItem sut = new MenuItem();
     }
 

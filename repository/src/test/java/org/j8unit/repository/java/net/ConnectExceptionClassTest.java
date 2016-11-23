@@ -64,6 +64,7 @@ implements org.j8unit.repository.java.net.ConnectExceptionClassTests<ConnectExce
     public void create_ConnectException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConnectException sut = new ConnectException();
     }
 

@@ -42,6 +42,7 @@ implements MaskFormatterClassTests<MaskFormatter> {
     public void create_MaskFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MaskFormatter sut = new MaskFormatter();
     }
 

@@ -43,6 +43,7 @@ implements DefaultKeyboardFocusManagerClassTests<DefaultKeyboardFocusManager> {
     public void create_DefaultKeyboardFocusManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultKeyboardFocusManager sut = new DefaultKeyboardFocusManager();
     }
 

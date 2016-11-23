@@ -65,6 +65,7 @@ implements JCheckBoxMenuItemClassTests<JCheckBoxMenuItem> {
     public void create_JCheckBoxMenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JCheckBoxMenuItem sut = new JCheckBoxMenuItem();
     }
 

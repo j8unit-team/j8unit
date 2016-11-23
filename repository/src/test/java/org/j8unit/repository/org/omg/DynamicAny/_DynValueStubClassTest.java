@@ -42,6 +42,7 @@ implements _DynValueStubClassTests<_DynValueStub> {
     public void create__DynValueStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynValueStub sut = new _DynValueStub();
     }
 

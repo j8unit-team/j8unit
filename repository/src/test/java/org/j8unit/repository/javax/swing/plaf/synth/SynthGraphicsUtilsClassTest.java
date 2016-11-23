@@ -43,6 +43,7 @@ implements SynthGraphicsUtilsClassTests<SynthGraphicsUtils> {
     public void create_SynthGraphicsUtils()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthGraphicsUtils sut = new SynthGraphicsUtils();
     }
 

@@ -42,6 +42,7 @@ implements IncompatibleClassChangeErrorClassTests<IncompatibleClassChangeError> 
     public void create_IncompatibleClassChangeError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IncompatibleClassChangeError sut = new IncompatibleClassChangeError();
     }
 

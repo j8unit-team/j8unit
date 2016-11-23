@@ -42,6 +42,7 @@ implements DefaultCaretClassTests<DefaultCaret> {
     public void create_DefaultCaret()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultCaret sut = new DefaultCaret();
     }
 

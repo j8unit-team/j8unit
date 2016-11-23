@@ -111,6 +111,7 @@ implements CRLExceptionClassTests<CRLException> {
     public void create_CRLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CRLException sut = new CRLException();
     }
 

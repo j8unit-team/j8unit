@@ -43,6 +43,7 @@ implements ReadOnlyFileSystemExceptionClassTests<ReadOnlyFileSystemException> {
     public void create_ReadOnlyFileSystemException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReadOnlyFileSystemException sut = new ReadOnlyFileSystemException();
     }
 

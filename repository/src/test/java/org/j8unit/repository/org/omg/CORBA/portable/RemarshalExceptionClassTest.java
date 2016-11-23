@@ -43,6 +43,7 @@ implements RemarshalExceptionClassTests<RemarshalException> {
     public void create_RemarshalException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RemarshalException sut = new RemarshalException();
     }
 

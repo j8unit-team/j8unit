@@ -44,6 +44,7 @@ implements MetalTabbedPaneUIClassTests<MetalTabbedPaneUI> {
     public void create_MetalTabbedPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalTabbedPaneUI sut = new MetalTabbedPaneUI();
     }
 

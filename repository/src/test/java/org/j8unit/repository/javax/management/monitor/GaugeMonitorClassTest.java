@@ -42,6 +42,7 @@ implements GaugeMonitorClassTests<GaugeMonitor> {
     public void create_GaugeMonitor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GaugeMonitor sut = new GaugeMonitor();
     }
 

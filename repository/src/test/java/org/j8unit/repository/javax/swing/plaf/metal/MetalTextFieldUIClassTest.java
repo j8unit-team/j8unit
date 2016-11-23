@@ -43,6 +43,7 @@ implements MetalTextFieldUIClassTests<MetalTextFieldUI> {
     public void create_MetalTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalTextFieldUI sut = new MetalTextFieldUI();
     }
 

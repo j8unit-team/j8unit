@@ -88,6 +88,7 @@ implements CheckboxMenuItemClassTests<CheckboxMenuItem> {
     public void create_CheckboxMenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CheckboxMenuItem sut = new CheckboxMenuItem();
     }
 

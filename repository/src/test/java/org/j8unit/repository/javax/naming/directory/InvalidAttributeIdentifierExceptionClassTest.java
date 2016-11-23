@@ -67,6 +67,7 @@ implements InvalidAttributeIdentifierExceptionClassTests<InvalidAttributeIdentif
     public void create_InvalidAttributeIdentifierException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAttributeIdentifierException sut = new InvalidAttributeIdentifierException();
     }
 

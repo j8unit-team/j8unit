@@ -43,6 +43,7 @@ implements MetalCheckBoxIconClassTests<MetalCheckBoxIcon> {
     public void create_MetalCheckBoxIcon()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalCheckBoxIcon sut = new MetalCheckBoxIcon();
     }
 

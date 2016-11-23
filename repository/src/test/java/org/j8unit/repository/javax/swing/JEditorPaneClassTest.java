@@ -110,6 +110,7 @@ implements JEditorPaneClassTests<JEditorPane> {
     public void create_JEditorPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JEditorPane sut = new JEditorPane();
     }
 

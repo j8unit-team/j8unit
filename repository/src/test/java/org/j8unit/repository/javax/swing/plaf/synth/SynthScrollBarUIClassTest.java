@@ -43,6 +43,7 @@ implements SynthScrollBarUIClassTests<SynthScrollBarUI> {
     public void create_SynthScrollBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthScrollBarUI sut = new SynthScrollBarUI();
     }
 

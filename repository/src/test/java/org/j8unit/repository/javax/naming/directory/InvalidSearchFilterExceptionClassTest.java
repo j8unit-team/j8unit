@@ -44,6 +44,7 @@ implements InvalidSearchFilterExceptionClassTests<InvalidSearchFilterException> 
     public void create_InvalidSearchFilterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSearchFilterException sut = new InvalidSearchFilterException();
     }
 

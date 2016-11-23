@@ -109,6 +109,7 @@ implements JAXBElementClassTests<JAXBElement> {
         public void create_GlobalScope()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final GlobalScope sut = new GlobalScope();
         }
 

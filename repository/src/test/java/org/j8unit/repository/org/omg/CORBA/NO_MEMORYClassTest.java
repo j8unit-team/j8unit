@@ -110,6 +110,7 @@ implements NO_MEMORYClassTests<NO_MEMORY> {
     public void create_NO_MEMORY()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_MEMORY sut = new NO_MEMORY();
     }
 

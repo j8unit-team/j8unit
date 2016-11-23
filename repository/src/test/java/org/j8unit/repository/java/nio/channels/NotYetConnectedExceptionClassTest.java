@@ -44,6 +44,7 @@ implements NotYetConnectedExceptionClassTests<NotYetConnectedException> {
     public void create_NotYetConnectedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotYetConnectedException sut = new NotYetConnectedException();
     }
 

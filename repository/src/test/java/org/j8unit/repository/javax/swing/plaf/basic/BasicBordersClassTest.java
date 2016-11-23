@@ -50,6 +50,7 @@ implements BasicBordersClassTests<BasicBorders> {
     public void create_BasicBorders()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicBorders sut = new BasicBorders();
     }
 
@@ -566,6 +567,7 @@ implements BasicBordersClassTests<BasicBorders> {
         public void create_MarginBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MarginBorder sut = new MarginBorder();
         }
 

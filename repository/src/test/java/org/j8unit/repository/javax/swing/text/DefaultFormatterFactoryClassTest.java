@@ -93,6 +93,7 @@ implements DefaultFormatterFactoryClassTests<DefaultFormatterFactory> {
     public void create_DefaultFormatterFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultFormatterFactory sut = new DefaultFormatterFactory();
     }
 

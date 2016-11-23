@@ -44,6 +44,7 @@ implements CredentialExpiredExceptionClassTests<CredentialExpiredException> {
     public void create_CredentialExpiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CredentialExpiredException sut = new CredentialExpiredException();
     }
 

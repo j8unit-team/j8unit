@@ -108,6 +108,7 @@ implements RuntimeExceptionClassTests<RuntimeException> {
     public void create_RuntimeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RuntimeException sut = new RuntimeException();
     }
 

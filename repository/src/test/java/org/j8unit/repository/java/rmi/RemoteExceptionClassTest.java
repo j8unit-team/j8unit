@@ -87,6 +87,7 @@ implements RemoteExceptionClassTests<RemoteException> {
     public void create_RemoteException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RemoteException sut = new RemoteException();
     }
 

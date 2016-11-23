@@ -88,6 +88,7 @@ implements JInternalFrameClassTests<JInternalFrame> {
     public void create_JInternalFrame()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JInternalFrame sut = new JInternalFrame();
     }
 

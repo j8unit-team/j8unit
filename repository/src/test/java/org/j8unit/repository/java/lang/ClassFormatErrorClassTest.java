@@ -41,6 +41,7 @@ implements ClassFormatErrorClassTests<ClassFormatError> {
     public void create_ClassFormatError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassFormatError sut = new ClassFormatError();
     }
 

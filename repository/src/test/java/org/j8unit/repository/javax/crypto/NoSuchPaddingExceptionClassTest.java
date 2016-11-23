@@ -43,6 +43,7 @@ implements NoSuchPaddingExceptionClassTests<NoSuchPaddingException> {
     public void create_NoSuchPaddingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchPaddingException sut = new NoSuchPaddingException();
     }
 

@@ -109,6 +109,7 @@ implements JListClassTests<JList> {
     public void create_JList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JList sut = new JList();
     }
 

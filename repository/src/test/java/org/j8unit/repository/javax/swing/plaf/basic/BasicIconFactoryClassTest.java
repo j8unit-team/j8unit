@@ -43,6 +43,7 @@ implements BasicIconFactoryClassTests<BasicIconFactory> {
     public void create_BasicIconFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicIconFactory sut = new BasicIconFactory();
     }
 

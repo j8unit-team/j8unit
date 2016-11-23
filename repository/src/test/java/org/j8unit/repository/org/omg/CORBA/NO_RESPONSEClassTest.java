@@ -110,6 +110,7 @@ implements NO_RESPONSEClassTests<NO_RESPONSE> {
     public void create_NO_RESPONSE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_RESPONSE sut = new NO_RESPONSE();
     }
 

@@ -44,6 +44,7 @@ implements ClosedByInterruptExceptionClassTests<ClosedByInterruptException> {
     public void create_ClosedByInterruptException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedByInterruptException sut = new ClosedByInterruptException();
     }
 

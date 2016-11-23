@@ -69,6 +69,7 @@ implements ObjectReferenceTemplateHolderClassTests<ObjectReferenceTemplateHolder
     public void create_ObjectReferenceTemplateHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectReferenceTemplateHolder sut = new ObjectReferenceTemplateHolder();
     }
 

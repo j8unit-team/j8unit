@@ -42,6 +42,7 @@ implements PolygonClassTests<Polygon> {
     public void create_Polygon()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Polygon sut = new Polygon();
     }
 

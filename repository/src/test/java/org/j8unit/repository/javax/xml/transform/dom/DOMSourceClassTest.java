@@ -42,6 +42,7 @@ implements DOMSourceClassTests<DOMSource> {
     public void create_DOMSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DOMSource sut = new DOMSource();
     }
 

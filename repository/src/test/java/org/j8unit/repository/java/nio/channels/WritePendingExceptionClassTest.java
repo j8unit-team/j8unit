@@ -43,6 +43,7 @@ implements WritePendingExceptionClassTests<WritePendingException> {
     public void create_WritePendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WritePendingException sut = new WritePendingException();
     }
 

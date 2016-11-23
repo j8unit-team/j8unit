@@ -42,6 +42,7 @@ implements InvalidSeqClassTests<InvalidSeq> {
     public void create_InvalidSeq()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSeq sut = new InvalidSeq();
     }
 

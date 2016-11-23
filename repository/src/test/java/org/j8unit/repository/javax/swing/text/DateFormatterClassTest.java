@@ -65,6 +65,7 @@ implements DateFormatterClassTests<DateFormatter> {
     public void create_DateFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DateFormatter sut = new DateFormatter();
     }
 

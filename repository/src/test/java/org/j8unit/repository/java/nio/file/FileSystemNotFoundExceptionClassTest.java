@@ -43,6 +43,7 @@ implements FileSystemNotFoundExceptionClassTests<FileSystemNotFoundException> {
     public void create_FileSystemNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileSystemNotFoundException sut = new FileSystemNotFoundException();
     }
 

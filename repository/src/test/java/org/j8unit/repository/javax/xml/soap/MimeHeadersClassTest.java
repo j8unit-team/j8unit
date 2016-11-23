@@ -42,6 +42,7 @@ implements MimeHeadersClassTests<MimeHeaders> {
     public void create_MimeHeaders()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimeHeaders sut = new MimeHeaders();
     }
 

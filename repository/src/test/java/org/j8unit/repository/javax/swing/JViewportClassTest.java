@@ -42,6 +42,7 @@ implements JViewportClassTests<JViewport> {
     public void create_JViewport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JViewport sut = new JViewport();
     }
 

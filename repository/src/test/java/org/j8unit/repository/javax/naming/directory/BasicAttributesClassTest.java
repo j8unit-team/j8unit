@@ -42,6 +42,7 @@ implements BasicAttributesClassTests<BasicAttributes> {
     public void create_BasicAttributes()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicAttributes sut = new BasicAttributes();
     }
 

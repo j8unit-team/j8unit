@@ -65,6 +65,7 @@ implements WStringSeqHolderClassTests<WStringSeqHolder> {
     public void create_WStringSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WStringSeqHolder sut = new WStringSeqHolder();
     }
 

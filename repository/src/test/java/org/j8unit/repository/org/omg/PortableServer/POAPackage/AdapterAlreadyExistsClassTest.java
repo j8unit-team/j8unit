@@ -44,6 +44,7 @@ implements AdapterAlreadyExistsClassTests<AdapterAlreadyExists> {
     public void create_AdapterAlreadyExists()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AdapterAlreadyExists sut = new AdapterAlreadyExists();
     }
 

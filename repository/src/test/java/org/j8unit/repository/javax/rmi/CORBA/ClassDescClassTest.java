@@ -42,6 +42,7 @@ implements ClassDescClassTests<ClassDesc> {
     public void create_ClassDesc()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassDesc sut = new ClassDesc();
     }
 

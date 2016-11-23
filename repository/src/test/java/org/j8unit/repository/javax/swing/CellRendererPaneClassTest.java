@@ -42,6 +42,7 @@ implements CellRendererPaneClassTests<CellRendererPane> {
     public void create_CellRendererPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CellRendererPane sut = new CellRendererPane();
     }
 

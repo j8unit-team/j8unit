@@ -65,6 +65,7 @@ implements AttributeListClassTests<AttributeList> {
     public void create_AttributeList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeList sut = new AttributeList();
     }
 

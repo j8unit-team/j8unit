@@ -65,6 +65,7 @@ implements DecimalFormatSymbolsClassTests<DecimalFormatSymbols> {
     public void create_DecimalFormatSymbols()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DecimalFormatSymbols sut = new DecimalFormatSymbols();
     }
 

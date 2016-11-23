@@ -44,6 +44,7 @@ implements OverlappingFileLockExceptionClassTests<OverlappingFileLockException> 
     public void create_OverlappingFileLockException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OverlappingFileLockException sut = new OverlappingFileLockException();
     }
 

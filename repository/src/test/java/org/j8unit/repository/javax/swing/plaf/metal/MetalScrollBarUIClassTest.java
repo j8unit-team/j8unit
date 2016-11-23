@@ -43,6 +43,7 @@ implements MetalScrollBarUIClassTests<MetalScrollBarUI> {
     public void create_MetalScrollBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalScrollBarUI sut = new MetalScrollBarUI();
     }
 

@@ -42,6 +42,7 @@ implements JToolTipClassTests<JToolTip> {
     public void create_JToolTip()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JToolTip sut = new JToolTip();
     }
 

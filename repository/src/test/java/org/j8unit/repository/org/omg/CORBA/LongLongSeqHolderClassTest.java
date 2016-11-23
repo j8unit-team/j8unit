@@ -64,6 +64,7 @@ implements LongLongSeqHolderClassTests<LongLongSeqHolder> {
     public void create_LongLongSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LongLongSeqHolder sut = new LongLongSeqHolder();
     }
 

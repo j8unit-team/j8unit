@@ -44,6 +44,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.Inconsi
     public void create_InconsistentTypeCode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InconsistentTypeCode sut = new InconsistentTypeCode();
     }
 

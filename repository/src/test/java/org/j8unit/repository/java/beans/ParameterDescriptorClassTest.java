@@ -42,6 +42,7 @@ implements ParameterDescriptorClassTests<ParameterDescriptor> {
     public void create_ParameterDescriptor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParameterDescriptor sut = new ParameterDescriptor();
     }
 

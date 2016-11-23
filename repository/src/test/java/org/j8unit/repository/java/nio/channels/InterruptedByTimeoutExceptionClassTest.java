@@ -44,6 +44,7 @@ implements InterruptedByTimeoutExceptionClassTests<InterruptedByTimeoutException
     public void create_InterruptedByTimeoutException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InterruptedByTimeoutException sut = new InterruptedByTimeoutException();
     }
 

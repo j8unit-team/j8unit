@@ -43,6 +43,7 @@ implements _ServantActivatorStubClassTests<_ServantActivatorStub> {
     public void create__ServantActivatorStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _ServantActivatorStub sut = new _ServantActivatorStub();
     }
 

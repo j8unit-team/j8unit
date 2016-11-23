@@ -43,6 +43,7 @@ implements MultiTabbedPaneUIClassTests<MultiTabbedPaneUI> {
     public void create_MultiTabbedPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTabbedPaneUI sut = new MultiTabbedPaneUI();
     }
 

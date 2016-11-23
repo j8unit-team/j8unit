@@ -42,6 +42,7 @@ implements PageFormatClassTests<PageFormat> {
     public void create_PageFormat()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PageFormat sut = new PageFormat();
     }
 

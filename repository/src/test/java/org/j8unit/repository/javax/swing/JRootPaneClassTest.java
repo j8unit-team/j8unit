@@ -42,6 +42,7 @@ implements JRootPaneClassTests<JRootPane> {
     public void create_JRootPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JRootPane sut = new JRootPane();
     }
 

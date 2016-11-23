@@ -46,6 +46,7 @@ implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
     public void create_DefaultStyledDocument()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultStyledDocument sut = new DefaultStyledDocument();
     }
 

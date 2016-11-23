@@ -109,6 +109,7 @@ implements IOExceptionClassTests<IOException> {
     public void create_IOException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IOException sut = new IOException();
     }
 

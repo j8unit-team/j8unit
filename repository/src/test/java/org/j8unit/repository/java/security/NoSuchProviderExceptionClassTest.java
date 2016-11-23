@@ -43,6 +43,7 @@ implements NoSuchProviderExceptionClassTests<NoSuchProviderException> {
     public void create_NoSuchProviderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchProviderException sut = new NoSuchProviderException();
     }
 

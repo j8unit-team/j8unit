@@ -108,6 +108,7 @@ implements SecurityExceptionClassTests<SecurityException> {
     public void create_SecurityException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SecurityException sut = new SecurityException();
     }
 

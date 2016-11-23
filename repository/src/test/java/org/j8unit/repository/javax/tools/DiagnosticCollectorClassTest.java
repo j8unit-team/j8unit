@@ -42,6 +42,7 @@ implements DiagnosticCollectorClassTests<DiagnosticCollector> {
     public void create_DiagnosticCollector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DiagnosticCollector sut = new DiagnosticCollector();
     }
 

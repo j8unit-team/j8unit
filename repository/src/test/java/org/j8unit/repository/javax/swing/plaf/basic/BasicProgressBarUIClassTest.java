@@ -44,6 +44,7 @@ implements BasicProgressBarUIClassTests<BasicProgressBarUI> {
     public void create_BasicProgressBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicProgressBarUI sut = new BasicProgressBarUI();
     }
 

@@ -42,6 +42,7 @@ implements SynthTextAreaUIClassTests<SynthTextAreaUI> {
     public void create_SynthTextAreaUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTextAreaUI sut = new SynthTextAreaUI();
     }
 

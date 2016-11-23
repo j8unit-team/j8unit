@@ -42,6 +42,7 @@ implements BasicTextAreaUIClassTests<BasicTextAreaUI> {
     public void create_BasicTextAreaUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTextAreaUI sut = new BasicTextAreaUI();
     }
 

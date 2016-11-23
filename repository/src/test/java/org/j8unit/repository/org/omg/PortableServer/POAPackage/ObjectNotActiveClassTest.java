@@ -43,6 +43,7 @@ implements ObjectNotActiveClassTests<ObjectNotActive> {
     public void create_ObjectNotActive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectNotActive sut = new ObjectNotActive();
     }
 

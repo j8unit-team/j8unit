@@ -43,6 +43,7 @@ implements BasicEditorPaneUIClassTests<BasicEditorPaneUI> {
     public void create_BasicEditorPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicEditorPaneUI sut = new BasicEditorPaneUI();
     }
 

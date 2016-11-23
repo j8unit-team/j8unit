@@ -42,6 +42,7 @@ implements Attributes2ImplClassTests<Attributes2Impl> {
     public void create_Attributes2Impl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Attributes2Impl sut = new Attributes2Impl();
     }
 

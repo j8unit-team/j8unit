@@ -86,6 +86,7 @@ implements FlowLayoutClassTests<FlowLayout> {
     public void create_FlowLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FlowLayout sut = new FlowLayout();
     }
 

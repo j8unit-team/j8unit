@@ -42,6 +42,7 @@ implements RepaintManagerClassTests<RepaintManager> {
     public void create_RepaintManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RepaintManager sut = new RepaintManager();
     }
 

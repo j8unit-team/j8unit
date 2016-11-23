@@ -111,6 +111,7 @@ implements OBJECT_NOT_EXISTClassTests<OBJECT_NOT_EXIST> {
     public void create_OBJECT_NOT_EXIST()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OBJECT_NOT_EXIST sut = new OBJECT_NOT_EXIST();
     }
 

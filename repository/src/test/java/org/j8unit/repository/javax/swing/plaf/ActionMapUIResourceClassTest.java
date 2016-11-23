@@ -42,6 +42,7 @@ implements ActionMapUIResourceClassTests<ActionMapUIResource> {
     public void create_ActionMapUIResource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ActionMapUIResource sut = new ActionMapUIResource();
     }
 

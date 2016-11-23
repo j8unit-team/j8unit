@@ -43,6 +43,7 @@ implements DefaultTreeCellRendererClassTests<DefaultTreeCellRenderer> {
     public void create_DefaultTreeCellRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTreeCellRenderer sut = new DefaultTreeCellRenderer();
     }
 

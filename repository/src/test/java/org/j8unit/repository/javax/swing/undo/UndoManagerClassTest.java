@@ -42,6 +42,7 @@ implements UndoManagerClassTests<UndoManager> {
     public void create_UndoManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UndoManager sut = new UndoManager();
     }
 

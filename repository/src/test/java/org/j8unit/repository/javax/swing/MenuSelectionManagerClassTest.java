@@ -42,6 +42,7 @@ implements MenuSelectionManagerClassTests<MenuSelectionManager> {
     public void create_MenuSelectionManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MenuSelectionManager sut = new MenuSelectionManager();
     }
 

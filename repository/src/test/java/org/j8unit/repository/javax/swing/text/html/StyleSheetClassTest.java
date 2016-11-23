@@ -44,6 +44,7 @@ implements StyleSheetClassTests<StyleSheet> {
     public void create_StyleSheet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyleSheet sut = new StyleSheet();
     }
 

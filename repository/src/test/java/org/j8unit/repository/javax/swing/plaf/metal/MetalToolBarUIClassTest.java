@@ -42,6 +42,7 @@ implements MetalToolBarUIClassTests<MetalToolBarUI> {
     public void create_MetalToolBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalToolBarUI sut = new MetalToolBarUI();
     }
 

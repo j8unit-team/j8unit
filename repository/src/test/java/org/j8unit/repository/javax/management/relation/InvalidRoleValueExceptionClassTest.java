@@ -44,6 +44,7 @@ implements InvalidRoleValueExceptionClassTests<InvalidRoleValueException> {
     public void create_InvalidRoleValueException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidRoleValueException sut = new InvalidRoleValueException();
     }
 

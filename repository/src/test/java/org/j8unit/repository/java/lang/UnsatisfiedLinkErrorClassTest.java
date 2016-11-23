@@ -41,6 +41,7 @@ implements UnsatisfiedLinkErrorClassTests<UnsatisfiedLinkError> {
     public void create_UnsatisfiedLinkError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsatisfiedLinkError sut = new UnsatisfiedLinkError();
     }
 

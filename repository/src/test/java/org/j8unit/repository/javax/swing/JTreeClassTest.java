@@ -110,6 +110,7 @@ implements JTreeClassTests<JTree> {
     public void create_JTree()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTree sut = new JTree();
     }
 

@@ -109,6 +109,7 @@ implements JWindowClassTests<JWindow> {
     public void create_JWindow()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JWindow sut = new JWindow();
     }
 

@@ -42,6 +42,7 @@ implements SynthSpinnerUIClassTests<SynthSpinnerUI> {
     public void create_SynthSpinnerUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthSpinnerUI sut = new SynthSpinnerUI();
     }
 

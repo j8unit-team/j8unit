@@ -43,6 +43,7 @@ implements ParserAdapterClassTests<ParserAdapter> {
     public void create_ParserAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParserAdapter sut = new ParserAdapter();
     }
 

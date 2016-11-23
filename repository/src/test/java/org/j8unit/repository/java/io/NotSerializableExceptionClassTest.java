@@ -65,6 +65,7 @@ implements NotSerializableExceptionClassTests<NotSerializableException> {
     public void create_NotSerializableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotSerializableException sut = new NotSerializableException();
     }
 

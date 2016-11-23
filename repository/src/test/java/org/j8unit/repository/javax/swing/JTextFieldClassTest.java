@@ -109,6 +109,7 @@ implements JTextFieldClassTests<JTextField> {
     public void create_JTextField()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTextField sut = new JTextField();
     }
 

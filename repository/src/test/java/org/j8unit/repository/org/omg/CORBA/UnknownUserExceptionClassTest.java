@@ -42,6 +42,7 @@ implements UnknownUserExceptionClassTests<UnknownUserException> {
     public void create_UnknownUserException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownUserException sut = new UnknownUserException();
     }
 

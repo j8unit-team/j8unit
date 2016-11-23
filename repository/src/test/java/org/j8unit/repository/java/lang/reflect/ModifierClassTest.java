@@ -42,6 +42,7 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
     public void create_Modifier()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Modifier sut = new Modifier();
     }
 

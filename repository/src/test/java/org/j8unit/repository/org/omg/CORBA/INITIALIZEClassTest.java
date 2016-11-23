@@ -110,6 +110,7 @@ implements INITIALIZEClassTests<INITIALIZE> {
     public void create_INITIALIZE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INITIALIZE sut = new INITIALIZE();
     }
 

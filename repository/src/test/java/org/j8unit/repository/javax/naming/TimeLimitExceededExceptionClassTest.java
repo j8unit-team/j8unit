@@ -43,6 +43,7 @@ implements TimeLimitExceededExceptionClassTests<TimeLimitExceededException> {
     public void create_TimeLimitExceededException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TimeLimitExceededException sut = new TimeLimitExceededException();
     }
 

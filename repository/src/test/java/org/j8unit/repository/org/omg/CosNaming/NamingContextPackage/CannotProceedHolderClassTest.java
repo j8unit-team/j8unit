@@ -69,6 +69,7 @@ implements CannotProceedHolderClassTests<CannotProceedHolder> {
     public void create_CannotProceedHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotProceedHolder sut = new CannotProceedHolder();
     }
 

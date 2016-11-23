@@ -65,6 +65,7 @@ implements NamingExceptionClassTests<NamingException> {
     public void create_NamingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NamingException sut = new NamingException();
     }
 

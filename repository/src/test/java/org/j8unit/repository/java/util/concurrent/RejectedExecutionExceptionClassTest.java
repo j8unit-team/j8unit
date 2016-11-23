@@ -113,6 +113,7 @@ implements RejectedExecutionExceptionClassTests<RejectedExecutionException> {
     public void create_RejectedExecutionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RejectedExecutionException sut = new RejectedExecutionException();
     }
 

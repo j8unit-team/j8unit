@@ -42,6 +42,7 @@ implements BasicLabelUIClassTests<BasicLabelUI> {
     public void create_BasicLabelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicLabelUI sut = new BasicLabelUI();
     }
 

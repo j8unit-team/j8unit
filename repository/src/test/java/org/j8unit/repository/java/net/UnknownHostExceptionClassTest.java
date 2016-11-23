@@ -65,6 +65,7 @@ implements org.j8unit.repository.java.net.UnknownHostExceptionClassTests<Unknown
     public void create_UnknownHostException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownHostException sut = new UnknownHostException();
     }
 

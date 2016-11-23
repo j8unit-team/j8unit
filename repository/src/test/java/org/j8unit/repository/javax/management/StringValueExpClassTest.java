@@ -42,6 +42,7 @@ implements StringValueExpClassTests<StringValueExp> {
     public void create_StringValueExp()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringValueExp sut = new StringValueExp();
     }
 

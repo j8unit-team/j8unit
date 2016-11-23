@@ -42,6 +42,7 @@ implements SSLParametersClassTests<SSLParameters> {
     public void create_SSLParameters()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SSLParameters sut = new SSLParameters();
     }
 

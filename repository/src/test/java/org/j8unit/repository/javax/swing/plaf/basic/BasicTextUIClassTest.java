@@ -87,6 +87,7 @@ implements BasicTextUIClassTests<BasicTextUI> {
         public void create_BasicHighlighter()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BasicHighlighter sut = new BasicHighlighter();
         }
 
@@ -132,6 +133,7 @@ implements BasicTextUIClassTests<BasicTextUI> {
         public void create_BasicCaret()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BasicCaret sut = new BasicCaret();
         }
 

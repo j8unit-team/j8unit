@@ -152,6 +152,7 @@ implements AssertionErrorClassTests<AssertionError> {
     public void create_AssertionError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AssertionError sut = new AssertionError();
     }
 

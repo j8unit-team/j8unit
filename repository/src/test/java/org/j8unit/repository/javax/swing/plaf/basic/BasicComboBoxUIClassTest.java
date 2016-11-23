@@ -48,6 +48,7 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
     public void create_BasicComboBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicComboBoxUI sut = new BasicComboBoxUI();
     }
 

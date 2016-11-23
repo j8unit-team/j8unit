@@ -110,6 +110,7 @@ implements COMM_FAILUREClassTests<COMM_FAILURE> {
     public void create_COMM_FAILURE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final COMM_FAILURE sut = new COMM_FAILURE();
     }
 

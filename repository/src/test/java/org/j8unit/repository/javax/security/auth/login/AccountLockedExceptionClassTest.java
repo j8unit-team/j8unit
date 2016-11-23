@@ -44,6 +44,7 @@ implements AccountLockedExceptionClassTests<AccountLockedException> {
     public void create_AccountLockedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccountLockedException sut = new AccountLockedException();
     }
 

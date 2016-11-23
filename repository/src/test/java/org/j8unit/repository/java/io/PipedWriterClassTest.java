@@ -65,6 +65,7 @@ implements PipedWriterClassTests<PipedWriter> {
     public void create_PipedWriter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PipedWriter sut = new PipedWriter();
     }
 

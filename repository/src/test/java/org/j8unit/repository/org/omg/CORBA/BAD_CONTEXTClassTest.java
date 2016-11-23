@@ -110,6 +110,7 @@ implements BAD_CONTEXTClassTests<BAD_CONTEXT> {
     public void create_BAD_CONTEXT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_CONTEXT sut = new BAD_CONTEXT();
     }
 

@@ -42,6 +42,7 @@ implements AreaClassTests<Area> {
     public void create_Area()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Area sut = new Area();
     }
 

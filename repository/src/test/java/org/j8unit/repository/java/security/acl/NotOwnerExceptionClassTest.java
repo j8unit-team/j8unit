@@ -42,6 +42,7 @@ implements NotOwnerExceptionClassTests<NotOwnerException> {
     public void create_NotOwnerException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotOwnerException sut = new NotOwnerException();
     }
 

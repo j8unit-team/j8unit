@@ -65,6 +65,7 @@ implements BindingTypeHolderClassTests<BindingTypeHolder> {
     public void create_BindingTypeHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindingTypeHolder sut = new BindingTypeHolder();
     }
 

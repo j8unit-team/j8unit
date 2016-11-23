@@ -43,6 +43,7 @@ implements MultiOptionPaneUIClassTests<MultiOptionPaneUI> {
     public void create_MultiOptionPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiOptionPaneUI sut = new MultiOptionPaneUI();
     }
 

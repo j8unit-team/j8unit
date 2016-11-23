@@ -86,6 +86,7 @@ implements JTabbedPaneClassTests<JTabbedPane> {
     public void create_JTabbedPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTabbedPane sut = new JTabbedPane();
     }
 

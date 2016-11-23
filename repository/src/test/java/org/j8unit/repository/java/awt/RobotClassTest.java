@@ -64,6 +64,7 @@ implements RobotClassTests<Robot> {
     public void create_Robot()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Robot sut = new Robot();
     }
 

@@ -112,6 +112,7 @@ implements TransformExceptionClassTests<TransformException> {
     public void create_TransformException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransformException sut = new TransformException();
     }
 

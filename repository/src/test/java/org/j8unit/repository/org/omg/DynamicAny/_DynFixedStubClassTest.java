@@ -42,6 +42,7 @@ implements _DynFixedStubClassTests<_DynFixedStub> {
     public void create__DynFixedStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynFixedStub sut = new _DynFixedStub();
     }
 

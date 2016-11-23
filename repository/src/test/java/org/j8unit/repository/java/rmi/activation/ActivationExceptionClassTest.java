@@ -89,6 +89,7 @@ implements ActivationExceptionClassTests<ActivationException> {
     public void create_ActivationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ActivationException sut = new ActivationException();
     }
 

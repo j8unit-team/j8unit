@@ -42,6 +42,7 @@ implements URLDecoderClassTests<URLDecoder> {
     public void create_URLDecoder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final URLDecoder sut = new URLDecoder();
     }
 

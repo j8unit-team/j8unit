@@ -65,6 +65,7 @@ implements StreamHandlerClassTests<StreamHandler> {
     public void create_StreamHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamHandler sut = new StreamHandler();
     }
 

@@ -69,6 +69,7 @@ implements InvalidNameHolderClassTests<InvalidNameHolder> {
     public void create_InvalidNameHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidNameHolder sut = new InvalidNameHolder();
     }
 

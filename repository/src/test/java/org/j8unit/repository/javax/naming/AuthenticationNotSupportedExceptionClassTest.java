@@ -67,6 +67,7 @@ implements AuthenticationNotSupportedExceptionClassTests<AuthenticationNotSuppor
     public void create_AuthenticationNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AuthenticationNotSupportedException sut = new AuthenticationNotSupportedException();
     }
 

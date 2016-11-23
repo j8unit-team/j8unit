@@ -43,6 +43,7 @@ implements CSSClassTests<CSS> {
     public void create_CSS()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CSS sut = new CSS();
     }
 

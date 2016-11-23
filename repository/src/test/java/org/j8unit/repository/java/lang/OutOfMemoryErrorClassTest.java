@@ -41,6 +41,7 @@ implements OutOfMemoryErrorClassTests<OutOfMemoryError> {
     public void create_OutOfMemoryError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OutOfMemoryError sut = new OutOfMemoryError();
     }
 

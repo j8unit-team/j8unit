@@ -87,6 +87,7 @@ implements FrameClassTests<Frame> {
     public void create_Frame()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Frame sut = new Frame();
     }
 

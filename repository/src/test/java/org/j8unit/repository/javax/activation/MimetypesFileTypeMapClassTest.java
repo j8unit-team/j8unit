@@ -43,6 +43,7 @@ implements MimetypesFileTypeMapClassTests<MimetypesFileTypeMap> {
     public void create_MimetypesFileTypeMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimetypesFileTypeMap sut = new MimetypesFileTypeMap();
     }
 

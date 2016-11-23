@@ -111,6 +111,7 @@ implements ProtocolExceptionClassTests<ProtocolException> {
     public void create_ProtocolException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ProtocolException sut = new ProtocolException();
     }
 

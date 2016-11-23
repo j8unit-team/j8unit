@@ -41,6 +41,7 @@ implements IllegalAccessErrorClassTests<IllegalAccessError> {
     public void create_IllegalAccessError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalAccessError sut = new IllegalAccessError();
     }
 

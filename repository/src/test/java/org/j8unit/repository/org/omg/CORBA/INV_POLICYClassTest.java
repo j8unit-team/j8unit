@@ -110,6 +110,7 @@ implements INV_POLICYClassTests<INV_POLICY> {
     public void create_INV_POLICY()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INV_POLICY sut = new INV_POLICY();
     }
 

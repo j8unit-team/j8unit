@@ -64,6 +64,7 @@ implements FloatHolderClassTests<FloatHolder> {
     public void create_FloatHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FloatHolder sut = new FloatHolder();
     }
 

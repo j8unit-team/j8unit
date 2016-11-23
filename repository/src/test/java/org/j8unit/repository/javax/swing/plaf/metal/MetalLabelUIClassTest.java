@@ -42,6 +42,7 @@ implements MetalLabelUIClassTests<MetalLabelUI> {
     public void create_MetalLabelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalLabelUI sut = new MetalLabelUI();
     }
 

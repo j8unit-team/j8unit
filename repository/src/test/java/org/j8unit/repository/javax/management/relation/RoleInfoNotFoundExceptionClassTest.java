@@ -44,6 +44,7 @@ implements RoleInfoNotFoundExceptionClassTests<RoleInfoNotFoundException> {
     public void create_RoleInfoNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleInfoNotFoundException sut = new RoleInfoNotFoundException();
     }
 

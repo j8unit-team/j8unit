@@ -42,6 +42,7 @@ implements ImageFilterClassTests<ImageFilter> {
     public void create_ImageFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ImageFilter sut = new ImageFilter();
     }
 

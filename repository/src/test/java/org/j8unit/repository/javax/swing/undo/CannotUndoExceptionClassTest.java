@@ -42,6 +42,7 @@ implements CannotUndoExceptionClassTests<CannotUndoException> {
     public void create_CannotUndoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotUndoException sut = new CannotUndoException();
     }
 

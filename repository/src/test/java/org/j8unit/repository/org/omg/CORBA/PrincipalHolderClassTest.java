@@ -66,6 +66,7 @@ implements PrincipalHolderClassTests<PrincipalHolder> {
     public void create_PrincipalHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrincipalHolder sut = new PrincipalHolder();
     }
 

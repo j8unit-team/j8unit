@@ -87,6 +87,7 @@ implements JButtonClassTests<JButton> {
     public void create_JButton()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JButton sut = new JButton();
     }
 

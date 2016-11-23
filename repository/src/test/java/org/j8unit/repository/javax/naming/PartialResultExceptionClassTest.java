@@ -66,6 +66,7 @@ implements PartialResultExceptionClassTests<PartialResultException> {
     public void create_PartialResultException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PartialResultException sut = new PartialResultException();
     }
 

@@ -64,6 +64,7 @@ implements OctetSeqHolderClassTests<OctetSeqHolder> {
     public void create_OctetSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OctetSeqHolder sut = new OctetSeqHolder();
     }
 

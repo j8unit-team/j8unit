@@ -41,6 +41,7 @@ implements ArrayStoreExceptionClassTests<ArrayStoreException> {
     public void create_ArrayStoreException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArrayStoreException sut = new ArrayStoreException();
     }
 

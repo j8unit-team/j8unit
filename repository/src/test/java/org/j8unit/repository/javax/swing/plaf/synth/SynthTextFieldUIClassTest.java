@@ -43,6 +43,7 @@ implements SynthTextFieldUIClassTests<SynthTextFieldUI> {
     public void create_SynthTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTextFieldUI sut = new SynthTextFieldUI();
     }
 

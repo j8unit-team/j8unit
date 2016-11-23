@@ -88,6 +88,7 @@ implements SpinnerListModelClassTests<SpinnerListModel> {
     public void create_SpinnerListModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SpinnerListModel sut = new SpinnerListModel();
     }
 

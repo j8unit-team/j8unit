@@ -43,6 +43,7 @@ implements RoleUnresolvedListClassTests<RoleUnresolvedList> {
     public void create_RoleUnresolvedList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleUnresolvedList sut = new RoleUnresolvedList();
     }
 

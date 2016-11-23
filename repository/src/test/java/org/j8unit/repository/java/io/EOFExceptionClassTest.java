@@ -42,6 +42,7 @@ implements EOFExceptionClassTests<EOFException> {
     public void create_EOFException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EOFException sut = new EOFException();
     }
 

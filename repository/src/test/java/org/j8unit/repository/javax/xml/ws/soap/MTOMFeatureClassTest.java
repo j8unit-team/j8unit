@@ -42,6 +42,7 @@ implements MTOMFeatureClassTests<MTOMFeature> {
     public void create_MTOMFeature()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MTOMFeature sut = new MTOMFeature();
     }
 

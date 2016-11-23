@@ -44,6 +44,7 @@ implements AdapterInactiveClassTests<AdapterInactive> {
     public void create_AdapterInactive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AdapterInactive sut = new AdapterInactive();
     }
 

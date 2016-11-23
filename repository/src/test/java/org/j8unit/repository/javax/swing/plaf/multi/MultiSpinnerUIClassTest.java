@@ -42,6 +42,7 @@ implements MultiSpinnerUIClassTests<MultiSpinnerUI> {
     public void create_MultiSpinnerUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSpinnerUI sut = new MultiSpinnerUI();
     }
 

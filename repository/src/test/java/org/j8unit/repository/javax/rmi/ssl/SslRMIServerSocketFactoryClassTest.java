@@ -43,6 +43,7 @@ implements SslRMIServerSocketFactoryClassTests<SslRMIServerSocketFactory> {
     public void create_SslRMIServerSocketFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SslRMIServerSocketFactory sut = new SslRMIServerSocketFactory();
     }
 

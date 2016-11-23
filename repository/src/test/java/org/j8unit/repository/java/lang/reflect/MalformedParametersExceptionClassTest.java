@@ -44,6 +44,7 @@ implements MalformedParametersExceptionClassTests<MalformedParametersException> 
     public void create_MalformedParametersException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedParametersException sut = new MalformedParametersException();
     }
 

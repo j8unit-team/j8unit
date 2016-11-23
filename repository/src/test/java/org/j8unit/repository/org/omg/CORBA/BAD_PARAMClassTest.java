@@ -110,6 +110,7 @@ implements BAD_PARAMClassTests<BAD_PARAM> {
     public void create_BAD_PARAM()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_PARAM sut = new BAD_PARAM();
     }
 

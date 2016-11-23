@@ -65,6 +65,7 @@ implements TaggedComponentHolderClassTests<TaggedComponentHolder> {
     public void create_TaggedComponentHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TaggedComponentHolder sut = new TaggedComponentHolder();
     }
 

@@ -43,6 +43,7 @@ implements EventReaderDelegateClassTests<EventReaderDelegate> {
     public void create_EventReaderDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EventReaderDelegate sut = new EventReaderDelegate();
     }
 

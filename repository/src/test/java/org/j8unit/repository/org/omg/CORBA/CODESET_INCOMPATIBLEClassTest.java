@@ -112,6 +112,7 @@ implements CODESET_INCOMPATIBLEClassTests<CODESET_INCOMPATIBLE> {
     public void create_CODESET_INCOMPATIBLE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CODESET_INCOMPATIBLE sut = new CODESET_INCOMPATIBLE();
     }
 

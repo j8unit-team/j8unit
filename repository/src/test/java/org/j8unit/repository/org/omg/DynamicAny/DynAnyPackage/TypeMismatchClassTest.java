@@ -43,6 +43,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchCl
     public void create_TypeMismatch()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TypeMismatch sut = new TypeMismatch();
     }
 

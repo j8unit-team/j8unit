@@ -44,6 +44,7 @@ implements RelationServiceNotRegisteredExceptionClassTests<RelationServiceNotReg
     public void create_RelationServiceNotRegisteredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationServiceNotRegisteredException sut = new RelationServiceNotRegisteredException();
     }
 

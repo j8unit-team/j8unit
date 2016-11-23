@@ -44,6 +44,7 @@ implements VariableHeightLayoutCacheClassTests<VariableHeightLayoutCache> {
     public void create_VariableHeightLayoutCache()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final VariableHeightLayoutCache sut = new VariableHeightLayoutCache();
     }
 

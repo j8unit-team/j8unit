@@ -42,6 +42,7 @@ implements ServiceInformationClassTests<ServiceInformation> {
     public void create_ServiceInformation()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceInformation sut = new ServiceInformation();
     }
 

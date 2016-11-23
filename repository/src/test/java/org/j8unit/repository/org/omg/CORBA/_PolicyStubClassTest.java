@@ -42,6 +42,7 @@ implements _PolicyStubClassTests<_PolicyStub> {
     public void create__PolicyStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _PolicyStub sut = new _PolicyStub();
     }
 

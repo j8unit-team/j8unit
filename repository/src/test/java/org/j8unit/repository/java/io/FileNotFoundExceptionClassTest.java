@@ -42,6 +42,7 @@ implements FileNotFoundExceptionClassTests<FileNotFoundException> {
     public void create_FileNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileNotFoundException sut = new FileNotFoundException();
     }
 

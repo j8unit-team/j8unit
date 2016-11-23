@@ -111,6 +111,7 @@ implements INVALID_TRANSACTIONClassTests<INVALID_TRANSACTION> {
     public void create_INVALID_TRANSACTION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INVALID_TRANSACTION sut = new INVALID_TRANSACTION();
     }
 

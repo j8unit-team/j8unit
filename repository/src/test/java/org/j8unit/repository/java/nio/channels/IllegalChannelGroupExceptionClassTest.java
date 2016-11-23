@@ -44,6 +44,7 @@ implements IllegalChannelGroupExceptionClassTests<IllegalChannelGroupException> 
     public void create_IllegalChannelGroupException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalChannelGroupException sut = new IllegalChannelGroupException();
     }
 

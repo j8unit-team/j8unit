@@ -44,6 +44,7 @@ implements RelationNotFoundExceptionClassTests<RelationNotFoundException> {
     public void create_RelationNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationNotFoundException sut = new RelationNotFoundException();
     }
 

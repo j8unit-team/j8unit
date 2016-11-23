@@ -43,6 +43,7 @@ implements ConcurrentLinkedQueueClassTests<ConcurrentLinkedQueue> {
     public void create_ConcurrentLinkedQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentLinkedQueue sut = new ConcurrentLinkedQueue();
     }
 

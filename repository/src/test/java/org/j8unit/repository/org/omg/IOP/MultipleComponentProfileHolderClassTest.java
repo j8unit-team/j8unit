@@ -68,6 +68,7 @@ implements MultipleComponentProfileHolderClassTests<MultipleComponentProfileHold
     public void create_MultipleComponentProfileHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultipleComponentProfileHolder sut = new MultipleComponentProfileHolder();
     }
 

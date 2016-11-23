@@ -64,6 +64,7 @@ implements IntHolderClassTests<IntHolder> {
     public void create_IntHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IntHolder sut = new IntHolder();
     }
 

@@ -42,6 +42,7 @@ implements SynthCheckBoxUIClassTests<SynthCheckBoxUI> {
     public void create_SynthCheckBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthCheckBoxUI sut = new SynthCheckBoxUI();
     }
 

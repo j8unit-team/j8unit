@@ -41,6 +41,7 @@ implements CloneNotSupportedExceptionClassTests<CloneNotSupportedException> {
     public void create_CloneNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CloneNotSupportedException sut = new CloneNotSupportedException();
     }
 

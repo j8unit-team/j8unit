@@ -42,6 +42,7 @@ implements CharArrayWriterClassTests<CharArrayWriter> {
     public void create_CharArrayWriter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CharArrayWriter sut = new CharArrayWriter();
     }
 

@@ -42,6 +42,7 @@ implements DoubleAdderClassTests<DoubleAdder> {
     public void create_DoubleAdder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleAdder sut = new DoubleAdder();
     }
 

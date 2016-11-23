@@ -139,6 +139,7 @@ implements SQLNonTransientConnectionExceptionClassTests<SQLNonTransientConnectio
     public void create_SQLNonTransientConnectionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLNonTransientConnectionException sut = new SQLNonTransientConnectionException();
     }
 

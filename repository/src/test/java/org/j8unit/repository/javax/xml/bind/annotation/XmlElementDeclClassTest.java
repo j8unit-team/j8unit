@@ -65,6 +65,7 @@ implements XmlElementDeclClassTests<XmlElementDecl> {
         public void create_GLOBAL()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final GLOBAL sut = new GLOBAL();
         }
 

@@ -43,6 +43,7 @@ implements SynthTableHeaderUIClassTests<SynthTableHeaderUI> {
     public void create_SynthTableHeaderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTableHeaderUI sut = new SynthTableHeaderUI();
     }
 

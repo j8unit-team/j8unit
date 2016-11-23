@@ -43,6 +43,7 @@ implements MultiSplitPaneUIClassTests<MultiSplitPaneUI> {
     public void create_MultiSplitPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSplitPaneUI sut = new MultiSplitPaneUI();
     }
 

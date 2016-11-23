@@ -44,6 +44,7 @@ implements BasicScrollBarUIClassTests<BasicScrollBarUI> {
     public void create_BasicScrollBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicScrollBarUI sut = new BasicScrollBarUI();
     }
 

@@ -42,6 +42,7 @@ implements PopupMenuClassTests<PopupMenu> {
     public void create_PopupMenu()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PopupMenu sut = new PopupMenu();
     }
 

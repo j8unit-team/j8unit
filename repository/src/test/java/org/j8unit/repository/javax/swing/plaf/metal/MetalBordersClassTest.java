@@ -56,6 +56,7 @@ implements MetalBordersClassTests<MetalBorders> {
     public void create_MetalBorders()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalBorders sut = new MetalBorders();
     }
 
@@ -203,6 +204,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ButtonBorder sut = new ButtonBorder();
         }
 
@@ -248,6 +250,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ToolBarBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToolBarBorder sut = new ToolBarBorder();
         }
 
@@ -293,6 +296,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ToggleButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToggleButtonBorder sut = new ToggleButtonBorder();
         }
 
@@ -338,6 +342,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_PaletteBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PaletteBorder sut = new PaletteBorder();
         }
 
@@ -383,6 +388,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ScrollPaneBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ScrollPaneBorder sut = new ScrollPaneBorder();
         }
 
@@ -428,6 +434,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_TextFieldBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TextFieldBorder sut = new TextFieldBorder();
         }
 
@@ -473,6 +480,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_MenuItemBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MenuItemBorder sut = new MenuItemBorder();
         }
 
@@ -518,6 +526,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_OptionDialogBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final OptionDialogBorder sut = new OptionDialogBorder();
         }
 
@@ -563,6 +572,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_RolloverButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final RolloverButtonBorder sut = new RolloverButtonBorder();
         }
 
@@ -608,6 +618,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_PopupMenuBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PopupMenuBorder sut = new PopupMenuBorder();
         }
 
@@ -653,6 +664,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_InternalFrameBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final InternalFrameBorder sut = new InternalFrameBorder();
         }
 
@@ -698,6 +710,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_TableHeaderBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TableHeaderBorder sut = new TableHeaderBorder();
         }
 
@@ -743,6 +756,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_MenuBarBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MenuBarBorder sut = new MenuBarBorder();
         }
 
@@ -788,6 +802,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_Flush3DBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Flush3DBorder sut = new Flush3DBorder();
         }
 

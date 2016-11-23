@@ -44,6 +44,7 @@ implements MBeanServerNotificationFilterClassTests<MBeanServerNotificationFilter
     public void create_MBeanServerNotificationFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MBeanServerNotificationFilter sut = new MBeanServerNotificationFilter();
     }
 

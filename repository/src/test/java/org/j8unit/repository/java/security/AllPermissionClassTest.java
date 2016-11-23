@@ -42,6 +42,7 @@ implements AllPermissionClassTests<AllPermission> {
     public void create_AllPermission()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AllPermission sut = new AllPermission();
     }
 

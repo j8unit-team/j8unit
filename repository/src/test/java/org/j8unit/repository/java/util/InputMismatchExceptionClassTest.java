@@ -42,6 +42,7 @@ implements InputMismatchExceptionClassTests<InputMismatchException> {
     public void create_InputMismatchException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputMismatchException sut = new InputMismatchException();
     }
 

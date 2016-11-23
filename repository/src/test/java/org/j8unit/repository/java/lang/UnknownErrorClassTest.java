@@ -41,6 +41,7 @@ implements UnknownErrorClassTests<UnknownError> {
     public void create_UnknownError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownError sut = new UnknownError();
     }
 

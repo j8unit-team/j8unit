@@ -65,6 +65,7 @@ implements MemoryHandlerClassTests<MemoryHandler> {
     public void create_MemoryHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MemoryHandler sut = new MemoryHandler();
     }
 

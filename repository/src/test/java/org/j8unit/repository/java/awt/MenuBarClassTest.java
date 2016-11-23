@@ -42,6 +42,7 @@ implements MenuBarClassTests<MenuBar> {
     public void create_MenuBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MenuBar sut = new MenuBar();
     }
 

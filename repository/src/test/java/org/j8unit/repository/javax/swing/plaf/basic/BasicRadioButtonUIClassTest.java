@@ -43,6 +43,7 @@ implements BasicRadioButtonUIClassTests<BasicRadioButtonUI> {
     public void create_BasicRadioButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicRadioButtonUI sut = new BasicRadioButtonUI();
     }
 

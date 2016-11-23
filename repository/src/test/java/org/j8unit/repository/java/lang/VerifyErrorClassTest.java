@@ -41,6 +41,7 @@ implements VerifyErrorClassTests<VerifyError> {
     public void create_VerifyError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final VerifyError sut = new VerifyError();
     }
 

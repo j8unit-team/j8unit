@@ -44,6 +44,7 @@ implements SynthCheckBoxMenuItemUIClassTests<SynthCheckBoxMenuItemUI> {
     public void create_SynthCheckBoxMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthCheckBoxMenuItemUI sut = new SynthCheckBoxMenuItemUI();
     }
 

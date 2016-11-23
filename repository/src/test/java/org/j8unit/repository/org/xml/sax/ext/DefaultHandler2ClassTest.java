@@ -42,6 +42,7 @@ implements DefaultHandler2ClassTests<DefaultHandler2> {
     public void create_DefaultHandler2()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultHandler2 sut = new DefaultHandler2();
     }
 

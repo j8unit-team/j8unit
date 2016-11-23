@@ -44,6 +44,7 @@ implements NotificationBroadcasterSupportClassTests<NotificationBroadcasterSuppo
     public void create_NotificationBroadcasterSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotificationBroadcasterSupport sut = new NotificationBroadcasterSupport();
     }
 

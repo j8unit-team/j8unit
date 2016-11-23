@@ -42,6 +42,7 @@ implements ReadOnlyBufferExceptionClassTests<ReadOnlyBufferException> {
     public void create_ReadOnlyBufferException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReadOnlyBufferException sut = new ReadOnlyBufferException();
     }
 

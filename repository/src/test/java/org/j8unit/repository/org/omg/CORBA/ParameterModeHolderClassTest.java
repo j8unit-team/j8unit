@@ -65,6 +65,7 @@ implements ParameterModeHolderClassTests<ParameterModeHolder> {
     public void create_ParameterModeHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParameterModeHolder sut = new ParameterModeHolder();
     }
 

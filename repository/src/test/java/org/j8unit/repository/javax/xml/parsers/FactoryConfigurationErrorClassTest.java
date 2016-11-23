@@ -113,6 +113,7 @@ implements FactoryConfigurationErrorClassTests<FactoryConfigurationError> {
     public void create_FactoryConfigurationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FactoryConfigurationError sut = new FactoryConfigurationError();
     }
 

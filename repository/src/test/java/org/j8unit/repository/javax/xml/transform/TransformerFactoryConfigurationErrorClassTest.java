@@ -114,6 +114,7 @@ implements TransformerFactoryConfigurationErrorClassTests<TransformerFactoryConf
     public void create_TransformerFactoryConfigurationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransformerFactoryConfigurationError sut = new TransformerFactoryConfigurationError();
     }
 

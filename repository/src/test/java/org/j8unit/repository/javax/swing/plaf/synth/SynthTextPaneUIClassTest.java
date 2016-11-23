@@ -42,6 +42,7 @@ implements SynthTextPaneUIClassTests<SynthTextPaneUI> {
     public void create_SynthTextPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTextPaneUI sut = new SynthTextPaneUI();
     }
 

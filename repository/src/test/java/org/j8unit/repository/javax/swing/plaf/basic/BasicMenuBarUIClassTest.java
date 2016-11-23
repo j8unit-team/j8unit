@@ -42,6 +42,7 @@ implements BasicMenuBarUIClassTests<BasicMenuBarUI> {
     public void create_BasicMenuBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicMenuBarUI sut = new BasicMenuBarUI();
     }
 

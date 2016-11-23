@@ -42,6 +42,7 @@ implements MultiToolTipUIClassTests<MultiToolTipUI> {
     public void create_MultiToolTipUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiToolTipUI sut = new MultiToolTipUI();
     }
 

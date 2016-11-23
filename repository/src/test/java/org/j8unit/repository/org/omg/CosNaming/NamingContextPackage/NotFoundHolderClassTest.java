@@ -66,6 +66,7 @@ implements NotFoundHolderClassTests<NotFoundHolder> {
     public void create_NotFoundHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotFoundHolder sut = new NotFoundHolder();
     }
 

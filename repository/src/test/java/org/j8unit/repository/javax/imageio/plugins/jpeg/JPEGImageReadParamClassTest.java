@@ -43,6 +43,7 @@ implements JPEGImageReadParamClassTests<JPEGImageReadParam> {
     public void create_JPEGImageReadParam()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPEGImageReadParam sut = new JPEGImageReadParam();
     }
 

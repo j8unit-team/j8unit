@@ -43,6 +43,7 @@ implements CounterMonitorClassTests<CounterMonitor> {
     public void create_CounterMonitor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CounterMonitor sut = new CounterMonitor();
     }
 

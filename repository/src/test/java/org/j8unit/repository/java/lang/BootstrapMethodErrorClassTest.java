@@ -110,6 +110,7 @@ implements BootstrapMethodErrorClassTests<BootstrapMethodError> {
     public void create_BootstrapMethodError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BootstrapMethodError sut = new BootstrapMethodError();
     }
 

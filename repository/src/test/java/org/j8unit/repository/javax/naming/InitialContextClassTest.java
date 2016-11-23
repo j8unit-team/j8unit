@@ -65,6 +65,7 @@ implements InitialContextClassTests<InitialContext> {
     public void create_InitialContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InitialContext sut = new InitialContext();
     }
 

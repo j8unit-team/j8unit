@@ -88,6 +88,7 @@ implements AttributesClassTests<Attributes> {
     public void create_Attributes()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Attributes sut = new Attributes();
     }
 

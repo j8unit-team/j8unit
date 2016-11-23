@@ -44,6 +44,7 @@ implements _RMIServer_StubClassTests<_RMIServer_Stub> {
     public void create__RMIServer_Stub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIServer_Stub sut = new _RMIServer_Stub();
     }
 

@@ -43,6 +43,7 @@ implements BasicToggleButtonUIClassTests<BasicToggleButtonUI> {
     public void create_BasicToggleButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicToggleButtonUI sut = new BasicToggleButtonUI();
     }
 

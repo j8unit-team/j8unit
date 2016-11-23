@@ -43,6 +43,7 @@ implements SAXNotSupportedExceptionClassTests<SAXNotSupportedException> {
     public void create_SAXNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXNotSupportedException sut = new SAXNotSupportedException();
     }
 

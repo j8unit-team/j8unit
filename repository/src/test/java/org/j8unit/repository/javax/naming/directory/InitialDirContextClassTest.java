@@ -43,6 +43,7 @@ implements InitialDirContextClassTests<InitialDirContext> {
     public void create_InitialDirContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InitialDirContext sut = new InitialDirContext();
     }
 

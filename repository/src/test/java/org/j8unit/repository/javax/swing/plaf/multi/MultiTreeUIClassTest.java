@@ -42,6 +42,7 @@ implements MultiTreeUIClassTests<MultiTreeUI> {
     public void create_MultiTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTreeUI sut = new MultiTreeUI();
     }
 

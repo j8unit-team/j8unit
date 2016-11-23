@@ -40,6 +40,7 @@ implements ObjectClassTests<Object> {
     public void create_Object()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Object sut = new Object();
     }
 

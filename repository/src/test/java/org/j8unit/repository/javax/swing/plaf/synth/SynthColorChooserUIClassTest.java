@@ -43,6 +43,7 @@ implements SynthColorChooserUIClassTests<SynthColorChooserUI> {
     public void create_SynthColorChooserUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthColorChooserUI sut = new SynthColorChooserUI();
     }
 

@@ -42,6 +42,7 @@ implements SwitchPointClassTests<SwitchPoint> {
     public void create_SwitchPoint()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SwitchPoint sut = new SwitchPoint();
     }
 

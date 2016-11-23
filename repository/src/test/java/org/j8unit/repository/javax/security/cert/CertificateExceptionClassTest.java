@@ -43,6 +43,7 @@ implements CertificateExceptionClassTests<CertificateException> {
     public void create_CertificateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateException sut = new CertificateException();
     }
 

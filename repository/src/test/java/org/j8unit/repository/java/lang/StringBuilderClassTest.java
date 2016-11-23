@@ -107,6 +107,7 @@ implements StringBuilderClassTests<StringBuilder> {
     public void create_StringBuilder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringBuilder sut = new StringBuilder();
     }
 

@@ -111,6 +111,7 @@ implements ACTIVITY_COMPLETEDClassTests<ACTIVITY_COMPLETED> {
     public void create_ACTIVITY_COMPLETED()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ACTIVITY_COMPLETED sut = new ACTIVITY_COMPLETED();
     }
 

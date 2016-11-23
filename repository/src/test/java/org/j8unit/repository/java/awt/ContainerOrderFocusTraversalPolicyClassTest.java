@@ -44,6 +44,7 @@ implements ContainerOrderFocusTraversalPolicyClassTests<ContainerOrderFocusTrave
     public void create_ContainerOrderFocusTraversalPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ContainerOrderFocusTraversalPolicy sut = new ContainerOrderFocusTraversalPolicy();
     }
 

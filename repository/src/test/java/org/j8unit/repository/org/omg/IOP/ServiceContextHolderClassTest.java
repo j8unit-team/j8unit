@@ -65,6 +65,7 @@ implements ServiceContextHolderClassTests<ServiceContextHolder> {
     public void create_ServiceContextHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceContextHolder sut = new ServiceContextHolder();
     }
 

@@ -65,6 +65,7 @@ implements PolicyErrorHolderClassTests<PolicyErrorHolder> {
     public void create_PolicyErrorHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PolicyErrorHolder sut = new PolicyErrorHolder();
     }
 

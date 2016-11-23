@@ -43,6 +43,7 @@ implements JobStateReasonsClassTests<JobStateReasons> {
     public void create_JobStateReasons()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JobStateReasons sut = new JobStateReasons();
     }
 

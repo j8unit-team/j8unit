@@ -138,6 +138,7 @@ implements SQLTransientConnectionExceptionClassTests<SQLTransientConnectionExcep
     public void create_SQLTransientConnectionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLTransientConnectionException sut = new SQLTransientConnectionException();
     }
 

@@ -43,6 +43,7 @@ implements IllformedLocaleExceptionClassTests<IllformedLocaleException> {
     public void create_IllformedLocaleException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllformedLocaleException sut = new IllformedLocaleException();
     }
 

@@ -110,6 +110,7 @@ implements TRANSIENTClassTests<TRANSIENT> {
     public void create_TRANSIENT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSIENT sut = new TRANSIENT();
     }
 

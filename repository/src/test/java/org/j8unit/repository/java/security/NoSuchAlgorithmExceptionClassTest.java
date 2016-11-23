@@ -112,6 +112,7 @@ implements NoSuchAlgorithmExceptionClassTests<NoSuchAlgorithmException> {
     public void create_NoSuchAlgorithmException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchAlgorithmException sut = new NoSuchAlgorithmException();
     }
 

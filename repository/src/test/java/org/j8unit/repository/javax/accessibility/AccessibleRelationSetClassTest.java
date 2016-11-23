@@ -43,6 +43,7 @@ implements AccessibleRelationSetClassTests<AccessibleRelationSet> {
     public void create_AccessibleRelationSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccessibleRelationSet sut = new AccessibleRelationSet();
     }
 

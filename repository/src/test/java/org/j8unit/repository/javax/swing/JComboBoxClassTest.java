@@ -87,6 +87,7 @@ implements JComboBoxClassTests<JComboBox> {
     public void create_JComboBox()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JComboBox sut = new JComboBox();
     }
 

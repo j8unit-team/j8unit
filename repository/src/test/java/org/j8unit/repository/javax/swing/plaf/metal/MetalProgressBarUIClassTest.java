@@ -43,6 +43,7 @@ implements MetalProgressBarUIClassTests<MetalProgressBarUI> {
     public void create_MetalProgressBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalProgressBarUI sut = new MetalProgressBarUI();
     }
 

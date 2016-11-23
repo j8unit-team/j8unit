@@ -65,6 +65,7 @@ implements SAXResultClassTests<SAXResult> {
     public void create_SAXResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXResult sut = new SAXResult();
     }
 

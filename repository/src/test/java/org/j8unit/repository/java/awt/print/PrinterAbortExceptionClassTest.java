@@ -43,6 +43,7 @@ implements PrinterAbortExceptionClassTests<PrinterAbortException> {
     public void create_PrinterAbortException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrinterAbortException sut = new PrinterAbortException();
     }
 

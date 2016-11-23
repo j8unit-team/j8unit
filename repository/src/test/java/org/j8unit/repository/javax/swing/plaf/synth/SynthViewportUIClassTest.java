@@ -42,6 +42,7 @@ implements SynthViewportUIClassTests<SynthViewportUI> {
     public void create_SynthViewportUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthViewportUI sut = new SynthViewportUI();
     }
 

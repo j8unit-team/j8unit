@@ -42,6 +42,7 @@ implements StreamSourceClassTests<StreamSource> {
     public void create_StreamSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamSource sut = new StreamSource();
     }
 

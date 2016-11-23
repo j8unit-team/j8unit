@@ -164,6 +164,7 @@ implements TransformerConfigurationExceptionClassTests<TransformerConfigurationE
     public void create_TransformerConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransformerConfigurationException sut = new TransformerConfigurationException();
     }
 

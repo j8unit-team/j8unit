@@ -43,6 +43,7 @@ implements DefaultMetalThemeClassTests<DefaultMetalTheme> {
     public void create_DefaultMetalTheme()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultMetalTheme sut = new DefaultMetalTheme();
     }
 

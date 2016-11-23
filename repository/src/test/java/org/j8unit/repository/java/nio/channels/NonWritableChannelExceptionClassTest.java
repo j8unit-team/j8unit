@@ -44,6 +44,7 @@ implements NonWritableChannelExceptionClassTests<NonWritableChannelException> {
     public void create_NonWritableChannelException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NonWritableChannelException sut = new NonWritableChannelException();
     }
 

@@ -43,6 +43,7 @@ implements InvalidParameterExceptionClassTests<InvalidParameterException> {
     public void create_InvalidParameterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidParameterException sut = new InvalidParameterException();
     }
 

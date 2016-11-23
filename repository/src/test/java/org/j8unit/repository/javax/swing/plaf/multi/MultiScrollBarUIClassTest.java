@@ -43,6 +43,7 @@ implements MultiScrollBarUIClassTests<MultiScrollBarUI> {
     public void create_MultiScrollBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiScrollBarUI sut = new MultiScrollBarUI();
     }
 

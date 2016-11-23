@@ -43,6 +43,7 @@ implements SpringLayoutClassTests<SpringLayout> {
     public void create_SpringLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SpringLayout sut = new SpringLayout();
     }
 
@@ -155,6 +156,7 @@ implements SpringLayoutClassTests<SpringLayout> {
         public void create_Constraints()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Constraints sut = new Constraints();
         }
 

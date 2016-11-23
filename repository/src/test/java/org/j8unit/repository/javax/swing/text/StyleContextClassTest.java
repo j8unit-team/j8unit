@@ -44,6 +44,7 @@ implements StyleContextClassTests<StyleContext> {
     public void create_StyleContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyleContext sut = new StyleContext();
     }
 

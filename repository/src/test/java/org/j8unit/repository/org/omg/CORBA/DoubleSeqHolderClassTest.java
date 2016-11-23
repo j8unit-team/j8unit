@@ -64,6 +64,7 @@ implements DoubleSeqHolderClassTests<DoubleSeqHolder> {
     public void create_DoubleSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleSeqHolder sut = new DoubleSeqHolder();
     }
 

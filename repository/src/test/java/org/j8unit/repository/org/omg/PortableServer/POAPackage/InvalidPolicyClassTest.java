@@ -43,6 +43,7 @@ implements InvalidPolicyClassTests<InvalidPolicy> {
     public void create_InvalidPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidPolicy sut = new InvalidPolicy();
     }
 

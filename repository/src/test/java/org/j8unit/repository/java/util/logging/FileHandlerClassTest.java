@@ -65,6 +65,7 @@ implements FileHandlerClassTests<FileHandler> {
     public void create_FileHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileHandler sut = new FileHandler();
     }
 

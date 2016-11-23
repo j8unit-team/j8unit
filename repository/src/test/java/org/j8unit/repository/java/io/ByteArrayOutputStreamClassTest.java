@@ -42,6 +42,7 @@ implements ByteArrayOutputStreamClassTests<ByteArrayOutputStream> {
     public void create_ByteArrayOutputStream()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ByteArrayOutputStream sut = new ByteArrayOutputStream();
     }
 

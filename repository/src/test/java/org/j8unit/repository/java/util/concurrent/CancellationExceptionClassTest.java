@@ -43,6 +43,7 @@ implements CancellationExceptionClassTests<CancellationException> {
     public void create_CancellationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CancellationException sut = new CancellationException();
     }
 

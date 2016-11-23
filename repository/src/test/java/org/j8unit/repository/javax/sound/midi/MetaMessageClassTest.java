@@ -42,6 +42,7 @@ implements MetaMessageClassTests<MetaMessage> {
     public void create_MetaMessage()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetaMessage sut = new MetaMessage();
     }
 

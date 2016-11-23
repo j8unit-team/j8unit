@@ -43,6 +43,7 @@ implements SynthScrollPaneUIClassTests<SynthScrollPaneUI> {
     public void create_SynthScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthScrollPaneUI sut = new SynthScrollPaneUI();
     }
 

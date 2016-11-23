@@ -42,6 +42,7 @@ implements DimensionClassTests<Dimension> {
     public void create_Dimension()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Dimension sut = new Dimension();
     }
 

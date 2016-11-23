@@ -43,6 +43,7 @@ implements RelationExceptionClassTests<RelationException> {
     public void create_RelationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationException sut = new RelationException();
     }
 

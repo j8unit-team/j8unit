@@ -64,6 +64,7 @@ implements BooleanHolderClassTests<BooleanHolder> {
     public void create_BooleanHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BooleanHolder sut = new BooleanHolder();
     }
 

@@ -44,6 +44,7 @@ implements ObjectAlreadyActiveClassTests<ObjectAlreadyActive> {
     public void create_ObjectAlreadyActive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectAlreadyActive sut = new ObjectAlreadyActive();
     }
 

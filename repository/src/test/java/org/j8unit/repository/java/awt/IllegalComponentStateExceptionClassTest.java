@@ -44,6 +44,7 @@ implements IllegalComponentStateExceptionClassTests<IllegalComponentStateExcepti
     public void create_IllegalComponentStateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalComponentStateException sut = new IllegalComponentStateException();
     }
 

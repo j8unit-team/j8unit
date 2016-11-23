@@ -44,6 +44,7 @@ implements InvalidSearchControlsExceptionClassTests<InvalidSearchControlsExcepti
     public void create_InvalidSearchControlsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSearchControlsException sut = new InvalidSearchControlsException();
     }
 

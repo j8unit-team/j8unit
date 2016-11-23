@@ -110,6 +110,7 @@ implements INV_IDENTClassTests<INV_IDENT> {
     public void create_INV_IDENT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INV_IDENT sut = new INV_IDENT();
     }
 

@@ -65,6 +65,7 @@ implements JTextPaneClassTests<JTextPane> {
     public void create_JTextPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTextPane sut = new JTextPane();
     }
 

@@ -42,6 +42,7 @@ implements CannotRedoExceptionClassTests<CannotRedoException> {
     public void create_CannotRedoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotRedoException sut = new CannotRedoException();
     }
 

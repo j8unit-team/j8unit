@@ -42,6 +42,7 @@ implements AttributeValueExpClassTests<AttributeValueExp> {
     public void create_AttributeValueExp()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeValueExp sut = new AttributeValueExp();
     }
 

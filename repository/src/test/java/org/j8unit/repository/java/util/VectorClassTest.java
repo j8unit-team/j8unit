@@ -64,6 +64,7 @@ implements VectorClassTests<Vector> {
     public void create_Vector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Vector sut = new Vector();
     }
 

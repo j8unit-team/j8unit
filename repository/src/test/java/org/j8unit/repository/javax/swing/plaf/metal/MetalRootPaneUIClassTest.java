@@ -42,6 +42,7 @@ implements MetalRootPaneUIClassTests<MetalRootPaneUI> {
     public void create_MetalRootPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalRootPaneUI sut = new MetalRootPaneUI();
     }
 

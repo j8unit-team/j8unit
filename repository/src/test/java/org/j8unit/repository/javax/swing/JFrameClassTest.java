@@ -42,6 +42,7 @@ implements JFrameClassTests<JFrame> {
     public void create_JFrame()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JFrame sut = new JFrame();
     }
 

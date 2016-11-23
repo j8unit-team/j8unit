@@ -44,6 +44,7 @@ implements PrinterStateReasonsClassTests<PrinterStateReasons> {
     public void create_PrinterStateReasons()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrinterStateReasons sut = new PrinterStateReasons();
     }
 

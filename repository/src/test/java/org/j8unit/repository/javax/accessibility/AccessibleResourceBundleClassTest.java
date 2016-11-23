@@ -45,6 +45,7 @@ implements AccessibleResourceBundleClassTests<AccessibleResourceBundle> {
     public void create_AccessibleResourceBundle()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccessibleResourceBundle sut = new AccessibleResourceBundle();
     }
 

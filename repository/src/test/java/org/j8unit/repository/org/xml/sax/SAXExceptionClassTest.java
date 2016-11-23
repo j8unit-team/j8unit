@@ -109,6 +109,7 @@ implements SAXExceptionClassTests<SAXException> {
     public void create_SAXException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXException sut = new SAXException();
     }
 

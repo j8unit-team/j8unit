@@ -42,6 +42,7 @@ implements ShortMessageClassTests<ShortMessage> {
     public void create_ShortMessage()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortMessage sut = new ShortMessage();
     }
 

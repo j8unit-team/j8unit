@@ -44,6 +44,7 @@ implements AuthenticationExceptionClassTests<AuthenticationException> {
     public void create_AuthenticationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AuthenticationException sut = new AuthenticationException();
     }
 

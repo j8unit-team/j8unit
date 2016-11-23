@@ -43,6 +43,7 @@ implements DefaultFocusTraversalPolicyClassTests<DefaultFocusTraversalPolicy> {
     public void create_DefaultFocusTraversalPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultFocusTraversalPolicy sut = new DefaultFocusTraversalPolicy();
     }
 

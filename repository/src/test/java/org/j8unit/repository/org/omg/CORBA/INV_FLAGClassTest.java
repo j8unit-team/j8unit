@@ -110,6 +110,7 @@ implements INV_FLAGClassTests<INV_FLAG> {
     public void create_INV_FLAG()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INV_FLAG sut = new INV_FLAG();
     }
 

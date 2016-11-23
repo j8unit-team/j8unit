@@ -65,6 +65,7 @@ implements PlainDocumentClassTests<PlainDocument> {
     public void create_PlainDocument()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PlainDocument sut = new PlainDocument();
     }
 

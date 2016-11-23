@@ -42,6 +42,7 @@ implements SAXSourceClassTests<SAXSource> {
     public void create_SAXSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXSource sut = new SAXSource();
     }
 

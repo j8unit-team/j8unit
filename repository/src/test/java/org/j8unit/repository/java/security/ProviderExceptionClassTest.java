@@ -111,6 +111,7 @@ implements ProviderExceptionClassTests<ProviderException> {
     public void create_ProviderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ProviderException sut = new ProviderException();
     }
 

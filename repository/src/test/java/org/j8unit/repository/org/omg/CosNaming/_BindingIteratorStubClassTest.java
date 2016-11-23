@@ -43,6 +43,7 @@ implements _BindingIteratorStubClassTests<_BindingIteratorStub> {
     public void create__BindingIteratorStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _BindingIteratorStub sut = new _BindingIteratorStub();
     }
 

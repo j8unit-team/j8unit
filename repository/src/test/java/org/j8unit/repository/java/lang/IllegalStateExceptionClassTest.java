@@ -110,6 +110,7 @@ implements IllegalStateExceptionClassTests<IllegalStateException> {
     public void create_IllegalStateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalStateException sut = new IllegalStateException();
     }
 

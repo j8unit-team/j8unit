@@ -42,6 +42,7 @@ implements LocalObjectClassTests<LocalObject> {
     public void create_LocalObject()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LocalObject sut = new LocalObject();
     }
 

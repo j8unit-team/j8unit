@@ -137,6 +137,7 @@ implements LambdaConversionExceptionClassTests<LambdaConversionException> {
     public void create_LambdaConversionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LambdaConversionException sut = new LambdaConversionException();
     }
 

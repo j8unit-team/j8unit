@@ -113,6 +113,7 @@ implements TRANSACTION_ROLLEDBACKClassTests<TRANSACTION_ROLLEDBACK> {
     public void create_TRANSACTION_ROLLEDBACK()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSACTION_ROLLEDBACK sut = new TRANSACTION_ROLLEDBACK();
     }
 

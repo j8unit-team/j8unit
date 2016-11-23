@@ -44,6 +44,7 @@ implements AdapterNonExistentClassTests<AdapterNonExistent> {
     public void create_AdapterNonExistent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AdapterNonExistent sut = new AdapterNonExistent();
     }
 

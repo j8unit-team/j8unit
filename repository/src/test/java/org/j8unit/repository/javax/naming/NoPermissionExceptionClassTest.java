@@ -65,6 +65,7 @@ implements NoPermissionExceptionClassTests<NoPermissionException> {
     public void create_NoPermissionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoPermissionException sut = new NoPermissionException();
     }
 

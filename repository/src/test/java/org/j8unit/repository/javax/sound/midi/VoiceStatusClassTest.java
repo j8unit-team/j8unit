@@ -42,6 +42,7 @@ implements VoiceStatusClassTests<VoiceStatus> {
     public void create_VoiceStatus()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final VoiceStatus sut = new VoiceStatus();
     }
 

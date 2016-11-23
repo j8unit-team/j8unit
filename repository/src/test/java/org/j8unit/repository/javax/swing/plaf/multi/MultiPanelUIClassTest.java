@@ -42,6 +42,7 @@ implements MultiPanelUIClassTests<MultiPanelUI> {
     public void create_MultiPanelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiPanelUI sut = new MultiPanelUI();
     }
 

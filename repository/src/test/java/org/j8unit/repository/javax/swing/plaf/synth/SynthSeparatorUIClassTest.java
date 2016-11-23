@@ -43,6 +43,7 @@ implements SynthSeparatorUIClassTests<SynthSeparatorUI> {
     public void create_SynthSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthSeparatorUI sut = new SynthSeparatorUI();
     }
 

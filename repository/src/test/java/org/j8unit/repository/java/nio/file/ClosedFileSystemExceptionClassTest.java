@@ -43,6 +43,7 @@ implements ClosedFileSystemExceptionClassTests<ClosedFileSystemException> {
     public void create_ClosedFileSystemException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedFileSystemException sut = new ClosedFileSystemException();
     }
 

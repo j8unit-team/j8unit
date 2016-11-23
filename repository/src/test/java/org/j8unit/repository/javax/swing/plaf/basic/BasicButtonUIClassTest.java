@@ -42,6 +42,7 @@ implements BasicButtonUIClassTests<BasicButtonUI> {
     public void create_BasicButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicButtonUI sut = new BasicButtonUI();
     }
 

@@ -42,6 +42,7 @@ implements UndoableEditSupportClassTests<UndoableEditSupport> {
     public void create_UndoableEditSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UndoableEditSupport sut = new UndoableEditSupport();
     }
 

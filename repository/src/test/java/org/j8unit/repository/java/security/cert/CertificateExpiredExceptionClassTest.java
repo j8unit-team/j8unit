@@ -44,6 +44,7 @@ implements CertificateExpiredExceptionClassTests<CertificateExpiredException> {
     public void create_CertificateExpiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateExpiredException sut = new CertificateExpiredException();
     }
 

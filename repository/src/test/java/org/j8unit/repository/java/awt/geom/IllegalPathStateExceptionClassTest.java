@@ -43,6 +43,7 @@ implements IllegalPathStateExceptionClassTests<IllegalPathStateException> {
     public void create_IllegalPathStateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalPathStateException sut = new IllegalPathStateException();
     }
 

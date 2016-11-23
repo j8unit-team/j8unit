@@ -97,6 +97,7 @@ implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
     public void create_CertPathValidatorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertPathValidatorException sut = new CertPathValidatorException();
     }
 

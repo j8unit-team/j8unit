@@ -42,6 +42,7 @@ implements ViewportLayoutClassTests<ViewportLayout> {
     public void create_ViewportLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ViewportLayout sut = new ViewportLayout();
     }
 

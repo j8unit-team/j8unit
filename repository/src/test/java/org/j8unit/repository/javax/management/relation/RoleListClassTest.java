@@ -42,6 +42,7 @@ implements RoleListClassTests<RoleList> {
     public void create_RoleList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleList sut = new RoleList();
     }
 

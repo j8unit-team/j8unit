@@ -42,6 +42,7 @@ implements _DynStructStubClassTests<_DynStructStub> {
     public void create__DynStructStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynStructStub sut = new _DynStructStub();
     }
 

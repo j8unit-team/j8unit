@@ -65,6 +65,7 @@ implements AttributesImplClassTests<AttributesImpl> {
     public void create_AttributesImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributesImpl sut = new AttributesImpl();
     }
 

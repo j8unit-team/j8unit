@@ -42,6 +42,7 @@ implements OperationsExceptionClassTests<OperationsException> {
     public void create_OperationsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OperationsException sut = new OperationsException();
     }
 

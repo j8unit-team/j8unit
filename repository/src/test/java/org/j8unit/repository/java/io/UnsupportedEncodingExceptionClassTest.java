@@ -43,6 +43,7 @@ implements UnsupportedEncodingExceptionClassTests<UnsupportedEncodingException> 
     public void create_UnsupportedEncodingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedEncodingException sut = new UnsupportedEncodingException();
     }
 

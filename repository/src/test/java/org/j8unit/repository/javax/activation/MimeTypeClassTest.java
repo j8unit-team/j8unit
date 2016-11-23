@@ -42,6 +42,7 @@ implements MimeTypeClassTests<MimeType> {
     public void create_MimeType()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimeType sut = new MimeType();
     }
 

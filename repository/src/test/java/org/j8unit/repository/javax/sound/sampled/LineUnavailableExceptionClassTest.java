@@ -44,6 +44,7 @@ implements LineUnavailableExceptionClassTests<LineUnavailableException> {
     public void create_LineUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LineUnavailableException sut = new LineUnavailableException();
     }
 

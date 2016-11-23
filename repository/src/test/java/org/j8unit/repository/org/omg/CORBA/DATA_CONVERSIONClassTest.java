@@ -111,6 +111,7 @@ implements DATA_CONVERSIONClassTests<DATA_CONVERSION> {
     public void create_DATA_CONVERSION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DATA_CONVERSION sut = new DATA_CONVERSION();
     }
 

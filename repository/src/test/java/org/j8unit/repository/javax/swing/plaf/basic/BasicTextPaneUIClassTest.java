@@ -42,6 +42,7 @@ implements BasicTextPaneUIClassTests<BasicTextPaneUI> {
     public void create_BasicTextPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTextPaneUI sut = new BasicTextPaneUI();
     }
 

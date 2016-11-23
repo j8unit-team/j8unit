@@ -66,6 +66,7 @@ implements ReentrantLockClassTests<ReentrantLock> {
     public void create_ReentrantLock()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReentrantLock sut = new ReentrantLock();
     }
 

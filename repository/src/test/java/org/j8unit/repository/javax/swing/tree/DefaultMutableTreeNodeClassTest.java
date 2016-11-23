@@ -66,6 +66,7 @@ implements DefaultMutableTreeNodeClassTests<DefaultMutableTreeNode> {
     public void create_DefaultMutableTreeNode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultMutableTreeNode sut = new DefaultMutableTreeNode();
     }
 

@@ -67,6 +67,7 @@ implements UnknownUserExceptionHolderClassTests<UnknownUserExceptionHolder> {
     public void create_UnknownUserExceptionHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownUserExceptionHolder sut = new UnknownUserExceptionHolder();
     }
 

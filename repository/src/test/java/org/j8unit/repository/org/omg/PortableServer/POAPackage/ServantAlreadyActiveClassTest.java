@@ -44,6 +44,7 @@ implements ServantAlreadyActiveClassTests<ServantAlreadyActive> {
     public void create_ServantAlreadyActive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServantAlreadyActive sut = new ServantAlreadyActive();
     }
 

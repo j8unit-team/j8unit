@@ -110,6 +110,7 @@ implements INTERNALClassTests<INTERNAL> {
     public void create_INTERNAL()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INTERNAL sut = new INTERNAL();
     }
 

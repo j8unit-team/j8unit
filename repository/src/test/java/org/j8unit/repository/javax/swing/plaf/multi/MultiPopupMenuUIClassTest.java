@@ -43,6 +43,7 @@ implements MultiPopupMenuUIClassTests<MultiPopupMenuUI> {
     public void create_MultiPopupMenuUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiPopupMenuUI sut = new MultiPopupMenuUI();
     }
 

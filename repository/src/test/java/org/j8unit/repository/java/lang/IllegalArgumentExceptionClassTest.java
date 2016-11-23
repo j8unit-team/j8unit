@@ -110,6 +110,7 @@ implements IllegalArgumentExceptionClassTests<IllegalArgumentException> {
     public void create_IllegalArgumentException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalArgumentException sut = new IllegalArgumentException();
     }
 

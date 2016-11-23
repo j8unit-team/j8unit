@@ -66,6 +66,7 @@ implements NotEmptyHolderClassTests<NotEmptyHolder> {
     public void create_NotEmptyHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotEmptyHolder sut = new NotEmptyHolder();
     }
 

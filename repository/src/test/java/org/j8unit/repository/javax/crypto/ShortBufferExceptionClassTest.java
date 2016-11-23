@@ -42,6 +42,7 @@ implements ShortBufferExceptionClassTests<ShortBufferException> {
     public void create_ShortBufferException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortBufferException sut = new ShortBufferException();
     }
 

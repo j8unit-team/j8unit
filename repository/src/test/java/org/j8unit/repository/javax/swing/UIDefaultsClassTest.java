@@ -46,6 +46,7 @@ implements UIDefaultsClassTests<UIDefaults> {
     public void create_UIDefaults()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UIDefaults sut = new UIDefaults();
     }
 

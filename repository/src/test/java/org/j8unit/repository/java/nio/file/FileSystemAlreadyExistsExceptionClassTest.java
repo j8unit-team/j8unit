@@ -44,6 +44,7 @@ implements FileSystemAlreadyExistsExceptionClassTests<FileSystemAlreadyExistsExc
     public void create_FileSystemAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileSystemAlreadyExistsException sut = new FileSystemAlreadyExistsException();
     }
 

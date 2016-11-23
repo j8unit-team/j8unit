@@ -44,6 +44,7 @@ implements NonReadableChannelExceptionClassTests<NonReadableChannelException> {
     public void create_NonReadableChannelException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NonReadableChannelException sut = new NonReadableChannelException();
     }
 

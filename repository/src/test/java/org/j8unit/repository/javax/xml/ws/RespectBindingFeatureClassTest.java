@@ -42,6 +42,7 @@ implements RespectBindingFeatureClassTests<RespectBindingFeature> {
     public void create_RespectBindingFeature()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RespectBindingFeature sut = new RespectBindingFeature();
     }
 

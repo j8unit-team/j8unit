@@ -42,6 +42,7 @@ implements JAppletClassTests<JApplet> {
     public void create_JApplet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JApplet sut = new JApplet();
     }
 

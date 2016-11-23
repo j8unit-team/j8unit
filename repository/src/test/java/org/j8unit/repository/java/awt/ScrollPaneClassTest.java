@@ -64,6 +64,7 @@ implements ScrollPaneClassTests<ScrollPane> {
     public void create_ScrollPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ScrollPane sut = new ScrollPane();
     }
 

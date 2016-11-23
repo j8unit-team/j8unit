@@ -42,6 +42,7 @@ implements SynthButtonUIClassTests<SynthButtonUI> {
     public void create_SynthButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthButtonUI sut = new SynthButtonUI();
     }
 

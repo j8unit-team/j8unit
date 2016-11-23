@@ -42,6 +42,7 @@ implements _NamingContextStubClassTests<_NamingContextStub> {
     public void create__NamingContextStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _NamingContextStub sut = new _NamingContextStub();
     }
 

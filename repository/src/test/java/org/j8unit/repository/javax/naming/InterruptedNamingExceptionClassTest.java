@@ -66,6 +66,7 @@ implements InterruptedNamingExceptionClassTests<InterruptedNamingException> {
     public void create_InterruptedNamingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InterruptedNamingException sut = new InterruptedNamingException();
     }
 

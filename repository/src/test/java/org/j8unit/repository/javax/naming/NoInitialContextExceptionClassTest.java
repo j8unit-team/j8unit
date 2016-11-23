@@ -43,6 +43,7 @@ implements NoInitialContextExceptionClassTests<NoInitialContextException> {
     public void create_NoInitialContextException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoInitialContextException sut = new NoInitialContextException();
     }
 

@@ -43,6 +43,7 @@ implements BasicDesktopPaneUIClassTests<BasicDesktopPaneUI> {
     public void create_BasicDesktopPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicDesktopPaneUI sut = new BasicDesktopPaneUI();
     }
 

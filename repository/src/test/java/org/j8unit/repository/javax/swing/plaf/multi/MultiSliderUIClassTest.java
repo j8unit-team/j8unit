@@ -42,6 +42,7 @@ implements MultiSliderUIClassTests<MultiSliderUI> {
     public void create_MultiSliderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSliderUI sut = new MultiSliderUI();
     }
 

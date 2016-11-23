@@ -43,6 +43,7 @@ implements AddressingFeatureClassTests<AddressingFeature> {
     public void create_AddressingFeature()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AddressingFeature sut = new AddressingFeature();
     }
 

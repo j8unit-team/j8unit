@@ -69,6 +69,7 @@ implements AlreadyBoundHolderClassTests<AlreadyBoundHolder> {
     public void create_AlreadyBoundHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyBoundHolder sut = new AlreadyBoundHolder();
     }
 

@@ -42,6 +42,7 @@ implements RandomClassTests<Random> {
     public void create_Random()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Random sut = new Random();
     }
 

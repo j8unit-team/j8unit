@@ -42,6 +42,7 @@ implements DefaultListModelClassTests<DefaultListModel> {
     public void create_DefaultListModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultListModel sut = new DefaultListModel();
     }
 

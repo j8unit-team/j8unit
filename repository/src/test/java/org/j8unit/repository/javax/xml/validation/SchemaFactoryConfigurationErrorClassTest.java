@@ -113,6 +113,7 @@ implements SchemaFactoryConfigurationErrorClassTests<SchemaFactoryConfigurationE
     public void create_SchemaFactoryConfigurationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SchemaFactoryConfigurationError sut = new SchemaFactoryConfigurationError();
     }
 

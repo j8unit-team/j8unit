@@ -110,6 +110,7 @@ implements KeyExceptionClassTests<KeyException> {
     public void create_KeyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyException sut = new KeyException();
     }
 

@@ -42,6 +42,7 @@ implements TimeoutExceptionClassTests<TimeoutException> {
     public void create_TimeoutException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TimeoutException sut = new TimeoutException();
     }
 

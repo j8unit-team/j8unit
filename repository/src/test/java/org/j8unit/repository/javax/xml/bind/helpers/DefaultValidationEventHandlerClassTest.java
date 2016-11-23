@@ -44,6 +44,7 @@ implements DefaultValidationEventHandlerClassTests<DefaultValidationEventHandler
     public void create_DefaultValidationEventHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultValidationEventHandler sut = new DefaultValidationEventHandler();
     }
 

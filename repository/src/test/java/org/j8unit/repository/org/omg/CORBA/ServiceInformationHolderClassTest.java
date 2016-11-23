@@ -66,6 +66,7 @@ implements ServiceInformationHolderClassTests<ServiceInformationHolder> {
     public void create_ServiceInformationHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceInformationHolder sut = new ServiceInformationHolder();
     }
 

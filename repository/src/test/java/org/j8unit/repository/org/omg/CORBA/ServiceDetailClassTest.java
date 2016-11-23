@@ -42,6 +42,7 @@ implements ServiceDetailClassTests<ServiceDetail> {
     public void create_ServiceDetail()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceDetail sut = new ServiceDetail();
     }
 

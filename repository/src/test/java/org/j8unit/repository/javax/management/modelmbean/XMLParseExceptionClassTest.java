@@ -89,6 +89,7 @@ implements XMLParseExceptionClassTests<XMLParseException> {
     public void create_XMLParseException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLParseException sut = new XMLParseException();
     }
 

@@ -108,6 +108,7 @@ implements SizeSequenceClassTests<SizeSequence> {
     public void create_SizeSequence()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SizeSequence sut = new SizeSequence();
     }
 

@@ -66,6 +66,7 @@ implements ConcurrentLinkedDequeClassTests<ConcurrentLinkedDeque> {
     public void create_ConcurrentLinkedDeque()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentLinkedDeque sut = new ConcurrentLinkedDeque();
     }
 

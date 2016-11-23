@@ -41,6 +41,7 @@ implements ThreadLocalClassTests<ThreadLocal> {
     public void create_ThreadLocal()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ThreadLocal sut = new ThreadLocal();
     }
 

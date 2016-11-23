@@ -44,6 +44,7 @@ implements TransactionRequiredExceptionClassTests<TransactionRequiredException> 
     public void create_TransactionRequiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransactionRequiredException sut = new TransactionRequiredException();
     }
 

@@ -64,6 +64,7 @@ implements UIDClassTests<UID> {
     public void create_UID()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UID sut = new UID();
     }
 

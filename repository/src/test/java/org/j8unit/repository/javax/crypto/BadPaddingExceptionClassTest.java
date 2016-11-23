@@ -42,6 +42,7 @@ implements BadPaddingExceptionClassTests<BadPaddingException> {
     public void create_BadPaddingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BadPaddingException sut = new BadPaddingException();
     }
 

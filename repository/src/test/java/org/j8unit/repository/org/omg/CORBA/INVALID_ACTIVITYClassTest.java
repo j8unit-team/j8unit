@@ -111,6 +111,7 @@ implements INVALID_ACTIVITYClassTests<INVALID_ACTIVITY> {
     public void create_INVALID_ACTIVITY()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INVALID_ACTIVITY sut = new INVALID_ACTIVITY();
     }
 

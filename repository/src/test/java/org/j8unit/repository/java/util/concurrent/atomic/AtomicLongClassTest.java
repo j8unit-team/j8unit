@@ -42,6 +42,7 @@ implements AtomicLongClassTests<AtomicLong> {
     public void create_AtomicLong()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicLong sut = new AtomicLong();
     }
 

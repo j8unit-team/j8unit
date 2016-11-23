@@ -42,6 +42,7 @@ implements LongAdderClassTests<LongAdder> {
     public void create_LongAdder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LongAdder sut = new LongAdder();
     }
 

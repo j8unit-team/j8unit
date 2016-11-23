@@ -64,6 +64,7 @@ implements JTextAreaClassTests<JTextArea> {
     public void create_JTextArea()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTextArea sut = new JTextArea();
     }
 

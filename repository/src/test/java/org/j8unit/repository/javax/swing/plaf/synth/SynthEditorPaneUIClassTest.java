@@ -43,6 +43,7 @@ implements SynthEditorPaneUIClassTests<SynthEditorPaneUI> {
     public void create_SynthEditorPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthEditorPaneUI sut = new SynthEditorPaneUI();
     }
 

@@ -89,6 +89,7 @@ implements JMXProviderExceptionClassTests<JMXProviderException> {
     public void create_JMXProviderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMXProviderException sut = new JMXProviderException();
     }
 

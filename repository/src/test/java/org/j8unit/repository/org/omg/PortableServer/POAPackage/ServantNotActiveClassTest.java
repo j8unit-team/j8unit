@@ -43,6 +43,7 @@ implements ServantNotActiveClassTests<ServantNotActive> {
     public void create_ServantNotActive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServantNotActive sut = new ServantNotActive();
     }
 

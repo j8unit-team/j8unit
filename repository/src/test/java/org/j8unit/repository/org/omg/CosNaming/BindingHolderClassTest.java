@@ -65,6 +65,7 @@ implements BindingHolderClassTests<BindingHolder> {
     public void create_BindingHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindingHolder sut = new BindingHolder();
     }
 

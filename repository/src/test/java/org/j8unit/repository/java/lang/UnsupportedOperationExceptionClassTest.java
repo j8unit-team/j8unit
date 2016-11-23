@@ -111,6 +111,7 @@ implements UnsupportedOperationExceptionClassTests<UnsupportedOperationException
     public void create_UnsupportedOperationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedOperationException sut = new UnsupportedOperationException();
     }
 

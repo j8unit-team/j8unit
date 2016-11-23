@@ -42,6 +42,7 @@ implements IllegalMonitorStateExceptionClassTests<IllegalMonitorStateException> 
     public void create_IllegalMonitorStateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalMonitorStateException sut = new IllegalMonitorStateException();
     }
 

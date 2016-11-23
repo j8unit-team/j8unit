@@ -69,6 +69,7 @@ implements ObjectReferenceTemplateSeqHolderClassTests<ObjectReferenceTemplateSeq
     public void create_ObjectReferenceTemplateSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectReferenceTemplateSeqHolder sut = new ObjectReferenceTemplateSeqHolder();
     }
 

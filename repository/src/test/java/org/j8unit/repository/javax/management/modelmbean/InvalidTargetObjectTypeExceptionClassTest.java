@@ -90,6 +90,7 @@ implements InvalidTargetObjectTypeExceptionClassTests<InvalidTargetObjectTypeExc
     public void create_InvalidTargetObjectTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTargetObjectTypeException sut = new InvalidTargetObjectTypeException();
     }
 

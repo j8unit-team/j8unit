@@ -42,6 +42,7 @@ implements DeflaterClassTests<Deflater> {
     public void create_Deflater()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Deflater sut = new Deflater();
     }
 

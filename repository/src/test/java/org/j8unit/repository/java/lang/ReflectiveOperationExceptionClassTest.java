@@ -111,6 +111,7 @@ implements ReflectiveOperationExceptionClassTests<ReflectiveOperationException> 
     public void create_ReflectiveOperationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReflectiveOperationException sut = new ReflectiveOperationException();
     }
 

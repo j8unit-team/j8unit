@@ -42,6 +42,7 @@ implements AppletClassTests<Applet> {
     public void create_Applet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Applet sut = new Applet();
     }
 

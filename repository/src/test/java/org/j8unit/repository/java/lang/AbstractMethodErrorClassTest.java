@@ -41,6 +41,7 @@ implements AbstractMethodErrorClassTests<AbstractMethodError> {
     public void create_AbstractMethodError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AbstractMethodError sut = new AbstractMethodError();
     }
 

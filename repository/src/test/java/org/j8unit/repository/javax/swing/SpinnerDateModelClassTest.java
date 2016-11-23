@@ -65,6 +65,7 @@ implements SpinnerDateModelClassTests<SpinnerDateModel> {
     public void create_SpinnerDateModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SpinnerDateModel sut = new SpinnerDateModel();
     }
 

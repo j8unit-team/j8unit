@@ -44,6 +44,7 @@ implements AccountNotFoundExceptionClassTests<AccountNotFoundException> {
     public void create_AccountNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccountNotFoundException sut = new AccountNotFoundException();
     }
 

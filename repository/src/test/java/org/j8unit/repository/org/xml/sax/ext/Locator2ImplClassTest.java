@@ -42,6 +42,7 @@ implements Locator2ImplClassTests<Locator2Impl> {
     public void create_Locator2Impl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Locator2Impl sut = new Locator2Impl();
     }
 

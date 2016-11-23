@@ -42,6 +42,7 @@ implements BasicCheckBoxUIClassTests<BasicCheckBoxUI> {
     public void create_BasicCheckBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicCheckBoxUI sut = new BasicCheckBoxUI();
     }
 

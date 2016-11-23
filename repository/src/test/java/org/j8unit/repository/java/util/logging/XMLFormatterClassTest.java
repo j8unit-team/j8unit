@@ -42,6 +42,7 @@ implements XMLFormatterClassTests<XMLFormatter> {
     public void create_XMLFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLFormatter sut = new XMLFormatter();
     }
 

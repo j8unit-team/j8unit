@@ -42,6 +42,7 @@ implements PropertyEditorSupportClassTests<PropertyEditorSupport> {
     public void create_PropertyEditorSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PropertyEditorSupport sut = new PropertyEditorSupport();
     }
 

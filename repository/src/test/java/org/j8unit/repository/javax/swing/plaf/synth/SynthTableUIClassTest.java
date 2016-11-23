@@ -42,6 +42,7 @@ implements SynthTableUIClassTests<SynthTableUI> {
     public void create_SynthTableUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTableUI sut = new SynthTableUI();
     }
 

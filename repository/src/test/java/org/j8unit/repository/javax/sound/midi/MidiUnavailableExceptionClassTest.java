@@ -43,6 +43,7 @@ implements MidiUnavailableExceptionClassTests<MidiUnavailableException> {
     public void create_MidiUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MidiUnavailableException sut = new MidiUnavailableException();
     }
 

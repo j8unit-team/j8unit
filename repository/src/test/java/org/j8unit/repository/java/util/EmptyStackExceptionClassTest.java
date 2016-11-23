@@ -42,6 +42,7 @@ implements EmptyStackExceptionClassTests<EmptyStackException> {
     public void create_EmptyStackException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EmptyStackException sut = new EmptyStackException();
     }
 

@@ -44,6 +44,7 @@ implements MalformedObjectNameExceptionClassTests<MalformedObjectNameException> 
     public void create_MalformedObjectNameException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedObjectNameException sut = new MalformedObjectNameException();
     }
 

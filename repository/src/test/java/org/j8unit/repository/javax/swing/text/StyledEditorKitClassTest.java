@@ -51,6 +51,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
     public void create_StyledEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyledEditorKit sut = new StyledEditorKit();
     }
 
@@ -140,6 +141,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_BoldAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BoldAction sut = new BoldAction();
         }
 
@@ -185,6 +187,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_ItalicAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ItalicAction sut = new ItalicAction();
         }
 
@@ -366,6 +369,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_UnderlineAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UnderlineAction sut = new UnderlineAction();
         }
 

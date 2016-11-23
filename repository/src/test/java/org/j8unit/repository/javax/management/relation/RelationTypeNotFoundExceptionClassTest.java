@@ -44,6 +44,7 @@ implements RelationTypeNotFoundExceptionClassTests<RelationTypeNotFoundException
     public void create_RelationTypeNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationTypeNotFoundException sut = new RelationTypeNotFoundException();
     }
 

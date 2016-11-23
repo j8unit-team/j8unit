@@ -42,6 +42,7 @@ implements JTableHeaderClassTests<JTableHeader> {
     public void create_JTableHeader()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTableHeader sut = new JTableHeader();
     }
 

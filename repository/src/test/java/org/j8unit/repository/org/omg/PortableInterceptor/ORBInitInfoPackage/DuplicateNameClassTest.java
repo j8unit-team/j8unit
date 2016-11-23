@@ -44,6 +44,7 @@ implements DuplicateNameClassTests<DuplicateName> {
     public void create_DuplicateName()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DuplicateName sut = new DuplicateName();
     }
 

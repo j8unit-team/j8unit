@@ -44,6 +44,7 @@ implements KeyAlreadyExistsExceptionClassTests<KeyAlreadyExistsException> {
     public void create_KeyAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyAlreadyExistsException sut = new KeyAlreadyExistsException();
     }
 

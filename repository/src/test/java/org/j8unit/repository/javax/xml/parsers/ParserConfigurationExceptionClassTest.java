@@ -44,6 +44,7 @@ implements ParserConfigurationExceptionClassTests<ParserConfigurationException> 
     public void create_ParserConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParserConfigurationException sut = new ParserConfigurationException();
     }
 

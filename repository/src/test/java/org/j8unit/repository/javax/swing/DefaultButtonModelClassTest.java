@@ -42,6 +42,7 @@ implements DefaultButtonModelClassTests<DefaultButtonModel> {
     public void create_DefaultButtonModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultButtonModel sut = new DefaultButtonModel();
     }
 

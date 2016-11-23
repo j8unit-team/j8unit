@@ -43,6 +43,7 @@ implements AccountExceptionClassTests<AccountException> {
     public void create_AccountException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccountException sut = new AccountException();
     }
 

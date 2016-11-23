@@ -43,6 +43,7 @@ implements InvalidMidiDataExceptionClassTests<InvalidMidiDataException> {
     public void create_InvalidMidiDataException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidMidiDataException sut = new InvalidMidiDataException();
     }
 

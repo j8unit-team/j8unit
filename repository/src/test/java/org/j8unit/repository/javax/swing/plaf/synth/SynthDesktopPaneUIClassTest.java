@@ -43,6 +43,7 @@ implements SynthDesktopPaneUIClassTests<SynthDesktopPaneUI> {
     public void create_SynthDesktopPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthDesktopPaneUI sut = new SynthDesktopPaneUI();
     }
 

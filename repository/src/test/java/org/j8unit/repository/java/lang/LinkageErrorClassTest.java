@@ -41,6 +41,7 @@ implements LinkageErrorClassTests<LinkageError> {
     public void create_LinkageError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkageError sut = new LinkageError();
     }
 

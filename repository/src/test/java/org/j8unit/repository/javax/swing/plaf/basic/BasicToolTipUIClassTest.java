@@ -42,6 +42,7 @@ implements BasicToolTipUIClassTests<BasicToolTipUI> {
     public void create_BasicToolTipUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicToolTipUI sut = new BasicToolTipUI();
     }
 

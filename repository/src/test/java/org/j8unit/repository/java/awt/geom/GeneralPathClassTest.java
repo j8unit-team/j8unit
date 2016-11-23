@@ -108,6 +108,7 @@ implements GeneralPathClassTests<GeneralPath> {
     public void create_GeneralPath()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GeneralPath sut = new GeneralPath();
     }
 

@@ -43,6 +43,7 @@ implements _DynAnyFactoryStubClassTests<_DynAnyFactoryStub> {
     public void create__DynAnyFactoryStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynAnyFactoryStub sut = new _DynAnyFactoryStub();
     }
 

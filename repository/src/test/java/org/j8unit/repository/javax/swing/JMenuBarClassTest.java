@@ -42,6 +42,7 @@ implements JMenuBarClassTests<JMenuBar> {
     public void create_JMenuBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMenuBar sut = new JMenuBar();
     }
 

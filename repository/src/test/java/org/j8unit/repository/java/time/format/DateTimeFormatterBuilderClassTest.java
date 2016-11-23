@@ -43,6 +43,7 @@ implements DateTimeFormatterBuilderClassTests<DateTimeFormatterBuilder> {
     public void create_DateTimeFormatterBuilder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DateTimeFormatterBuilder sut = new DateTimeFormatterBuilder();
     }
 

@@ -42,6 +42,7 @@ implements DragSourceClassTests<DragSource> {
     public void create_DragSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DragSource sut = new DragSource();
     }
 

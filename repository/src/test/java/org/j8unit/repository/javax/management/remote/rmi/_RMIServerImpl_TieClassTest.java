@@ -43,6 +43,7 @@ implements _RMIServerImpl_TieClassTests<_RMIServerImpl_Tie> {
     public void create__RMIServerImpl_Tie()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIServerImpl_Tie sut = new _RMIServerImpl_Tie();
     }
 

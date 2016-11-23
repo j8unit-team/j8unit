@@ -66,6 +66,7 @@ implements WrongMethodTypeExceptionClassTests<WrongMethodTypeException> {
     public void create_WrongMethodTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongMethodTypeException sut = new WrongMethodTypeException();
     }
 

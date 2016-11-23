@@ -43,6 +43,7 @@ implements MultiColorChooserUIClassTests<MultiColorChooserUI> {
     public void create_MultiColorChooserUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiColorChooserUI sut = new MultiColorChooserUI();
     }
 

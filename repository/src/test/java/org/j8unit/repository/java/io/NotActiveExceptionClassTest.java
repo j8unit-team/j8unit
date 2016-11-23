@@ -65,6 +65,7 @@ implements NotActiveExceptionClassTests<NotActiveException> {
     public void create_NotActiveException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotActiveException sut = new NotActiveException();
     }
 

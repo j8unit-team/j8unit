@@ -43,6 +43,7 @@ implements InitialLdapContextClassTests<InitialLdapContext> {
     public void create_InitialLdapContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InitialLdapContext sut = new InitialLdapContext();
     }
 

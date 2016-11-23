@@ -92,6 +92,7 @@ implements ForkJoinPoolClassTests<ForkJoinPool> {
     public void create_ForkJoinPool()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ForkJoinPool sut = new ForkJoinPool();
     }
 

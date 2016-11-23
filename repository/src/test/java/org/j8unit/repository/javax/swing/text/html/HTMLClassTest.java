@@ -45,6 +45,7 @@ implements HTMLClassTests<HTML> {
     public void create_HTML()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HTML sut = new HTML();
     }
 
@@ -211,6 +212,7 @@ implements HTMLClassTests<HTML> {
         public void create_Tag()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Tag sut = new Tag();
         }
 

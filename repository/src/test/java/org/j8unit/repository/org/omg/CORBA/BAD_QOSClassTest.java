@@ -110,6 +110,7 @@ implements BAD_QOSClassTests<BAD_QOS> {
     public void create_BAD_QOS()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_QOS sut = new BAD_QOS();
     }
 

@@ -42,6 +42,7 @@ implements SynthListUIClassTests<SynthListUI> {
     public void create_SynthListUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthListUI sut = new SynthListUI();
     }
 

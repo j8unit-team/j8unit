@@ -42,6 +42,7 @@ implements IntSummaryStatisticsClassTests<IntSummaryStatistics> {
     public void create_IntSummaryStatistics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IntSummaryStatistics sut = new IntSummaryStatistics();
     }
 

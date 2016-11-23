@@ -43,6 +43,7 @@ implements BasicMenuUIClassTests<BasicMenuUI> {
     public void create_BasicMenuUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicMenuUI sut = new BasicMenuUI();
     }
 

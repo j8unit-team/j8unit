@@ -42,6 +42,7 @@ implements ContainerClassTests<Container> {
     public void create_Container()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Container sut = new Container();
     }
 

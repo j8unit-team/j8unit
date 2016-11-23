@@ -69,6 +69,7 @@ implements ObjectReferenceFactoryHolderClassTests<ObjectReferenceFactoryHolder> 
     public void create_ObjectReferenceFactoryHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectReferenceFactoryHolder sut = new ObjectReferenceFactoryHolder();
     }
 

@@ -65,6 +65,7 @@ implements PortUnreachableExceptionClassTests<PortUnreachableException> {
     public void create_PortUnreachableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PortUnreachableException sut = new PortUnreachableException();
     }
 

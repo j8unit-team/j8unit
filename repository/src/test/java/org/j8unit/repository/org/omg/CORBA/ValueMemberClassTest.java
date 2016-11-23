@@ -42,6 +42,7 @@ implements ValueMemberClassTests<ValueMember> {
     public void create_ValueMember()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValueMember sut = new ValueMember();
     }
 

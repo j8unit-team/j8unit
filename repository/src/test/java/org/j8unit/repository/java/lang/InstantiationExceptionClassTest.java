@@ -41,6 +41,7 @@ implements InstantiationExceptionClassTests<InstantiationException> {
     public void create_InstantiationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstantiationException sut = new InstantiationException();
     }
 

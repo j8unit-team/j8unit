@@ -64,6 +64,7 @@ implements BitSetClassTests<BitSet> {
     public void create_BitSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BitSet sut = new BitSet();
     }
 

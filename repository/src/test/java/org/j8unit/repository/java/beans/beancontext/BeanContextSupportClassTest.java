@@ -66,6 +66,7 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     public void create_BeanContextSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BeanContextSupport sut = new BeanContextSupport();
     }
 

@@ -44,6 +44,7 @@ implements RefreshFailedExceptionClassTests<RefreshFailedException> {
     public void create_RefreshFailedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RefreshFailedException sut = new RefreshFailedException();
     }
 

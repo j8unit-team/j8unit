@@ -42,6 +42,7 @@ implements NotBoundExceptionClassTests<NotBoundException> {
     public void create_NotBoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotBoundException sut = new NotBoundException();
     }
 

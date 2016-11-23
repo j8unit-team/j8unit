@@ -42,6 +42,7 @@ implements MetalCheckBoxUIClassTests<MetalCheckBoxUI> {
     public void create_MetalCheckBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalCheckBoxUI sut = new MetalCheckBoxUI();
     }
 

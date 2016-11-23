@@ -134,6 +134,7 @@ implements SQLTimeoutExceptionClassTests<SQLTimeoutException> {
     public void create_SQLTimeoutException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLTimeoutException sut = new SQLTimeoutException();
     }
 

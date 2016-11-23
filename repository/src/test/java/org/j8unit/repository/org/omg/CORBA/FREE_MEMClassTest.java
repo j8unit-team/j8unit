@@ -110,6 +110,7 @@ implements FREE_MEMClassTests<FREE_MEM> {
     public void create_FREE_MEM()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FREE_MEM sut = new FREE_MEM();
     }
 

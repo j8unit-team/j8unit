@@ -42,6 +42,7 @@ implements MailcapCommandMapClassTests<MailcapCommandMap> {
     public void create_MailcapCommandMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MailcapCommandMap sut = new MailcapCommandMap();
     }
 

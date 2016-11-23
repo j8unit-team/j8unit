@@ -42,6 +42,7 @@ implements StartTlsRequestClassTests<StartTlsRequest> {
     public void create_StartTlsRequest()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StartTlsRequest sut = new StartTlsRequest();
     }
 

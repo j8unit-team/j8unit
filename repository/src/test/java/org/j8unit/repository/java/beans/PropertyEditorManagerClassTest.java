@@ -42,6 +42,7 @@ implements PropertyEditorManagerClassTests<PropertyEditorManager> {
     public void create_PropertyEditorManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PropertyEditorManager sut = new PropertyEditorManager();
     }
 

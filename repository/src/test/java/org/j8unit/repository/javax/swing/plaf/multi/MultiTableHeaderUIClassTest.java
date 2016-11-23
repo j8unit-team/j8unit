@@ -43,6 +43,7 @@ implements MultiTableHeaderUIClassTests<MultiTableHeaderUI> {
     public void create_MultiTableHeaderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTableHeaderUI sut = new MultiTableHeaderUI();
     }
 

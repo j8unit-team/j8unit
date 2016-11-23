@@ -65,6 +65,7 @@ implements CompoundBorderClassTests<CompoundBorder> {
     public void create_CompoundBorder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CompoundBorder sut = new CompoundBorder();
     }
 

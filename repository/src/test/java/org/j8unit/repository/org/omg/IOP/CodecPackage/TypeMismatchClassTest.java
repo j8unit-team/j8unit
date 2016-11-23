@@ -42,6 +42,7 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchClassTests
     public void create_TypeMismatch()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TypeMismatch sut = new TypeMismatch();
     }
 

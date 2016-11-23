@@ -42,6 +42,7 @@ implements JSeparatorClassTests<JSeparator> {
     public void create_JSeparator()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSeparator sut = new JSeparator();
     }
 

@@ -46,6 +46,7 @@ implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
     public void create_BasicOptionPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicOptionPaneUI sut = new BasicOptionPaneUI();
     }
 

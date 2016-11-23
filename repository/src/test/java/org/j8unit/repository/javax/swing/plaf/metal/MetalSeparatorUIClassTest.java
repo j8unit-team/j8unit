@@ -43,6 +43,7 @@ implements MetalSeparatorUIClassTests<MetalSeparatorUI> {
     public void create_MetalSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalSeparatorUI sut = new MetalSeparatorUI();
     }
 

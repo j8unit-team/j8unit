@@ -43,6 +43,7 @@ implements NotYetBoundExceptionClassTests<NotYetBoundException> {
     public void create_NotYetBoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotYetBoundException sut = new NotYetBoundException();
     }
 

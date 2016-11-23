@@ -43,6 +43,7 @@ implements BasicTextFieldUIClassTests<BasicTextFieldUI> {
     public void create_BasicTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTextFieldUI sut = new BasicTextFieldUI();
     }
 

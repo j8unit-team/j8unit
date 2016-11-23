@@ -44,6 +44,7 @@ implements ValidationEventLocatorImplClassTests<ValidationEventLocatorImpl> {
     public void create_ValidationEventLocatorImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValidationEventLocatorImpl sut = new ValidationEventLocatorImpl();
     }
 

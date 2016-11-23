@@ -43,6 +43,7 @@ implements AcceptPendingExceptionClassTests<AcceptPendingException> {
     public void create_AcceptPendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AcceptPendingException sut = new AcceptPendingException();
     }
 

@@ -43,6 +43,7 @@ implements SynthToggleButtonUIClassTests<SynthToggleButtonUI> {
     public void create_SynthToggleButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthToggleButtonUI sut = new SynthToggleButtonUI();
     }
 

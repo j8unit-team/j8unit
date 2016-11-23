@@ -65,6 +65,7 @@ implements NameNotFoundExceptionClassTests<NameNotFoundException> {
     public void create_NameNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameNotFoundException sut = new NameNotFoundException();
     }
 

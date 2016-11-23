@@ -86,6 +86,7 @@ implements RectangleClassTests<Rectangle> {
     public void create_Rectangle()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Rectangle sut = new Rectangle();
     }
 

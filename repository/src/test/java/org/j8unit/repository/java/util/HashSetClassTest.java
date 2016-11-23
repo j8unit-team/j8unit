@@ -108,6 +108,7 @@ implements HashSetClassTests<HashSet> {
     public void create_HashSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashSet sut = new HashSet();
     }
 

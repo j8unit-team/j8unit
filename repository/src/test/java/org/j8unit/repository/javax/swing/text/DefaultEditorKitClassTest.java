@@ -50,6 +50,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
     public void create_DefaultEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultEditorKit sut = new DefaultEditorKit();
     }
 
@@ -93,6 +94,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_InsertBreakAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final InsertBreakAction sut = new InsertBreakAction();
         }
 
@@ -138,6 +140,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_DefaultKeyTypedAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DefaultKeyTypedAction sut = new DefaultKeyTypedAction();
         }
 
@@ -183,6 +186,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_InsertTabAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final InsertTabAction sut = new InsertTabAction();
         }
 
@@ -228,6 +232,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_CutAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final CutAction sut = new CutAction();
         }
 
@@ -273,6 +278,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_InsertContentAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final InsertContentAction sut = new InsertContentAction();
         }
 
@@ -318,6 +324,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_PasteAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PasteAction sut = new PasteAction();
         }
 
@@ -363,6 +370,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_BeepAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BeepAction sut = new BeepAction();
         }
 
@@ -408,6 +416,7 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
         public void create_CopyAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final CopyAction sut = new CopyAction();
         }
 

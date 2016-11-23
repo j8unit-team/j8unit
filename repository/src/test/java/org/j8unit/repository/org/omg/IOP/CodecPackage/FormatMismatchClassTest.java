@@ -43,6 +43,7 @@ implements FormatMismatchClassTests<FormatMismatch> {
     public void create_FormatMismatch()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FormatMismatch sut = new FormatMismatch();
     }
 

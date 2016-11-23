@@ -65,6 +65,7 @@ implements DebugGraphicsClassTests<DebugGraphics> {
     public void create_DebugGraphics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DebugGraphics sut = new DebugGraphics();
     }
 

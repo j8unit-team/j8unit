@@ -45,6 +45,7 @@ implements BasicTableUIClassTests<BasicTableUI> {
     public void create_BasicTableUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTableUI sut = new BasicTableUI();
     }
 

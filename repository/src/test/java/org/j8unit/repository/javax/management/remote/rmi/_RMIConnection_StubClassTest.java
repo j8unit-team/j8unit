@@ -43,6 +43,7 @@ implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
     public void create__RMIConnection_Stub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIConnection_Stub sut = new _RMIConnection_Stub();
     }
 

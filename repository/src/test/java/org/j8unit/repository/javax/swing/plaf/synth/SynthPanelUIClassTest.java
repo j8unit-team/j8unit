@@ -42,6 +42,7 @@ implements SynthPanelUIClassTests<SynthPanelUI> {
     public void create_SynthPanelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthPanelUI sut = new SynthPanelUI();
     }
 

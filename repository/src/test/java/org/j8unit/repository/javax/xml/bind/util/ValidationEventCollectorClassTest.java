@@ -44,6 +44,7 @@ implements ValidationEventCollectorClassTests<ValidationEventCollector> {
     public void create_ValidationEventCollector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValidationEventCollector sut = new ValidationEventCollector();
     }
 

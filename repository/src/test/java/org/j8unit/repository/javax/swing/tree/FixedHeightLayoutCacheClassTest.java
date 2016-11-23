@@ -43,6 +43,7 @@ implements FixedHeightLayoutCacheClassTests<FixedHeightLayoutCache> {
     public void create_FixedHeightLayoutCache()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FixedHeightLayoutCache sut = new FixedHeightLayoutCache();
     }
 

@@ -43,6 +43,7 @@ implements ServiceNotFoundExceptionClassTests<ServiceNotFoundException> {
     public void create_ServiceNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceNotFoundException sut = new ServiceNotFoundException();
     }
 

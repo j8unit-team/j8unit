@@ -42,6 +42,7 @@ implements ServerSocketClassTests<ServerSocket> {
     public void create_ServerSocket()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServerSocket sut = new ServerSocket();
     }
 

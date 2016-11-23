@@ -44,6 +44,7 @@ implements BasicDesktopIconUIClassTests<BasicDesktopIconUI> {
     public void create_BasicDesktopIconUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicDesktopIconUI sut = new BasicDesktopIconUI();
     }
 

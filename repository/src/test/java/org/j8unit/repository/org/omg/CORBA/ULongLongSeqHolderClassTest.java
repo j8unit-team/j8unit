@@ -65,6 +65,7 @@ implements ULongLongSeqHolderClassTests<ULongLongSeqHolder> {
     public void create_ULongLongSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ULongLongSeqHolder sut = new ULongLongSeqHolder();
     }
 

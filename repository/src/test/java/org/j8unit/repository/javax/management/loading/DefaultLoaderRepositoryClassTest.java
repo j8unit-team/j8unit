@@ -45,6 +45,7 @@ implements DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
     public void create_DefaultLoaderRepository()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultLoaderRepository sut = new DefaultLoaderRepository();
     }
 

@@ -87,6 +87,7 @@ implements ClassNotFoundExceptionClassTests<ClassNotFoundException> {
     public void create_ClassNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassNotFoundException sut = new ClassNotFoundException();
     }
 

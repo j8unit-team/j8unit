@@ -42,6 +42,7 @@ implements EtchedBorderClassTests<EtchedBorder> {
     public void create_EtchedBorder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EtchedBorder sut = new EtchedBorder();
     }
 

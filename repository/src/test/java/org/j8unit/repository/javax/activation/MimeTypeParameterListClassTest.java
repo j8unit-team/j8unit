@@ -43,6 +43,7 @@ implements MimeTypeParameterListClassTests<MimeTypeParameterList> {
     public void create_MimeTypeParameterList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimeTypeParameterList sut = new MimeTypeParameterList();
     }
 

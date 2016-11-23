@@ -110,6 +110,7 @@ implements BAD_INV_ORDERClassTests<BAD_INV_ORDER> {
     public void create_BAD_INV_ORDER()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_INV_ORDER sut = new BAD_INV_ORDER();
     }
 

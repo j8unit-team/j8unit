@@ -42,6 +42,7 @@ implements StampedLockClassTests<StampedLock> {
     public void create_StampedLock()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StampedLock sut = new StampedLock();
     }
 

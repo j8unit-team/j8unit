@@ -113,6 +113,7 @@ implements JTableClassTests<JTable> {
     public void create_JTable()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTable sut = new JTable();
     }
 

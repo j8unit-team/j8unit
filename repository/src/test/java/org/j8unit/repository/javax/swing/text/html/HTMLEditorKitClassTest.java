@@ -50,6 +50,7 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
     public void create_HTMLEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HTMLEditorKit sut = new HTMLEditorKit();
     }
 
@@ -93,6 +94,7 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
         public void create_HTMLFactory()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final HTMLFactory sut = new HTMLFactory();
         }
 
@@ -255,6 +257,7 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
         public void create_LinkController()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final LinkController sut = new LinkController();
         }
 
@@ -300,6 +303,7 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
         public void create_ParserCallback()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ParserCallback sut = new ParserCallback();
         }
 

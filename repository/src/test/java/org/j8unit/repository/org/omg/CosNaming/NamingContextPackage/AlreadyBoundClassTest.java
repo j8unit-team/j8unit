@@ -43,6 +43,7 @@ implements AlreadyBoundClassTests<AlreadyBound> {
     public void create_AlreadyBound()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyBound sut = new AlreadyBound();
     }
 

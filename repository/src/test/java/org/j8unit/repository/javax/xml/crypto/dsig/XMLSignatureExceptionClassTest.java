@@ -112,6 +112,7 @@ implements XMLSignatureExceptionClassTests<XMLSignatureException> {
     public void create_XMLSignatureException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLSignatureException sut = new XMLSignatureException();
     }
 

@@ -43,6 +43,7 @@ implements MetalSplitPaneUIClassTests<MetalSplitPaneUI> {
     public void create_MetalSplitPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalSplitPaneUI sut = new MetalSplitPaneUI();
     }
 

@@ -42,6 +42,7 @@ implements SysexMessageClassTests<SysexMessage> {
     public void create_SysexMessage()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SysexMessage sut = new SysexMessage();
     }
 

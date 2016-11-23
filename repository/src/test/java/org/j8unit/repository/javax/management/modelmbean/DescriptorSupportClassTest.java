@@ -43,6 +43,7 @@ implements DescriptorSupportClassTests<DescriptorSupport> {
     public void create_DescriptorSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DescriptorSupport sut = new DescriptorSupport();
     }
 

@@ -45,6 +45,7 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
     public void create_MetalComboBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalComboBoxUI sut = new MetalComboBoxUI();
     }
 

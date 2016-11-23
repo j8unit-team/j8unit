@@ -42,6 +42,7 @@ implements SubjectClassTests<Subject> {
     public void create_Subject()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Subject sut = new Subject();
     }
 

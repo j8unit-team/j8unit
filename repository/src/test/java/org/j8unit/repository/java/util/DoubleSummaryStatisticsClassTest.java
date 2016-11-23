@@ -42,6 +42,7 @@ implements DoubleSummaryStatisticsClassTests<DoubleSummaryStatistics> {
     public void create_DoubleSummaryStatistics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleSummaryStatistics sut = new DoubleSummaryStatistics();
     }
 

@@ -43,6 +43,7 @@ implements SerialExceptionClassTests<SerialException> {
     public void create_SerialException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SerialException sut = new SerialException();
     }
 

@@ -48,6 +48,7 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
     public void create_BasicTabbedPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTabbedPaneUI sut = new BasicTabbedPaneUI();
     }
 

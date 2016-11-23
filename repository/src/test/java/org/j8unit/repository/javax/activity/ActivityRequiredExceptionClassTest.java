@@ -112,6 +112,7 @@ implements ActivityRequiredExceptionClassTests<ActivityRequiredException> {
     public void create_ActivityRequiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ActivityRequiredException sut = new ActivityRequiredException();
     }
 

@@ -155,6 +155,7 @@ implements JFileChooserClassTests<JFileChooser> {
     public void create_JFileChooser()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JFileChooser sut = new JFileChooser();
     }
 

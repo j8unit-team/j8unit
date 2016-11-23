@@ -42,6 +42,7 @@ implements ParameterClassTests<Parameter> {
     public void create_Parameter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Parameter sut = new Parameter();
     }
 

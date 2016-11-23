@@ -42,6 +42,7 @@ implements MalformedURLExceptionClassTests<MalformedURLException> {
     public void create_MalformedURLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedURLException sut = new MalformedURLException();
     }
 

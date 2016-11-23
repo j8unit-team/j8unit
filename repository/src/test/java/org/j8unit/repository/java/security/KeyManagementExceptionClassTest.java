@@ -112,6 +112,7 @@ implements KeyManagementExceptionClassTests<KeyManagementException> {
     public void create_KeyManagementException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyManagementException sut = new KeyManagementException();
     }
 

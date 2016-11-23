@@ -42,6 +42,7 @@ implements PolicyErrorClassTests<PolicyError> {
     public void create_PolicyError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PolicyError sut = new PolicyError();
     }
 

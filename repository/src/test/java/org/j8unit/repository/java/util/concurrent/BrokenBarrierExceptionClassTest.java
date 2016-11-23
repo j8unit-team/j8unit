@@ -44,6 +44,7 @@ implements BrokenBarrierExceptionClassTests<BrokenBarrierException> {
     public void create_BrokenBarrierException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BrokenBarrierException sut = new BrokenBarrierException();
     }
 

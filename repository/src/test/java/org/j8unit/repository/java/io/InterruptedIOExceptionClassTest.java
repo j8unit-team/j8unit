@@ -42,6 +42,7 @@ implements InterruptedIOExceptionClassTests<InterruptedIOException> {
     public void create_InterruptedIOException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InterruptedIOException sut = new InterruptedIOException();
     }
 

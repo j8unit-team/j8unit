@@ -42,6 +42,7 @@ implements NameValuePairClassTests<NameValuePair> {
     public void create_NameValuePair()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameValuePair sut = new NameValuePair();
     }
 

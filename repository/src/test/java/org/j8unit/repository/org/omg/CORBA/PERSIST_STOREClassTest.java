@@ -110,6 +110,7 @@ implements PERSIST_STOREClassTests<PERSIST_STORE> {
     public void create_PERSIST_STORE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PERSIST_STORE sut = new PERSIST_STORE();
     }
 

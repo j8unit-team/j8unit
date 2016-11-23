@@ -109,6 +109,7 @@ implements WeakHashMapClassTests<WeakHashMap> {
     public void create_WeakHashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WeakHashMap sut = new WeakHashMap();
     }
 

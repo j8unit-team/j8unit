@@ -111,6 +111,7 @@ implements TRANSACTION_MODEClassTests<TRANSACTION_MODE> {
     public void create_TRANSACTION_MODE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSACTION_MODE sut = new TRANSACTION_MODE();
     }
 

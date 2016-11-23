@@ -43,6 +43,7 @@ implements SynthSplitPaneUIClassTests<SynthSplitPaneUI> {
     public void create_SynthSplitPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthSplitPaneUI sut = new SynthSplitPaneUI();
     }
 

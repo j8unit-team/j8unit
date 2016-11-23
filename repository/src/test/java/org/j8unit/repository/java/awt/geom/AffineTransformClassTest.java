@@ -88,6 +88,7 @@ implements AffineTransformClassTests<AffineTransform> {
     public void create_AffineTransform()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AffineTransform sut = new AffineTransform();
     }
 

@@ -66,6 +66,7 @@ implements CommunicationExceptionClassTests<CommunicationException> {
     public void create_CommunicationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CommunicationException sut = new CommunicationException();
     }
 

@@ -107,6 +107,7 @@ implements ExceptionClassTests<Exception> {
     public void create_Exception()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Exception sut = new Exception();
     }
 

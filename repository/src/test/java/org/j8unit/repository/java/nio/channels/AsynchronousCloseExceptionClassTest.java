@@ -44,6 +44,7 @@ implements AsynchronousCloseExceptionClassTests<AsynchronousCloseException> {
     public void create_AsynchronousCloseException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AsynchronousCloseException sut = new AsynchronousCloseException();
     }
 

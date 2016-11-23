@@ -87,6 +87,7 @@ implements JLayerClassTests<JLayer> {
     public void create_JLayer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JLayer sut = new JLayer();
     }
 

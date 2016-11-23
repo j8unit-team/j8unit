@@ -43,6 +43,7 @@ implements DefaultHighlighterClassTests<DefaultHighlighter> {
     public void create_DefaultHighlighter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultHighlighter sut = new DefaultHighlighter();
     }
 

@@ -65,6 +65,7 @@ implements JPopupMenuClassTests<JPopupMenu> {
     public void create_JPopupMenu()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPopupMenu sut = new JPopupMenu();
     }
 
@@ -148,6 +149,7 @@ implements JPopupMenuClassTests<JPopupMenu> {
         public void create_Separator()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Separator sut = new Separator();
         }
 

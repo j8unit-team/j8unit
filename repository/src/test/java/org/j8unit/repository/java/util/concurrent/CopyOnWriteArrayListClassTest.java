@@ -43,6 +43,7 @@ implements CopyOnWriteArrayListClassTests<CopyOnWriteArrayList> {
     public void create_CopyOnWriteArrayList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CopyOnWriteArrayList sut = new CopyOnWriteArrayList();
     }
 

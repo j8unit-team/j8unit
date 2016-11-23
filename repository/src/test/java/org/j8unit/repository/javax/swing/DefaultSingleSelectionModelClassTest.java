@@ -43,6 +43,7 @@ implements DefaultSingleSelectionModelClassTests<DefaultSingleSelectionModel> {
     public void create_DefaultSingleSelectionModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultSingleSelectionModel sut = new DefaultSingleSelectionModel();
     }
 

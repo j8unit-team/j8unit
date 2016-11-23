@@ -43,6 +43,7 @@ implements InvalidDnDOperationExceptionClassTests<InvalidDnDOperationException> 
     public void create_InvalidDnDOperationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidDnDOperationException sut = new InvalidDnDOperationException();
     }
 

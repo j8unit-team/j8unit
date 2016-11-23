@@ -43,6 +43,7 @@ implements UnrecoverableEntryExceptionClassTests<UnrecoverableEntryException> {
     public void create_UnrecoverableEntryException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnrecoverableEntryException sut = new UnrecoverableEntryException();
     }
 

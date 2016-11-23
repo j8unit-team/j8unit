@@ -43,6 +43,7 @@ implements SynthPopupMenuUIClassTests<SynthPopupMenuUI> {
     public void create_SynthPopupMenuUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthPopupMenuUI sut = new SynthPopupMenuUI();
     }
 

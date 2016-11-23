@@ -42,6 +42,7 @@ implements InvalidClassTests<Invalid> {
     public void create_Invalid()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Invalid sut = new Invalid();
     }
 

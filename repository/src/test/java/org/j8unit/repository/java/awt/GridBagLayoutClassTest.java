@@ -42,6 +42,7 @@ implements GridBagLayoutClassTests<GridBagLayout> {
     public void create_GridBagLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GridBagLayout sut = new GridBagLayout();
     }
 

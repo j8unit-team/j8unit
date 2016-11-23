@@ -44,6 +44,7 @@ implements InvalidRoleInfoExceptionClassTests<InvalidRoleInfoException> {
     public void create_InvalidRoleInfoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidRoleInfoException sut = new InvalidRoleInfoException();
     }
 

@@ -138,6 +138,7 @@ implements SQLFeatureNotSupportedExceptionClassTests<SQLFeatureNotSupportedExcep
     public void create_SQLFeatureNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLFeatureNotSupportedException sut = new SQLFeatureNotSupportedException();
     }
 

@@ -43,6 +43,7 @@ implements InvalidValueClassTests<InvalidValue> {
     public void create_InvalidValue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidValue sut = new InvalidValue();
     }
 

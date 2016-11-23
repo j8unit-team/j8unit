@@ -42,6 +42,7 @@ implements WrongTransactionClassTests<WrongTransaction> {
     public void create_WrongTransaction()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongTransaction sut = new WrongTransaction();
     }
 

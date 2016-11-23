@@ -44,6 +44,7 @@ implements IllegalBlockingModeExceptionClassTests<IllegalBlockingModeException> 
     public void create_IllegalBlockingModeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalBlockingModeException sut = new IllegalBlockingModeException();
     }
 

@@ -134,6 +134,7 @@ implements SQLSyntaxErrorExceptionClassTests<SQLSyntaxErrorException> {
     public void create_SQLSyntaxErrorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLSyntaxErrorException sut = new SQLSyntaxErrorException();
     }
 

@@ -42,6 +42,7 @@ implements X509CertSelectorClassTests<X509CertSelector> {
     public void create_X509CertSelector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final X509CertSelector sut = new X509CertSelector();
     }
 

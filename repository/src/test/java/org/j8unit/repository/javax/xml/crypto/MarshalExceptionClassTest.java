@@ -111,6 +111,7 @@ implements MarshalExceptionClassTests<MarshalException> {
     public void create_MarshalException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MarshalException sut = new MarshalException();
     }
 

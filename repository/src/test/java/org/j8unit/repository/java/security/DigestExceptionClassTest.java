@@ -111,6 +111,7 @@ implements DigestExceptionClassTests<DigestException> {
     public void create_DigestException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DigestException sut = new DigestException();
     }
 

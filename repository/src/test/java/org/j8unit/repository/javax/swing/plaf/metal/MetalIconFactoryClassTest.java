@@ -49,6 +49,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
     public void create_MetalIconFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalIconFactory sut = new MetalIconFactory();
     }
 
@@ -617,6 +618,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_FolderIcon16()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FolderIcon16 sut = new FolderIcon16();
         }
 
@@ -662,6 +664,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_TreeLeafIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TreeLeafIcon sut = new TreeLeafIcon();
         }
 
@@ -707,6 +710,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_FileIcon16()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FileIcon16 sut = new FileIcon16();
         }
 
@@ -752,6 +756,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_TreeFolderIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TreeFolderIcon sut = new TreeFolderIcon();
         }
 
@@ -797,6 +802,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_PaletteCloseIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PaletteCloseIcon sut = new PaletteCloseIcon();
         }
 

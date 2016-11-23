@@ -43,6 +43,7 @@ implements JToolBarClassTests<JToolBar> {
     public void create_JToolBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JToolBar sut = new JToolBar();
     }
 
@@ -150,6 +151,7 @@ implements JToolBarClassTests<JToolBar> {
         public void create_Separator()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Separator sut = new Separator();
         }
 

@@ -88,6 +88,7 @@ implements SaslExceptionClassTests<SaslException> {
     public void create_SaslException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SaslException sut = new SaslException();
     }
 

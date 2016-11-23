@@ -135,6 +135,7 @@ implements DataFlavorClassTests<DataFlavor> {
     public void create_DataFlavor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DataFlavor sut = new DataFlavor();
     }
 

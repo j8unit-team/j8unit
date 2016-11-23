@@ -42,6 +42,7 @@ implements LambdaMetafactoryClassTests<LambdaMetafactory> {
     public void create_LambdaMetafactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LambdaMetafactory sut = new LambdaMetafactory();
     }
 

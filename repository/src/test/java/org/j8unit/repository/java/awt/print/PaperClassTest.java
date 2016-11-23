@@ -42,6 +42,7 @@ implements PaperClassTests<Paper> {
     public void create_Paper()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Paper sut = new Paper();
     }
 

@@ -43,6 +43,7 @@ implements ProviderNotFoundExceptionClassTests<ProviderNotFoundException> {
     public void create_ProviderNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ProviderNotFoundException sut = new ProviderNotFoundException();
     }
 

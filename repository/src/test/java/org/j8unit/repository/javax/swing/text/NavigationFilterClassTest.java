@@ -44,6 +44,7 @@ implements NavigationFilterClassTests<NavigationFilter> {
     public void create_NavigationFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NavigationFilter sut = new NavigationFilter();
     }
 

@@ -43,6 +43,7 @@ implements MetalLookAndFeelClassTests<MetalLookAndFeel> {
     public void create_MetalLookAndFeel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalLookAndFeel sut = new MetalLookAndFeel();
     }
 

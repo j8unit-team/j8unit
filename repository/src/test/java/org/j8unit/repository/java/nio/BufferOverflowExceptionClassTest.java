@@ -42,6 +42,7 @@ implements BufferOverflowExceptionClassTests<BufferOverflowException> {
     public void create_BufferOverflowException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BufferOverflowException sut = new BufferOverflowException();
     }
 

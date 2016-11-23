@@ -113,6 +113,7 @@ implements TRANSACTION_UNAVAILABLEClassTests<TRANSACTION_UNAVAILABLE> {
     public void create_TRANSACTION_UNAVAILABLE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSACTION_UNAVAILABLE sut = new TRANSACTION_UNAVAILABLE();
     }
 

@@ -42,6 +42,7 @@ implements NameComponentClassTests<NameComponent> {
     public void create_NameComponent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameComponent sut = new NameComponent();
     }
 

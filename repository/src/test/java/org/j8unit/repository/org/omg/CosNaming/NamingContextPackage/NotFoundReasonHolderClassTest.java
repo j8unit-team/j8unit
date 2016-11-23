@@ -69,6 +69,7 @@ implements NotFoundReasonHolderClassTests<NotFoundReasonHolder> {
     public void create_NotFoundReasonHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotFoundReasonHolder sut = new NotFoundReasonHolder();
     }
 

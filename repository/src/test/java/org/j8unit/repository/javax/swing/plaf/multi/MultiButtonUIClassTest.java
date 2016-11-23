@@ -42,6 +42,7 @@ implements MultiButtonUIClassTests<MultiButtonUI> {
     public void create_MultiButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiButtonUI sut = new MultiButtonUI();
     }
 

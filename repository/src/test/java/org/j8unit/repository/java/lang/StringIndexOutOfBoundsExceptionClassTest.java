@@ -43,6 +43,7 @@ implements StringIndexOutOfBoundsExceptionClassTests<StringIndexOutOfBoundsExcep
     public void create_StringIndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringIndexOutOfBoundsException sut = new StringIndexOutOfBoundsException();
     }
 

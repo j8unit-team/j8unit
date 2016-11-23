@@ -43,6 +43,7 @@ implements ArrayIndexOutOfBoundsExceptionClassTests<ArrayIndexOutOfBoundsExcepti
     public void create_ArrayIndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArrayIndexOutOfBoundsException sut = new ArrayIndexOutOfBoundsException();
     }
 

@@ -44,6 +44,7 @@ implements AlreadyConnectedExceptionClassTests<AlreadyConnectedException> {
     public void create_AlreadyConnectedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyConnectedException sut = new AlreadyConnectedException();
     }
 

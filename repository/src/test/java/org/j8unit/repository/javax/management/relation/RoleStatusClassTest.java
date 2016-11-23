@@ -42,6 +42,7 @@ implements RoleStatusClassTests<RoleStatus> {
     public void create_RoleStatus()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleStatus sut = new RoleStatus();
     }
 

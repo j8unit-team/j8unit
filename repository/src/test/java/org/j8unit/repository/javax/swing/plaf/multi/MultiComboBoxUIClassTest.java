@@ -42,6 +42,7 @@ implements MultiComboBoxUIClassTests<MultiComboBoxUI> {
     public void create_MultiComboBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiComboBoxUI sut = new MultiComboBoxUI();
     }
 

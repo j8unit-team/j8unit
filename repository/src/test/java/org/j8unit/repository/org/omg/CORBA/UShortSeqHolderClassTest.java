@@ -64,6 +64,7 @@ implements UShortSeqHolderClassTests<UShortSeqHolder> {
     public void create_UShortSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UShortSeqHolder sut = new UShortSeqHolder();
     }
 

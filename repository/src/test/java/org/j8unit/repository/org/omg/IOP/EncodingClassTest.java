@@ -42,6 +42,7 @@ implements EncodingClassTests<Encoding> {
     public void create_Encoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Encoding sut = new Encoding();
     }
 

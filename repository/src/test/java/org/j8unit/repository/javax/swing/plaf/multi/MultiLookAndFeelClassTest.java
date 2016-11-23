@@ -43,6 +43,7 @@ implements MultiLookAndFeelClassTests<MultiLookAndFeel> {
     public void create_MultiLookAndFeel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiLookAndFeel sut = new MultiLookAndFeel();
     }
 

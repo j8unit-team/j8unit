@@ -44,6 +44,7 @@ implements InvalidAddressClassTests<InvalidAddress> {
     public void create_InvalidAddress()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAddress sut = new InvalidAddress();
     }
 

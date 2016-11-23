@@ -41,6 +41,7 @@ implements ArithmeticExceptionClassTests<ArithmeticException> {
     public void create_ArithmeticException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArithmeticException sut = new ArithmeticException();
     }
 

@@ -44,6 +44,7 @@ implements SynthRadioButtonMenuItemUIClassTests<SynthRadioButtonMenuItemUI> {
     public void create_SynthRadioButtonMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthRadioButtonMenuItemUI sut = new SynthRadioButtonMenuItemUI();
     }
 

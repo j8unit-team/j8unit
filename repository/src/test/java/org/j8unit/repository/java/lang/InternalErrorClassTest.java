@@ -107,6 +107,7 @@ implements InternalErrorClassTests<InternalError> {
     public void create_InternalError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InternalError sut = new InternalError();
     }
 

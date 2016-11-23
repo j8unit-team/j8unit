@@ -42,6 +42,7 @@ implements InvalidSlotClassTests<InvalidSlot> {
     public void create_InvalidSlot()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSlot sut = new InvalidSlot();
     }
 

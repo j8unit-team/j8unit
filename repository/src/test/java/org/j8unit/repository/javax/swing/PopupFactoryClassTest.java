@@ -42,6 +42,7 @@ implements PopupFactoryClassTests<PopupFactory> {
     public void create_PopupFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PopupFactory sut = new PopupFactory();
     }
 

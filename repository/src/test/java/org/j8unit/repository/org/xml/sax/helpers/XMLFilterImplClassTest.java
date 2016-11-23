@@ -65,6 +65,7 @@ implements XMLFilterImplClassTests<XMLFilterImpl> {
     public void create_XMLFilterImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLFilterImpl sut = new XMLFilterImpl();
     }
 

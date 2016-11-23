@@ -43,6 +43,7 @@ implements ClosedWatchServiceExceptionClassTests<ClosedWatchServiceException> {
     public void create_ClosedWatchServiceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedWatchServiceException sut = new ClosedWatchServiceException();
     }
 

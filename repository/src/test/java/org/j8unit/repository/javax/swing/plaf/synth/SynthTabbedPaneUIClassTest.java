@@ -43,6 +43,7 @@ implements SynthTabbedPaneUIClassTests<SynthTabbedPaneUI> {
     public void create_SynthTabbedPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTabbedPaneUI sut = new SynthTabbedPaneUI();
     }
 

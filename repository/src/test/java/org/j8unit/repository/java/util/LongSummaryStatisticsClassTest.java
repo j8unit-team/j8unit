@@ -42,6 +42,7 @@ implements LongSummaryStatisticsClassTests<LongSummaryStatistics> {
     public void create_LongSummaryStatistics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LongSummaryStatistics sut = new LongSummaryStatistics();
     }
 

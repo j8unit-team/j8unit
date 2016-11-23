@@ -42,6 +42,7 @@ implements SynthTreeUIClassTests<SynthTreeUI> {
     public void create_SynthTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTreeUI sut = new SynthTreeUI();
     }
 

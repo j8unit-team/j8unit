@@ -43,6 +43,7 @@ implements NotEmptyClassTests<NotEmpty> {
     public void create_NotEmpty()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotEmpty sut = new NotEmpty();
     }
 

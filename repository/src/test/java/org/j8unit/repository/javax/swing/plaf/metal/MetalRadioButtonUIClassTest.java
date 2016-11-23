@@ -43,6 +43,7 @@ implements MetalRadioButtonUIClassTests<MetalRadioButtonUI> {
     public void create_MetalRadioButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalRadioButtonUI sut = new MetalRadioButtonUI();
     }
 

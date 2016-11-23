@@ -43,6 +43,7 @@ implements MultiDesktopIconUIClassTests<MultiDesktopIconUI> {
     public void create_MultiDesktopIconUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiDesktopIconUI sut = new MultiDesktopIconUI();
     }
 

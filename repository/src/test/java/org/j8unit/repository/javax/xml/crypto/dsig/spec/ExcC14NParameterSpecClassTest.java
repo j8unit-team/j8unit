@@ -66,6 +66,7 @@ implements ExcC14NParameterSpecClassTests<ExcC14NParameterSpec> {
     public void create_ExcC14NParameterSpec()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ExcC14NParameterSpec sut = new ExcC14NParameterSpec();
     }
 

@@ -47,6 +47,7 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
     public void create_BasicScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicScrollPaneUI sut = new BasicScrollPaneUI();
     }
 

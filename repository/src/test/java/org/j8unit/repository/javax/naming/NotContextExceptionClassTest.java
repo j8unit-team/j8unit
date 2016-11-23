@@ -65,6 +65,7 @@ implements NotContextExceptionClassTests<NotContextException> {
     public void create_NotContextException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotContextException sut = new NotContextException();
     }
 

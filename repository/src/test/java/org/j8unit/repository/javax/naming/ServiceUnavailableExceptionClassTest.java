@@ -66,6 +66,7 @@ implements ServiceUnavailableExceptionClassTests<ServiceUnavailableException> {
     public void create_ServiceUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceUnavailableException sut = new ServiceUnavailableException();
     }
 

@@ -42,6 +42,7 @@ implements PropertiesClassTests<Properties> {
     public void create_Properties()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Properties sut = new Properties();
     }
 

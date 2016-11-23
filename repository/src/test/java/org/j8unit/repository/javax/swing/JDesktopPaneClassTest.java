@@ -42,6 +42,7 @@ implements JDesktopPaneClassTests<JDesktopPane> {
     public void create_JDesktopPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JDesktopPane sut = new JDesktopPane();
     }
 

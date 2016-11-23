@@ -42,6 +42,7 @@ implements XAExceptionClassTests<XAException> {
     public void create_XAException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XAException sut = new XAException();
     }
 

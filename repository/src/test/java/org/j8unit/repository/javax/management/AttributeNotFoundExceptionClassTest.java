@@ -44,6 +44,7 @@ implements AttributeNotFoundExceptionClassTests<AttributeNotFoundException> {
     public void create_AttributeNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeNotFoundException sut = new AttributeNotFoundException();
     }
 

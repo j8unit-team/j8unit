@@ -107,6 +107,7 @@ implements ThrowableClassTests<Throwable> {
     public void create_Throwable()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Throwable sut = new Throwable();
     }
 

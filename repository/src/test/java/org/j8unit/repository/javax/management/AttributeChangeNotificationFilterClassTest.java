@@ -44,6 +44,7 @@ implements AttributeChangeNotificationFilterClassTests<AttributeChangeNotificati
     public void create_AttributeChangeNotificationFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeChangeNotificationFilter sut = new AttributeChangeNotificationFilter();
     }
 

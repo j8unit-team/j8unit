@@ -42,6 +42,7 @@ implements MetalMenuBarUIClassTests<MetalMenuBarUI> {
     public void create_MetalMenuBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalMenuBarUI sut = new MetalMenuBarUI();
     }
 

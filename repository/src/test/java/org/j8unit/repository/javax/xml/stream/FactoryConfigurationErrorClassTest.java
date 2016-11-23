@@ -136,6 +136,7 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
     public void create_FactoryConfigurationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FactoryConfigurationError sut = new FactoryConfigurationError();
     }
 

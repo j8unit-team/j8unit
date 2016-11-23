@@ -43,6 +43,7 @@ implements MultiDesktopPaneUIClassTests<MultiDesktopPaneUI> {
     public void create_MultiDesktopPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiDesktopPaneUI sut = new MultiDesktopPaneUI();
     }
 

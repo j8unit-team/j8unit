@@ -66,6 +66,7 @@ implements AtomicBooleanClassTests<AtomicBoolean> {
     public void create_AtomicBoolean()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicBoolean sut = new AtomicBoolean();
     }
 

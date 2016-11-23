@@ -42,6 +42,7 @@ implements SynthLabelUIClassTests<SynthLabelUI> {
     public void create_SynthLabelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthLabelUI sut = new SynthLabelUI();
     }
 

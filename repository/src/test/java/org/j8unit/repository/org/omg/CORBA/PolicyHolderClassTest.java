@@ -65,6 +65,7 @@ implements PolicyHolderClassTests<PolicyHolder> {
     public void create_PolicyHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PolicyHolder sut = new PolicyHolder();
     }
 

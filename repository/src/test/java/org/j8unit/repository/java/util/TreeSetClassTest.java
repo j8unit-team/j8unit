@@ -108,6 +108,7 @@ implements TreeSetClassTests<TreeSet> {
     public void create_TreeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TreeSet sut = new TreeSet();
     }
 

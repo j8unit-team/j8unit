@@ -42,6 +42,7 @@ implements InputMapUIResourceClassTests<InputMapUIResource> {
     public void create_InputMapUIResource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputMapUIResource sut = new InputMapUIResource();
     }
 

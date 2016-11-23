@@ -86,6 +86,7 @@ implements GridLayoutClassTests<GridLayout> {
     public void create_GridLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GridLayout sut = new GridLayout();
     }
 

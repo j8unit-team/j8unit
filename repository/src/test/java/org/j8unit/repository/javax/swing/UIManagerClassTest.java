@@ -43,6 +43,7 @@ implements UIManagerClassTests<UIManager> {
     public void create_UIManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UIManager sut = new UIManager();
     }
 

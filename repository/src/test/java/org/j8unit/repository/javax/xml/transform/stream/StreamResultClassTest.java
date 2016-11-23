@@ -42,6 +42,7 @@ implements StreamResultClassTests<StreamResult> {
     public void create_StreamResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamResult sut = new StreamResult();
     }
 

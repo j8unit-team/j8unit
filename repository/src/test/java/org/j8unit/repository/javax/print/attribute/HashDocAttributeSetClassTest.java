@@ -112,6 +112,7 @@ implements HashDocAttributeSetClassTests<HashDocAttributeSet> {
     public void create_HashDocAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashDocAttributeSet sut = new HashDocAttributeSet();
     }
 

@@ -66,6 +66,7 @@ implements ContextNotEmptyExceptionClassTests<ContextNotEmptyException> {
     public void create_ContextNotEmptyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ContextNotEmptyException sut = new ContextNotEmptyException();
     }
 

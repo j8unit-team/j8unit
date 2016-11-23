@@ -67,6 +67,7 @@ implements LDAPCertStoreParametersClassTests<LDAPCertStoreParameters> {
     public void create_LDAPCertStoreParameters()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LDAPCertStoreParameters sut = new LDAPCertStoreParameters();
     }
 

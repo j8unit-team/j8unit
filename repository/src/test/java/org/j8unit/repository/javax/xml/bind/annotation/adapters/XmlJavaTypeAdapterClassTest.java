@@ -66,6 +66,7 @@ implements XmlJavaTypeAdapterClassTests<XmlJavaTypeAdapter> {
         public void create_DEFAULT()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DEFAULT sut = new DEFAULT();
         }
 

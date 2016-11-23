@@ -65,6 +65,7 @@ implements SearchControlsClassTests<SearchControls> {
     public void create_SearchControls()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SearchControls sut = new SearchControls();
     }
 

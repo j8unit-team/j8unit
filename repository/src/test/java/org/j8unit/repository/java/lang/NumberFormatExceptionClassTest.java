@@ -41,6 +41,7 @@ implements NumberFormatExceptionClassTests<NumberFormatException> {
     public void create_NumberFormatException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NumberFormatException sut = new NumberFormatException();
     }
 

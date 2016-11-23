@@ -42,6 +42,7 @@ implements HolderClassTests<Holder> {
     public void create_Holder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Holder sut = new Holder();
     }
 

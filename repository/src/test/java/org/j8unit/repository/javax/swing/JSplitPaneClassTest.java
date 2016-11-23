@@ -109,6 +109,7 @@ implements JSplitPaneClassTests<JSplitPane> {
     public void create_JSplitPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSplitPane sut = new JSplitPane();
     }
 

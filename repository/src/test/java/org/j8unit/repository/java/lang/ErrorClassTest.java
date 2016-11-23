@@ -106,6 +106,7 @@ implements ErrorClassTests<Error> {
     public void create_Error()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Error sut = new Error();
     }
 

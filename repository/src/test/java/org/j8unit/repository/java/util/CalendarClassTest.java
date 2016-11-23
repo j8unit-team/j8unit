@@ -184,6 +184,7 @@ implements CalendarClassTests<Calendar> {
         public void create_Builder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Builder sut = new Builder();
         }
 

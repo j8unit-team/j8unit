@@ -109,6 +109,7 @@ implements ImageIconClassTests<ImageIcon> {
     public void create_ImageIcon()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ImageIcon sut = new ImageIcon();
     }
 

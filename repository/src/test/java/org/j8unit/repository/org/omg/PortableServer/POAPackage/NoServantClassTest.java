@@ -43,6 +43,7 @@ implements NoServantClassTests<NoServant> {
     public void create_NoServant()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoServant sut = new NoServant();
     }
 

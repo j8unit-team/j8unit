@@ -65,6 +65,7 @@ implements CurrentHolderClassTests<CurrentHolder> {
     public void create_CurrentHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CurrentHolder sut = new CurrentHolder();
     }
 

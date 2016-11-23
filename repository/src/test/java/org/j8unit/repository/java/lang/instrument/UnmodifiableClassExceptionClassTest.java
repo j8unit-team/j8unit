@@ -44,6 +44,7 @@ implements UnmodifiableClassExceptionClassTests<UnmodifiableClassException> {
     public void create_UnmodifiableClassException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnmodifiableClassException sut = new UnmodifiableClassException();
     }
 

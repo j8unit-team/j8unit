@@ -44,6 +44,7 @@ implements TransactionRolledbackExceptionClassTests<TransactionRolledbackExcepti
     public void create_TransactionRolledbackException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransactionRolledbackException sut = new TransactionRolledbackException();
     }
 

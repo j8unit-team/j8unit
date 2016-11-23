@@ -65,6 +65,7 @@ implements LinkedHashSetClassTests<LinkedHashSet> {
     public void create_LinkedHashSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedHashSet sut = new LinkedHashSet();
     }
 

@@ -67,6 +67,7 @@ implements ConcurrentHashMapClassTests<ConcurrentHashMap> {
     public void create_ConcurrentHashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentHashMap sut = new ConcurrentHashMap();
     }
 

@@ -42,6 +42,7 @@ implements SimpleBeanInfoClassTests<SimpleBeanInfo> {
     public void create_SimpleBeanInfo()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleBeanInfo sut = new SimpleBeanInfo();
     }
 

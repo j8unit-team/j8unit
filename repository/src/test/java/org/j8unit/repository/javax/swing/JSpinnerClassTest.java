@@ -46,6 +46,7 @@ implements JSpinnerClassTests<JSpinner> {
     public void create_JSpinner()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSpinner sut = new JSpinner();
     }
 

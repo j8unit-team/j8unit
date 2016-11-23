@@ -44,6 +44,7 @@ implements ConnectionPendingExceptionClassTests<ConnectionPendingException> {
     public void create_ConnectionPendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConnectionPendingException sut = new ConnectionPendingException();
     }
 

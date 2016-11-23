@@ -42,6 +42,7 @@ implements TableRowSorterClassTests<TableRowSorter> {
     public void create_TableRowSorter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TableRowSorter sut = new TableRowSorter();
     }
 

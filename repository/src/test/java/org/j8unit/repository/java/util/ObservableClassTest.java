@@ -42,6 +42,7 @@ implements ObservableClassTests<Observable> {
     public void create_Observable()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Observable sut = new Observable();
     }
 

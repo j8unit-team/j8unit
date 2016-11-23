@@ -42,6 +42,7 @@ implements DefaultFormatterClassTests<DefaultFormatter> {
     public void create_DefaultFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultFormatter sut = new DefaultFormatter();
     }
 

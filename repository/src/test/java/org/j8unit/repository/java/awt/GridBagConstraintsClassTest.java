@@ -42,6 +42,7 @@ implements GridBagConstraintsClassTests<GridBagConstraints> {
     public void create_GridBagConstraints()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GridBagConstraints sut = new GridBagConstraints();
     }
 

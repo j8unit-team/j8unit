@@ -42,6 +42,7 @@ implements SplittableRandomClassTests<SplittableRandom> {
     public void create_SplittableRandom()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SplittableRandom sut = new SplittableRandom();
     }
 

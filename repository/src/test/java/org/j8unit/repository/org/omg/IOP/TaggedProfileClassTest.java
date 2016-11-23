@@ -42,6 +42,7 @@ implements TaggedProfileClassTests<TaggedProfile> {
     public void create_TaggedProfile()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TaggedProfile sut = new TaggedProfile();
     }
 

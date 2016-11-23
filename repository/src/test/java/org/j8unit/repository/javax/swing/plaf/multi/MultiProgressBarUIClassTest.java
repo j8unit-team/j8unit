@@ -43,6 +43,7 @@ implements MultiProgressBarUIClassTests<MultiProgressBarUI> {
     public void create_MultiProgressBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiProgressBarUI sut = new MultiProgressBarUI();
     }
 

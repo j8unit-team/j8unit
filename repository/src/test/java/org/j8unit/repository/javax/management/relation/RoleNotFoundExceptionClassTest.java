@@ -43,6 +43,7 @@ implements RoleNotFoundExceptionClassTests<RoleNotFoundException> {
     public void create_RoleNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleNotFoundException sut = new RoleNotFoundException();
     }
 

@@ -87,6 +87,7 @@ implements DatagramSocketClassTests<DatagramSocket> {
     public void create_DatagramSocket()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DatagramSocket sut = new DatagramSocket();
     }
 

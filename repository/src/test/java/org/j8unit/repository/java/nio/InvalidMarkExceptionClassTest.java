@@ -42,6 +42,7 @@ implements InvalidMarkExceptionClassTests<InvalidMarkException> {
     public void create_InvalidMarkException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidMarkException sut = new InvalidMarkException();
     }
 

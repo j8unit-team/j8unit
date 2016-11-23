@@ -42,6 +42,7 @@ implements MetalToolTipUIClassTests<MetalToolTipUI> {
     public void create_MetalToolTipUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalToolTipUI sut = new MetalToolTipUI();
     }
 

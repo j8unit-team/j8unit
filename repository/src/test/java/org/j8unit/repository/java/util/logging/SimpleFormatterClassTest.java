@@ -42,6 +42,7 @@ implements SimpleFormatterClassTests<SimpleFormatter> {
     public void create_SimpleFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleFormatter sut = new SimpleFormatter();
     }
 

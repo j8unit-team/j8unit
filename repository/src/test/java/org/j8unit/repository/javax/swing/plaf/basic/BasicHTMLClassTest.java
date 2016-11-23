@@ -42,6 +42,7 @@ implements BasicHTMLClassTests<BasicHTML> {
     public void create_BasicHTML()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicHTML sut = new BasicHTML();
     }
 

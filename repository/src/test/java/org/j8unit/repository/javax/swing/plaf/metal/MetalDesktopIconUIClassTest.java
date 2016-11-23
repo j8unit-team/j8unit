@@ -43,6 +43,7 @@ implements MetalDesktopIconUIClassTests<MetalDesktopIconUI> {
     public void create_MetalDesktopIconUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalDesktopIconUI sut = new MetalDesktopIconUI();
     }
 

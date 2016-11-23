@@ -42,6 +42,7 @@ implements MultiListUIClassTests<MultiListUI> {
     public void create_MultiListUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiListUI sut = new MultiListUI();
     }
 

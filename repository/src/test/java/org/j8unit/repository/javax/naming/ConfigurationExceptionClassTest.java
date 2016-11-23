@@ -66,6 +66,7 @@ implements ConfigurationExceptionClassTests<ConfigurationException> {
     public void create_ConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConfigurationException sut = new ConfigurationException();
     }
 

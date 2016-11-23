@@ -42,6 +42,7 @@ implements ChoiceClassTests<Choice> {
     public void create_Choice()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Choice sut = new Choice();
     }
 

@@ -42,6 +42,7 @@ implements _DynArrayStubClassTests<_DynArrayStub> {
     public void create__DynArrayStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynArrayStub sut = new _DynArrayStub();
     }
 

@@ -64,6 +64,7 @@ implements ScrollbarClassTests<Scrollbar> {
     public void create_Scrollbar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Scrollbar sut = new Scrollbar();
     }
 

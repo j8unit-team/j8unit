@@ -44,6 +44,7 @@ implements CertificateEncodingExceptionClassTests<CertificateEncodingException> 
     public void create_CertificateEncodingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateEncodingException sut = new CertificateEncodingException();
     }
 

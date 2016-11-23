@@ -42,6 +42,7 @@ implements CharConversionExceptionClassTests<CharConversionException> {
     public void create_CharConversionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CharConversionException sut = new CharConversionException();
     }
 

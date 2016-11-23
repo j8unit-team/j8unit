@@ -64,6 +64,7 @@ implements StringHolderClassTests<StringHolder> {
     public void create_StringHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringHolder sut = new StringHolder();
     }
 

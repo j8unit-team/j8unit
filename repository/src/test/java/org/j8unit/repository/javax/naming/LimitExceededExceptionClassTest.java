@@ -43,6 +43,7 @@ implements LimitExceededExceptionClassTests<LimitExceededException> {
     public void create_LimitExceededException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LimitExceededException sut = new LimitExceededException();
     }
 

@@ -44,6 +44,7 @@ implements CertificateNotYetValidExceptionClassTests<CertificateNotYetValidExcep
     public void create_CertificateNotYetValidException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateNotYetValidException sut = new CertificateNotYetValidException();
     }
 

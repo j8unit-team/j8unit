@@ -43,6 +43,7 @@ implements RMISecurityManagerClassTests<RMISecurityManager> {
     public void create_RMISecurityManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RMISecurityManager sut = new RMISecurityManager();
     }
 

@@ -42,6 +42,7 @@ implements ImageReadParamClassTests<ImageReadParam> {
     public void create_ImageReadParam()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ImageReadParam sut = new ImageReadParam();
     }
 

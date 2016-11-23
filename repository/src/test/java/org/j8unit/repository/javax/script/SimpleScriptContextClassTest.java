@@ -42,6 +42,7 @@ implements SimpleScriptContextClassTests<SimpleScriptContext> {
     public void create_SimpleScriptContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleScriptContext sut = new SimpleScriptContext();
     }
 

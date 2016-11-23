@@ -138,6 +138,7 @@ implements SQLTransactionRollbackExceptionClassTests<SQLTransactionRollbackExcep
     public void create_SQLTransactionRollbackException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLTransactionRollbackException sut = new SQLTransactionRollbackException();
     }
 

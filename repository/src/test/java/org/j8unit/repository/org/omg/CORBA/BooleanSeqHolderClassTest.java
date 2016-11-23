@@ -65,6 +65,7 @@ implements BooleanSeqHolderClassTests<BooleanSeqHolder> {
     public void create_BooleanSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BooleanSeqHolder sut = new BooleanSeqHolder();
     }
 

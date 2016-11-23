@@ -43,6 +43,7 @@ implements XMLReaderAdapterClassTests<XMLReaderAdapter> {
     public void create_XMLReaderAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLReaderAdapter sut = new XMLReaderAdapter();
     }
 

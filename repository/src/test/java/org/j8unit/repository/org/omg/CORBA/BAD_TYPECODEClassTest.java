@@ -110,6 +110,7 @@ implements BAD_TYPECODEClassTests<BAD_TYPECODE> {
     public void create_BAD_TYPECODE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_TYPECODE sut = new BAD_TYPECODE();
     }
 

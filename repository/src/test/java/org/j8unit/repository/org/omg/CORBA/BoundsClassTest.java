@@ -42,6 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.BoundsClassTests<Bounds> {
     public void create_Bounds()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Bounds sut = new Bounds();
     }
 

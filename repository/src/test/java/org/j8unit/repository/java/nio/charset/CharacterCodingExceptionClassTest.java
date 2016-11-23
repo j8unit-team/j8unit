@@ -43,6 +43,7 @@ implements CharacterCodingExceptionClassTests<CharacterCodingException> {
     public void create_CharacterCodingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CharacterCodingException sut = new CharacterCodingException();
     }
 

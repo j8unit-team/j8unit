@@ -116,6 +116,7 @@ implements HashPrintRequestAttributeSetClassTests<HashPrintRequestAttributeSet> 
     public void create_HashPrintRequestAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashPrintRequestAttributeSet sut = new HashPrintRequestAttributeSet();
     }
 

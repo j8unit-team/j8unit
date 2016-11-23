@@ -109,6 +109,7 @@ implements JCheckBoxClassTests<JCheckBox> {
     public void create_JCheckBox()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JCheckBox sut = new JCheckBox();
     }
 

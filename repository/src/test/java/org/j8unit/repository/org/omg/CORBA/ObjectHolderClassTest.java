@@ -65,6 +65,7 @@ implements ObjectHolderClassTests<ObjectHolder> {
     public void create_ObjectHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectHolder sut = new ObjectHolder();
     }
 

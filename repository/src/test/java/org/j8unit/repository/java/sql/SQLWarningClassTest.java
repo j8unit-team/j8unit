@@ -178,6 +178,7 @@ implements SQLWarningClassTests<SQLWarning> {
     public void create_SQLWarning()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLWarning sut = new SQLWarning();
     }
 

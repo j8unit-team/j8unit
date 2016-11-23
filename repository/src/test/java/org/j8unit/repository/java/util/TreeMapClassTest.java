@@ -42,6 +42,7 @@ implements TreeMapClassTests<TreeMap> {
     public void create_TreeMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TreeMap sut = new TreeMap();
     }
 

@@ -42,6 +42,7 @@ implements RowSetMetaDataImplClassTests<RowSetMetaDataImpl> {
     public void create_RowSetMetaDataImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RowSetMetaDataImpl sut = new RowSetMetaDataImpl();
     }
 

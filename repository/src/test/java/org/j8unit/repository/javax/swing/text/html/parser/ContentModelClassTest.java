@@ -43,6 +43,7 @@ implements ContentModelClassTests<ContentModel> {
     public void create_ContentModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ContentModel sut = new ContentModel();
     }
 

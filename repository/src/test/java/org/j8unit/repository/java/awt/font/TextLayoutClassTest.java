@@ -134,6 +134,7 @@ implements TextLayoutClassTests<TextLayout> {
         public void create_CaretPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final CaretPolicy sut = new CaretPolicy();
         }
 

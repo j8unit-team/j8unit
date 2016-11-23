@@ -42,6 +42,7 @@ implements ReferenceQueueClassTests<ReferenceQueue> {
     public void create_ReferenceQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReferenceQueue sut = new ReferenceQueue();
     }
 

@@ -134,6 +134,7 @@ implements SQLNonTransientExceptionClassTests<SQLNonTransientException> {
     public void create_SQLNonTransientException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLNonTransientException sut = new SQLNonTransientException();
     }
 

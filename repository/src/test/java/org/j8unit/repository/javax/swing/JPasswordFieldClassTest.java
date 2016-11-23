@@ -86,6 +86,7 @@ implements JPasswordFieldClassTests<JPasswordField> {
     public void create_JPasswordField()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPasswordField sut = new JPasswordField();
     }
 

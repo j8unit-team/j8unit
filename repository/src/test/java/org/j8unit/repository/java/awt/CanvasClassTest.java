@@ -65,6 +65,7 @@ implements CanvasClassTests<Canvas> {
     public void create_Canvas()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Canvas sut = new Canvas();
     }
 

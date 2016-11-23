@@ -116,6 +116,7 @@ implements HashPrintJobAttributeSetClassTests<HashPrintJobAttributeSet> {
     public void create_HashPrintJobAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashPrintJobAttributeSet sut = new HashPrintJobAttributeSet();
     }
 

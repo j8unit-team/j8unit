@@ -42,6 +42,7 @@ implements PrinterExceptionClassTests<PrinterException> {
     public void create_PrinterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrinterException sut = new PrinterException();
     }
 

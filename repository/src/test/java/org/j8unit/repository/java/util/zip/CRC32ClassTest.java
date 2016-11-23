@@ -42,6 +42,7 @@ implements CRC32ClassTests<CRC32> {
     public void create_CRC32()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CRC32 sut = new CRC32();
     }
 

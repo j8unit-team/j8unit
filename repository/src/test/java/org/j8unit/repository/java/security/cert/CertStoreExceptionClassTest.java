@@ -112,6 +112,7 @@ implements CertStoreExceptionClassTests<CertStoreException> {
     public void create_CertStoreException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertStoreException sut = new CertStoreException();
     }
 

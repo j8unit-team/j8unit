@@ -67,6 +67,7 @@ implements CollectionCertStoreParametersClassTests<CollectionCertStoreParameters
     public void create_CollectionCertStoreParameters()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CollectionCertStoreParameters sut = new CollectionCertStoreParameters();
     }
 

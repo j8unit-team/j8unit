@@ -47,6 +47,7 @@ implements BasicListUIClassTests<BasicListUI> {
     public void create_BasicListUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicListUI sut = new BasicListUI();
     }
 

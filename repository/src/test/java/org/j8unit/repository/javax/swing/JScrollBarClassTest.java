@@ -42,6 +42,7 @@ implements JScrollBarClassTests<JScrollBar> {
     public void create_JScrollBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JScrollBar sut = new JScrollBar();
     }
 

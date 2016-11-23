@@ -42,6 +42,7 @@ implements W3CDomHandlerClassTests<W3CDomHandler> {
     public void create_W3CDomHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final W3CDomHandler sut = new W3CDomHandler();
     }
 

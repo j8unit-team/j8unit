@@ -44,6 +44,7 @@ implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
     public void create_DefaultListCellRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultListCellRenderer sut = new DefaultListCellRenderer();
     }
 
@@ -87,6 +88,7 @@ implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

@@ -42,6 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests<
     public void create_InvalidName()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidName sut = new InvalidName();
     }
 

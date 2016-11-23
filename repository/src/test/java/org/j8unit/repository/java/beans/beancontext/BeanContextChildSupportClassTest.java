@@ -44,6 +44,7 @@ implements BeanContextChildSupportClassTests<BeanContextChildSupport> {
     public void create_BeanContextChildSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BeanContextChildSupport sut = new BeanContextChildSupport();
     }
 

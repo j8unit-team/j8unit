@@ -43,6 +43,7 @@ implements InternationalFormatterClassTests<InternationalFormatter> {
     public void create_InternationalFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InternationalFormatter sut = new InternationalFormatter();
     }
 

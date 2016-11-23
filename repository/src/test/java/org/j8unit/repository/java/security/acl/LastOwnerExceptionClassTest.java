@@ -42,6 +42,7 @@ implements LastOwnerExceptionClassTests<LastOwnerException> {
     public void create_LastOwnerException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LastOwnerException sut = new LastOwnerException();
     }
 

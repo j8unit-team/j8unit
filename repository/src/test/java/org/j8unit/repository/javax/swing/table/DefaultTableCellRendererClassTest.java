@@ -45,6 +45,7 @@ implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
     public void create_DefaultTableCellRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTableCellRenderer sut = new DefaultTableCellRenderer();
     }
 
@@ -88,6 +89,7 @@ implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

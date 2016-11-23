@@ -110,6 +110,7 @@ implements BAD_OPERATIONClassTests<BAD_OPERATION> {
     public void create_BAD_OPERATION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_OPERATION sut = new BAD_OPERATION();
     }
 

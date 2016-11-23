@@ -65,6 +65,7 @@ implements SocketHandlerClassTests<SocketHandler> {
     public void create_SocketHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SocketHandler sut = new SocketHandler();
     }
 

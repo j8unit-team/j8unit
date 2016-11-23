@@ -42,6 +42,7 @@ implements BorderLayoutClassTests<BorderLayout> {
     public void create_BorderLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BorderLayout sut = new BorderLayout();
     }
 

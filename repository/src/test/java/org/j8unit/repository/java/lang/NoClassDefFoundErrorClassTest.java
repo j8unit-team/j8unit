@@ -41,6 +41,7 @@ implements NoClassDefFoundErrorClassTests<NoClassDefFoundError> {
     public void create_NoClassDefFoundError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoClassDefFoundError sut = new NoClassDefFoundError();
     }
 

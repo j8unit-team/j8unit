@@ -41,6 +41,7 @@ implements NoSuchFieldErrorClassTests<NoSuchFieldError> {
     public void create_NoSuchFieldError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchFieldError sut = new NoSuchFieldError();
     }
 

@@ -42,6 +42,7 @@ implements UnsupportedClassVersionErrorClassTests<UnsupportedClassVersionError> 
     public void create_UnsupportedClassVersionError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedClassVersionError sut = new UnsupportedClassVersionError();
     }
 

@@ -66,6 +66,7 @@ implements LinkedBlockingQueueClassTests<LinkedBlockingQueue> {
     public void create_LinkedBlockingQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedBlockingQueue sut = new LinkedBlockingQueue();
     }
 

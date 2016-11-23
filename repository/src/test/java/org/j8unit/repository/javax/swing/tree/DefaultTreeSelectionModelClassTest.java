@@ -44,6 +44,7 @@ implements DefaultTreeSelectionModelClassTests<DefaultTreeSelectionModel> {
     public void create_DefaultTreeSelectionModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTreeSelectionModel sut = new DefaultTreeSelectionModel();
     }
 

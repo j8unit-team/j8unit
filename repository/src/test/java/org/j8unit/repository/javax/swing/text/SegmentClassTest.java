@@ -64,6 +64,7 @@ implements SegmentClassTests<Segment> {
     public void create_Segment()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Segment sut = new Segment();
     }
 

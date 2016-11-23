@@ -42,6 +42,7 @@ implements StringContentClassTests<StringContent> {
     public void create_StringContent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringContent sut = new StringContent();
     }
 

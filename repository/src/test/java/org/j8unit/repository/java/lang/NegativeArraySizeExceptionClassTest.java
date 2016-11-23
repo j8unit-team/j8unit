@@ -41,6 +41,7 @@ implements NegativeArraySizeExceptionClassTests<NegativeArraySizeException> {
     public void create_NegativeArraySizeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NegativeArraySizeException sut = new NegativeArraySizeException();
     }
 

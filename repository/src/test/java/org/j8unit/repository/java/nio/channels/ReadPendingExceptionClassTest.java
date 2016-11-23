@@ -43,6 +43,7 @@ implements ReadPendingExceptionClassTests<ReadPendingException> {
     public void create_ReadPendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReadPendingException sut = new ReadPendingException();
     }
 

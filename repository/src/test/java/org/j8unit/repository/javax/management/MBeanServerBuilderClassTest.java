@@ -42,6 +42,7 @@ implements MBeanServerBuilderClassTests<MBeanServerBuilder> {
     public void create_MBeanServerBuilder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MBeanServerBuilder sut = new MBeanServerBuilder();
     }
 

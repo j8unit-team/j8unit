@@ -170,6 +170,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_DiscardPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DiscardPolicy sut = new DiscardPolicy();
         }
 
@@ -215,6 +216,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_AbortPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final AbortPolicy sut = new AbortPolicy();
         }
 
@@ -260,6 +262,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_CallerRunsPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final CallerRunsPolicy sut = new CallerRunsPolicy();
         }
 
@@ -305,6 +308,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_DiscardOldestPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DiscardOldestPolicy sut = new DiscardOldestPolicy();
         }
 

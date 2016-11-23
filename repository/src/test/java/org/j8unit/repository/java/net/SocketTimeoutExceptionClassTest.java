@@ -65,6 +65,7 @@ implements SocketTimeoutExceptionClassTests<SocketTimeoutException> {
     public void create_SocketTimeoutException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SocketTimeoutException sut = new SocketTimeoutException();
     }
 

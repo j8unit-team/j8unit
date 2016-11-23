@@ -64,6 +64,7 @@ implements CardLayoutClassTests<CardLayout> {
     public void create_CardLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CardLayout sut = new CardLayout();
     }
 

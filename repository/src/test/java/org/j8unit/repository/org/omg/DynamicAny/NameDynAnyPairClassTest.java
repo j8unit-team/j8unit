@@ -42,6 +42,7 @@ implements NameDynAnyPairClassTests<NameDynAnyPair> {
     public void create_NameDynAnyPair()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameDynAnyPair sut = new NameDynAnyPair();
     }
 

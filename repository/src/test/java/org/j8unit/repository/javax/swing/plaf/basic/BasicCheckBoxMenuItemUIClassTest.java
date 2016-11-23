@@ -44,6 +44,7 @@ implements BasicCheckBoxMenuItemUIClassTests<BasicCheckBoxMenuItemUI> {
     public void create_BasicCheckBoxMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicCheckBoxMenuItemUI sut = new BasicCheckBoxMenuItemUI();
     }
 

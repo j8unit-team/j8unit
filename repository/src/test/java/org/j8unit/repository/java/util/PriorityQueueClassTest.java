@@ -65,6 +65,7 @@ implements PriorityQueueClassTests<PriorityQueue> {
     public void create_PriorityQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PriorityQueue sut = new PriorityQueue();
     }
 

@@ -66,6 +66,7 @@ implements MalformedLinkExceptionClassTests<MalformedLinkException> {
     public void create_MalformedLinkException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedLinkException sut = new MalformedLinkException();
     }
 

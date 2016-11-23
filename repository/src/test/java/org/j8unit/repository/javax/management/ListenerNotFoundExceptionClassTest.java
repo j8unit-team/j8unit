@@ -44,6 +44,7 @@ implements ListenerNotFoundExceptionClassTests<ListenerNotFoundException> {
     public void create_ListenerNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ListenerNotFoundException sut = new ListenerNotFoundException();
     }
 

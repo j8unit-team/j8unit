@@ -42,6 +42,7 @@ implements NullCipherClassTests<NullCipher> {
     public void create_NullCipher()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NullCipher sut = new NullCipher();
     }
 

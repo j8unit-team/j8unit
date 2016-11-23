@@ -43,6 +43,7 @@ implements SslRMIClientSocketFactoryClassTests<SslRMIClientSocketFactory> {
     public void create_SslRMIClientSocketFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SslRMIClientSocketFactory sut = new SslRMIClientSocketFactory();
     }
 

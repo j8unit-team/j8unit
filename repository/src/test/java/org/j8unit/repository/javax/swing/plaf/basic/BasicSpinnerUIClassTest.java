@@ -42,6 +42,7 @@ implements BasicSpinnerUIClassTests<BasicSpinnerUI> {
     public void create_BasicSpinnerUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicSpinnerUI sut = new BasicSpinnerUI();
     }
 

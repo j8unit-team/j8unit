@@ -112,6 +112,7 @@ implements TRANSACTION_REQUIREDClassTests<TRANSACTION_REQUIRED> {
     public void create_TRANSACTION_REQUIRED()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSACTION_REQUIRED sut = new TRANSACTION_REQUIRED();
     }
 

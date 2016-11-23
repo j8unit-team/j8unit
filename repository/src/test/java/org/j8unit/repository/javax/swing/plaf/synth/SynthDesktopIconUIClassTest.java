@@ -43,6 +43,7 @@ implements SynthDesktopIconUIClassTests<SynthDesktopIconUI> {
     public void create_SynthDesktopIconUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthDesktopIconUI sut = new SynthDesktopIconUI();
     }
 

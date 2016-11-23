@@ -112,6 +112,7 @@ implements KeySelectorExceptionClassTests<KeySelectorException> {
     public void create_KeySelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeySelectorException sut = new KeySelectorException();
     }
 

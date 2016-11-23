@@ -42,6 +42,7 @@ implements ActionMapClassTests<ActionMap> {
     public void create_ActionMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ActionMap sut = new ActionMap();
     }
 

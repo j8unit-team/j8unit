@@ -42,6 +42,7 @@ implements DataFormatExceptionClassTests<DataFormatException> {
     public void create_DataFormatException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DataFormatException sut = new DataFormatException();
     }
 

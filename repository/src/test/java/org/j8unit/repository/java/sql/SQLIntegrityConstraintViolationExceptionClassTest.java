@@ -144,6 +144,7 @@ implements SQLIntegrityConstraintViolationExceptionClassTests<SQLIntegrityConstr
     public void create_SQLIntegrityConstraintViolationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLIntegrityConstraintViolationException sut = new SQLIntegrityConstraintViolationException();
     }
 

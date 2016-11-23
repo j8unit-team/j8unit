@@ -42,6 +42,7 @@ implements IORClassTests<IOR> {
     public void create_IOR()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IOR sut = new IOR();
     }
 

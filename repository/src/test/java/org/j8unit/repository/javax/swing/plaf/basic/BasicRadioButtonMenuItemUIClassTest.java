@@ -44,6 +44,7 @@ implements BasicRadioButtonMenuItemUIClassTests<BasicRadioButtonMenuItemUI> {
     public void create_BasicRadioButtonMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicRadioButtonMenuItemUI sut = new BasicRadioButtonMenuItemUI();
     }
 

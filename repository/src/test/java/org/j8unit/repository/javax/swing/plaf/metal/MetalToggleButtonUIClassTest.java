@@ -43,6 +43,7 @@ implements MetalToggleButtonUIClassTests<MetalToggleButtonUI> {
     public void create_MetalToggleButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalToggleButtonUI sut = new MetalToggleButtonUI();
     }
 

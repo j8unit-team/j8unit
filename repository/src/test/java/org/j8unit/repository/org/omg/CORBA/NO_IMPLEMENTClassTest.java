@@ -110,6 +110,7 @@ implements NO_IMPLEMENTClassTests<NO_IMPLEMENT> {
     public void create_NO_IMPLEMENT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_IMPLEMENT sut = new NO_IMPLEMENT();
     }
 

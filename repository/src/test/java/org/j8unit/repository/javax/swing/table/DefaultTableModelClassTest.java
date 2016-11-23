@@ -157,6 +157,7 @@ implements DefaultTableModelClassTests<DefaultTableModel> {
     public void create_DefaultTableModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTableModel sut = new DefaultTableModel();
     }
 

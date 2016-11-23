@@ -110,6 +110,8 @@ implements SOAPExceptionClassTests<SOAPException> {
     public void create_SOAPException()
     throws Exception {
         // create new instance
+
+        @SuppressWarnings("unused")
         final SOAPException sut = new SOAPException();
     }
 

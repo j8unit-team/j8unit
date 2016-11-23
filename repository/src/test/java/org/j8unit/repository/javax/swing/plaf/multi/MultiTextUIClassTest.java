@@ -42,6 +42,7 @@ implements MultiTextUIClassTests<MultiTextUI> {
     public void create_MultiTextUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTextUI sut = new MultiTextUI();
     }
 

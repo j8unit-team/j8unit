@@ -134,6 +134,7 @@ implements SQLRecoverableExceptionClassTests<SQLRecoverableException> {
     public void create_SQLRecoverableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLRecoverableException sut = new SQLRecoverableException();
     }
 

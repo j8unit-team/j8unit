@@ -271,6 +271,7 @@ implements BatchUpdateExceptionClassTests<BatchUpdateException> {
     public void create_BatchUpdateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BatchUpdateException sut = new BatchUpdateException();
     }
 

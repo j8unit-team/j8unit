@@ -44,6 +44,7 @@ implements CompletableFutureClassTests<CompletableFuture> {
     public void create_CompletableFuture()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CompletableFuture sut = new CompletableFuture();
     }
 

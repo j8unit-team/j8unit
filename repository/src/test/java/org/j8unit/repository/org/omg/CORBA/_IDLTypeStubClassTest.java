@@ -42,6 +42,7 @@ implements _IDLTypeStubClassTests<_IDLTypeStub> {
     public void create__IDLTypeStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _IDLTypeStub sut = new _IDLTypeStub();
     }
 

@@ -89,6 +89,7 @@ implements HashAttributeSetClassTests<HashAttributeSet> {
     public void create_HashAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashAttributeSet sut = new HashAttributeSet();
     }
 

@@ -64,6 +64,7 @@ implements FloatSeqHolderClassTests<FloatSeqHolder> {
     public void create_FloatSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FloatSeqHolder sut = new FloatSeqHolder();
     }
 

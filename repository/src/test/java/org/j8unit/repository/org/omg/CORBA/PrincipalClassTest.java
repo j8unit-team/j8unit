@@ -43,6 +43,7 @@ implements PrincipalClassTests<Principal> {
     public void create_Principal()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Principal sut = new Principal();
     }
 

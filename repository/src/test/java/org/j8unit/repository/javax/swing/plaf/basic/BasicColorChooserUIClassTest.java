@@ -44,6 +44,7 @@ implements BasicColorChooserUIClassTests<BasicColorChooserUI> {
     public void create_BasicColorChooserUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicColorChooserUI sut = new BasicColorChooserUI();
     }
 

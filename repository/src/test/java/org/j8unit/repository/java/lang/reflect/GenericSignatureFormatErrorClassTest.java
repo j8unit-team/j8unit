@@ -44,6 +44,7 @@ implements GenericSignatureFormatErrorClassTests<GenericSignatureFormatError> {
     public void create_GenericSignatureFormatError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GenericSignatureFormatError sut = new GenericSignatureFormatError();
     }
 

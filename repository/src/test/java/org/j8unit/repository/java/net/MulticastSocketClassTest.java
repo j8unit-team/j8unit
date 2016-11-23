@@ -42,6 +42,7 @@ implements MulticastSocketClassTests<MulticastSocket> {
     public void create_MulticastSocket()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MulticastSocket sut = new MulticastSocket();
     }
 

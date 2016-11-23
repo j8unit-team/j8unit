@@ -65,6 +65,7 @@ implements InvalidNameExceptionClassTests<InvalidNameException> {
     public void create_InvalidNameException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidNameException sut = new InvalidNameException();
     }
 

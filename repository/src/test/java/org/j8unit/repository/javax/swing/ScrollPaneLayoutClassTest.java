@@ -43,6 +43,7 @@ implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
     public void create_ScrollPaneLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ScrollPaneLayout sut = new ScrollPaneLayout();
     }
 
@@ -85,6 +86,7 @@ implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

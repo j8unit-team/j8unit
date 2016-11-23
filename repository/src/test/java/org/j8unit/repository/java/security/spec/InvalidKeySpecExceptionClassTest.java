@@ -113,6 +113,7 @@ implements InvalidKeySpecExceptionClassTests<InvalidKeySpecException> {
     public void create_InvalidKeySpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidKeySpecException sut = new InvalidKeySpecException();
     }
 

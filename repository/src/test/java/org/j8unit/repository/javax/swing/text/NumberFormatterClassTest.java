@@ -65,6 +65,7 @@ implements NumberFormatterClassTests<NumberFormatter> {
     public void create_NumberFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NumberFormatter sut = new NumberFormatter();
     }
 

@@ -42,6 +42,7 @@ implements MultiToolBarUIClassTests<MultiToolBarUI> {
     public void create_MultiToolBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiToolBarUI sut = new MultiToolBarUI();
     }
 

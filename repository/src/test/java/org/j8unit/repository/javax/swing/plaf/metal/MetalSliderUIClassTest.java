@@ -42,6 +42,7 @@ implements MetalSliderUIClassTests<MetalSliderUI> {
     public void create_MetalSliderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalSliderUI sut = new MetalSliderUI();
     }
 

@@ -42,6 +42,7 @@ implements SynthToolBarUIClassTests<SynthToolBarUI> {
     public void create_SynthToolBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthToolBarUI sut = new SynthToolBarUI();
     }
 

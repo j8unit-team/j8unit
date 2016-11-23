@@ -42,6 +42,7 @@ implements ErrorManagerClassTests<ErrorManager> {
     public void create_ErrorManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ErrorManager sut = new ErrorManager();
     }
 

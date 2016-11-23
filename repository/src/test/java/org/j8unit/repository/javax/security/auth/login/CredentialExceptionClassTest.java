@@ -43,6 +43,7 @@ implements CredentialExceptionClassTests<CredentialException> {
     public void create_CredentialException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CredentialException sut = new CredentialException();
     }
 

@@ -44,6 +44,7 @@ implements InvalidOpenTypeExceptionClassTests<InvalidOpenTypeException> {
     public void create_InvalidOpenTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidOpenTypeException sut = new InvalidOpenTypeException();
     }
 

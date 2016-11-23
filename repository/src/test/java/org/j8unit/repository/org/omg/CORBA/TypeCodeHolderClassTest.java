@@ -65,6 +65,7 @@ implements TypeCodeHolderClassTests<TypeCodeHolder> {
     public void create_TypeCodeHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TypeCodeHolder sut = new TypeCodeHolder();
     }
 

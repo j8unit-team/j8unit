@@ -65,6 +65,7 @@ implements LinkLoopExceptionClassTests<LinkLoopException> {
     public void create_LinkLoopException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkLoopException sut = new LinkLoopException();
     }
 

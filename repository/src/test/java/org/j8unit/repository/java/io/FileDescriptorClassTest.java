@@ -42,6 +42,7 @@ implements FileDescriptorClassTests<FileDescriptor> {
     public void create_FileDescriptor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileDescriptor sut = new FileDescriptor();
     }
 

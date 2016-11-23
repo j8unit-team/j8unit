@@ -43,6 +43,7 @@ implements MultiScrollPaneUIClassTests<MultiScrollPaneUI> {
     public void create_MultiScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiScrollPaneUI sut = new MultiScrollPaneUI();
     }
 

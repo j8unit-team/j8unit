@@ -64,6 +64,7 @@ implements InflaterClassTests<Inflater> {
     public void create_Inflater()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Inflater sut = new Inflater();
     }
 

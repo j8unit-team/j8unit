@@ -64,6 +64,7 @@ implements ThreadClassTests<Thread> {
     public void create_Thread()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Thread sut = new Thread();
     }
 

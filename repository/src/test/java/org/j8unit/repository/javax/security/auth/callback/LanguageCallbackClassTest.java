@@ -43,6 +43,7 @@ implements LanguageCallbackClassTests<LanguageCallback> {
     public void create_LanguageCallback()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LanguageCallback sut = new LanguageCallback();
     }
 

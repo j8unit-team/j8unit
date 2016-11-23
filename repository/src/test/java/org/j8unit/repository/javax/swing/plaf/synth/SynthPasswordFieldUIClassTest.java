@@ -43,6 +43,7 @@ implements SynthPasswordFieldUIClassTests<SynthPasswordFieldUI> {
     public void create_SynthPasswordFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthPasswordFieldUI sut = new SynthPasswordFieldUI();
     }
 

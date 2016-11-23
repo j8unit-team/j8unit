@@ -65,6 +65,7 @@ implements JScrollPaneClassTests<JScrollPane> {
     public void create_JScrollPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JScrollPane sut = new JScrollPane();
     }
 

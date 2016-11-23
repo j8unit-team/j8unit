@@ -42,6 +42,7 @@ implements UnionMemberClassTests<UnionMember> {
     public void create_UnionMember()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnionMember sut = new UnionMember();
     }
 

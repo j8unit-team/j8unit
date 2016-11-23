@@ -65,6 +65,7 @@ implements AnySeqHolderClassTests<AnySeqHolder> {
     public void create_AnySeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AnySeqHolder sut = new AnySeqHolder();
     }
 

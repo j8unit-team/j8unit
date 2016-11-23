@@ -43,6 +43,7 @@ implements ServerNotActiveExceptionClassTests<ServerNotActiveException> {
     public void create_ServerNotActiveException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServerNotActiveException sut = new ServerNotActiveException();
     }
 

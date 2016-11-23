@@ -41,6 +41,7 @@ implements SecurityManagerClassTests<SecurityManager> {
     public void create_SecurityManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SecurityManager sut = new SecurityManager();
     }
 

@@ -64,6 +64,7 @@ implements JProgressBarClassTests<JProgressBar> {
     public void create_JProgressBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JProgressBar sut = new JProgressBar();
     }
 

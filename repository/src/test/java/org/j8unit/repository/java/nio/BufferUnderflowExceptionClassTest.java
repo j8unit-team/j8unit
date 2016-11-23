@@ -42,6 +42,7 @@ implements BufferUnderflowExceptionClassTests<BufferUnderflowException> {
     public void create_BufferUnderflowException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BufferUnderflowException sut = new BufferUnderflowException();
     }
 

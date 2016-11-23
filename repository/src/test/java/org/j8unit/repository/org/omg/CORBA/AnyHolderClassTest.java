@@ -64,6 +64,7 @@ implements AnyHolderClassTests<AnyHolder> {
     public void create_AnyHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AnyHolder sut = new AnyHolder();
     }
 

@@ -43,6 +43,7 @@ implements DefaultListSelectionModelClassTests<DefaultListSelectionModel> {
     public void create_DefaultListSelectionModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultListSelectionModel sut = new DefaultListSelectionModel();
     }
 

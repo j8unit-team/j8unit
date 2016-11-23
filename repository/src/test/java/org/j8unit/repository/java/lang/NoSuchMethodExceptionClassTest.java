@@ -41,6 +41,7 @@ implements NoSuchMethodExceptionClassTests<NoSuchMethodException> {
     public void create_NoSuchMethodException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchMethodException sut = new NoSuchMethodException();
     }
 

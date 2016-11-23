@@ -43,6 +43,7 @@ implements FormatterClosedExceptionClassTests<FormatterClosedException> {
     public void create_FormatterClosedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FormatterClosedException sut = new FormatterClosedException();
     }
 

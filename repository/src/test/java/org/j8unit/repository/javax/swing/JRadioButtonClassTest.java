@@ -42,6 +42,7 @@ implements JRadioButtonClassTests<JRadioButton> {
     public void create_JRadioButton()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JRadioButton sut = new JRadioButton();
     }
 

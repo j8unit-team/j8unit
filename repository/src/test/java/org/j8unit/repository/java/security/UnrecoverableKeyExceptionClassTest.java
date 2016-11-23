@@ -43,6 +43,7 @@ implements UnrecoverableKeyExceptionClassTests<UnrecoverableKeyException> {
     public void create_UnrecoverableKeyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnrecoverableKeyException sut = new UnrecoverableKeyException();
     }
 

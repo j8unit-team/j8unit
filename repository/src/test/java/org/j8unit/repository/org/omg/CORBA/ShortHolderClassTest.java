@@ -64,6 +64,7 @@ implements ShortHolderClassTests<ShortHolder> {
     public void create_ShortHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortHolder sut = new ShortHolder();
     }
 

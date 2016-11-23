@@ -65,6 +65,7 @@ implements TaggedProfileHolderClassTests<TaggedProfileHolder> {
     public void create_TaggedProfileHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TaggedProfileHolder sut = new TaggedProfileHolder();
     }
 

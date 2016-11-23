@@ -91,6 +91,7 @@ implements URIReferenceExceptionClassTests<URIReferenceException> {
     public void create_URIReferenceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final URIReferenceException sut = new URIReferenceException();
     }
 

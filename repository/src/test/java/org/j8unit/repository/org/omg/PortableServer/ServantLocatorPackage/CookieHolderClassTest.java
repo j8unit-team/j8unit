@@ -67,6 +67,7 @@ implements CookieHolderClassTests<CookieHolder> {
     public void create_CookieHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CookieHolder sut = new CookieHolder();
     }
 

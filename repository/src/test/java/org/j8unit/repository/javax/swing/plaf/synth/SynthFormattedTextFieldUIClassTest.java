@@ -44,6 +44,7 @@ implements SynthFormattedTextFieldUIClassTests<SynthFormattedTextFieldUI> {
     public void create_SynthFormattedTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthFormattedTextFieldUI sut = new SynthFormattedTextFieldUI();
     }
 

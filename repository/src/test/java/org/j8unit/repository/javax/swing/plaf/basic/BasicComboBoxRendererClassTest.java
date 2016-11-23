@@ -44,6 +44,7 @@ implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
     public void create_BasicComboBoxRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicComboBoxRenderer sut = new BasicComboBoxRenderer();
     }
 
@@ -87,6 +88,7 @@ implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

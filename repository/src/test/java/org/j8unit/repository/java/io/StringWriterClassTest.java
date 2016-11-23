@@ -42,6 +42,7 @@ implements StringWriterClassTests<StringWriter> {
     public void create_StringWriter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringWriter sut = new StringWriter();
     }
 

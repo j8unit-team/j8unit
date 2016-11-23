@@ -44,6 +44,7 @@ implements CertificateParsingExceptionClassTests<CertificateParsingException> {
     public void create_CertificateParsingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateParsingException sut = new CertificateParsingException();
     }
 

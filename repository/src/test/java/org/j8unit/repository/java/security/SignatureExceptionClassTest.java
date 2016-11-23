@@ -111,6 +111,7 @@ implements SignatureExceptionClassTests<SignatureException> {
     public void create_SignatureException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SignatureException sut = new SignatureException();
     }
 

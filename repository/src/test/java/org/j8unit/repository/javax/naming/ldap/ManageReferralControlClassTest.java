@@ -43,6 +43,7 @@ implements ManageReferralControlClassTests<ManageReferralControl> {
     public void create_ManageReferralControl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ManageReferralControl sut = new ManageReferralControl();
     }
 

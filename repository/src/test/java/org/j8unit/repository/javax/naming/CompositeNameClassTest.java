@@ -42,6 +42,7 @@ implements CompositeNameClassTests<CompositeName> {
     public void create_CompositeName()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CompositeName sut = new CompositeName();
     }
 

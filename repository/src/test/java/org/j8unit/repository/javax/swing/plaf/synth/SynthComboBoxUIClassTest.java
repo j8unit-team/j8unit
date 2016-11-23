@@ -42,6 +42,7 @@ implements SynthComboBoxUIClassTests<SynthComboBoxUI> {
     public void create_SynthComboBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthComboBoxUI sut = new SynthComboBoxUI();
     }
 

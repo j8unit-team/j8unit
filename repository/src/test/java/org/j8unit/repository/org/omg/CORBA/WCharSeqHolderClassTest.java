@@ -64,6 +64,7 @@ implements WCharSeqHolderClassTests<WCharSeqHolder> {
     public void create_WCharSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WCharSeqHolder sut = new WCharSeqHolder();
     }
 

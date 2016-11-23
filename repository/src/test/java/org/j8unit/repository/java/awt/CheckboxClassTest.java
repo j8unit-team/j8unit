@@ -42,6 +42,7 @@ implements CheckboxClassTests<Checkbox> {
     public void create_Checkbox()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Checkbox sut = new Checkbox();
     }
 

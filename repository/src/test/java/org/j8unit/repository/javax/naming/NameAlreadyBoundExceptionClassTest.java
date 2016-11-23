@@ -66,6 +66,7 @@ implements NameAlreadyBoundExceptionClassTests<NameAlreadyBoundException> {
     public void create_NameAlreadyBoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameAlreadyBoundException sut = new NameAlreadyBoundException();
     }
 

@@ -42,6 +42,7 @@ implements JMRuntimeExceptionClassTests<JMRuntimeException> {
     public void create_JMRuntimeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMRuntimeException sut = new JMRuntimeException();
     }
 

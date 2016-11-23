@@ -97,6 +97,7 @@ implements JobAttributesClassTests<JobAttributes> {
     public void create_JobAttributes()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JobAttributes sut = new JobAttributes();
     }
 

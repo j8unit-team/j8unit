@@ -42,6 +42,7 @@ implements TimerClassTests<Timer> {
     public void create_Timer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Timer sut = new Timer();
     }
 

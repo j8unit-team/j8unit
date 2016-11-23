@@ -41,6 +41,7 @@ implements ClassCastExceptionClassTests<ClassCastException> {
     public void create_ClassCastException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassCastException sut = new ClassCastException();
     }
 

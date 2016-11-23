@@ -42,6 +42,7 @@ implements MetalTreeUIClassTests<MetalTreeUI> {
     public void create_MetalTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalTreeUI sut = new MetalTreeUI();
     }
 

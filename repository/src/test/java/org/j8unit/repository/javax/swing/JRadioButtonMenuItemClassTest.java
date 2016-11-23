@@ -42,6 +42,7 @@ implements JRadioButtonMenuItemClassTests<JRadioButtonMenuItem> {
     public void create_JRadioButtonMenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JRadioButtonMenuItem sut = new JRadioButtonMenuItem();
     }
 

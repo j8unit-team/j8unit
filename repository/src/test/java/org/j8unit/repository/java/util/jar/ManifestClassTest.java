@@ -88,6 +88,7 @@ implements ManifestClassTests<Manifest> {
     public void create_Manifest()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Manifest sut = new Manifest();
     }
 

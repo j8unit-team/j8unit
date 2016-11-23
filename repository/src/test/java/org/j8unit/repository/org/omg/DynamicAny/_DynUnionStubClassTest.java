@@ -42,6 +42,7 @@ implements _DynUnionStubClassTests<_DynUnionStub> {
     public void create__DynUnionStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynUnionStub sut = new _DynUnionStub();
     }
 

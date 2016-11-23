@@ -44,6 +44,7 @@ implements MetalPopupMenuSeparatorUIClassTests<MetalPopupMenuSeparatorUI> {
     public void create_MetalPopupMenuSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalPopupMenuSeparatorUI sut = new MetalPopupMenuSeparatorUI();
     }
 

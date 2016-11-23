@@ -684,6 +684,7 @@ implements LocaleClassTests<Locale> {
         public void create_Builder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Builder sut = new Builder();
         }
 

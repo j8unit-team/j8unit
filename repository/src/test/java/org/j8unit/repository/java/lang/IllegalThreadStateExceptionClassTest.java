@@ -41,6 +41,7 @@ implements IllegalThreadStateExceptionClassTests<IllegalThreadStateException> {
     public void create_IllegalThreadStateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalThreadStateException sut = new IllegalThreadStateException();
     }
 

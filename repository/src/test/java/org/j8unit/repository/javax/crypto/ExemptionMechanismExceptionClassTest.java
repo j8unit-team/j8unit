@@ -43,6 +43,7 @@ implements ExemptionMechanismExceptionClassTests<ExemptionMechanismException> {
     public void create_ExemptionMechanismException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ExemptionMechanismException sut = new ExemptionMechanismException();
     }
 

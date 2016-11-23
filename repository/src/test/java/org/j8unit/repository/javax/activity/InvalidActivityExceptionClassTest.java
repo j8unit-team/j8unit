@@ -112,6 +112,7 @@ implements InvalidActivityExceptionClassTests<InvalidActivityException> {
     public void create_InvalidActivityException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidActivityException sut = new InvalidActivityException();
     }
 

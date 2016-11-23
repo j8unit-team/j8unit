@@ -111,6 +111,7 @@ implements ACTIVITY_REQUIREDClassTests<ACTIVITY_REQUIRED> {
     public void create_ACTIVITY_REQUIRED()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ACTIVITY_REQUIRED sut = new ACTIVITY_REQUIRED();
     }
 

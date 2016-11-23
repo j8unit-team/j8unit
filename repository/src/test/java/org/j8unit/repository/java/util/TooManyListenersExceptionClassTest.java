@@ -43,6 +43,7 @@ implements TooManyListenersExceptionClassTests<TooManyListenersException> {
     public void create_TooManyListenersException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TooManyListenersException sut = new TooManyListenersException();
     }
 

@@ -43,6 +43,7 @@ implements MultiInternalFrameUIClassTests<MultiInternalFrameUI> {
     public void create_MultiInternalFrameUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiInternalFrameUI sut = new MultiInternalFrameUI();
     }
 

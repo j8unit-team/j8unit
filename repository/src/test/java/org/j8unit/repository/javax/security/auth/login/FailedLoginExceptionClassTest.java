@@ -43,6 +43,7 @@ implements FailedLoginExceptionClassTests<FailedLoginException> {
     public void create_FailedLoginException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FailedLoginException sut = new FailedLoginException();
     }
 

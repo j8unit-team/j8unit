@@ -42,6 +42,7 @@ implements _DynEnumStubClassTests<_DynEnumStub> {
     public void create__DynEnumStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynEnumStub sut = new _DynEnumStub();
     }
 

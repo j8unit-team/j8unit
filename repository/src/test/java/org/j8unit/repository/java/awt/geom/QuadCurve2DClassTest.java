@@ -257,6 +257,7 @@ implements QuadCurve2DClassTests<QuadCurve2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 
@@ -300,6 +301,7 @@ implements QuadCurve2DClassTests<QuadCurve2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 

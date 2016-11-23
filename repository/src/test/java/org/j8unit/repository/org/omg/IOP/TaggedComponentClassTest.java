@@ -42,6 +42,7 @@ implements TaggedComponentClassTests<TaggedComponent> {
     public void create_TaggedComponent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TaggedComponent sut = new TaggedComponent();
     }
 

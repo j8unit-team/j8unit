@@ -43,6 +43,7 @@ implements CannotProceedExceptionClassTests<CannotProceedException> {
     public void create_CannotProceedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotProceedException sut = new CannotProceedException();
     }
 

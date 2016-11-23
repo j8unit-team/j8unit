@@ -41,6 +41,7 @@ implements InterruptedExceptionClassTests<InterruptedException> {
     public void create_InterruptedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InterruptedException sut = new InterruptedException();
     }
 

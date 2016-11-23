@@ -64,6 +64,7 @@ implements GapContentClassTests<GapContent> {
     public void create_GapContent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GapContent sut = new GapContent();
     }
 

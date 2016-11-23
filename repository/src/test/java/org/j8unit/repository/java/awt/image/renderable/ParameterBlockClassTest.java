@@ -43,6 +43,7 @@ implements ParameterBlockClassTests<ParameterBlock> {
     public void create_ParameterBlock()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParameterBlock sut = new ParameterBlock();
     }
 

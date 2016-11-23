@@ -65,6 +65,7 @@ implements ScriptEngineManagerClassTests<ScriptEngineManager> {
     public void create_ScriptEngineManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ScriptEngineManager sut = new ScriptEngineManager();
     }
 

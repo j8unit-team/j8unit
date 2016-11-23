@@ -42,6 +42,7 @@ implements PhaserClassTests<Phaser> {
     public void create_Phaser()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Phaser sut = new Phaser();
     }
 

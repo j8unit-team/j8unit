@@ -305,6 +305,7 @@ implements StringClassTests<String> {
     public void create_String()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final String sut = new String();
     }
 

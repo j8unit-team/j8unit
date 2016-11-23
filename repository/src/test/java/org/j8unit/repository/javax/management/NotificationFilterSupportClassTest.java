@@ -44,6 +44,7 @@ implements NotificationFilterSupportClassTests<NotificationFilterSupport> {
     public void create_NotificationFilterSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotificationFilterSupport sut = new NotificationFilterSupport();
     }
 

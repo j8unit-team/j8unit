@@ -44,6 +44,7 @@ implements InvalidParameterSpecExceptionClassTests<InvalidParameterSpecException
     public void create_InvalidParameterSpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidParameterSpecException sut = new InvalidParameterSpecException();
     }
 

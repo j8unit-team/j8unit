@@ -108,6 +108,7 @@ implements JMenuClassTests<JMenu> {
     public void create_JMenu()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMenu sut = new JMenu();
     }
 

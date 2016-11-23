@@ -42,6 +42,7 @@ implements NoSuchElementExceptionClassTests<NoSuchElementException> {
     public void create_NoSuchElementException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchElementException sut = new NoSuchElementException();
     }
 

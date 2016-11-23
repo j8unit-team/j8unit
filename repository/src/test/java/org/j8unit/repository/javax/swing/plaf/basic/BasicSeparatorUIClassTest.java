@@ -43,6 +43,7 @@ implements BasicSeparatorUIClassTests<BasicSeparatorUI> {
     public void create_BasicSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicSeparatorUI sut = new BasicSeparatorUI();
     }
 

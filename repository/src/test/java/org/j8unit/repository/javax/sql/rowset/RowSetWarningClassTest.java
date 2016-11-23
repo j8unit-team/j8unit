@@ -111,6 +111,7 @@ implements RowSetWarningClassTests<RowSetWarning> {
     public void create_RowSetWarning()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RowSetWarning sut = new RowSetWarning();
     }
 

@@ -65,6 +65,7 @@ implements DateFormatSymbolsClassTests<DateFormatSymbols> {
     public void create_DateFormatSymbols()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DateFormatSymbols sut = new DateFormatSymbols();
     }
 

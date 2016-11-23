@@ -86,6 +86,7 @@ implements PointClassTests<Point> {
     public void create_Point()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Point sut = new Point();
     }
 

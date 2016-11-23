@@ -66,6 +66,7 @@ implements NameComponentHolderClassTests<NameComponentHolder> {
     public void create_NameComponentHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameComponentHolder sut = new NameComponentHolder();
     }
 

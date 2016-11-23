@@ -64,6 +64,7 @@ implements CharHolderClassTests<CharHolder> {
     public void create_CharHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CharHolder sut = new CharHolder();
     }
 

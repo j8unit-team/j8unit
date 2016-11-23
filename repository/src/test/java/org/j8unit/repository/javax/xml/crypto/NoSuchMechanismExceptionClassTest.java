@@ -112,6 +112,7 @@ implements NoSuchMechanismExceptionClassTests<NoSuchMechanismException> {
     public void create_NoSuchMechanismException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchMechanismException sut = new NoSuchMechanismException();
     }
 

@@ -42,6 +42,7 @@ implements VMIDClassTests<VMID> {
     public void create_VMID()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final VMID sut = new VMID();
     }
 

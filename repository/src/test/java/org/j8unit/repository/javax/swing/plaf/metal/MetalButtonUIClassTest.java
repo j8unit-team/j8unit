@@ -42,6 +42,7 @@ implements MetalButtonUIClassTests<MetalButtonUI> {
     public void create_MetalButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalButtonUI sut = new MetalButtonUI();
     }
 

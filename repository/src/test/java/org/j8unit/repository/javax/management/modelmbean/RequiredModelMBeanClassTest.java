@@ -44,6 +44,7 @@ implements RequiredModelMBeanClassTests<RequiredModelMBean> {
     public void create_RequiredModelMBean()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RequiredModelMBean sut = new RequiredModelMBean();
     }
 

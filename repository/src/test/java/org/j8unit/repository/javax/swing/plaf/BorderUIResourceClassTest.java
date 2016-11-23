@@ -719,6 +719,7 @@ implements BorderUIResourceClassTests<BorderUIResource> {
         public void create_EtchedBorderUIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final EtchedBorderUIResource sut = new EtchedBorderUIResource();
         }
 

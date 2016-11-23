@@ -43,6 +43,7 @@ implements SyncProviderExceptionClassTests<SyncProviderException> {
     public void create_SyncProviderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SyncProviderException sut = new SyncProviderException();
     }
 

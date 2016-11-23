@@ -86,6 +86,7 @@ implements org.j8unit.repository.java.awt.ListClassTests<List> {
     public void create_List()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final List sut = new List();
     }
 

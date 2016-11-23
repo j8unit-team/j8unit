@@ -43,6 +43,7 @@ implements HexBinaryAdapterClassTests<HexBinaryAdapter> {
     public void create_HexBinaryAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HexBinaryAdapter sut = new HexBinaryAdapter();
     }
 

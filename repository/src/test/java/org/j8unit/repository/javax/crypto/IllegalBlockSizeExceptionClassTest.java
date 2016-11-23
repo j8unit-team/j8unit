@@ -43,6 +43,7 @@ implements IllegalBlockSizeExceptionClassTests<IllegalBlockSizeException> {
     public void create_IllegalBlockSizeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalBlockSizeException sut = new IllegalBlockSizeException();
     }
 

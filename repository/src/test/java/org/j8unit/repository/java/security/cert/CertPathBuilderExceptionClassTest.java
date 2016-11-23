@@ -113,6 +113,7 @@ implements CertPathBuilderExceptionClassTests<CertPathBuilderException> {
     public void create_CertPathBuilderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertPathBuilderException sut = new CertPathBuilderException();
     }
 

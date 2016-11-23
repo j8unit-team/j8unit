@@ -43,6 +43,7 @@ implements org.j8unit.repository.java.nio.channels.AlreadyBoundExceptionClassTes
     public void create_AlreadyBoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyBoundException sut = new AlreadyBoundException();
     }
 

@@ -42,6 +42,7 @@ implements BeansClassTests<Beans> {
     public void create_Beans()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Beans sut = new Beans();
     }
 

@@ -67,6 +67,7 @@ implements AttributeInUseExceptionClassTests<AttributeInUseException> {
     public void create_AttributeInUseException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeInUseException sut = new AttributeInUseException();
     }
 

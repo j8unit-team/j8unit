@@ -65,6 +65,7 @@ implements NoRouteToHostExceptionClassTests<NoRouteToHostException> {
     public void create_NoRouteToHostException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoRouteToHostException sut = new NoRouteToHostException();
     }
 

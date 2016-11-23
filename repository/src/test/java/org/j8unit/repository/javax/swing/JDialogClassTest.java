@@ -178,6 +178,7 @@ implements JDialogClassTests<JDialog> {
     public void create_JDialog()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JDialog sut = new JDialog();
     }
 

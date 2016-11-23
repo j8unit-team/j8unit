@@ -79,6 +79,7 @@ implements HTMLDocumentClassTests<HTMLDocument> {
     public void create_HTMLDocument()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HTMLDocument sut = new HTMLDocument();
     }
 

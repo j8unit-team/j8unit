@@ -42,6 +42,7 @@ implements MultiViewportUIClassTests<MultiViewportUI> {
     public void create_MultiViewportUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiViewportUI sut = new MultiViewportUI();
     }
 

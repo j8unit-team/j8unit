@@ -43,6 +43,7 @@ implements OpenDataExceptionClassTests<OpenDataException> {
     public void create_OpenDataException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OpenDataException sut = new OpenDataException();
     }
 

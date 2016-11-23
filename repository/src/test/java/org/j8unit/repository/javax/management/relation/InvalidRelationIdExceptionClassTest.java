@@ -44,6 +44,7 @@ implements InvalidRelationIdExceptionClassTests<InvalidRelationIdException> {
     public void create_InvalidRelationIdException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidRelationIdException sut = new InvalidRelationIdException();
     }
 

@@ -67,6 +67,7 @@ implements InvalidAttributeValueExceptionClassTests<InvalidAttributeValueExcepti
     public void create_InvalidAttributeValueException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAttributeValueException sut = new InvalidAttributeValueException();
     }
 

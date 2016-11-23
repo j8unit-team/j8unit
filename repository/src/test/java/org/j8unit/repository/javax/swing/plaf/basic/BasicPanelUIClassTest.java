@@ -42,6 +42,7 @@ implements BasicPanelUIClassTests<BasicPanelUI> {
     public void create_BasicPanelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicPanelUI sut = new BasicPanelUI();
     }
 

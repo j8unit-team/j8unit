@@ -42,6 +42,7 @@ implements HeadlessExceptionClassTests<HeadlessException> {
     public void create_HeadlessException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HeadlessException sut = new HeadlessException();
     }
 

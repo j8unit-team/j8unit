@@ -65,6 +65,7 @@ implements SimpleBindingsClassTests<SimpleBindings> {
     public void create_SimpleBindings()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleBindings sut = new SimpleBindings();
     }
 

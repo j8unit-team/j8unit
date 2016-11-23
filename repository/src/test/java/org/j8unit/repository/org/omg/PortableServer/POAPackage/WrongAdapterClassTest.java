@@ -43,6 +43,7 @@ implements WrongAdapterClassTests<WrongAdapter> {
     public void create_WrongAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongAdapter sut = new WrongAdapter();
     }
 

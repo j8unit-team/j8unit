@@ -42,6 +42,7 @@ implements StringValueHelperClassTests<StringValueHelper> {
     public void create_StringValueHelper()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringValueHelper sut = new StringValueHelper();
     }
 

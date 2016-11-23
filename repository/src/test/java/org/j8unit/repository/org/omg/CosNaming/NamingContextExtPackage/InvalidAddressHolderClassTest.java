@@ -69,6 +69,7 @@ implements InvalidAddressHolderClassTests<InvalidAddressHolder> {
     public void create_InvalidAddressHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAddressHolder sut = new InvalidAddressHolder();
     }
 

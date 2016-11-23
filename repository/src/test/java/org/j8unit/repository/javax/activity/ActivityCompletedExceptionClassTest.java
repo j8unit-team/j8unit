@@ -112,6 +112,7 @@ implements ActivityCompletedExceptionClassTests<ActivityCompletedException> {
     public void create_ActivityCompletedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ActivityCompletedException sut = new ActivityCompletedException();
     }
 

@@ -44,6 +44,7 @@ implements IllegalSelectorExceptionClassTests<IllegalSelectorException> {
     public void create_IllegalSelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalSelectorException sut = new IllegalSelectorException();
     }
 

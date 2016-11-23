@@ -43,6 +43,7 @@ implements ProviderMismatchExceptionClassTests<ProviderMismatchException> {
     public void create_ProviderMismatchException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ProviderMismatchException sut = new ProviderMismatchException();
     }
 

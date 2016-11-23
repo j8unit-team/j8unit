@@ -107,6 +107,7 @@ implements StringBufferClassTests<StringBuffer> {
     public void create_StringBuffer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringBuffer sut = new StringBuffer();
     }
 

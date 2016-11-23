@@ -42,6 +42,7 @@ implements SynthRootPaneUIClassTests<SynthRootPaneUI> {
     public void create_SynthRootPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthRootPaneUI sut = new SynthRootPaneUI();
     }
 

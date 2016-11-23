@@ -44,6 +44,7 @@ implements UnsupportedAudioFileExceptionClassTests<UnsupportedAudioFileException
     public void create_UnsupportedAudioFileException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedAudioFileException sut = new UnsupportedAudioFileException();
     }
 

@@ -43,6 +43,7 @@ implements DefaultTableColumnModelClassTests<DefaultTableColumnModel> {
     public void create_DefaultTableColumnModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTableColumnModel sut = new DefaultTableColumnModel();
     }
 

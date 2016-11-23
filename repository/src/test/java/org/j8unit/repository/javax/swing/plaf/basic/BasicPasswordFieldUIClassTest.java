@@ -43,6 +43,7 @@ implements BasicPasswordFieldUIClassTests<BasicPasswordFieldUI> {
     public void create_BasicPasswordFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicPasswordFieldUI sut = new BasicPasswordFieldUI();
     }
 

@@ -110,6 +110,7 @@ implements SAAJResultClassTests<SAAJResult> {
     public void create_SAAJResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAAJResult sut = new SAAJResult();
     }
 

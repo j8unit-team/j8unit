@@ -134,6 +134,7 @@ implements SQLDataExceptionClassTests<SQLDataException> {
     public void create_SQLDataException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLDataException sut = new SQLDataException();
     }
 

@@ -42,6 +42,7 @@ implements InputMapClassTests<InputMap> {
     public void create_InputMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputMap sut = new InputMap();
     }
 

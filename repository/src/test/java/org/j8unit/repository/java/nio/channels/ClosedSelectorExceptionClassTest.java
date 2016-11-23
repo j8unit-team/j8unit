@@ -43,6 +43,7 @@ implements ClosedSelectorExceptionClassTests<ClosedSelectorException> {
     public void create_ClosedSelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedSelectorException sut = new ClosedSelectorException();
     }
 

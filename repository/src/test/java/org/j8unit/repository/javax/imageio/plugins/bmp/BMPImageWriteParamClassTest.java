@@ -43,6 +43,7 @@ implements BMPImageWriteParamClassTests<BMPImageWriteParam> {
     public void create_BMPImageWriteParam()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BMPImageWriteParam sut = new BMPImageWriteParam();
     }
 

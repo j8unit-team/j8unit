@@ -109,6 +109,7 @@ implements JPanelClassTests<JPanel> {
     public void create_JPanel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPanel sut = new JPanel();
     }
 

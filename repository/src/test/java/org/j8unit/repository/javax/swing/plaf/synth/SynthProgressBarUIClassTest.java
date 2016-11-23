@@ -43,6 +43,7 @@ implements SynthProgressBarUIClassTests<SynthProgressBarUI> {
     public void create_SynthProgressBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthProgressBarUI sut = new SynthProgressBarUI();
     }
 

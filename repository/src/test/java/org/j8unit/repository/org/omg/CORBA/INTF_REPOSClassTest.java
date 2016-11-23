@@ -110,6 +110,7 @@ implements INTF_REPOSClassTests<INTF_REPOS> {
     public void create_INTF_REPOS()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INTF_REPOS sut = new INTF_REPOS();
     }
 

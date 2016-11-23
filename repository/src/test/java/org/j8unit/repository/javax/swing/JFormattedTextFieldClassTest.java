@@ -166,6 +166,7 @@ implements JFormattedTextFieldClassTests<JFormattedTextField> {
     public void create_JFormattedTextField()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JFormattedTextField sut = new JFormattedTextField();
     }
 

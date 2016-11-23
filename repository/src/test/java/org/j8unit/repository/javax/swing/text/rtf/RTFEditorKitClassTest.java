@@ -42,6 +42,7 @@ implements RTFEditorKitClassTests<RTFEditorKit> {
     public void create_RTFEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RTFEditorKit sut = new RTFEditorKit();
     }
 

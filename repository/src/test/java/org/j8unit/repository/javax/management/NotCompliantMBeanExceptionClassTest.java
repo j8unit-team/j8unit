@@ -44,6 +44,7 @@ implements NotCompliantMBeanExceptionClassTests<NotCompliantMBeanException> {
     public void create_NotCompliantMBeanException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotCompliantMBeanException sut = new NotCompliantMBeanException();
     }
 

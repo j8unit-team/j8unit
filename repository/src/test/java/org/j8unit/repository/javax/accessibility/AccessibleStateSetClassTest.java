@@ -43,6 +43,7 @@ implements AccessibleStateSetClassTests<AccessibleStateSet> {
     public void create_AccessibleStateSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccessibleStateSet sut = new AccessibleStateSet();
     }
 

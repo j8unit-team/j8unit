@@ -64,6 +64,7 @@ implements DoubleHolderClassTests<DoubleHolder> {
     public void create_DoubleHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleHolder sut = new DoubleHolder();
     }
 

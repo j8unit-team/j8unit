@@ -60,6 +60,7 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
     public void create_BasicTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTreeUI sut = new BasicTreeUI();
     }
 

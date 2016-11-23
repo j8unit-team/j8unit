@@ -43,6 +43,7 @@ implements InconsistentTypeCodeClassTests<InconsistentTypeCode> {
     public void create_InconsistentTypeCode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InconsistentTypeCode sut = new InconsistentTypeCode();
     }
 

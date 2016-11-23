@@ -64,6 +64,7 @@ implements BindExceptionClassTests<BindException> {
     public void create_BindException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindException sut = new BindException();
     }
 

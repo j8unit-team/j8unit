@@ -42,6 +42,7 @@ implements BindingClassTests<Binding> {
     public void create_Binding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Binding sut = new Binding();
     }
 

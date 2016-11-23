@@ -64,6 +64,7 @@ implements IORHolderClassTests<IORHolder> {
     public void create_IORHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IORHolder sut = new IORHolder();
     }
 

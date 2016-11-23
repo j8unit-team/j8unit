@@ -69,6 +69,7 @@ implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
     public void create_ReentrantReadWriteLock()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReentrantReadWriteLock sut = new ReentrantReadWriteLock();
     }
 

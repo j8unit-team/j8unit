@@ -66,6 +66,7 @@ implements WrongTransactionHolderClassTests<WrongTransactionHolder> {
     public void create_WrongTransactionHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongTransactionHolder sut = new WrongTransactionHolder();
     }
 

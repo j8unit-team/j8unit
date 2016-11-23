@@ -66,6 +66,7 @@ implements AtomicIntegerClassTests<AtomicInteger> {
     public void create_AtomicInteger()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicInteger sut = new AtomicInteger();
     }
 

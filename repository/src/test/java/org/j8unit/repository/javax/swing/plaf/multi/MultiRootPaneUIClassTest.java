@@ -42,6 +42,7 @@ implements MultiRootPaneUIClassTests<MultiRootPaneUI> {
     public void create_MultiRootPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiRootPaneUI sut = new MultiRootPaneUI();
     }
 

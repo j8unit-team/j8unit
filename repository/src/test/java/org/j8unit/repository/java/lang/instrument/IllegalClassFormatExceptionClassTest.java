@@ -44,6 +44,7 @@ implements IllegalClassFormatExceptionClassTests<IllegalClassFormatException> {
     public void create_IllegalClassFormatException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalClassFormatException sut = new IllegalClassFormatException();
     }
 

@@ -44,6 +44,7 @@ implements SchemaViolationExceptionClassTests<SchemaViolationException> {
     public void create_SchemaViolationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SchemaViolationException sut = new SchemaViolationException();
     }
 

@@ -42,6 +42,7 @@ implements EventListenerListClassTests<EventListenerList> {
     public void create_EventListenerList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EventListenerList sut = new EventListenerList();
     }
 

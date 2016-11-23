@@ -43,6 +43,7 @@ implements SynthLookAndFeelClassTests<SynthLookAndFeel> {
     public void create_SynthLookAndFeel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthLookAndFeel sut = new SynthLookAndFeel();
     }
 

@@ -65,6 +65,7 @@ implements StreamCorruptedExceptionClassTests<StreamCorruptedException> {
     public void create_StreamCorruptedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamCorruptedException sut = new StreamCorruptedException();
     }
 

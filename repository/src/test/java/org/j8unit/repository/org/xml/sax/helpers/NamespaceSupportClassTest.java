@@ -42,6 +42,7 @@ implements NamespaceSupportClassTests<NamespaceSupport> {
     public void create_NamespaceSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NamespaceSupport sut = new NamespaceSupport();
     }
 

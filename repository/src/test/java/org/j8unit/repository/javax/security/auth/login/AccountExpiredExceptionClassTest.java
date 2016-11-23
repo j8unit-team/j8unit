@@ -44,6 +44,7 @@ implements AccountExpiredExceptionClassTests<AccountExpiredException> {
     public void create_AccountExpiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccountExpiredException sut = new AccountExpiredException();
     }
 

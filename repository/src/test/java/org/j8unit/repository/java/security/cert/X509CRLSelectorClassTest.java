@@ -42,6 +42,7 @@ implements X509CRLSelectorClassTests<X509CRLSelector> {
     public void create_X509CRLSelector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final X509CRLSelector sut = new X509CRLSelector();
     }
 

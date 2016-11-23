@@ -64,6 +64,7 @@ implements SecureRandomClassTests<SecureRandom> {
     public void create_SecureRandom()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SecureRandom sut = new SecureRandom();
     }
 

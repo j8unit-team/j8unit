@@ -43,6 +43,7 @@ implements AclNotFoundExceptionClassTests<AclNotFoundException> {
     public void create_AclNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AclNotFoundException sut = new AclNotFoundException();
     }
 

@@ -43,6 +43,7 @@ implements DefaultBoundedRangeModelClassTests<DefaultBoundedRangeModel> {
     public void create_DefaultBoundedRangeModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultBoundedRangeModel sut = new DefaultBoundedRangeModel();
     }
 

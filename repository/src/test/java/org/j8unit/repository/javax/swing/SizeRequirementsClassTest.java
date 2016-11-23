@@ -42,6 +42,7 @@ implements SizeRequirementsClassTests<SizeRequirements> {
     public void create_SizeRequirements()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SizeRequirements sut = new SizeRequirements();
     }
 

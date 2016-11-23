@@ -64,6 +64,7 @@ implements Ellipse2DClassTests<Ellipse2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 
@@ -130,6 +131,7 @@ implements Ellipse2DClassTests<Ellipse2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 

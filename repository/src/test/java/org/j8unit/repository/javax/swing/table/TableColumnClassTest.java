@@ -64,6 +64,7 @@ implements TableColumnClassTests<TableColumn> {
     public void create_TableColumn()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TableColumn sut = new TableColumn();
     }
 

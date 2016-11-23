@@ -42,6 +42,7 @@ implements ServantObjectClassTests<ServantObject> {
     public void create_ServantObject()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServantObject sut = new ServantObject();
     }
 

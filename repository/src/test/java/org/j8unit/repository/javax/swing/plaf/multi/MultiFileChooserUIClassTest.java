@@ -43,6 +43,7 @@ implements MultiFileChooserUIClassTests<MultiFileChooserUI> {
     public void create_MultiFileChooserUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiFileChooserUI sut = new MultiFileChooserUI();
     }
 

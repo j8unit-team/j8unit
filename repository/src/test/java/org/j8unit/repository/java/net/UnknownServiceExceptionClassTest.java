@@ -42,6 +42,7 @@ implements UnknownServiceExceptionClassTests<UnknownServiceException> {
     public void create_UnknownServiceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownServiceException sut = new UnknownServiceException();
     }
 

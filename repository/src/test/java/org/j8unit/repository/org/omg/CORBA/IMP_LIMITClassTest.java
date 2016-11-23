@@ -110,6 +110,7 @@ implements IMP_LIMITClassTests<IMP_LIMIT> {
     public void create_IMP_LIMIT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IMP_LIMIT sut = new IMP_LIMIT();
     }
 

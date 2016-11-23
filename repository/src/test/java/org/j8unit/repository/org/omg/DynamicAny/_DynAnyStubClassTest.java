@@ -42,6 +42,7 @@ implements _DynAnyStubClassTests<_DynAnyStub> {
     public void create__DynAnyStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynAnyStub sut = new _DynAnyStub();
     }
 

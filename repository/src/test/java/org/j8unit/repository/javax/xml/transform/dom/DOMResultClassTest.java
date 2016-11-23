@@ -42,6 +42,7 @@ implements DOMResultClassTests<DOMResult> {
     public void create_DOMResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DOMResult sut = new DOMResult();
     }
 

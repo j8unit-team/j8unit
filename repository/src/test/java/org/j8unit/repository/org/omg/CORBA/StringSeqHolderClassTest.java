@@ -65,6 +65,7 @@ implements StringSeqHolderClassTests<StringSeqHolder> {
     public void create_StringSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringSeqHolder sut = new StringSeqHolder();
     }
 

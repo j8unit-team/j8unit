@@ -68,6 +68,7 @@ implements IORInterceptor_3_0HolderClassTests<IORInterceptor_3_0Holder> {
     public void create_IORInterceptor_3_0Holder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IORInterceptor_3_0Holder sut = new IORInterceptor_3_0Holder();
     }
 

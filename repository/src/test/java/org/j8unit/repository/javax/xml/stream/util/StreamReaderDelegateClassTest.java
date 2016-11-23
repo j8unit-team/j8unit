@@ -43,6 +43,7 @@ implements StreamReaderDelegateClassTests<StreamReaderDelegate> {
     public void create_StreamReaderDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamReaderDelegate sut = new StreamReaderDelegate();
     }
 

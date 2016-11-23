@@ -42,6 +42,7 @@ implements CheckboxGroupClassTests<CheckboxGroup> {
     public void create_CheckboxGroup()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CheckboxGroup sut = new CheckboxGroup();
     }
 

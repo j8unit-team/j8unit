@@ -64,6 +64,7 @@ implements TextFieldClassTests<TextField> {
     public void create_TextField()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TextField sut = new TextField();
     }
 

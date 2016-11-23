@@ -44,6 +44,7 @@ implements DocumentFilterClassTests<DocumentFilter> {
     public void create_DocumentFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DocumentFilter sut = new DocumentFilter();
     }
 

@@ -110,6 +110,7 @@ implements PrintExceptionClassTests<PrintException> {
     public void create_PrintException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrintException sut = new PrintException();
     }
 

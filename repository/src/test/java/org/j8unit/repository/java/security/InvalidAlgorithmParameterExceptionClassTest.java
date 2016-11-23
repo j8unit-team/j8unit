@@ -114,6 +114,7 @@ implements InvalidAlgorithmParameterExceptionClassTests<InvalidAlgorithmParamete
     public void create_InvalidAlgorithmParameterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAlgorithmParameterException sut = new InvalidAlgorithmParameterException();
     }
 

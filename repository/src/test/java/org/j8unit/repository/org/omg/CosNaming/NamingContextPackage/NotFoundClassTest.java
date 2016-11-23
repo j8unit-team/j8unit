@@ -43,6 +43,7 @@ implements NotFoundClassTests<NotFound> {
     public void create_NotFound()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotFound sut = new NotFound();
     }
 

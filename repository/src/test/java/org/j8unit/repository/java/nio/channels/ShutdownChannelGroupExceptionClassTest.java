@@ -44,6 +44,7 @@ implements ShutdownChannelGroupExceptionClassTests<ShutdownChannelGroupException
     public void create_ShutdownChannelGroupException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShutdownChannelGroupException sut = new ShutdownChannelGroupException();
     }
 

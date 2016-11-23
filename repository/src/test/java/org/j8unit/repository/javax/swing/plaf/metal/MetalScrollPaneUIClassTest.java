@@ -43,6 +43,7 @@ implements MetalScrollPaneUIClassTests<MetalScrollPaneUI> {
     public void create_MetalScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalScrollPaneUI sut = new MetalScrollPaneUI();
     }
 

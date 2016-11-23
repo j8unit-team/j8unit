@@ -139,6 +139,7 @@ implements SQLInvalidAuthorizationSpecExceptionClassTests<SQLInvalidAuthorizatio
     public void create_SQLInvalidAuthorizationSpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLInvalidAuthorizationSpecException sut = new SQLInvalidAuthorizationSpecException();
     }
 

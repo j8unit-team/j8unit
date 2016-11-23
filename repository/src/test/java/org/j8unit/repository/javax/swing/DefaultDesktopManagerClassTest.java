@@ -42,6 +42,7 @@ implements DefaultDesktopManagerClassTests<DefaultDesktopManager> {
     public void create_DefaultDesktopManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultDesktopManager sut = new DefaultDesktopManager();
     }
 

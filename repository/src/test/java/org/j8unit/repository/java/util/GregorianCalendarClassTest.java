@@ -180,6 +180,7 @@ implements GregorianCalendarClassTests<GregorianCalendar> {
     public void create_GregorianCalendar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GregorianCalendar sut = new GregorianCalendar();
     }
 

@@ -43,6 +43,7 @@ implements HandlerBaseClassTests<HandlerBase> {
     public void create_HandlerBase()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HandlerBase sut = new HandlerBase();
     }
 

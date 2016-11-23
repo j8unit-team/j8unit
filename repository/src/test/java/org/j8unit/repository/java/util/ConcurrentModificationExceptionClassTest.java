@@ -113,6 +113,7 @@ implements ConcurrentModificationExceptionClassTests<ConcurrentModificationExcep
     public void create_ConcurrentModificationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentModificationException sut = new ConcurrentModificationException();
     }
 

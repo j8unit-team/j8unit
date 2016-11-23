@@ -64,6 +64,7 @@ implements ObjIDClassTests<ObjID> {
     public void create_ObjID()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjID sut = new ObjID();
     }
 

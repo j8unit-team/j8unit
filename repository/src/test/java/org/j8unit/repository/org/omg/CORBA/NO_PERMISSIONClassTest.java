@@ -110,6 +110,7 @@ implements NO_PERMISSIONClassTests<NO_PERMISSION> {
     public void create_NO_PERMISSION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_PERMISSION sut = new NO_PERMISSION();
     }
 

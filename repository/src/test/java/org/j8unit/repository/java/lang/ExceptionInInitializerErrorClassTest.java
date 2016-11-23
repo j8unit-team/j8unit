@@ -87,6 +87,7 @@ implements ExceptionInInitializerErrorClassTests<ExceptionInInitializerError> {
     public void create_ExceptionInInitializerError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ExceptionInInitializerError sut = new ExceptionInInitializerError();
     }
 

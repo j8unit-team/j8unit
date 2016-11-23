@@ -42,6 +42,7 @@ implements StructMemberClassTests<StructMember> {
     public void create_StructMember()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StructMember sut = new StructMember();
     }
 

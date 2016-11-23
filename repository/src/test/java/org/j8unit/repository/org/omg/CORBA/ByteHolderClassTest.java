@@ -64,6 +64,7 @@ implements ByteHolderClassTests<ByteHolder> {
     public void create_ByteHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ByteHolder sut = new ByteHolder();
     }
 

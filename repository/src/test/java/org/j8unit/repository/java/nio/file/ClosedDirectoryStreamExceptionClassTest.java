@@ -44,6 +44,7 @@ implements ClosedDirectoryStreamExceptionClassTests<ClosedDirectoryStreamExcepti
     public void create_ClosedDirectoryStreamException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedDirectoryStreamException sut = new ClosedDirectoryStreamException();
     }
 

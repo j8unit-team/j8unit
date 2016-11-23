@@ -89,6 +89,7 @@ implements JToggleButtonClassTests<JToggleButton> {
     public void create_JToggleButton()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JToggleButton sut = new JToggleButton();
     }
 
@@ -246,6 +247,7 @@ implements JToggleButtonClassTests<JToggleButton> {
         public void create_ToggleButtonModel()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToggleButtonModel sut = new ToggleButtonModel();
         }
 

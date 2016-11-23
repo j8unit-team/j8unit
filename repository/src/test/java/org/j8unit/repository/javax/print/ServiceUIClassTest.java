@@ -42,6 +42,7 @@ implements ServiceUIClassTests<ServiceUI> {
     public void create_ServiceUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceUI sut = new ServiceUI();
     }
 

@@ -43,6 +43,7 @@ implements DynamicImplementationClassTests<DynamicImplementation> {
     public void create_DynamicImplementation()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DynamicImplementation sut = new DynamicImplementation();
     }
 

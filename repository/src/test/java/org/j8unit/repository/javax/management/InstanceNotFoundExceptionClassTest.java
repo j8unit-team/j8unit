@@ -44,6 +44,7 @@ implements InstanceNotFoundExceptionClassTests<InstanceNotFoundException> {
     public void create_InstanceNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstanceNotFoundException sut = new InstanceNotFoundException();
     }
 

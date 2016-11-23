@@ -111,6 +111,7 @@ implements WebServiceExceptionClassTests<WebServiceException> {
     public void create_WebServiceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WebServiceException sut = new WebServiceException();
     }
 

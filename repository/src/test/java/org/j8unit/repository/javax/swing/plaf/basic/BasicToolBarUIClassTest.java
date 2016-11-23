@@ -43,6 +43,7 @@ implements BasicToolBarUIClassTests<BasicToolBarUI> {
     public void create_BasicToolBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicToolBarUI sut = new BasicToolBarUI();
     }
 

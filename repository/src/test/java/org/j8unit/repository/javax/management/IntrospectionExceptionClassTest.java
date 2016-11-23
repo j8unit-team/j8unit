@@ -43,6 +43,7 @@ implements IntrospectionExceptionClassTests<IntrospectionException> {
     public void create_IntrospectionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IntrospectionException sut = new IntrospectionException();
     }
 

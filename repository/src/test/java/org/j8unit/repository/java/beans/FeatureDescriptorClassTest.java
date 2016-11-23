@@ -42,6 +42,7 @@ implements FeatureDescriptorClassTests<FeatureDescriptor> {
     public void create_FeatureDescriptor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FeatureDescriptor sut = new FeatureDescriptor();
     }
 

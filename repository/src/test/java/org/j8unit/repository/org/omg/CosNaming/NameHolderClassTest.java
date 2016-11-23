@@ -65,6 +65,7 @@ implements NameHolderClassTests<NameHolder> {
     public void create_NameHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameHolder sut = new NameHolder();
     }
 

@@ -65,6 +65,7 @@ implements ValueBaseHolderClassTests<ValueBaseHolder> {
     public void create_ValueBaseHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValueBaseHolder sut = new ValueBaseHolder();
     }
 

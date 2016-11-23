@@ -108,6 +108,7 @@ implements JSliderClassTests<JSlider> {
     public void create_JSlider()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSlider sut = new JSlider();
     }
 

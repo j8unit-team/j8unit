@@ -44,6 +44,7 @@ implements FileLockInterruptionExceptionClassTests<FileLockInterruptionException
     public void create_FileLockInterruptionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileLockInterruptionException sut = new FileLockInterruptionException();
     }
 

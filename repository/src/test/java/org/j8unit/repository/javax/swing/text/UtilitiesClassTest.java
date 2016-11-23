@@ -42,6 +42,7 @@ implements UtilitiesClassTests<Utilities> {
     public void create_Utilities()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Utilities sut = new Utilities();
     }
 

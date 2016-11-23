@@ -113,6 +113,7 @@ implements DatatypeConfigurationExceptionClassTests<DatatypeConfigurationExcepti
     public void create_DatatypeConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DatatypeConfigurationException sut = new DatatypeConfigurationException();
     }
 

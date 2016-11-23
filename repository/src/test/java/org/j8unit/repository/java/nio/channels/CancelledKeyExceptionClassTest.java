@@ -43,6 +43,7 @@ implements CancelledKeyExceptionClassTests<CancelledKeyException> {
     public void create_CancelledKeyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CancelledKeyException sut = new CancelledKeyException();
     }
 

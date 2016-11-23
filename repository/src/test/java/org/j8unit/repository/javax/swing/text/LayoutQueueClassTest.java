@@ -42,6 +42,7 @@ implements LayoutQueueClassTests<LayoutQueue> {
     public void create_LayoutQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LayoutQueue sut = new LayoutQueue();
     }
 

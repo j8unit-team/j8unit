@@ -110,6 +110,7 @@ implements UNKNOWNClassTests<UNKNOWN> {
     public void create_UNKNOWN()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UNKNOWN sut = new UNKNOWN();
     }
 

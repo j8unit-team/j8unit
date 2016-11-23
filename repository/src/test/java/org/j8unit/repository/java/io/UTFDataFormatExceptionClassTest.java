@@ -42,6 +42,7 @@ implements UTFDataFormatExceptionClassTests<UTFDataFormatException> {
     public void create_UTFDataFormatException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UTFDataFormatException sut = new UTFDataFormatException();
     }
 

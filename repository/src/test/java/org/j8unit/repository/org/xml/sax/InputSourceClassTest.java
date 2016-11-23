@@ -42,6 +42,7 @@ implements InputSourceClassTests<InputSource> {
     public void create_InputSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputSource sut = new InputSource();
     }
 

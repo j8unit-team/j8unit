@@ -110,6 +110,7 @@ implements OBJ_ADAPTERClassTests<OBJ_ADAPTER> {
     public void create_OBJ_ADAPTER()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OBJ_ADAPTER sut = new OBJ_ADAPTER();
     }
 

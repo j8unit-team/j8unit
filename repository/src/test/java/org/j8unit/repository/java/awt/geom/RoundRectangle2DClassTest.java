@@ -64,6 +64,7 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 
@@ -130,6 +131,7 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 

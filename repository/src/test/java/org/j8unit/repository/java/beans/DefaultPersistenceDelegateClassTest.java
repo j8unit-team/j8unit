@@ -66,6 +66,7 @@ implements DefaultPersistenceDelegateClassTests<DefaultPersistenceDelegate> {
     public void create_DefaultPersistenceDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultPersistenceDelegate sut = new DefaultPersistenceDelegate();
     }
 

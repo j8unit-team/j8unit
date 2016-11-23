@@ -42,6 +42,7 @@ implements ButtonGroupClassTests<ButtonGroup> {
     public void create_ButtonGroup()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ButtonGroup sut = new ButtonGroup();
     }
 

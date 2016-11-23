@@ -42,6 +42,7 @@ implements CompoundEditClassTests<CompoundEdit> {
     public void create_CompoundEdit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CompoundEdit sut = new CompoundEdit();
     }
 

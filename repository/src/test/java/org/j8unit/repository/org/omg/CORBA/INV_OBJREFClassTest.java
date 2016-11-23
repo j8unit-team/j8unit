@@ -110,6 +110,7 @@ implements INV_OBJREFClassTests<INV_OBJREF> {
     public void create_INV_OBJREF()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INV_OBJREF sut = new INV_OBJREF();
     }
 

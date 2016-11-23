@@ -42,6 +42,7 @@ implements Adler32ClassTests<Adler32> {
     public void create_Adler32()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Adler32 sut = new Adler32();
     }
 

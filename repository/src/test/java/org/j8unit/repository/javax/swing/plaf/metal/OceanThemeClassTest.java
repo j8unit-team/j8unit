@@ -42,6 +42,7 @@ implements OceanThemeClassTests<OceanTheme> {
     public void create_OceanTheme()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OceanTheme sut = new OceanTheme();
     }
 

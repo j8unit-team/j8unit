@@ -43,6 +43,7 @@ implements AttributeListImplClassTests<AttributeListImpl> {
     public void create_AttributeListImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeListImpl sut = new AttributeListImpl();
     }
 

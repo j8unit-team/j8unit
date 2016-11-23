@@ -44,6 +44,7 @@ implements org.j8unit.repository.javax.management.DefaultLoaderRepositoryClassTe
     public void create_DefaultLoaderRepository()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultLoaderRepository sut = new DefaultLoaderRepository();
     }
 

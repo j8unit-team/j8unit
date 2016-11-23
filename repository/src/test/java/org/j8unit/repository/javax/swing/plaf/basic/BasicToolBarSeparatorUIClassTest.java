@@ -44,6 +44,7 @@ implements BasicToolBarSeparatorUIClassTests<BasicToolBarSeparatorUI> {
     public void create_BasicToolBarSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicToolBarSeparatorUI sut = new BasicToolBarSeparatorUI();
     }
 

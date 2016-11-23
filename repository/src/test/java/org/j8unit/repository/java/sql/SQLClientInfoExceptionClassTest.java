@@ -140,6 +140,7 @@ implements SQLClientInfoExceptionClassTests<SQLClientInfoException> {
     public void create_SQLClientInfoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLClientInfoException sut = new SQLClientInfoException();
     }
 

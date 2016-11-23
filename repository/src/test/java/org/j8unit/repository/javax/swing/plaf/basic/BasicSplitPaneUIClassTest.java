@@ -52,6 +52,7 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
     public void create_BasicSplitPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicSplitPaneUI sut = new BasicSplitPaneUI();
     }
 

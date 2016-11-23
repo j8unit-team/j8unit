@@ -42,6 +42,7 @@ implements MultiMenuBarUIClassTests<MultiMenuBarUI> {
     public void create_MultiMenuBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiMenuBarUI sut = new MultiMenuBarUI();
     }
 

@@ -64,6 +64,7 @@ implements HashtableClassTests<Hashtable> {
     public void create_Hashtable()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Hashtable sut = new Hashtable();
     }
 

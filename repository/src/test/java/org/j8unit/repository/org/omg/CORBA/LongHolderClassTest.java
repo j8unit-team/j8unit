@@ -64,6 +64,7 @@ implements LongHolderClassTests<LongHolder> {
     public void create_LongHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LongHolder sut = new LongHolder();
     }
 

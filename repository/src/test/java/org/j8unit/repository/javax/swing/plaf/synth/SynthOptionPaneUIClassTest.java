@@ -43,6 +43,7 @@ implements SynthOptionPaneUIClassTests<SynthOptionPaneUI> {
     public void create_SynthOptionPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthOptionPaneUI sut = new SynthOptionPaneUI();
     }
 

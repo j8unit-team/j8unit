@@ -43,6 +43,7 @@ implements MetalComboBoxIconClassTests<MetalComboBoxIcon> {
     public void create_MetalComboBoxIcon()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalComboBoxIcon sut = new MetalComboBoxIcon();
     }
 

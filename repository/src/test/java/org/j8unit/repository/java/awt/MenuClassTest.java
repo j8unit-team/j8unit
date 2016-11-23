@@ -86,6 +86,7 @@ implements MenuClassTests<Menu> {
     public void create_Menu()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Menu sut = new Menu();
     }
 

@@ -67,6 +67,7 @@ implements DefaultColorSelectionModelClassTests<DefaultColorSelectionModel> {
     public void create_DefaultColorSelectionModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultColorSelectionModel sut = new DefaultColorSelectionModel();
     }
 

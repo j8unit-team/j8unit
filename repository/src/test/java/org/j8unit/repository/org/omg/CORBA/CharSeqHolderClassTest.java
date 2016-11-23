@@ -64,6 +64,7 @@ implements CharSeqHolderClassTests<CharSeqHolder> {
     public void create_CharSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CharSeqHolder sut = new CharSeqHolder();
     }
 

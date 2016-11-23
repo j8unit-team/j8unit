@@ -110,6 +110,7 @@ implements TIMEOUTClassTests<TIMEOUT> {
     public void create_TIMEOUT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TIMEOUT sut = new TIMEOUT();
     }
 

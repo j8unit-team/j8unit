@@ -67,6 +67,7 @@ implements DropTargetClassTests<DropTarget> {
     public void create_DropTarget()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DropTarget sut = new DropTarget();
     }
 

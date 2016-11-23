@@ -65,6 +65,7 @@ implements FixedHolderClassTests<FixedHolder> {
     public void create_FixedHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FixedHolder sut = new FixedHolder();
     }
 

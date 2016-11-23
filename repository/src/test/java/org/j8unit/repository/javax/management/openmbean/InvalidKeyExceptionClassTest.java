@@ -43,6 +43,7 @@ implements InvalidKeyExceptionClassTests<InvalidKeyException> {
     public void create_InvalidKeyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidKeyException sut = new InvalidKeyException();
     }
 

@@ -44,6 +44,7 @@ implements _RMIConnectionImpl_TieClassTests<_RMIConnectionImpl_Tie> {
     public void create__RMIConnectionImpl_Tie()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIConnectionImpl_Tie sut = new _RMIConnectionImpl_Tie();
     }
 

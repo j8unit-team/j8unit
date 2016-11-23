@@ -44,6 +44,7 @@ implements InvalidTypeForEncodingClassTests<InvalidTypeForEncoding> {
     public void create_InvalidTypeForEncoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTypeForEncoding sut = new InvalidTypeForEncoding();
     }
 

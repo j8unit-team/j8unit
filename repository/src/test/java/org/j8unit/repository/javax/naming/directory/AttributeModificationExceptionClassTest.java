@@ -67,6 +67,7 @@ implements AttributeModificationExceptionClassTests<AttributeModificationExcepti
     public void create_AttributeModificationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeModificationException sut = new AttributeModificationException();
     }
 

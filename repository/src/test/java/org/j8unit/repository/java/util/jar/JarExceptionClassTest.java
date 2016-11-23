@@ -42,6 +42,7 @@ implements JarExceptionClassTests<JarException> {
     public void create_JarException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JarException sut = new JarException();
     }
 

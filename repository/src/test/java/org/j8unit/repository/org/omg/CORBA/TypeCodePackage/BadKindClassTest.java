@@ -42,6 +42,7 @@ implements BadKindClassTests<BadKind> {
     public void create_BadKind()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BadKind sut = new BadKind();
     }
 

@@ -64,6 +64,7 @@ implements LinkExceptionClassTests<LinkException> {
     public void create_LinkException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkException sut = new LinkException();
     }
 

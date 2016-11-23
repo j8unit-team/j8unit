@@ -42,6 +42,7 @@ implements ServiceContextClassTests<ServiceContext> {
     public void create_ServiceContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceContext sut = new ServiceContext();
     }
 

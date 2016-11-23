@@ -44,6 +44,7 @@ implements UnsupportedDataTypeExceptionClassTests<UnsupportedDataTypeException> 
     public void create_UnsupportedDataTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedDataTypeException sut = new UnsupportedDataTypeException();
     }
 

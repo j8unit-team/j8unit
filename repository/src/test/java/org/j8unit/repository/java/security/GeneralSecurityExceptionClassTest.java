@@ -112,6 +112,7 @@ implements GeneralSecurityExceptionClassTests<GeneralSecurityException> {
     public void create_GeneralSecurityException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GeneralSecurityException sut = new GeneralSecurityException();
     }
 

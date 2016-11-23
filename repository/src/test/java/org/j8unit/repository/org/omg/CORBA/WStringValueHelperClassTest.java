@@ -42,6 +42,7 @@ implements WStringValueHelperClassTests<WStringValueHelper> {
     public void create_WStringValueHelper()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WStringValueHelper sut = new WStringValueHelper();
     }
 

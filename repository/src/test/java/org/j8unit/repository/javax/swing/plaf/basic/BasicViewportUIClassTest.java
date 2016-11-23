@@ -42,6 +42,7 @@ implements BasicViewportUIClassTests<BasicViewportUI> {
     public void create_BasicViewportUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicViewportUI sut = new BasicViewportUI();
     }
 

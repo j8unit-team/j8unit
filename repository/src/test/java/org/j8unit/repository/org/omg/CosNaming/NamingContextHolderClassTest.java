@@ -66,6 +66,7 @@ implements NamingContextHolderClassTests<NamingContextHolder> {
     public void create_NamingContextHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NamingContextHolder sut = new NamingContextHolder();
     }
 

@@ -156,6 +156,7 @@ implements JOptionPaneClassTests<JOptionPane> {
     public void create_JOptionPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JOptionPane sut = new JOptionPane();
     }
 

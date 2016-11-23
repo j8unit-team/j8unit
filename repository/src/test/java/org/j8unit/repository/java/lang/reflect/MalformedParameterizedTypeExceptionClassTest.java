@@ -44,6 +44,7 @@ implements MalformedParameterizedTypeExceptionClassTests<MalformedParameterizedT
     public void create_MalformedParameterizedTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedParameterizedTypeException sut = new MalformedParameterizedTypeException();
     }
 

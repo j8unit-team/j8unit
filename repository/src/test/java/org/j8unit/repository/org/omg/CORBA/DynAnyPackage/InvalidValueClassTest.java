@@ -43,6 +43,7 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTe
     public void create_InvalidValue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidValue sut = new InvalidValue();
     }
 

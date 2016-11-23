@@ -44,6 +44,7 @@ implements BasicPopupMenuSeparatorUIClassTests<BasicPopupMenuSeparatorUI> {
     public void create_BasicPopupMenuSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicPopupMenuSeparatorUI sut = new BasicPopupMenuSeparatorUI();
     }
 

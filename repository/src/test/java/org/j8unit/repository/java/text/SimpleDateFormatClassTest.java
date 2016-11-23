@@ -87,6 +87,7 @@ implements SimpleDateFormatClassTests<SimpleDateFormat> {
     public void create_SimpleDateFormat()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleDateFormat sut = new SimpleDateFormat();
     }
 

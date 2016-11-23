@@ -67,6 +67,7 @@ implements InsufficientResourcesExceptionClassTests<InsufficientResourcesExcepti
     public void create_InsufficientResourcesException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InsufficientResourcesException sut = new InsufficientResourcesException();
     }
 

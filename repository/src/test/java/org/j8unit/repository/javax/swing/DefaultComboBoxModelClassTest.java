@@ -42,6 +42,7 @@ implements DefaultComboBoxModelClassTests<DefaultComboBoxModel> {
     public void create_DefaultComboBoxModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultComboBoxModel sut = new DefaultComboBoxModel();
     }
 

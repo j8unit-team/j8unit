@@ -44,6 +44,7 @@ implements OperationNotSupportedExceptionClassTests<OperationNotSupportedExcepti
     public void create_OperationNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OperationNotSupportedException sut = new OperationNotSupportedException();
     }
 

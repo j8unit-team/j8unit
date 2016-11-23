@@ -44,6 +44,7 @@ implements MonitorSettingExceptionClassTests<MonitorSettingException> {
     public void create_MonitorSettingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MonitorSettingException sut = new MonitorSettingException();
     }
 

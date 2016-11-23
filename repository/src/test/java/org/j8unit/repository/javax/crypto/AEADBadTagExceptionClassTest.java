@@ -42,6 +42,7 @@ implements AEADBadTagExceptionClassTests<AEADBadTagException> {
     public void create_AEADBadTagException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AEADBadTagException sut = new AEADBadTagException();
     }
 

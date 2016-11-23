@@ -86,6 +86,7 @@ implements FlowViewClassTests<FlowView> {
         public void create_FlowStrategy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FlowStrategy sut = new FlowStrategy();
         }
 

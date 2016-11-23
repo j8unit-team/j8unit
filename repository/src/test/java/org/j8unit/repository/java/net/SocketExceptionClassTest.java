@@ -64,6 +64,7 @@ implements SocketExceptionClassTests<SocketException> {
     public void create_SocketException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SocketException sut = new SocketException();
     }
 

@@ -43,6 +43,7 @@ implements WrongPolicyClassTests<WrongPolicy> {
     public void create_WrongPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongPolicy sut = new WrongPolicy();
     }
 

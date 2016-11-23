@@ -44,6 +44,7 @@ implements NormalizedStringAdapterClassTests<NormalizedStringAdapter> {
     public void create_NormalizedStringAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NormalizedStringAdapter sut = new NormalizedStringAdapter();
     }
 
