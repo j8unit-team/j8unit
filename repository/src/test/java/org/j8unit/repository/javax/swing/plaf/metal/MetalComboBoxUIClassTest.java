@@ -176,6 +176,7 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
      */
 
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("deprecation")
     public static class MetalComboPopupClassTest
     implements MetalComboPopupClassTests<MetalComboPopup> {
 

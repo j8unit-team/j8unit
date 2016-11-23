@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class RegistryHandlerClassTest
 implements RegistryHandlerClassTests<RegistryHandler> {
 

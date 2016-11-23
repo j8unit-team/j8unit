@@ -48,6 +48,7 @@ import org.xml.sax.helpers.AttributeListImpl;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface AttributeListImplClassTests<SUT extends AttributeListImpl>
 extends AttributeListClassTests<SUT>, ObjectClassTests<SUT> {
 

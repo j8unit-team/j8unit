@@ -47,6 +47,7 @@ import org.xml.sax.Parser;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface ParserClassTests<SUT extends Parser>
 extends RepositoryClassTests<SUT> {
 

@@ -47,6 +47,7 @@ import org.xml.sax.HandlerBase;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface HandlerBaseClassTests<SUT extends HandlerBase>
 extends EntityResolverClassTests<SUT>, DTDHandlerClassTests<SUT>, DocumentHandlerClassTests<SUT>, ErrorHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 

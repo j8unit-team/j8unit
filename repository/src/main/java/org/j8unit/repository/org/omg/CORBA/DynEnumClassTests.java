@@ -46,6 +46,7 @@ import org.omg.CORBA.DynEnum;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynEnumClassTests<SUT extends DynEnum>
 extends DynAnyClassTests<SUT> {
 

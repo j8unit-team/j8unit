@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class CertificateTest
 implements org.j8unit.repository.java.security.CertificateTests<Certificate> {
 

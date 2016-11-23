@@ -27,6 +27,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface SignerTests<SUT extends Signer>
 extends IdentityTests<SUT> {
 

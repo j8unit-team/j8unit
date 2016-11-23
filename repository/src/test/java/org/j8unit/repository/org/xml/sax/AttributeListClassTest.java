@@ -10,6 +10,7 @@ import org.xml.sax.AttributeList;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class AttributeListClassTest
 implements AttributeListClassTests<AttributeList> {
 

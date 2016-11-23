@@ -11,6 +11,7 @@ import org.omg.CORBA.DynEnum;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynEnumTest
 implements org.j8unit.repository.org.omg.CORBA.DynEnumTests<DynEnum> {
 

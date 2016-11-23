@@ -10,6 +10,7 @@ import org.omg.CORBA.DynFixed;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynFixedClassTest
 implements org.j8unit.repository.org.omg.CORBA.DynFixedClassTests<DynFixed> {
 

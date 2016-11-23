@@ -27,6 +27,7 @@ import org.omg.CORBA.DynFixed;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynFixedTests<SUT extends DynFixed>
 extends DynAnyTests<SUT> {
 

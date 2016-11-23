@@ -14,6 +14,7 @@ import org.xml.sax.HandlerBase;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class HandlerBaseClassTest
 implements HandlerBaseClassTests<HandlerBase> {
 

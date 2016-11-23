@@ -28,6 +28,7 @@ import org.xml.sax.DocumentHandler;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DocumentHandlerTests<SUT extends DocumentHandler>
 extends RepositoryTests<SUT> {
 

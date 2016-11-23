@@ -48,6 +48,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface IdentityClassTests<SUT extends Identity>
 extends PrincipalClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 

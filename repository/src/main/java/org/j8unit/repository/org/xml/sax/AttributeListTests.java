@@ -28,6 +28,7 @@ import org.xml.sax.AttributeList;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface AttributeListTests<SUT extends AttributeList>
 extends RepositoryTests<SUT> {
 

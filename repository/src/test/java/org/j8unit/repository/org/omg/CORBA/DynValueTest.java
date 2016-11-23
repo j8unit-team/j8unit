@@ -11,6 +11,7 @@ import org.omg.CORBA.DynValue;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynValueTest
 implements DynValueTests<DynValue> {
 

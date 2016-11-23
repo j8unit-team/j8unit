@@ -14,6 +14,7 @@ import org.omg.CORBA.DynamicImplementation;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynamicImplementationClassTest
 implements DynamicImplementationClassTests<DynamicImplementation> {
 

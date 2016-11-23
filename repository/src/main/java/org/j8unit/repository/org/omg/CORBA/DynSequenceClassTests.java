@@ -46,6 +46,7 @@ import org.omg.CORBA.DynSequence;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynSequenceClassTests<SUT extends DynSequence>
 extends DynAnyClassTests<SUT> {
 

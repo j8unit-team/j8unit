@@ -13,6 +13,7 @@ import org.xml.sax.helpers.AttributeListImpl;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class AttributeListImplTest
 implements FactoryBasedJ8UnitTest<AttributeListImpl>, AttributeListImplTests<AttributeListImpl> {
 

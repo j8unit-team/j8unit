@@ -14,6 +14,7 @@ import org.omg.CORBA.Principal;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class PrincipalClassTest
 implements PrincipalClassTests<Principal> {
 

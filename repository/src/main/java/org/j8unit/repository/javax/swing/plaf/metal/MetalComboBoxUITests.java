@@ -416,6 +416,7 @@ extends BasicComboBoxUITests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
+    @SuppressWarnings("deprecation")
     public static abstract interface MetalComboPopupTests<SUT extends MetalComboPopup>
     extends BasicComboPopupTests<SUT> {
 

@@ -11,6 +11,7 @@ import org.omg.CORBA.DynSequence;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynSequenceTest
 implements org.j8unit.repository.org.omg.CORBA.DynSequenceTests<DynSequence> {
 

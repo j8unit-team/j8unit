@@ -47,6 +47,7 @@ import org.omg.CORBA.DynamicImplementation;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynamicImplementationClassTests<SUT extends DynamicImplementation>
 extends ObjectImplClassTests<SUT> {
 

@@ -28,6 +28,7 @@ import org.omg.CORBA.Principal;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface PrincipalTests<SUT extends Principal>
 extends ObjectTests<SUT> {
 

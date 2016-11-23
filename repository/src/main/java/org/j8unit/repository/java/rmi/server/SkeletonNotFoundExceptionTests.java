@@ -25,6 +25,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface SkeletonNotFoundExceptionTests<SUT extends SkeletonNotFoundException>
 extends RemoteExceptionTests<SUT> {
 

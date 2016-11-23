@@ -11,6 +11,7 @@ import org.xml.sax.helpers.ParserFactory;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class ParserFactoryTest
 implements ParserFactoryTests<ParserFactory> {
 

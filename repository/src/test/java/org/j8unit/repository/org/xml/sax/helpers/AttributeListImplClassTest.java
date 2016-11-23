@@ -14,6 +14,7 @@ import org.xml.sax.helpers.AttributeListImpl;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class AttributeListImplClassTest
 implements AttributeListImplClassTests<AttributeListImpl> {
 

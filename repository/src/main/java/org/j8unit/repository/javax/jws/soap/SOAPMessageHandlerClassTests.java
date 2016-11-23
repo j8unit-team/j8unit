@@ -47,6 +47,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface SOAPMessageHandlerClassTests<SUT extends SOAPMessageHandler>
 extends AnnotationClassTests<SUT> {
 

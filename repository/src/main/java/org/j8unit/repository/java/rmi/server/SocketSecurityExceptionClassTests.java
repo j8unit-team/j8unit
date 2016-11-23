@@ -46,6 +46,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface SocketSecurityExceptionClassTests<SUT extends SocketSecurityException>
 extends ExportExceptionClassTests<SUT> {
 

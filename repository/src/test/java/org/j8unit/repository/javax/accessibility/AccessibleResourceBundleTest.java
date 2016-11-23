@@ -13,6 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class AccessibleResourceBundleTest
 implements FactoryBasedJ8UnitTest<AccessibleResourceBundle>, AccessibleResourceBundleTests<AccessibleResourceBundle> {
 

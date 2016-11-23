@@ -46,6 +46,7 @@ import org.omg.CORBA.DynValue;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynValueClassTests<SUT extends DynValue>
 extends DynAnyClassTests<SUT> {
 

@@ -103,6 +103,7 @@ implements TableViewClassTests<TableView> {
      */
 
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("deprecation")
     public static class TableCellClassTest
     implements TableCellClassTests<TableCell> {
 

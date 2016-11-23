@@ -29,6 +29,7 @@ import org.omg.CORBA.PrincipalHolder;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface PrincipalHolderTests<SUT extends PrincipalHolder>
 extends StreamableTests<SUT>, ObjectTests<SUT> {
 

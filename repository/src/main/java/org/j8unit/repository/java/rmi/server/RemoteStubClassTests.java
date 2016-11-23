@@ -46,6 +46,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface RemoteStubClassTests<SUT extends RemoteStub>
 extends RemoteObjectClassTests<SUT> {
 

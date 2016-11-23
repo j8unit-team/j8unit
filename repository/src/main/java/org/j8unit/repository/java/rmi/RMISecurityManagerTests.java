@@ -25,6 +25,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface RMISecurityManagerTests<SUT extends RMISecurityManager>
 extends SecurityManagerTests<SUT> {
 

@@ -11,6 +11,7 @@ import org.omg.CORBA.DynUnion;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynUnionTest
 implements org.j8unit.repository.org.omg.CORBA.DynUnionTests<DynUnion> {
 

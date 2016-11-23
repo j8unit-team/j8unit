@@ -10,6 +10,7 @@ import org.xml.sax.Parser;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class ParserClassTest
 implements ParserClassTests<Parser> {
 

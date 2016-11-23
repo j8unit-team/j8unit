@@ -11,6 +11,7 @@ import org.xml.sax.DocumentHandler;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DocumentHandlerTest
 implements DocumentHandlerTests<DocumentHandler> {
 

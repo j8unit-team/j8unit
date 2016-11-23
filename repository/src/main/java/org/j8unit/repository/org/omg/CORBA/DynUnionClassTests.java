@@ -46,6 +46,7 @@ import org.omg.CORBA.DynUnion;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynUnionClassTests<SUT extends DynUnion>
 extends DynAnyClassTests<SUT> {
 

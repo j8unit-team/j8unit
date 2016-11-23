@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface AccessibleResourceBundleTests<SUT extends AccessibleResourceBundle>
 extends ListResourceBundleTests<SUT> {
 

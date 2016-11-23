@@ -46,6 +46,7 @@ import org.omg.CORBA.DynArray;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynArrayClassTests<SUT extends DynArray>
 extends DynAnyClassTests<SUT> {
 

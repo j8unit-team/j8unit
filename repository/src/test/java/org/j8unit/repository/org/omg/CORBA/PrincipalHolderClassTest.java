@@ -14,6 +14,7 @@ import org.omg.CORBA.PrincipalHolder;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class PrincipalHolderClassTest
 implements PrincipalHolderClassTests<PrincipalHolder> {
 

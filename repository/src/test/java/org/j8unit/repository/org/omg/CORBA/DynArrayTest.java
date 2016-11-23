@@ -11,6 +11,7 @@ import org.omg.CORBA.DynArray;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynArrayTest
 implements org.j8unit.repository.org.omg.CORBA.DynArrayTests<DynArray> {
 

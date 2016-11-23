@@ -55,6 +55,7 @@ implements TableViewTests<TableView> {
      */
 
     @RunWith(J8Unit4.class)
+    @SuppressWarnings("deprecation")
     public static class TableCellTest
     implements TableCellTests<TableCell> {
 

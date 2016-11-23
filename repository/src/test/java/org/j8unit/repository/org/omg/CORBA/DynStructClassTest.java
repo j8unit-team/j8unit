@@ -10,6 +10,7 @@ import org.omg.CORBA.DynStruct;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynStructClassTest
 implements DynStructClassTests<DynStruct> {
 

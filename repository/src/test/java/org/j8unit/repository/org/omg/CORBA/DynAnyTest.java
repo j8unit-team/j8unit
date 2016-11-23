@@ -11,6 +11,7 @@ import org.omg.CORBA.DynAny;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynAnyTest
 implements DynAnyTests<DynAny> {
 

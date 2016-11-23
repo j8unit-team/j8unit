@@ -181,6 +181,7 @@ extends BoxViewClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
+    @SuppressWarnings("deprecation")
     public static abstract interface TableCellClassTests<SUT extends TableCell>
     extends BoxViewClassTests<SUT> {
 

@@ -10,6 +10,7 @@ import org.omg.CORBA.DynArray;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynArrayClassTest
 implements org.j8unit.repository.org.omg.CORBA.DynArrayClassTests<DynArray> {
 

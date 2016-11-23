@@ -27,6 +27,7 @@ import org.omg.CORBA.DynStruct;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynStructTests<SUT extends DynStruct>
 extends DynAnyTests<SUT> {
 
