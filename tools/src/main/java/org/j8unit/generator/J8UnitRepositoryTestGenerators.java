@@ -514,10 +514,10 @@ implements J8UnitCodeGenerator {
                 out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
                 out.append(format("%spublic void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
                 out.append(format("%s%s// create new instance%n", indt, indent()));
+                out.append(format("%s%s@%s(\"unused\")%n", indt, indent(), renderer.originCanonicalNameOf(SuppressWarnings.class)));
                 if (constructor.getParameterCount() == 0) {
                     out.append(format("%s%s%s sut = new %s();", indt, indent(), typeName, typeName));
                 } else {
-                    out.append(format("%s%s@%s(\"unused\")%n", indt, indent(), renderer.originCanonicalNameOf(SuppressWarnings.class)));
                     out.append(format("%s%s%s sut = null; // = new %s;%n", indt, indent(), typeName, renderer.javadocNameOf(constructor).split("#")[1]));
                 }
                 out.append(format("%s}%n", indt));
