@@ -65,8 +65,7 @@ implements PipedWriterClassTests<PipedWriter> {
     public void create_PipedWriter()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final PipedWriter sut = new PipedWriter();
+        try (final PipedWriter sut = new PipedWriter()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedWriter]

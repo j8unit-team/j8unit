@@ -110,8 +110,7 @@ implements PipedReaderClassTests<PipedReader> {
     public void create_PipedReader()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final PipedReader sut = new PipedReader();
+        try (final PipedReader sut = new PipedReader()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedReader]

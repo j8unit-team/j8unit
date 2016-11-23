@@ -134,8 +134,7 @@ implements MLetClassTests<MLet> {
     public void create_MLet()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final MLet sut = new MLet();
+        try (final MLet sut = new MLet()) {}
     }
 
     /**

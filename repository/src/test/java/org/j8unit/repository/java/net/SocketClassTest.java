@@ -133,8 +133,7 @@ implements SocketClassTests<Socket> {
     public void create_Socket()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final Socket sut = new Socket();
+        try (final Socket sut = new Socket()) {}
     }
 
     /**

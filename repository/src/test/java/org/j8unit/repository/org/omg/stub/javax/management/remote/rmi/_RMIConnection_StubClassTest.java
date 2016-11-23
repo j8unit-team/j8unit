@@ -44,8 +44,7 @@ implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
     public void create__RMIConnection_Stub()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final _RMIConnection_Stub sut = new _RMIConnection_Stub();
+        try (final _RMIConnection_Stub sut = new _RMIConnection_Stub()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]

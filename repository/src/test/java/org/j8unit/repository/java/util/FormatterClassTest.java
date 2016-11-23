@@ -293,8 +293,7 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
     public void create_Formatter()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = new Formatter();
+        try (final Formatter sut = new Formatter()) {}
     }
 
     /**

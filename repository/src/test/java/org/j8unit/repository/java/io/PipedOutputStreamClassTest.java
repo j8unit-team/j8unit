@@ -65,8 +65,7 @@ implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutput
     public void create_PipedOutputStream()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final PipedOutputStream sut = new PipedOutputStream();
+        try (final PipedOutputStream sut = new PipedOutputStream()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedOutputStream]

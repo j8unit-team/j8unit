@@ -65,8 +65,7 @@ implements PipedInputStreamClassTests<PipedInputStream> {
     public void create_PipedInputStream()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final PipedInputStream sut = new PipedInputStream();
+        try (final PipedInputStream sut = new PipedInputStream()) {}
     }
 
     /**
