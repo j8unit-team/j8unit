@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class CardTerminalsClassTest
 implements CardTerminalsClassTests<CardTerminals> {
 

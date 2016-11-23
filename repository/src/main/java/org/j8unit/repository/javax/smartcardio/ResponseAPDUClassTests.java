@@ -48,6 +48,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface ResponseAPDUClassTests<SUT extends ResponseAPDU>
 extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 

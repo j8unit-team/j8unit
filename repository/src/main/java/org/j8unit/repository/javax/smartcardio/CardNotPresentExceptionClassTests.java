@@ -46,6 +46,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface CardNotPresentExceptionClassTests<SUT extends CardNotPresentException>
 extends CardExceptionClassTests<SUT> {
 

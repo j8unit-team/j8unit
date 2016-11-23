@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface TerminalFactoryTests<SUT extends TerminalFactory>
 extends ObjectTests<SUT> {
 

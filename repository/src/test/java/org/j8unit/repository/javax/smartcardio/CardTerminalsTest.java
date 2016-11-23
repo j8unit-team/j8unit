@@ -18,6 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class CardTerminalsTest
 implements CardTerminalsTests<CardTerminals> {
 

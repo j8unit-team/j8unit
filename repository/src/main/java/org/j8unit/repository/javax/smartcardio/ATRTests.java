@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
 
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface ATRTests<SUT extends ATR>
 extends SerializableTests<SUT>, ObjectTests<SUT> {
 

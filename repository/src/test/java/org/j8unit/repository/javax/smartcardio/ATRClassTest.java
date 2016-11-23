@@ -14,6 +14,7 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class ATRClassTest
 implements ATRClassTests<ATR> {
 
