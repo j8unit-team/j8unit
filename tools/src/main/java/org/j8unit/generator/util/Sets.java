@@ -54,7 +54,7 @@ public enum Sets {
      * @return a joined set of the given warnings
      */
     @SafeVarargs
-    public static final <T> Set<T> join(final Set<T> origin, final T... additionals) {
+    public static final <T> Set<T> join(final Set<? extends T> origin, final T... additionals) {
         return concat(origin.stream(), Stream.of(additionals)).collect(toSet());
     }
 
@@ -67,7 +67,7 @@ public enum Sets {
      *            the further warnings
      * @return a joined set of the given warnings
      */
-    public static final <T> Set<T> join(final Set<T> origin, final Iterable<T> additionals) {
+    public static final <T> Set<T> join(final Set<? extends T> origin, final Iterable<? extends T> additionals) {
         return concat(origin.stream(), StreamSupport.stream(additionals.spliterator(), false)).collect(toSet());
     }
 
@@ -80,7 +80,7 @@ public enum Sets {
      *            the further warnings
      * @return a joined set of the given warnings
      */
-    public static final <T> Set<T> join(final Set<T> origin, final Collection<T> additionals) {
+    public static final <T> Set<T> join(final Set<? extends T> origin, final Collection<? extends T> additionals) {
         return concat(origin.stream(), additionals.stream()).collect(toSet());
     }
 
