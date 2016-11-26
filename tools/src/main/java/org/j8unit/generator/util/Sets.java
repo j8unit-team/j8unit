@@ -40,7 +40,9 @@ public enum Sets {
      * @param <T>
      *            the type of the sets' elements
      * @return the merged set
+     * @deprecated Use {@link #join(Set, Collection)} instead!
      */
+    @Deprecated
     public static final <T> Set<T> merge(final Set<? extends T> x, final Set<? extends T> y) {
         return concat(x.stream(), y.stream()).collect(toSet());
     }
