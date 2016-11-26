@@ -16,6 +16,7 @@ import static org.j8unit.generator.util.BiFunctions.curryFirst;
 import static org.j8unit.generator.util.Java.diamond;
 import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Sets.join;
+import static org.j8unit.generator.util.Sets.reduce;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestMatchingParents;
 import static org.j8unit.generator.util.TypeAnalysis.redundantTypes;
 import java.lang.reflect.Constructor;
@@ -149,18 +150,17 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
     /**
      * This is the {@linkplain J8UnitCodeGenerator generator}'s modus operandi when
      * {@linkplain J8UnitCodeGenerator#generateSourceFile(Class, GeneratorUseControler, OriginRenderer, TargetRenderer)
-     * generating test-code} considering
-     * <em>{@linkplain AccessScope#CLASS class} based members (incl. {@link Constructor constructors})</em> of
-     * <em>{@linkplain TypeNatures#NON_GENERIC non-generic (pure)} envelope types.</em>.
+     * generating test-code} considering <em>{@linkplain AccessScope#CLASS class} based members (incl.
+     * {@link Constructor constructors})</em> of <em>{@linkplain TypeNatures#NON_GENERIC non-generic (pure)} envelope
+     * types.</em>.
      */
     NON_GENERIC_CLASS(NON_GENERIC, CLASS),
 
     /**
      * This is the {@linkplain J8UnitCodeGenerator generator}'s modus operandi when
      * {@linkplain J8UnitCodeGenerator#generateSourceFile(Class, GeneratorUseControler, OriginRenderer, TargetRenderer)
-     * generating test-code} considering
-     * <em>{@linkplain AccessScope#CLASS class} based members (incl. {@link Constructor constructors})</em> of
-     * <em>{@linkplain TypeNatures#GENERIC generic} envelope types.</em>.
+     * generating test-code} considering <em>{@linkplain AccessScope#CLASS class} based members (incl.
+     * {@link Constructor constructors})</em> of <em>{@linkplain TypeNatures#GENERIC generic} envelope types.</em>.
      */
     GENERIC_CLASS(GENERIC, CLASS) {
 
@@ -174,11 +174,17 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
     /**
      * This is the {@linkplain J8UnitCodeGenerator generator}'s modus operandi when
      * {@linkplain J8UnitCodeGenerator#generateSourceFile(Class, GeneratorUseControler, OriginRenderer, TargetRenderer)
-     * generating test-code} considering
-     * <em>{@linkplain AccessScope#CLASS class} based members (incl. {@link Constructor constructors})</em> of
-     * <em>{@linkplain TypeNatures#RAW raw} envelope types.</em>.
+     * generating test-code} considering <em>{@linkplain AccessScope#CLASS class} based members (incl.
+     * {@link Constructor constructors})</em> of <em>{@linkplain TypeNatures#RAW raw} envelope types.</em>.
      */
-    RAW_CLASS(RAW, CLASS);
+    RAW_CLASS(RAW, CLASS) {
+
+        @Override
+        public final Set<String> getWarnings() {
+            return reduce(super.getWarnings(), RAW.getWarnings());
+        }
+
+    };
 
     private final TypeNatures typeNatures;
 
