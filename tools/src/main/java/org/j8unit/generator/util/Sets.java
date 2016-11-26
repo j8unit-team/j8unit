@@ -4,9 +4,9 @@ import static java.util.Arrays.asList;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toSet;
 import static java.util.stream.Stream.concat;
+import static java.util.stream.StreamSupport.stream;
 import java.util.Collection;
 import java.util.Set;
-import java.util.stream.StreamSupport;
 
 /**
  * <p>
@@ -70,20 +70,7 @@ public enum Sets {
      * @return a joined set of the given warnings
      */
     public static final <T> Set<T> join(final Set<? extends T> origin, final Iterable<? extends T> additionals) {
-        return concat(origin.stream(), StreamSupport.stream(additionals.spliterator(), false)).collect(toSet());
-    }
-
-    /**
-     * Helper method to join some existing warnings with further warnings.
-     *
-     * @param origin
-     *            the existing warnings
-     * @param additionals
-     *            the further warnings
-     * @return a joined set of the given warnings
-     */
-    public static final <T> Set<T> join(final Set<? extends T> origin, final Collection<? extends T> additionals) {
-        return concat(origin.stream(), additionals.stream()).collect(toSet());
+        return concat(origin.stream(), stream(additionals.spliterator(), false)).collect(toSet());
     }
 
     /**
