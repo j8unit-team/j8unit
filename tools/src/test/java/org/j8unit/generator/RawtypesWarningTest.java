@@ -20,6 +20,7 @@ import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.Set;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
+import javax.xml.stream.XMLEventReader;
 import org.j8unit.generator.analysis.TypeNatures;
 import org.j8unit.generator.api.ModusOperandi;
 import org.j8unit.generator.api.render.ConciseOriginRenderer;
@@ -29,6 +30,34 @@ import org.junit.Test;
 public class RawtypesWarningTest {
 
     private static final OriginRenderer RENDERER = new ConciseOriginRenderer() {};
+
+    @Test
+    public void testWarningsOf_of_XMLEventReader()
+    throws Exception {
+        final Class<XMLEventReader> type = XMLEventReader.class;
+        final TypeNatures nature = TypeNatures.natureOf(type);
+        assertEquals(RAW, nature);
+        {
+            final ModusOperandi imo = ModusOperandi.valueOf(INSTANCE, type);
+            assertEquals(RAW_INSTANCE, imo);
+            final Set<String> iwarnings = imo.getWarnings();
+            assertEquals(singleton("rawtypes"), iwarnings);
+            final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
+            assertEquals(singleton("rawtypes"), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals(format("@SuppressWarnings(\"rawtypes\")%n"), string);
+        }
+        {
+            final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
+            assertEquals(RAW_CLASS, cmo);
+            final Set<String> cwarnings = cmo.getWarnings();
+            assertEquals(emptySet(), cwarnings);
+            final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
+            assertEquals(emptySet(), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
+        }
+    }
 
     /**
      * Top-level generic types
