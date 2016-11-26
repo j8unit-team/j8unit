@@ -1,5 +1,6 @@
 package org.j8unit.generator.util;
 
+import static java.util.Arrays.asList;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toSet;
 import static java.util.stream.Stream.concat;
@@ -82,6 +83,21 @@ public enum Sets {
      */
     public static final <T> Set<T> join(final Set<? extends T> origin, final Collection<? extends T> additionals) {
         return concat(origin.stream(), additionals.stream()).collect(toSet());
+    }
+
+    /**
+     * TODO: JavDoc
+     */
+    @SafeVarargs
+    public static final <T> Set<T> reduce(final Set<? extends T> origin, final T... subtractionals) {
+        return reduce(origin, asList(subtractionals));
+    }
+
+    /**
+     * TODO: JavDoc
+     */
+    public static final <T> Set<T> reduce(final Set<? extends T> origin, final Collection<? extends T> subtractionals) {
+        return origin.stream().filter(e -> !subtractionals.contains(e)).collect(toSet());
     }
 
 }
