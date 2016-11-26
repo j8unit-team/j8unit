@@ -243,8 +243,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             out.append(format("%s%sreturn %s(%s);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
                               renderer.originCanonicalClassOf(type)));
             out.append(format("%s}%n", indt));
@@ -263,8 +263,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             final String data = instances.stream() //
                                          .map(f -> renderer.originCanonicalNameOf(type) + "." + f.getName()) //
                                          .collect(joining(format(", //%n%s%s", indt, indent(1 + 6))));
@@ -372,8 +372,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s<%s>> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(Callable.class), renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             out.append(format("%s%sreturn %s(%s::new);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
                               renderer.originCanonicalNameOf(type)));
             out.append(format("%s}%n", indt));
