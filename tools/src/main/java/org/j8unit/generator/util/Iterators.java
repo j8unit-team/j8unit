@@ -1,8 +1,12 @@
 package org.j8unit.generator.util;
 
 import static java.util.Objects.requireNonNull;
+import static java.util.Spliterators.spliteratorUnknownSize;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.StreamSupport.stream;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
@@ -53,6 +57,10 @@ public enum Iterators {
             }
 
         };
+    }
+
+    public static final <T, R> Iterator<R> replaceAll(final Iterator<T> iterator, final Function<T, R> operator) {
+        return stream(spliteratorUnknownSize(iterator, 0), false).map(operator).collect(toList()).iterator();
     }
 
 }
