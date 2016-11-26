@@ -6,7 +6,6 @@ import static java.util.stream.Collectors.toSet;
 import static java.util.stream.Stream.concat;
 import java.util.Collection;
 import java.util.Set;
-import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 /**
@@ -58,7 +57,7 @@ public enum Sets {
      */
     @SafeVarargs
     public static final <T> Set<T> join(final Set<? extends T> origin, final T... additionals) {
-        return concat(origin.stream(), Stream.of(additionals)).collect(toSet());
+        return concat(origin.stream(), stream(additionals)).collect(toSet());
     }
 
     /**
