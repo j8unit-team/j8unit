@@ -19,10 +19,12 @@ import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_SYNTHETIC_METHOD;
+import static org.j8unit.generator.util.Iterators.replaceAll;
 import static org.j8unit.generator.util.Java.diamond;
 import static org.j8unit.generator.util.OptionalString.ofEmptyable;
 import static org.j8unit.generator.util.Optionals.optionalise;
 import static org.j8unit.generator.util.Strings.csv;
+import static org.j8unit.generator.util.TypeAnalysis.classHierarchy;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -133,7 +135,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Interface Declaration
@@ -183,7 +185,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
@@ -308,7 +310,7 @@ implements J8UnitCodeGenerator {
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Parameterized.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
             // content creation: @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -417,7 +419,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Class Declaration
