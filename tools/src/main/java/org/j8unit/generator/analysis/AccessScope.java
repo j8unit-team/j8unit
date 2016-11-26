@@ -20,6 +20,7 @@ import org.j8unit.J8UnitTest;
 import org.j8unit.generator.api.BaseTestClassSupplier;
 import org.j8unit.generator.api.BasicTestClassStatements;
 import org.j8unit.generator.api.BasicTestInterfaceStatements;
+import org.j8unit.generator.api.ModusOperandi;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
 import org.j8unit.generator.util.Mismatcher;
@@ -217,6 +218,17 @@ implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatemen
     public final String getTestClassBaseTypeDefinition(final OriginRenderer renderer, final @SuppressWarnings("rawtypes") Class<? extends J8UnitTest> base,
                                                        final Class<?> clazz) {
         return this.getTestClassBaseTypeDefinition.apply(renderer, new SimpleImmutableEntry<>(base, clazz));
+    }
+
+    /**
+     * Returns the {@link ModusOperandi} for the given {@code type} and {@code this} {@link AccessScope}.
+     *
+     * @param type
+     *            the given Java type
+     * @return the according {@code ModusOperandi}
+     */
+    public final ModusOperandi modusOperandiFor(final Class<?> type) {
+        return ModusOperandi.valueOf(this, type);
     }
 
 }
