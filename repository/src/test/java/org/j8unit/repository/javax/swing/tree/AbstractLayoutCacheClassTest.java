@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractLayoutCache} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractLayoutCacheClassTest
 implements AbstractLayoutCacheClassTests<AbstractLayoutCache> {
@@ -56,7 +55,6 @@ implements AbstractLayoutCacheClassTests<AbstractLayoutCache> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NodeDimensionsClassTest
     implements NodeDimensionsClassTests<NodeDimensions> {

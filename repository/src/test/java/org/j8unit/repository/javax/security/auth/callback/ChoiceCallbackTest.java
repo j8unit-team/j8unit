@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ChoiceCallback} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ChoiceCallbackTest
 implements ChoiceCallbackTests<ChoiceCallback> {

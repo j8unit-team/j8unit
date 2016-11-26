@@ -12,7 +12,6 @@ import org.omg.CORBA._PolicyStub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _PolicyStub} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA._PolicyStubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _PolicyStubClassTest
 implements _PolicyStubClassTests<_PolicyStub> {

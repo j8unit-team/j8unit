@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlElementRef} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlElementRefClassTest
 implements XmlElementRefClassTests<XmlElementRef> {
@@ -34,7 +33,6 @@ implements XmlElementRefClassTests<XmlElementRef> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTests.DEFAULTClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefClassTests.DEFAULTClassTests<DEFAULT> {

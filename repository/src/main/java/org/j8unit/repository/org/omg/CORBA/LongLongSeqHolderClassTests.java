@@ -45,7 +45,6 @@ import org.omg.CORBA.LongLongSeqHolder;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongLongSeqHolderClassTests<SUT extends LongLongSeqHolder>

@@ -9,7 +9,6 @@ import org.omg.PortableInterceptor.ServerRequestInterceptorOperations;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServerRequestInterceptorOperationsClassTest
 implements ServerRequestInterceptorOperationsClassTests<ServerRequestInterceptorOperations> {

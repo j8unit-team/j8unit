@@ -14,7 +14,6 @@ import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.AddressHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AddressHelperClassTest
 implements AddressHelperClassTests<AddressHelper> {

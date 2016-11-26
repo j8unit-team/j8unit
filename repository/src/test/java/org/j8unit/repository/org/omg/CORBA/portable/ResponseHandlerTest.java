@@ -9,7 +9,6 @@ import org.omg.CORBA.portable.ResponseHandler;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ResponseHandler} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.ResponseHandlerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ResponseHandlerTest
 implements ResponseHandlerTests<ResponseHandler> {

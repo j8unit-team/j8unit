@@ -44,7 +44,6 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceed;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CannotProceedClassTests<SUT extends CannotProceed>

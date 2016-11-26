@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link BiFunction} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.function.BiFunctionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BiFunctionTest<T, U, R>
 implements BiFunctionTests<BiFunction<T, U, R>, T, U, R> {

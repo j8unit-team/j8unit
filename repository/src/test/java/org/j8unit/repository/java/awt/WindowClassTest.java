@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Window} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.WindowClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WindowClassTest
 implements WindowClassTests<Window> {
@@ -140,7 +139,6 @@ implements WindowClassTests<Window> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.WindowClassTests.TypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.java.awt.WindowClassTests.TypeClassTests<Type> {

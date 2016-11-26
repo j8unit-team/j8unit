@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JFormattedTextFieldClassTests<SUT extends JFormattedTextField>
@@ -114,7 +113,6 @@ extends JTextFieldClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractFormatterFactoryClassTests<SUT extends AbstractFormatterFactory>
@@ -181,7 +179,6 @@ extends JTextFieldClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractFormatterClassTests<SUT extends AbstractFormatter>

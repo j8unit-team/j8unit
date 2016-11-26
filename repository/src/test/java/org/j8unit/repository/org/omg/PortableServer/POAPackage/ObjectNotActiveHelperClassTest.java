@@ -14,7 +14,6 @@ import org.omg.PortableServer.POAPackage.ObjectNotActiveHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActiveHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectNotActiveHelperClassTest
 implements ObjectNotActiveHelperClassTests<ObjectNotActiveHelper> {

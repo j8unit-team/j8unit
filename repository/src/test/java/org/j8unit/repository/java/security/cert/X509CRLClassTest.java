@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link X509CRL} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.security.cert.X509CRLClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class X509CRLClassTest
 implements X509CRLClassTests<X509CRL> {

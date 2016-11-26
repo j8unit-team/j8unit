@@ -26,7 +26,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongStreamTests<SUT extends LongStream>
@@ -825,7 +824,6 @@ extends BaseStreamTests<SUT, Long, LongStream> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends Builder>

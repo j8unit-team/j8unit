@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.standard.DialogTypeSelectionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DialogTypeSelectionClassTest
 implements DialogTypeSelectionClassTests<DialogTypeSelection> {

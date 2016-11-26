@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TooManyListenersException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.util.TooManyListenersExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TooManyListenersExceptionClassTest
 implements TooManyListenersExceptionClassTests<TooManyListenersException> {

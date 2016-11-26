@@ -30,7 +30,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JComboBoxTests<SUT extends JComboBox<E>, E>
@@ -1433,7 +1432,6 @@ extends ItemSelectableTests<SUT>, ListDataListenerTests<SUT>, ActionListenerTest
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySelectionManagerTests<SUT extends KeySelectionManager>

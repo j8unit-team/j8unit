@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DataLine} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.sound.sampled.DataLineClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DataLineClassTest
 implements DataLineClassTests<DataLine> {
@@ -33,7 +32,6 @@ implements DataLineClassTests<DataLine> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Info} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.sound.sampled.DataLineClassTests.InfoClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests.InfoClassTests<Info> {

@@ -34,7 +34,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalIconFactoryTests<SUT extends MetalIconFactory>
@@ -63,7 +62,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FolderIcon16Tests<SUT extends FolderIcon16>
@@ -213,7 +211,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeLeafIconTests<SUT extends TreeLeafIcon>
@@ -292,7 +289,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FileIcon16Tests<SUT extends FileIcon16>
@@ -442,7 +438,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeFolderIconTests<SUT extends TreeFolderIcon>
@@ -521,7 +516,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PaletteCloseIconTests<SUT extends PaletteCloseIcon>
@@ -625,7 +619,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeControlIconTests<SUT extends TreeControlIcon>

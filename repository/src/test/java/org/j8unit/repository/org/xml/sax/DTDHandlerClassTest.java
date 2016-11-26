@@ -8,7 +8,6 @@ import org.xml.sax.DTDHandler;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DTDHandler} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.xml.sax.DTDHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DTDHandlerClassTest
 implements DTDHandlerClassTests<DTDHandler> {

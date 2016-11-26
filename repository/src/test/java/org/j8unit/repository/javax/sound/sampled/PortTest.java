@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Port} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.sound.sampled.PortTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PortTest
 implements PortTests<Port> {
@@ -36,7 +35,6 @@ implements PortTests<Port> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Info} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.PortTests.InfoTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class InfoTest

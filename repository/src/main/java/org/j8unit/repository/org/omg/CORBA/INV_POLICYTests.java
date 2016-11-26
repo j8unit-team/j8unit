@@ -21,7 +21,6 @@ import org.omg.CORBA.INV_POLICY;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_POLICYTests<SUT extends INV_POLICY>

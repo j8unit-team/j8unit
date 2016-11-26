@@ -26,7 +26,6 @@ import org.omg.PortableServer.LifespanPolicyValue;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LifespanPolicyValueTests<SUT extends LifespanPolicyValue>

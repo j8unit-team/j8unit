@@ -29,7 +29,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicToolBarUITests<SUT extends BasicToolBarUI>
@@ -358,7 +357,6 @@ extends SwingConstantsTests<SUT>, ToolBarUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DockingListenerTests<SUT extends DockingListener>

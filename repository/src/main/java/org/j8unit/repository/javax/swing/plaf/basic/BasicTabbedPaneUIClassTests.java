@@ -57,7 +57,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTabbedPaneUIClassTests<SUT extends BasicTabbedPaneUI>
@@ -122,7 +121,6 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TabSelectionHandlerClassTests<SUT extends TabSelectionHandler>
@@ -189,7 +187,6 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TabbedPaneLayoutClassTests<SUT extends TabbedPaneLayout>
@@ -256,7 +253,6 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends FocusHandler>
@@ -323,7 +319,6 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
@@ -390,7 +385,6 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseHandlerClassTests<SUT extends MouseHandler>

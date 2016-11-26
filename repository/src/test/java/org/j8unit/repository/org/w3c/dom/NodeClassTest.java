@@ -8,7 +8,6 @@ import org.w3c.dom.Node;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Node} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.org.w3c.dom.NodeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NodeClassTest
 implements NodeClassTests<Node> {

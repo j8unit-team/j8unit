@@ -44,7 +44,6 @@ import org.xml.sax.ext.DefaultHandler2;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHandler2ClassTests<SUT extends DefaultHandler2>

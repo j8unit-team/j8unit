@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicFormattedTextFieldUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicFormattedTextFieldUIClassTest
 implements BasicFormattedTextFieldUIClassTests<BasicFormattedTextFieldUI> {

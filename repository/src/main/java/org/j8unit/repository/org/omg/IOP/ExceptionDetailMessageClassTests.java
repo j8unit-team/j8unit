@@ -44,7 +44,6 @@ import org.omg.IOP.ExceptionDetailMessage;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExceptionDetailMessageClassTests<SUT extends ExceptionDetailMessage>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PixelGrabber} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.image.PixelGrabberClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PixelGrabberClassTest
 implements PixelGrabberClassTests<PixelGrabber> {

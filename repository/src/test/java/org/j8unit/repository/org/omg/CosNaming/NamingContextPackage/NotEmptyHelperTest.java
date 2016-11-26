@@ -9,7 +9,6 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link NotEmptyHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotEmptyHelperTest
 implements NotEmptyHelperTests<NotEmptyHelper> {

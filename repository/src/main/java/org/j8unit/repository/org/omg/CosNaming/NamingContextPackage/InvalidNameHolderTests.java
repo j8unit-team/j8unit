@@ -26,7 +26,6 @@ import org.omg.CosNaming.NamingContextPackage.InvalidNameHolder;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameHolderTests<SUT extends InvalidNameHolder>

@@ -14,7 +14,6 @@ import org.omg.PortableServer.ServantRetentionPolicyValue;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyValueTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServantRetentionPolicyValueTest

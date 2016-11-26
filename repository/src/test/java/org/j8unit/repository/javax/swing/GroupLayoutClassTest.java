@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link GroupLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GroupLayoutClassTest
 implements GroupLayoutClassTests<GroupLayout> {
@@ -59,7 +58,6 @@ implements GroupLayoutClassTests<GroupLayout> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Alignment} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.AlignmentClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AlignmentClassTest
     implements AlignmentClassTests<Alignment> {
@@ -122,7 +120,6 @@ implements GroupLayoutClassTests<GroupLayout> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link ParallelGroup} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.ParallelGroupClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParallelGroupClassTest
     implements ParallelGroupClassTests<ParallelGroup> {
@@ -144,7 +141,6 @@ implements GroupLayoutClassTests<GroupLayout> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Group} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class GroupClassTest
     implements GroupClassTests<Group> {
@@ -167,7 +163,6 @@ implements GroupLayoutClassTests<GroupLayout> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SequentialGroupClassTest
     implements SequentialGroupClassTests<SequentialGroup> {

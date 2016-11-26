@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.lang.reflect.MalformedParametersExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MalformedParametersExceptionClassTest
 implements MalformedParametersExceptionClassTests<MalformedParametersException> {

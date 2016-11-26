@@ -22,7 +22,6 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotEmptyHelperTests<SUT extends NotEmptyHelper>

@@ -13,7 +13,6 @@ import org.omg.CORBA.SetOverrideTypeHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SetOverrideTypeHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.SetOverrideTypeHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SetOverrideTypeHelperClassTest
 implements SetOverrideTypeHelperClassTests<SetOverrideTypeHelper> {

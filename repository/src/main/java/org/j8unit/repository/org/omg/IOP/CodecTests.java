@@ -23,7 +23,6 @@ import org.omg.IOP.Codec;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CodecTests<SUT extends Codec>

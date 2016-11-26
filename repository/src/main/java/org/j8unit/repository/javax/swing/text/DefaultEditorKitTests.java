@@ -32,7 +32,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultEditorKitTests<SUT extends DefaultEditorKit>
@@ -277,7 +276,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertBreakActionTests<SUT extends InsertBreakAction>
@@ -332,7 +330,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultKeyTypedActionTests<SUT extends DefaultKeyTypedAction>
@@ -388,7 +385,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertTabActionTests<SUT extends InsertTabAction>
@@ -443,7 +439,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CutActionTests<SUT extends CutAction>
@@ -498,7 +493,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertContentActionTests<SUT extends InsertContentAction>
@@ -554,7 +548,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasteActionTests<SUT extends PasteAction>
@@ -609,7 +602,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BeepActionTests<SUT extends BeepAction>
@@ -664,7 +656,6 @@ extends EditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CopyActionTests<SUT extends CopyAction>

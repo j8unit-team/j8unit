@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.UnknownFormatConversionExceptionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownFormatConversionExceptionTest
 implements UnknownFormatConversionExceptionTests<UnknownFormatConversionException> {

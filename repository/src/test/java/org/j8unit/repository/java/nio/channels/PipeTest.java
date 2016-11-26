@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Pipe} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.nio.channels.PipeTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PipeTest
 implements PipeTests<Pipe> {
@@ -31,7 +30,6 @@ implements PipeTests<Pipe> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SourceChannel} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SourceChannelTest
     implements SourceChannelTests<SourceChannel> {
@@ -53,7 +51,6 @@ implements PipeTests<Pipe> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SinkChannel} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SinkChannelTest
     implements SinkChannelTests<SinkChannel> {

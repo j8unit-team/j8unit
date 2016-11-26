@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link State} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.plaf.nimbus.StateTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StateTest<T extends JComponent>
 implements org.j8unit.repository.javax.swing.plaf.nimbus.StateTests<State<T>, T> {

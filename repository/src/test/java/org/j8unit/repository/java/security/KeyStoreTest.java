@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyStore} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeyStoreTest
 implements KeyStoreTests<KeyStore> {
@@ -40,7 +39,6 @@ implements KeyStoreTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PrivateKeyEntryTest
     implements PrivateKeyEntryTests<PrivateKeyEntry> {
@@ -62,7 +60,6 @@ implements KeyStoreTests<KeyStore> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SecretKeyEntry} (by simply
      * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SecretKeyEntryTest
     implements SecretKeyEntryTests<SecretKeyEntry> {
@@ -84,7 +81,6 @@ implements KeyStoreTests<KeyStore> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreTests.BuilderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderTest
     implements org.j8unit.repository.java.security.KeyStoreTests.BuilderTests<Builder> {
@@ -106,7 +102,6 @@ implements KeyStoreTests<KeyStore> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Entry} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EntryTest
     implements EntryTests<Entry> {
@@ -127,7 +122,6 @@ implements KeyStoreTests<KeyStore> {
          * the J8Unit test interface
          * {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class AttributeTest
         implements org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests<Attribute> {
@@ -152,7 +146,6 @@ implements KeyStoreTests<KeyStore> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TrustedCertificateEntryTest
     implements TrustedCertificateEntryTests<TrustedCertificateEntry> {
@@ -175,7 +168,6 @@ implements KeyStoreTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PasswordProtectionTest
     implements PasswordProtectionTests<PasswordProtection> {
@@ -198,7 +190,6 @@ implements KeyStoreTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LoadStoreParameterTest
     implements LoadStoreParameterTests<LoadStoreParameter> {
@@ -221,7 +212,6 @@ implements KeyStoreTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ProtectionParameterTest
     implements ProtectionParameterTests<ProtectionParameter> {
@@ -244,7 +234,6 @@ implements KeyStoreTests<KeyStore> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CallbackHandlerProtectionTest
     implements CallbackHandlerProtectionTests<CallbackHandlerProtection> {

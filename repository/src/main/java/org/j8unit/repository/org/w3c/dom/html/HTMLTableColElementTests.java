@@ -24,7 +24,6 @@ import org.w3c.dom.html.HTMLTableColElement;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLTableColElementTests<SUT extends HTMLTableColElement>

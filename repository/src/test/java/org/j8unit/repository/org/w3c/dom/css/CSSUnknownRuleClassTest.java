@@ -8,7 +8,6 @@ import org.w3c.dom.css.CSSUnknownRule;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CSSUnknownRule} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.CSSUnknownRuleClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CSSUnknownRuleClassTest
 implements CSSUnknownRuleClassTests<CSSUnknownRule> {

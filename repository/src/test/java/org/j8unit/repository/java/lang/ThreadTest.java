@@ -44,7 +44,6 @@ implements FactoryBasedJ8UnitTest<Thread>, ThreadTests<Thread> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UncaughtExceptionHandlerTest
     implements UncaughtExceptionHandlerTests<UncaughtExceptionHandler> {
@@ -66,7 +65,6 @@ implements FactoryBasedJ8UnitTest<Thread>, ThreadTests<Thread> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link State} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.ThreadTests.StateTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateTest

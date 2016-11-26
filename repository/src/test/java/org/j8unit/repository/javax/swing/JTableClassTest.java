@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JTable} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JTableClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JTableClassTest
 implements JTableClassTests<JTable> {
@@ -215,7 +214,6 @@ implements JTableClassTests<JTable> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests<DropLocation> {
@@ -237,7 +235,6 @@ implements JTableClassTests<JTable> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link PrintMode} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PrintModeClassTest
     implements PrintModeClassTests<PrintMode> {

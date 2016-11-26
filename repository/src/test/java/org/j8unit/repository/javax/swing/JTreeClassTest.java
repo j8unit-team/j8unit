@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JTree} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.swing.JTreeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JTreeClassTest
 implements JTreeClassTests<JTree> {
@@ -190,7 +189,6 @@ implements JTreeClassTests<JTree> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JTreeClassTests.DynamicUtilTreeNodeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DynamicUtilTreeNodeClassTest
     implements DynamicUtilTreeNodeClassTests<DynamicUtilTreeNode> {
@@ -258,7 +256,6 @@ implements JTreeClassTests<JTree> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements DropLocationClassTests<DropLocation> {

@@ -51,7 +51,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTextUIClassTests<SUT extends BasicTextUI>
@@ -116,7 +115,6 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHighlighterClassTests<SUT extends BasicHighlighter>
@@ -183,7 +181,6 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicCaretClassTests<SUT extends BasicCaret>

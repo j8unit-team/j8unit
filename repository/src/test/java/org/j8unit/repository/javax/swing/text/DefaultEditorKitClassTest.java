@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultEditorKit} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultEditorKitClassTest
 implements DefaultEditorKitClassTests<DefaultEditorKit> {
@@ -63,7 +62,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertBreakActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InsertBreakActionClassTest
     implements InsertBreakActionClassTests<InsertBreakAction> {
@@ -109,7 +107,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.DefaultKeyTypedActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultKeyTypedActionClassTest
     implements DefaultKeyTypedActionClassTests<DefaultKeyTypedAction> {
@@ -155,7 +152,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InsertTabActionClassTest
     implements InsertTabActionClassTests<InsertTabAction> {
@@ -201,7 +197,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CutActionClassTest
     implements CutActionClassTests<CutAction> {
@@ -247,7 +242,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InsertContentActionClassTest
     implements InsertContentActionClassTests<InsertContentAction> {
@@ -293,7 +287,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PasteActionClassTest
     implements PasteActionClassTests<PasteAction> {
@@ -339,7 +332,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BeepActionClassTest
     implements BeepActionClassTests<BeepAction> {
@@ -385,7 +377,6 @@ implements DefaultEditorKitClassTests<DefaultEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CopyActionClassTest
     implements CopyActionClassTests<CopyAction> {

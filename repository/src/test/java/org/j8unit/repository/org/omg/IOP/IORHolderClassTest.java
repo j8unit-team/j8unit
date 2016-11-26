@@ -12,7 +12,6 @@ import org.omg.IOP.IORHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IORHolder} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.IOP.IORHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IORHolderClassTest
 implements IORHolderClassTests<IORHolder> {

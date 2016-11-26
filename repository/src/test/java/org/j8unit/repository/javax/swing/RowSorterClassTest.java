@@ -54,7 +54,6 @@ implements RowSorterClassTests<RowSorter> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link SortKey} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SortKeyClassTest
     implements SortKeyClassTests<SortKey> {

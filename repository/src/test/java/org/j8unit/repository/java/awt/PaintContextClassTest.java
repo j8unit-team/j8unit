@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PaintContext} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.PaintContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PaintContextClassTest
 implements PaintContextClassTests<PaintContext> {

@@ -54,7 +54,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocFlavorClassTests<SUT extends DocFlavor>
@@ -119,7 +118,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends SERVICE_FORMATTED>
@@ -186,7 +184,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface URLClassTests<SUT extends URL>
@@ -253,7 +250,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CHAR_ARRAYClassTests<SUT extends CHAR_ARRAY>
@@ -320,7 +316,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface INPUT_STREAMClassTests<SUT extends INPUT_STREAM>
@@ -387,7 +382,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface STRINGClassTests<SUT extends STRING>
@@ -454,7 +448,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface READERClassTests<SUT extends READER>
@@ -521,7 +514,6 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BYTE_ARRAYClassTests<SUT extends BYTE_ARRAY>

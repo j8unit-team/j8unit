@@ -25,7 +25,6 @@ import org.omg.CORBA.IRObjectOperations;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IRObjectOperationsTests<SUT extends IRObjectOperations>

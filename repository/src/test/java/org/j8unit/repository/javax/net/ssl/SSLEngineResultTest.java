@@ -18,7 +18,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SSLEngineResult} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SSLEngineResultTest
 implements SSLEngineResultTests<SSLEngineResult> {
@@ -38,7 +37,6 @@ implements SSLEngineResultTests<SSLEngineResult> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Status} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StatusTest
@@ -70,7 +68,6 @@ implements SSLEngineResultTests<SSLEngineResult> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class HandshakeStatusTest

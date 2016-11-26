@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoSuchObjectException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.rmi.NoSuchObjectExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoSuchObjectExceptionClassTest
 implements NoSuchObjectExceptionClassTests<NoSuchObjectException> {

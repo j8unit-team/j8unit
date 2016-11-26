@@ -22,7 +22,6 @@ import org.omg.CORBA.PRIVATE_MEMBER;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PRIVATE_MEMBERTests<SUT extends PRIVATE_MEMBER>

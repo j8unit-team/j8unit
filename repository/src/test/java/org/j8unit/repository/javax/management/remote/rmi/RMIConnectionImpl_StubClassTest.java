@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImpl_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RMIConnectionImpl_StubClassTest
 implements RMIConnectionImpl_StubClassTests<RMIConnectionImpl_Stub> {

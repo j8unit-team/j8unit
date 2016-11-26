@@ -22,7 +22,6 @@ import org.omg.IOP.ENCODING_CDR_ENCAPS;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ENCODING_CDR_ENCAPSTests<SUT extends ENCODING_CDR_ENCAPS>

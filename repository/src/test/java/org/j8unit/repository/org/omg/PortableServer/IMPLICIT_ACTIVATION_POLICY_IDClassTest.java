@@ -9,7 +9,6 @@ import org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_IDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IMPLICIT_ACTIVATION_POLICY_IDClassTest
 implements IMPLICIT_ACTIVATION_POLICY_IDClassTests<IMPLICIT_ACTIVATION_POLICY_ID> {

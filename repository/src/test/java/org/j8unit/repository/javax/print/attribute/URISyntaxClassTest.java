@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link URISyntax} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.print.attribute.URISyntaxClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class URISyntaxClassTest
 implements URISyntaxClassTests<URISyntax> {

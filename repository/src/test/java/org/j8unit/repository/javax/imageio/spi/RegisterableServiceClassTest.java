@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RegisterableService} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.imageio.spi.RegisterableServiceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RegisterableServiceClassTest
 implements RegisterableServiceClassTests<RegisterableService> {

@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPBindingClassTests<SUT extends SOAPBinding>
@@ -114,7 +113,6 @@ extends AnnotationClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParameterStyleClassTests<SUT extends ParameterStyle>
@@ -181,7 +179,6 @@ extends AnnotationClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UseClassTests<SUT extends Use>
@@ -248,7 +245,6 @@ extends AnnotationClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StyleClassTests<SUT extends Style>

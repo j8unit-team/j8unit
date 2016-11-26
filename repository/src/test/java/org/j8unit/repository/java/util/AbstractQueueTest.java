@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractQueue} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.AbstractQueueTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractQueueTest<E>
 implements AbstractQueueTests<AbstractQueue<E>, E> {

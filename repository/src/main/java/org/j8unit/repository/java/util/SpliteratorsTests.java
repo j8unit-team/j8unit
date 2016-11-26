@@ -29,7 +29,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorsTests<SUT extends Spliterators>
@@ -58,7 +57,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractDoubleSpliteratorTests<SUT extends AbstractDoubleSpliterator>
@@ -161,7 +159,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractSpliteratorTests<SUT extends AbstractSpliterator<T>, T>
@@ -264,7 +261,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractLongSpliteratorTests<SUT extends AbstractLongSpliterator>
@@ -367,7 +363,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractIntSpliteratorTests<SUT extends AbstractIntSpliterator>

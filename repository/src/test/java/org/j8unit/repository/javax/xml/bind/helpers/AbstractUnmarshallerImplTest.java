@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImplTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractUnmarshallerImplTest
 implements AbstractUnmarshallerImplTests<AbstractUnmarshallerImpl> {

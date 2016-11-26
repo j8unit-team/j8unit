@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SidesType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SidesTypeTest
@@ -78,7 +77,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DialogType} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DialogTypeTest
@@ -112,7 +110,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DestinationTypeTest
@@ -145,7 +142,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MultipleDocumentHandlingTypeTest
@@ -178,7 +174,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttribut
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DefaultSelectionTypeTest

@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.net.ssl.HandshakeCompletedListenerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HandshakeCompletedListenerTest
 implements HandshakeCompletedListenerTests<HandshakeCompletedListener> {

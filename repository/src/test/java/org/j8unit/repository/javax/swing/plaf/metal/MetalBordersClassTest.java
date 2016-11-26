@@ -26,7 +26,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalBorders} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalBordersClassTest
 implements MetalBordersClassTests<MetalBorders> {
@@ -173,7 +172,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonBorderClassTest
     implements ButtonBorderClassTests<ButtonBorder> {
@@ -219,7 +217,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToolBarBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToolBarBorderClassTest
     implements ToolBarBorderClassTests<ToolBarBorder> {
@@ -265,7 +262,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToggleButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToggleButtonBorderClassTest
     implements ToggleButtonBorderClassTests<ToggleButtonBorder> {
@@ -311,7 +307,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PaletteBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PaletteBorderClassTest
     implements PaletteBorderClassTests<PaletteBorder> {
@@ -357,7 +352,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ScrollPaneBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ScrollPaneBorderClassTest
     implements ScrollPaneBorderClassTests<ScrollPaneBorder> {
@@ -403,7 +397,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TextFieldBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TextFieldBorderClassTest
     implements TextFieldBorderClassTests<TextFieldBorder> {
@@ -449,7 +442,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuItemBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuItemBorderClassTest
     implements MenuItemBorderClassTests<MenuItemBorder> {
@@ -495,7 +487,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.OptionDialogBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OptionDialogBorderClassTest
     implements OptionDialogBorderClassTests<OptionDialogBorder> {
@@ -541,7 +532,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.RolloverButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RolloverButtonBorderClassTest
     implements RolloverButtonBorderClassTests<RolloverButtonBorder> {
@@ -587,7 +577,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PopupMenuBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PopupMenuBorderClassTest
     implements PopupMenuBorderClassTests<PopupMenuBorder> {
@@ -633,7 +622,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.InternalFrameBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InternalFrameBorderClassTest
     implements InternalFrameBorderClassTests<InternalFrameBorder> {
@@ -679,7 +667,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TableHeaderBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TableHeaderBorderClassTest
     implements TableHeaderBorderClassTests<TableHeaderBorder> {
@@ -725,7 +712,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuBarBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuBarBorderClassTest
     implements MenuBarBorderClassTests<MenuBarBorder> {
@@ -771,7 +757,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class Flush3DBorderClassTest
     implements Flush3DBorderClassTests<Flush3DBorder> {

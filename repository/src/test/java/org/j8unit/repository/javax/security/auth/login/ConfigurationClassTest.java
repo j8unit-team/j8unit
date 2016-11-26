@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Configuration} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ConfigurationClassTest
 implements ConfigurationClassTests<Configuration> {
@@ -149,7 +148,6 @@ implements ConfigurationClassTests<Configuration> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParametersClassTest
     implements ParametersClassTests<Parameters> {

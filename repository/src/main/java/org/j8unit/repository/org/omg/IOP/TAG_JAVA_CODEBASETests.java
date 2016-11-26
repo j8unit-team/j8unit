@@ -22,7 +22,6 @@ import org.omg.IOP.TAG_JAVA_CODEBASE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_JAVA_CODEBASETests<SUT extends TAG_JAVA_CODEBASE>

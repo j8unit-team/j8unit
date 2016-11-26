@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Box} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.swing.BoxClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BoxClassTest
 implements BoxClassTests<Box> {
@@ -215,7 +214,6 @@ implements BoxClassTests<Box> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Filler} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.swing.BoxClassTests.FillerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FillerClassTest
     implements FillerClassTests<Filler> {

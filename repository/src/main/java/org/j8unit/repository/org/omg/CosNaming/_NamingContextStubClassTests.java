@@ -44,7 +44,6 @@ import org.omg.CosNaming._NamingContextStub;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _NamingContextStubClassTests<SUT extends _NamingContextStub>

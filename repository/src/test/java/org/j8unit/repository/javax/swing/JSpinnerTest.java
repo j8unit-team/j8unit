@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DateEditor} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DateEditorTest
     implements DateEditorTests<DateEditor> {
@@ -67,7 +66,6 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link NumberEditor} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.NumberEditorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NumberEditorTest
     implements NumberEditorTests<NumberEditor> {
@@ -89,7 +87,6 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultEditor} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultEditorTest
     implements DefaultEditorTests<DefaultEditor> {
@@ -111,7 +108,6 @@ implements FactoryBasedJ8UnitTest<JSpinner>, JSpinnerTests<JSpinner> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ListEditor} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerTests.ListEditorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListEditorTest
     implements ListEditorTests<ListEditor> {

@@ -8,7 +8,6 @@ import org.omg.CORBA.Current;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Current} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.CurrentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CurrentClassTest
 implements org.j8unit.repository.org.omg.CORBA.CurrentClassTests<Current> {

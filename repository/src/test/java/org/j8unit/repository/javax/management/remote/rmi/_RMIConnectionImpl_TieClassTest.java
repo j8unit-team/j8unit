@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.remote.rmi._RMIConnectionImpl_TieClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _RMIConnectionImpl_TieClassTest
 implements _RMIConnectionImpl_TieClassTests<_RMIConnectionImpl_Tie> {

@@ -22,7 +22,6 @@ import org.omg.CORBA.PolicyErrorCodeHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyErrorCodeHelperTests<SUT extends PolicyErrorCodeHelper>

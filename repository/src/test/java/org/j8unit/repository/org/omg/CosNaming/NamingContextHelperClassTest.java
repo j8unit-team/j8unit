@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NamingContextHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NamingContextHelperClassTest
 implements NamingContextHelperClassTests<NamingContextHelper> {

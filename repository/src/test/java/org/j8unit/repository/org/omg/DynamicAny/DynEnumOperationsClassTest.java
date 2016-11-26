@@ -8,7 +8,6 @@ import org.omg.DynamicAny.DynEnumOperations;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynEnumOperations} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DynEnumOperationsClassTest
 implements DynEnumOperationsClassTests<DynEnumOperations> {

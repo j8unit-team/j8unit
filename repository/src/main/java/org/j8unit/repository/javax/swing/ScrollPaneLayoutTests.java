@@ -28,7 +28,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollPaneLayoutTests<SUT extends ScrollPaneLayout>
@@ -448,7 +447,6 @@ extends LayoutManagerTests<SUT>, ScrollPaneConstantsTests<SUT>, SerializableTest
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends UIResource>

@@ -9,7 +9,6 @@ import org.omg.CORBA.PolicyErrorHelper;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PolicyErrorHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PolicyErrorHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PolicyErrorHelperTest
 implements PolicyErrorHelperTests<PolicyErrorHelper> {

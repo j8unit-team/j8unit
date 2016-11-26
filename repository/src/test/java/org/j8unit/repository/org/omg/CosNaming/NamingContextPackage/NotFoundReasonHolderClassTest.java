@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolder;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundReasonHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotFoundReasonHolderClassTest
 implements NotFoundReasonHolderClassTests<NotFoundReasonHolder> {

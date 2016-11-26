@@ -56,7 +56,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLEditorKitClassTests<SUT extends HTMLEditorKit>
@@ -121,7 +120,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLFactoryClassTests<SUT extends HTMLFactory>
@@ -188,7 +186,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserClassTests<SUT extends Parser>
@@ -255,7 +252,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertHTMLTextActionClassTests<SUT extends InsertHTMLTextAction>
@@ -322,7 +318,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LinkControllerClassTests<SUT extends LinkController>
@@ -389,7 +384,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserCallbackClassTests<SUT extends ParserCallback>
@@ -456,7 +450,6 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLTextActionClassTests<SUT extends HTMLTextAction>

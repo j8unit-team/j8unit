@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SOAPBinding} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SOAPBindingClassTest
 implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBinding> {
@@ -36,7 +35,6 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.ParameterStyleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParameterStyleClassTest
     implements ParameterStyleClassTests<ParameterStyle> {
@@ -101,7 +99,6 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
      * Specific JUnit test class to proof the type relevant aspects of type {@link Use} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.UseClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UseClassTest
     implements UseClassTests<Use> {
@@ -163,7 +160,6 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests<SOAPBindin
      * Specific JUnit test class to proof the type relevant aspects of type {@link Style} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class StyleClassTest
     implements org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests<Style> {

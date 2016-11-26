@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<CompletableFuture<T>>, CompletableFutureTests<
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.CompletableFutureTests.AsynchronousCompletionTaskTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AsynchronousCompletionTaskTest
     implements AsynchronousCompletionTaskTests<AsynchronousCompletionTask> {

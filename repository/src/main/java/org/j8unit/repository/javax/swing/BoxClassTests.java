@@ -46,7 +46,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BoxClassTests<SUT extends Box>
@@ -110,7 +109,6 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FillerClassTests<SUT extends Filler>

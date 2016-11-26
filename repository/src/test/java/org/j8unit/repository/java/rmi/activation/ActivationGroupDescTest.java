@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ActivationGroupDesc} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ActivationGroupDescTest
 implements ActivationGroupDescTests<ActivationGroupDesc> {
@@ -31,7 +30,6 @@ implements ActivationGroupDescTests<ActivationGroupDesc> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CommandEnvironmentTest
     implements CommandEnvironmentTests<CommandEnvironment> {

@@ -13,7 +13,6 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _RMIServer_StubClassTest
 implements _RMIServer_StubClassTests<_RMIServer_Stub> {

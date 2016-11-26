@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link JComponent} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.JComponentTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JComponentTest
 implements JComponentTests<JComponent> {
@@ -31,7 +30,6 @@ implements JComponentTests<JComponent> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AccessibleJComponentTest
     implements AccessibleJComponentTests<AccessibleJComponent> {

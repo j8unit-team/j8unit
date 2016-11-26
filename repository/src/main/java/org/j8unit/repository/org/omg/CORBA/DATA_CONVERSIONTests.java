@@ -21,7 +21,6 @@ import org.omg.CORBA.DATA_CONVERSION;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DATA_CONVERSIONTests<SUT extends DATA_CONVERSION>

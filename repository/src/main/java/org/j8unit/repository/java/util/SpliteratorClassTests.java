@@ -180,7 +180,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongClassTests<SUT extends OfLong>
@@ -247,7 +246,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntClassTests<SUT extends OfInt>
@@ -314,7 +312,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleClassTests<SUT extends OfDouble>

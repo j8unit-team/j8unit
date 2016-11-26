@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link StyleConstants} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StyleConstantsTest
 implements StyleConstantsTests<StyleConstants> {
@@ -34,7 +33,6 @@ implements StyleConstantsTests<StyleConstants> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CharacterConstantsTest
     implements CharacterConstantsTests<CharacterConstants> {
@@ -57,7 +55,6 @@ implements StyleConstantsTests<StyleConstants> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParagraphConstantsTest
     implements ParagraphConstantsTests<ParagraphConstants> {
@@ -79,7 +76,6 @@ implements StyleConstantsTests<StyleConstants> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FontConstants} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.FontConstantsTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontConstantsTest
     implements FontConstantsTests<FontConstants> {
@@ -102,7 +98,6 @@ implements StyleConstantsTests<StyleConstants> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleConstantsTests.ColorConstantsTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ColorConstantsTest
     implements ColorConstantsTests<ColorConstants> {

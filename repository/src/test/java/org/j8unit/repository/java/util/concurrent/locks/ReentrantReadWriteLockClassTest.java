@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ReentrantReadWriteLockClassTest
 implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
@@ -82,7 +81,6 @@ implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ReadLockClassTest
     implements ReadLockClassTests<ReadLock> {
@@ -105,7 +103,6 @@ implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.WriteLockClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class WriteLockClassTest
     implements WriteLockClassTests<WriteLock> {

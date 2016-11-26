@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.AdapterManagerIdHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.AdapterManagerIdHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AdapterManagerIdHelperTest
 implements AdapterManagerIdHelperTests<AdapterManagerIdHelper> {

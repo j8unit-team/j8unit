@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Dimension2D} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.geom.Dimension2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Dimension2DClassTest
 implements Dimension2DClassTests<Dimension2D> {

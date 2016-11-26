@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Character} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.lang.CharacterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CharacterClassTest
 implements CharacterClassTests<Character> {
@@ -1677,7 +1676,6 @@ implements CharacterClassTests<Character> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link UnicodeScript} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UnicodeScriptClassTest
     implements UnicodeScriptClassTests<UnicodeScript> {
@@ -1779,7 +1777,6 @@ implements CharacterClassTests<Character> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Subset} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SubsetClassTest
     implements SubsetClassTests<Subset> {
@@ -1801,7 +1798,6 @@ implements CharacterClassTests<Character> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link UnicodeBlock} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UnicodeBlockClassTest
     implements UnicodeBlockClassTests<UnicodeBlock> {

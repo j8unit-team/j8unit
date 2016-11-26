@@ -42,7 +42,6 @@ implements FactoryBasedJ8UnitTest<JList<E>>, JListTests<JList<E>, E> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JListTests.DropLocationTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.JListTests.DropLocationTests<DropLocation> {

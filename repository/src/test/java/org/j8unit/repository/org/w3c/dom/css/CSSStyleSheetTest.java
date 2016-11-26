@@ -9,7 +9,6 @@ import org.w3c.dom.css.CSSStyleSheet;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CSSStyleSheet} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.CSSStyleSheetTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CSSStyleSheetTest
 implements CSSStyleSheetTests<CSSStyleSheet> {

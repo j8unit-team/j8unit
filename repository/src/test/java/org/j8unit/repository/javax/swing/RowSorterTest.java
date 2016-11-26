@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSorter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowSorterTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RowSorterTest<M>
 implements RowSorterTests<RowSorter<M>, M> {
@@ -30,7 +29,6 @@ implements RowSorterTests<RowSorter<M>, M> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link SortKey} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowSorterTests.SortKeyTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SortKeyTest
     implements SortKeyTests<SortKey> {

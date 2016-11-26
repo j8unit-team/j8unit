@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link EnumSet} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.EnumSetTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class EnumSetTest<E extends Enum<E>>
 implements EnumSetTests<EnumSet<E>, E> {

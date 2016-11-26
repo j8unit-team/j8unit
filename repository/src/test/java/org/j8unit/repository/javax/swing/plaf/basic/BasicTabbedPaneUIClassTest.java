@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTabbedPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicTabbedPaneUIClassTest
 implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
@@ -82,7 +81,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabSelectionHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TabSelectionHandlerClassTest
     implements TabSelectionHandlerClassTests<TabSelectionHandler> {
@@ -130,7 +128,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests<TabbedPaneLayout> {
@@ -176,7 +173,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -222,7 +218,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -270,7 +265,6 @@ implements BasicTabbedPaneUIClassTests<BasicTabbedPaneUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.MouseHandlerClassTests<MouseHandler> {

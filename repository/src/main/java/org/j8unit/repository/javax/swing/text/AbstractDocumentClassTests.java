@@ -59,7 +59,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractDocumentClassTests<SUT extends AbstractDocument>
@@ -124,7 +123,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractElementClassTests<SUT extends AbstractElement>
@@ -191,7 +189,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ContentClassTests<SUT extends Content>
@@ -257,7 +254,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementEditClassTests<SUT extends ElementEdit>
@@ -324,7 +320,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BranchElementClassTests<SUT extends BranchElement>
@@ -391,7 +386,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeContextClassTests<SUT extends AttributeContext>
@@ -457,7 +451,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LeafElementClassTests<SUT extends LeafElement>
@@ -524,7 +517,6 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultDocumentEventClassTests<SUT extends DefaultDocumentEvent>

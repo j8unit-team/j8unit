@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CertPathValidatorExceptionClassTest
 implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
@@ -179,7 +178,6 @@ implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
      * test interface
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ReasonClassTest
     implements ReasonClassTests<Reason> {
@@ -202,7 +200,6 @@ implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicReasonClassTest
     implements BasicReasonClassTests<BasicReason> {

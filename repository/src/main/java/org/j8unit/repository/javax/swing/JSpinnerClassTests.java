@@ -52,7 +52,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JSpinnerClassTests<SUT extends JSpinner>
@@ -117,7 +116,6 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DateEditorClassTests<SUT extends DateEditor>
@@ -184,7 +182,6 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NumberEditorClassTests<SUT extends NumberEditor>
@@ -251,7 +248,6 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultEditorClassTests<SUT extends DefaultEditor>
@@ -318,7 +314,6 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListEditorClassTests<SUT extends ListEditor>

@@ -45,7 +45,6 @@ import org.xml.sax.helpers.AttributeListImpl;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 @SuppressWarnings("deprecation")

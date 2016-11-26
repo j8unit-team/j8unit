@@ -22,7 +22,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeyStore} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeyStoreClassTest
 implements KeyStoreClassTests<KeyStore> {
@@ -127,7 +126,6 @@ implements KeyStoreClassTests<KeyStore> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PrivateKeyEntryClassTest
     implements PrivateKeyEntryClassTests<PrivateKeyEntry> {
@@ -199,7 +197,6 @@ implements KeyStoreClassTests<KeyStore> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SecretKeyEntryClassTest
     implements SecretKeyEntryClassTests<SecretKeyEntry> {
@@ -267,7 +264,6 @@ implements KeyStoreClassTests<KeyStore> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests.BuilderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.security.KeyStoreClassTests.BuilderClassTests<Builder> {
@@ -358,7 +354,6 @@ implements KeyStoreClassTests<KeyStore> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Entry} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EntryClassTest
     implements EntryClassTests<Entry> {
@@ -379,7 +374,6 @@ implements KeyStoreClassTests<KeyStore> {
          * J8Unit test interface
          * {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class AttributeClassTest
         implements org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests<Attribute> {
@@ -404,7 +398,6 @@ implements KeyStoreClassTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TrustedCertificateEntryClassTest
     implements TrustedCertificateEntryClassTests<TrustedCertificateEntry> {
@@ -475,7 +468,6 @@ implements KeyStoreClassTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PasswordProtectionClassTest
     implements PasswordProtectionClassTests<PasswordProtection> {
@@ -546,7 +538,6 @@ implements KeyStoreClassTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LoadStoreParameterClassTest
     implements LoadStoreParameterClassTests<LoadStoreParameter> {
@@ -569,7 +560,6 @@ implements KeyStoreClassTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ProtectionParameterClassTest
     implements ProtectionParameterClassTests<ProtectionParameter> {
@@ -592,7 +582,6 @@ implements KeyStoreClassTests<KeyStore> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CallbackHandlerProtectionClassTest
     implements CallbackHandlerProtectionClassTests<CallbackHandlerProtection> {

@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.helpers.AbstractMarshallerImplClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractMarshallerImplClassTest
 implements AbstractMarshallerImplClassTests<AbstractMarshallerImpl> {

@@ -9,7 +9,6 @@ import org.xml.sax.ext.EntityResolver2;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link EntityResolver2} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class EntityResolver2Test
 implements EntityResolver2Tests<EntityResolver2> {

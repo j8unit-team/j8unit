@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathValidatorExceptionClassTests<SUT extends CertPathValidatorException>
@@ -114,7 +113,6 @@ extends GeneralSecurityExceptionClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReasonClassTests<SUT extends Reason>
@@ -181,7 +179,6 @@ extends GeneralSecurityExceptionClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicReasonClassTests<SUT extends BasicReason>

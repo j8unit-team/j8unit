@@ -21,7 +21,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicSplitPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicSplitPaneUIClassTest
 implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
@@ -86,7 +85,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicHorizontalLayoutManagerClassTest
     implements BasicHorizontalLayoutManagerClassTests<BasicHorizontalLayoutManager> {
@@ -109,7 +107,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardResizeToggleHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardResizeToggleHandlerClassTest
     implements KeyboardResizeToggleHandlerClassTests<KeyboardResizeToggleHandler> {
@@ -157,7 +154,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardHomeHandlerClassTest
     implements KeyboardHomeHandlerClassTests<KeyboardHomeHandler> {
@@ -203,7 +199,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardUpLeftHandlerClassTest
     implements KeyboardUpLeftHandlerClassTests<KeyboardUpLeftHandler> {
@@ -251,7 +246,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicVerticalLayoutManagerClassTest
     implements BasicVerticalLayoutManagerClassTests<BasicVerticalLayoutManager> {
@@ -299,7 +293,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardEndHandlerClassTest
     implements KeyboardEndHandlerClassTests<KeyboardEndHandler> {
@@ -345,7 +338,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardDownRightHandlerClassTest
     implements KeyboardDownRightHandlerClassTests<KeyboardDownRightHandler> {
@@ -393,7 +385,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -439,7 +430,6 @@ implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests<PropertyHandler> {

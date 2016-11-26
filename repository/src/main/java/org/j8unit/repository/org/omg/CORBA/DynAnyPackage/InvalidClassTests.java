@@ -44,7 +44,6 @@ import org.omg.CORBA.DynAnyPackage.Invalid;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidClassTests<SUT extends Invalid>

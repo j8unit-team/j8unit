@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Attributes} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.jar.AttributesClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributesClassTest
 implements AttributesClassTests<Attributes> {
@@ -100,7 +99,6 @@ implements AttributesClassTests<Attributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Name} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.jar.AttributesClassTests.NameClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NameClassTest
     implements NameClassTests<Name> {

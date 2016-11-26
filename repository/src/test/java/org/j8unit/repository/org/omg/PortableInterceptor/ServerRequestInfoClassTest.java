@@ -8,7 +8,6 @@ import org.omg.PortableInterceptor.ServerRequestInfo;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServerRequestInfo} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInfoClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServerRequestInfoClassTest
 implements ServerRequestInfoClassTests<ServerRequestInfo> {

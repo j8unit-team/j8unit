@@ -8,7 +8,6 @@ import org.omg.PortableInterceptor.USER_EXCEPTION;
  * Specific JUnit test class to proof the type relevant aspects of type {@link USER_EXCEPTION} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.USER_EXCEPTIONClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class USER_EXCEPTIONClassTest
 implements USER_EXCEPTIONClassTests<USER_EXCEPTION> {

@@ -47,7 +47,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Arc2DClassTests<SUT extends Arc2D>
@@ -111,7 +110,6 @@ extends RectangularShapeClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Double>
@@ -178,7 +176,6 @@ extends RectangularShapeClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Float>

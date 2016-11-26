@@ -26,7 +26,6 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotFoundHolderTests<SUT extends NotFoundHolder>

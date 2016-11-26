@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, ConcurrentHashMapTes
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeySetViewTest<K, V>
     implements KeySetViewTests<KeySetView<K, V>, K, V> {

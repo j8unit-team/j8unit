@@ -9,7 +9,6 @@ import org.omg.IOP.TAG_CODE_SETS;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TAG_CODE_SETS} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TAG_CODE_SETSTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TAG_CODE_SETSTest
 implements TAG_CODE_SETSTests<TAG_CODE_SETS> {

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link GraphicsDevice} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.GraphicsDeviceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GraphicsDeviceClassTest
 implements GraphicsDeviceClassTests<GraphicsDevice> {
@@ -34,7 +33,6 @@ implements GraphicsDeviceClassTests<GraphicsDevice> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.GraphicsDeviceClassTests.WindowTranslucencyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class WindowTranslucencyClassTest
     implements WindowTranslucencyClassTests<WindowTranslucency> {

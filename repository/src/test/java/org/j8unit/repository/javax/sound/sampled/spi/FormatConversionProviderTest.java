@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.sound.sampled.spi.FormatConversionProviderTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FormatConversionProviderTest
 implements FormatConversionProviderTests<FormatConversionProvider> {

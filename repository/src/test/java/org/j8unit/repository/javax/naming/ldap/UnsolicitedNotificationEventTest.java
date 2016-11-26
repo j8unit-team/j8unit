@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationEventTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsolicitedNotificationEventTest
 implements UnsolicitedNotificationEventTests<UnsolicitedNotificationEvent> {

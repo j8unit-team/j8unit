@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCompletedTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DateTimeAtCompletedTest
 implements DateTimeAtCompletedTests<DateTimeAtCompleted> {

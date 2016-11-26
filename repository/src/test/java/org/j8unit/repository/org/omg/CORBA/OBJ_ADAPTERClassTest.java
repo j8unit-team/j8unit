@@ -12,7 +12,6 @@ import org.omg.CORBA.OBJ_ADAPTER;
  * Specific JUnit test class to proof the type relevant aspects of type {@link OBJ_ADAPTER} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OBJ_ADAPTERClassTest
 implements OBJ_ADAPTERClassTests<OBJ_ADAPTER> {

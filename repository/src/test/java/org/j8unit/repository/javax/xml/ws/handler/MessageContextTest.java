@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MessageContext} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MessageContextTest
 implements MessageContextTests<MessageContext> {
@@ -36,7 +35,6 @@ implements MessageContextTests<MessageContext> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Scope} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests.ScopeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ScopeTest

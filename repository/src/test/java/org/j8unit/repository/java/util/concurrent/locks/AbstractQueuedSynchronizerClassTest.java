@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchronizerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractQueuedSynchronizerClassTest
 implements AbstractQueuedSynchronizerClassTests<AbstractQueuedSynchronizer> {
@@ -35,7 +34,6 @@ implements AbstractQueuedSynchronizerClassTests<AbstractQueuedSynchronizer> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchronizerClassTests.ConditionObjectClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ConditionObjectClassTest
     implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchronizerClassTests.ConditionObjectClassTests<ConditionObject> {

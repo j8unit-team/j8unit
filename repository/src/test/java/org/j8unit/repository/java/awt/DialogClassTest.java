@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Dialog} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.DialogClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DialogClassTest
 implements DialogClassTests<Dialog> {
@@ -352,7 +351,6 @@ implements DialogClassTests<Dialog> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ModalExclusionTypeClassTest
     implements ModalExclusionTypeClassTests<ModalExclusionType> {
@@ -415,7 +413,6 @@ implements DialogClassTests<Dialog> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link ModalityType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.DialogClassTests.ModalityTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ModalityTypeClassTest
     implements ModalityTypeClassTests<ModalityType> {

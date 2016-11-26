@@ -12,7 +12,6 @@ import org.omg.CORBA.WStringValueHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link WStringValueHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WStringValueHelperClassTest
 implements WStringValueHelperClassTests<WStringValueHelper> {

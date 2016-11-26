@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Formatter} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.FormatterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FormatterClassTest
 implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
@@ -352,7 +351,6 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BigDecimalLayoutFormClassTest
     implements BigDecimalLayoutFormClassTests<BigDecimalLayoutForm> {

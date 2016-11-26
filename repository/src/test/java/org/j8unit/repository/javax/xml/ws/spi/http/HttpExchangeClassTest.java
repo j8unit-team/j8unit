@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HttpExchange} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.spi.http.HttpExchangeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HttpExchangeClassTest
 implements HttpExchangeClassTests<HttpExchange> {

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UIManager} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.UIManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UIManagerClassTest
 implements UIManagerClassTests<UIManager> {
@@ -861,7 +860,6 @@ implements UIManagerClassTests<UIManager> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.UIManagerClassTests.LookAndFeelInfoClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LookAndFeelInfoClassTest
     implements LookAndFeelInfoClassTests<LookAndFeelInfo> {

@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, BasicColorChooserUITests
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests.PropertyHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerTest
     implements PropertyHandlerTests<PropertyHandler> {

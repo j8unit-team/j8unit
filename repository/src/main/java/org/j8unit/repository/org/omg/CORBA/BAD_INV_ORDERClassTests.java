@@ -43,7 +43,6 @@ import org.omg.CORBA.BAD_INV_ORDER;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_INV_ORDERClassTests<SUT extends BAD_INV_ORDER>

@@ -52,7 +52,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaSizeClassTests<SUT extends MediaSize>
@@ -117,7 +116,6 @@ extends AttributeClassTests<SUT>, Size2DSyntaxClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JISClassTests<SUT extends JIS>
@@ -184,7 +182,6 @@ extends AttributeClassTests<SUT>, Size2DSyntaxClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ISOClassTests<SUT extends ISO>
@@ -251,7 +248,6 @@ extends AttributeClassTests<SUT>, Size2DSyntaxClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OtherClassTests<SUT extends Other>
@@ -318,7 +314,6 @@ extends AttributeClassTests<SUT>, Size2DSyntaxClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NAClassTests<SUT extends NA>
@@ -385,7 +380,6 @@ extends AttributeClassTests<SUT>, Size2DSyntaxClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EngineeringClassTests<SUT extends Engineering>

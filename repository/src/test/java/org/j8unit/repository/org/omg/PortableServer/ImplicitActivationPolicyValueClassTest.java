@@ -13,7 +13,6 @@ import org.omg.PortableServer.ImplicitActivationPolicyValue;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyValueClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ImplicitActivationPolicyValueClassTest
 implements ImplicitActivationPolicyValueClassTests<ImplicitActivationPolicyValue> {

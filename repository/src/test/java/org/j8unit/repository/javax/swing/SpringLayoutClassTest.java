@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SpringLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.SpringLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SpringLayoutClassTest
 implements SpringLayoutClassTests<SpringLayout> {
@@ -55,7 +54,6 @@ implements SpringLayoutClassTests<SpringLayout> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Constraints} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.SpringLayoutClassTests.ConstraintsClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ConstraintsClassTest
     implements ConstraintsClassTests<Constraints> {

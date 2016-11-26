@@ -14,7 +14,6 @@ import org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidTypeForEncodingHelperClassTest
 implements InvalidTypeForEncodingHelperClassTests<InvalidTypeForEncodingHelper> {

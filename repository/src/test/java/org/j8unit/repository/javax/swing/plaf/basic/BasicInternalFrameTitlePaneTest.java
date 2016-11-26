@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicInternalFrameTitlePaneTest
 implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
@@ -40,7 +39,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SizeActionTest
     implements SizeActionTests<SizeAction> {
@@ -63,7 +61,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MoveActionTest
     implements MoveActionTests<MoveAction> {
@@ -86,7 +83,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SystemMenuBarTest
     implements SystemMenuBarTests<SystemMenuBar> {
@@ -109,7 +105,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MaximizeActionTest
     implements MaximizeActionTests<MaximizeAction> {
@@ -132,7 +127,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CloseActionTest
     implements CloseActionTests<CloseAction> {
@@ -155,7 +149,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RestoreActionTest
     implements RestoreActionTests<RestoreAction> {
@@ -178,7 +171,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TitlePaneLayoutTest
     implements TitlePaneLayoutTests<TitlePaneLayout> {
@@ -201,7 +193,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class IconifyActionTest
     implements IconifyActionTests<IconifyAction> {
@@ -224,7 +215,6 @@ implements BasicInternalFrameTitlePaneTests<BasicInternalFrameTitlePane> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests<PropertyChangeHandler> {

@@ -10,7 +10,6 @@ import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMATTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TAG_RMI_CUSTOM_MAX_STREAM_FORMATTest
 implements TAG_RMI_CUSTOM_MAX_STREAM_FORMATTests<TAG_RMI_CUSTOM_MAX_STREAM_FORMAT> {

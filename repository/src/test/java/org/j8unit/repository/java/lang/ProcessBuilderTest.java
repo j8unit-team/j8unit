@@ -17,7 +17,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ProcessBuilder} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ProcessBuilderTest
 implements ProcessBuilderTests<ProcessBuilder> {
@@ -37,7 +36,6 @@ implements ProcessBuilderTests<ProcessBuilder> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Redirect} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RedirectTest
@@ -67,7 +65,6 @@ implements ProcessBuilderTests<ProcessBuilder> {
          * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
          * J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests.TypeTests}).
          */
-
         @RunWith(J8Parameterized.class)
         @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
         public static class TypeTest

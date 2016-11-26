@@ -12,7 +12,6 @@ import org.omg.CORBA.portable.RemarshalException;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RemarshalException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RemarshalExceptionClassTest
 implements RemarshalExceptionClassTests<RemarshalException> {

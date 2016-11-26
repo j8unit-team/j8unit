@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link URIReference} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.URIReferenceTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class URIReferenceTest
 implements URIReferenceTests<URIReference> {

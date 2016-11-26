@@ -43,7 +43,6 @@ import org.omg.PortableServer.ServantActivatorOperations;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorOperationsClassTests<SUT extends ServantActivatorOperations>

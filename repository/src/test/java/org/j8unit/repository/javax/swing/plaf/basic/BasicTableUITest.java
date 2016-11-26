@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyHandlerTest
     implements KeyHandlerTests<KeyHandler> {
@@ -68,7 +67,6 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.MouseInputHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements MouseInputHandlerTests<MouseInputHandler> {
@@ -91,7 +89,6 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, BasicTableUITests<BasicTableUI>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.FocusHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements FocusHandlerTests<FocusHandler> {

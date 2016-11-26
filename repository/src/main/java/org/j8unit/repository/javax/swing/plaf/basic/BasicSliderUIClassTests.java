@@ -60,7 +60,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSliderUIClassTests<SUT extends BasicSliderUI>
@@ -125,7 +124,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrackListenerClassTests<SUT extends TrackListener>
@@ -192,7 +190,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScrollListenerClassTests<SUT extends ScrollListener>
@@ -259,7 +256,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentHandlerClassTests<SUT extends ComponentHandler>
@@ -326,7 +322,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChangeHandlerClassTests<SUT extends ChangeHandler>
@@ -393,7 +388,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
@@ -460,7 +454,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends FocusHandler>
@@ -527,7 +520,6 @@ extends SliderUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActionScrollerClassTests<SUT extends ActionScroller>

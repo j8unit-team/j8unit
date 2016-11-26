@@ -44,7 +44,6 @@ import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SERVANT_RETENTION_POLICY_IDClassTests<SUT extends SERVANT_RETENTION_POLICY_ID>

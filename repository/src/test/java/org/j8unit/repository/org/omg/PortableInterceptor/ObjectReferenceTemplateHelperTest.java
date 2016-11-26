@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateHelperTest
 implements ObjectReferenceTemplateHelperTests<ObjectReferenceTemplateHelper> {

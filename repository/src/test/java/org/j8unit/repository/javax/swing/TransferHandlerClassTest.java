@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TransferHandler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TransferHandlerClassTest
 implements TransferHandlerClassTests<TransferHandler> {
@@ -117,7 +116,6 @@ implements TransferHandlerClassTests<TransferHandler> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.TransferSupportClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TransferSupportClassTest
     implements TransferSupportClassTests<TransferSupport> {
@@ -164,7 +162,6 @@ implements TransferHandlerClassTests<TransferHandler> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {

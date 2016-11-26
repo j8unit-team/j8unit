@@ -27,7 +27,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterTests<SUT extends Character>
@@ -169,7 +168,6 @@ extends SerializableTests<SUT>, ComparableTests<SUT, Character>, ObjectTests<SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeScriptTests<SUT extends UnicodeScript>
@@ -200,7 +198,6 @@ extends SerializableTests<SUT>, ComparableTests<SUT, Character>, ObjectTests<SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SubsetTests<SUT extends Subset>
@@ -300,7 +297,6 @@ extends SerializableTests<SUT>, ComparableTests<SUT, Character>, ObjectTests<SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeBlockTests<SUT extends UnicodeBlock>

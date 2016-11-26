@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Socket} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.net.SocketClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SocketClassTest
 implements SocketClassTests<Socket> {

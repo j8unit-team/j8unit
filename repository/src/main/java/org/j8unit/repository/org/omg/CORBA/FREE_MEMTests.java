@@ -21,7 +21,6 @@ import org.omg.CORBA.FREE_MEM;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FREE_MEMTests<SUT extends FREE_MEM>

@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JobAttributes} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JobAttributesClassTest
 implements JobAttributesClassTests<JobAttributes> {
@@ -109,7 +108,6 @@ implements JobAttributesClassTests<JobAttributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link SidesType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SidesTypeClassTest
     implements SidesTypeClassTests<SidesType> {
@@ -131,7 +129,6 @@ implements JobAttributesClassTests<JobAttributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link DialogType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DialogTypeClassTest
     implements DialogTypeClassTests<DialogType> {
@@ -154,7 +151,6 @@ implements JobAttributesClassTests<JobAttributes> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DestinationTypeClassTest
     implements DestinationTypeClassTests<DestinationType> {
@@ -177,7 +173,6 @@ implements JobAttributesClassTests<JobAttributes> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MultipleDocumentHandlingTypeClassTest
     implements MultipleDocumentHandlingTypeClassTests<MultipleDocumentHandlingType> {
@@ -200,7 +195,6 @@ implements JobAttributesClassTests<JobAttributes> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultSelectionTypeClassTest
     implements DefaultSelectionTypeClassTests<DefaultSelectionType> {

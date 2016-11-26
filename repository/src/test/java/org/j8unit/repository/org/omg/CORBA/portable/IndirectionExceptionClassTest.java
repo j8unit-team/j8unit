@@ -12,7 +12,6 @@ import org.omg.CORBA.portable.IndirectionException;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IndirectionException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.IndirectionExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IndirectionExceptionClassTest
 implements IndirectionExceptionClassTests<IndirectionException> {

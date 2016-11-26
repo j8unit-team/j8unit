@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PrimitiveIterator} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PrimitiveIteratorTest<T, T_CONS>
 implements PrimitiveIteratorTests<PrimitiveIterator<T, T_CONS>, T, T_CONS> {
@@ -32,7 +31,6 @@ implements PrimitiveIteratorTests<PrimitiveIterator<T, T_CONS>, T, T_CONS> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfLong} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfLongTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests<OfLong> {
@@ -54,7 +52,6 @@ implements PrimitiveIteratorTests<PrimitiveIterator<T, T_CONS>, T, T_CONS> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfDouble} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfDoubleTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests<OfDouble> {
@@ -76,7 +73,6 @@ implements PrimitiveIteratorTests<PrimitiveIterator<T, T_CONS>, T, T_CONS> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link OfInt} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfIntTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfIntTests<OfInt> {

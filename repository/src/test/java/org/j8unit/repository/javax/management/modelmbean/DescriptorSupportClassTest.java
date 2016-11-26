@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DescriptorSupport} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.modelmbean.DescriptorSupportClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DescriptorSupportClassTest
 implements DescriptorSupportClassTests<DescriptorSupport> {

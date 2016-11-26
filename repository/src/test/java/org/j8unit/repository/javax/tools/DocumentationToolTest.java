@@ -17,7 +17,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentationTool} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.tools.DocumentationToolTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DocumentationToolTest
 implements DocumentationToolTests<DocumentationTool> {
@@ -38,7 +37,6 @@ implements DocumentationToolTests<DocumentationTool> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DocumentationTaskTest
     implements DocumentationTaskTests<DocumentationTask> {
@@ -60,7 +58,6 @@ implements DocumentationToolTests<DocumentationTool> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Location} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.tools.DocumentationToolTests.LocationTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class LocationTest

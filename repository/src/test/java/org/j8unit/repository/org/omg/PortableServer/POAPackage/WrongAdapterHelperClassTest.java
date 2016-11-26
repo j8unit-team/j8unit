@@ -14,7 +14,6 @@ import org.omg.PortableServer.POAPackage.WrongAdapterHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WrongAdapterHelperClassTest
 implements WrongAdapterHelperClassTests<WrongAdapterHelper> {

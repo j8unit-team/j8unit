@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicScrollBarUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicScrollBarUIClassTest
 implements BasicScrollBarUIClassTests<BasicScrollBarUI> {
@@ -78,7 +77,6 @@ implements BasicScrollBarUIClassTests<BasicScrollBarUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {

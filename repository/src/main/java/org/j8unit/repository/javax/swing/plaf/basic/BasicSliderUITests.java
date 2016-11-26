@@ -40,7 +40,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSliderUITests<SUT extends BasicSliderUI>
@@ -584,7 +583,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrackListenerTests<SUT extends TrackListener>
@@ -734,7 +732,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScrollListenerTests<SUT extends ScrollListener>
@@ -835,7 +832,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentHandlerTests<SUT extends ComponentHandler>
@@ -891,7 +887,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChangeHandlerTests<SUT extends ChangeHandler>
@@ -947,7 +942,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends PropertyChangeHandler>
@@ -1003,7 +997,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerTests<SUT extends FocusHandler>
@@ -1082,7 +1075,6 @@ extends SliderUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActionScrollerTests<SUT extends ActionScroller>

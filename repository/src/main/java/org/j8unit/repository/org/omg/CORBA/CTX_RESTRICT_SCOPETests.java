@@ -22,7 +22,6 @@ import org.omg.CORBA.CTX_RESTRICT_SCOPE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CTX_RESTRICT_SCOPETests<SUT extends CTX_RESTRICT_SCOPE>

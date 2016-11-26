@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpecTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XPathFilter2ParameterSpecTest
 implements XPathFilter2ParameterSpecTests<XPathFilter2ParameterSpec> {

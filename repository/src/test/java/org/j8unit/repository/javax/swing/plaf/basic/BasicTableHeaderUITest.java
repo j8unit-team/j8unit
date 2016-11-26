@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<BasicTableHeaderUI>, BasicTableHeaderUITests<B
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests.MouseInputHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests.MouseInputHandlerTests<MouseInputHandler> {

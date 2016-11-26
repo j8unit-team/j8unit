@@ -9,7 +9,6 @@ import org.omg.CORBA.portable.ObjectImpl;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectImpl} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectImplTest
 implements org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<ObjectImpl> {

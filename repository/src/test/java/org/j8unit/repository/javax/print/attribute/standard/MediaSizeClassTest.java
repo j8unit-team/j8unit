@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MediaSize} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MediaSizeClassTest
 implements MediaSizeClassTests<MediaSize> {
@@ -174,7 +173,6 @@ implements MediaSizeClassTests<MediaSize> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link JIS} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class JISClassTest
     implements JISClassTests<JIS> {
@@ -196,7 +194,6 @@ implements MediaSizeClassTests<MediaSize> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link ISO} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.ISOClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ISOClassTest
     implements ISOClassTests<ISO> {
@@ -218,7 +215,6 @@ implements MediaSizeClassTests<MediaSize> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Other} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OtherClassTest
     implements OtherClassTests<Other> {
@@ -240,7 +236,6 @@ implements MediaSizeClassTests<MediaSize> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link NA} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NAClassTest
     implements NAClassTests<NA> {
@@ -263,7 +258,6 @@ implements MediaSizeClassTests<MediaSize> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EngineeringClassTest
     implements EngineeringClassTests<Engineering> {

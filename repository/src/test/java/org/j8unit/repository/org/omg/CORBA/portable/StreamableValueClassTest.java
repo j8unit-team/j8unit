@@ -8,7 +8,6 @@ import org.omg.CORBA.portable.StreamableValue;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StreamableValue} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.StreamableValueClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StreamableValueClassTest
 implements StreamableValueClassTests<StreamableValue> {

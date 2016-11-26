@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RenderingHints} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.awt.RenderingHintsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RenderingHintsTest
 implements RenderingHintsTests<RenderingHints> {
@@ -30,7 +29,6 @@ implements RenderingHintsTests<RenderingHints> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Key} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.RenderingHintsTests.KeyTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyTest
     implements org.j8unit.repository.java.awt.RenderingHintsTests.KeyTests<Key> {

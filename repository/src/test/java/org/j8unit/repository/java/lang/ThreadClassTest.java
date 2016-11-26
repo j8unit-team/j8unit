@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Thread} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.lang.ThreadClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ThreadClassTest
 implements ThreadClassTests<Thread> {
@@ -451,7 +450,6 @@ implements ThreadClassTests<Thread> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UncaughtExceptionHandlerClassTest
     implements UncaughtExceptionHandlerClassTests<UncaughtExceptionHandler> {
@@ -473,7 +471,6 @@ implements ThreadClassTests<Thread> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link State} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class StateClassTest
     implements StateClassTests<State> {

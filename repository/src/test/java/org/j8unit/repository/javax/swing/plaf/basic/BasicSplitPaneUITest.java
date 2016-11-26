@@ -51,7 +51,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicHorizontalLayoutManagerTest
     implements BasicHorizontalLayoutManagerTests<BasicHorizontalLayoutManager> {
@@ -74,7 +73,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardResizeToggleHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardResizeToggleHandlerTest
     implements KeyboardResizeToggleHandlerTests<KeyboardResizeToggleHandler> {
@@ -97,7 +95,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardHomeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardHomeHandlerTest
     implements KeyboardHomeHandlerTests<KeyboardHomeHandler> {
@@ -120,7 +117,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardUpLeftHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardUpLeftHandlerTest
     implements KeyboardUpLeftHandlerTests<KeyboardUpLeftHandler> {
@@ -143,7 +139,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicVerticalLayoutManagerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicVerticalLayoutManagerTest
     implements BasicVerticalLayoutManagerTests<BasicVerticalLayoutManager> {
@@ -166,7 +161,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardEndHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardEndHandlerTest
     implements KeyboardEndHandlerTests<KeyboardEndHandler> {
@@ -189,7 +183,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.KeyboardDownRightHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyboardDownRightHandlerTest
     implements KeyboardDownRightHandlerTests<KeyboardDownRightHandler> {
@@ -212,7 +205,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.FocusHandlerTests<FocusHandler> {
@@ -235,7 +227,6 @@ implements FactoryBasedJ8UnitTest<BasicSplitPaneUI>, BasicSplitPaneUITests<Basic
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.PropertyHandlerTests<PropertyHandler> {

@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlJavaTypeAdapterClassTest
 implements XmlJavaTypeAdapterClassTests<XmlJavaTypeAdapter> {
@@ -35,7 +34,6 @@ implements XmlJavaTypeAdapterClassTests<XmlJavaTypeAdapter> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterClassTests.DEFAULTClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements DEFAULTClassTests<DEFAULT> {

@@ -25,7 +25,6 @@ import org.omg.PortableInterceptor.ClientRequestInterceptorOperations;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ClientRequestInterceptorOperationsTests<SUT extends ClientRequestInterceptorOperations>

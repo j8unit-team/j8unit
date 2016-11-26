@@ -44,7 +44,6 @@ import org.xml.sax.ext.Attributes2;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Attributes2ClassTests<SUT extends Attributes2>

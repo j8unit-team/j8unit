@@ -12,7 +12,6 @@ import org.xml.sax.helpers.ParserAdapter;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ParserAdapter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ParserAdapterClassTest
 implements ParserAdapterClassTests<ParserAdapter> {

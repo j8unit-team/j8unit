@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TransferHandler} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.TransferHandlerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TransferHandlerTest
 implements TransferHandlerTests<TransferHandler> {
@@ -32,7 +31,6 @@ implements TransferHandlerTests<TransferHandler> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.TransferHandlerTests.TransferSupportTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TransferSupportTest
     implements TransferSupportTests<TransferSupport> {
@@ -54,7 +52,6 @@ implements TransferHandlerTests<TransferHandler> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<DropLocation> {

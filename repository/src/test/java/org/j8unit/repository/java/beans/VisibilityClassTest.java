@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Visibility} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.beans.VisibilityClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class VisibilityClassTest
 implements VisibilityClassTests<Visibility> {

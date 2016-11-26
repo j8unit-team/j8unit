@@ -10,7 +10,6 @@ import org.omg.PortableServer.ServantLocatorOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServantLocatorOperationsTest
 implements ServantLocatorOperationsTests<ServantLocatorOperations> {

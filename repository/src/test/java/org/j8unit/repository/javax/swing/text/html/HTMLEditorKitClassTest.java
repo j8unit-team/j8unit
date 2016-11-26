@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLEditorKit} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLEditorKitClassTest
 implements HTMLEditorKitClassTests<HTMLEditorKit> {
@@ -63,7 +62,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HTMLFactoryClassTest
     implements HTMLFactoryClassTests<HTMLFactory> {
@@ -108,7 +106,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Parser} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParserClassTest
     implements ParserClassTests<Parser> {
@@ -152,7 +149,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InsertHTMLTextActionClassTest
     implements InsertHTMLTextActionClassTests<InsertHTMLTextAction> {
@@ -226,7 +222,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LinkControllerClassTest
     implements LinkControllerClassTests<LinkController> {
@@ -272,7 +267,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParserCallbackClassTest
     implements ParserCallbackClassTests<ParserCallback> {
@@ -318,7 +312,6 @@ implements HTMLEditorKitClassTests<HTMLEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HTMLTextActionClassTest
     implements HTMLTextActionClassTests<HTMLTextAction> {

@@ -22,7 +22,6 @@ import org.omg.DynamicAny.DynAnySeqHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnySeqHelperTests<SUT extends DynAnySeqHelper>

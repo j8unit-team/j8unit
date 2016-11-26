@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeySelector} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeySelectorClassTest
 implements KeySelectorClassTests<KeySelector> {
@@ -54,7 +53,6 @@ implements KeySelectorClassTests<KeySelector> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Purpose} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PurposeClassTest
     implements PurposeClassTests<Purpose> {

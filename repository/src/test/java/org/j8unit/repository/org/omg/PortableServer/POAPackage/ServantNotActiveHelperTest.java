@@ -10,7 +10,6 @@ import org.omg.PortableServer.POAPackage.ServantNotActiveHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServantNotActiveHelperTest
 implements ServantNotActiveHelperTests<ServantNotActiveHelper> {

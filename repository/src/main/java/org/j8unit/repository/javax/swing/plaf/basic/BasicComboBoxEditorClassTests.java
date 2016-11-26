@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxEditorClassTests<SUT extends BasicComboBoxEditor>
@@ -113,7 +112,6 @@ extends ComboBoxEditorClassTests<SUT>, FocusListenerClassTests<SUT>, ObjectClass
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceClassTests<SUT extends UIResource>

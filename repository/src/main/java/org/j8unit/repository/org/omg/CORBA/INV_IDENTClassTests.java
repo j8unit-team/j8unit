@@ -43,7 +43,6 @@ import org.omg.CORBA.INV_IDENT;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_IDENTClassTests<SUT extends INV_IDENT>

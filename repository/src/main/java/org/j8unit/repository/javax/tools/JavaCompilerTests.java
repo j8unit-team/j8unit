@@ -26,7 +26,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaCompilerTests<SUT extends JavaCompiler>
@@ -107,7 +106,6 @@ extends ToolTests<SUT>, OptionCheckerTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompilationTaskTests<SUT extends CompilationTask>

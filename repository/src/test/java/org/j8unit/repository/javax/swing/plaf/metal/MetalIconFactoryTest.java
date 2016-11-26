@@ -179,7 +179,6 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<Metal
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeControlIconTest
     implements TreeControlIconTests<TreeControlIcon> {

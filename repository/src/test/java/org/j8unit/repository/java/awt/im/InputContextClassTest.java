@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InputContext} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.im.InputContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InputContextClassTest
 implements InputContextClassTests<InputContext> {

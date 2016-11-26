@@ -18,7 +18,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicComboBoxUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicComboBoxUIClassTest
 implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
@@ -82,7 +81,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerClassTest
     implements ListDataHandlerClassTests<ListDataHandler> {
@@ -128,7 +126,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ItemHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ItemHandlerClassTest
     implements ItemHandlerClassTests<ItemHandler> {
@@ -174,7 +171,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -221,7 +217,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests<KeyHandler> {
@@ -267,7 +262,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -313,7 +307,6 @@ implements BasicComboBoxUIClassTests<BasicComboBoxUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComboBoxLayoutManagerClassTest
     implements ComboBoxLayoutManagerClassTests<ComboBoxLayoutManager> {

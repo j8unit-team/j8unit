@@ -41,7 +41,6 @@ implements FactoryBasedJ8UnitTest<CSS>, CSSTests<CSS> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.CSSTests.AttributeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AttributeTest

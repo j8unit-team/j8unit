@@ -9,7 +9,6 @@ import org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.REQUEST_PROCESSING_POLICY_IDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class REQUEST_PROCESSING_POLICY_IDClassTest
 implements REQUEST_PROCESSING_POLICY_IDClassTests<REQUEST_PROCESSING_POLICY_ID> {

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AppConfigurationEntry} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AppConfigurationEntryClassTest
 implements AppConfigurationEntryClassTests<AppConfigurationEntry> {
@@ -61,7 +60,6 @@ implements AppConfigurationEntryClassTests<AppConfigurationEntry> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryClassTests.LoginModuleControlFlagClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LoginModuleControlFlagClassTest
     implements LoginModuleControlFlagClassTests<LoginModuleControlFlag> {

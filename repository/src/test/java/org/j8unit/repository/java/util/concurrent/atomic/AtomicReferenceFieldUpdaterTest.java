@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFieldUpdaterTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AtomicReferenceFieldUpdaterTest<T, V>
 implements AtomicReferenceFieldUpdaterTests<AtomicReferenceFieldUpdater<T, V>, T, V> {

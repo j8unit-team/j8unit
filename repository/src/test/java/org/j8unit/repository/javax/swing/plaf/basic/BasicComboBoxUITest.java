@@ -48,7 +48,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ListDataHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerTest
     implements ListDataHandlerTests<ListDataHandler> {
@@ -71,7 +70,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ItemHandlerTest
     implements ItemHandlerTests<ItemHandler> {
@@ -94,7 +92,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -117,7 +114,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.KeyHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.KeyHandlerTests<KeyHandler> {
@@ -140,7 +136,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.FocusHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.FocusHandlerTests<FocusHandler> {
@@ -163,7 +158,6 @@ implements FactoryBasedJ8UnitTest<BasicComboBoxUI>, BasicComboBoxUITests<BasicCo
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComboBoxLayoutManagerTest
     implements ComboBoxLayoutManagerTests<ComboBoxLayoutManager> {

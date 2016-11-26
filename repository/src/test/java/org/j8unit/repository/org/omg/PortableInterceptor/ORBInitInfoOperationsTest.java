@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.ORBInitInfoOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ORBInitInfoOperationsTest
 implements ORBInitInfoOperationsTests<ORBInitInfoOperations> {

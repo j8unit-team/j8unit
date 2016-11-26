@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SwingWorker} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.SwingWorkerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SwingWorkerTest<T, V>
 implements SwingWorkerTests<SwingWorker<T, V>, T, V> {
@@ -36,7 +35,6 @@ implements SwingWorkerTests<SwingWorker<T, V>, T, V> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link StateValue} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateValueTest

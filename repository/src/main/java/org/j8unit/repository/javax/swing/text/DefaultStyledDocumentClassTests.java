@@ -50,7 +50,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultStyledDocumentClassTests<SUT extends DefaultStyledDocument>
@@ -115,7 +114,6 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeUndoableEditClassTests<SUT extends AttributeUndoableEdit>
@@ -182,7 +180,6 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementSpecClassTests<SUT extends ElementSpec>
@@ -249,7 +246,6 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementBufferClassTests<SUT extends ElementBuffer>

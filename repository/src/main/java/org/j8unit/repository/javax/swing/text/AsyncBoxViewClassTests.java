@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsyncBoxViewClassTests<SUT extends AsyncBoxView>
@@ -113,7 +112,6 @@ extends ViewClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChildStateClassTests<SUT extends ChildState>
@@ -180,7 +178,6 @@ extends ViewClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChildLocatorClassTests<SUT extends ChildLocator>

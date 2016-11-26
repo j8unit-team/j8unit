@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TableColumn} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.table.TableColumnClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TableColumnClassTest
 implements TableColumnClassTests<TableColumn> {

@@ -28,7 +28,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectoryStreamTests<SUT extends DirectoryStream<T>, T>
@@ -80,7 +79,6 @@ extends CloseableTests<SUT>, IterableTests<SUT, T> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterTests<SUT extends Filter<T>, T>

@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Control} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.ControlTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ControlTest
 implements org.j8unit.repository.javax.sound.sampled.ControlTests<Control> {
@@ -30,7 +29,6 @@ implements org.j8unit.repository.javax.sound.sampled.ControlTests<Control> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TypeTest
     implements org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests<Type> {

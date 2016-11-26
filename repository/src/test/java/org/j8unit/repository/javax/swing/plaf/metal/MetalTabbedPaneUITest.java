@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<MetalTabbedPaneUI>, MetalTabbedPaneUITests<Met
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests.TabbedPaneLayoutTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutTest
     implements TabbedPaneLayoutTests<TabbedPaneLayout> {

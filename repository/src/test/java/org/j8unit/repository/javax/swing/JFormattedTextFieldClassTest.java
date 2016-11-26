@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JFormattedTextField} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JFormattedTextFieldClassTest
 implements JFormattedTextFieldClassTests<JFormattedTextField> {
@@ -179,7 +178,6 @@ implements JFormattedTextFieldClassTests<JFormattedTextField> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterFactoryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractFormatterFactoryClassTest
     implements AbstractFormatterFactoryClassTests<AbstractFormatterFactory> {
@@ -223,7 +221,6 @@ implements JFormattedTextFieldClassTests<JFormattedTextField> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractFormatterClassTest
     implements AbstractFormatterClassTests<AbstractFormatter> {

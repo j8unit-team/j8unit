@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TableView} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TableViewClassTest
 implements TableViewClassTests<TableView> {
@@ -56,7 +55,6 @@ implements TableViewClassTests<TableView> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link TableRow} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests.TableRowClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TableRowClassTest
     implements TableRowClassTests<TableRow> {
@@ -101,7 +99,6 @@ implements TableViewClassTests<TableView> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link TableCell} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewClassTests.TableCellClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     @SuppressWarnings("deprecation")
     public static class TableCellClassTest

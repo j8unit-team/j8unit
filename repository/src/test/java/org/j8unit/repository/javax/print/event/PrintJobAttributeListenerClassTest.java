@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.event.PrintJobAttributeListenerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PrintJobAttributeListenerClassTest
 implements PrintJobAttributeListenerClassTests<PrintJobAttributeListener> {

@@ -21,7 +21,6 @@ import org.omg.CORBA.BAD_OPERATION;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_OPERATIONTests<SUT extends BAD_OPERATION>

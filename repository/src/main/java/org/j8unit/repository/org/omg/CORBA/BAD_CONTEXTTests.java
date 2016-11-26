@@ -21,7 +21,6 @@ import org.omg.CORBA.BAD_CONTEXT;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_CONTEXTTests<SUT extends BAD_CONTEXT>

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.IllegalChannelGroupExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IllegalChannelGroupExceptionClassTest
 implements IllegalChannelGroupExceptionClassTests<IllegalChannelGroupException> {

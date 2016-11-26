@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DateFormat} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.text.DateFormatClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DateFormatClassTest
 implements DateFormatClassTests<DateFormat> {
@@ -256,7 +255,6 @@ implements DateFormatClassTests<DateFormat> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Field} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.text.DateFormatClassTests.FieldClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements FieldClassTests<Field> {

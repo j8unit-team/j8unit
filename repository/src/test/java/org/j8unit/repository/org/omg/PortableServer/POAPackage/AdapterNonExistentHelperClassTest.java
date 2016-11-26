@@ -14,7 +14,6 @@ import org.omg.PortableServer.POAPackage.AdapterNonExistentHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AdapterNonExistentHelperClassTest
 implements AdapterNonExistentHelperClassTests<AdapterNonExistentHelper> {

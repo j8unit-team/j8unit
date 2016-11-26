@@ -12,7 +12,6 @@ import org.omg.CORBA.INV_OBJREF;
  * Specific JUnit test class to proof the type relevant aspects of type {@link INV_OBJREF} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.INV_OBJREFClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class INV_OBJREFClassTest
 implements INV_OBJREFClassTests<INV_OBJREF> {

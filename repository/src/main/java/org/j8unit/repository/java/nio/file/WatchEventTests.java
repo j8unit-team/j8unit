@@ -27,7 +27,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WatchEventTests<SUT extends WatchEvent<T>, T>
@@ -122,7 +121,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModifierTests<SUT extends Modifier>
@@ -175,7 +173,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindTests<SUT extends Kind<T>, T>

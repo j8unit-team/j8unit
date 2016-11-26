@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleGradientPaint} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultipleGradientPaintClassTest
 implements MultipleGradientPaintClassTests<MultipleGradientPaint> {
@@ -35,7 +34,6 @@ implements MultipleGradientPaintClassTests<MultipleGradientPaint> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ColorSpaceTypeClassTest
     implements ColorSpaceTypeClassTests<ColorSpaceType> {
@@ -101,7 +99,6 @@ implements MultipleGradientPaintClassTests<MultipleGradientPaint> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CycleMethodClassTest
     implements CycleMethodClassTests<CycleMethod> {

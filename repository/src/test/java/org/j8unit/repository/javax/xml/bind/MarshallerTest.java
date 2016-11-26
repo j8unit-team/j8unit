@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Marshaller} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.MarshallerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MarshallerTest
 implements MarshallerTests<Marshaller> {
@@ -30,7 +29,6 @@ implements MarshallerTests<Marshaller> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Listener} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.MarshallerTests.ListenerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListenerTest
     implements org.j8unit.repository.javax.xml.bind.MarshallerTests.ListenerTests<Listener> {

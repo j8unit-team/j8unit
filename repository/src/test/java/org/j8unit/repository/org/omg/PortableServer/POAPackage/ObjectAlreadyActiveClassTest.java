@@ -13,7 +13,6 @@ import org.omg.PortableServer.POAPackage.ObjectAlreadyActive;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlreadyActiveClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectAlreadyActiveClassTest
 implements ObjectAlreadyActiveClassTests<ObjectAlreadyActive> {

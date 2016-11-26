@@ -8,7 +8,6 @@ import org.xml.sax.AttributeList;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeList} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.AttributeListClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 @SuppressWarnings("deprecation")
 public class AttributeListClassTest

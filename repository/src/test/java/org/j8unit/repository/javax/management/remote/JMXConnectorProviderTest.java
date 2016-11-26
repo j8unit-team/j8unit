@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link JMXConnectorProvider} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.management.remote.JMXConnectorProviderTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JMXConnectorProviderTest
 implements JMXConnectorProviderTests<JMXConnectorProvider> {

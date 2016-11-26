@@ -13,7 +13,6 @@ import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.CookieHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CookieHolderClassTest
 implements CookieHolderClassTests<CookieHolder> {

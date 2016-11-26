@@ -12,7 +12,6 @@ import org.omg.CORBA.BAD_TYPECODE;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BAD_TYPECODE} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BAD_TYPECODEClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BAD_TYPECODEClassTest
 implements BAD_TYPECODEClassTests<BAD_TYPECODE> {

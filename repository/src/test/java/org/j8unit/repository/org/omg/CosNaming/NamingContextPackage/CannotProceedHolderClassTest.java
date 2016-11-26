@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceedHolder;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CannotProceedHolderClassTest
 implements CannotProceedHolderClassTests<CannotProceedHolder> {

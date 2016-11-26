@@ -22,7 +22,6 @@ import org.omg.IOP.TAG_CODE_SETS;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_CODE_SETSTests<SUT extends TAG_CODE_SETS>

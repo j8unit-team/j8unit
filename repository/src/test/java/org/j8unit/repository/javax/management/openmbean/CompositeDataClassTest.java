@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CompositeData} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.openmbean.CompositeDataClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CompositeDataClassTest
 implements CompositeDataClassTests<CompositeData> {

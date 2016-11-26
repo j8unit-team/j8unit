@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<NavigationFilter>, NavigationFilterTests<Navig
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.NavigationFilterTests.FilterBypassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FilterBypassTest
     implements FilterBypassTests<FilterBypass> {

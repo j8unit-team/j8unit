@@ -12,7 +12,6 @@ import org.omg.CORBA.INV_IDENT;
  * Specific JUnit test class to proof the type relevant aspects of type {@link INV_IDENT} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.INV_IDENTClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class INV_IDENTClassTest
 implements INV_IDENTClassTests<INV_IDENT> {

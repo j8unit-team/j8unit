@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboBoxUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalComboBoxUIClassTest
 implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
@@ -79,7 +78,6 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MetalComboBoxLayoutManagerClassTest
     implements MetalComboBoxLayoutManagerClassTests<MetalComboBoxLayoutManager> {
@@ -127,7 +125,6 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MetalPropertyChangeListenerClassTest
     implements MetalPropertyChangeListenerClassTests<MetalPropertyChangeListener> {
@@ -175,7 +172,6 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     @SuppressWarnings("deprecation")
     public static class MetalComboPopupClassTest

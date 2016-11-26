@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IntStream} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.stream.IntStreamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IntStreamClassTest
 implements IntStreamClassTests<IntStream> {
@@ -218,7 +217,6 @@ implements IntStreamClassTests<IntStream> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.stream.IntStreamClassTests.BuilderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.stream.IntStreamClassTests.BuilderClassTests<Builder> {

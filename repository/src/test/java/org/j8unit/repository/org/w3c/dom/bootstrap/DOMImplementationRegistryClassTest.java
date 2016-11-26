@@ -13,7 +13,6 @@ import org.w3c.dom.bootstrap.DOMImplementationRegistry;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DOMImplementationRegistryClassTest
 implements DOMImplementationRegistryClassTests<DOMImplementationRegistry> {

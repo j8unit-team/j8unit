@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MTOM} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.xml.ws.soap.MTOMTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MTOMTest
 implements MTOMTests<MTOM> {

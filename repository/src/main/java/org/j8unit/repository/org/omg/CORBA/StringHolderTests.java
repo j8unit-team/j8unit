@@ -26,7 +26,6 @@ import org.omg.CORBA.StringHolder;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringHolderTests<SUT extends StringHolder>

@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTML} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLClassTest
 implements HTMLClassTests<HTML> {
@@ -160,7 +159,6 @@ implements HTMLClassTests<HTML> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AttributeClassTest
     implements AttributeClassTests<Attribute> {
@@ -182,7 +180,6 @@ implements HTMLClassTests<HTML> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Tag} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TagClassTest
     implements TagClassTests<Tag> {
@@ -226,7 +223,6 @@ implements HTMLClassTests<HTML> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownTag} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UnknownTagClassTest
     implements UnknownTagClassTests<UnknownTag> {

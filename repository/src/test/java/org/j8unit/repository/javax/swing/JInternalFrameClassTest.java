@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JInternalFrame} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.JInternalFrameClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JInternalFrameClassTest
 implements JInternalFrameClassTests<JInternalFrame> {
@@ -169,7 +168,6 @@ implements JInternalFrameClassTests<JInternalFrame> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link JDesktopIcon} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JInternalFrameClassTests.JDesktopIconClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class JDesktopIconClassTest
     implements JDesktopIconClassTests<JDesktopIcon> {

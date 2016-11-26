@@ -44,7 +44,6 @@ implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLoc
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ReadLockTest
     implements ReadLockTests<ReadLock> {
@@ -67,7 +66,6 @@ implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLoc
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class WriteLockTest
     implements WriteLockTests<WriteLock> {

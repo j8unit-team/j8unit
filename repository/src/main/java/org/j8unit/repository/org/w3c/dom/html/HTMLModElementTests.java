@@ -24,7 +24,6 @@ import org.w3c.dom.html.HTMLModElement;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLModElementTests<SUT extends HTMLModElement>

@@ -13,7 +13,6 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateSeqHolderClassTest
 implements ObjectReferenceTemplateSeqHolderClassTests<ObjectReferenceTemplateSeqHolder> {

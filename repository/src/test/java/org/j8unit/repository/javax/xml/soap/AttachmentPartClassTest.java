@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttachmentPart} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.soap.AttachmentPartClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttachmentPartClassTest
 implements AttachmentPartClassTests<AttachmentPart> {

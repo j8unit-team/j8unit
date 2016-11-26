@@ -19,7 +19,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link GroupLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GroupLayoutTest
 implements GroupLayoutTests<GroupLayout> {
@@ -39,7 +38,6 @@ implements GroupLayoutTests<GroupLayout> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Alignment} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AlignmentTest
@@ -70,7 +68,6 @@ implements GroupLayoutTests<GroupLayout> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ParallelGroup} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.ParallelGroupTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParallelGroupTest
     implements ParallelGroupTests<ParallelGroup> {
@@ -92,7 +89,6 @@ implements GroupLayoutTests<GroupLayout> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Group} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class GroupTest
     implements GroupTests<Group> {
@@ -115,7 +111,6 @@ implements GroupLayoutTests<GroupLayout> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SequentialGroupTest
     implements SequentialGroupTests<SequentialGroup> {

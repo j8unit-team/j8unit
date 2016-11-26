@@ -9,7 +9,6 @@ import org.omg.CORBA.ARG_INOUT;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ARG_INOUT} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ARG_INOUTTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ARG_INOUTTest
 implements ARG_INOUTTests<ARG_INOUT> {

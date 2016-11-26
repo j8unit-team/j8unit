@@ -85,7 +85,6 @@ implements CollectorClassTests<Collector> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.util.stream.CollectorClassTests.CharacteristicsClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CharacteristicsClassTest
     implements CharacteristicsClassTests<Characteristics> {

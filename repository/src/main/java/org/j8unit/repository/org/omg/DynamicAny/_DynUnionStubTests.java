@@ -25,7 +25,6 @@ import org.omg.DynamicAny._DynUnionStub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynUnionStubTests<SUT extends _DynUnionStub>

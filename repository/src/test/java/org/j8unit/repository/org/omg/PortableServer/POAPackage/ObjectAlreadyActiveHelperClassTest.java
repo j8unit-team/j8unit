@@ -14,7 +14,6 @@ import org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectAlreadyActiveHelperClassTest
 implements ObjectAlreadyActiveHelperClassTests<ObjectAlreadyActiveHelper> {

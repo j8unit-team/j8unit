@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<DefaultHighlighter>, DefaultHighlighterTests<D
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterTest
     implements DefaultHighlightPainterTests<DefaultHighlightPainter> {

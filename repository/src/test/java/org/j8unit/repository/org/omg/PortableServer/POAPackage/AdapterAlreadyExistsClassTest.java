@@ -13,7 +13,6 @@ import org.omg.PortableServer.POAPackage.AdapterAlreadyExists;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AdapterAlreadyExistsClassTest
 implements AdapterAlreadyExistsClassTests<AdapterAlreadyExists> {

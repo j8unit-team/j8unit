@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollBarUI>, BasicScrollBarUITests<Basic
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {

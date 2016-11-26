@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SOAPHandler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.handler.soap.SOAPHandlerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SOAPHandlerTest<T extends SOAPMessageContext>
 implements SOAPHandlerTests<SOAPHandler<T>, T> {

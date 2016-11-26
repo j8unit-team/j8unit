@@ -26,7 +26,6 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIServer_StubTests<SUT extends _RMIServer_Stub>

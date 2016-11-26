@@ -25,7 +25,6 @@ import org.xml.sax.ext.EntityResolver2;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EntityResolver2Tests<SUT extends EntityResolver2>

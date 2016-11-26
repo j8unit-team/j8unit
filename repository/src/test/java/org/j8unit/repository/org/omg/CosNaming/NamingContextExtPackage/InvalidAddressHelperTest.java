@@ -10,7 +10,6 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidAddressHelperTest
 implements InvalidAddressHelperTests<InvalidAddressHelper> {

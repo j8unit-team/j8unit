@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Graphics2D} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.Graphics2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Graphics2DClassTest
 implements Graphics2DClassTests<Graphics2D> {

@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectOutputStream} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.io.ObjectOutputStreamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectOutputStreamClassTest
 implements ObjectOutputStreamClassTests<ObjectOutputStream> {
@@ -57,7 +56,6 @@ implements ObjectOutputStreamClassTests<ObjectOutputStream> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link PutField} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.io.ObjectOutputStreamClassTests.PutFieldClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PutFieldClassTest
     implements PutFieldClassTests<PutField> {

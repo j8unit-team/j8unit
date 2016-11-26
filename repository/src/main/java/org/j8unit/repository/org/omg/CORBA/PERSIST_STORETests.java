@@ -21,7 +21,6 @@ import org.omg.CORBA.PERSIST_STORE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PERSIST_STORETests<SUT extends PERSIST_STORE>

@@ -25,7 +25,6 @@ import org.w3c.dom.traversal.TreeWalker;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeWalkerTests<SUT extends TreeWalker>

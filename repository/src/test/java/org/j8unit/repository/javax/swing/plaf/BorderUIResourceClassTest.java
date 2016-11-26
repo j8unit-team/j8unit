@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BorderUIResource} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BorderUIResourceClassTest
 implements BorderUIResourceClassTests<BorderUIResource> {
@@ -147,7 +146,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.TitledBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TitledBorderUIResourceClassTest
     implements TitledBorderUIResourceClassTests<TitledBorderUIResource> {
@@ -314,7 +312,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EmptyBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EmptyBorderUIResourceClassTest
     implements EmptyBorderUIResourceClassTests<EmptyBorderUIResource> {
@@ -383,7 +380,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BevelBorderUIResourceClassTest
     implements BevelBorderUIResourceClassTests<BevelBorderUIResource> {
@@ -477,7 +473,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CompoundBorderUIResourceClassTest
     implements CompoundBorderUIResourceClassTests<CompoundBorderUIResource> {
@@ -525,7 +520,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.MatteBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MatteBorderUIResourceClassTest
     implements MatteBorderUIResourceClassTests<MatteBorderUIResource> {
@@ -618,7 +612,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EtchedBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EtchedBorderUIResourceClassTest
     implements EtchedBorderUIResourceClassTests<EtchedBorderUIResource> {
@@ -734,7 +727,6 @@ implements BorderUIResourceClassTests<BorderUIResource> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.LineBorderUIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LineBorderUIResourceClassTest
     implements LineBorderUIResourceClassTests<LineBorderUIResource> {

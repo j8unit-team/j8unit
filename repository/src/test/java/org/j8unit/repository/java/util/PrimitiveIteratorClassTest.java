@@ -31,7 +31,6 @@ implements PrimitiveIteratorClassTests<PrimitiveIterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfLong} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfLongClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests<OfLong> {
@@ -53,7 +52,6 @@ implements PrimitiveIteratorClassTests<PrimitiveIterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfDouble} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfDoubleClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests<OfDouble> {
@@ -75,7 +73,6 @@ implements PrimitiveIteratorClassTests<PrimitiveIterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfInt} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfIntClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests<OfInt> {

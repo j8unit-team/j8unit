@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link IdentityScope} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.IdentityScopeTests}).
  */
-
 @RunWith(J8Unit4.class)
 @SuppressWarnings("deprecation")
 public class IdentityScopeTest

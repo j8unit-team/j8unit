@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdaptersClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlJavaTypeAdaptersClassTest
 implements XmlJavaTypeAdaptersClassTests<XmlJavaTypeAdapters> {

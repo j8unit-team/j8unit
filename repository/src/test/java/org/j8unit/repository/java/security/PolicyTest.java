@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Policy} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.security.PolicyTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PolicyTest
 implements PolicyTests<Policy> {
@@ -30,7 +29,6 @@ implements PolicyTests<Policy> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Parameters} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.security.PolicyTests.ParametersTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParametersTest
     implements ParametersTests<Parameters> {

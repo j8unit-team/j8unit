@@ -22,7 +22,6 @@ import org.omg.PortableInterceptor.LOCATION_FORWARD;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LOCATION_FORWARDTests<SUT extends LOCATION_FORWARD>

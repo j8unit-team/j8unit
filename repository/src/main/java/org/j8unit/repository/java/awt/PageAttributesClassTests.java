@@ -51,7 +51,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PageAttributesClassTests<SUT extends PageAttributes>
@@ -116,7 +115,6 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintQualityTypeClassTests<SUT extends PrintQualityType>
@@ -183,7 +181,6 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorTypeClassTests<SUT extends ColorType>
@@ -250,7 +247,6 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OriginTypeClassTests<SUT extends OriginType>
@@ -317,7 +313,6 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MediaTypeClassTests<SUT extends MediaType>
@@ -384,7 +379,6 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OrientationRequestedTypeClassTests<SUT extends OrientationRequestedType>

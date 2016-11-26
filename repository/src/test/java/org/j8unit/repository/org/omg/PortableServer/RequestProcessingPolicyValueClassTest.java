@@ -13,7 +13,6 @@ import org.omg.PortableServer.RequestProcessingPolicyValue;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyValueClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RequestProcessingPolicyValueClassTest
 implements RequestProcessingPolicyValueClassTests<RequestProcessingPolicyValue> {

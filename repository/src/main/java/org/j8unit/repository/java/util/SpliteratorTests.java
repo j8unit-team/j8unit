@@ -32,7 +32,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorTests<SUT extends Spliterator<T>, T>
@@ -239,7 +238,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfPrimitiveTests<SUT extends OfPrimitive<T, T_CONS, T_SPLITR>, T, T_CONS, T_SPLITR extends OfPrimitive<T, T_CONS, T_SPLITR>>
@@ -339,7 +337,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongTests<SUT extends OfLong>
@@ -487,7 +484,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntTests<SUT extends OfInt>
@@ -635,7 +631,6 @@ extends RepositoryTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleTests<SUT extends OfDouble>

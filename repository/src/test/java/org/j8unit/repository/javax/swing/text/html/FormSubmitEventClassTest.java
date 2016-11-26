@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FormSubmitEvent} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FormSubmitEventClassTest
 implements FormSubmitEventClassTests<FormSubmitEvent> {
@@ -34,7 +33,6 @@ implements FormSubmitEventClassTests<FormSubmitEvent> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests.MethodTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MethodTypeClassTest
     implements MethodTypeClassTests<MethodType> {

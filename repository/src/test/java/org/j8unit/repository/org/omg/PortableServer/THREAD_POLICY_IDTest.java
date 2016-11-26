@@ -9,7 +9,6 @@ import org.omg.PortableServer.THREAD_POLICY_ID;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link THREAD_POLICY_ID} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.THREAD_POLICY_IDTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class THREAD_POLICY_IDTest
 implements THREAD_POLICY_IDTests<THREAD_POLICY_ID> {

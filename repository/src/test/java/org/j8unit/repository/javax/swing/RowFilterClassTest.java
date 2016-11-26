@@ -228,7 +228,6 @@ implements RowFilterClassTests<RowFilter> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComparisonTypeClassTest
     implements ComparisonTypeClassTests<ComparisonType> {

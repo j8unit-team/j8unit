@@ -53,7 +53,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicScrollPaneUIClassTests<SUT extends BasicScrollPaneUI>
@@ -118,7 +117,6 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HSBChangeListenerClassTests<SUT extends HSBChangeListener>
@@ -185,7 +183,6 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
@@ -252,7 +249,6 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ViewportChangeHandlerClassTests<SUT extends ViewportChangeHandler>
@@ -319,7 +315,6 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface VSBChangeListenerClassTests<SUT extends VSBChangeListener>

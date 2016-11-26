@@ -17,7 +17,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link RowFilter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RowFilterTest<M, I>
 implements RowFilterTests<RowFilter<M, I>, M, I> {
@@ -37,7 +36,6 @@ implements RowFilterTests<RowFilter<M, I>, M, I> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Entry} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests.EntryTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EntryTest<M, I>
     implements EntryTests<Entry<M, I>, M, I> {
@@ -59,7 +57,6 @@ implements RowFilterTests<RowFilter<M, I>, M, I> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ComparisonType} (by simply
      * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.RowFilterTests.ComparisonTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ComparisonTypeTest

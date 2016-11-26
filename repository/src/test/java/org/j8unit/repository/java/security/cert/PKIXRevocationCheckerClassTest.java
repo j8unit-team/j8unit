@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PKIXRevocationChecker} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PKIXRevocationCheckerClassTest
 implements PKIXRevocationCheckerClassTests<PKIXRevocationChecker> {
@@ -34,7 +33,6 @@ implements PKIXRevocationCheckerClassTests<PKIXRevocationChecker> {
      * test interface
      * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests.OptionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OptionClassTest
     implements OptionClassTests<Option> {

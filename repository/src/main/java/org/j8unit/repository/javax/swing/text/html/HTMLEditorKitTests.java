@@ -36,7 +36,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLEditorKitTests<SUT extends HTMLEditorKit>
@@ -534,7 +533,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLFactoryTests<SUT extends HTMLFactory>
@@ -589,7 +587,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserTests<SUT extends Parser>
@@ -645,7 +642,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertHTMLTextActionTests<SUT extends InsertHTMLTextAction>
@@ -701,7 +697,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LinkControllerTests<SUT extends LinkController>
@@ -804,7 +799,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserCallbackTests<SUT extends ParserCallback>
@@ -1022,7 +1016,6 @@ extends AccessibleTests<SUT>, StyledEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLTextActionTests<SUT extends HTMLTextAction>

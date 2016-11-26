@@ -12,7 +12,6 @@ import org.omg.CosNaming.NameComponent;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NameComponent} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NameComponentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NameComponentClassTest
 implements NameComponentClassTests<NameComponent> {

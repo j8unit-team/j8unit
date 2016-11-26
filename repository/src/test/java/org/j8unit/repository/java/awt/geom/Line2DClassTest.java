@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Line2D} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.geom.Line2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Line2DClassTest
 implements Line2DClassTests<Line2D> {
@@ -161,7 +160,6 @@ implements Line2DClassTests<Line2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Line2DClassTests.FloatClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
     implements org.j8unit.repository.java.awt.geom.Line2DClassTests.FloatClassTests<Float> {
@@ -251,7 +249,6 @@ implements Line2DClassTests<Line2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.Line2DClassTests.DoubleClassTests<Double> {

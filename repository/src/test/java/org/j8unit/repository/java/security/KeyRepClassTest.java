@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeyRep} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.security.KeyRepClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeyRepClassTest
 implements KeyRepClassTests<KeyRep> {
@@ -56,7 +55,6 @@ implements KeyRepClassTests<KeyRep> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.security.KeyRepClassTests.TypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.java.security.KeyRepClassTests.TypeClassTests<Type> {

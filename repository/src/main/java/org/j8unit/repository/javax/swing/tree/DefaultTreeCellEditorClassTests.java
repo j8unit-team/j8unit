@@ -51,7 +51,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTreeCellEditorClassTests<SUT extends DefaultTreeCellEditor>
@@ -116,7 +115,6 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EditorContainerClassTests<SUT extends EditorContainer>
@@ -183,7 +181,6 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultTextFieldClassTests<SUT extends DefaultTextField>

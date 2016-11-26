@@ -44,7 +44,6 @@ import org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface REQUEST_PROCESSING_POLICY_IDClassTests<SUT extends REQUEST_PROCESSING_POLICY_ID>
