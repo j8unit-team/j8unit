@@ -1,5 +1,6 @@
 package org.j8unit.generator;
 
+import static java.lang.String.format;
 import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
@@ -21,9 +22,13 @@ import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
 import org.j8unit.generator.analysis.TypeNatures;
 import org.j8unit.generator.api.ModusOperandi;
+import org.j8unit.generator.api.render.ConciseOriginRenderer;
+import org.j8unit.generator.api.render.OriginRenderer;
 import org.junit.Test;
 
 public class RawtypesWarningTest {
+
+    private static final OriginRenderer RENDERER = new ConciseOriginRenderer() {};
 
     /**
      * Top-level generic types
@@ -45,6 +50,8 @@ public class RawtypesWarningTest {
             assertEquals(emptySet(), iwarnings);
             final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
         {
             final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
@@ -53,6 +60,8 @@ public class RawtypesWarningTest {
             assertEquals(singleton("rawtypes"), cwarnings);
             final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
             assertEquals(singleton("rawtypes"), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals(format("@SuppressWarnings(\"rawtypes\")%n"), string);
         }
     }
 
@@ -79,6 +88,8 @@ public class RawtypesWarningTest {
             assertEquals(emptySet(), iwarnings);
             final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
         {
             final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
@@ -87,6 +98,8 @@ public class RawtypesWarningTest {
             assertEquals(singleton("rawtypes"), cwarnings);
             final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
     }
 
@@ -103,6 +116,8 @@ public class RawtypesWarningTest {
             assertEquals(emptySet(), iwarnings);
             final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
         {
             final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
@@ -111,6 +126,8 @@ public class RawtypesWarningTest {
             assertEquals(singleton("rawtypes"), cwarnings);
             final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
     }
 
@@ -135,6 +152,8 @@ public class RawtypesWarningTest {
             assertEquals(singleton("rawtypes"), iwarnings);
             final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
             assertEquals(singleton("rawtypes"), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals(format("@SuppressWarnings(\"rawtypes\")%n"), string);
         }
         {
             final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
@@ -143,6 +162,8 @@ public class RawtypesWarningTest {
             assertEquals(emptySet(), cwarnings);
             final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
     }
 
@@ -167,6 +188,8 @@ public class RawtypesWarningTest {
             assertEquals(singleton("rawtypes"), iwarnings);
             final Set<String> ewarnings = imo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = imo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), INSTANCE::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
         {
             final ModusOperandi cmo = ModusOperandi.valueOf(CLASS, type);
@@ -175,6 +198,8 @@ public class RawtypesWarningTest {
             assertEquals(emptySet(), cwarnings);
             final Set<String> ewarnings = cmo.getEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor));
             assertEquals(emptySet(), ewarnings);
+            final String string = cmo.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), CLASS::modusOperandiFor), 0, RENDERER);
+            assertEquals("", string);
         }
     }
 

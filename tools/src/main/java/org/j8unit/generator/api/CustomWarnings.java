@@ -5,6 +5,7 @@ import static java.util.Spliterators.spliteratorUnknownSize;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.generator.GeneratorTokens.indent;
 import static org.j8unit.generator.util.Java.annotation;
+import static org.j8unit.generator.util.OptionalString.ofEmptyable;
 import static org.j8unit.generator.util.Sets.reduce;
 import java.util.Collection;
 import java.util.Iterator;
@@ -32,11 +33,15 @@ public abstract interface CustomWarnings {
      * with the line separator string.
      *
      * If there is no warning at all, an empty {@code String} will be returned instead.
+     *
+     * @deprecated Use {@link #renderEffectiveWarnings(Iterator, int, OriginRenderer)} in preference to suppress
+     *             duplicated warnings.
      */
+    @Deprecated
     public default String renderWarnings(final int depth, final OriginRenderer renderer) {
         final String indent = indent(depth);
         final String annotation = annotation(renderer.originCanonicalNameOf(SuppressWarnings.class), this.getWarnings());
-        return String.format("%s%s%n", indent, annotation);
+        return ofEmptyable(annotation).prepend(indent).format("%s%n").orEmpty();
     }
 
     public default Set<String> getEffectiveWarnings(final Iterator<? extends CustomWarnings> references) {
@@ -51,7 +56,7 @@ public abstract interface CustomWarnings {
     public default String renderEffectiveWarnings(final Iterator<? extends CustomWarnings> references, final int depth, final OriginRenderer renderer) {
         final String indent = indent(depth);
         final String annotation = annotation(renderer.originCanonicalNameOf(SuppressWarnings.class), this.getEffectiveWarnings(references));
-        return String.format("%s%s%n", indent, annotation);
+        return ofEmptyable(annotation).prepend(indent).format("%s%n").orEmpty();
     }
 
 }
