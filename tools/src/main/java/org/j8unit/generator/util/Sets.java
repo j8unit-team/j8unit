@@ -30,46 +30,29 @@ public enum Sets {
     }
 
     /**
-     * Merges two given sets into a new one.
-     *
-     * @param x
-     *            the first set to merge
-     * @param y
-     *            the second set to merge
-     * @param <T>
-     *            the type of the sets' elements
-     * @return the merged set
-     * @deprecated Use {@link #join(Set, Collection)} instead!
-     */
-    @Deprecated
-    public static final <T> Set<T> merge(final Set<? extends T> x, final Set<? extends T> y) {
-        return concat(x.stream(), y.stream()).collect(toSet());
-    }
-
-    /**
-     * Helper method to join some existing warnings with further warnings.
+     * Merges a given set and the given {@code additionals} elements into a new set.
      *
      * @param origin
-     *            the existing warnings
+     *            the set to merge
      * @param additionals
-     *            the further warnings
-     * @return a joined set of the given warnings
+     *            the further elements
+     * @return a merged set
      */
     @SafeVarargs
-    public static final <T> Set<T> join(final Set<? extends T> origin, final T... additionals) {
+    public static final <T> Set<T> merge(final Set<? extends T> origin, final T... additionals) {
         return concat(origin.stream(), stream(additionals)).collect(toSet());
     }
 
     /**
-     * Helper method to join some existing warnings with further warnings.
+     * Merges a given set and the given {@code additionals} elements into a new set.
      *
      * @param origin
-     *            the existing warnings
+     *            the set to merge
      * @param additionals
-     *            the further warnings
-     * @return a joined set of the given warnings
+     *            the further elements
+     * @return a merged set
      */
-    public static final <T> Set<T> join(final Set<? extends T> origin, final Iterable<? extends T> additionals) {
+    public static final <T> Set<T> merge(final Set<? extends T> origin, final Iterable<? extends T> additionals) {
         return concat(origin.stream(), stream(additionals.spliterator(), false)).collect(toSet());
     }
 

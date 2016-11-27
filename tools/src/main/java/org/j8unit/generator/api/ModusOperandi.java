@@ -15,7 +15,7 @@ import static org.j8unit.generator.api.GlobalGeneratorConstants.SUT;
 import static org.j8unit.generator.util.BiFunctions.curryFirst;
 import static org.j8unit.generator.util.Java.diamond;
 import static org.j8unit.generator.util.Lists.convert;
-import static org.j8unit.generator.util.Sets.join;
+import static org.j8unit.generator.util.Sets.merge;
 import static org.j8unit.generator.util.Sets.reduce;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestMatchingParents;
 import static org.j8unit.generator.util.TypeAnalysis.redundantTypes;
@@ -166,7 +166,7 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
 
         @Override
         public final Set<String> getWarnings() {
-            return join(super.getWarnings(), RAW.getWarnings());
+            return merge(super.getWarnings(), RAW.getWarnings());
         }
 
     },
