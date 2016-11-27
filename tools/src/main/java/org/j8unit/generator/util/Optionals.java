@@ -16,14 +16,14 @@ public enum Optionals {
     ;
 
     /**
+     * <p>
      * Converts an {@link Optional} to a {@link Stream}, either {@linkplain Stream#empty() empty} or
      * {@linkplain Stream#of(Object) singleton}.
+     * </p>
      *
-     * @deprecated If Java 9 is released, replace this helper method by
-     *             <a href="http://download.java.net/jdk9/docs/api/java/util/Optional.html#stream--">Optional#stream()
-     *             </a>
+     * TODO: If Java 9 is released, replace this helper method by
+     * <a href="http://download.java.net/jdk9/docs/api/java/util/Optional.html#stream--">Optional#stream()</a>
      */
-    @Deprecated
     public static final <T> Stream<T> toStream(final Optional<T> opt) {
         requireNonNull(opt);
         return opt.map(Stream::of).orElse(Stream.empty());

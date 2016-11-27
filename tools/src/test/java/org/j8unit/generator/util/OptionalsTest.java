@@ -55,7 +55,6 @@ public class OptionalsTest {
     }
 
     @Test
-    @SuppressWarnings("deprecation")
     public void testToStream()
     throws Exception {
         final Stream<Object> s1 = toStream(Optional.empty());
