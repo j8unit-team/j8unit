@@ -13,6 +13,7 @@ public class AccessLevelHelperClass {
     protected AccessLevelHelperClass(final Serializable protectedConstructor) {
     }
 
+    @SuppressWarnings("unused" /* is used via Reflection API */)
     private AccessLevelHelperClass(final CharSequence privateConstructor) {
     }
 
@@ -29,6 +30,7 @@ public class AccessLevelHelperClass {
         return this.toString();
     }
 
+    @SuppressWarnings("unused" /* is used via Reflection API */)
     private String toStringPrivate() {
         return this.toString();
     }

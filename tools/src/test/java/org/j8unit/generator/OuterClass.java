@@ -14,6 +14,7 @@ public class OuterClass {
     protected void method3() {
     }
 
+    @SuppressWarnings("unused" /* is used via Reflection API */)
     private void method4() {
     }
 
@@ -26,6 +27,7 @@ public class OuterClass {
     protected static class InnerClass3 {
     }
 
+    @SuppressWarnings("unused" /* is used via Reflection API */)
     private static class InnerClass4 {
     }
 

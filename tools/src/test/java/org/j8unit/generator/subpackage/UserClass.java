@@ -4,6 +4,7 @@ import org.j8unit.generator.OuterClass;
 
 public class UserClass {
 
+    @SuppressWarnings({ "null", "unused" /* main intention is to see the compile time accessibility */ })
     public UserClass() {
         final OuterClass.InnerClass1 i1 = null;
         // final OuterClass.InnerClass2 i2 = null;

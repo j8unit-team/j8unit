@@ -27,6 +27,7 @@ import org.j8unit.generator.api.render.ConciseOriginRenderer;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.junit.Test;
 
+@SuppressWarnings("rawtypes")
 public class RawtypesWarningTest {
 
     private static final OriginRenderer RENDERER = new ConciseOriginRenderer() {};
