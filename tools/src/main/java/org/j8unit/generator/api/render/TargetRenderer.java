@@ -9,7 +9,6 @@ import static org.j8unit.generator.util.OptionalString.ofOptional;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.Optional;
-import org.j8unit.generator.util.Java;
 
 /**
  * Definition of a behaviour for rendering the target packages and names of given origin types.
@@ -86,7 +85,7 @@ public abstract interface TargetRenderer {
      * </p>
      *
      * @implSpec The default implementation refers to {@link #targetCanonicalNameOf(Class)} and appends
-     *           {@link Java#CLASS_SUFFIX}.
+     *           {@link org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      *
      * @see #targetBasicClassOf(Class)
      * @see #targetSimpleClassOf(Class)
@@ -106,7 +105,7 @@ public abstract interface TargetRenderer {
      * {@linkplain org.j8unit.generator.analysis.TypePosition#TOP_LEVEL top level} type this is the
      * {@linkplain #targetSimpleNameOf(Class) target simple name}; For any enveloped type this is the target simple name
      * preceded by the target basic name of the immediately enclosing type and the
-     * {@linkplain Java#JAVA_NAMESPACE_DELIMITER java name-space delimiter}.
+     * {@linkplain org.j8unit.generator.util.Java#JAVA_NAMESPACE_DELIMITER java name-space delimiter}.
      * </p>
      *
      * @implSpec The default implementation provides exactly the behaviour as described above.
@@ -128,11 +127,11 @@ public abstract interface TargetRenderer {
     /**
      * <p>
      * Returns the target basic class name of the given {@link Class type}. This is the {@link #targetBasicNameOf(Class)
-     * type's target basic name} followed by {@value Java#CLASS_SUFFIX}.
+     * type's target basic name} followed by {@value org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      * </p>
      *
      * @implSpec The default implementation refers to {@link #targetBasicNameOf(Class)} and appends
-     *           {@link Java#CLASS_SUFFIX}.
+     *           {@link org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      *
      * @param type
      *            the origin type
@@ -157,11 +156,12 @@ public abstract interface TargetRenderer {
     /**
      * <p>
      * Returns the target simple class name of the given {@link Class type}. This is the
-     * {@link #targetSimpleNameOf(Class) type's target simple name} followed by {@value Java#CLASS_SUFFIX}.
+     * {@link #targetSimpleNameOf(Class) type's target simple name} followed by
+     * {@value org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      * </p>
      *
      * @implSpec The default implementation refers to {@link #targetSimpleNameOf(Class)} and appends
-     *           {@link Java#CLASS_SUFFIX}.
+     *           {@link org.j8unit.generator.util.Java#CLASS_SUFFIX}.
      *
      * @param type
      *            the origin type
