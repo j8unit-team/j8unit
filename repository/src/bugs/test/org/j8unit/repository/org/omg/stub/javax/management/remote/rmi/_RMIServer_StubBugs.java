@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.omg.CORBA.BAD_OPERATION;
 import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
 
+@SuppressWarnings("restriction")
 public class _RMIServer_StubBugs {
 
     @Test(expected = BAD_OPERATION.class /* because there is a bug! */)

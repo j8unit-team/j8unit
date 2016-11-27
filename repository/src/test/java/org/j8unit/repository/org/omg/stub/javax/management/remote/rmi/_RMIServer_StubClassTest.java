@@ -14,6 +14,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubClassTests}).
  */
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIServer_StubClassTest
 implements _RMIServer_StubClassTests<_RMIServer_Stub> {
 

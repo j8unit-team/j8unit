@@ -14,6 +14,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_TieClassTests}).
  */
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIConnectionImpl_TieClassTest
 implements _RMIConnectionImpl_TieClassTests<_RMIConnectionImpl_Tie> {
 

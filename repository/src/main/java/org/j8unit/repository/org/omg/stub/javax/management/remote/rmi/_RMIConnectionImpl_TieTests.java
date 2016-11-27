@@ -28,6 +28,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface _RMIConnectionImpl_TieTests<SUT extends _RMIConnectionImpl_Tie>
 extends TieTests<SUT>, ObjectImplTests<SUT> {
 

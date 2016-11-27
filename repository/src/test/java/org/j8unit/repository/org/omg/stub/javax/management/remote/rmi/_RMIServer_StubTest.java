@@ -16,6 +16,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("restriction")
 public class _RMIServer_StubTest
 implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, _RMIServer_StubTests<_RMIServer_Stub> {
 
