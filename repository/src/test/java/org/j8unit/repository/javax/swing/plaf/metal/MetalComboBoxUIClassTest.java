@@ -16,6 +16,7 @@ import org.junit.runner.RunWith;
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests}).
  */
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class MetalComboBoxUIClassTest
 implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
 
@@ -173,7 +174,6 @@ implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests}).
      */
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("deprecation")
     public static class MetalComboPopupClassTest
     implements MetalComboPopupClassTests<MetalComboPopup> {
 

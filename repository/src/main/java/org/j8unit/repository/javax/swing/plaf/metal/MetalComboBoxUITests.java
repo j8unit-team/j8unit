@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface MetalComboBoxUITests<SUT extends MetalComboBoxUI>
 extends BasicComboBoxUITests<SUT> {
 
@@ -412,7 +413,6 @@ extends BasicComboBoxUITests<SUT> {
      */
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    @SuppressWarnings("deprecation")
     public static abstract interface MetalComboPopupTests<SUT extends MetalComboPopup>
     extends BasicComboPopupTests<SUT> {
 
