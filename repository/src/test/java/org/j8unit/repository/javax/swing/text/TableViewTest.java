@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewTests}).
  */
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class TableViewTest
 implements TableViewTests<TableView> {
 
@@ -52,7 +53,6 @@ implements TableViewTests<TableView> {
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.TableViewTests.TableCellTests}).
      */
     @RunWith(J8Unit4.class)
-    @SuppressWarnings("deprecation")
     public static class TableCellTest
     implements TableCellTests<TableCell> {
 

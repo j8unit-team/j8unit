@@ -7,6 +7,7 @@ import org.junit.Test;
 /**
  * @since 0.9.4
  */
+@SuppressWarnings("deprecation")
 public class AttributeValueExpBugs {
 
     @Test(expected = AssertionError.class /* because there is a bug! */)
