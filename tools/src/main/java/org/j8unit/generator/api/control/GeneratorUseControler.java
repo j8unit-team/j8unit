@@ -27,8 +27,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Class type} is intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation refers to {@link AccessLevel#matches(Class)} using {@link #getAccessLevel()
@@ -45,8 +45,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Class type} is <em>not</em> intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation simply returns the negation of {@link #useType(Class)}
@@ -63,12 +63,12 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Field field} is intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
-     * @implSpec The default implementation refers to {@link AccessLevel#matches(Field)} using {@link #getAccessLevel()
-     *           the current access level}.
+     * @implSpec The default implementation refers to {@link AccessLevel#matches(java.lang.reflect.Member)} using
+     *           {@link #getAccessLevel() the current access level}.
      *
      * @param field
      *            the queried origin field
@@ -81,8 +81,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Field field} is <em>not</em> intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation simply returns the negation of {@link #useField(Field)}
@@ -99,8 +99,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Constructor constructor} is intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation refers to {@link AccessLevel#matches(java.lang.reflect.Member)} using
@@ -117,8 +117,9 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Constructor constructor} is <em>not</em> intended to be
-     * considered when {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating
-     * test-code}; returns {@code false} otherwise.
+     * considered when
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation simply returns the negation of {@link #useConstructor(Constructor)}
@@ -135,8 +136,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Method method} is intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation refers to {@link AccessLevel#matches(java.lang.reflect.Member)} using
@@ -153,8 +154,8 @@ public abstract interface GeneratorUseControler {
     /**
      * <p>
      * Returns {@code true} if the given origin {@link Method method} is <em>not</em> intended to be considered when
-     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}; returns
-     * {@code false} otherwise.
+     * {@linkplain org.j8unit.generator.api.J8UnitCodeGenerator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup)
+     * generating test-code}; returns {@code false} otherwise.
      * </p>
      *
      * @implSpec The default implementation simply returns the negation of {@link #useMethod(Method)}

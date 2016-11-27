@@ -42,12 +42,11 @@ import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.FancyOriginRenderer;
 import org.j8unit.generator.api.render.FancyTargetRenderer;
-import org.j8unit.generator.util.Java;
 import org.j8unit.generator.util.Optionals;
 import org.j8unit.generator.util.TypeAnalysis;
 
 /**
- * <em>Immutable</em> container class of all {@linkplain Generator generator}-specific configuration data.
+ * <em>Immutable</em> container class of all {@linkplain J8UnitCodeGenerator generator}-specific configuration data.
  */
 public final class GeneratorSetup
 implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputControler, FancyOriginRenderer, FancyTargetRenderer {
@@ -176,8 +175,8 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      * <p>
      * In detail, the returned file path bases on (1.) the {@linkplain #targetRootFolder target root folder} plus (2.)
      * the {@linkplain #targetParentPackage parent package} of generated test sources, on (3.) the package of the given
-     * origin Java type, and on (4.) the {@link #basicCanonicalTestNameOf(Class) simple canonical test name} plus the
-     * Java file suffix (i.&thinsp;e., {@value Java#JAVA_FILE_EXTENSION}).
+     * origin Java type, and on (4.) the {@link #targetBasicNameOf(Class) basic canonical test name} plus the Java file
+     * suffix (i.&thinsp;e., {@value org.j8unit.generator.util.Java#JAVA_FILE_EXTENSION}).
      * </p>
      */
     @Override
@@ -316,8 +315,9 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     }
 
     /**
-     * Flag to whether or not overwrite existing {@link Package package}'s {@value Java#PACKAGE_INFO_FILENAME} files
-     * when {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}.
+     * Flag to whether or not overwrite existing {@link Package package}'s
+     * {@value org.j8unit.generator.util.Java#PACKAGE_INFO_FILENAME} files when
+     * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}.
      */
     private final boolean overwritePackageTargets;
 
