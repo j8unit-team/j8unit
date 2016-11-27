@@ -672,7 +672,7 @@ public class RenderOriginBehaviourTest {
         assertEquals(asList("S", "U", "java.util.function.BiFunction<U, V, ?>", "V"), ROB.listOfTypeVariableNamesOf(genericSuperClass));
     }
 
-    private static interface NamespaceTest<A extends OriginRenderer, B extends String, C extends java.util.Map.Entry<K, V>, K, V> {
+    private static interface NamespaceTest<TA extends OriginRenderer, TB extends String, TC extends java.util.Map.Entry<K, V>, K, V> {
     }
 
     @Test
@@ -684,17 +684,17 @@ public class RenderOriginBehaviourTest {
         assertEquals("NamespaceTest.class", ROB.originSimpleClassOf(clazz));
         assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest.class", ROB.originCanonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?", "?"), ROB.listOfTypeParameterWildcardsOf(clazz));
-        assertEquals(asList("A", "B", "C", "K", "V"), ROB.listOfTypeParameterNamesOf(clazz));
-        assertEquals(asList("A extends org.j8unit.generator.api.render.OriginRenderer", "B extends java.lang.String", "C extends java.util.Map.Entry<K, V>",
+        assertEquals(asList("TA", "TB", "TC", "K", "V"), ROB.listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("TA extends org.j8unit.generator.api.render.OriginRenderer", "TB extends java.lang.String", "TC extends java.util.Map.Entry<K, V>",
                             "K extends java.lang.Object", "V extends java.lang.Object"),
                      ROB.listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest<?, ?, ?, ?, ?>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterWildcardsOf));
-        assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest<A, B, C, K, V>",
+        assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest<TA, TB, TC, K, V>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterNamesOf));
-        assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest<A extends org.j8unit.generator.api.render.OriginRenderer, B extends java.lang.String, C extends java.util.Map.Entry<K, V>, K extends java.lang.Object, V extends java.lang.Object>",
+        assertEquals("org.j8unit.generator.render.RenderOriginBehaviourTest.NamespaceTest<TA extends org.j8unit.generator.api.render.OriginRenderer, TB extends java.lang.String, TC extends java.util.Map.Entry<K, V>, K extends java.lang.Object, V extends java.lang.Object>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterDefinitionsOf));
-        assertEquals(asList("A", "B", "C", "K", "V"), ROB.listOfTypeVariableNamesOf(clazz));
+        assertEquals(asList("TA", "TB", "TC", "K", "V"), ROB.listOfTypeVariableNamesOf(clazz));
     }
 
 }
