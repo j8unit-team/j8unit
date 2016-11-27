@@ -237,10 +237,13 @@
             <failOnError>true</failOnError>
             <level>protected</level>
             <show>protected</show>
+            <use>true</use>
+            <linksource>true</linksource>
             <serialwarn>true</serialwarn>
             <validateLinks>true</validateLinks>
             <detectLinks>false</detectLinks>
             <!-- <detectLinks>true</detectLinks> -->
+            <verbose>true</verbose>
             <detectJavaApiLink>true</detectJavaApiLink>
             <links>
               <link>http://junit.org/junit4/javadoc/latest/</link>
