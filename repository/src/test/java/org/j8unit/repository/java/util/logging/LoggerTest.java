@@ -21,6 +21,7 @@ implements LoggerTests<Logger> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.Logger]
 
     @Parameters(name = "{index}: {0}")
+    @SuppressWarnings("deprecation")
     public static Iterable<? extends Object> sutData() {
         return testParametersOf(Logger.global);
     }

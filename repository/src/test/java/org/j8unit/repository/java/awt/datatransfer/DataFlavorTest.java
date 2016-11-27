@@ -21,6 +21,7 @@ implements DataFlavorTests<DataFlavor> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
 
     @Parameters(name = "{index}: {0}")
+    @SuppressWarnings("deprecation")
     public static Iterable<? extends Object> sutData() {
         return testParametersOf(new DataFlavor(), //
                                 DataFlavor.stringFlavor, //

@@ -49,6 +49,7 @@ implements FactoryBasedJ8UnitTest<Attributes>, AttributesTests<Attributes> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes$Name]
 
         @Parameters(name = "{index}: {0}")
+        @SuppressWarnings("deprecation")
         public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Name.MANIFEST_VERSION, //
                                                        Name.IMPLEMENTATION_VENDOR, //

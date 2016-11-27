@@ -96,6 +96,7 @@ implements CharacterTests<Character> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 
         @Parameters(name = "{index}: {0}")
+        @SuppressWarnings("deprecation")
         public static Iterable<? extends Object> sutData() {
             return testParametersOf(UnicodeBlock.LIMBU, //
                                     UnicodeBlock.DESERET, //
