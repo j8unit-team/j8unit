@@ -198,6 +198,7 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
      * @since 0.9.3
      */
     @Test
+    @SuppressWarnings("rawtypes")
     public default void getDeclaringClassMustBeAssignableFromGetClass() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
