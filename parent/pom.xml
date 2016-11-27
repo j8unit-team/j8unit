@@ -9,7 +9,7 @@
     ~ The "POM Reference" is here:
     ~ + http://maven.apache.org/pom.html
     ~
-    ~ One of the points to highlight is the differentiation between inheritance and aggregation.
+    ~ One of the points to emphasise is the differentiation between inheritance and aggregation.
     ~ A single POM can be (and often is) both a super POM and an aggregation POM:
     ~ + http://maven.apache.org/pom.html#Inheritance 
     ~ + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
