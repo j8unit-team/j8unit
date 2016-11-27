@@ -10,6 +10,7 @@ public abstract class ExtendableTests {
     @Test
     public void testFoobar1() {
         final Foobar sut = this.createNewSUT();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }
@@ -17,6 +18,7 @@ public abstract class ExtendableTests {
     @Test
     public void testFoobar2() {
         final Foobar sut = this.createNewSUT();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }
