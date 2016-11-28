@@ -12,7 +12,6 @@ import org.omg.CORBA.PolicyHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PolicyHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PolicyHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PolicyHolderClassTest
 implements PolicyHolderClassTests<PolicyHolder> {
@@ -65,6 +64,7 @@ implements PolicyHolderClassTests<PolicyHolder> {
     public void create_PolicyHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PolicyHolder sut = new PolicyHolder();
     }
 

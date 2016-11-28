@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributeSet} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AttributeSetTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributeSetTest
 implements AttributeSetTests<AttributeSet> {
@@ -33,7 +32,6 @@ implements AttributeSetTests<AttributeSet> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FontAttribute} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontAttributeTest
     implements FontAttributeTests<FontAttribute> {
@@ -56,7 +54,6 @@ implements AttributeSetTests<AttributeSet> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParagraphAttributeTest
     implements ParagraphAttributeTests<ParagraphAttribute> {
@@ -79,7 +76,6 @@ implements AttributeSetTests<AttributeSet> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ColorAttributeTest
     implements ColorAttributeTests<ColorAttribute> {
@@ -102,7 +98,6 @@ implements AttributeSetTests<AttributeSet> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CharacterAttributeTest
     implements CharacterAttributeTests<CharacterAttribute> {

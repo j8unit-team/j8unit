@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JRadioButtonMenuItem} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JRadioButtonMenuItemClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JRadioButtonMenuItemClassTest
 implements JRadioButtonMenuItemClassTests<JRadioButtonMenuItem> {
@@ -42,6 +41,7 @@ implements JRadioButtonMenuItemClassTests<JRadioButtonMenuItem> {
     public void create_JRadioButtonMenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JRadioButtonMenuItem sut = new JRadioButtonMenuItem();
     }
 

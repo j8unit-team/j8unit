@@ -12,7 +12,6 @@ import org.omg.CORBA.IMP_LIMIT;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IMP_LIMIT} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.IMP_LIMITClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IMP_LIMITClassTest
 implements IMP_LIMITClassTests<IMP_LIMIT> {
@@ -110,6 +109,7 @@ implements IMP_LIMITClassTests<IMP_LIMIT> {
     public void create_IMP_LIMIT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IMP_LIMIT sut = new IMP_LIMIT();
     }
 

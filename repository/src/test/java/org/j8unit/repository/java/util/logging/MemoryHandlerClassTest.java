@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MemoryHandler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.logging.MemoryHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MemoryHandlerClassTest
 implements MemoryHandlerClassTests<MemoryHandler> {
@@ -65,6 +64,7 @@ implements MemoryHandlerClassTests<MemoryHandler> {
     public void create_MemoryHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MemoryHandler sut = new MemoryHandler();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BufferUnderflowException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.nio.BufferUnderflowExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BufferUnderflowExceptionClassTest
 implements BufferUnderflowExceptionClassTests<BufferUnderflowException> {
@@ -42,6 +41,7 @@ implements BufferUnderflowExceptionClassTests<BufferUnderflowException> {
     public void create_BufferUnderflowException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BufferUnderflowException sut = new BufferUnderflowException();
     }
 

@@ -43,7 +43,6 @@ import org.omg.CORBA_2_3.portable.InputStream;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputStreamClassTests<SUT extends InputStream>

@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidNameHelperTest
 implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelperTests<InvalidNameHelper> {

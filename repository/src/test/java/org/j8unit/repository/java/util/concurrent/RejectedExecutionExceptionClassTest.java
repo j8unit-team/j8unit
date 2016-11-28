@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.concurrent.RejectedExecutionExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RejectedExecutionExceptionClassTest
 implements RejectedExecutionExceptionClassTests<RejectedExecutionException> {
@@ -113,6 +112,7 @@ implements RejectedExecutionExceptionClassTests<RejectedExecutionException> {
     public void create_RejectedExecutionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RejectedExecutionException sut = new RejectedExecutionException();
     }
 

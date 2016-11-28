@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.OverlappingFileLockExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OverlappingFileLockExceptionClassTest
 implements OverlappingFileLockExceptionClassTests<OverlappingFileLockException> {
@@ -44,6 +43,7 @@ implements OverlappingFileLockExceptionClassTests<OverlappingFileLockException> 
     public void create_OverlappingFileLockException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OverlappingFileLockException sut = new OverlappingFileLockException();
     }
 

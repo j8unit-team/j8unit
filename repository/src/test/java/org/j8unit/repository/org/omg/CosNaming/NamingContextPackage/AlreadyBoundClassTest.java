@@ -12,7 +12,6 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBound;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AlreadyBound} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AlreadyBoundClassTest
 implements AlreadyBoundClassTests<AlreadyBound> {
@@ -43,6 +42,7 @@ implements AlreadyBoundClassTests<AlreadyBound> {
     public void create_AlreadyBound()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyBound sut = new AlreadyBound();
     }
 

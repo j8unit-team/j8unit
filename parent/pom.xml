@@ -9,7 +9,7 @@
     ~ The "POM Reference" is here:
     ~ + http://maven.apache.org/pom.html
     ~
-    ~ One of the points to highlight is the differentiation between inheritance and aggregation.
+    ~ One of the points to emphasise is the differentiation between inheritance and aggregation.
     ~ A single POM can be (and often is) both a super POM and an aggregation POM:
     ~ + http://maven.apache.org/pom.html#Inheritance 
     ~ + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
@@ -204,6 +204,11 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-help-plugin</artifactId>
+          <version>2.2</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
         </plugin>
@@ -232,10 +237,13 @@
             <failOnError>true</failOnError>
             <level>protected</level>
             <show>protected</show>
+            <use>true</use>
+            <linksource>true</linksource>
             <serialwarn>true</serialwarn>
             <validateLinks>true</validateLinks>
             <detectLinks>false</detectLinks>
             <!-- <detectLinks>true</detectLinks> -->
+            <verbose>true</verbose>
             <detectJavaApiLink>true</detectJavaApiLink>
             <links>
               <link>http://junit.org/junit4/javadoc/latest/</link>

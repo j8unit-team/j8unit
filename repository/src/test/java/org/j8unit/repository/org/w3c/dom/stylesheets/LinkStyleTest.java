@@ -9,7 +9,6 @@ import org.w3c.dom.stylesheets.LinkStyle;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LinkStyle} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.stylesheets.LinkStyleTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LinkStyleTest
 implements LinkStyleTests<LinkStyle> {

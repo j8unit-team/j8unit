@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Segment} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.text.SegmentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SegmentClassTest
 implements SegmentClassTests<Segment> {
@@ -64,6 +63,7 @@ implements SegmentClassTests<Segment> {
     public void create_Segment()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Segment sut = new Segment();
     }
 

@@ -41,7 +41,6 @@ implements FactoryBasedJ8UnitTest<Attributes>, AttributesTests<Attributes> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Name} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.jar.AttributesTests.NameTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class NameTest
@@ -50,6 +49,7 @@ implements FactoryBasedJ8UnitTest<Attributes>, AttributesTests<Attributes> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes$Name]
 
         @Parameters(name = "{index}: {0}")
+        @SuppressWarnings("deprecation")
         public static Iterable<? extends Object> sutData() {
             return TestParametersUtil.testParametersOf(Name.MANIFEST_VERSION, //
                                                        Name.IMPLEMENTATION_VENDOR, //

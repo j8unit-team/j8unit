@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.RelationNotFoundExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RelationNotFoundExceptionClassTest
 implements RelationNotFoundExceptionClassTests<RelationNotFoundException> {
@@ -44,6 +43,7 @@ implements RelationNotFoundExceptionClassTests<RelationNotFoundException> {
     public void create_RelationNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationNotFoundException sut = new RelationNotFoundException();
     }
 

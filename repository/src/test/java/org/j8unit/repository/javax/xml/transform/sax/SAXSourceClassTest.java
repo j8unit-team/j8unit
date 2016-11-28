@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SAXSource} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SAXSourceClassTest
 implements SAXSourceClassTests<SAXSource> {
@@ -42,6 +41,7 @@ implements SAXSourceClassTests<SAXSource> {
     public void create_SAXSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXSource sut = new SAXSource();
     }
 

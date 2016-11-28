@@ -44,7 +44,6 @@ import org.omg.CORBA.BAD_POLICY_TYPE;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_POLICY_TYPEClassTests<SUT extends BAD_POLICY_TYPE>

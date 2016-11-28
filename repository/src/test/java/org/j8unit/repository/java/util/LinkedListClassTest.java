@@ -42,6 +42,7 @@ implements LinkedListClassTests<LinkedList> {
     public void create_LinkedList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedList sut = new LinkedList();
     }
 

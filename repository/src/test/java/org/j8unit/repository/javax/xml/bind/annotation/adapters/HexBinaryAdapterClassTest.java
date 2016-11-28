@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HexBinaryAdapter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.HexBinaryAdapterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HexBinaryAdapterClassTest
 implements HexBinaryAdapterClassTests<HexBinaryAdapter> {
@@ -43,6 +42,7 @@ implements HexBinaryAdapterClassTests<HexBinaryAdapter> {
     public void create_HexBinaryAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HexBinaryAdapter sut = new HexBinaryAdapter();
     }
 

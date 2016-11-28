@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonMenuItemUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthRadioButtonMenuItemUIClassTest
 implements SynthRadioButtonMenuItemUIClassTests<SynthRadioButtonMenuItemUI> {
@@ -44,6 +43,7 @@ implements SynthRadioButtonMenuItemUIClassTests<SynthRadioButtonMenuItemUI> {
     public void create_SynthRadioButtonMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthRadioButtonMenuItemUI sut = new SynthRadioButtonMenuItemUI();
     }
 

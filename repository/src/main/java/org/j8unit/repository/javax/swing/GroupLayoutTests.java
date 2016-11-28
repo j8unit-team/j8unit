@@ -31,7 +31,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GroupLayoutTests<SUT extends GroupLayout>
@@ -754,7 +753,6 @@ extends LayoutManager2Tests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AlignmentTests<SUT extends Alignment>
@@ -785,7 +783,6 @@ extends LayoutManager2Tests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParallelGroupTests<SUT extends ParallelGroup>
@@ -1011,7 +1008,6 @@ extends LayoutManager2Tests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GroupTests<SUT extends Group>
@@ -1156,7 +1152,6 @@ extends LayoutManager2Tests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SequentialGroupTests<SUT extends SequentialGroup>

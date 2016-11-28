@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.AuthenticationNotSupportedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AuthenticationNotSupportedExceptionClassTest
 implements AuthenticationNotSupportedExceptionClassTests<AuthenticationNotSupportedException> {
@@ -67,6 +66,7 @@ implements AuthenticationNotSupportedExceptionClassTests<AuthenticationNotSuppor
     public void create_AuthenticationNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AuthenticationNotSupportedException sut = new AuthenticationNotSupportedException();
     }
 

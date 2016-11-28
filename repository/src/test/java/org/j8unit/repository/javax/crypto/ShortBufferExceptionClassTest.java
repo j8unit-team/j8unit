@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ShortBufferException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.crypto.ShortBufferExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ShortBufferExceptionClassTest
 implements ShortBufferExceptionClassTests<ShortBufferException> {
@@ -42,6 +41,7 @@ implements ShortBufferExceptionClassTests<ShortBufferException> {
     public void create_ShortBufferException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortBufferException sut = new ShortBufferException();
     }
 

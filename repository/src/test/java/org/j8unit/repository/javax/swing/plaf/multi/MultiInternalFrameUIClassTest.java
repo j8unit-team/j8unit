@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiInternalFrameUI} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiInternalFrameUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiInternalFrameUIClassTest
 implements MultiInternalFrameUIClassTests<MultiInternalFrameUI> {
@@ -43,6 +42,7 @@ implements MultiInternalFrameUIClassTests<MultiInternalFrameUI> {
     public void create_MultiInternalFrameUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiInternalFrameUI sut = new MultiInternalFrameUI();
     }
 

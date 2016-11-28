@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ParserDelegator} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.parser.ParserDelegatorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ParserDelegatorClassTest
 implements ParserDelegatorClassTests<ParserDelegator> {
@@ -43,6 +42,7 @@ implements ParserDelegatorClassTests<ParserDelegator> {
     public void create_ParserDelegator()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParserDelegator sut = new ParserDelegator();
     }
 

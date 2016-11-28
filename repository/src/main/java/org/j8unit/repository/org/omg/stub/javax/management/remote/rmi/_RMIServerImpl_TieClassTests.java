@@ -45,9 +45,9 @@ import org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface _RMIServerImpl_TieClassTests<SUT extends _RMIServerImpl_Tie>
 extends TieClassTests<SUT>, ObjectImplClassTests<SUT> {
 

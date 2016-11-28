@@ -25,7 +25,6 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynAnyFactoryStubTests<SUT extends _DynAnyFactoryStub>

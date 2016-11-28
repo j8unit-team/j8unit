@@ -60,7 +60,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLDocumentClassTests<SUT extends HTMLDocument>
@@ -125,7 +124,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RunElementClassTests<SUT extends RunElement>
@@ -192,7 +190,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLReaderClassTests<SUT extends HTMLReader>
@@ -257,7 +254,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface SpecialActionClassTests<SUT extends SpecialAction>
@@ -324,7 +320,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface IsindexActionClassTests<SUT extends IsindexAction>
@@ -391,7 +386,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface TagActionClassTests<SUT extends TagAction>
@@ -458,7 +452,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface PreActionClassTests<SUT extends PreAction>
@@ -525,7 +518,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface HiddenActionClassTests<SUT extends HiddenAction>
@@ -592,7 +584,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface BlockActionClassTests<SUT extends BlockAction>
@@ -659,7 +650,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface FormActionClassTests<SUT extends FormAction>
@@ -726,7 +716,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface CharacterActionClassTests<SUT extends CharacterAction>
@@ -793,7 +782,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface ParagraphActionClassTests<SUT extends ParagraphAction>
@@ -862,7 +850,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BlockElementClassTests<SUT extends BlockElement>
@@ -929,7 +916,6 @@ extends DefaultStyledDocumentClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface IteratorClassTests<SUT extends Iterator>

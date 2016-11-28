@@ -22,7 +22,6 @@ import org.omg.CORBA.VM_NONE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VM_NONETests<SUT extends VM_NONE>

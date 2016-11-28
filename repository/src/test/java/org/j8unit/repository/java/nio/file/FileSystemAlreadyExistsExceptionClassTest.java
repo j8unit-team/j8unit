@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FileSystemAlreadyExistsExceptionClassTest
 implements FileSystemAlreadyExistsExceptionClassTests<FileSystemAlreadyExistsException> {
@@ -44,6 +43,7 @@ implements FileSystemAlreadyExistsExceptionClassTests<FileSystemAlreadyExistsExc
     public void create_FileSystemAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FileSystemAlreadyExistsException sut = new FileSystemAlreadyExistsException();
     }
 

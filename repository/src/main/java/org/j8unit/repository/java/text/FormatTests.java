@@ -29,7 +29,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormatTests<SUT extends Format>
@@ -192,7 +191,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldTests<SUT extends Field>

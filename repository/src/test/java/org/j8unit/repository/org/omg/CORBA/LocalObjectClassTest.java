@@ -12,7 +12,6 @@ import org.omg.CORBA.LocalObject;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LocalObject} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.LocalObjectClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LocalObjectClassTest
 implements LocalObjectClassTests<LocalObject> {
@@ -42,6 +41,7 @@ implements LocalObjectClassTests<LocalObject> {
     public void create_LocalObject()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LocalObject sut = new LocalObject();
     }
 

@@ -32,7 +32,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyledEditorKitTests<SUT extends StyledEditorKit>
@@ -248,7 +247,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontFamilyActionTests<SUT extends FontFamilyAction>
@@ -303,7 +301,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BoldActionTests<SUT extends BoldAction>
@@ -358,7 +355,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ItalicActionTests<SUT extends ItalicAction>
@@ -413,7 +409,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AlignmentActionTests<SUT extends AlignmentAction>
@@ -468,7 +463,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StyledTextActionTests<SUT extends StyledTextAction>
@@ -499,7 +493,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ForegroundActionTests<SUT extends ForegroundAction>
@@ -554,7 +547,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnderlineActionTests<SUT extends UnderlineAction>
@@ -609,7 +601,6 @@ extends DefaultEditorKitTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontSizeActionTests<SUT extends FontSizeAction>

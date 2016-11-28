@@ -8,6 +8,7 @@ public interface ITest1 {
     @Test
     public default void testFoobar1() {
         final Foobar sut = new Foobar();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }
@@ -15,6 +16,7 @@ public interface ITest1 {
     @Test
     public default void testFoobar2() {
         final Foobar sut = new Foobar();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }

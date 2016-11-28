@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CRLException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.cert.CRLExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CRLExceptionClassTest
 implements CRLExceptionClassTests<CRLException> {
@@ -111,6 +110,7 @@ implements CRLExceptionClassTests<CRLException> {
     public void create_CRLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CRLException sut = new CRLException();
     }
 

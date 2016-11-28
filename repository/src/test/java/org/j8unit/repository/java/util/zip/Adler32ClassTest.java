@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Adler32} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.zip.Adler32ClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Adler32ClassTest
 implements Adler32ClassTests<Adler32> {
@@ -42,6 +41,7 @@ implements Adler32ClassTests<Adler32> {
     public void create_Adler32()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Adler32 sut = new Adler32();
     }
 

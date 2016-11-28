@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link VerifyError} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.VerifyErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class VerifyErrorClassTest
 implements VerifyErrorClassTests<VerifyError> {
@@ -41,6 +40,7 @@ implements VerifyErrorClassTests<VerifyError> {
     public void create_VerifyError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final VerifyError sut = new VerifyError();
     }
 

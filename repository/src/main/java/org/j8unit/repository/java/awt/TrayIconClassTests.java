@@ -47,7 +47,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TrayIconClassTests<SUT extends TrayIcon>
@@ -112,7 +111,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MessageTypeClassTests<SUT extends MessageType>

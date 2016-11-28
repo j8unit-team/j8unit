@@ -12,7 +12,6 @@ import org.omg.IOP.CodecPackage.FormatMismatch;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FormatMismatch} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FormatMismatchClassTest
 implements FormatMismatchClassTests<FormatMismatch> {
@@ -43,6 +42,7 @@ implements FormatMismatchClassTests<FormatMismatch> {
     public void create_FormatMismatch()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FormatMismatch sut = new FormatMismatch();
     }
 

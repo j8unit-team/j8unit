@@ -33,7 +33,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleConstantsTests<SUT extends StyleConstants>
@@ -85,7 +84,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacterConstantsTests<SUT extends CharacterConstants>
@@ -116,7 +114,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParagraphConstantsTests<SUT extends ParagraphConstants>
@@ -147,7 +144,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontConstantsTests<SUT extends FontConstants>
@@ -178,7 +174,6 @@ extends ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorConstantsTests<SUT extends ColorConstants>

@@ -25,7 +25,6 @@ import org.omg.CosNaming._NamingContextExtStub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _NamingContextExtStubTests<SUT extends _NamingContextExtStub>

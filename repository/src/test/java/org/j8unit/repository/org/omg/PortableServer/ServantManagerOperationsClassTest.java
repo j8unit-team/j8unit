@@ -9,7 +9,6 @@ import org.omg.PortableServer.ServantManagerOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServantManagerOperationsClassTest
 implements ServantManagerOperationsClassTests<ServantManagerOperations> {

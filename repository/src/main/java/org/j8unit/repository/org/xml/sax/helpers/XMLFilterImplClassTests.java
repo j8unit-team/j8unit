@@ -49,7 +49,6 @@ import org.xml.sax.helpers.XMLFilterImpl;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLFilterImplClassTests<SUT extends XMLFilterImpl>

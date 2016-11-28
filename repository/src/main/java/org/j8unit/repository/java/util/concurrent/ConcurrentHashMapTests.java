@@ -29,7 +29,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentHashMapTests<SUT extends ConcurrentHashMap<K, V>, K, V>
@@ -1539,7 +1538,6 @@ extends ConcurrentMapTests<SUT, K, V>, SerializableTests<SUT>, AbstractMapTests<
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySetViewTests<SUT extends KeySetView<K, V>, K, V>

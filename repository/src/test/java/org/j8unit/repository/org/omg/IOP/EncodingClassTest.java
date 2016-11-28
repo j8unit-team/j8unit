@@ -12,7 +12,6 @@ import org.omg.IOP.Encoding;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Encoding} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.IOP.EncodingClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class EncodingClassTest
 implements EncodingClassTests<Encoding> {
@@ -42,6 +41,7 @@ implements EncodingClassTests<Encoding> {
     public void create_Encoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Encoding sut = new Encoding();
     }
 

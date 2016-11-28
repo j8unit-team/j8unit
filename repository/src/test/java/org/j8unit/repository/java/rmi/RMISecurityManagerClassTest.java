@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RMISecurityManager} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.rmi.RMISecurityManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class RMISecurityManagerClassTest
 implements RMISecurityManagerClassTests<RMISecurityManager> {
 
@@ -42,6 +42,7 @@ implements RMISecurityManagerClassTests<RMISecurityManager> {
     public void create_RMISecurityManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RMISecurityManager sut = new RMISecurityManager();
     }
 

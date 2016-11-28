@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleScriptContext} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.script.SimpleScriptContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SimpleScriptContextClassTest
 implements SimpleScriptContextClassTests<SimpleScriptContext> {
@@ -42,6 +41,7 @@ implements SimpleScriptContextClassTests<SimpleScriptContext> {
     public void create_SimpleScriptContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleScriptContext sut = new SimpleScriptContext();
     }
 

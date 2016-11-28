@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MidiUnavailableException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.MidiUnavailableExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MidiUnavailableExceptionClassTest
 implements MidiUnavailableExceptionClassTests<MidiUnavailableException> {
@@ -43,6 +42,7 @@ implements MidiUnavailableExceptionClassTests<MidiUnavailableException> {
     public void create_MidiUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MidiUnavailableException sut = new MidiUnavailableException();
     }
 

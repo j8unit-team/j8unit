@@ -46,7 +46,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JInternalFrameClassTests<SUT extends JInternalFrame>
@@ -111,7 +110,6 @@ extends AccessibleClassTests<SUT>, WindowConstantsClassTests<SUT>, RootPaneConta
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JDesktopIconClassTests<SUT extends JDesktopIcon>

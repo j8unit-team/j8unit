@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicHTML} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicHTMLClassTest
 implements BasicHTMLClassTests<BasicHTML> {
@@ -42,6 +41,7 @@ implements BasicHTMLClassTests<BasicHTML> {
     public void create_BasicHTML()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicHTML sut = new BasicHTML();
     }
 

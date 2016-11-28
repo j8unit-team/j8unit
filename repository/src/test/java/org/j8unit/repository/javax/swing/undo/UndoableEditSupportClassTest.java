@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UndoableEditSupport} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.undo.UndoableEditSupportClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UndoableEditSupportClassTest
 implements UndoableEditSupportClassTests<UndoableEditSupport> {
@@ -42,6 +41,7 @@ implements UndoableEditSupportClassTests<UndoableEditSupport> {
     public void create_UndoableEditSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UndoableEditSupport sut = new UndoableEditSupport();
     }
 

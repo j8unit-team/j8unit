@@ -12,7 +12,6 @@ import org.xml.sax.SAXNotSupportedException;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SAXNotSupportedException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.org.xml.sax.SAXNotSupportedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SAXNotSupportedExceptionClassTest
 implements SAXNotSupportedExceptionClassTests<SAXNotSupportedException> {
@@ -43,6 +42,7 @@ implements SAXNotSupportedExceptionClassTests<SAXNotSupportedException> {
     public void create_SAXNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAXNotSupportedException sut = new SAXNotSupportedException();
     }
 

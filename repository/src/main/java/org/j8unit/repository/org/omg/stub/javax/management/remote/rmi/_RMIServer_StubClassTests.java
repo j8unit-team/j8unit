@@ -45,9 +45,9 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface _RMIServer_StubClassTests<SUT extends _RMIServer_Stub>
 extends RMIServerClassTests<SUT>, StubClassTests<SUT> {
 

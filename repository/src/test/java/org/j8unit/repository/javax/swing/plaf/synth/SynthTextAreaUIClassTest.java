@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SynthTextAreaUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.SynthTextAreaUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthTextAreaUIClassTest
 implements SynthTextAreaUIClassTests<SynthTextAreaUI> {
@@ -42,6 +41,7 @@ implements SynthTextAreaUIClassTests<SynthTextAreaUI> {
     public void create_SynthTextAreaUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTextAreaUI sut = new SynthTextAreaUI();
     }
 

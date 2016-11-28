@@ -22,7 +22,6 @@ import org.omg.CORBA.SetOverrideTypeHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SetOverrideTypeHelperTests<SUT extends SetOverrideTypeHelper>

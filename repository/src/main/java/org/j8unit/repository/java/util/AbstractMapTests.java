@@ -28,7 +28,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractMapTests<SUT extends AbstractMap<K, V>, K, V>
@@ -402,7 +401,6 @@ extends MapTests<SUT, K, V>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleImmutableEntryTests<SUT extends SimpleImmutableEntry<K, V>, K, V>
@@ -577,7 +575,6 @@ extends MapTests<SUT, K, V>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleEntryTests<SUT extends SimpleEntry<K, V>, K, V>

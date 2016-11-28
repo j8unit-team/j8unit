@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Spliterators} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SpliteratorsClassTest
 implements SpliteratorsClassTests<Spliterators> {
@@ -562,7 +561,6 @@ implements SpliteratorsClassTests<Spliterators> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractDoubleSpliteratorClassTest
     implements AbstractDoubleSpliteratorClassTests<AbstractDoubleSpliterator> {
@@ -608,7 +606,6 @@ implements SpliteratorsClassTests<Spliterators> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractLongSpliteratorClassTest
     implements AbstractLongSpliteratorClassTests<AbstractLongSpliterator> {
@@ -631,7 +628,6 @@ implements SpliteratorsClassTests<Spliterators> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractIntSpliteratorClassTest
     implements AbstractIntSpliteratorClassTests<AbstractIntSpliterator> {

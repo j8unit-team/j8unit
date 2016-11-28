@@ -13,7 +13,6 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidNameClassTest
 implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameClassTests<InvalidName> {
@@ -44,6 +43,7 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
     public void create_InvalidName()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidName sut = new InvalidName();
     }
 

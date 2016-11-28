@@ -44,7 +44,6 @@ import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_ALTERNATE_IIOP_ADDRESSClassTests<SUT extends TAG_ALTERNATE_IIOP_ADDRESS>

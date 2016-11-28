@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TransformException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.dsig.TransformExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TransformExceptionClassTest
 implements TransformExceptionClassTests<TransformException> {
@@ -112,6 +111,7 @@ implements TransformExceptionClassTests<TransformException> {
     public void create_TransformException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransformException sut = new TransformException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CertificateException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.security.cert.CertificateExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CertificateExceptionClassTest
 implements CertificateExceptionClassTests<CertificateException> {
@@ -43,6 +42,7 @@ implements CertificateExceptionClassTests<CertificateException> {
     public void create_CertificateException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateException sut = new CertificateException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalCheckBoxIcon} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalCheckBoxIconClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalCheckBoxIconClassTest
 implements MetalCheckBoxIconClassTests<MetalCheckBoxIcon> {
@@ -43,6 +42,7 @@ implements MetalCheckBoxIconClassTests<MetalCheckBoxIcon> {
     public void create_MetalCheckBoxIcon()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalCheckBoxIcon sut = new MetalCheckBoxIcon();
     }
 

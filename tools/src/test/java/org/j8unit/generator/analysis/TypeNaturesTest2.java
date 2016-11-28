@@ -109,6 +109,7 @@ public class TypeNaturesTest2 {
     implements I<Y>, J<Y> {
     }
 
+    @SuppressWarnings("rawtypes")
     public static class PartialRawType<Y extends CharSequence>
     implements I<Y>, J {
     }
@@ -133,6 +134,7 @@ public class TypeNaturesTest2 {
     extends E {
     }
 
+    @SuppressWarnings("rawtypes")
     public static class R
     implements I {
     }
@@ -141,6 +143,7 @@ public class TypeNaturesTest2 {
     extends R {
     }
 
+    @SuppressWarnings("rawtypes")
     public static class T
     extends B {
     }

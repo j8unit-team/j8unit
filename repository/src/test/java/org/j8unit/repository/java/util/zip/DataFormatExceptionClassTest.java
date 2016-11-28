@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DataFormatException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.util.zip.DataFormatExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DataFormatExceptionClassTest
 implements DataFormatExceptionClassTests<DataFormatException> {
@@ -42,6 +41,7 @@ implements DataFormatExceptionClassTests<DataFormatException> {
     public void create_DataFormatException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DataFormatException sut = new DataFormatException();
     }
 

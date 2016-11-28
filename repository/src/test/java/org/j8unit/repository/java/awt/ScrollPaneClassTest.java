@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollPane} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.ScrollPaneClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ScrollPaneClassTest
 implements ScrollPaneClassTests<ScrollPane> {
@@ -64,6 +63,7 @@ implements ScrollPaneClassTests<ScrollPane> {
     public void create_ScrollPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ScrollPane sut = new ScrollPane();
     }
 

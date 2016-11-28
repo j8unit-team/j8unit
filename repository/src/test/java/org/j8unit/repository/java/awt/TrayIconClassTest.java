@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TrayIcon} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.TrayIconClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TrayIconClassTest
 implements TrayIconClassTests<TrayIcon> {
@@ -101,7 +100,6 @@ implements TrayIconClassTests<TrayIcon> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link MessageType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.TrayIconClassTests.MessageTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MessageTypeClassTest
     implements MessageTypeClassTests<MessageType> {

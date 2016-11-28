@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DigestException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.DigestExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DigestExceptionClassTest
 implements DigestExceptionClassTests<DigestException> {
@@ -111,6 +110,7 @@ implements DigestExceptionClassTests<DigestException> {
     public void create_DigestException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DigestException sut = new DigestException();
     }
 

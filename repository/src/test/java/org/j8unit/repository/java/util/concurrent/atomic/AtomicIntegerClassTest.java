@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AtomicInteger} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AtomicIntegerClassTest
 implements AtomicIntegerClassTests<AtomicInteger> {
@@ -66,6 +65,7 @@ implements AtomicIntegerClassTests<AtomicInteger> {
     public void create_AtomicInteger()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicInteger sut = new AtomicInteger();
     }
 

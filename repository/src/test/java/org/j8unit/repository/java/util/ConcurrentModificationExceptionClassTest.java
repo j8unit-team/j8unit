@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.util.ConcurrentModificationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ConcurrentModificationExceptionClassTest
 implements ConcurrentModificationExceptionClassTests<ConcurrentModificationException> {
@@ -113,6 +112,7 @@ implements ConcurrentModificationExceptionClassTests<ConcurrentModificationExcep
     public void create_ConcurrentModificationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentModificationException sut = new ConcurrentModificationException();
     }
 

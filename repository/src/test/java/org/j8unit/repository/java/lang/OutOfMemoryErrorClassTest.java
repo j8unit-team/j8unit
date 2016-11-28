@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link OutOfMemoryError} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.OutOfMemoryErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OutOfMemoryErrorClassTest
 implements OutOfMemoryErrorClassTests<OutOfMemoryError> {
@@ -41,6 +40,7 @@ implements OutOfMemoryErrorClassTests<OutOfMemoryError> {
     public void create_OutOfMemoryError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OutOfMemoryError sut = new OutOfMemoryError();
     }
 

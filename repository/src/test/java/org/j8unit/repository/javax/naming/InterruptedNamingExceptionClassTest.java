@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InterruptedNamingException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.InterruptedNamingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InterruptedNamingExceptionClassTest
 implements InterruptedNamingExceptionClassTests<InterruptedNamingException> {
@@ -66,6 +65,7 @@ implements InterruptedNamingExceptionClassTests<InterruptedNamingException> {
     public void create_InterruptedNamingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InterruptedNamingException sut = new InterruptedNamingException();
     }
 

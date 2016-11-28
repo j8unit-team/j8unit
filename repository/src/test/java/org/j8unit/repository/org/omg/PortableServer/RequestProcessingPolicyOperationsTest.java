@@ -10,7 +10,6 @@ import org.omg.PortableServer.RequestProcessingPolicyOperations;
  * (by simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RequestProcessingPolicyOperationsTest
 implements RequestProcessingPolicyOperationsTests<RequestProcessingPolicyOperations> {

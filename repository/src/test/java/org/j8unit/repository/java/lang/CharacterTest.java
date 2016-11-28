@@ -18,7 +18,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Character} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CharacterTest
 implements CharacterTests<Character> {
@@ -38,7 +37,6 @@ implements CharacterTests<Character> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeScript} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnicodeScriptTest
@@ -69,7 +67,6 @@ implements CharacterTests<Character> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Subset} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.SubsetTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SubsetTest
     implements SubsetTests<Subset> {
@@ -91,7 +88,6 @@ implements CharacterTests<Character> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeBlock} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnicodeBlockTest
@@ -100,6 +96,7 @@ implements CharacterTests<Character> {
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 
         @Parameters(name = "{index}: {0}")
+        @SuppressWarnings("deprecation")
         public static Iterable<? extends Object> sutData() {
             return testParametersOf(UnicodeBlock.LIMBU, //
                                     UnicodeBlock.DESERET, //

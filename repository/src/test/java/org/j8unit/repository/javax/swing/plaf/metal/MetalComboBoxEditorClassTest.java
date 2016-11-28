@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboBoxEditor} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalComboBoxEditorClassTest
 implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
@@ -44,6 +43,7 @@ implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
     public void create_MetalComboBoxEditor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalComboBoxEditor sut = new MetalComboBoxEditor();
     }
 
@@ -56,7 +56,6 @@ implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests.UIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests.UIResourceClassTests<UIResource> {
@@ -87,6 +86,7 @@ implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Authenticator} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.net.AuthenticatorTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AuthenticatorTest
 implements AuthenticatorTests<Authenticator> {
@@ -36,7 +35,6 @@ implements AuthenticatorTests<Authenticator> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link RequestorType} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.net.AuthenticatorTests.RequestorTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RequestorTypeTest

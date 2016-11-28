@@ -13,8 +13,8 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_TieClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIConnectionImpl_TieClassTest
 implements _RMIConnectionImpl_TieClassTests<_RMIConnectionImpl_Tie> {
 
@@ -44,6 +44,7 @@ implements _RMIConnectionImpl_TieClassTests<_RMIConnectionImpl_Tie> {
     public void create__RMIConnectionImpl_Tie()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIConnectionImpl_Tie sut = new _RMIConnectionImpl_Tie();
     }
 

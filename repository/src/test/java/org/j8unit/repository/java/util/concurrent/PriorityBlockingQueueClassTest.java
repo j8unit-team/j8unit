@@ -43,6 +43,7 @@ implements PriorityBlockingQueueClassTests<PriorityBlockingQueue> {
     public void create_PriorityBlockingQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PriorityBlockingQueue sut = new PriorityBlockingQueue();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedDataTypeExceptionClassTest
 implements UnsupportedDataTypeExceptionClassTests<UnsupportedDataTypeException> {
@@ -44,6 +43,7 @@ implements UnsupportedDataTypeExceptionClassTests<UnsupportedDataTypeException> 
     public void create_UnsupportedDataTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedDataTypeException sut = new UnsupportedDataTypeException();
     }
 

@@ -12,8 +12,8 @@ import org.xml.sax.helpers.AttributeListImpl;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeListImpl} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class AttributeListImplClassTest
 implements AttributeListImplClassTests<AttributeListImpl> {
 
@@ -42,6 +42,7 @@ implements AttributeListImplClassTests<AttributeListImpl> {
     public void create_AttributeListImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeListImpl sut = new AttributeListImpl();
     }
 

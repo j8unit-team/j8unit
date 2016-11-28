@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * (by simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.RelationServiceNotRegisteredExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RelationServiceNotRegisteredExceptionClassTest
 implements RelationServiceNotRegisteredExceptionClassTests<RelationServiceNotRegisteredException> {
@@ -44,6 +43,7 @@ implements RelationServiceNotRegisteredExceptionClassTests<RelationServiceNotReg
     public void create_RelationServiceNotRegisteredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RelationServiceNotRegisteredException sut = new RelationServiceNotRegisteredException();
     }
 

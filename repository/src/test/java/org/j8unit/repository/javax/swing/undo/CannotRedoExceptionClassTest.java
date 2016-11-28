@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CannotRedoException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.undo.CannotRedoExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CannotRedoExceptionClassTest
 implements CannotRedoExceptionClassTests<CannotRedoException> {
@@ -42,6 +41,7 @@ implements CannotRedoExceptionClassTests<CannotRedoException> {
     public void create_CannotRedoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotRedoException sut = new CannotRedoException();
     }
 

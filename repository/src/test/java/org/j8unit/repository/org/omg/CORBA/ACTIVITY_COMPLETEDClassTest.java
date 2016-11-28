@@ -12,7 +12,6 @@ import org.omg.CORBA.ACTIVITY_COMPLETED;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ACTIVITY_COMPLETED} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ACTIVITY_COMPLETEDClassTest
 implements ACTIVITY_COMPLETEDClassTests<ACTIVITY_COMPLETED> {
@@ -111,6 +110,7 @@ implements ACTIVITY_COMPLETEDClassTests<ACTIVITY_COMPLETED> {
     public void create_ACTIVITY_COMPLETED()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ACTIVITY_COMPLETED sut = new ACTIVITY_COMPLETED();
     }
 

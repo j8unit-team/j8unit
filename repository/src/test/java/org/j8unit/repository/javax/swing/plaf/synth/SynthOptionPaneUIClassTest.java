@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SynthOptionPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.SynthOptionPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthOptionPaneUIClassTest
 implements SynthOptionPaneUIClassTests<SynthOptionPaneUI> {
@@ -43,6 +42,7 @@ implements SynthOptionPaneUIClassTests<SynthOptionPaneUI> {
     public void create_SynthOptionPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthOptionPaneUI sut = new SynthOptionPaneUI();
     }
 

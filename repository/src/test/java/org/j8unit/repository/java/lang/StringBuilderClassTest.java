@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StringBuilder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.StringBuilderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringBuilderClassTest
 implements StringBuilderClassTests<StringBuilder> {
@@ -107,6 +106,7 @@ implements StringBuilderClassTests<StringBuilder> {
     public void create_StringBuilder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringBuilder sut = new StringBuilder();
     }
 

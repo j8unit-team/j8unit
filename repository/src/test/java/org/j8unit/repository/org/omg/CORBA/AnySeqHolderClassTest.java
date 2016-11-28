@@ -12,7 +12,6 @@ import org.omg.CORBA.AnySeqHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AnySeqHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.AnySeqHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AnySeqHolderClassTest
 implements AnySeqHolderClassTests<AnySeqHolder> {
@@ -65,6 +64,7 @@ implements AnySeqHolderClassTests<AnySeqHolder> {
     public void create_AnySeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AnySeqHolder sut = new AnySeqHolder();
     }
 

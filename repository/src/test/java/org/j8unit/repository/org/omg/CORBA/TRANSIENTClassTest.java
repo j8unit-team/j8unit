@@ -12,7 +12,6 @@ import org.omg.CORBA.TRANSIENT;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TRANSIENT} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.TRANSIENTClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TRANSIENTClassTest
 implements TRANSIENTClassTests<TRANSIENT> {
@@ -110,6 +109,7 @@ implements TRANSIENTClassTests<TRANSIENT> {
     public void create_TRANSIENT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TRANSIENT sut = new TRANSIENT();
     }
 

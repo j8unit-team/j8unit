@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLInvalidAuthorizationSpecExceptionClassTest
 implements SQLInvalidAuthorizationSpecExceptionClassTests<SQLInvalidAuthorizationSpecException> {
@@ -139,6 +138,7 @@ implements SQLInvalidAuthorizationSpecExceptionClassTests<SQLInvalidAuthorizatio
     public void create_SQLInvalidAuthorizationSpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLInvalidAuthorizationSpecException sut = new SQLInvalidAuthorizationSpecException();
     }
 

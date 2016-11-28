@@ -12,8 +12,8 @@ import org.omg.CORBA.DynamicImplementation;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynamicImplementation} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DynamicImplementationClassTest
 implements DynamicImplementationClassTests<DynamicImplementation> {
 
@@ -42,6 +42,7 @@ implements DynamicImplementationClassTests<DynamicImplementation> {
     public void create_DynamicImplementation()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DynamicImplementation sut = new DynamicImplementation();
     }
 

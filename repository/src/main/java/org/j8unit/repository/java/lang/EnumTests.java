@@ -25,7 +25,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EnumTests<SUT extends Enum<E>, E extends Enum<E>>
@@ -199,6 +198,7 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
      * @since 0.9.3
      */
     @Test
+    @SuppressWarnings("rawtypes")
     public default void getDeclaringClassMustBeAssignableFromGetClass() {
         final SUT sut = this.createNewSUT();
         assert sut != null;

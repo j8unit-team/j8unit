@@ -44,7 +44,6 @@ import org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IMPLICIT_ACTIVATION_POLICY_IDClassTests<SUT extends IMPLICIT_ACTIVATION_POLICY_ID>

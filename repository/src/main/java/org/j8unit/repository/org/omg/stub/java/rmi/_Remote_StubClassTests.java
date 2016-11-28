@@ -45,7 +45,6 @@ import org.omg.stub.java.rmi._Remote_Stub;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _Remote_StubClassTests<SUT extends _Remote_Stub>

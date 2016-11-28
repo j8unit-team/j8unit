@@ -12,7 +12,6 @@ import org.xml.sax.helpers.LocatorImpl;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LocatorImpl} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LocatorImplClassTest
 implements LocatorImplClassTests<LocatorImpl> {
@@ -42,6 +41,7 @@ implements LocatorImplClassTests<LocatorImpl> {
     public void create_LocatorImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LocatorImpl sut = new LocatorImpl();
     }
 

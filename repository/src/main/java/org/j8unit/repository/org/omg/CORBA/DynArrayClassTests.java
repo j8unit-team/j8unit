@@ -43,9 +43,9 @@ import org.omg.CORBA.DynArray;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynArrayClassTests<SUT extends DynArray>
 extends DynAnyClassTests<SUT> {
 

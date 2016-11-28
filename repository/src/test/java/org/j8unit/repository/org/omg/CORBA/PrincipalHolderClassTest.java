@@ -12,8 +12,8 @@ import org.omg.CORBA.PrincipalHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PrincipalHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class PrincipalHolderClassTest
 implements PrincipalHolderClassTests<PrincipalHolder> {
 
@@ -65,6 +65,7 @@ implements PrincipalHolderClassTests<PrincipalHolder> {
     public void create_PrincipalHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrincipalHolder sut = new PrincipalHolder();
     }
 

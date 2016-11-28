@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiTextUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiTextUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiTextUIClassTest
 implements MultiTextUIClassTests<MultiTextUI> {
@@ -42,6 +41,7 @@ implements MultiTextUIClassTests<MultiTextUI> {
     public void create_MultiTextUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiTextUI sut = new MultiTextUI();
     }
 

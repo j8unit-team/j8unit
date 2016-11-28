@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JMXProviderException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.management.remote.JMXProviderExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JMXProviderExceptionClassTest
 implements JMXProviderExceptionClassTests<JMXProviderException> {
@@ -89,6 +88,7 @@ implements JMXProviderExceptionClassTests<JMXProviderException> {
     public void create_JMXProviderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMXProviderException sut = new JMXProviderException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ShortMessage} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.ShortMessageClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ShortMessageClassTest
 implements ShortMessageClassTests<ShortMessage> {
@@ -42,6 +41,7 @@ implements ShortMessageClassTests<ShortMessage> {
     public void create_ShortMessage()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortMessage sut = new ShortMessage();
     }
 

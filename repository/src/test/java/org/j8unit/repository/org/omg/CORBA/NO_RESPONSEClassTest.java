@@ -12,7 +12,6 @@ import org.omg.CORBA.NO_RESPONSE;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NO_RESPONSE} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NO_RESPONSEClassTest
 implements NO_RESPONSEClassTests<NO_RESPONSE> {
@@ -110,6 +109,7 @@ implements NO_RESPONSEClassTests<NO_RESPONSE> {
     public void create_NO_RESPONSE()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_RESPONSE sut = new NO_RESPONSE();
     }
 

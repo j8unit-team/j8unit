@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicScrollPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicScrollPaneUIClassTest
 implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
@@ -47,6 +46,7 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
     public void create_BasicScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicScrollPaneUI sut = new BasicScrollPaneUI();
     }
 
@@ -80,7 +80,6 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HSBChangeListenerClassTest
     implements HSBChangeListenerClassTests<HSBChangeListener> {
@@ -126,7 +125,6 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -174,7 +172,6 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.ViewportChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ViewportChangeHandlerClassTest
     implements ViewportChangeHandlerClassTests<ViewportChangeHandler> {
@@ -222,7 +219,6 @@ implements BasicScrollPaneUIClassTests<BasicScrollPaneUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class VSBChangeListenerClassTest
     implements VSBChangeListenerClassTests<VSBChangeListener> {

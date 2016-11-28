@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Authenticator} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.net.AuthenticatorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AuthenticatorClassTest
 implements AuthenticatorClassTests<Authenticator> {
@@ -144,7 +143,6 @@ implements AuthenticatorClassTests<Authenticator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link RequestorType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RequestorTypeClassTest
     implements RequestorTypeClassTests<RequestorType> {

@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CloneNotSupportedException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.CloneNotSupportedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CloneNotSupportedExceptionClassTest
 implements CloneNotSupportedExceptionClassTests<CloneNotSupportedException> {
@@ -41,6 +40,7 @@ implements CloneNotSupportedExceptionClassTests<CloneNotSupportedException> {
     public void create_CloneNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CloneNotSupportedException sut = new CloneNotSupportedException();
     }
 

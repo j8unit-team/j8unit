@@ -21,7 +21,6 @@ import org.omg.DynamicAny.DynValueCommon;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueCommonTests<SUT extends DynValueCommon>

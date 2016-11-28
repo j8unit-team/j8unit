@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ManageReferralControl} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.naming.ldap.ManageReferralControlClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ManageReferralControlClassTest
 implements ManageReferralControlClassTests<ManageReferralControl> {
@@ -43,6 +42,7 @@ implements ManageReferralControlClassTests<ManageReferralControl> {
     public void create_ManageReferralControl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ManageReferralControl sut = new ManageReferralControl();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Encoder} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.beans.EncoderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class EncoderClassTest
 implements org.j8unit.repository.java.beans.EncoderClassTests<Encoder> {
@@ -42,6 +41,7 @@ implements org.j8unit.repository.java.beans.EncoderClassTests<Encoder> {
     public void create_Encoder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Encoder sut = new Encoder();
     }
 

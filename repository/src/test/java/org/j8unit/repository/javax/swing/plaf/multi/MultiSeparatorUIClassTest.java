@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiSeparatorUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiSeparatorUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiSeparatorUIClassTest
 implements MultiSeparatorUIClassTests<MultiSeparatorUI> {
@@ -43,6 +42,7 @@ implements MultiSeparatorUIClassTests<MultiSeparatorUI> {
     public void create_MultiSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSeparatorUI sut = new MultiSeparatorUI();
     }
 

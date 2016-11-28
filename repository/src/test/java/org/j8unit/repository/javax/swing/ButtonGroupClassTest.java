@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonGroup} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.ButtonGroupClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ButtonGroupClassTest
 implements ButtonGroupClassTests<ButtonGroup> {
@@ -42,6 +41,7 @@ implements ButtonGroupClassTests<ButtonGroup> {
     public void create_ButtonGroup()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ButtonGroup sut = new ButtonGroup();
     }
 

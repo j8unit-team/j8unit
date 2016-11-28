@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultDesktopManager} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.DefaultDesktopManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultDesktopManagerClassTest
 implements DefaultDesktopManagerClassTests<DefaultDesktopManager> {
@@ -42,6 +41,7 @@ implements DefaultDesktopManagerClassTests<DefaultDesktopManager> {
     public void create_DefaultDesktopManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultDesktopManager sut = new DefaultDesktopManager();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JMRuntimeException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.management.JMRuntimeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JMRuntimeExceptionClassTest
 implements JMRuntimeExceptionClassTests<JMRuntimeException> {
@@ -42,6 +41,7 @@ implements JMRuntimeExceptionClassTests<JMRuntimeException> {
     public void create_JMRuntimeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMRuntimeException sut = new JMRuntimeException();
     }
 

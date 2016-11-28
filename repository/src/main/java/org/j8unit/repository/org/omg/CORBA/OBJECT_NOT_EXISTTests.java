@@ -21,7 +21,6 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OBJECT_NOT_EXISTTests<SUT extends OBJECT_NOT_EXIST>

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlSchemaType} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlSchemaTypeClassTest
 implements XmlSchemaTypeClassTests<XmlSchemaType> {
@@ -34,7 +33,6 @@ implements XmlSchemaTypeClassTests<XmlSchemaType> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests.DEFAULTClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest
     implements org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests.DEFAULTClassTests<DEFAULT> {
@@ -65,6 +63,7 @@ implements XmlSchemaTypeClassTests<XmlSchemaType> {
         public void create_DEFAULT()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DEFAULT sut = new DEFAULT();
         }
 

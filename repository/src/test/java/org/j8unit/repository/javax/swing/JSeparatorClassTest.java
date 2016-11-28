@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JSeparator} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JSeparatorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JSeparatorClassTest
 implements JSeparatorClassTests<JSeparator> {
@@ -42,6 +41,7 @@ implements JSeparatorClassTests<JSeparator> {
     public void create_JSeparator()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSeparator sut = new JSeparator();
     }
 

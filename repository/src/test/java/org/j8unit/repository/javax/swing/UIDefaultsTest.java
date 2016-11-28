@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ActiveValue} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ActiveValueTest
     implements ActiveValueTests<ActiveValue> {
@@ -67,7 +66,6 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyInputMap} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LazyInputMapTest
     implements LazyInputMapTests<LazyInputMap> {
@@ -89,7 +87,6 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ProxyLazyValue} (by simply
      * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ProxyLazyValueTest
     implements ProxyLazyValueTests<ProxyLazyValue> {
@@ -111,7 +108,6 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, UIDefaultsTests<UIDefaults> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LazyValue} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LazyValueTest
     implements LazyValueTests<LazyValue> {

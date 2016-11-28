@@ -26,7 +26,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalBorders} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalBordersClassTest
 implements MetalBordersClassTests<MetalBorders> {
@@ -56,6 +55,7 @@ implements MetalBordersClassTests<MetalBorders> {
     public void create_MetalBorders()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalBorders sut = new MetalBorders();
     }
 
@@ -172,7 +172,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonBorderClassTest
     implements ButtonBorderClassTests<ButtonBorder> {
@@ -203,6 +202,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ButtonBorder sut = new ButtonBorder();
         }
 
@@ -217,7 +217,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToolBarBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToolBarBorderClassTest
     implements ToolBarBorderClassTests<ToolBarBorder> {
@@ -248,6 +247,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ToolBarBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToolBarBorder sut = new ToolBarBorder();
         }
 
@@ -262,7 +262,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ToggleButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToggleButtonBorderClassTest
     implements ToggleButtonBorderClassTests<ToggleButtonBorder> {
@@ -293,6 +292,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ToggleButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToggleButtonBorder sut = new ToggleButtonBorder();
         }
 
@@ -307,7 +307,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PaletteBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PaletteBorderClassTest
     implements PaletteBorderClassTests<PaletteBorder> {
@@ -338,6 +337,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_PaletteBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PaletteBorder sut = new PaletteBorder();
         }
 
@@ -352,7 +352,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ScrollPaneBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ScrollPaneBorderClassTest
     implements ScrollPaneBorderClassTests<ScrollPaneBorder> {
@@ -383,6 +382,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_ScrollPaneBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ScrollPaneBorder sut = new ScrollPaneBorder();
         }
 
@@ -397,7 +397,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TextFieldBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TextFieldBorderClassTest
     implements TextFieldBorderClassTests<TextFieldBorder> {
@@ -428,6 +427,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_TextFieldBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TextFieldBorder sut = new TextFieldBorder();
         }
 
@@ -442,7 +442,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuItemBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuItemBorderClassTest
     implements MenuItemBorderClassTests<MenuItemBorder> {
@@ -473,6 +472,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_MenuItemBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MenuItemBorder sut = new MenuItemBorder();
         }
 
@@ -487,7 +487,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.OptionDialogBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OptionDialogBorderClassTest
     implements OptionDialogBorderClassTests<OptionDialogBorder> {
@@ -518,6 +517,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_OptionDialogBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final OptionDialogBorder sut = new OptionDialogBorder();
         }
 
@@ -532,7 +532,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.RolloverButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RolloverButtonBorderClassTest
     implements RolloverButtonBorderClassTests<RolloverButtonBorder> {
@@ -563,6 +562,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_RolloverButtonBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final RolloverButtonBorder sut = new RolloverButtonBorder();
         }
 
@@ -577,7 +577,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.PopupMenuBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PopupMenuBorderClassTest
     implements PopupMenuBorderClassTests<PopupMenuBorder> {
@@ -608,6 +607,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_PopupMenuBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PopupMenuBorder sut = new PopupMenuBorder();
         }
 
@@ -622,7 +622,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.InternalFrameBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InternalFrameBorderClassTest
     implements InternalFrameBorderClassTests<InternalFrameBorder> {
@@ -653,6 +652,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_InternalFrameBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final InternalFrameBorder sut = new InternalFrameBorder();
         }
 
@@ -667,7 +667,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.TableHeaderBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TableHeaderBorderClassTest
     implements TableHeaderBorderClassTests<TableHeaderBorder> {
@@ -698,6 +697,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_TableHeaderBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TableHeaderBorder sut = new TableHeaderBorder();
         }
 
@@ -712,7 +712,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.MenuBarBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuBarBorderClassTest
     implements MenuBarBorderClassTests<MenuBarBorder> {
@@ -743,6 +742,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_MenuBarBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MenuBarBorder sut = new MenuBarBorder();
         }
 
@@ -757,7 +757,6 @@ implements MetalBordersClassTests<MetalBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class Flush3DBorderClassTest
     implements Flush3DBorderClassTests<Flush3DBorder> {
@@ -788,6 +787,7 @@ implements MetalBordersClassTests<MetalBorders> {
         public void create_Flush3DBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Flush3DBorder sut = new Flush3DBorder();
         }
 

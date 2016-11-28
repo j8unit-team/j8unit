@@ -47,7 +47,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HighlighterClassTests<SUT extends Highlighter>
@@ -111,7 +110,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HighlightPainterClassTests<SUT extends HighlightPainter>
@@ -177,7 +175,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HighlightClassTests<SUT extends Highlight>

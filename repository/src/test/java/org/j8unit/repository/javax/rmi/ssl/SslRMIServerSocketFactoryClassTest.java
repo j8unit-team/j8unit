@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SslRMIServerSocketFactory} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SslRMIServerSocketFactoryClassTest
 implements SslRMIServerSocketFactoryClassTests<SslRMIServerSocketFactory> {
@@ -43,6 +42,7 @@ implements SslRMIServerSocketFactoryClassTests<SslRMIServerSocketFactory> {
     public void create_SslRMIServerSocketFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SslRMIServerSocketFactory sut = new SslRMIServerSocketFactory();
     }
 

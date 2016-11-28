@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CompoundEdit} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.undo.CompoundEditClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CompoundEditClassTest
 implements CompoundEditClassTests<CompoundEdit> {
@@ -42,6 +41,7 @@ implements CompoundEditClassTests<CompoundEdit> {
     public void create_CompoundEdit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CompoundEdit sut = new CompoundEdit();
     }
 

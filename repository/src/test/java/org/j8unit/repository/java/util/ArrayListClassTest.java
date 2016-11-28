@@ -65,6 +65,7 @@ implements ArrayListClassTests<ArrayList> {
     public void create_ArrayList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArrayList sut = new ArrayList();
     }
 

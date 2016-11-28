@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JSlider} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JSliderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JSliderClassTest
 implements JSliderClassTests<JSlider> {
@@ -108,6 +107,7 @@ implements JSliderClassTests<JSlider> {
     public void create_JSlider()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSlider sut = new JSlider();
     }
 

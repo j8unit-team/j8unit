@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlElementDecl} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlElementDeclClassTest
 implements XmlElementDeclClassTests<XmlElementDecl> {
@@ -34,7 +33,6 @@ implements XmlElementDeclClassTests<XmlElementDecl> {
      * test interface
      * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class GLOBALClassTest
     implements GLOBALClassTests<GLOBAL> {
@@ -65,6 +63,7 @@ implements XmlElementDeclClassTests<XmlElementDecl> {
         public void create_GLOBAL()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final GLOBAL sut = new GLOBAL();
         }
 

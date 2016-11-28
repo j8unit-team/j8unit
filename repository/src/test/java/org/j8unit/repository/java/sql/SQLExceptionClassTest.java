@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SQLException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.sql.SQLExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLExceptionClassTest
 implements SQLExceptionClassTests<SQLException> {
@@ -201,6 +200,7 @@ implements SQLExceptionClassTests<SQLException> {
     public void create_SQLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLException sut = new SQLException();
     }
 

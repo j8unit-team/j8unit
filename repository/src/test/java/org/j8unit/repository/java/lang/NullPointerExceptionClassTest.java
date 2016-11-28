@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NullPointerException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.lang.NullPointerExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NullPointerExceptionClassTest
 implements NullPointerExceptionClassTests<NullPointerException> {
@@ -41,6 +40,7 @@ implements NullPointerExceptionClassTests<NullPointerException> {
     public void create_NullPointerException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NullPointerException sut = new NullPointerException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FeatureDescriptor} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.beans.FeatureDescriptorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FeatureDescriptorClassTest
 implements FeatureDescriptorClassTests<FeatureDescriptor> {
@@ -42,6 +41,7 @@ implements FeatureDescriptorClassTests<FeatureDescriptor> {
     public void create_FeatureDescriptor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FeatureDescriptor sut = new FeatureDescriptor();
     }
 

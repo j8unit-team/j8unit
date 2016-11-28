@@ -42,6 +42,7 @@ implements StackClassTests<Stack> {
     public void create_Stack()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Stack sut = new Stack();
     }
 

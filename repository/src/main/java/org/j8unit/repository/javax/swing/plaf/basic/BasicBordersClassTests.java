@@ -56,7 +56,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicBordersClassTests<SUT extends BasicBorders>
@@ -121,7 +120,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SplitPaneBorderClassTests<SUT extends SplitPaneBorder>
@@ -188,7 +186,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonBorderClassTests<SUT extends ToggleButtonBorder>
@@ -255,7 +252,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RolloverButtonBorderClassTests<SUT extends RolloverButtonBorder>
@@ -322,7 +318,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldBorderClassTests<SUT extends FieldBorder>
@@ -389,7 +384,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RadioButtonBorderClassTests<SUT extends RadioButtonBorder>
@@ -456,7 +450,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MenuBarBorderClassTests<SUT extends MenuBarBorder>
@@ -523,7 +516,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MarginBorderClassTests<SUT extends MarginBorder>
@@ -590,7 +582,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonBorderClassTests<SUT extends ButtonBorder>

@@ -17,6 +17,7 @@ implements ITest2 {
     @Test
     public void testFoobar3() {
         final Foobar sut = this.createNewSUT();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }

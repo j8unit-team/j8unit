@@ -45,9 +45,9 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface ATRClassTests<SUT extends ATR>
 extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 

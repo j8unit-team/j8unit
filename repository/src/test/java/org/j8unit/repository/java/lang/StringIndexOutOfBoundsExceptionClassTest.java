@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.lang.StringIndexOutOfBoundsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringIndexOutOfBoundsExceptionClassTest
 implements StringIndexOutOfBoundsExceptionClassTests<StringIndexOutOfBoundsException> {
@@ -43,6 +42,7 @@ implements StringIndexOutOfBoundsExceptionClassTests<StringIndexOutOfBoundsExcep
     public void create_StringIndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringIndexOutOfBoundsException sut = new StringIndexOutOfBoundsException();
     }
 

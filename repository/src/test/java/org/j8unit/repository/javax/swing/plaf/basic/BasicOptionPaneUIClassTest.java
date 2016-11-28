@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicOptionPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicOptionPaneUIClassTest
 implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
@@ -46,6 +45,7 @@ implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
     public void create_BasicOptionPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicOptionPaneUI sut = new BasicOptionPaneUI();
     }
 
@@ -79,7 +79,6 @@ implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -127,7 +126,6 @@ implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonAreaLayoutClassTest
     implements ButtonAreaLayoutClassTests<ButtonAreaLayout> {
@@ -173,7 +171,6 @@ implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonActionListenerClassTest
     implements ButtonActionListenerClassTests<ButtonActionListener> {

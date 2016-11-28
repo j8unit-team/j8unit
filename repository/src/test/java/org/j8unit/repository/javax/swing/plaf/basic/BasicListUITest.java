@@ -47,7 +47,6 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, BasicListUITests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListSelectionHandlerTest
     implements ListSelectionHandlerTests<ListSelectionHandler> {
@@ -70,7 +69,6 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, BasicListUITests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests<ListDataHandler> {
@@ -93,7 +91,6 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, BasicListUITests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -116,7 +113,6 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, BasicListUITests<BasicListUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests<FocusHandler> {
@@ -139,7 +135,6 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, BasicListUITests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests<MouseInputHandler> {

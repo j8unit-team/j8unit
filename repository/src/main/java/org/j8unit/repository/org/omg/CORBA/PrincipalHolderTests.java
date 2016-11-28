@@ -26,9 +26,9 @@ import org.omg.CORBA.PrincipalHolder;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface PrincipalHolderTests<SUT extends PrincipalHolder>
 extends StreamableTests<SUT>, ObjectTests<SUT> {
 

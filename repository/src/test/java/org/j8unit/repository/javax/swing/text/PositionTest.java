@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Position} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.PositionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PositionTest
 implements PositionTests<Position> {
@@ -36,7 +35,6 @@ implements PositionTests<Position> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Bias} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.PositionTests.BiasTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BiasTest

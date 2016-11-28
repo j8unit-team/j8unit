@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InstantiationException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.InstantiationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InstantiationExceptionClassTest
 implements InstantiationExceptionClassTests<InstantiationException> {
@@ -41,6 +40,7 @@ implements InstantiationExceptionClassTests<InstantiationException> {
     public void create_InstantiationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstantiationException sut = new InstantiationException();
     }
 

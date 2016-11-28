@@ -12,7 +12,6 @@ import org.omg.CORBA.BAD_CONTEXT;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BAD_CONTEXT} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BAD_CONTEXTClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BAD_CONTEXTClassTest
 implements BAD_CONTEXTClassTests<BAD_CONTEXT> {
@@ -110,6 +109,7 @@ implements BAD_CONTEXTClassTests<BAD_CONTEXT> {
     public void create_BAD_CONTEXT()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_CONTEXT sut = new BAD_CONTEXT();
     }
 

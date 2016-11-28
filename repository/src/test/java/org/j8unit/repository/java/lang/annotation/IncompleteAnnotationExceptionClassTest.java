@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.lang.annotation.IncompleteAnnotationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IncompleteAnnotationExceptionClassTest
 implements IncompleteAnnotationExceptionClassTests<IncompleteAnnotationException> {

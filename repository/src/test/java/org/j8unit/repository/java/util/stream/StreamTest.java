@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Stream} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.stream.StreamTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StreamTest<T>
 implements StreamTests<Stream<T>, T> {
@@ -30,7 +29,6 @@ implements StreamTests<Stream<T>, T> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.stream.StreamTests.BuilderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderTest<T>
     implements org.j8unit.repository.java.util.stream.StreamTests.BuilderTests<Builder<T>, T> {

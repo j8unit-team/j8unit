@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XMLSignatureException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XMLSignatureExceptionClassTest
 implements XMLSignatureExceptionClassTests<XMLSignatureException> {
@@ -112,6 +111,7 @@ implements XMLSignatureExceptionClassTests<XMLSignatureException> {
     public void create_XMLSignatureException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLSignatureException sut = new XMLSignatureException();
     }
 

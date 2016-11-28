@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.openmbean.InvalidOpenTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidOpenTypeExceptionClassTest
 implements InvalidOpenTypeExceptionClassTests<InvalidOpenTypeException> {
@@ -44,6 +43,7 @@ implements InvalidOpenTypeExceptionClassTests<InvalidOpenTypeException> {
     public void create_InvalidOpenTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidOpenTypeException sut = new InvalidOpenTypeException();
     }
 

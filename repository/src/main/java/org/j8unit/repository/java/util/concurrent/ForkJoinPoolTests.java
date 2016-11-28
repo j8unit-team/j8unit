@@ -27,7 +27,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForkJoinPoolTests<SUT extends ForkJoinPool>
@@ -703,7 +702,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ForkJoinWorkerThreadFactoryTests<SUT extends ForkJoinWorkerThreadFactory>
@@ -758,7 +756,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ManagedBlockerTests<SUT extends ManagedBlocker>

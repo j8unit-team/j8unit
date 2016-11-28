@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LongSummaryStatistics} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.util.LongSummaryStatisticsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LongSummaryStatisticsClassTest
 implements LongSummaryStatisticsClassTests<LongSummaryStatistics> {
@@ -42,6 +41,7 @@ implements LongSummaryStatisticsClassTests<LongSummaryStatistics> {
     public void create_LongSummaryStatistics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LongSummaryStatistics sut = new LongSummaryStatistics();
     }
 

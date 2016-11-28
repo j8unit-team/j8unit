@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiToolTipUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiToolTipUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiToolTipUIClassTest
 implements MultiToolTipUIClassTests<MultiToolTipUI> {
@@ -42,6 +41,7 @@ implements MultiToolTipUIClassTests<MultiToolTipUI> {
     public void create_MultiToolTipUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiToolTipUI sut = new MultiToolTipUI();
     }
 

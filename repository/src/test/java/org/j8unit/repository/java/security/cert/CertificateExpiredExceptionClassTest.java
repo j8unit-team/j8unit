@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.security.cert.CertificateExpiredExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CertificateExpiredExceptionClassTest
 implements CertificateExpiredExceptionClassTests<CertificateExpiredException> {
@@ -44,6 +43,7 @@ implements CertificateExpiredExceptionClassTests<CertificateExpiredException> {
     public void create_CertificateExpiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateExpiredException sut = new CertificateExpiredException();
     }
 

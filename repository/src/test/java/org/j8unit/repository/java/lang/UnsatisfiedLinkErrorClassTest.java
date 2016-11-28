@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnsatisfiedLinkError} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.lang.UnsatisfiedLinkErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsatisfiedLinkErrorClassTest
 implements UnsatisfiedLinkErrorClassTests<UnsatisfiedLinkError> {
@@ -41,6 +40,7 @@ implements UnsatisfiedLinkErrorClassTests<UnsatisfiedLinkError> {
     public void create_UnsatisfiedLinkError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsatisfiedLinkError sut = new UnsatisfiedLinkError();
     }
 

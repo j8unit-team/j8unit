@@ -23,7 +23,6 @@ import org.omg.CORBA.ServiceInformation;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceInformationTests<SUT extends ServiceInformation>

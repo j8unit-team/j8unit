@@ -12,7 +12,6 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NotFoundHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotFoundHolderClassTest
 implements NotFoundHolderClassTests<NotFoundHolder> {
@@ -66,6 +65,7 @@ implements NotFoundHolderClassTests<NotFoundHolder> {
     public void create_NotFoundHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotFoundHolder sut = new NotFoundHolder();
     }
 

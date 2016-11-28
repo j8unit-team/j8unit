@@ -14,7 +14,6 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Helper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IORInterceptor_3_0HelperClassTest
 implements IORInterceptor_3_0HelperClassTests<IORInterceptor_3_0Helper> {

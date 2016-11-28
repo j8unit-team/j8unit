@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.ListenerNotFoundExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ListenerNotFoundExceptionClassTest
 implements ListenerNotFoundExceptionClassTests<ListenerNotFoundException> {
@@ -44,6 +43,7 @@ implements ListenerNotFoundExceptionClassTests<ListenerNotFoundException> {
     public void create_ListenerNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ListenerNotFoundException sut = new ListenerNotFoundException();
     }
 

@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XmlReader} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.sql.rowset.spi.XmlReaderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlReaderClassTest
 implements XmlReaderClassTests<XmlReader> {

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CredentialExpiredExceptionClassTest
 implements CredentialExpiredExceptionClassTests<CredentialExpiredException> {
@@ -44,6 +43,7 @@ implements CredentialExpiredExceptionClassTests<CredentialExpiredException> {
     public void create_CredentialExpiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CredentialExpiredException sut = new CredentialExpiredException();
     }
 

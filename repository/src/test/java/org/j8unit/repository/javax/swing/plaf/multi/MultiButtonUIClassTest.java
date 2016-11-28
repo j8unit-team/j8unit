@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiButtonUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiButtonUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiButtonUIClassTest
 implements MultiButtonUIClassTests<MultiButtonUI> {
@@ -42,6 +41,7 @@ implements MultiButtonUIClassTests<MultiButtonUI> {
     public void create_MultiButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiButtonUI sut = new MultiButtonUI();
     }
 

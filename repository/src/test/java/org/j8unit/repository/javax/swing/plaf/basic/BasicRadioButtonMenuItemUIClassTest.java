@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonMenuItemUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicRadioButtonMenuItemUIClassTest
 implements BasicRadioButtonMenuItemUIClassTests<BasicRadioButtonMenuItemUI> {
@@ -44,6 +43,7 @@ implements BasicRadioButtonMenuItemUIClassTests<BasicRadioButtonMenuItemUI> {
     public void create_BasicRadioButtonMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicRadioButtonMenuItemUI sut = new BasicRadioButtonMenuItemUI();
     }
 

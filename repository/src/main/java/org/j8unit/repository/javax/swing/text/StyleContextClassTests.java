@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleContextClassTests<SUT extends StyleContext>
@@ -114,7 +113,6 @@ extends SerializableClassTests<SUT>, AttributeContextClassTests<SUT>, ObjectClas
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SmallAttributeSetClassTests<SUT extends SmallAttributeSet>
@@ -181,7 +179,6 @@ extends SerializableClassTests<SUT>, AttributeContextClassTests<SUT>, ObjectClas
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NamedStyleClassTests<SUT extends NamedStyle>

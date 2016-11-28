@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PKIXRevocationChecker} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PKIXRevocationCheckerTest
 implements PKIXRevocationCheckerTests<PKIXRevocationChecker> {
@@ -36,7 +35,6 @@ implements PKIXRevocationCheckerTests<PKIXRevocationChecker> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Option} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class OptionTest

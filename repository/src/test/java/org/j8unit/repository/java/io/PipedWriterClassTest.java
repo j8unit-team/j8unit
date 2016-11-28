@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PipedWriter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.io.PipedWriterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PipedWriterClassTest
 implements PipedWriterClassTests<PipedWriter> {
@@ -65,7 +64,7 @@ implements PipedWriterClassTests<PipedWriter> {
     public void create_PipedWriter()
     throws Exception {
         // create new instance
-        final PipedWriter sut = new PipedWriter();
+        try (final PipedWriter sut = new PipedWriter()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedWriter]

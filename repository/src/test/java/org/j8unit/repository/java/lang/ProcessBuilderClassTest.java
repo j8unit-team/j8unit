@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ProcessBuilder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ProcessBuilderClassTest
 implements ProcessBuilderClassTests<ProcessBuilder> {
@@ -77,7 +76,6 @@ implements ProcessBuilderClassTests<ProcessBuilder> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Redirect} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RedirectClassTest
     implements RedirectClassTests<Redirect> {
@@ -158,7 +156,6 @@ implements ProcessBuilderClassTests<ProcessBuilder> {
          * J8Unit test interface
          * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests.TypeClassTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class TypeClassTest
         implements org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests.TypeClassTests<Type> {

@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JSpinner} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JSpinnerClassTest
 implements JSpinnerClassTests<JSpinner> {
@@ -46,6 +45,7 @@ implements JSpinnerClassTests<JSpinner> {
     public void create_JSpinner()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JSpinner sut = new JSpinner();
     }
 
@@ -80,7 +80,6 @@ implements JSpinnerClassTests<JSpinner> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link DateEditor} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DateEditorClassTest
     implements DateEditorClassTests<DateEditor> {
@@ -148,7 +147,6 @@ implements JSpinnerClassTests<JSpinner> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link NumberEditor} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.NumberEditorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NumberEditorClassTest
     implements NumberEditorClassTests<NumberEditor> {
@@ -216,7 +214,6 @@ implements JSpinnerClassTests<JSpinner> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultEditor} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultEditorClassTest
     implements DefaultEditorClassTests<DefaultEditor> {
@@ -261,7 +258,6 @@ implements JSpinnerClassTests<JSpinner> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link ListEditor} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.ListEditorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListEditorClassTest
     implements ListEditorClassTests<ListEditor> {

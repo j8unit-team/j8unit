@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.directory.AttributeModificationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributeModificationExceptionClassTest
 implements AttributeModificationExceptionClassTests<AttributeModificationException> {
@@ -67,6 +66,7 @@ implements AttributeModificationExceptionClassTests<AttributeModificationExcepti
     public void create_AttributeModificationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeModificationException sut = new AttributeModificationException();
     }
 

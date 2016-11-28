@@ -13,7 +13,6 @@ import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.CookieHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CookieHolderClassTest
 implements CookieHolderClassTests<CookieHolder> {
@@ -67,6 +66,7 @@ implements CookieHolderClassTests<CookieHolder> {
     public void create_CookieHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CookieHolder sut = new CookieHolder();
     }
 

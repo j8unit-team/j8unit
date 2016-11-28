@@ -33,7 +33,6 @@ implements MapClassTests<Map> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Entry} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.MapClassTests.EntryClassTests}).
      */
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class EntryClassTest
     implements org.j8unit.repository.java.util.MapClassTests.EntryClassTests<Entry> {

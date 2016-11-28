@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link GaugeMonitor} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.monitor.GaugeMonitorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GaugeMonitorClassTest
 implements GaugeMonitorClassTests<GaugeMonitor> {
@@ -42,6 +41,7 @@ implements GaugeMonitorClassTests<GaugeMonitor> {
     public void create_GaugeMonitor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GaugeMonitor sut = new GaugeMonitor();
     }
 

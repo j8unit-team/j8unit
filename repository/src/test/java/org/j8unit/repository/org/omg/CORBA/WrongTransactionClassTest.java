@@ -12,7 +12,6 @@ import org.omg.CORBA.WrongTransaction;
  * Specific JUnit test class to proof the type relevant aspects of type {@link WrongTransaction} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.WrongTransactionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WrongTransactionClassTest
 implements WrongTransactionClassTests<WrongTransaction> {
@@ -42,6 +41,7 @@ implements WrongTransactionClassTests<WrongTransaction> {
     public void create_WrongTransaction()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongTransaction sut = new WrongTransaction();
     }
 

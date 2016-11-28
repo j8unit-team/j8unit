@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.auth.callback.UnsupportedCallbackExceptionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedCallbackExceptionTest
 implements UnsupportedCallbackExceptionTests<UnsupportedCallbackException> {

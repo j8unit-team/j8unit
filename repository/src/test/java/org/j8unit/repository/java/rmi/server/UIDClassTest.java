@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UID} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.rmi.server.UIDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UIDClassTest
 implements UIDClassTests<UID> {
@@ -64,6 +63,7 @@ implements UIDClassTests<UID> {
     public void create_UID()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UID sut = new UID();
     }
 

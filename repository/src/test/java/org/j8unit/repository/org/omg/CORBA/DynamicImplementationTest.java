@@ -13,6 +13,7 @@ import org.omg.CORBA.DynamicImplementation;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class DynamicImplementationTest
 implements FactoryBasedJ8UnitTest<DynamicImplementation>, DynamicImplementationTests<DynamicImplementation> {
 

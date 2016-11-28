@@ -12,7 +12,6 @@ import org.omg.PortableServer.POAPackage.InvalidPolicy;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidPolicy} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidPolicyClassTest
 implements InvalidPolicyClassTests<InvalidPolicy> {
@@ -43,6 +42,7 @@ implements InvalidPolicyClassTests<InvalidPolicy> {
     public void create_InvalidPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidPolicy sut = new InvalidPolicy();
     }
 

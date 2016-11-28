@@ -13,7 +13,6 @@ import org.omg.PortableServer.POAPackage.WrongPolicyHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link WrongPolicyHelper} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WrongPolicyHelperClassTest
 implements WrongPolicyHelperClassTests<WrongPolicyHelper> {

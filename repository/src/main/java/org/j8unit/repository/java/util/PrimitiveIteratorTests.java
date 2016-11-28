@@ -30,7 +30,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrimitiveIteratorTests<SUT extends PrimitiveIterator<T, T_CONS>, T, T_CONS>
@@ -81,7 +80,6 @@ extends IteratorTests<SUT, T> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongTests<SUT extends OfLong>
@@ -204,7 +202,6 @@ extends IteratorTests<SUT, T> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleTests<SUT extends OfDouble>
@@ -329,7 +326,6 @@ extends IteratorTests<SUT, T> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntTests<SUT extends OfInt>

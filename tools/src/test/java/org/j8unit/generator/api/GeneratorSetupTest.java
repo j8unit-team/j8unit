@@ -23,6 +23,7 @@ import org.junit.Before;
 import org.junit.Test;
 import com.sun.net.httpserver.Headers;
 
+@SuppressWarnings("restriction")
 public class GeneratorSetupTest {
 
     public static final GeneratorSetup JAVA_LANG = GeneratorSetup.forJavaPackage("java.lang") //
@@ -332,6 +333,7 @@ public class GeneratorSetupTest {
         protected PublicClass(final CharSequence protectedConstructor) {
         };
 
+        @SuppressWarnings("unused" /* is used via Reflection API */)
         private PublicClass(final String privateConstructor) {
         };
 
@@ -344,6 +346,7 @@ public class GeneratorSetupTest {
         protected void protectedMethod() {
         };
 
+        @SuppressWarnings("unused" /* is used via Reflection API */)
         private void privateMethod() {
         };
 

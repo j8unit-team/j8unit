@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.accessibility.AccessibleResourceBundleClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class AccessibleResourceBundleClassTest
 implements AccessibleResourceBundleClassTests<AccessibleResourceBundle> {
 
@@ -44,6 +44,7 @@ implements AccessibleResourceBundleClassTests<AccessibleResourceBundle> {
     public void create_AccessibleResourceBundle()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccessibleResourceBundle sut = new AccessibleResourceBundle();
     }
 

@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultipleGradientPaintClassTests<SUT extends MultipleGradientPaint>
@@ -113,7 +112,6 @@ extends PaintClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorSpaceTypeClassTests<SUT extends ColorSpaceType>
@@ -180,7 +178,6 @@ extends PaintClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CycleMethodClassTests<SUT extends CycleMethod>

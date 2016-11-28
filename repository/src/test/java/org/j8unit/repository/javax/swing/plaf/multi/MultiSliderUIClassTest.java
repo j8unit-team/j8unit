@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiSliderUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiSliderUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiSliderUIClassTest
 implements MultiSliderUIClassTests<MultiSliderUI> {
@@ -42,6 +41,7 @@ implements MultiSliderUIClassTests<MultiSliderUI> {
     public void create_MultiSliderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiSliderUI sut = new MultiSliderUI();
     }
 

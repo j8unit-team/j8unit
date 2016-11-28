@@ -12,7 +12,6 @@ import org.omg.CosNaming.NamingContextExtHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NamingContextExtHolder} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NamingContextExtHolderClassTest
 implements NamingContextExtHolderClassTests<NamingContextExtHolder> {
@@ -66,6 +65,7 @@ implements NamingContextExtHolderClassTests<NamingContextExtHolder> {
     public void create_NamingContextExtHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NamingContextExtHolder sut = new NamingContextExtHolder();
     }
 

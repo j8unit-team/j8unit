@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -68,7 +67,6 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonAreaLayoutTest
     implements ButtonAreaLayoutTests<ButtonAreaLayout> {
@@ -91,7 +89,6 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonActionListenerTest
     implements ButtonActionListenerTests<ButtonActionListener> {

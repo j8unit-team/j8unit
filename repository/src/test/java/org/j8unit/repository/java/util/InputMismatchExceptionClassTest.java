@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InputMismatchException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.util.InputMismatchExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InputMismatchExceptionClassTest
 implements InputMismatchExceptionClassTests<InputMismatchException> {
@@ -42,6 +41,7 @@ implements InputMismatchExceptionClassTests<InputMismatchException> {
     public void create_InputMismatchException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputMismatchException sut = new InputMismatchException();
     }
 

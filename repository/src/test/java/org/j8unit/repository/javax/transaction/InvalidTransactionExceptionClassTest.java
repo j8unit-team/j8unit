@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.transaction.InvalidTransactionExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidTransactionExceptionClassTest
 implements InvalidTransactionExceptionClassTests<InvalidTransactionException> {
@@ -44,6 +43,7 @@ implements InvalidTransactionExceptionClassTests<InvalidTransactionException> {
     public void create_InvalidTransactionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTransactionException sut = new InvalidTransactionException();
     }
 

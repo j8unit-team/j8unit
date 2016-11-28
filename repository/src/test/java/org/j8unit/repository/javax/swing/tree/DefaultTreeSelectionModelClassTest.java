@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeSelectionModelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultTreeSelectionModelClassTest
 implements DefaultTreeSelectionModelClassTests<DefaultTreeSelectionModel> {
@@ -44,6 +43,7 @@ implements DefaultTreeSelectionModelClassTests<DefaultTreeSelectionModel> {
     public void create_DefaultTreeSelectionModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTreeSelectionModel sut = new DefaultTreeSelectionModel();
     }
 

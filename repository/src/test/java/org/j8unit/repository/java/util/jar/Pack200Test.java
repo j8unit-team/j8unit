@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Pack200} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.jar.Pack200Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Pack200Test
 implements Pack200Tests<Pack200> {
@@ -31,7 +30,6 @@ implements Pack200Tests<Pack200> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Packer} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.jar.Pack200Tests.PackerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PackerTest
     implements PackerTests<Packer> {
@@ -53,7 +51,6 @@ implements Pack200Tests<Pack200> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Unpacker} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.jar.Pack200Tests.UnpackerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UnpackerTest
     implements UnpackerTests<Unpacker> {

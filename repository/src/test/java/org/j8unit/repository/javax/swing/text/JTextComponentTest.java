@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link JTextComponent} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JTextComponentTest
 implements JTextComponentTests<JTextComponent> {
@@ -32,7 +31,6 @@ implements JTextComponentTests<JTextComponent> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests<DropLocation> {
@@ -54,7 +52,6 @@ implements JTextComponentTests<JTextComponent> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyBinding} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyBindingTest
     implements KeyBindingTests<KeyBinding> {
@@ -77,7 +74,6 @@ implements JTextComponentTests<JTextComponent> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AccessibleJTextComponentTest
     implements AccessibleJTextComponentTests<AccessibleJTextComponent> {

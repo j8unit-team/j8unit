@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementKindVisitor6} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.lang.model.util.ElementKindVisitor6Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ElementKindVisitor6Test<R, P>
 implements ElementKindVisitor6Tests<ElementKindVisitor6<R, P>, R, P> {

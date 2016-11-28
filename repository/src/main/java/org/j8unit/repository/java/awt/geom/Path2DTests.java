@@ -30,7 +30,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Path2DTests<SUT extends Path2D>
@@ -561,7 +560,6 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleTests<SUT extends Double>
@@ -806,7 +804,6 @@ extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatTests<SUT extends Float>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DoubleSummaryStatistics} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.util.DoubleSummaryStatisticsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DoubleSummaryStatisticsClassTest
 implements DoubleSummaryStatisticsClassTests<DoubleSummaryStatistics> {
@@ -42,6 +41,7 @@ implements DoubleSummaryStatisticsClassTests<DoubleSummaryStatistics> {
     public void create_DoubleSummaryStatistics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleSummaryStatistics sut = new DoubleSummaryStatistics();
     }
 

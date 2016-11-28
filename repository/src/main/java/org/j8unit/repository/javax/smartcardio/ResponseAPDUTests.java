@@ -26,9 +26,9 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface ResponseAPDUTests<SUT extends ResponseAPDU>
 extends SerializableTests<SUT>, ObjectTests<SUT> {
 

@@ -12,7 +12,6 @@ import org.omg.CORBA.INVALID_TRANSACTION;
  * Specific JUnit test class to proof the type relevant aspects of type {@link INVALID_TRANSACTION} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class INVALID_TRANSACTIONClassTest
 implements INVALID_TRANSACTIONClassTests<INVALID_TRANSACTION> {
@@ -111,6 +110,7 @@ implements INVALID_TRANSACTIONClassTests<INVALID_TRANSACTION> {
     public void create_INVALID_TRANSACTION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INVALID_TRANSACTION sut = new INVALID_TRANSACTION();
     }
 

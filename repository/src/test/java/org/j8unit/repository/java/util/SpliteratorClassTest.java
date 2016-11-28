@@ -32,7 +32,6 @@ implements SpliteratorClassTests<Spliterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfPrimitive} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests}).
      */
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class OfPrimitiveClassTest
     implements OfPrimitiveClassTests<OfPrimitive> {
@@ -54,7 +53,6 @@ implements SpliteratorClassTests<Spliterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfLong} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfLongClassTest
     implements OfLongClassTests<OfLong> {
@@ -76,7 +74,6 @@ implements SpliteratorClassTests<Spliterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfInt} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfIntClassTest
     implements OfIntClassTests<OfInt> {
@@ -98,7 +95,6 @@ implements SpliteratorClassTests<Spliterator> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OfDouble} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OfDoubleClassTest
     implements OfDoubleClassTests<OfDouble> {

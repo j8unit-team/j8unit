@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CardLayout} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.CardLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CardLayoutClassTest
 implements CardLayoutClassTests<CardLayout> {
@@ -64,6 +63,7 @@ implements CardLayoutClassTests<CardLayout> {
     public void create_CardLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CardLayout sut = new CardLayout();
     }
 

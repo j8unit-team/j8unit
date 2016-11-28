@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RenderingHints} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.RenderingHintsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RenderingHintsClassTest
 implements RenderingHintsClassTests<RenderingHints> {
@@ -79,7 +78,6 @@ implements RenderingHintsClassTests<RenderingHints> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Key} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.RenderingHintsClassTests.KeyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyClassTest
     implements org.j8unit.repository.java.awt.RenderingHintsClassTests.KeyClassTests<Key> {

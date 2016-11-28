@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CounterMonitor} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.monitor.CounterMonitorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CounterMonitorClassTest
 implements CounterMonitorClassTests<CounterMonitor> {
@@ -43,6 +42,7 @@ implements CounterMonitorClassTests<CounterMonitor> {
     public void create_CounterMonitor()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CounterMonitor sut = new CounterMonitor();
     }
 

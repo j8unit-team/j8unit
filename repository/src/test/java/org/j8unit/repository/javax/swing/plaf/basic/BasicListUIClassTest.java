@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicListUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicListUIClassTest
 implements BasicListUIClassTests<BasicListUI> {
@@ -47,6 +46,7 @@ implements BasicListUIClassTests<BasicListUI> {
     public void create_BasicListUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicListUI sut = new BasicListUI();
     }
 
@@ -80,7 +80,6 @@ implements BasicListUIClassTests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListSelectionHandlerClassTest
     implements ListSelectionHandlerClassTests<ListSelectionHandler> {
@@ -126,7 +125,6 @@ implements BasicListUIClassTests<BasicListUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests<ListDataHandler> {
@@ -172,7 +170,6 @@ implements BasicListUIClassTests<BasicListUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -218,7 +215,6 @@ implements BasicListUIClassTests<BasicListUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -264,7 +260,6 @@ implements BasicListUIClassTests<BasicListUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {

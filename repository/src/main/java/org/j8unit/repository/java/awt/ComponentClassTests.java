@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentClassTests<SUT extends Component>
@@ -114,7 +113,6 @@ extends ImageObserverClassTests<SUT>, MenuContainerClassTests<SUT>, Serializable
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BaselineResizeBehaviorClassTests<SUT extends BaselineResizeBehavior>

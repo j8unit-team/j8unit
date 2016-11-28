@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultTableCellRendererClassTest
 implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
@@ -45,6 +44,7 @@ implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
     public void create_DefaultTableCellRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultTableCellRenderer sut = new DefaultTableCellRenderer();
     }
 
@@ -57,7 +57,6 @@ implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests.UIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests.UIResourceClassTests<UIResource> {
@@ -88,6 +87,7 @@ implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

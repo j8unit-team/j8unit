@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnmodifiableSetExceptionClassTest
 implements UnmodifiableSetExceptionClassTests<UnmodifiableSetException> {
@@ -44,6 +43,7 @@ implements UnmodifiableSetExceptionClassTests<UnmodifiableSetException> {
     public void create_UnmodifiableSetException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnmodifiableSetException sut = new UnmodifiableSetException();
     }
 

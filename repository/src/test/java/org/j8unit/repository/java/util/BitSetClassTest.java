@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BitSet} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.BitSetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BitSetClassTest
 implements BitSetClassTests<BitSet> {
@@ -64,6 +63,7 @@ implements BitSetClassTests<BitSet> {
     public void create_BitSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BitSet sut = new BitSet();
     }
 

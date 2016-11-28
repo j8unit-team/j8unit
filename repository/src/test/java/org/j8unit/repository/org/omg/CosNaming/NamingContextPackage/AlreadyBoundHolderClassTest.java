@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AlreadyBoundHolderClassTest
 implements AlreadyBoundHolderClassTests<AlreadyBoundHolder> {
@@ -69,6 +68,7 @@ implements AlreadyBoundHolderClassTests<AlreadyBoundHolder> {
     public void create_AlreadyBoundHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyBoundHolder sut = new AlreadyBoundHolder();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JMenuItem} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JMenuItemClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JMenuItemClassTest
 implements JMenuItemClassTests<JMenuItem> {
@@ -108,6 +107,7 @@ implements JMenuItemClassTests<JMenuItem> {
     public void create_JMenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JMenuItem sut = new JMenuItem();
     }
 

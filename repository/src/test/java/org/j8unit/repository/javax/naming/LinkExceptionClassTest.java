@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LinkException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.naming.LinkExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LinkExceptionClassTest
 implements LinkExceptionClassTests<LinkException> {
@@ -64,6 +63,7 @@ implements LinkExceptionClassTests<LinkException> {
     public void create_LinkException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkException sut = new LinkException();
     }
 

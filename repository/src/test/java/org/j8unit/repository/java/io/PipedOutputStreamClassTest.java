@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PipedOutputStream} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.io.PipedOutputStreamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PipedOutputStreamClassTest
 implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutputStream> {
@@ -65,7 +64,7 @@ implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutput
     public void create_PipedOutputStream()
     throws Exception {
         // create new instance
-        final PipedOutputStream sut = new PipedOutputStream();
+        try (final PipedOutputStream sut = new PipedOutputStream()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedOutputStream]

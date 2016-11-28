@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.sql.SQLTransactionRollbackExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLTransactionRollbackExceptionClassTest
 implements SQLTransactionRollbackExceptionClassTests<SQLTransactionRollbackException> {
@@ -138,6 +137,7 @@ implements SQLTransactionRollbackExceptionClassTests<SQLTransactionRollbackExcep
     public void create_SQLTransactionRollbackException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLTransactionRollbackException sut = new SQLTransactionRollbackException();
     }
 

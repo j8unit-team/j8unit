@@ -42,6 +42,7 @@ implements SynchronousQueueClassTests<SynchronousQueue> {
     public void create_SynchronousQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynchronousQueue sut = new SynchronousQueue();
     }
 

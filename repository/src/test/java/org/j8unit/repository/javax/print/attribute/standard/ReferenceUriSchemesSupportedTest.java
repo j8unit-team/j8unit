@@ -14,7 +14,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.standard.ReferenceUriSchemesSupportedTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReferenceUriSchemesSupportedTest

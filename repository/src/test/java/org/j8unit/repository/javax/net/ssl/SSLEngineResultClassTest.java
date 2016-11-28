@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SSLEngineResult} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SSLEngineResultClassTest
 implements SSLEngineResultClassTests<SSLEngineResult> {
@@ -59,7 +58,6 @@ implements SSLEngineResultClassTests<SSLEngineResult> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Status} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.StatusClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class StatusClassTest
     implements StatusClassTests<Status> {
@@ -123,7 +121,6 @@ implements SSLEngineResultClassTests<SSLEngineResult> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HandshakeStatusClassTest
     implements HandshakeStatusClassTests<HandshakeStatus> {

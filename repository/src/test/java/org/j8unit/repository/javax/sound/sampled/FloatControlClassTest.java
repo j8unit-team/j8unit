@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FloatControl} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.FloatControlClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FloatControlClassTest
 implements FloatControlClassTests<FloatControl> {
@@ -29,7 +28,6 @@ implements FloatControlClassTests<FloatControl> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.sound.sampled.FloatControlClassTests.TypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
     implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests.TypeClassTests<Type> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link EventListenerList} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.EventListenerListClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class EventListenerListClassTest
 implements EventListenerListClassTests<EventListenerList> {
@@ -42,6 +41,7 @@ implements EventListenerListClassTests<EventListenerList> {
     public void create_EventListenerList()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final EventListenerList sut = new EventListenerList();
     }
 

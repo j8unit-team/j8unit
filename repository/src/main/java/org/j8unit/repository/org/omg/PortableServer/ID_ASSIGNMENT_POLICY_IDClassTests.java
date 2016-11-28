@@ -44,7 +44,6 @@ import org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ID_ASSIGNMENT_POLICY_IDClassTests<SUT extends ID_ASSIGNMENT_POLICY_ID>

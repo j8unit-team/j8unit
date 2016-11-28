@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RoundRectangle2D} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RoundRectangle2DClassTest
 implements RoundRectangle2DClassTests<RoundRectangle2D> {
@@ -34,7 +33,6 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests.FloatClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
     implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests.FloatClassTests<Float> {
@@ -64,6 +62,7 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 
@@ -100,7 +99,6 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests.DoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests.DoubleClassTests<Double> {
@@ -130,6 +128,7 @@ implements RoundRectangle2DClassTests<RoundRectangle2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 

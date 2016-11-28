@@ -44,7 +44,6 @@ import org.omg.IOP.TAG_INTERNET_IOP;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_INTERNET_IOPClassTests<SUT extends TAG_INTERNET_IOP>

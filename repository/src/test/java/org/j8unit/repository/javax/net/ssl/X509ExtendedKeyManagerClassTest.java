@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link X509ExtendedKeyManager} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.X509ExtendedKeyManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class X509ExtendedKeyManagerClassTest
 implements X509ExtendedKeyManagerClassTests<X509ExtendedKeyManager> {

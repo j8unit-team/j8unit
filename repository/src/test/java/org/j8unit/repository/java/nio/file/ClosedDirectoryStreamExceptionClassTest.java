@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ClosedDirectoryStreamExceptionClassTest
 implements ClosedDirectoryStreamExceptionClassTests<ClosedDirectoryStreamException> {
@@ -44,6 +43,7 @@ implements ClosedDirectoryStreamExceptionClassTests<ClosedDirectoryStreamExcepti
     public void create_ClosedDirectoryStreamException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedDirectoryStreamException sut = new ClosedDirectoryStreamException();
     }
 

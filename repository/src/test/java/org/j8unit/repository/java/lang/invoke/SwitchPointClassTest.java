@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SwitchPoint} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.invoke.SwitchPointClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SwitchPointClassTest
 implements SwitchPointClassTests<SwitchPoint> {
@@ -42,6 +41,7 @@ implements SwitchPointClassTests<SwitchPoint> {
     public void create_SwitchPoint()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SwitchPoint sut = new SwitchPoint();
     }
 

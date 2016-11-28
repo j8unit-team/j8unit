@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ElementFilter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.lang.model.util.ElementFilterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ElementFilterClassTest
 implements ElementFilterClassTests<ElementFilter> {

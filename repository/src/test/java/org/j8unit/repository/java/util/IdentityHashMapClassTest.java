@@ -87,6 +87,7 @@ implements IdentityHashMapClassTests<IdentityHashMap> {
     public void create_IdentityHashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IdentityHashMap sut = new IdentityHashMap();
     }
 

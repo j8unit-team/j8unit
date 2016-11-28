@@ -74,7 +74,6 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Parser} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ParserTest
     implements ParserTests<Parser> {
@@ -97,7 +96,6 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InsertHTMLTextActionTest
     implements InsertHTMLTextActionTests<InsertHTMLTextAction> {
@@ -172,7 +170,6 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, HTMLEditorKitTests<HTMLEditorK
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HTMLTextActionTest
     implements HTMLTextActionTests<HTMLTextAction> {

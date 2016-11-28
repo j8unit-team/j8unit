@@ -12,8 +12,8 @@ import org.xml.sax.helpers.ParserFactory;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ParserFactory} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class ParserFactoryClassTest
 implements ParserFactoryClassTests<ParserFactory> {
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.AttributeChangeNotificationFilterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributeChangeNotificationFilterClassTest
 implements AttributeChangeNotificationFilterClassTests<AttributeChangeNotificationFilter> {
@@ -44,6 +43,7 @@ implements AttributeChangeNotificationFilterClassTests<AttributeChangeNotificati
     public void create_AttributeChangeNotificationFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeChangeNotificationFilter sut = new AttributeChangeNotificationFilter();
     }
 

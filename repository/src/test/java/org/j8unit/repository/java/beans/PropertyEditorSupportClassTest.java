@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyEditorSupport} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.beans.PropertyEditorSupportClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PropertyEditorSupportClassTest
 implements PropertyEditorSupportClassTests<PropertyEditorSupport> {
@@ -42,6 +41,7 @@ implements PropertyEditorSupportClassTests<PropertyEditorSupport> {
     public void create_PropertyEditorSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PropertyEditorSupport sut = new PropertyEditorSupport();
     }
 

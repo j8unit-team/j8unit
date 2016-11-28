@@ -26,7 +26,6 @@ import org.omg.PortableServer.RequestProcessingPolicyValue;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RequestProcessingPolicyValueTests<SUT extends RequestProcessingPolicyValue>

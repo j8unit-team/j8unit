@@ -49,7 +49,6 @@ implements FactoryBasedJ8UnitTest, BasicComboBoxRendererTests<BasicComboBoxRende
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
 
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UIResourceTest

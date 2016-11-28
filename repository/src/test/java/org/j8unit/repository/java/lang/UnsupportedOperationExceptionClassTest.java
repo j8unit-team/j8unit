@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnsupportedOperationException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedOperationExceptionClassTest
 implements UnsupportedOperationExceptionClassTests<UnsupportedOperationException> {
@@ -111,6 +110,7 @@ implements UnsupportedOperationExceptionClassTests<UnsupportedOperationException
     public void create_UnsupportedOperationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedOperationException sut = new UnsupportedOperationException();
     }
 

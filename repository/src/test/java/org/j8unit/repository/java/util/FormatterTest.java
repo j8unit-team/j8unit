@@ -42,7 +42,6 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BigDecimalLayoutFormTest

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ReentrantLock} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ReentrantLockClassTest
 implements ReentrantLockClassTests<ReentrantLock> {
@@ -66,6 +65,7 @@ implements ReentrantLockClassTests<ReentrantLock> {
     public void create_ReentrantLock()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReentrantLock sut = new ReentrantLock();
     }
 

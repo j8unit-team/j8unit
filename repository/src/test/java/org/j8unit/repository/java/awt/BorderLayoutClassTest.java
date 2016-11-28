@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BorderLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.BorderLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BorderLayoutClassTest
 implements BorderLayoutClassTests<BorderLayout> {
@@ -42,6 +41,7 @@ implements BorderLayoutClassTests<BorderLayout> {
     public void create_BorderLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BorderLayout sut = new BorderLayout();
     }
 

@@ -8,7 +8,6 @@ import org.xml.sax.Attributes;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Attributes} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.xml.sax.AttributesClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributesClassTest
 implements AttributesClassTests<Attributes> {

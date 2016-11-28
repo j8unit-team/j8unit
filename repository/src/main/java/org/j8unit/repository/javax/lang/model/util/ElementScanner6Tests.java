@@ -24,7 +24,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementScanner6Tests<SUT extends ElementScanner6<R, P>, R, P>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleAttributeSet} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SimpleAttributeSetClassTest
 implements SimpleAttributeSetClassTests<SimpleAttributeSet> {
@@ -42,6 +41,7 @@ implements SimpleAttributeSetClassTests<SimpleAttributeSet> {
     public void create_SimpleAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleAttributeSet sut = new SimpleAttributeSet();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.sql.SQLTransientConnectionExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLTransientConnectionExceptionClassTest
 implements SQLTransientConnectionExceptionClassTests<SQLTransientConnectionException> {
@@ -138,6 +137,7 @@ implements SQLTransientConnectionExceptionClassTests<SQLTransientConnectionExcep
     public void create_SQLTransientConnectionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLTransientConnectionException sut = new SQLTransientConnectionException();
     }
 

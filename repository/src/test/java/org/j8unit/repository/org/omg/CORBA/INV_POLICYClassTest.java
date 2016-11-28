@@ -12,7 +12,6 @@ import org.omg.CORBA.INV_POLICY;
  * Specific JUnit test class to proof the type relevant aspects of type {@link INV_POLICY} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class INV_POLICYClassTest
 implements INV_POLICYClassTests<INV_POLICY> {
@@ -110,6 +109,7 @@ implements INV_POLICYClassTests<INV_POLICY> {
     public void create_INV_POLICY()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INV_POLICY sut = new INV_POLICY();
     }
 

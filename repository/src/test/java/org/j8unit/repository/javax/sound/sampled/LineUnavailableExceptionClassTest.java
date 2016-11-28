@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.sound.sampled.LineUnavailableExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LineUnavailableExceptionClassTest
 implements LineUnavailableExceptionClassTests<LineUnavailableException> {
@@ -44,6 +43,7 @@ implements LineUnavailableExceptionClassTests<LineUnavailableException> {
     public void create_LineUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LineUnavailableException sut = new LineUnavailableException();
     }
 

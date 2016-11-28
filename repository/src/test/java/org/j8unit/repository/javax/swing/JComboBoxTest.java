@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<JComboBox<E>>, JComboBoxTests<JComboBox<E>, E>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeySelectionManagerTest
     implements KeySelectionManagerTests<KeySelectionManager> {

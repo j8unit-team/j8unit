@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LanguageCallback} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.security.auth.callback.LanguageCallbackClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LanguageCallbackClassTest
 implements LanguageCallbackClassTests<LanguageCallback> {
@@ -43,6 +42,7 @@ implements LanguageCallbackClassTests<LanguageCallback> {
     public void create_LanguageCallback()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LanguageCallback sut = new LanguageCallback();
     }
 

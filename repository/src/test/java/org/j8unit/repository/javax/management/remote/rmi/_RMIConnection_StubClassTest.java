@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _RMIConnection_Stub} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.management.remote.rmi._RMIConnection_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _RMIConnection_StubClassTest
 implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
@@ -43,7 +42,7 @@ implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
     public void create__RMIConnection_Stub()
     throws Exception {
         // create new instance
-        final _RMIConnection_Stub sut = new _RMIConnection_Stub();
+        try (final _RMIConnection_Stub sut = new _RMIConnection_Stub()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi._RMIConnection_Stub]

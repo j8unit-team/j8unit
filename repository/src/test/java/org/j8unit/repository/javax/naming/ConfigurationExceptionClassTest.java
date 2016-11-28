@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ConfigurationException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.ConfigurationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ConfigurationExceptionClassTest
 implements ConfigurationExceptionClassTests<ConfigurationException> {
@@ -66,6 +65,7 @@ implements ConfigurationExceptionClassTests<ConfigurationException> {
     public void create_ConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConfigurationException sut = new ConfigurationException();
     }
 

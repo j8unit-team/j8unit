@@ -26,7 +26,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadTests<SUT extends Thread>
@@ -717,7 +716,6 @@ extends RunnableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UncaughtExceptionHandlerTests<SUT extends UncaughtExceptionHandler>
@@ -771,7 +769,6 @@ extends RunnableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateTests<SUT extends State>

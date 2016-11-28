@@ -13,6 +13,7 @@ import org.omg.CORBA.PrincipalHolder;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class PrincipalHolderTest
 implements FactoryBasedJ8UnitTest<PrincipalHolder>, PrincipalHolderTests<PrincipalHolder> {
 

@@ -12,7 +12,6 @@ import org.omg.CORBA.IntHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IntHolder} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.IntHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IntHolderClassTest
 implements IntHolderClassTests<IntHolder> {
@@ -64,6 +63,7 @@ implements IntHolderClassTests<IntHolder> {
     public void create_IntHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IntHolder sut = new IntHolder();
     }
 

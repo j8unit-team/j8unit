@@ -12,7 +12,6 @@ import org.omg.CORBA.ULongSeqHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ULongSeqHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ULongSeqHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ULongSeqHolderClassTest
 implements ULongSeqHolderClassTests<ULongSeqHolder> {
@@ -64,6 +63,7 @@ implements ULongSeqHolderClassTests<ULongSeqHolder> {
     public void create_ULongSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ULongSeqHolder sut = new ULongSeqHolder();
     }
 

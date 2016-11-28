@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link OpenDataException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.openmbean.OpenDataExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OpenDataExceptionClassTest
 implements OpenDataExceptionClassTests<OpenDataException> {
@@ -43,6 +42,7 @@ implements OpenDataExceptionClassTests<OpenDataException> {
     public void create_OpenDataException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OpenDataException sut = new OpenDataException();
     }
 

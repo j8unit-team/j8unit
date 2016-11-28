@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link SimpleTypeVisitor8} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor8Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SimpleTypeVisitor8Test<R, P>
 implements SimpleTypeVisitor8Tests<SimpleTypeVisitor8<R, P>, R, P> {

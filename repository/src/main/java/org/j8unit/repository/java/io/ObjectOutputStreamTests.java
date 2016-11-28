@@ -26,7 +26,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectOutputStreamTests<SUT extends ObjectOutputStream>
@@ -578,7 +577,6 @@ extends ObjectOutputTests<SUT>, ObjectStreamConstantsTests<SUT>, OutputStreamTes
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PutFieldTests<SUT extends PutField>

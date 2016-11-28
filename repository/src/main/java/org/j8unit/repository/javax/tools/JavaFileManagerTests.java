@@ -28,7 +28,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileManagerTests<SUT extends JavaFileManager>
@@ -344,7 +343,6 @@ extends CloseableTests<SUT>, FlushableTests<SUT>, OptionCheckerTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LocationTests<SUT extends Location>

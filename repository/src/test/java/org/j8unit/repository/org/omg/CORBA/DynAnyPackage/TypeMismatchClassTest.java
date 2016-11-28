@@ -12,7 +12,6 @@ import org.omg.CORBA.DynAnyPackage.TypeMismatch;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TypeMismatch} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DynAnyPackage.TypeMismatchClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TypeMismatchClassTest
 implements TypeMismatchClassTests<TypeMismatch> {
@@ -43,6 +42,7 @@ implements TypeMismatchClassTests<TypeMismatch> {
     public void create_TypeMismatch()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TypeMismatch sut = new TypeMismatch();
     }
 

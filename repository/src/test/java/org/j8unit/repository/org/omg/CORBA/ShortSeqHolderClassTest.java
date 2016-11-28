@@ -12,7 +12,6 @@ import org.omg.CORBA.ShortSeqHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ShortSeqHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ShortSeqHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ShortSeqHolderClassTest
 implements ShortSeqHolderClassTests<ShortSeqHolder> {
@@ -64,6 +63,7 @@ implements ShortSeqHolderClassTests<ShortSeqHolder> {
     public void create_ShortSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortSeqHolder sut = new ShortSeqHolder();
     }
 

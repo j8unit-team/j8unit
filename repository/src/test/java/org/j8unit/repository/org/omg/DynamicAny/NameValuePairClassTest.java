@@ -12,7 +12,6 @@ import org.omg.DynamicAny.NameValuePair;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NameValuePair} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.NameValuePairClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NameValuePairClassTest
 implements NameValuePairClassTests<NameValuePair> {
@@ -42,6 +41,7 @@ implements NameValuePairClassTests<NameValuePair> {
     public void create_NameValuePair()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NameValuePair sut = new NameValuePair();
     }
 

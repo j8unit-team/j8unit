@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.NonReadableChannelExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NonReadableChannelExceptionClassTest
 implements NonReadableChannelExceptionClassTests<NonReadableChannelException> {
@@ -44,6 +43,7 @@ implements NonReadableChannelExceptionClassTests<NonReadableChannelException> {
     public void create_NonReadableChannelException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NonReadableChannelException sut = new NonReadableChannelException();
     }
 

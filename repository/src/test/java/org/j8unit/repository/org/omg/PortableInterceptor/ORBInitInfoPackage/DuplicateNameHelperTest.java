@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DuplicateNameHelperTest
 implements DuplicateNameHelperTests<DuplicateNameHelper> {

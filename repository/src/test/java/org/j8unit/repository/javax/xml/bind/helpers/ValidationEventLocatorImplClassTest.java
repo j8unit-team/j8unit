@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ValidationEventLocatorImplClassTest
 implements ValidationEventLocatorImplClassTests<ValidationEventLocatorImpl> {
@@ -44,6 +43,7 @@ implements ValidationEventLocatorImplClassTests<ValidationEventLocatorImpl> {
     public void create_ValidationEventLocatorImpl()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValidationEventLocatorImpl sut = new ValidationEventLocatorImpl();
     }
 

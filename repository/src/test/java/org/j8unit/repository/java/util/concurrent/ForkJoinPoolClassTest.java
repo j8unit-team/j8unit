@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ForkJoinPool} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ForkJoinPoolClassTest
 implements ForkJoinPoolClassTests<ForkJoinPool> {
@@ -92,6 +91,7 @@ implements ForkJoinPoolClassTests<ForkJoinPool> {
     public void create_ForkJoinPool()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ForkJoinPool sut = new ForkJoinPool();
     }
 
@@ -168,7 +168,6 @@ implements ForkJoinPoolClassTests<ForkJoinPool> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ForkJoinWorkerThreadFactoryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ForkJoinWorkerThreadFactoryClassTest
     implements ForkJoinWorkerThreadFactoryClassTests<ForkJoinWorkerThreadFactory> {
@@ -191,7 +190,6 @@ implements ForkJoinPoolClassTests<ForkJoinPool> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests.ManagedBlockerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ManagedBlockerClassTest
     implements ManagedBlockerClassTests<ManagedBlocker> {

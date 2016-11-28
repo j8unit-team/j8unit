@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractScriptEngine} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.script.AbstractScriptEngineClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractScriptEngineClassTest
 implements AbstractScriptEngineClassTests<AbstractScriptEngine> {

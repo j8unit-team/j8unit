@@ -8,7 +8,6 @@ import org.omg.DynamicAny.DynStruct;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DynStruct} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynStructClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DynStructClassTest
 implements org.j8unit.repository.org.omg.DynamicAny.DynStructClassTests<DynStruct> {

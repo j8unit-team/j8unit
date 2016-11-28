@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Spliterators} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.SpliteratorsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SpliteratorsTest
 implements SpliteratorsTests<Spliterators> {
@@ -34,7 +33,6 @@ implements SpliteratorsTests<Spliterators> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractDoubleSpliteratorTest
     implements AbstractDoubleSpliteratorTests<AbstractDoubleSpliterator> {
@@ -57,7 +55,6 @@ implements SpliteratorsTests<Spliterators> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractSpliteratorTest<T>
     implements AbstractSpliteratorTests<AbstractSpliterator<T>, T> {
@@ -80,7 +77,6 @@ implements SpliteratorsTests<Spliterators> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractLongSpliteratorTest
     implements AbstractLongSpliteratorTests<AbstractLongSpliterator> {
@@ -103,7 +99,6 @@ implements SpliteratorsTests<Spliterators> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractIntSpliteratorTest
     implements AbstractIntSpliteratorTests<AbstractIntSpliterator> {

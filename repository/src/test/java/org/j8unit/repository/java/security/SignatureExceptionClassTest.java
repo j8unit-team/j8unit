@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SignatureException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.security.SignatureExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SignatureExceptionClassTest
 implements SignatureExceptionClassTests<SignatureException> {
@@ -111,6 +110,7 @@ implements SignatureExceptionClassTests<SignatureException> {
     public void create_SignatureException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SignatureException sut = new SignatureException();
     }
 

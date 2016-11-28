@@ -10,6 +10,7 @@ extends J8UnitTest<Foobar> {
     @Test
     public default void testFoobar1() {
         final Foobar sut = this.createNewSUT();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }
@@ -17,6 +18,7 @@ extends J8UnitTest<Foobar> {
     @Test
     public default void testFoobar2() {
         final Foobar sut = this.createNewSUT();
+        assert sut != null;
         // ...
         Assert.assertTrue(true);
     }

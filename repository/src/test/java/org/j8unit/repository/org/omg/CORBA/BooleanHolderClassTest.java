@@ -12,7 +12,6 @@ import org.omg.CORBA.BooleanHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BooleanHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BooleanHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BooleanHolderClassTest
 implements BooleanHolderClassTests<BooleanHolder> {
@@ -64,6 +63,7 @@ implements BooleanHolderClassTests<BooleanHolder> {
     public void create_BooleanHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BooleanHolder sut = new BooleanHolder();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PrinterException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.print.PrinterExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PrinterExceptionClassTest
 implements PrinterExceptionClassTests<PrinterException> {
@@ -42,6 +41,7 @@ implements PrinterExceptionClassTests<PrinterException> {
     public void create_PrinterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PrinterException sut = new PrinterException();
     }
 

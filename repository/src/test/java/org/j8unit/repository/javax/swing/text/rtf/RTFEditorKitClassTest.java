@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RTFEditorKit} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RTFEditorKitClassTest
 implements RTFEditorKitClassTests<RTFEditorKit> {
@@ -42,6 +41,7 @@ implements RTFEditorKitClassTests<RTFEditorKit> {
     public void create_RTFEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RTFEditorKit sut = new RTFEditorKit();
     }
 

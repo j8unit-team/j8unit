@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MarshalException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.MarshalExceptionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MarshalExceptionTest
 implements org.j8unit.repository.javax.xml.bind.MarshalExceptionTests<MarshalException> {

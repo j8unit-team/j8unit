@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ClosedSelectorException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.nio.channels.ClosedSelectorExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ClosedSelectorExceptionClassTest
 implements ClosedSelectorExceptionClassTests<ClosedSelectorException> {
@@ -43,6 +42,7 @@ implements ClosedSelectorExceptionClassTests<ClosedSelectorException> {
     public void create_ClosedSelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedSelectorException sut = new ClosedSelectorException();
     }
 

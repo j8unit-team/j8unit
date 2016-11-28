@@ -33,7 +33,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableTests<SUT extends JTable>
@@ -3262,7 +3261,6 @@ AccessibleTests<SUT>, RowSorterListenerTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationTests<SUT extends DropLocation>
@@ -3404,7 +3402,6 @@ AccessibleTests<SUT>, RowSorterListenerTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintModeTests<SUT extends PrintMode>

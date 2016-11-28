@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultValidationEventHandlerClassTest
 implements DefaultValidationEventHandlerClassTests<DefaultValidationEventHandler> {
@@ -44,6 +43,7 @@ implements DefaultValidationEventHandlerClassTests<DefaultValidationEventHandler
     public void create_DefaultValidationEventHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultValidationEventHandler sut = new DefaultValidationEventHandler();
     }
 

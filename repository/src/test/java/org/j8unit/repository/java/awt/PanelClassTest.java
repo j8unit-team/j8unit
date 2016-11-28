@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Panel} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.awt.PanelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PanelClassTest
 implements PanelClassTests<Panel> {
@@ -42,6 +41,7 @@ implements PanelClassTests<Panel> {
     public void create_Panel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Panel sut = new Panel();
     }
 

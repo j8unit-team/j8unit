@@ -41,6 +41,7 @@ implements InheritableThreadLocalClassTests<InheritableThreadLocal> {
     public void create_InheritableThreadLocal()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InheritableThreadLocal sut = new InheritableThreadLocal();
     }
 

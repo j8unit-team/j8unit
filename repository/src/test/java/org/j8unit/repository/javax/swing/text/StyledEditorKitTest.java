@@ -51,7 +51,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontFamilyActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontFamilyActionTest
     implements FontFamilyActionTests<FontFamilyAction> {
@@ -126,7 +125,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitTests.AlignmentActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AlignmentActionTest
     implements AlignmentActionTests<AlignmentAction> {
@@ -149,7 +147,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class StyledTextActionTest
     implements StyledTextActionTests<StyledTextAction> {
@@ -172,7 +169,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ForegroundActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ForegroundActionTest
     implements ForegroundActionTests<ForegroundAction> {
@@ -221,7 +217,6 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledE
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontSizeActionTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontSizeActionTest
     implements FontSizeActionTests<FontSizeAction> {

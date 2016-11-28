@@ -31,7 +31,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobAttributesTests<SUT extends JobAttributes>
@@ -818,7 +817,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SidesTypeTests<SUT extends SidesType>
@@ -849,7 +847,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DialogTypeTests<SUT extends DialogType>
@@ -880,7 +877,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DestinationTypeTests<SUT extends DestinationType>
@@ -912,7 +908,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MultipleDocumentHandlingTypeTests<SUT extends MultipleDocumentHandlingType>
@@ -943,7 +938,6 @@ extends CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultSelectionTypeTests<SUT extends DefaultSelectionType>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicGraphicsUtils} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicGraphicsUtilsClassTest
 implements BasicGraphicsUtilsClassTests<BasicGraphicsUtils> {
@@ -43,6 +42,7 @@ implements BasicGraphicsUtilsClassTests<BasicGraphicsUtils> {
     public void create_BasicGraphicsUtils()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicGraphicsUtils sut = new BasicGraphicsUtils();
     }
 

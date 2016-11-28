@@ -12,7 +12,6 @@ import org.omg.CosNaming._NamingContextStub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _NamingContextStub} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming._NamingContextStubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _NamingContextStubClassTest
 implements _NamingContextStubClassTests<_NamingContextStub> {
@@ -42,6 +41,7 @@ implements _NamingContextStubClassTests<_NamingContextStub> {
     public void create__NamingContextStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _NamingContextStub sut = new _NamingContextStub();
     }
 

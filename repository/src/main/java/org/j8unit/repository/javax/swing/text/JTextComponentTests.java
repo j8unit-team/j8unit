@@ -36,7 +36,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTextComponentTests<SUT extends JTextComponent>
@@ -1707,7 +1706,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationTests<SUT extends DropLocation>
@@ -1808,7 +1806,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyBindingTests<SUT extends KeyBinding>
@@ -1839,7 +1836,6 @@ extends ScrollableTests<SUT>, AccessibleTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AccessibleJTextComponentTests<SUT extends AccessibleJTextComponent>

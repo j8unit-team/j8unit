@@ -12,7 +12,6 @@ import org.omg.CORBA.StringValueHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StringValueHelper} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.StringValueHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringValueHelperClassTest
 implements StringValueHelperClassTests<StringValueHelper> {
@@ -42,6 +41,7 @@ implements StringValueHelperClassTests<StringValueHelper> {
     public void create_StringValueHelper()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringValueHelper sut = new StringValueHelper();
     }
 

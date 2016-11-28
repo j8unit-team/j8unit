@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Pack200ClassTests<SUT extends Pack200>
@@ -113,7 +112,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PackerClassTests<SUT extends Packer>
@@ -179,7 +177,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnpackerClassTests<SUT extends Unpacker>

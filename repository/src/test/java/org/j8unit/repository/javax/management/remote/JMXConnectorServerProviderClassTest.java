@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.remote.JMXConnectorServerProviderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JMXConnectorServerProviderClassTest
 implements JMXConnectorServerProviderClassTests<JMXConnectorServerProvider> {

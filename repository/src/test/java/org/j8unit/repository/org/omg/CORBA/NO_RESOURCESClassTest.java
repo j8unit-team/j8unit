@@ -12,7 +12,6 @@ import org.omg.CORBA.NO_RESOURCES;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NO_RESOURCES} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.NO_RESOURCESClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NO_RESOURCESClassTest
 implements NO_RESOURCESClassTests<NO_RESOURCES> {
@@ -110,6 +109,7 @@ implements NO_RESOURCESClassTests<NO_RESOURCES> {
     public void create_NO_RESOURCES()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_RESOURCES sut = new NO_RESOURCES();
     }
 

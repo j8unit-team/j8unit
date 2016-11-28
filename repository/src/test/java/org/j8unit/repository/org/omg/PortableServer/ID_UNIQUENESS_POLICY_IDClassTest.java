@@ -9,7 +9,6 @@ import org.omg.PortableServer.ID_UNIQUENESS_POLICY_ID;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ID_UNIQUENESS_POLICY_IDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ID_UNIQUENESS_POLICY_IDClassTest
 implements ID_UNIQUENESS_POLICY_IDClassTests<ID_UNIQUENESS_POLICY_ID> {

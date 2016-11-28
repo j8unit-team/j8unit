@@ -67,6 +67,7 @@ implements ConcurrentHashMapClassTests<ConcurrentHashMap> {
     public void create_ConcurrentHashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentHashMap sut = new ConcurrentHashMap();
     }
 
@@ -191,7 +192,6 @@ implements ConcurrentHashMapClassTests<ConcurrentHashMap> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests}).
      */
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class KeySetViewClassTest
     implements KeySetViewClassTests<KeySetView> {

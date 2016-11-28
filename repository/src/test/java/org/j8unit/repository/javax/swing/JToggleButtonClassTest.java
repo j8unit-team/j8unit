@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JToggleButton} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JToggleButtonClassTest
 implements JToggleButtonClassTests<JToggleButton> {
@@ -89,6 +88,7 @@ implements JToggleButtonClassTests<JToggleButton> {
     public void create_JToggleButton()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JToggleButton sut = new JToggleButton();
     }
 
@@ -215,7 +215,6 @@ implements JToggleButtonClassTests<JToggleButton> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToggleButtonModelClassTest
     implements ToggleButtonModelClassTests<ToggleButtonModel> {
@@ -246,6 +245,7 @@ implements JToggleButtonClassTests<JToggleButton> {
         public void create_ToggleButtonModel()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ToggleButtonModel sut = new ToggleButtonModel();
         }
 

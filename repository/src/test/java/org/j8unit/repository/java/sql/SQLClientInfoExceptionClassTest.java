@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SQLClientInfoException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLClientInfoExceptionClassTest
 implements SQLClientInfoExceptionClassTests<SQLClientInfoException> {
@@ -140,6 +139,7 @@ implements SQLClientInfoExceptionClassTests<SQLClientInfoException> {
     public void create_SQLClientInfoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLClientInfoException sut = new SQLClientInfoException();
     }
 

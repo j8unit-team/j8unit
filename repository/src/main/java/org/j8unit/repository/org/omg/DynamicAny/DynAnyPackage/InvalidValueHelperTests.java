@@ -22,7 +22,6 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidValueHelperTests<SUT extends InvalidValueHelper>

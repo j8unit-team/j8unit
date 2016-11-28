@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Point} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.awt.PointClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PointClassTest
 implements PointClassTests<Point> {
@@ -86,6 +85,7 @@ implements PointClassTests<Point> {
     public void create_Point()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Point sut = new Point();
     }
 

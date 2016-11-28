@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LoginException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.security.auth.login.LoginExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LoginExceptionClassTest
 implements LoginExceptionClassTests<LoginException> {
@@ -43,6 +42,7 @@ implements LoginExceptionClassTests<LoginException> {
     public void create_LoginException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LoginException sut = new LoginException();
     }
 

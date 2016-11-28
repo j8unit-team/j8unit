@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleDateFormat} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.text.SimpleDateFormatClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SimpleDateFormatClassTest
 implements SimpleDateFormatClassTests<SimpleDateFormat> {
@@ -87,6 +86,7 @@ implements SimpleDateFormatClassTests<SimpleDateFormat> {
     public void create_SimpleDateFormat()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SimpleDateFormat sut = new SimpleDateFormat();
     }
 

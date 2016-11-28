@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicEditorPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicEditorPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicEditorPaneUIClassTest
 implements BasicEditorPaneUIClassTests<BasicEditorPaneUI> {
@@ -43,6 +42,7 @@ implements BasicEditorPaneUIClassTests<BasicEditorPaneUI> {
     public void create_BasicEditorPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicEditorPaneUI sut = new BasicEditorPaneUI();
     }
 

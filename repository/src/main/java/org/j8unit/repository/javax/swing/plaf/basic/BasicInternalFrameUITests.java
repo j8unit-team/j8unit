@@ -30,7 +30,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicInternalFrameUITests<SUT extends BasicInternalFrameUI>
@@ -387,7 +386,6 @@ extends InternalFrameUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InternalFrameLayoutTests<SUT extends InternalFrameLayout>
@@ -545,7 +543,6 @@ extends InternalFrameUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InternalFramePropertyChangeListenerTests<SUT extends InternalFramePropertyChangeListener>

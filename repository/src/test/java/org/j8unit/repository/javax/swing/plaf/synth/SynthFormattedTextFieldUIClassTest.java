@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthFormattedTextFieldUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthFormattedTextFieldUIClassTest
 implements SynthFormattedTextFieldUIClassTests<SynthFormattedTextFieldUI> {
@@ -44,6 +43,7 @@ implements SynthFormattedTextFieldUIClassTests<SynthFormattedTextFieldUI> {
     public void create_SynthFormattedTextFieldUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthFormattedTextFieldUI sut = new SynthFormattedTextFieldUI();
     }
 

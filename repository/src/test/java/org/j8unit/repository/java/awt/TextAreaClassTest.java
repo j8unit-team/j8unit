@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TextArea} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.TextAreaClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TextAreaClassTest
 implements TextAreaClassTests<TextArea> {
@@ -64,6 +63,7 @@ implements TextAreaClassTests<TextArea> {
     public void create_TextArea()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TextArea sut = new TextArea();
     }
 

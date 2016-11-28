@@ -13,7 +13,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DataFlavor} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.datatransfer.DataFlavorTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DataFlavorTest
@@ -22,6 +21,7 @@ implements DataFlavorTests<DataFlavor> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
 
     @Parameters(name = "{index}: {0}")
+    @SuppressWarnings("deprecation")
     public static Iterable<? extends Object> sutData() {
         return testParametersOf(new DataFlavor(), //
                                 DataFlavor.stringFlavor, //

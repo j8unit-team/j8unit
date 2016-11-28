@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AllPermission} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.AllPermissionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AllPermissionClassTest
 implements AllPermissionClassTests<AllPermission> {
@@ -42,6 +41,7 @@ implements AllPermissionClassTests<AllPermission> {
     public void create_AllPermission()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AllPermission sut = new AllPermission();
     }
 

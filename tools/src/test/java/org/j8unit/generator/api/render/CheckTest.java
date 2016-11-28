@@ -12,6 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+@SuppressWarnings("rawtypes")
 public class CheckTest {
 
     private FancyOriginRenderer fr;

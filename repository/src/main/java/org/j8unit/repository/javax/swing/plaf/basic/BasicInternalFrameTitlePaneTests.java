@@ -39,7 +39,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicInternalFrameTitlePaneTests<SUT extends BasicInternalFrameTitlePane>
@@ -92,7 +91,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SizeActionTests<SUT extends SizeAction>
@@ -149,7 +147,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MoveActionTests<SUT extends MoveAction>
@@ -206,7 +203,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SystemMenuBarTests<SUT extends SystemMenuBar>
@@ -334,7 +330,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MaximizeActionTests<SUT extends MaximizeAction>
@@ -391,7 +386,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CloseActionTests<SUT extends CloseAction>
@@ -448,7 +442,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RestoreActionTests<SUT extends RestoreAction>
@@ -505,7 +498,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TitlePaneLayoutTests<SUT extends TitlePaneLayout>
@@ -662,7 +654,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface IconifyActionTests<SUT extends IconifyAction>
@@ -720,7 +711,6 @@ extends JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends PropertyChangeHandler>

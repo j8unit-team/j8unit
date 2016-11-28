@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.InsufficientResourcesExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InsufficientResourcesExceptionClassTest
 implements InsufficientResourcesExceptionClassTests<InsufficientResourcesException> {
@@ -67,6 +66,7 @@ implements InsufficientResourcesExceptionClassTests<InsufficientResourcesExcepti
     public void create_InsufficientResourcesException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InsufficientResourcesException sut = new InsufficientResourcesException();
     }
 

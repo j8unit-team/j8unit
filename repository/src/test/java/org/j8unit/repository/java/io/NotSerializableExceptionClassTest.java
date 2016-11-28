@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NotSerializableException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.io.NotSerializableExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotSerializableExceptionClassTest
 implements NotSerializableExceptionClassTests<NotSerializableException> {
@@ -65,6 +64,7 @@ implements NotSerializableExceptionClassTests<NotSerializableException> {
     public void create_NotSerializableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotSerializableException sut = new NotSerializableException();
     }
 

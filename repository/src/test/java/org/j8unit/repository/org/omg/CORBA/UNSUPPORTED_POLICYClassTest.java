@@ -8,7 +8,6 @@ import org.omg.CORBA.UNSUPPORTED_POLICY;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UNSUPPORTED_POLICY} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.UNSUPPORTED_POLICYClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UNSUPPORTED_POLICYClassTest
 implements UNSUPPORTED_POLICYClassTests<UNSUPPORTED_POLICY> {

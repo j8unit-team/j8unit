@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CommunicationException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.CommunicationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CommunicationExceptionClassTest
 implements CommunicationExceptionClassTests<CommunicationException> {
@@ -66,6 +65,7 @@ implements CommunicationExceptionClassTests<CommunicationException> {
     public void create_CommunicationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CommunicationException sut = new CommunicationException();
     }
 

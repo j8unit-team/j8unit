@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoInitialContextException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.NoInitialContextExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoInitialContextExceptionClassTest
 implements NoInitialContextExceptionClassTests<NoInitialContextException> {
@@ -43,6 +42,7 @@ implements NoInitialContextExceptionClassTests<NoInitialContextException> {
     public void create_NoInitialContextException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoInitialContextException sut = new NoInitialContextException();
     }
 

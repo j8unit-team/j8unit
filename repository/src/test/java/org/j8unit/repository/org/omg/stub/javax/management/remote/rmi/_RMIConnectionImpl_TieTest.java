@@ -13,6 +13,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("restriction")
 public class _RMIConnectionImpl_TieTest
 implements FactoryBasedJ8UnitTest<_RMIConnectionImpl_Tie>, _RMIConnectionImpl_TieTests<_RMIConnectionImpl_Tie> {
 

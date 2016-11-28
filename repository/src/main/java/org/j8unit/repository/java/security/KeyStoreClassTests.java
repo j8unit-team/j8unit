@@ -57,7 +57,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreClassTests<SUT extends KeyStore>
@@ -122,7 +121,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrivateKeyEntryClassTests<SUT extends PrivateKeyEntry>
@@ -189,7 +187,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SecretKeyEntryClassTests<SUT extends SecretKeyEntry>
@@ -256,7 +253,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
@@ -323,7 +319,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends Entry>
@@ -387,7 +382,6 @@ extends ObjectClassTests<SUT> {
          *            the class' type of the subject-under-test
          * @since 0.9.0
          */
-
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface AttributeClassTests<SUT extends Attribute>
@@ -455,7 +449,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrustedCertificateEntryClassTests<SUT extends TrustedCertificateEntry>
@@ -522,7 +515,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasswordProtectionClassTests<SUT extends PasswordProtection>
@@ -589,7 +581,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LoadStoreParameterClassTests<SUT extends LoadStoreParameter>
@@ -655,7 +646,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ProtectionParameterClassTests<SUT extends ProtectionParameter>
@@ -721,7 +711,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallbackHandlerProtectionClassTests<SUT extends CallbackHandlerProtection>

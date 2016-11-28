@@ -25,9 +25,9 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface LogStreamTests<SUT extends LogStream>
 extends PrintStreamTests<SUT> {
 

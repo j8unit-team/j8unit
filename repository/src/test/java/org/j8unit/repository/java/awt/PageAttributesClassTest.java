@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PageAttributes} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PageAttributesClassTest
 implements PageAttributesClassTests<PageAttributes> {
@@ -98,6 +97,7 @@ implements PageAttributesClassTests<PageAttributes> {
     public void create_PageAttributes()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PageAttributes sut = new PageAttributes();
     }
 
@@ -110,7 +110,6 @@ implements PageAttributesClassTests<PageAttributes> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PrintQualityTypeClassTest
     implements PrintQualityTypeClassTests<PrintQualityType> {
@@ -132,7 +131,6 @@ implements PageAttributesClassTests<PageAttributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link ColorType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ColorTypeClassTest
     implements ColorTypeClassTests<ColorType> {
@@ -154,7 +152,6 @@ implements PageAttributesClassTests<PageAttributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link OriginType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OriginTypeClassTest
     implements OriginTypeClassTests<OriginType> {
@@ -176,7 +173,6 @@ implements PageAttributesClassTests<PageAttributes> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link MediaType} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.PageAttributesClassTests.MediaTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MediaTypeClassTest
     implements MediaTypeClassTests<MediaType> {
@@ -199,7 +195,6 @@ implements PageAttributesClassTests<PageAttributes> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OrientationRequestedTypeClassTest
     implements OrientationRequestedTypeClassTests<OrientationRequestedType> {

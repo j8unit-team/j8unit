@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.UnsupportedAddressTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedAddressTypeExceptionClassTest
 implements UnsupportedAddressTypeExceptionClassTests<UnsupportedAddressTypeException> {
@@ -44,6 +43,7 @@ implements UnsupportedAddressTypeExceptionClassTests<UnsupportedAddressTypeExcep
     public void create_UnsupportedAddressTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedAddressTypeException sut = new UnsupportedAddressTypeException();
     }
 

@@ -9,7 +9,6 @@ import org.omg.PortableServer.LIFESPAN_POLICY_ID;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link LIFESPAN_POLICY_ID} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.LIFESPAN_POLICY_IDTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LIFESPAN_POLICY_IDTest
 implements LIFESPAN_POLICY_IDTests<LIFESPAN_POLICY_ID> {

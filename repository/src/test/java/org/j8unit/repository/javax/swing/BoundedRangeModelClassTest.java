@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BoundedRangeModel} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.BoundedRangeModelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BoundedRangeModelClassTest
 implements BoundedRangeModelClassTests<BoundedRangeModel> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ReadPendingException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.nio.channels.ReadPendingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ReadPendingExceptionClassTest
 implements ReadPendingExceptionClassTests<ReadPendingException> {
@@ -43,6 +42,7 @@ implements ReadPendingExceptionClassTests<ReadPendingException> {
     public void create_ReadPendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReadPendingException sut = new ReadPendingException();
     }
 

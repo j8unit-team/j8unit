@@ -12,7 +12,6 @@ import org.omg.CORBA.DynAnyPackage.InvalidSeq;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidSeq} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidSeqClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidSeqClassTest
 implements InvalidSeqClassTests<InvalidSeq> {
@@ -42,6 +41,7 @@ implements InvalidSeqClassTests<InvalidSeq> {
     public void create_InvalidSeq()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSeq sut = new InvalidSeq();
     }
 

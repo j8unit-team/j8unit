@@ -12,7 +12,6 @@ import org.xml.sax.helpers.XMLReaderAdapter;
  * Specific JUnit test class to proof the type relevant aspects of type {@link XMLReaderAdapter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XMLReaderAdapterClassTest
 implements XMLReaderAdapterClassTests<XMLReaderAdapter> {
@@ -43,6 +42,7 @@ implements XMLReaderAdapterClassTests<XMLReaderAdapter> {
     public void create_XMLReaderAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final XMLReaderAdapter sut = new XMLReaderAdapter();
     }
 

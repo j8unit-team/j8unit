@@ -23,7 +23,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DocFlavor} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DocFlavorTest
 implements DocFlavorTests<DocFlavor> {
@@ -44,7 +43,6 @@ implements DocFlavorTests<DocFlavor> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SERVICE_FORMATTEDTest
@@ -77,7 +75,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link URL} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class URLTest
@@ -126,7 +123,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link CHAR_ARRAY} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CHAR_ARRAYTest
@@ -158,7 +154,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link INPUT_STREAM} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class INPUT_STREAMTest
@@ -207,7 +202,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link STRING} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class STRINGTest
@@ -239,7 +233,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link READER} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class READERTest
@@ -271,7 +264,6 @@ implements DocFlavorTests<DocFlavor> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link BYTE_ARRAY} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BYTE_ARRAYTest

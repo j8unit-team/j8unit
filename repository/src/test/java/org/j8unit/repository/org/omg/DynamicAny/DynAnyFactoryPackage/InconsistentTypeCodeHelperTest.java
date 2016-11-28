@@ -10,7 +10,6 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeHelperTest
 implements InconsistentTypeCodeHelperTests<InconsistentTypeCodeHelper> {

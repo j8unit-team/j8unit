@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BindException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.net.BindExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BindExceptionClassTest
 implements BindExceptionClassTests<BindException> {
@@ -64,6 +63,7 @@ implements BindExceptionClassTests<BindException> {
     public void create_BindException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindException sut = new BindException();
     }
 

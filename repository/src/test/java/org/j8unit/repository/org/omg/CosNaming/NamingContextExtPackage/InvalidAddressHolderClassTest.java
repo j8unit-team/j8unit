@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidAddressHolderClassTest
 implements InvalidAddressHolderClassTests<InvalidAddressHolder> {
@@ -69,6 +68,7 @@ implements InvalidAddressHolderClassTests<InvalidAddressHolder> {
     public void create_InvalidAddressHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAddressHolder sut = new InvalidAddressHolder();
     }
 

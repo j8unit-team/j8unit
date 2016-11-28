@@ -9,7 +9,6 @@ import org.omg.PortableServer.IdAssignmentPolicyOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IdAssignmentPolicyOperationsClassTest
 implements IdAssignmentPolicyOperationsClassTests<IdAssignmentPolicyOperations> {

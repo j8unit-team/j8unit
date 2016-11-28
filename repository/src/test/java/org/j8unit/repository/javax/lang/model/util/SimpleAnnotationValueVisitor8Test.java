@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor8Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SimpleAnnotationValueVisitor8Test<R, P>
 implements SimpleAnnotationValueVisitor8Tests<SimpleAnnotationValueVisitor8<R, P>, R, P> {

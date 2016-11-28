@@ -44,7 +44,6 @@ import org.xml.sax.ext.Locator2;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Locator2ClassTests<SUT extends Locator2>

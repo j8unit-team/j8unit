@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AsyncBoxView} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AsyncBoxViewTest
 implements AsyncBoxViewTests<AsyncBoxView> {
@@ -31,7 +30,6 @@ implements AsyncBoxViewTests<AsyncBoxView> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ChildState} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ChildStateTest
     implements ChildStateTests<ChildState> {
@@ -53,7 +51,6 @@ implements AsyncBoxViewTests<AsyncBoxView> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ChildLocator} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ChildLocatorTest
     implements ChildLocatorTests<ChildLocator> {

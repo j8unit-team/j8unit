@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicLabelUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicLabelUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicLabelUIClassTest
 implements BasicLabelUIClassTests<BasicLabelUI> {
@@ -42,6 +41,7 @@ implements BasicLabelUIClassTests<BasicLabelUI> {
     public void create_BasicLabelUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicLabelUI sut = new BasicLabelUI();
     }
 

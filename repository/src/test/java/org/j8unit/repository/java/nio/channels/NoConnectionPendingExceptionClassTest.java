@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.NoConnectionPendingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoConnectionPendingExceptionClassTest
 implements NoConnectionPendingExceptionClassTests<NoConnectionPendingException> {
@@ -44,6 +43,7 @@ implements NoConnectionPendingExceptionClassTests<NoConnectionPendingException> 
     public void create_NoConnectionPendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoConnectionPendingException sut = new NoConnectionPendingException();
     }
 

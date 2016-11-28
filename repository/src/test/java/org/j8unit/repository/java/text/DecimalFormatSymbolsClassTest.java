@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DecimalFormatSymbols} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.text.DecimalFormatSymbolsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DecimalFormatSymbolsClassTest
 implements DecimalFormatSymbolsClassTests<DecimalFormatSymbols> {
@@ -65,6 +64,7 @@ implements DecimalFormatSymbolsClassTests<DecimalFormatSymbols> {
     public void create_DecimalFormatSymbols()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DecimalFormatSymbols sut = new DecimalFormatSymbols();
     }
 

@@ -13,7 +13,6 @@ import org.omg.IOP.ComponentIdHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ComponentIdHelper} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ComponentIdHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ComponentIdHelperClassTest
 implements ComponentIdHelperClassTests<ComponentIdHelper> {

@@ -12,7 +12,6 @@ import org.omg.CORBA.ACTIVITY_REQUIRED;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ACTIVITY_REQUIRED} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ACTIVITY_REQUIREDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ACTIVITY_REQUIREDClassTest
 implements ACTIVITY_REQUIREDClassTests<ACTIVITY_REQUIRED> {
@@ -111,6 +110,7 @@ implements ACTIVITY_REQUIREDClassTests<ACTIVITY_REQUIRED> {
     public void create_ACTIVITY_REQUIRED()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ACTIVITY_REQUIRED sut = new ACTIVITY_REQUIRED();
     }
 

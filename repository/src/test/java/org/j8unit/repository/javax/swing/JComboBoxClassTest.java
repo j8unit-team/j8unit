@@ -87,6 +87,7 @@ implements JComboBoxClassTests<JComboBox> {
     public void create_JComboBox()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JComboBox sut = new JComboBox();
     }
 
@@ -122,7 +123,6 @@ implements JComboBoxClassTests<JComboBox> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeySelectionManagerClassTest
     implements KeySelectionManagerClassTests<KeySelectionManager> {

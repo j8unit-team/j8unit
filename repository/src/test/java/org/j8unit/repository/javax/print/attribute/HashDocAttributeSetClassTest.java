@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HashDocAttributeSet} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HashDocAttributeSetClassTest
 implements HashDocAttributeSetClassTests<HashDocAttributeSet> {
@@ -112,6 +111,7 @@ implements HashDocAttributeSetClassTests<HashDocAttributeSet> {
     public void create_HashDocAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashDocAttributeSet sut = new HashDocAttributeSet();
     }
 

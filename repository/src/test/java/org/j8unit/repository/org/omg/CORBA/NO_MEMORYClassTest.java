@@ -12,7 +12,6 @@ import org.omg.CORBA.NO_MEMORY;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NO_MEMORY} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.NO_MEMORYClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NO_MEMORYClassTest
 implements NO_MEMORYClassTests<NO_MEMORY> {
@@ -110,6 +109,7 @@ implements NO_MEMORYClassTests<NO_MEMORY> {
     public void create_NO_MEMORY()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_MEMORY sut = new NO_MEMORY();
     }
 

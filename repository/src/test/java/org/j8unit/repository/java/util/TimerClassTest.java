@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Timer} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.util.TimerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TimerClassTest
 implements TimerClassTests<Timer> {
@@ -42,6 +41,7 @@ implements TimerClassTests<Timer> {
     public void create_Timer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Timer sut = new Timer();
     }
 

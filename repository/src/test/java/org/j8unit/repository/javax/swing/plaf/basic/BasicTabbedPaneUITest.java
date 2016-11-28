@@ -47,7 +47,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabSelectionHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TabSelectionHandlerTest
     implements TabSelectionHandlerTests<TabSelectionHandler> {
@@ -70,7 +69,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests<TabbedPaneLayout> {
@@ -93,7 +91,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.FocusHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.FocusHandlerTests<FocusHandler> {
@@ -116,7 +113,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -139,7 +135,6 @@ implements FactoryBasedJ8UnitTest<BasicTabbedPaneUI>, BasicTabbedPaneUITests<Bas
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.MouseHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.MouseHandlerTests<MouseHandler> {

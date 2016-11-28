@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultFormatter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultFormatterClassTest
 implements DefaultFormatterClassTests<DefaultFormatter> {
@@ -42,6 +41,7 @@ implements DefaultFormatterClassTests<DefaultFormatter> {
     public void create_DefaultFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultFormatter sut = new DefaultFormatter();
     }
 

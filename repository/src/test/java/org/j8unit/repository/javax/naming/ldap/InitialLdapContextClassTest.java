@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InitialLdapContext} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InitialLdapContextClassTest
 implements InitialLdapContextClassTests<InitialLdapContext> {
@@ -43,6 +42,7 @@ implements InitialLdapContextClassTests<InitialLdapContext> {
     public void create_InitialLdapContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InitialLdapContext sut = new InitialLdapContext();
     }
 

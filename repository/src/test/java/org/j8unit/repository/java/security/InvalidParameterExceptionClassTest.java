@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidParameterException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.InvalidParameterExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidParameterExceptionClassTest
 implements InvalidParameterExceptionClassTests<InvalidParameterException> {
@@ -43,6 +42,7 @@ implements InvalidParameterExceptionClassTests<InvalidParameterException> {
     public void create_InvalidParameterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidParameterException sut = new InvalidParameterException();
     }
 

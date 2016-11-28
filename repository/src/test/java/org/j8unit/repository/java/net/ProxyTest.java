@@ -15,7 +15,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Proxy} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.net.ProxyTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ProxyTest
@@ -44,7 +43,6 @@ implements org.j8unit.repository.java.net.ProxyTests<Proxy> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.net.ProxyTests.TypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TypeTest

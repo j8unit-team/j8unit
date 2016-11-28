@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.RoleInfoNotFoundExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RoleInfoNotFoundExceptionClassTest
 implements RoleInfoNotFoundExceptionClassTests<RoleInfoNotFoundException> {
@@ -44,6 +43,7 @@ implements RoleInfoNotFoundExceptionClassTests<RoleInfoNotFoundException> {
     public void create_RoleInfoNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleInfoNotFoundException sut = new RoleInfoNotFoundException();
     }
 

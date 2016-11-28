@@ -21,7 +21,6 @@ import org.omg.CORBA.INV_FLAG;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_FLAGTests<SUT extends INV_FLAG>

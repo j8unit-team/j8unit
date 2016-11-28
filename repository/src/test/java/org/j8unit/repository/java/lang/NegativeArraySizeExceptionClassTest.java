@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NegativeArraySizeException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.NegativeArraySizeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NegativeArraySizeExceptionClassTest
 implements NegativeArraySizeExceptionClassTests<NegativeArraySizeException> {
@@ -41,6 +40,7 @@ implements NegativeArraySizeExceptionClassTests<NegativeArraySizeException> {
     public void create_NegativeArraySizeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NegativeArraySizeException sut = new NegativeArraySizeException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiMenuItemUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiMenuItemUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiMenuItemUIClassTest
 implements MultiMenuItemUIClassTests<MultiMenuItemUI> {
@@ -42,6 +41,7 @@ implements MultiMenuItemUIClassTests<MultiMenuItemUI> {
     public void create_MultiMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiMenuItemUI sut = new MultiMenuItemUI();
     }
 

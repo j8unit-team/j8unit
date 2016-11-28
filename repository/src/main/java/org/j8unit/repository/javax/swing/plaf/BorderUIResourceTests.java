@@ -41,7 +41,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BorderUIResourceTests<SUT extends BorderUIResource>
@@ -141,7 +140,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TitledBorderUIResourceTests<SUT extends TitledBorderUIResource>
@@ -172,7 +170,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EmptyBorderUIResourceTests<SUT extends EmptyBorderUIResource>
@@ -203,7 +200,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BevelBorderUIResourceTests<SUT extends BevelBorderUIResource>
@@ -235,7 +231,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompoundBorderUIResourceTests<SUT extends CompoundBorderUIResource>
@@ -266,7 +261,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MatteBorderUIResourceTests<SUT extends MatteBorderUIResource>
@@ -297,7 +291,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EtchedBorderUIResourceTests<SUT extends EtchedBorderUIResource>
@@ -328,7 +321,6 @@ extends BorderTests<SUT>, UIResourceTests<SUT>, SerializableTests<SUT>, ObjectTe
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LineBorderUIResourceTests<SUT extends LineBorderUIResource>

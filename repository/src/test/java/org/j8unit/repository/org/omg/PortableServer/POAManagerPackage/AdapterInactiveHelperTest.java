@@ -10,7 +10,6 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AdapterInactiveHelperTest
 implements AdapterInactiveHelperTests<AdapterInactiveHelper> {

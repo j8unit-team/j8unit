@@ -26,7 +26,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPopupMenuTests<SUT extends JPopupMenu>
@@ -1076,7 +1075,6 @@ extends AccessibleTests<SUT>, MenuElementTests<SUT>, JComponentTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorTests<SUT extends Separator>

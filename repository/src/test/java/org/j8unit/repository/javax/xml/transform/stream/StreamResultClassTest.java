@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StreamResult} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StreamResultClassTest
 implements StreamResultClassTests<StreamResult> {
@@ -42,6 +41,7 @@ implements StreamResultClassTests<StreamResult> {
     public void create_StreamResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StreamResult sut = new StreamResult();
     }
 

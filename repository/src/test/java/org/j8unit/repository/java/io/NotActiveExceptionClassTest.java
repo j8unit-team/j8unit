@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NotActiveException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.io.NotActiveExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotActiveExceptionClassTest
 implements NotActiveExceptionClassTests<NotActiveException> {
@@ -65,6 +64,7 @@ implements NotActiveExceptionClassTests<NotActiveException> {
     public void create_NotActiveException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotActiveException sut = new NotActiveException();
     }
 

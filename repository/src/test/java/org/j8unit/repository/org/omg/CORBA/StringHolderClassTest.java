@@ -12,7 +12,6 @@ import org.omg.CORBA.StringHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StringHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.StringHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringHolderClassTest
 implements StringHolderClassTests<StringHolder> {
@@ -64,6 +63,7 @@ implements StringHolderClassTests<StringHolder> {
     public void create_StringHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringHolder sut = new StringHolder();
     }
 

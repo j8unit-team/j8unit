@@ -12,7 +12,6 @@ import org.omg.CORBA.ServiceInformationHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceInformationHolder} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServiceInformationHolderClassTest
 implements ServiceInformationHolderClassTests<ServiceInformationHolder> {
@@ -66,6 +65,7 @@ implements ServiceInformationHolderClassTests<ServiceInformationHolder> {
     public void create_ServiceInformationHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceInformationHolder sut = new ServiceInformationHolder();
     }
 

@@ -17,7 +17,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AppConfigurationEntryTest
 implements AppConfigurationEntryTests<AppConfigurationEntry> {
@@ -38,7 +37,6 @@ implements AppConfigurationEntryTests<AppConfigurationEntry> {
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests.LoginModuleControlFlagTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class LoginModuleControlFlagTest

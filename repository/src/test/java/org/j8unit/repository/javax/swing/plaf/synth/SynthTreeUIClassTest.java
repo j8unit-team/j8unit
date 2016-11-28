@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SynthTreeUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.SynthTreeUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthTreeUIClassTest
 implements SynthTreeUIClassTests<SynthTreeUI> {
@@ -42,6 +41,7 @@ implements SynthTreeUIClassTests<SynthTreeUI> {
     public void create_SynthTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthTreeUI sut = new SynthTreeUI();
     }
 

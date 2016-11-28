@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SocketHandler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.logging.SocketHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SocketHandlerClassTest
 implements SocketHandlerClassTests<SocketHandler> {
@@ -65,6 +64,7 @@ implements SocketHandlerClassTests<SocketHandler> {
     public void create_SocketHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SocketHandler sut = new SocketHandler();
     }
 

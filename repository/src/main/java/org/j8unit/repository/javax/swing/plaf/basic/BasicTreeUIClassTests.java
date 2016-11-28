@@ -77,7 +77,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTreeUIClassTests<SUT extends BasicTreeUI>
@@ -142,7 +141,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyHandlerClassTests<SUT extends KeyHandler>
@@ -209,7 +207,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeSelectionHandlerClassTests<SUT extends TreeSelectionHandler>
@@ -276,7 +273,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentHandlerClassTests<SUT extends ComponentHandler>
@@ -343,7 +339,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends FocusHandler>
@@ -410,7 +405,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeCancelEditingActionClassTests<SUT extends TreeCancelEditingAction>
@@ -477,7 +471,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeToggleActionClassTests<SUT extends TreeToggleAction>
@@ -545,7 +538,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SelectionModelPropertyChangeHandlerClassTests<SUT extends SelectionModelPropertyChangeHandler>
@@ -612,7 +604,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseHandlerClassTests<SUT extends MouseHandler>
@@ -679,7 +670,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CellEditorHandlerClassTests<SUT extends CellEditorHandler>
@@ -746,7 +736,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeHomeActionClassTests<SUT extends TreeHomeAction>
@@ -813,7 +802,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreePageActionClassTests<SUT extends TreePageAction>
@@ -880,7 +868,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeTraverseActionClassTests<SUT extends TreeTraverseAction>
@@ -947,7 +934,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NodeDimensionsHandlerClassTests<SUT extends NodeDimensionsHandler>
@@ -1014,7 +1000,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeModelHandlerClassTests<SUT extends TreeModelHandler>
@@ -1081,7 +1066,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeExpansionHandlerClassTests<SUT extends TreeExpansionHandler>
@@ -1148,7 +1132,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeIncrementActionClassTests<SUT extends TreeIncrementAction>
@@ -1215,7 +1198,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
@@ -1282,7 +1264,6 @@ extends TreeUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerClassTests<SUT extends MouseInputHandler>

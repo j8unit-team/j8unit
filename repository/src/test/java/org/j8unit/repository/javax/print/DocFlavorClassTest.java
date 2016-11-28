@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DocFlavor} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DocFlavorClassTest
 implements DocFlavorClassTests<DocFlavor> {
@@ -62,7 +61,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SERVICE_FORMATTEDClassTest
     implements SERVICE_FORMATTEDClassTests<SERVICE_FORMATTED> {
@@ -107,7 +105,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link URL} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.URLClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class URLClassTest
     implements URLClassTests<URL> {
@@ -151,7 +148,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link CHAR_ARRAY} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.CHAR_ARRAYClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CHAR_ARRAYClassTest
     implements CHAR_ARRAYClassTests<CHAR_ARRAY> {
@@ -196,7 +192,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link INPUT_STREAM} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class INPUT_STREAMClassTest
     implements INPUT_STREAMClassTests<INPUT_STREAM> {
@@ -241,7 +236,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link STRING} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.STRINGClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class STRINGClassTest
     implements STRINGClassTests<STRING> {
@@ -285,7 +279,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link READER} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class READERClassTest
     implements READERClassTests<READER> {
@@ -329,7 +322,6 @@ implements DocFlavorClassTests<DocFlavor> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link BYTE_ARRAY} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.DocFlavorClassTests.BYTE_ARRAYClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BYTE_ARRAYClassTest
     implements BYTE_ARRAYClassTests<BYTE_ARRAY> {

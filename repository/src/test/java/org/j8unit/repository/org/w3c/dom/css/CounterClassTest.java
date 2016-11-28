@@ -8,7 +8,6 @@ import org.w3c.dom.css.Counter;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Counter} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.w3c.dom.css.CounterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CounterClassTest
 implements CounterClassTests<Counter> {

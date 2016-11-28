@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ArithmeticException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.lang.ArithmeticExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ArithmeticExceptionClassTest
 implements ArithmeticExceptionClassTests<ArithmeticException> {
@@ -41,6 +40,7 @@ implements ArithmeticExceptionClassTests<ArithmeticException> {
     public void create_ArithmeticException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArithmeticException sut = new ArithmeticException();
     }
 

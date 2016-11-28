@@ -177,7 +177,6 @@ implements StreamClassTests<Stream> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests}).
      */
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests<Builder> {

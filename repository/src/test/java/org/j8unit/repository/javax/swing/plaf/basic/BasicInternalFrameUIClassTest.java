@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicInternalFrameUI} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicInternalFrameUIClassTest
 implements BasicInternalFrameUIClassTests<BasicInternalFrameUI> {
@@ -79,7 +78,6 @@ implements BasicInternalFrameUIClassTests<BasicInternalFrameUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InternalFrameLayoutClassTest
     implements InternalFrameLayoutClassTests<InternalFrameLayout> {
@@ -127,7 +125,6 @@ implements BasicInternalFrameUIClassTests<BasicInternalFrameUI> {
      * (by simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InternalFramePropertyChangeListenerClassTest
     implements InternalFramePropertyChangeListenerClassTests<InternalFramePropertyChangeListener> {

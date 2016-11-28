@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MalformedURLException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.net.MalformedURLExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MalformedURLExceptionClassTest
 implements MalformedURLExceptionClassTests<MalformedURLException> {
@@ -42,6 +41,7 @@ implements MalformedURLExceptionClassTests<MalformedURLException> {
     public void create_MalformedURLException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedURLException sut = new MalformedURLException();
     }
 

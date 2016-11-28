@@ -19,10 +19,12 @@ import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_SYNTHETIC_METHOD;
+import static org.j8unit.generator.util.Iterators.replaceAll;
 import static org.j8unit.generator.util.Java.diamond;
 import static org.j8unit.generator.util.OptionalString.ofEmptyable;
 import static org.j8unit.generator.util.Optionals.optionalise;
 import static org.j8unit.generator.util.Strings.csv;
+import static org.j8unit.generator.util.TypeAnalysis.classHierarchy;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -133,7 +135,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Interface Declaration
@@ -183,7 +185,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
@@ -241,8 +243,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             out.append(format("%s%sreturn %s(%s);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
                               renderer.originCanonicalClassOf(type)));
             out.append(format("%s}%n", indt));
@@ -261,8 +263,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             final String data = instances.stream() //
                                          .map(f -> renderer.originCanonicalNameOf(type) + "." + f.getName()) //
                                          .collect(joining(format(", //%n%s%s", indt, indent(1 + 6))));
@@ -308,7 +310,7 @@ implements J8UnitCodeGenerator {
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Parameterized.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
             // content creation: @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -370,8 +372,8 @@ implements J8UnitCodeGenerator {
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
             out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
-                              renderer.originCanonicalNameOf(Object[].class)));
+            out.append(format("%spublic static %s<? extends %s<%s>> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
+                              renderer.originCanonicalNameOf(Callable.class), renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterWildcardsOf)));
             out.append(format("%s%sreturn %s(%s::new);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
                               renderer.originCanonicalNameOf(type)));
             out.append(format("%s}%n", indt));
@@ -417,7 +419,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Class Declaration
@@ -514,10 +516,10 @@ implements J8UnitCodeGenerator {
                 out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(Category.class), renderer.originCanonicalClassOf(Draft.class)));
                 out.append(format("%spublic void %s() throws %s {%n", indt, j8unitName, renderer.originCanonicalNameOf(Exception.class)));
                 out.append(format("%s%s// create new instance%n", indt, indent()));
+                out.append(format("%s%s@%s(\"unused\")%n", indt, indent(), renderer.originCanonicalNameOf(SuppressWarnings.class)));
                 if (constructor.getParameterCount() == 0) {
                     out.append(format("%s%s%s sut = new %s();", indt, indent(), typeName, typeName));
                 } else {
-                    out.append(format("%s%s@%s(\"unused\")%n", indt, indent(), renderer.originCanonicalNameOf(SuppressWarnings.class)));
                     out.append(format("%s%s%s sut = null; // = new %s;%n", indt, indent(), typeName, renderer.javadocNameOf(constructor).split("#")[1]));
                 }
                 out.append(format("%s}%n", indt));

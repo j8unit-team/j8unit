@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidParameterSpecExceptionClassTest
 implements InvalidParameterSpecExceptionClassTests<InvalidParameterSpecException> {
@@ -44,6 +43,7 @@ implements InvalidParameterSpecExceptionClassTests<InvalidParameterSpecException
     public void create_InvalidParameterSpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidParameterSpecException sut = new InvalidParameterSpecException();
     }
 

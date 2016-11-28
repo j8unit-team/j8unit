@@ -59,7 +59,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSplitPaneUIClassTests<SUT extends BasicSplitPaneUI>
@@ -125,7 +124,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHorizontalLayoutManagerClassTests<SUT extends BasicHorizontalLayoutManager>
@@ -193,7 +191,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardResizeToggleHandlerClassTests<SUT extends KeyboardResizeToggleHandler>
@@ -260,7 +257,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardHomeHandlerClassTests<SUT extends KeyboardHomeHandler>
@@ -327,7 +323,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardUpLeftHandlerClassTests<SUT extends KeyboardUpLeftHandler>
@@ -395,7 +390,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicVerticalLayoutManagerClassTests<SUT extends BasicVerticalLayoutManager>
@@ -462,7 +456,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardEndHandlerClassTests<SUT extends KeyboardEndHandler>
@@ -529,7 +522,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardDownRightHandlerClassTests<SUT extends KeyboardDownRightHandler>
@@ -596,7 +588,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends FocusHandler>
@@ -663,7 +654,6 @@ extends SplitPaneUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyHandlerClassTests<SUT extends PropertyHandler>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Properties} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.PropertiesClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PropertiesClassTest
 implements PropertiesClassTests<Properties> {
@@ -42,6 +41,7 @@ implements PropertiesClassTests<Properties> {
     public void create_Properties()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Properties sut = new Properties();
     }
 

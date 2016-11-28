@@ -13,7 +13,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ImmutableDescriptor} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.management.ImmutableDescriptorTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ImmutableDescriptorTest

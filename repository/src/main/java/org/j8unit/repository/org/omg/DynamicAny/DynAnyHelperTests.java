@@ -22,7 +22,6 @@ import org.omg.DynamicAny.DynAnyHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyHelperTests<SUT extends DynAnyHelper>

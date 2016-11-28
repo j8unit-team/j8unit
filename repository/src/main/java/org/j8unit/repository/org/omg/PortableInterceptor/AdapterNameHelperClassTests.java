@@ -44,7 +44,6 @@ import org.omg.PortableInterceptor.AdapterNameHelper;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AdapterNameHelperClassTests<SUT extends AdapterNameHelper>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MLet} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.management.loading.MLetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MLetClassTest
 implements MLetClassTests<MLet> {
@@ -134,7 +133,7 @@ implements MLetClassTests<MLet> {
     public void create_MLet()
     throws Exception {
         // create new instance
-        final MLet sut = new MLet();
+        try (final MLet sut = new MLet()) {}
     }
 
     /**

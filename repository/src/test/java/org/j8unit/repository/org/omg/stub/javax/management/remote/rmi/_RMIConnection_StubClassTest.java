@@ -13,8 +13,8 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnection_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIConnection_StubClassTest
 implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
 
@@ -44,7 +44,7 @@ implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
     public void create__RMIConnection_Stub()
     throws Exception {
         // create new instance
-        final _RMIConnection_Stub sut = new _RMIConnection_Stub();
+        try (final _RMIConnection_Stub sut = new _RMIConnection_Stub()) {}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]

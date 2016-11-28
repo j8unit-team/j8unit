@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SynthCheckBoxUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.SynthCheckBoxUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthCheckBoxUIClassTest
 implements SynthCheckBoxUIClassTests<SynthCheckBoxUI> {
@@ -42,6 +41,7 @@ implements SynthCheckBoxUIClassTests<SynthCheckBoxUI> {
     public void create_SynthCheckBoxUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthCheckBoxUI sut = new SynthCheckBoxUI();
     }
 

@@ -9,7 +9,6 @@ import org.omg.CORBA.PUBLIC_MEMBER;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link PUBLIC_MEMBER} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PUBLIC_MEMBERTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PUBLIC_MEMBERTest
 implements PUBLIC_MEMBERTests<PUBLIC_MEMBER> {

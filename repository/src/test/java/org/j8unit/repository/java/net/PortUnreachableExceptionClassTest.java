@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PortUnreachableException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.net.PortUnreachableExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PortUnreachableExceptionClassTest
 implements PortUnreachableExceptionClassTests<PortUnreachableException> {
@@ -65,6 +64,7 @@ implements PortUnreachableExceptionClassTests<PortUnreachableException> {
     public void create_PortUnreachableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PortUnreachableException sut = new PortUnreachableException();
     }
 

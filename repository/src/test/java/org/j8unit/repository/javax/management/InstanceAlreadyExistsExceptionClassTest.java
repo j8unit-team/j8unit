@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.InstanceAlreadyExistsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InstanceAlreadyExistsExceptionClassTest
 implements InstanceAlreadyExistsExceptionClassTests<InstanceAlreadyExistsException> {
@@ -44,6 +43,7 @@ implements InstanceAlreadyExistsExceptionClassTests<InstanceAlreadyExistsExcepti
     public void create_InstanceAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InstanceAlreadyExistsException sut = new InstanceAlreadyExistsException();
     }
 

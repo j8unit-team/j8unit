@@ -42,6 +42,7 @@ implements DelayQueueClassTests<DelayQueue> {
     public void create_DelayQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DelayQueue sut = new DelayQueue();
     }
 

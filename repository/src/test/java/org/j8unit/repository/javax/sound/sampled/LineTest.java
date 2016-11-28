@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Line} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.sound.sampled.LineTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LineTest
 implements LineTests<Line> {
@@ -30,7 +29,6 @@ implements LineTests<Line> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Info} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.LineTests.InfoTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InfoTest
     implements org.j8unit.repository.javax.sound.sampled.LineTests.InfoTests<Info> {

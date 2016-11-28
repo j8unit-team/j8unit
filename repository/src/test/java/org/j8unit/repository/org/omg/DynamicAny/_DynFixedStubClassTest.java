@@ -12,7 +12,6 @@ import org.omg.DynamicAny._DynFixedStub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _DynFixedStub} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny._DynFixedStubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _DynFixedStubClassTest
 implements _DynFixedStubClassTests<_DynFixedStub> {
@@ -42,6 +41,7 @@ implements _DynFixedStubClassTests<_DynFixedStub> {
     public void create__DynFixedStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynFixedStub sut = new _DynFixedStub();
     }
 

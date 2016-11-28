@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FactoryConfigurationErrorClassTest
 implements FactoryConfigurationErrorClassTests<FactoryConfigurationError> {
@@ -113,6 +112,7 @@ implements FactoryConfigurationErrorClassTests<FactoryConfigurationError> {
     public void create_FactoryConfigurationError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FactoryConfigurationError sut = new FactoryConfigurationError();
     }
 

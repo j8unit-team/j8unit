@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MarshalException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MarshalExceptionClassTest
 implements MarshalExceptionClassTests<MarshalException> {
@@ -111,6 +110,7 @@ implements MarshalExceptionClassTests<MarshalException> {
     public void create_MarshalException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MarshalException sut = new MarshalException();
     }
 

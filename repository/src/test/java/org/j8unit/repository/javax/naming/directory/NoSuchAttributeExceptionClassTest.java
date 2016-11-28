@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.directory.NoSuchAttributeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoSuchAttributeExceptionClassTest
 implements NoSuchAttributeExceptionClassTests<NoSuchAttributeException> {
@@ -67,6 +66,7 @@ implements NoSuchAttributeExceptionClassTests<NoSuchAttributeException> {
     public void create_NoSuchAttributeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchAttributeException sut = new NoSuchAttributeException();
     }
 

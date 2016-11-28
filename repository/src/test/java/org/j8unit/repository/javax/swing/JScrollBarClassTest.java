@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JScrollBar} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JScrollBarClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JScrollBarClassTest
 implements JScrollBarClassTests<JScrollBar> {
@@ -42,6 +41,7 @@ implements JScrollBarClassTests<JScrollBar> {
     public void create_JScrollBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JScrollBar sut = new JScrollBar();
     }
 

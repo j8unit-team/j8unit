@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AlgorithmMethod} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.AlgorithmMethodTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AlgorithmMethodTest
 implements AlgorithmMethodTests<AlgorithmMethod> {

@@ -44,7 +44,6 @@ import org.w3c.dom.css.CSSRule;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSRuleClassTests<SUT extends CSSRule>

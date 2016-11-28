@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NumberFormat} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.text.NumberFormatClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NumberFormatClassTest
 implements NumberFormatClassTests<NumberFormat> {
@@ -257,7 +256,6 @@ implements NumberFormatClassTests<NumberFormat> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Field} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.text.NumberFormatClassTests.FieldClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
     implements org.j8unit.repository.java.text.NumberFormatClassTests.FieldClassTests<Field> {

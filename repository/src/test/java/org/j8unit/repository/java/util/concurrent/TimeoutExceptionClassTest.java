@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TimeoutException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.TimeoutExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TimeoutExceptionClassTest
 implements TimeoutExceptionClassTests<TimeoutException> {
@@ -42,6 +41,7 @@ implements TimeoutExceptionClassTests<TimeoutException> {
     public void create_TimeoutException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TimeoutException sut = new TimeoutException();
     }
 

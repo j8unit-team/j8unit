@@ -12,7 +12,6 @@ import org.xml.sax.helpers.NamespaceSupport;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NamespaceSupport} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.helpers.NamespaceSupportClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NamespaceSupportClassTest
 implements NamespaceSupportClassTests<NamespaceSupport> {
@@ -42,6 +41,7 @@ implements NamespaceSupportClassTests<NamespaceSupport> {
     public void create_NamespaceSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NamespaceSupport sut = new NamespaceSupport();
     }
 

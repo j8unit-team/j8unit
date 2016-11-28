@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link IntBinaryOperator} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.util.function.IntBinaryOperatorTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IntBinaryOperatorTest
 implements IntBinaryOperatorTests<IntBinaryOperator> {

@@ -12,7 +12,6 @@ import org.omg.CORBA.AnyHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AnyHolder} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.AnyHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AnyHolderClassTest
 implements AnyHolderClassTests<AnyHolder> {
@@ -64,6 +63,7 @@ implements AnyHolderClassTests<AnyHolder> {
     public void create_AnyHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AnyHolder sut = new AnyHolder();
     }
 

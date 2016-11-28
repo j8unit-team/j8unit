@@ -132,6 +132,7 @@ implements LinkedHashMapClassTests<LinkedHashMap> {
     public void create_LinkedHashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedHashMap sut = new LinkedHashMap();
     }
 

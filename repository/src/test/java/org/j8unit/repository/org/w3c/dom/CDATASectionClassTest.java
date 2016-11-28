@@ -8,7 +8,6 @@ import org.w3c.dom.CDATASection;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CDATASection} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.CDATASectionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CDATASectionClassTest
 implements CDATASectionClassTests<CDATASection> {

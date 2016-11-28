@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link X509CRLSelector} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.cert.X509CRLSelectorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class X509CRLSelectorClassTest
 implements X509CRLSelectorClassTests<X509CRLSelector> {
@@ -42,6 +41,7 @@ implements X509CRLSelectorClassTests<X509CRLSelector> {
     public void create_X509CRLSelector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final X509CRLSelector sut = new X509CRLSelector();
     }
 

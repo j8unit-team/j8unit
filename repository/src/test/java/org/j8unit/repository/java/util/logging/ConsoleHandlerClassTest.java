@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ConsoleHandler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.logging.ConsoleHandlerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ConsoleHandlerClassTest
 implements ConsoleHandlerClassTests<ConsoleHandler> {
@@ -42,6 +41,7 @@ implements ConsoleHandlerClassTests<ConsoleHandler> {
     public void create_ConsoleHandler()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConsoleHandler sut = new ConsoleHandler();
     }
 

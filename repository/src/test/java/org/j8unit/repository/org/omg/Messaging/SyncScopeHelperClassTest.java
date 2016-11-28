@@ -13,7 +13,6 @@ import org.omg.Messaging.SyncScopeHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SyncScopeHelper} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.Messaging.SyncScopeHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SyncScopeHelperClassTest
 implements SyncScopeHelperClassTests<SyncScopeHelper> {

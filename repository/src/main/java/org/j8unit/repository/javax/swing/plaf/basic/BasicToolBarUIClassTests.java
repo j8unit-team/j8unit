@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicToolBarUIClassTests<SUT extends BasicToolBarUI>
@@ -114,7 +113,6 @@ extends SwingConstantsClassTests<SUT>, ToolBarUIClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DockingListenerClassTests<SUT extends DockingListener>

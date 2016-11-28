@@ -44,7 +44,6 @@ import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_RMI_CUSTOM_MAX_STREAM_FORMATClassTests<SUT extends TAG_RMI_CUSTOM_MAX_STREAM_FORMAT>

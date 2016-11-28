@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.directory.SchemaViolationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SchemaViolationExceptionClassTest
 implements SchemaViolationExceptionClassTests<SchemaViolationException> {
@@ -44,6 +43,7 @@ implements SchemaViolationExceptionClassTests<SchemaViolationException> {
     public void create_SchemaViolationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SchemaViolationException sut = new SchemaViolationException();
     }
 

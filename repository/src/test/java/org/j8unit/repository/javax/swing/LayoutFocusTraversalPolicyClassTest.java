@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LayoutFocusTraversalPolicy} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.LayoutFocusTraversalPolicyClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LayoutFocusTraversalPolicyClassTest
 implements LayoutFocusTraversalPolicyClassTests<LayoutFocusTraversalPolicy> {
@@ -43,6 +42,7 @@ implements LayoutFocusTraversalPolicyClassTests<LayoutFocusTraversalPolicy> {
     public void create_LayoutFocusTraversalPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LayoutFocusTraversalPolicy sut = new LayoutFocusTraversalPolicy();
     }
 

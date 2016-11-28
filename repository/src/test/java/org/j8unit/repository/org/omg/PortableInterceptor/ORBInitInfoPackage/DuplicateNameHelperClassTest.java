@@ -14,7 +14,6 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DuplicateNameHelperClassTest
 implements DuplicateNameHelperClassTests<DuplicateNameHelper> {

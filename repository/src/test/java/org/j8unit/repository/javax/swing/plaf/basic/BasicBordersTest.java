@@ -51,7 +51,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SplitPaneBorderTest
     implements SplitPaneBorderTests<SplitPaneBorder> {
@@ -74,7 +73,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToggleButtonBorderTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests<ToggleButtonBorder> {
@@ -97,7 +95,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RolloverButtonBorderTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests<RolloverButtonBorder> {
@@ -120,7 +117,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FieldBorderTest
     implements FieldBorderTests<FieldBorder> {
@@ -143,7 +139,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RadioButtonBorderTest
     implements RadioButtonBorderTests<RadioButtonBorder> {
@@ -166,7 +161,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuBarBorderTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests<MenuBarBorder> {
@@ -215,7 +209,6 @@ implements FactoryBasedJ8UnitTest<BasicBorders>, BasicBordersTests<BasicBorders>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonBorderTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<ButtonBorder> {

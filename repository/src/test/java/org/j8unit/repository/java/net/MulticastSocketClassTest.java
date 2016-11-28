@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MulticastSocket} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.net.MulticastSocketClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MulticastSocketClassTest
 implements MulticastSocketClassTests<MulticastSocket> {
@@ -42,7 +41,7 @@ implements MulticastSocketClassTests<MulticastSocket> {
     public void create_MulticastSocket()
     throws Exception {
         // create new instance
-        final MulticastSocket sut = new MulticastSocket();
+        try (final MulticastSocket sut = new MulticastSocket()) {}
     }
 
     /**

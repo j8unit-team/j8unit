@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicColorChooserUI} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicColorChooserUIClassTest
 implements BasicColorChooserUIClassTests<BasicColorChooserUI> {
@@ -44,6 +43,7 @@ implements BasicColorChooserUIClassTests<BasicColorChooserUI> {
     public void create_BasicColorChooserUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicColorChooserUI sut = new BasicColorChooserUI();
     }
 
@@ -77,7 +77,6 @@ implements BasicColorChooserUIClassTests<BasicColorChooserUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClassTests.PropertyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerClassTest
     implements PropertyHandlerClassTests<PropertyHandler> {

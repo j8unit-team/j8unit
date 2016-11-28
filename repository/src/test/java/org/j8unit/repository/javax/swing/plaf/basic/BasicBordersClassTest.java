@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicBorders} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicBordersClassTest
 implements BasicBordersClassTests<BasicBorders> {
@@ -50,6 +49,7 @@ implements BasicBordersClassTests<BasicBorders> {
     public void create_BasicBorders()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicBorders sut = new BasicBorders();
     }
 
@@ -251,7 +251,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.SplitPaneBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SplitPaneBorderClassTest
     implements SplitPaneBorderClassTests<SplitPaneBorder> {
@@ -297,7 +296,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ToggleButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ToggleButtonBorderClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ToggleButtonBorderClassTests<ToggleButtonBorder> {
@@ -345,7 +343,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RolloverButtonBorderClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests<RolloverButtonBorder> {
@@ -393,7 +390,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.FieldBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FieldBorderClassTest
     implements FieldBorderClassTests<FieldBorder> {
@@ -441,7 +437,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RadioButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RadioButtonBorderClassTest
     implements RadioButtonBorderClassTests<RadioButtonBorder> {
@@ -489,7 +484,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MenuBarBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MenuBarBorderClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MenuBarBorderClassTests<MenuBarBorder> {
@@ -535,7 +529,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MarginBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MarginBorderClassTest
     implements MarginBorderClassTests<MarginBorder> {
@@ -566,6 +559,7 @@ implements BasicBordersClassTests<BasicBorders> {
         public void create_MarginBorder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final MarginBorder sut = new MarginBorder();
         }
 
@@ -580,7 +574,6 @@ implements BasicBordersClassTests<BasicBorders> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ButtonBorderClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<ButtonBorder> {

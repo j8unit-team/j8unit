@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServerNotActiveException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.rmi.server.ServerNotActiveExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServerNotActiveExceptionClassTest
 implements ServerNotActiveExceptionClassTests<ServerNotActiveException> {
@@ -43,6 +42,7 @@ implements ServerNotActiveExceptionClassTests<ServerNotActiveException> {
     public void create_ServerNotActiveException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServerNotActiveException sut = new ServerNotActiveException();
     }
 

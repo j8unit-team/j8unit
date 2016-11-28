@@ -22,7 +22,6 @@ import org.omg.CORBA.UNSUPPORTED_POLICY_VALUE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UNSUPPORTED_POLICY_VALUETests<SUT extends UNSUPPORTED_POLICY_VALUE>

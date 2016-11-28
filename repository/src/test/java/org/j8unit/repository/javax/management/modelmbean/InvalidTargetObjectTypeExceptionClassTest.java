@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.modelmbean.InvalidTargetObjectTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidTargetObjectTypeExceptionClassTest
 implements InvalidTargetObjectTypeExceptionClassTests<InvalidTargetObjectTypeException> {
@@ -90,6 +89,7 @@ implements InvalidTargetObjectTypeExceptionClassTests<InvalidTargetObjectTypeExc
     public void create_InvalidTargetObjectTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTargetObjectTypeException sut = new InvalidTargetObjectTypeException();
     }
 

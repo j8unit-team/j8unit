@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.lang.reflect.MalformedParameterizedTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MalformedParameterizedTypeExceptionClassTest
 implements MalformedParameterizedTypeExceptionClassTests<MalformedParameterizedTypeException> {
@@ -44,6 +43,7 @@ implements MalformedParameterizedTypeExceptionClassTests<MalformedParameterizedT
     public void create_MalformedParameterizedTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedParameterizedTypeException sut = new MalformedParameterizedTypeException();
     }
 

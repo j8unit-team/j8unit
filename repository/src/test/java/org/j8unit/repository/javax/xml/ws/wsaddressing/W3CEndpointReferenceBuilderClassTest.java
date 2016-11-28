@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class W3CEndpointReferenceBuilderClassTest
 implements W3CEndpointReferenceBuilderClassTests<W3CEndpointReferenceBuilder> {
@@ -44,6 +43,7 @@ implements W3CEndpointReferenceBuilderClassTests<W3CEndpointReferenceBuilder> {
     public void create_W3CEndpointReferenceBuilder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final W3CEndpointReferenceBuilder sut = new W3CEndpointReferenceBuilder();
     }
 

@@ -9,7 +9,6 @@ import org.w3c.dom.html.HTMLAnchorElement;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLAnchorElement} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLAnchorElementTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLAnchorElementTest
 implements HTMLAnchorElementTests<HTMLAnchorElement> {

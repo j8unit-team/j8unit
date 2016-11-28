@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiListUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiListUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiListUIClassTest
 implements MultiListUIClassTests<MultiListUI> {
@@ -42,6 +41,7 @@ implements MultiListUIClassTests<MultiListUI> {
     public void create_MultiListUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiListUI sut = new MultiListUI();
     }
 

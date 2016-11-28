@@ -48,7 +48,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentEventClassTests<SUT extends DocumentEvent>
@@ -112,7 +111,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementChangeClassTests<SUT extends ElementChange>
@@ -178,7 +176,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EventTypeClassTests<SUT extends EventType>

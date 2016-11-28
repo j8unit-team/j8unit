@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MethodType} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.lang.invoke.MethodTypeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MethodTypeClassTest
 implements MethodTypeClassTests<MethodType> {

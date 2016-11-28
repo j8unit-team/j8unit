@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SQLNonTransientException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLNonTransientExceptionClassTest
 implements SQLNonTransientExceptionClassTests<SQLNonTransientException> {
@@ -134,6 +133,7 @@ implements SQLNonTransientExceptionClassTests<SQLNonTransientException> {
     public void create_SQLNonTransientException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLNonTransientException sut = new SQLNonTransientException();
     }
 

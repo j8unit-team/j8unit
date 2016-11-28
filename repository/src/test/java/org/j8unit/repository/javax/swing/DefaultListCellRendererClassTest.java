@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultListCellRenderer} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultListCellRendererClassTest
 implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
@@ -44,6 +43,7 @@ implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
     public void create_DefaultListCellRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultListCellRenderer sut = new DefaultListCellRenderer();
     }
 
@@ -56,7 +56,6 @@ implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests.UIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests.UIResourceClassTests<UIResource> {
@@ -87,6 +86,7 @@ implements DefaultListCellRendererClassTests<DefaultListCellRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

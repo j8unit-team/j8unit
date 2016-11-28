@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ReflectiveOperationException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ReflectiveOperationExceptionClassTest
 implements ReflectiveOperationExceptionClassTests<ReflectiveOperationException> {
@@ -111,6 +110,7 @@ implements ReflectiveOperationExceptionClassTests<ReflectiveOperationException> 
     public void create_ReflectiveOperationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReflectiveOperationException sut = new ReflectiveOperationException();
     }
 

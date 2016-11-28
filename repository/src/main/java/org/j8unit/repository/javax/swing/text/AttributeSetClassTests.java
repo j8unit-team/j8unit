@@ -49,7 +49,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeSetClassTests<SUT extends AttributeSet>
@@ -113,7 +112,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontAttributeClassTests<SUT extends FontAttribute>
@@ -179,7 +177,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParagraphAttributeClassTests<SUT extends ParagraphAttribute>
@@ -245,7 +242,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorAttributeClassTests<SUT extends ColorAttribute>
@@ -311,7 +307,6 @@ extends RepositoryClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacterAttributeClassTests<SUT extends CharacterAttribute>

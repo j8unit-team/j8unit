@@ -26,9 +26,9 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("restriction")
 public abstract interface _RMIConnection_StubTests<SUT extends _RMIConnection_Stub>
 extends RMIConnectionTests<SUT>, StubTests<SUT> {
 

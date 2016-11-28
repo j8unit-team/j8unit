@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.transaction.TransactionRequiredExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TransactionRequiredExceptionClassTest
 implements TransactionRequiredExceptionClassTests<TransactionRequiredException> {
@@ -44,6 +43,7 @@ implements TransactionRequiredExceptionClassTests<TransactionRequiredException> 
     public void create_TransactionRequiredException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransactionRequiredException sut = new TransactionRequiredException();
     }
 

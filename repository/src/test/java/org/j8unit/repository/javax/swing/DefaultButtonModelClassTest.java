@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultButtonModel} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.DefaultButtonModelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultButtonModelClassTest
 implements DefaultButtonModelClassTests<DefaultButtonModel> {
@@ -42,6 +41,7 @@ implements DefaultButtonModelClassTests<DefaultButtonModel> {
     public void create_DefaultButtonModel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultButtonModel sut = new DefaultButtonModel();
     }
 

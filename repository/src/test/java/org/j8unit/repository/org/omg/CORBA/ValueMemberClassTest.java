@@ -12,7 +12,6 @@ import org.omg.CORBA.ValueMember;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ValueMember} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ValueMemberClassTest
 implements ValueMemberClassTests<ValueMember> {
@@ -42,6 +41,7 @@ implements ValueMemberClassTests<ValueMember> {
     public void create_ValueMember()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValueMember sut = new ValueMember();
     }
 

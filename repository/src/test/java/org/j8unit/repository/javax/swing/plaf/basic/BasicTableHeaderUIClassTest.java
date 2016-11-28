@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTableHeaderUI} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicTableHeaderUIClassTest
 implements BasicTableHeaderUIClassTests<BasicTableHeaderUI> {
@@ -44,6 +43,7 @@ implements BasicTableHeaderUIClassTests<BasicTableHeaderUI> {
     public void create_BasicTableHeaderUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTableHeaderUI sut = new BasicTableHeaderUI();
     }
 
@@ -77,7 +77,6 @@ implements BasicTableHeaderUIClassTests<BasicTableHeaderUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests.MouseInputHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {

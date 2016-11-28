@@ -44,9 +44,9 @@ import org.xml.sax.DocumentHandler;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DocumentHandlerClassTests<SUT extends DocumentHandler>
 extends RepositoryClassTests<SUT> {
 

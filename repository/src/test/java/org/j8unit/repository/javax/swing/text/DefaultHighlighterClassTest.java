@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHighlighter} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultHighlighterClassTest
 implements DefaultHighlighterClassTests<DefaultHighlighter> {
@@ -43,6 +42,7 @@ implements DefaultHighlighterClassTests<DefaultHighlighter> {
     public void create_DefaultHighlighter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultHighlighter sut = new DefaultHighlighter();
     }
 
@@ -55,7 +55,6 @@ implements DefaultHighlighterClassTests<DefaultHighlighter> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests.DefaultHighlightPainterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterClassTest
     implements DefaultHighlightPainterClassTests<DefaultHighlightPainter> {

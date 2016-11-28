@@ -13,8 +13,8 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIServer_StubClassTest
 implements _RMIServer_StubClassTests<_RMIServer_Stub> {
 
@@ -44,6 +44,7 @@ implements _RMIServer_StubClassTests<_RMIServer_Stub> {
     public void create__RMIServer_Stub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIServer_Stub sut = new _RMIServer_Stub();
     }
 

@@ -50,7 +50,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Line2DClassTests<SUT extends Line2D>
@@ -115,7 +114,6 @@ extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Float>
@@ -182,7 +180,6 @@ extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Double>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StringContent} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StringContentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringContentClassTest
 implements StringContentClassTests<StringContent> {
@@ -42,6 +41,7 @@ implements StringContentClassTests<StringContent> {
     public void create_StringContent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StringContent sut = new StringContent();
     }
 

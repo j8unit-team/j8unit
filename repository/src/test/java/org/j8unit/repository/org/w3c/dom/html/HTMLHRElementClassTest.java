@@ -8,7 +8,6 @@ import org.w3c.dom.html.HTMLHRElement;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLHRElement} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLHRElementClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLHRElementClassTest
 implements HTMLHRElementClassTests<HTMLHRElement> {

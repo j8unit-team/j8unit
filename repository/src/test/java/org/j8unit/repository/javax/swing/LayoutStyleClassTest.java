@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link LayoutStyle} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.LayoutStyleClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LayoutStyleClassTest
 implements LayoutStyleClassTests<LayoutStyle> {
@@ -96,7 +95,6 @@ implements LayoutStyleClassTests<LayoutStyle> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.LayoutStyleClassTests.ComponentPlacementClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComponentPlacementClassTest
     implements ComponentPlacementClassTests<ComponentPlacement> {

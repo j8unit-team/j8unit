@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Locale} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.LocaleClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class LocaleClassTest
 implements LocaleClassTests<Locale> {
@@ -395,7 +394,6 @@ implements LocaleClassTests<Locale> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link LanguageRange} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LanguageRangeClassTest
     implements LanguageRangeClassTests<LanguageRange> {
@@ -530,7 +528,6 @@ implements LocaleClassTests<Locale> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link java.util.Locale.Category} (by simply
      * reusing the J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CategoryClassTest
     implements CategoryClassTests<java.util.Locale.Category> {
@@ -592,7 +589,6 @@ implements LocaleClassTests<Locale> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link FilteringMode} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FilteringModeClassTest
     implements FilteringModeClassTests<FilteringMode> {
@@ -654,7 +650,6 @@ implements LocaleClassTests<Locale> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.BuilderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.LocaleClassTests.BuilderClassTests<Builder> {
@@ -684,6 +679,7 @@ implements LocaleClassTests<Locale> {
         public void create_Builder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Builder sut = new Builder();
         }
 

@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractDocument} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AbstractDocumentTest
 implements AbstractDocumentTests<AbstractDocument> {
@@ -37,7 +36,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbstractElementTest
     implements AbstractElementTests<AbstractElement> {
@@ -59,7 +57,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Content} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ContentTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ContentTest
     implements ContentTests<Content> {
@@ -81,7 +78,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementEdit} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementEditTest
     implements ElementEditTests<ElementEdit> {
@@ -104,7 +100,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BranchElementTest
     implements BranchElementTests<BranchElement> {
@@ -127,7 +122,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AttributeContextTest
     implements AttributeContextTests<AttributeContext> {
@@ -149,7 +143,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LeafElement} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LeafElementTest
     implements LeafElementTests<LeafElement> {
@@ -172,7 +165,6 @@ implements AbstractDocumentTests<AbstractDocument> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DefaultDocumentEventTest
     implements DefaultDocumentEventTests<DefaultDocumentEvent> {

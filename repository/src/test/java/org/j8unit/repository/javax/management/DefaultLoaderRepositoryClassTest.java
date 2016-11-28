@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultLoaderRepository} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.management.DefaultLoaderRepositoryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DefaultLoaderRepositoryClassTest
 implements org.j8unit.repository.javax.management.DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
 
@@ -43,6 +43,7 @@ implements org.j8unit.repository.javax.management.DefaultLoaderRepositoryClassTe
     public void create_DefaultLoaderRepository()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultLoaderRepository sut = new DefaultLoaderRepository();
     }
 

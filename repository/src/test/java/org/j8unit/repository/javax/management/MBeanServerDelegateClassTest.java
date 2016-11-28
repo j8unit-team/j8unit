@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MBeanServerDelegate} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.management.MBeanServerDelegateClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MBeanServerDelegateClassTest
 implements MBeanServerDelegateClassTests<MBeanServerDelegate> {
@@ -42,6 +41,7 @@ implements MBeanServerDelegateClassTests<MBeanServerDelegate> {
     public void create_MBeanServerDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MBeanServerDelegate sut = new MBeanServerDelegate();
     }
 

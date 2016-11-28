@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link URIReferenceException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class URIReferenceExceptionClassTest
 implements URIReferenceExceptionClassTests<URIReferenceException> {
@@ -91,6 +90,7 @@ implements URIReferenceExceptionClassTests<URIReferenceException> {
     public void create_URIReferenceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final URIReferenceException sut = new URIReferenceException();
     }
 

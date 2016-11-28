@@ -45,7 +45,6 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectReferenceTemplateHelperClassTests<SUT extends ObjectReferenceTemplateHelper>

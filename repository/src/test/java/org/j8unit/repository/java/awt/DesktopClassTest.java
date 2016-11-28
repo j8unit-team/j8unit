@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Desktop} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.DesktopClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DesktopClassTest
 implements DesktopClassTests<Desktop> {
@@ -73,7 +72,6 @@ implements DesktopClassTests<Desktop> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Action} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.DesktopClassTests.ActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ActionClassTest
     implements ActionClassTests<Action> {

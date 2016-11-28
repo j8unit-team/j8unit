@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlElements} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlElementsTest
 implements XmlElementsTests<XmlElements> {

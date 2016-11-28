@@ -45,7 +45,6 @@ import org.omg.CORBA.ServiceInformationHolder;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceInformationHolderClassTests<SUT extends ServiceInformationHolder>

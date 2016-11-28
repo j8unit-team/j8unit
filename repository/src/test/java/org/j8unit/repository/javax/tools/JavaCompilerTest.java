@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link JavaCompiler} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.tools.JavaCompilerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JavaCompilerTest
 implements JavaCompilerTests<JavaCompiler> {
@@ -31,7 +30,6 @@ implements JavaCompilerTests<JavaCompiler> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CompilationTaskTest
     implements CompilationTaskTests<CompilationTask> {

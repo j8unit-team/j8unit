@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.loading.DefaultLoaderRepositoryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class DefaultLoaderRepositoryClassTest
 implements DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
 
@@ -44,6 +44,7 @@ implements DefaultLoaderRepositoryClassTests<DefaultLoaderRepository> {
     public void create_DefaultLoaderRepository()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultLoaderRepository sut = new DefaultLoaderRepository();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.lang.ArrayIndexOutOfBoundsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ArrayIndexOutOfBoundsExceptionClassTest
 implements ArrayIndexOutOfBoundsExceptionClassTests<ArrayIndexOutOfBoundsException> {
@@ -43,6 +42,7 @@ implements ArrayIndexOutOfBoundsExceptionClassTests<ArrayIndexOutOfBoundsExcepti
     public void create_ArrayIndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArrayIndexOutOfBoundsException sut = new ArrayIndexOutOfBoundsException();
     }
 

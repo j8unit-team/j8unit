@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Dimension} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.DimensionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DimensionClassTest
 implements DimensionClassTests<Dimension> {
@@ -42,6 +41,7 @@ implements DimensionClassTests<Dimension> {
     public void create_Dimension()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Dimension sut = new Dimension();
     }
 

@@ -8,7 +8,6 @@ import org.omg.IOP.TAG_ORB_TYPE;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TAG_ORB_TYPE} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TAG_ORB_TYPEClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TAG_ORB_TYPEClassTest
 implements TAG_ORB_TYPEClassTests<TAG_ORB_TYPE> {

@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTableUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicTableUIClassTest
 implements BasicTableUIClassTests<BasicTableUI> {
@@ -45,6 +44,7 @@ implements BasicTableUIClassTests<BasicTableUI> {
     public void create_BasicTableUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTableUI sut = new BasicTableUI();
     }
 
@@ -78,7 +78,6 @@ implements BasicTableUIClassTests<BasicTableUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.KeyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyHandlerClassTest
     implements KeyHandlerClassTests<KeyHandler> {
@@ -124,7 +123,6 @@ implements BasicTableUIClassTests<BasicTableUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.MouseInputHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements MouseInputHandlerClassTests<MouseInputHandler> {
@@ -170,7 +168,6 @@ implements BasicTableUIClassTests<BasicTableUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements FocusHandlerClassTests<FocusHandler> {

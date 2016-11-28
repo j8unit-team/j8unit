@@ -7,7 +7,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Override} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.lang.OverrideClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OverrideClassTest
 implements OverrideClassTests<Override> {

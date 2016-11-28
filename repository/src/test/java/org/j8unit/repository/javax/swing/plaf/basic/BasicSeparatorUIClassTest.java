@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicSeparatorUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicSeparatorUIClassTest
 implements BasicSeparatorUIClassTests<BasicSeparatorUI> {
@@ -43,6 +42,7 @@ implements BasicSeparatorUIClassTests<BasicSeparatorUI> {
     public void create_BasicSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicSeparatorUI sut = new BasicSeparatorUI();
     }
 

@@ -54,7 +54,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalIconFactoryClassTests<SUT extends MetalIconFactory>
@@ -119,7 +118,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FolderIcon16ClassTests<SUT extends FolderIcon16>
@@ -186,7 +184,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeLeafIconClassTests<SUT extends TreeLeafIcon>
@@ -253,7 +250,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FileIcon16ClassTests<SUT extends FileIcon16>
@@ -320,7 +316,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeFolderIconClassTests<SUT extends TreeFolderIcon>
@@ -387,7 +382,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PaletteCloseIconClassTests<SUT extends PaletteCloseIcon>
@@ -454,7 +448,6 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeControlIconClassTests<SUT extends TreeControlIcon>

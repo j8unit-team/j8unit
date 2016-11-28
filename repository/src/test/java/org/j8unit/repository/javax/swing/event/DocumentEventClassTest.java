@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentEvent} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DocumentEventClassTest
 implements DocumentEventClassTests<DocumentEvent> {
@@ -31,7 +30,6 @@ implements DocumentEventClassTests<DocumentEvent> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementChangeClassTest
     implements ElementChangeClassTests<ElementChange> {
@@ -54,7 +52,6 @@ implements DocumentEventClassTests<DocumentEvent> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests.EventTypeClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EventTypeClassTest
     implements EventTypeClassTests<EventType> {

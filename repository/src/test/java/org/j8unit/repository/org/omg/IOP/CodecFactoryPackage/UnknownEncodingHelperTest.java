@@ -10,7 +10,6 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownEncodingHelperTest
 implements UnknownEncodingHelperTests<UnknownEncodingHelper> {

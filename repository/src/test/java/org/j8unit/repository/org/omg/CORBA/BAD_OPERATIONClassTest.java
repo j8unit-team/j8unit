@@ -12,7 +12,6 @@ import org.omg.CORBA.BAD_OPERATION;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BAD_OPERATION} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BAD_OPERATIONClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BAD_OPERATIONClassTest
 implements BAD_OPERATIONClassTests<BAD_OPERATION> {
@@ -110,6 +109,7 @@ implements BAD_OPERATIONClassTests<BAD_OPERATION> {
     public void create_BAD_OPERATION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_OPERATION sut = new BAD_OPERATION();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.directory.InvalidSearchFilterExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidSearchFilterExceptionClassTest
 implements InvalidSearchFilterExceptionClassTests<InvalidSearchFilterException> {
@@ -44,6 +43,7 @@ implements InvalidSearchFilterExceptionClassTests<InvalidSearchFilterException> 
     public void create_InvalidSearchFilterException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidSearchFilterException sut = new InvalidSearchFilterException();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.InvalidRelationServiceExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidRelationServiceExceptionClassTest
 implements InvalidRelationServiceExceptionClassTests<InvalidRelationServiceException> {
@@ -44,6 +43,7 @@ implements InvalidRelationServiceExceptionClassTests<InvalidRelationServiceExcep
     public void create_InvalidRelationServiceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidRelationServiceException sut = new InvalidRelationServiceException();
     }
 

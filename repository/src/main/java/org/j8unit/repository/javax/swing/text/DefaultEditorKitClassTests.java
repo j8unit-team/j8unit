@@ -52,7 +52,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultEditorKitClassTests<SUT extends DefaultEditorKit>
@@ -117,7 +116,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertBreakActionClassTests<SUT extends InsertBreakAction>
@@ -184,7 +182,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultKeyTypedActionClassTests<SUT extends DefaultKeyTypedAction>
@@ -251,7 +248,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertTabActionClassTests<SUT extends InsertTabAction>
@@ -318,7 +314,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CutActionClassTests<SUT extends CutAction>
@@ -385,7 +380,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertContentActionClassTests<SUT extends InsertContentAction>
@@ -452,7 +446,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasteActionClassTests<SUT extends PasteAction>
@@ -519,7 +512,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BeepActionClassTests<SUT extends BeepAction>
@@ -586,7 +578,6 @@ extends EditorKitClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CopyActionClassTests<SUT extends CopyAction>

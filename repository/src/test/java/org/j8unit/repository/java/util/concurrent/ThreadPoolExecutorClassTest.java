@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadPoolExecutor} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ThreadPoolExecutorClassTest
 implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
@@ -139,7 +138,6 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DiscardPolicyClassTest
     implements DiscardPolicyClassTests<DiscardPolicy> {
@@ -170,6 +168,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_DiscardPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DiscardPolicy sut = new DiscardPolicy();
         }
 
@@ -184,7 +183,6 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
      * J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AbortPolicyClassTest
     implements AbortPolicyClassTests<AbortPolicy> {
@@ -215,6 +213,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_AbortPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final AbortPolicy sut = new AbortPolicy();
         }
 
@@ -229,7 +228,6 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CallerRunsPolicyClassTest
     implements CallerRunsPolicyClassTests<CallerRunsPolicy> {
@@ -260,6 +258,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_CallerRunsPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final CallerRunsPolicy sut = new CallerRunsPolicy();
         }
 
@@ -274,7 +273,6 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DiscardOldestPolicyClassTest
     implements DiscardOldestPolicyClassTests<DiscardOldestPolicy> {
@@ -305,6 +303,7 @@ implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
         public void create_DiscardOldestPolicy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final DiscardOldestPolicy sut = new DiscardOldestPolicy();
         }
 

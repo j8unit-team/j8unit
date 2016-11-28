@@ -21,7 +21,6 @@ import org.omg.CORBA.COMM_FAILURE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface COMM_FAILURETests<SUT extends COMM_FAILURE>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DebugGraphics} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.DebugGraphicsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DebugGraphicsClassTest
 implements DebugGraphicsClassTests<DebugGraphics> {
@@ -65,6 +64,7 @@ implements DebugGraphicsClassTests<DebugGraphics> {
     public void create_DebugGraphics()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DebugGraphics sut = new DebugGraphics();
     }
 

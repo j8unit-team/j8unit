@@ -18,7 +18,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Dialog} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.DialogTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DialogTest
 implements DialogTests<Dialog> {
@@ -38,7 +37,6 @@ implements DialogTests<Dialog> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ModalExclusionType} (by simply
      * reusing the J8Unit test interface {@link org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModalExclusionTypeTest
@@ -69,7 +67,6 @@ implements DialogTests<Dialog> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ModalityType} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModalityTypeTest

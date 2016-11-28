@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Canvas} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.CanvasClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CanvasClassTest
 implements CanvasClassTests<Canvas> {
@@ -65,6 +64,7 @@ implements CanvasClassTests<Canvas> {
     public void create_Canvas()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Canvas sut = new Canvas();
     }
 

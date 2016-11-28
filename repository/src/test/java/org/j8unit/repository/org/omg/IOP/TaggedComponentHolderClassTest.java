@@ -12,7 +12,6 @@ import org.omg.IOP.TaggedComponentHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TaggedComponentHolder} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.TaggedComponentHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TaggedComponentHolderClassTest
 implements TaggedComponentHolderClassTests<TaggedComponentHolder> {
@@ -65,6 +64,7 @@ implements TaggedComponentHolderClassTests<TaggedComponentHolder> {
     public void create_TaggedComponentHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TaggedComponentHolder sut = new TaggedComponentHolder();
     }
 

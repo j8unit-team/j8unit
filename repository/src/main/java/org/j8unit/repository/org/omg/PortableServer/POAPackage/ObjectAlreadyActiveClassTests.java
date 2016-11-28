@@ -44,7 +44,6 @@ import org.omg.PortableServer.POAPackage.ObjectAlreadyActive;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectAlreadyActiveClassTests<SUT extends ObjectAlreadyActive>

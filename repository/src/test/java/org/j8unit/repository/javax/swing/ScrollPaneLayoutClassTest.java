@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollPaneLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ScrollPaneLayoutClassTest
 implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
@@ -43,6 +42,7 @@ implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
     public void create_ScrollPaneLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ScrollPaneLayout sut = new ScrollPaneLayout();
     }
 
@@ -54,7 +54,6 @@ implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link UIResource} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests<UIResource> {
@@ -85,6 +84,7 @@ implements ScrollPaneLayoutClassTests<ScrollPaneLayout> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

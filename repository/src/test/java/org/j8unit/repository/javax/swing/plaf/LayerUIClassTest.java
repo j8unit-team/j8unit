@@ -42,6 +42,7 @@ implements LayerUIClassTests<LayerUI> {
     public void create_LayerUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LayerUI sut = new LayerUI();
     }
 

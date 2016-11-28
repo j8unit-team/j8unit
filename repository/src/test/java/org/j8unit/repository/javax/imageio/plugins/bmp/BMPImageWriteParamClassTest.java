@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BMPImageWriteParam} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BMPImageWriteParamClassTest
 implements BMPImageWriteParamClassTests<BMPImageWriteParam> {
@@ -43,6 +42,7 @@ implements BMPImageWriteParamClassTests<BMPImageWriteParam> {
     public void create_BMPImageWriteParam()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BMPImageWriteParam sut = new BMPImageWriteParam();
     }
 

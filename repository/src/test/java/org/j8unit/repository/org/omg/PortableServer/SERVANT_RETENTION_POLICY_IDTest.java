@@ -10,7 +10,6 @@ import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.SERVANT_RETENTION_POLICY_IDTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SERVANT_RETENTION_POLICY_IDTest
 implements SERVANT_RETENTION_POLICY_IDTests<SERVANT_RETENTION_POLICY_ID> {

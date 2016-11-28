@@ -113,7 +113,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends Entry>
@@ -180,7 +179,6 @@ extends ObjectClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComparisonTypeClassTests<SUT extends ComparisonType>

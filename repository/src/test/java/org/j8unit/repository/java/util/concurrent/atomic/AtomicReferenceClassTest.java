@@ -66,6 +66,7 @@ implements AtomicReferenceClassTests<AtomicReference> {
     public void create_AtomicReference()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicReference sut = new AtomicReference();
     }
 

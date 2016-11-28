@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link TextAreaPeer} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.peer.TextAreaPeerTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TextAreaPeerTest
 implements TextAreaPeerTests<TextAreaPeer> {

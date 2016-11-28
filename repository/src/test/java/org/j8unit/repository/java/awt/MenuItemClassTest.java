@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MenuItem} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.MenuItemClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MenuItemClassTest
 implements MenuItemClassTests<MenuItem> {
@@ -87,6 +86,7 @@ implements MenuItemClassTests<MenuItem> {
     public void create_MenuItem()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MenuItem sut = new MenuItem();
     }
 

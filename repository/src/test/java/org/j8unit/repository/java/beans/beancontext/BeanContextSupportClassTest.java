@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BeanContextSupport} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests}).
  */
-@SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class BeanContextSupportClassTest
 implements BeanContextSupportClassTests<BeanContextSupport> {
@@ -66,6 +65,7 @@ implements BeanContextSupportClassTests<BeanContextSupport> {
     public void create_BeanContextSupport()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BeanContextSupport sut = new BeanContextSupport();
     }
 

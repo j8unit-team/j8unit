@@ -113,7 +113,6 @@ extends CloseableClassTests<SUT>, IterableClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-    @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterClassTests<SUT extends Filter>

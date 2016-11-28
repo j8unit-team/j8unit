@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Object} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.lang.ObjectClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectClassTest
 implements ObjectClassTests<Object> {
@@ -40,6 +39,7 @@ implements ObjectClassTests<Object> {
     public void create_Object()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Object sut = new Object();
     }
 

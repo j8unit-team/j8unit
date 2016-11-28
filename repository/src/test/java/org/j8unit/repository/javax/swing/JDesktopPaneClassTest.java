@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JDesktopPane} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.JDesktopPaneClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JDesktopPaneClassTest
 implements JDesktopPaneClassTests<JDesktopPane> {
@@ -42,6 +41,7 @@ implements JDesktopPaneClassTests<JDesktopPane> {
     public void create_JDesktopPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JDesktopPane sut = new JDesktopPane();
     }
 

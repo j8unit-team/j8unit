@@ -21,7 +21,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyledEditorKit} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StyledEditorKitClassTest
 implements StyledEditorKitClassTests<StyledEditorKit> {
@@ -51,6 +50,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
     public void create_StyledEditorKit()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyledEditorKit sut = new StyledEditorKit();
     }
 
@@ -63,7 +63,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontFamilyActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontFamilyActionClassTest
     implements FontFamilyActionClassTests<FontFamilyAction> {
@@ -109,7 +108,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.BoldActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BoldActionClassTest
     implements BoldActionClassTests<BoldAction> {
@@ -140,6 +138,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_BoldAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BoldAction sut = new BoldAction();
         }
 
@@ -154,7 +153,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ItalicActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ItalicActionClassTest
     implements ItalicActionClassTests<ItalicAction> {
@@ -185,6 +183,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_ItalicAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final ItalicAction sut = new ItalicAction();
         }
 
@@ -199,7 +198,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.AlignmentActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AlignmentActionClassTest
     implements AlignmentActionClassTests<AlignmentAction> {
@@ -245,7 +243,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class StyledTextActionClassTest
     implements StyledTextActionClassTests<StyledTextAction> {
@@ -289,7 +286,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.ForegroundActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ForegroundActionClassTest
     implements ForegroundActionClassTests<ForegroundAction> {
@@ -335,7 +331,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.UnderlineActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class UnderlineActionClassTest
     implements UnderlineActionClassTests<UnderlineAction> {
@@ -366,6 +361,7 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
         public void create_UnderlineAction()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UnderlineAction sut = new UnderlineAction();
         }
 
@@ -380,7 +376,6 @@ implements StyledEditorKitClassTests<StyledEditorKit> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.FontSizeActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FontSizeActionClassTest
     implements FontSizeActionClassTests<FontSizeAction> {

@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectOutputStream} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.io.ObjectOutputStreamTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectOutputStreamTest
 implements ObjectOutputStreamTests<ObjectOutputStream> {
@@ -30,7 +29,6 @@ implements ObjectOutputStreamTests<ObjectOutputStream> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link PutField} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PutFieldTest
     implements PutFieldTests<PutField> {

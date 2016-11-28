@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidActivityException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidActivityExceptionClassTest
 implements InvalidActivityExceptionClassTests<InvalidActivityException> {
@@ -112,6 +111,7 @@ implements InvalidActivityExceptionClassTests<InvalidActivityException> {
     public void create_InvalidActivityException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidActivityException sut = new InvalidActivityException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AtomicLong} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicLongClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AtomicLongClassTest
 implements AtomicLongClassTests<AtomicLong> {
@@ -42,6 +41,7 @@ implements AtomicLongClassTests<AtomicLong> {
     public void create_AtomicLong()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicLong sut = new AtomicLong();
     }
 

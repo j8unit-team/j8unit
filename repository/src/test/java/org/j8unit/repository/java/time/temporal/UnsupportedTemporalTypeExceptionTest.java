@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.time.temporal.UnsupportedTemporalTypeExceptionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedTemporalTypeExceptionTest
 implements UnsupportedTemporalTypeExceptionTests<UnsupportedTemporalTypeException> {

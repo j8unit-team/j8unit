@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link WrongMethodTypeException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.invoke.WrongMethodTypeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WrongMethodTypeExceptionClassTest
 implements WrongMethodTypeExceptionClassTests<WrongMethodTypeException> {
@@ -66,6 +65,7 @@ implements WrongMethodTypeExceptionClassTests<WrongMethodTypeException> {
     public void create_WrongMethodTypeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WrongMethodTypeException sut = new WrongMethodTypeException();
     }
 

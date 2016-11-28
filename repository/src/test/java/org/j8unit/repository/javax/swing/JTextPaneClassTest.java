@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JTextPane} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JTextPaneClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JTextPaneClassTest
 implements JTextPaneClassTests<JTextPane> {
@@ -65,6 +64,7 @@ implements JTextPaneClassTests<JTextPane> {
     public void create_JTextPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JTextPane sut = new JTextPane();
     }
 

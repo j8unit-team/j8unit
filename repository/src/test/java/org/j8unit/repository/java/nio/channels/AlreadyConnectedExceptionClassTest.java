@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.AlreadyConnectedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AlreadyConnectedExceptionClassTest
 implements AlreadyConnectedExceptionClassTests<AlreadyConnectedException> {
@@ -44,6 +43,7 @@ implements AlreadyConnectedExceptionClassTests<AlreadyConnectedException> {
     public void create_AlreadyConnectedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AlreadyConnectedException sut = new AlreadyConnectedException();
     }
 

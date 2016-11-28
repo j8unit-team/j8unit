@@ -8,7 +8,6 @@ import org.omg.CORBA.SystemException;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SystemException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SystemExceptionClassTest
 implements SystemExceptionClassTests<SystemException> {

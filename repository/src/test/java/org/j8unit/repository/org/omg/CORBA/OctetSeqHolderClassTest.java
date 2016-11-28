@@ -12,7 +12,6 @@ import org.omg.CORBA.OctetSeqHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link OctetSeqHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.OctetSeqHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class OctetSeqHolderClassTest
 implements OctetSeqHolderClassTests<OctetSeqHolder> {
@@ -64,6 +63,7 @@ implements OctetSeqHolderClassTests<OctetSeqHolder> {
     public void create_OctetSeqHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final OctetSeqHolder sut = new OctetSeqHolder();
     }
 

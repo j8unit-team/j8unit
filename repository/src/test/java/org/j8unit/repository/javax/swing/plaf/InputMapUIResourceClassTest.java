@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InputMapUIResource} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.InputMapUIResourceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InputMapUIResourceClassTest
 implements InputMapUIResourceClassTests<InputMapUIResource> {
@@ -42,6 +41,7 @@ implements InputMapUIResourceClassTests<InputMapUIResource> {
     public void create_InputMapUIResource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InputMapUIResource sut = new InputMapUIResource();
     }
 

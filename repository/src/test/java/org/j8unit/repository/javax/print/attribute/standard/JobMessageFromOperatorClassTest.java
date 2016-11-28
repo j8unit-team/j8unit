@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.standard.JobMessageFromOperatorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JobMessageFromOperatorClassTest
 implements JobMessageFromOperatorClassTests<JobMessageFromOperator> {

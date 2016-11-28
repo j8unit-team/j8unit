@@ -24,7 +24,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementKindVisitor6Tests<SUT extends ElementKindVisitor6<R, P>, R, P>

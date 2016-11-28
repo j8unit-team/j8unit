@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link GridBagLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.GridBagLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GridBagLayoutClassTest
 implements GridBagLayoutClassTests<GridBagLayout> {
@@ -42,6 +41,7 @@ implements GridBagLayoutClassTests<GridBagLayout> {
     public void create_GridBagLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GridBagLayout sut = new GridBagLayout();
     }
 

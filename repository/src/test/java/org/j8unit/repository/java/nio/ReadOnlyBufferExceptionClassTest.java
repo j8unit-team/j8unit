@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ReadOnlyBufferException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.nio.ReadOnlyBufferExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ReadOnlyBufferExceptionClassTest
 implements ReadOnlyBufferExceptionClassTests<ReadOnlyBufferException> {
@@ -42,6 +41,7 @@ implements ReadOnlyBufferExceptionClassTests<ReadOnlyBufferException> {
     public void create_ReadOnlyBufferException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ReadOnlyBufferException sut = new ReadOnlyBufferException();
     }
 

@@ -43,6 +43,7 @@ implements ConcurrentSkipListSetClassTests<ConcurrentSkipListSet> {
     public void create_ConcurrentSkipListSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentSkipListSet sut = new ConcurrentSkipListSet();
     }
 

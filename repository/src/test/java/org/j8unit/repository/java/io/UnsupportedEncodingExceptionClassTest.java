@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnsupportedEncodingException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.io.UnsupportedEncodingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnsupportedEncodingExceptionClassTest
 implements UnsupportedEncodingExceptionClassTests<UnsupportedEncodingException> {
@@ -43,6 +42,7 @@ implements UnsupportedEncodingExceptionClassTests<UnsupportedEncodingException> 
     public void create_UnsupportedEncodingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnsupportedEncodingException sut = new UnsupportedEncodingException();
     }
 

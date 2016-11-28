@@ -22,7 +22,6 @@ import org.omg.IOP.TAG_POLICIES;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TAG_POLICIESTests<SUT extends TAG_POLICIES>

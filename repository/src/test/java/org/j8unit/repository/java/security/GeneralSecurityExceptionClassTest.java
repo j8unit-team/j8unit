@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link GeneralSecurityException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class GeneralSecurityExceptionClassTest
 implements GeneralSecurityExceptionClassTests<GeneralSecurityException> {
@@ -112,6 +111,7 @@ implements GeneralSecurityExceptionClassTests<GeneralSecurityException> {
     public void create_GeneralSecurityException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final GeneralSecurityException sut = new GeneralSecurityException();
     }
 

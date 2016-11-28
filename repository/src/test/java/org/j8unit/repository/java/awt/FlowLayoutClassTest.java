@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FlowLayout} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.FlowLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FlowLayoutClassTest
 implements FlowLayoutClassTests<FlowLayout> {
@@ -86,6 +85,7 @@ implements FlowLayoutClassTests<FlowLayout> {
     public void create_FlowLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final FlowLayout sut = new FlowLayout();
     }
 

@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoSuchFieldError} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.NoSuchFieldErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoSuchFieldErrorClassTest
 implements NoSuchFieldErrorClassTests<NoSuchFieldError> {
@@ -41,6 +40,7 @@ implements NoSuchFieldErrorClassTests<NoSuchFieldError> {
     public void create_NoSuchFieldError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoSuchFieldError sut = new NoSuchFieldError();
     }
 

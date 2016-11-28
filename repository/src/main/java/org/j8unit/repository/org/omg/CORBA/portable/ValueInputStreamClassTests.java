@@ -44,7 +44,6 @@ import org.omg.CORBA.portable.ValueInputStream;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValueInputStreamClassTests<SUT extends ValueInputStream>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServerSocket} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.net.ServerSocketClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServerSocketClassTest
 implements ServerSocketClassTests<ServerSocket> {
@@ -42,7 +41,7 @@ implements ServerSocketClassTests<ServerSocket> {
     public void create_ServerSocket()
     throws Exception {
         // create new instance
-        final ServerSocket sut = new ServerSocket();
+        try (final ServerSocket sut = new ServerSocket()) {}
     }
 
     /**

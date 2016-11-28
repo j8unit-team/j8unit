@@ -13,6 +13,7 @@ import org.xml.sax.HandlerBase;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class HandlerBaseTest
 implements FactoryBasedJ8UnitTest<HandlerBase>, HandlerBaseTests<HandlerBase> {
 

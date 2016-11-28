@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.naming.directory.InvalidAttributeValueExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidAttributeValueExceptionClassTest
 implements InvalidAttributeValueExceptionClassTests<InvalidAttributeValueException> {
@@ -67,6 +66,7 @@ implements InvalidAttributeValueExceptionClassTests<InvalidAttributeValueExcepti
     public void create_InvalidAttributeValueException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAttributeValueException sut = new InvalidAttributeValueException();
     }
 

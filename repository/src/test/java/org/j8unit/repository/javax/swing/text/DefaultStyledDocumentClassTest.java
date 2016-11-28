@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultStyledDocument} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultStyledDocumentClassTest
 implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
@@ -46,6 +45,7 @@ implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
     public void create_DefaultStyledDocument()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultStyledDocument sut = new DefaultStyledDocument();
     }
 
@@ -107,7 +107,6 @@ implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditClassTest
     implements AttributeUndoableEditClassTests<AttributeUndoableEdit> {
@@ -155,7 +154,6 @@ implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementSpecClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementSpecClassTest
     implements ElementSpecClassTests<ElementSpec> {
@@ -248,7 +246,6 @@ implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementBufferClassTest
     implements ElementBufferClassTests<ElementBuffer> {

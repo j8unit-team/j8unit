@@ -12,7 +12,6 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NoContext} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NoContextClassTest
 implements NoContextClassTests<NoContext> {
@@ -43,6 +42,7 @@ implements NoContextClassTests<NoContext> {
     public void create_NoContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NoContext sut = new NoContext();
     }
 

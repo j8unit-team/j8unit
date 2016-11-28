@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ViewportLayout} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.ViewportLayoutClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ViewportLayoutClassTest
 implements ViewportLayoutClassTests<ViewportLayout> {
@@ -42,6 +41,7 @@ implements ViewportLayoutClassTests<ViewportLayout> {
     public void create_ViewportLayout()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ViewportLayout sut = new ViewportLayout();
     }
 

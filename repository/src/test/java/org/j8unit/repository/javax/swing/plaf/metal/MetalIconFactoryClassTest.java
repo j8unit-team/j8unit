@@ -18,7 +18,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetalIconFactory} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetalIconFactoryClassTest
 implements MetalIconFactoryClassTests<MetalIconFactory> {
@@ -49,6 +48,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
     public void create_MetalIconFactory()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetalIconFactory sut = new MetalIconFactory();
     }
 
@@ -586,7 +586,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FolderIcon16ClassTest
     implements FolderIcon16ClassTests<FolderIcon16> {
@@ -617,6 +616,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_FolderIcon16()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FolderIcon16 sut = new FolderIcon16();
         }
 
@@ -631,7 +631,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeLeafIconClassTest
     implements TreeLeafIconClassTests<TreeLeafIcon> {
@@ -662,6 +661,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_TreeLeafIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TreeLeafIcon sut = new TreeLeafIcon();
         }
 
@@ -676,7 +676,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FileIcon16ClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FileIcon16ClassTest
     implements FileIcon16ClassTests<FileIcon16> {
@@ -707,6 +706,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_FileIcon16()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FileIcon16 sut = new FileIcon16();
         }
 
@@ -721,7 +721,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeFolderIconClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeFolderIconClassTest
     implements TreeFolderIconClassTests<TreeFolderIcon> {
@@ -752,6 +751,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_TreeFolderIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final TreeFolderIcon sut = new TreeFolderIcon();
         }
 
@@ -766,7 +766,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.PaletteCloseIconClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PaletteCloseIconClassTest
     implements PaletteCloseIconClassTests<PaletteCloseIcon> {
@@ -797,6 +796,7 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
         public void create_PaletteCloseIcon()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final PaletteCloseIcon sut = new PaletteCloseIcon();
         }
 
@@ -811,7 +811,6 @@ implements MetalIconFactoryClassTests<MetalIconFactory> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeControlIconClassTest
     implements TreeControlIconClassTests<TreeControlIcon> {

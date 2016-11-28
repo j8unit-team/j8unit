@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.cert.CertificateEncodingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CertificateEncodingExceptionClassTest
 implements CertificateEncodingExceptionClassTests<CertificateEncodingException> {
@@ -44,6 +43,7 @@ implements CertificateEncodingExceptionClassTests<CertificateEncodingException> 
     public void create_CertificateEncodingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertificateEncodingException sut = new CertificateEncodingException();
     }
 

@@ -8,7 +8,6 @@ import org.omg.IOP.RMICustomMaxStreamFormat;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RMICustomMaxStreamFormat} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.RMICustomMaxStreamFormatClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RMICustomMaxStreamFormatClassTest
 implements RMICustomMaxStreamFormatClassTests<RMICustomMaxStreamFormat> {

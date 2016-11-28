@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Random} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.RandomClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RandomClassTest
 implements RandomClassTests<Random> {
@@ -42,6 +41,7 @@ implements RandomClassTests<Random> {
     public void create_Random()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Random sut = new Random();
     }
 

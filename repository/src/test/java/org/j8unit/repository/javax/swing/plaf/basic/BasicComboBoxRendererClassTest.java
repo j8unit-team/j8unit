@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicComboBoxRenderer} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests}).
  */
-@SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class BasicComboBoxRendererClassTest
 implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
@@ -44,6 +43,7 @@ implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
     public void create_BasicComboBoxRenderer()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicComboBoxRenderer sut = new BasicComboBoxRenderer();
     }
 
@@ -56,7 +56,6 @@ implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests.UIResourceClassTests}).
      */
-    @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests.UIResourceClassTests<UIResource> {
@@ -87,6 +86,7 @@ implements BasicComboBoxRendererClassTests<BasicComboBoxRenderer> {
         public void create_UIResource()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final UIResource sut = new UIResource();
         }
 

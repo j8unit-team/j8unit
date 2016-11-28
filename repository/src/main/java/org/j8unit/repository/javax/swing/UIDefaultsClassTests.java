@@ -51,7 +51,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UIDefaultsClassTests<SUT extends UIDefaults>
@@ -116,7 +115,6 @@ extends HashtableClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActiveValueClassTests<SUT extends ActiveValue>
@@ -182,7 +180,6 @@ extends HashtableClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LazyInputMapClassTests<SUT extends LazyInputMap>
@@ -249,7 +246,6 @@ extends HashtableClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ProxyLazyValueClassTests<SUT extends ProxyLazyValue>
@@ -316,7 +312,6 @@ extends HashtableClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LazyValueClassTests<SUT extends LazyValue>

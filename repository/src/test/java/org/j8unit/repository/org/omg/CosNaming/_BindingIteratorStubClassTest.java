@@ -12,7 +12,6 @@ import org.omg.CosNaming._BindingIteratorStub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _BindingIteratorStub} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming._BindingIteratorStubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _BindingIteratorStubClassTest
 implements _BindingIteratorStubClassTests<_BindingIteratorStub> {
@@ -43,6 +42,7 @@ implements _BindingIteratorStubClassTests<_BindingIteratorStub> {
     public void create__BindingIteratorStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _BindingIteratorStub sut = new _BindingIteratorStub();
     }
 

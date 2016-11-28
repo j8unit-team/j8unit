@@ -22,7 +22,6 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownEncodingHelperTests<SUT extends UnknownEncodingHelper>

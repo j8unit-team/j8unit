@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownHostException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.net.UnknownHostExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownHostExceptionClassTest
 implements org.j8unit.repository.java.net.UnknownHostExceptionClassTests<UnknownHostException> {
@@ -65,6 +64,7 @@ implements org.j8unit.repository.java.net.UnknownHostExceptionClassTests<Unknown
     public void create_UnknownHostException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownHostException sut = new UnknownHostException();
     }
 

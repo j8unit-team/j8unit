@@ -44,7 +44,6 @@ import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SYSTEM_EXCEPTIONClassTests<SUT extends SYSTEM_EXCEPTION>

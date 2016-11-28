@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JRootPane} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JRootPaneClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JRootPaneClassTest
 implements JRootPaneClassTests<JRootPane> {
@@ -42,6 +41,7 @@ implements JRootPaneClassTests<JRootPane> {
     public void create_JRootPane()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JRootPane sut = new JRootPane();
     }
 

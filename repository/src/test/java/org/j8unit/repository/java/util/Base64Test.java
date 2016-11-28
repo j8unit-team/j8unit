@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Base64} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.Base64Tests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Base64Test
 implements Base64Tests<Base64> {
@@ -31,7 +30,6 @@ implements Base64Tests<Base64> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Encoder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.Base64Tests.EncoderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EncoderTest
     implements EncoderTests<Encoder> {
@@ -53,7 +51,6 @@ implements Base64Tests<Base64> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Decoder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.Base64Tests.DecoderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DecoderTest
     implements DecoderTests<Decoder> {

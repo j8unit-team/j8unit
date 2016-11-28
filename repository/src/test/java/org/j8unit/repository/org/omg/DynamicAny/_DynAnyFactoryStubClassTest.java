@@ -12,7 +12,6 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _DynAnyFactoryStub} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny._DynAnyFactoryStubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _DynAnyFactoryStubClassTest
 implements _DynAnyFactoryStubClassTests<_DynAnyFactoryStub> {
@@ -43,6 +42,7 @@ implements _DynAnyFactoryStubClassTests<_DynAnyFactoryStub> {
     public void create__DynAnyFactoryStub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _DynAnyFactoryStub sut = new _DynAnyFactoryStub();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.auth.login.AccountLockedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AccountLockedExceptionClassTest
 implements AccountLockedExceptionClassTests<AccountLockedException> {
@@ -44,6 +43,7 @@ implements AccountLockedExceptionClassTests<AccountLockedException> {
     public void create_AccountLockedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AccountLockedException sut = new AccountLockedException();
     }
 

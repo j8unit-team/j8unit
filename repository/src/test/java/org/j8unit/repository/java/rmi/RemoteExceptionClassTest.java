@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RemoteException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.rmi.RemoteExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RemoteExceptionClassTest
 implements RemoteExceptionClassTests<RemoteException> {
@@ -87,6 +86,7 @@ implements RemoteExceptionClassTests<RemoteException> {
     public void create_RemoteException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RemoteException sut = new RemoteException();
     }
 

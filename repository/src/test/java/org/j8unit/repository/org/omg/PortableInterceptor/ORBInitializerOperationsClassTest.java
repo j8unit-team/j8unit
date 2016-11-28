@@ -9,7 +9,6 @@ import org.omg.PortableInterceptor.ORBInitializerOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ORBInitializerOperationsClassTest
 implements ORBInitializerOperationsClassTests<ORBInitializerOperations> {

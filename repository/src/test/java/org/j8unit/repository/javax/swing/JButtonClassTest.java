@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JButton} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JButtonClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JButtonClassTest
 implements JButtonClassTests<JButton> {
@@ -87,6 +86,7 @@ implements JButtonClassTests<JButton> {
     public void create_JButton()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JButton sut = new JButton();
     }
 

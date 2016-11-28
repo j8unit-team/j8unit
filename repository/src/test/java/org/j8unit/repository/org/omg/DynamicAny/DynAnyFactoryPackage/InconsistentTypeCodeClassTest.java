@@ -13,7 +13,6 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeClassTest
 implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeClassTests<InconsistentTypeCode> {
@@ -44,6 +43,7 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.Inconsi
     public void create_InconsistentTypeCode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InconsistentTypeCode sut = new InconsistentTypeCode();
     }
 

@@ -24,6 +24,7 @@ import org.j8unit.generator.api.render.ConciseOriginRenderer;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.junit.Test;
 
+@SuppressWarnings("rawtypes")
 public class SmartRenderOriginBehaviourTest {
 
     private static final ConciseOriginRenderer ROB = new ConciseOriginRenderer() {};
@@ -360,7 +361,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_Enum()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends Enum> clazz = Enum.class;
+        final Class<? extends Enum> clazz = Enum.class;
         assertEquals("Enum", ROB.originSimpleNameOf(clazz));
         assertEquals("Enum", ROB.originCanonicalNameOf(clazz));
         assertEquals("Enum.class", ROB.originSimpleClassOf(clazz));
@@ -382,7 +383,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_EnumMap()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends EnumMap> clazz = EnumMap.class;
+        final Class<? extends EnumMap> clazz = EnumMap.class;
         assertEquals("EnumMap", ROB.originSimpleNameOf(clazz));
         assertEquals("java.util.EnumMap", ROB.originCanonicalNameOf(clazz));
         assertEquals("EnumMap.class", ROB.originSimpleClassOf(clazz));
@@ -404,7 +405,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_Supplier()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends Supplier> clazz = Supplier.class;
+        final Class<? extends Supplier> clazz = Supplier.class;
         assertEquals("Supplier", ROB.originSimpleNameOf(clazz));
         assertEquals("java.util.function.Supplier", ROB.originCanonicalNameOf(clazz));
         assertEquals("Supplier.class", ROB.originSimpleClassOf(clazz));
@@ -421,7 +422,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_Entry()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends Map.Entry> clazz = Map.Entry.class;
+        final Class<? extends Map.Entry> clazz = Map.Entry.class;
         assertEquals("Entry", ROB.originSimpleNameOf(clazz));
         assertEquals("java.util.Map.Entry", ROB.originCanonicalNameOf(clazz));
         assertEquals("Entry.class", ROB.originSimpleClassOf(clazz));
@@ -438,7 +439,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_SimpleImmutableEntry()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends Map.Entry> clazz = AbstractMap.SimpleImmutableEntry.class;
+        final Class<? extends Map.Entry> clazz = AbstractMap.SimpleImmutableEntry.class;
         assertEquals("SimpleImmutableEntry", ROB.originSimpleNameOf(clazz));
         assertEquals("java.util.AbstractMap.SimpleImmutableEntry", ROB.originCanonicalNameOf(clazz));
         assertEquals("SimpleImmutableEntry.class", ROB.originSimpleClassOf(clazz));
@@ -457,7 +458,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_XmlAdapter()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends XmlAdapter> clazz = javax.xml.bind.annotation.adapters.XmlAdapter.class;
+        final Class<? extends XmlAdapter> clazz = javax.xml.bind.annotation.adapters.XmlAdapter.class;
         assertEquals("XmlAdapter", ROB.originSimpleNameOf(clazz));
         assertEquals("javax.xml.bind.annotation.adapters.XmlAdapter", ROB.originCanonicalNameOf(clazz));
         assertEquals("XmlAdapter.class", ROB.originSimpleClassOf(clazz));
@@ -496,7 +497,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_OfPrimitive()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends OfPrimitive> clazz = Spliterator.OfPrimitive.class;
+        final Class<? extends OfPrimitive> clazz = Spliterator.OfPrimitive.class;
         assertEquals("OfPrimitive", ROB.originSimpleNameOf(clazz));
         assertEquals("java.util.Spliterator.OfPrimitive", ROB.originCanonicalNameOf(clazz));
         assertEquals("OfPrimitive.class", ROB.originSimpleClassOf(clazz));
@@ -538,7 +539,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_A()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends A> clazz = A.class;
+        final Class<? extends A> clazz = A.class;
         assertEquals("A", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.A", ROB.originCanonicalNameOf(clazz));
         assertEquals("A.class", ROB.originSimpleClassOf(clazz));
@@ -566,7 +567,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_B()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends B> clazz = B.class;
+        final Class<? extends B> clazz = B.class;
         assertEquals("B", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.B", ROB.originCanonicalNameOf(clazz));
         assertEquals("B.class", ROB.originSimpleClassOf(clazz));
@@ -594,7 +595,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_C()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends C> clazz = C.class;
+        final Class<? extends C> clazz = C.class;
         assertEquals("C", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.C", ROB.originCanonicalNameOf(clazz));
         assertEquals("C.class", ROB.originSimpleClassOf(clazz));
@@ -621,7 +622,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_D()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends D> clazz = D.class;
+        final Class<? extends D> clazz = D.class;
         assertEquals("D", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.D", ROB.originCanonicalNameOf(clazz));
         assertEquals("D.class", ROB.originSimpleClassOf(clazz));
@@ -648,7 +649,7 @@ public class SmartRenderOriginBehaviourTest {
     @Test
     public void test_E()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends E> clazz = E.class;
+        final Class<? extends E> clazz = E.class;
         assertEquals("E", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.E", ROB.originCanonicalNameOf(clazz));
         assertEquals("E.class", ROB.originSimpleClassOf(clazz));
@@ -668,28 +669,28 @@ public class SmartRenderOriginBehaviourTest {
         assertEquals(asList("S", "U", "java.util.function.BiFunction<U, V, ?>", "V"), ROB.listOfTypeVariableNamesOf(genericSuperClass));
     }
 
-    private static interface NamespaceTest<A extends OriginRenderer, B extends String, C extends java.util.Map.Entry<K, V>, K, V> {
+    private static interface NamespaceTest<TA extends OriginRenderer, TB extends String, TC extends java.util.Map.Entry<K, V>, K, V> {
     }
 
     @Test
     public void test_NamespaceTest()
     throws Exception {
-        final @SuppressWarnings("rawtypes") Class<? extends NamespaceTest> clazz = NamespaceTest.class;
+        final Class<? extends NamespaceTest> clazz = NamespaceTest.class;
         assertEquals("NamespaceTest", ROB.originSimpleNameOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest", ROB.originCanonicalNameOf(clazz));
         assertEquals("NamespaceTest.class", ROB.originSimpleClassOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest.class", ROB.originCanonicalClassOf(clazz));
         assertEquals(asList("?", "?", "?", "?", "?"), ROB.listOfTypeParameterWildcardsOf(clazz));
-        assertEquals(asList("A", "B", "C", "K", "V"), ROB.listOfTypeParameterNamesOf(clazz));
-        assertEquals(asList("A extends org.j8unit.generator.api.render.OriginRenderer", "B extends String", "C extends java.util.Map.Entry<K, V>", "K", "V"),
+        assertEquals(asList("TA", "TB", "TC", "K", "V"), ROB.listOfTypeParameterNamesOf(clazz));
+        assertEquals(asList("TA extends org.j8unit.generator.api.render.OriginRenderer", "TB extends String", "TC extends java.util.Map.Entry<K, V>", "K", "V"),
                      ROB.listOfTypeParameterDefinitionsOf(clazz));
         assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest<?, ?, ?, ?, ?>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterWildcardsOf));
-        assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest<A, B, C, K, V>",
+        assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest<TA, TB, TC, K, V>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterNamesOf));
-        assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest<A extends org.j8unit.generator.api.render.OriginRenderer, B extends String, C extends java.util.Map.Entry<K, V>, K, V>",
+        assertEquals("org.j8unit.generator.render.SmartRenderOriginBehaviourTest.NamespaceTest<TA extends org.j8unit.generator.api.render.OriginRenderer, TB extends String, TC extends java.util.Map.Entry<K, V>, K, V>",
                      ROB.originCanonicalNameOf(clazz, ROB::listOfTypeParameterDefinitionsOf));
-        assertEquals(asList("A", "B", "C", "K", "V"), ROB.listOfTypeVariableNamesOf(clazz));
+        assertEquals(asList("TA", "TB", "TC", "K", "V"), ROB.listOfTypeVariableNamesOf(clazz));
     }
 
 }

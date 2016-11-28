@@ -12,8 +12,8 @@ import org.xml.sax.HandlerBase;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HandlerBase} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.HandlerBaseClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("deprecation")
 public class HandlerBaseClassTest
 implements HandlerBaseClassTests<HandlerBase> {
 
@@ -42,6 +42,7 @@ implements HandlerBaseClassTests<HandlerBase> {
     public void create_HandlerBase()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HandlerBase sut = new HandlerBase();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Paper} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.awt.print.PaperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PaperClassTest
 implements PaperClassTests<Paper> {
@@ -42,6 +41,7 @@ implements PaperClassTests<Paper> {
     public void create_Paper()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Paper sut = new Paper();
     }
 

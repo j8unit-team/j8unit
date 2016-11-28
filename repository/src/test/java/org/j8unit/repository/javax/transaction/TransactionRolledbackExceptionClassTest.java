@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.transaction.TransactionRolledbackExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TransactionRolledbackExceptionClassTest
 implements TransactionRolledbackExceptionClassTests<TransactionRolledbackException> {
@@ -44,6 +43,7 @@ implements TransactionRolledbackExceptionClassTests<TransactionRolledbackExcepti
     public void create_TransactionRolledbackException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TransactionRolledbackException sut = new TransactionRolledbackException();
     }
 

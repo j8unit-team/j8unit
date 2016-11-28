@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.util.ValidationEventCollectorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ValidationEventCollectorClassTest
 implements ValidationEventCollectorClassTests<ValidationEventCollector> {
@@ -44,6 +43,7 @@ implements ValidationEventCollectorClassTests<ValidationEventCollector> {
     public void create_ValidationEventCollector()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ValidationEventCollector sut = new ValidationEventCollector();
     }
 

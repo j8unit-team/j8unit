@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.HashPrintServiceAttributeSetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HashPrintServiceAttributeSetClassTest
 implements HashPrintServiceAttributeSetClassTests<HashPrintServiceAttributeSet> {
@@ -116,6 +115,7 @@ implements HashPrintServiceAttributeSetClassTests<HashPrintServiceAttributeSet> 
     public void create_HashPrintServiceAttributeSet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashPrintServiceAttributeSet sut = new HashPrintServiceAttributeSet();
     }
 

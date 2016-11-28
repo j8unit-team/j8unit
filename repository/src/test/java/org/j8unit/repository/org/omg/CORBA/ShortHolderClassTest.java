@@ -12,7 +12,6 @@ import org.omg.CORBA.ShortHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ShortHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ShortHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ShortHolderClassTest
 implements ShortHolderClassTests<ShortHolder> {
@@ -64,6 +63,7 @@ implements ShortHolderClassTests<ShortHolder> {
     public void create_ShortHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ShortHolder sut = new ShortHolder();
     }
 

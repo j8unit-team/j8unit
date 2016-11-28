@@ -29,9 +29,9 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface MetalComboBoxUITests<SUT extends MetalComboBoxUI>
 extends BasicComboBoxUITests<SUT> {
 
@@ -275,7 +275,6 @@ extends BasicComboBoxUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboBoxLayoutManagerTests<SUT extends MetalComboBoxLayoutManager>
@@ -357,7 +356,6 @@ extends BasicComboBoxUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalPropertyChangeListenerTests<SUT extends MetalPropertyChangeListener>
@@ -413,7 +411,6 @@ extends BasicComboBoxUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboPopupTests<SUT extends MetalComboPopup>

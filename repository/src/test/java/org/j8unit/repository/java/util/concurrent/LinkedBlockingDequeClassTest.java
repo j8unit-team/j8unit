@@ -43,6 +43,7 @@ implements LinkedBlockingDequeClassTests<LinkedBlockingDeque> {
     public void create_LinkedBlockingDeque()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedBlockingDeque sut = new LinkedBlockingDeque();
     }
 

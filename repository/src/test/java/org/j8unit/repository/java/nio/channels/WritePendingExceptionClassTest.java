@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link WritePendingException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.java.nio.channels.WritePendingExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WritePendingExceptionClassTest
 implements WritePendingExceptionClassTests<WritePendingException> {
@@ -43,6 +42,7 @@ implements WritePendingExceptionClassTests<WritePendingException> {
     public void create_WritePendingException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final WritePendingException sut = new WritePendingException();
     }
 

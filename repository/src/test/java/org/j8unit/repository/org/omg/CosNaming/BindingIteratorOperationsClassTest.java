@@ -9,7 +9,6 @@ import org.omg.CosNaming.BindingIteratorOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BindingIteratorOperationsClassTest
 implements BindingIteratorOperationsClassTests<BindingIteratorOperations> {

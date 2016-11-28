@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.NotYetConnectedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotYetConnectedExceptionClassTest
 implements NotYetConnectedExceptionClassTests<NotYetConnectedException> {
@@ -44,6 +43,7 @@ implements NotYetConnectedExceptionClassTests<NotYetConnectedException> {
     public void create_NotYetConnectedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotYetConnectedException sut = new NotYetConnectedException();
     }
 

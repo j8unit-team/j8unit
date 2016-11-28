@@ -12,7 +12,6 @@ import org.omg.Dynamic.Parameter;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Parameter} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.Dynamic.ParameterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ParameterClassTest
 implements ParameterClassTests<Parameter> {
@@ -42,6 +41,7 @@ implements ParameterClassTests<Parameter> {
     public void create_Parameter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Parameter sut = new Parameter();
     }
 

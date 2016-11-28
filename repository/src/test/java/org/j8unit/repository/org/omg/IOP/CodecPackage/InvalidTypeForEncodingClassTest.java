@@ -13,7 +13,6 @@ import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidTypeForEncodingClassTest
 implements InvalidTypeForEncodingClassTests<InvalidTypeForEncoding> {
@@ -44,6 +43,7 @@ implements InvalidTypeForEncodingClassTests<InvalidTypeForEncoding> {
     public void create_InvalidTypeForEncoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidTypeForEncoding sut = new InvalidTypeForEncoding();
     }
 

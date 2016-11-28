@@ -44,7 +44,6 @@ implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext>
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SmallAttributeSetTest
     implements SmallAttributeSetTests<SmallAttributeSet> {
@@ -66,7 +65,6 @@ implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext>
      * Specific JUnit test class to proof the instance relevant aspects of type {@link NamedStyle} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NamedStyleTest
     implements NamedStyleTests<NamedStyle> {

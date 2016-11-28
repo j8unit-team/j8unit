@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarSeparatorUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicToolBarSeparatorUIClassTest
 implements BasicToolBarSeparatorUIClassTests<BasicToolBarSeparatorUI> {
@@ -44,6 +43,7 @@ implements BasicToolBarSeparatorUIClassTests<BasicToolBarSeparatorUI> {
     public void create_BasicToolBarSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicToolBarSeparatorUI sut = new BasicToolBarSeparatorUI();
     }
 

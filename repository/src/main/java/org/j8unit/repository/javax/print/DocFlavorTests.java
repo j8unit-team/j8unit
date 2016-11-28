@@ -34,7 +34,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocFlavorTests<SUT extends DocFlavor>
@@ -242,7 +241,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SERVICE_FORMATTEDTests<SUT extends SERVICE_FORMATTED>
@@ -273,7 +271,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface URLTests<SUT extends URL>
@@ -304,7 +301,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CHAR_ARRAYTests<SUT extends CHAR_ARRAY>
@@ -335,7 +331,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface INPUT_STREAMTests<SUT extends INPUT_STREAM>
@@ -366,7 +361,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface STRINGTests<SUT extends STRING>
@@ -397,7 +391,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface READERTests<SUT extends READER>
@@ -428,7 +421,6 @@ extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BYTE_ARRAYTests<SUT extends BYTE_ARRAY>

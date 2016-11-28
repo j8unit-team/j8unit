@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link DirStateFactory} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DirStateFactoryTest
 implements DirStateFactoryTests<DirStateFactory> {
@@ -30,7 +29,6 @@ implements DirStateFactoryTests<DirStateFactory> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Result} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests.ResultTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ResultTest
     implements ResultTests<Result> {

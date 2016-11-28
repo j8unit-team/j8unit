@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectInputStream} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.io.ObjectInputStreamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectInputStreamClassTest
 implements ObjectInputStreamClassTests<ObjectInputStream> {
@@ -57,7 +56,6 @@ implements ObjectInputStreamClassTests<ObjectInputStream> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link GetField} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.io.ObjectInputStreamClassTests.GetFieldClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class GetFieldClassTest
     implements GetFieldClassTests<GetField> {

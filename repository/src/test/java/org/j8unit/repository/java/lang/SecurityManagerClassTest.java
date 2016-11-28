@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SecurityManager} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.SecurityManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SecurityManagerClassTest
 implements SecurityManagerClassTests<SecurityManager> {
@@ -41,6 +40,7 @@ implements SecurityManagerClassTests<SecurityManager> {
     public void create_SecurityManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SecurityManager sut = new SecurityManager();
     }
 

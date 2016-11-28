@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.NotCompliantMBeanExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotCompliantMBeanExceptionClassTest
 implements NotCompliantMBeanExceptionClassTests<NotCompliantMBeanException> {
@@ -44,6 +43,7 @@ implements NotCompliantMBeanExceptionClassTests<NotCompliantMBeanException> {
     public void create_NotCompliantMBeanException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotCompliantMBeanException sut = new NotCompliantMBeanException();
     }
 

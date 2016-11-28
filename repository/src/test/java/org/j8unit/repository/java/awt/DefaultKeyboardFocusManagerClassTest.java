@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultKeyboardFocusManager} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultKeyboardFocusManagerClassTest
 implements DefaultKeyboardFocusManagerClassTests<DefaultKeyboardFocusManager> {
@@ -43,6 +42,7 @@ implements DefaultKeyboardFocusManagerClassTests<DefaultKeyboardFocusManager> {
     public void create_DefaultKeyboardFocusManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultKeyboardFocusManager sut = new DefaultKeyboardFocusManager();
     }
 

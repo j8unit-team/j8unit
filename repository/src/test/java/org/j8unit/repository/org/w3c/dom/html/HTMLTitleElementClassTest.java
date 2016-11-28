@@ -8,7 +8,6 @@ import org.w3c.dom.html.HTMLTitleElement;
  * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLTitleElement} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLTitleElementClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLTitleElementClassTest
 implements HTMLTitleElementClassTests<HTMLTitleElement> {

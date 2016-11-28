@@ -54,7 +54,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
      * Specific JUnit test class to proof the instance relevant aspects of type {@link RunElement} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class RunElementTest
     implements RunElementTests<RunElement> {
@@ -76,7 +75,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
      * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLReader} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HTMLReaderTest
     implements HTMLReaderTests<HTMLReader> {
@@ -97,7 +95,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class SpecialActionTest
         implements SpecialActionTests<SpecialAction> {
@@ -120,7 +117,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class IsindexActionTest
         implements IsindexActionTests<IsindexAction> {
@@ -143,7 +139,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class TagActionTest
         implements TagActionTests<TagAction> {
@@ -166,7 +161,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class PreActionTest
         implements PreActionTests<PreAction> {
@@ -189,7 +183,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class HiddenActionTest
         implements HiddenActionTests<HiddenAction> {
@@ -212,7 +205,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class BlockActionTest
         implements BlockActionTests<BlockAction> {
@@ -235,7 +227,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class FormActionTest
         implements FormActionTests<FormAction> {
@@ -258,7 +249,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class CharacterActionTest
         implements CharacterActionTests<CharacterAction> {
@@ -281,7 +271,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
          * reusing the J8Unit test interface
          * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}).
          */
-
         @RunWith(J8Unit4.class)
         public static class ParagraphActionTest
         implements ParagraphActionTests<ParagraphAction> {
@@ -306,7 +295,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BlockElementTest
     implements BlockElementTests<BlockElement> {
@@ -328,7 +316,6 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument>
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Iterator} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class IteratorTest
     implements IteratorTests<Iterator> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PlainDocument} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.PlainDocumentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PlainDocumentClassTest
 implements PlainDocumentClassTests<PlainDocument> {
@@ -65,6 +64,7 @@ implements PlainDocumentClassTests<PlainDocument> {
     public void create_PlainDocument()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PlainDocument sut = new PlainDocument();
     }
 

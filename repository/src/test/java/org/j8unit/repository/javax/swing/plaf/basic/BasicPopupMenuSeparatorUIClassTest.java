@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuSeparatorUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicPopupMenuSeparatorUIClassTest
 implements BasicPopupMenuSeparatorUIClassTests<BasicPopupMenuSeparatorUI> {
@@ -44,6 +43,7 @@ implements BasicPopupMenuSeparatorUIClassTests<BasicPopupMenuSeparatorUI> {
     public void create_BasicPopupMenuSeparatorUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicPopupMenuSeparatorUI sut = new BasicPopupMenuSeparatorUI();
     }
 

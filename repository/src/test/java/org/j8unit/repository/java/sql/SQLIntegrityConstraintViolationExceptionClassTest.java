@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * (by simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLIntegrityConstraintViolationExceptionClassTest
 implements SQLIntegrityConstraintViolationExceptionClassTests<SQLIntegrityConstraintViolationException> {
@@ -144,6 +143,7 @@ implements SQLIntegrityConstraintViolationExceptionClassTests<SQLIntegrityConstr
     public void create_SQLIntegrityConstraintViolationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLIntegrityConstraintViolationException sut = new SQLIntegrityConstraintViolationException();
     }
 

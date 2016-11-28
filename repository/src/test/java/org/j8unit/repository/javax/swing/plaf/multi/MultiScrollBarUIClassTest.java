@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiScrollBarUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiScrollBarUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiScrollBarUIClassTest
 implements MultiScrollBarUIClassTests<MultiScrollBarUI> {
@@ -43,6 +42,7 @@ implements MultiScrollBarUIClassTests<MultiScrollBarUI> {
     public void create_MultiScrollBarUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiScrollBarUI sut = new MultiScrollBarUI();
     }
 

@@ -10,7 +10,6 @@ import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLStringHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class URLStringHelperTest
 implements URLStringHelperTests<URLStringHelper> {

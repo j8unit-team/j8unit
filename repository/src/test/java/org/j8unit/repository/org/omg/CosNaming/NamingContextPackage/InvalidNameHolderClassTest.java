@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextPackage.InvalidNameHolder;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidNameHolderClassTest
 implements InvalidNameHolderClassTests<InvalidNameHolder> {
@@ -69,6 +68,7 @@ implements InvalidNameHolderClassTests<InvalidNameHolder> {
     public void create_InvalidNameHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidNameHolder sut = new InvalidNameHolder();
     }
 

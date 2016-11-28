@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiScrollPaneUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiScrollPaneUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiScrollPaneUIClassTest
 implements MultiScrollPaneUIClassTests<MultiScrollPaneUI> {
@@ -43,6 +42,7 @@ implements MultiScrollPaneUIClassTests<MultiScrollPaneUI> {
     public void create_MultiScrollPaneUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiScrollPaneUI sut = new MultiScrollPaneUI();
     }
 

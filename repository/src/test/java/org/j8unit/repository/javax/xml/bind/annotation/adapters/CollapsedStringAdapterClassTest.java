@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.bind.annotation.adapters.CollapsedStringAdapterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CollapsedStringAdapterClassTest
 implements CollapsedStringAdapterClassTests<CollapsedStringAdapter> {
@@ -44,6 +43,7 @@ implements CollapsedStringAdapterClassTests<CollapsedStringAdapter> {
     public void create_CollapsedStringAdapter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CollapsedStringAdapter sut = new CollapsedStringAdapter();
     }
 

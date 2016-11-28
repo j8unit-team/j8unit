@@ -13,7 +13,6 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidAddressClassTest
 implements InvalidAddressClassTests<InvalidAddress> {
@@ -44,6 +43,7 @@ implements InvalidAddressClassTests<InvalidAddress> {
     public void create_InvalidAddress()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidAddress sut = new InvalidAddress();
     }
 

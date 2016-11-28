@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * (by simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.xpath.XPathFactoryConfigurationExceptionTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XPathFactoryConfigurationExceptionTest
 implements XPathFactoryConfigurationExceptionTests<XPathFactoryConfigurationException> {

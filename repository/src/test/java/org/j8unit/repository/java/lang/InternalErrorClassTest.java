@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InternalError} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.lang.InternalErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InternalErrorClassTest
 implements InternalErrorClassTests<InternalError> {
@@ -107,6 +106,7 @@ implements InternalErrorClassTests<InternalError> {
     public void create_InternalError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InternalError sut = new InternalError();
     }
 

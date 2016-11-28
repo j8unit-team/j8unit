@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyleSheet} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StyleSheetClassTest
 implements StyleSheetClassTests<StyleSheet> {
@@ -44,6 +43,7 @@ implements StyleSheetClassTests<StyleSheet> {
     public void create_StyleSheet()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyleSheet sut = new StyleSheet();
     }
 
@@ -77,7 +77,6 @@ implements StyleSheetClassTests<StyleSheet> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BoxPainterClassTest
     implements BoxPainterClassTests<BoxPainter> {
@@ -100,7 +99,6 @@ implements StyleSheetClassTests<StyleSheet> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListPainterClassTest
     implements ListPainterClassTests<ListPainter> {

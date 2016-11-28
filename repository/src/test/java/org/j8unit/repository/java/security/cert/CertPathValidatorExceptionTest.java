@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
      * J8Unit test interface
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ReasonTest
     implements ReasonTests<Reason> {
@@ -68,7 +67,6 @@ implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidator
      * the J8Unit test interface
      * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicReasonTest

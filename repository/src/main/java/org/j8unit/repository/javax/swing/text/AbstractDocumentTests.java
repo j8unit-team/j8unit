@@ -39,7 +39,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractDocumentTests<SUT extends AbstractDocument>
@@ -818,7 +817,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractElementTests<SUT extends AbstractElement>
@@ -1619,7 +1617,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ContentTests<SUT extends Content>
@@ -1792,7 +1789,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementEditTests<SUT extends ElementEdit>
@@ -1967,7 +1963,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BranchElementTests<SUT extends BranchElement>
@@ -2284,7 +2279,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeContextTests<SUT extends AttributeContext>
@@ -2481,7 +2475,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LeafElementTests<SUT extends LeafElement>
@@ -2752,7 +2745,6 @@ extends DocumentTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultDocumentEventTests<SUT extends DefaultDocumentEvent>

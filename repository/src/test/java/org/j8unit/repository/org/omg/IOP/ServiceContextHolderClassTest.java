@@ -12,7 +12,6 @@ import org.omg.IOP.ServiceContextHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceContextHolder} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.ServiceContextHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServiceContextHolderClassTest
 implements ServiceContextHolderClassTests<ServiceContextHolder> {
@@ -65,6 +64,7 @@ implements ServiceContextHolderClassTests<ServiceContextHolder> {
     public void create_ServiceContextHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceContextHolder sut = new ServiceContextHolder();
     }
 

@@ -12,7 +12,6 @@ import org.omg.CORBA.DynAnyPackage.InvalidValue;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidValue} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidValueClassTest
 implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTests<InvalidValue> {
@@ -43,6 +42,7 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidValueClassTe
     public void create_InvalidValue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidValue sut = new InvalidValue();
     }
 

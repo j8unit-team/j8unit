@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link MediaSize} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MediaSizeTest
 implements MediaSizeTests<MediaSize> {
@@ -34,7 +33,6 @@ implements MediaSizeTests<MediaSize> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link JIS} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class JISTest
     implements JISTests<JIS> {
@@ -56,7 +54,6 @@ implements MediaSizeTests<MediaSize> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link ISO} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ISOTest
     implements ISOTests<ISO> {
@@ -78,7 +75,6 @@ implements MediaSizeTests<MediaSize> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Other} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class OtherTest
     implements OtherTests<Other> {
@@ -100,7 +96,6 @@ implements MediaSizeTests<MediaSize> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link NA} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NATest
     implements NATests<NA> {
@@ -123,7 +118,6 @@ implements MediaSizeTests<MediaSize> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class EngineeringTest
     implements EngineeringTests<Engineering> {

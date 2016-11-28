@@ -8,7 +8,6 @@ import org.omg.PortableInterceptor.ORBInitInfoOperations;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ORBInitInfoOperations} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ORBInitInfoOperationsClassTest
 implements ORBInitInfoOperationsClassTests<ORBInitInfoOperations> {

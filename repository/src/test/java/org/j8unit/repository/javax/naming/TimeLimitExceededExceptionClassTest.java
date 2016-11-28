@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link TimeLimitExceededException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.TimeLimitExceededExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TimeLimitExceededExceptionClassTest
 implements TimeLimitExceededExceptionClassTests<TimeLimitExceededException> {
@@ -43,6 +42,7 @@ implements TimeLimitExceededExceptionClassTests<TimeLimitExceededException> {
     public void create_TimeLimitExceededException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final TimeLimitExceededException sut = new TimeLimitExceededException();
     }
 

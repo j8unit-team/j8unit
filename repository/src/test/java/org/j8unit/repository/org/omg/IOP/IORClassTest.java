@@ -12,7 +12,6 @@ import org.omg.IOP.IOR;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IOR} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.org.omg.IOP.IORClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IORClassTest
 implements IORClassTests<IOR> {
@@ -42,6 +41,7 @@ implements IORClassTests<IOR> {
     public void create_IOR()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IOR sut = new IOR();
     }
 

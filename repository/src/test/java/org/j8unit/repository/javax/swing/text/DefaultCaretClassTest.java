@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultCaret} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DefaultCaretClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultCaretClassTest
 implements DefaultCaretClassTests<DefaultCaret> {
@@ -42,6 +41,7 @@ implements DefaultCaretClassTests<DefaultCaret> {
     public void create_DefaultCaret()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultCaret sut = new DefaultCaret();
     }
 

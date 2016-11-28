@@ -30,7 +30,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTreeUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicTreeUIClassTest
 implements BasicTreeUIClassTests<BasicTreeUI> {
@@ -60,6 +59,7 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
     public void create_BasicTreeUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicTreeUI sut = new BasicTreeUI();
     }
 
@@ -93,7 +93,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.KeyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class KeyHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.KeyHandlerClassTests<KeyHandler> {
@@ -139,7 +138,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeSelectionHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeSelectionHandlerClassTest
     implements TreeSelectionHandlerClassTests<TreeSelectionHandler> {
@@ -185,7 +183,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.ComponentHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComponentHandlerClassTest
     implements ComponentHandlerClassTests<ComponentHandler> {
@@ -231,7 +228,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -277,7 +273,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeCancelEditingActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeCancelEditingActionClassTest
     implements TreeCancelEditingActionClassTests<TreeCancelEditingAction> {
@@ -326,7 +321,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeToggleActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeToggleActionClassTest
     implements TreeToggleActionClassTests<TreeToggleAction> {
@@ -373,7 +367,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * (by simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.SelectionModelPropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SelectionModelPropertyChangeHandlerClassTest
     implements SelectionModelPropertyChangeHandlerClassTests<SelectionModelPropertyChangeHandler> {
@@ -421,7 +414,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.MouseHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseHandlerClassTest
     implements MouseHandlerClassTests<MouseHandler> {
@@ -467,7 +459,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.CellEditorHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class CellEditorHandlerClassTest
     implements CellEditorHandlerClassTests<CellEditorHandler> {
@@ -513,7 +504,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeHomeActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeHomeActionClassTest
     implements TreeHomeActionClassTests<TreeHomeAction> {
@@ -560,7 +550,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreePageActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreePageActionClassTest
     implements TreePageActionClassTests<TreePageAction> {
@@ -607,7 +596,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeTraverseActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeTraverseActionClassTest
     implements TreeTraverseActionClassTests<TreeTraverseAction> {
@@ -655,7 +643,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.NodeDimensionsHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NodeDimensionsHandlerClassTest
     implements NodeDimensionsHandlerClassTests<NodeDimensionsHandler> {
@@ -701,7 +688,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeModelHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeModelHandlerClassTest
     implements TreeModelHandlerClassTests<TreeModelHandler> {
@@ -747,7 +733,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeExpansionHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeExpansionHandlerClassTest
     implements TreeExpansionHandlerClassTests<TreeExpansionHandler> {
@@ -793,7 +778,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.TreeIncrementActionClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TreeIncrementActionClassTest
     implements TreeIncrementActionClassTests<TreeIncrementAction> {
@@ -841,7 +825,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -887,7 +870,6 @@ implements BasicTreeUIClassTests<BasicTreeUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.MouseInputHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {

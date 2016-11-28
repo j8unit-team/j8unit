@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ParserConfigurationExceptionClassTest
 implements ParserConfigurationExceptionClassTests<ParserConfigurationException> {
@@ -44,6 +43,7 @@ implements ParserConfigurationExceptionClassTests<ParserConfigurationException> 
     public void create_ParserConfigurationException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParserConfigurationException sut = new ParserConfigurationException();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JToolBar} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JToolBarClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JToolBarClassTest
 implements JToolBarClassTests<JToolBar> {
@@ -43,6 +42,7 @@ implements JToolBarClassTests<JToolBar> {
     public void create_JToolBar()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JToolBar sut = new JToolBar();
     }
 
@@ -120,7 +120,6 @@ implements JToolBarClassTests<JToolBar> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Separator} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.JToolBarClassTests.SeparatorClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SeparatorClassTest
     implements SeparatorClassTests<Separator> {
@@ -150,6 +149,7 @@ implements JToolBarClassTests<JToolBar> {
         public void create_Separator()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Separator sut = new Separator();
         }
 

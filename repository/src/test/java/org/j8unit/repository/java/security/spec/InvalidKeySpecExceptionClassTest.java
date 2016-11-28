@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidKeySpecExceptionClassTest
 implements InvalidKeySpecExceptionClassTests<InvalidKeySpecException> {
@@ -113,6 +112,7 @@ implements InvalidKeySpecExceptionClassTests<InvalidKeySpecException> {
     public void create_InvalidKeySpecException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidKeySpecException sut = new InvalidKeySpecException();
     }
 

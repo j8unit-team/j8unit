@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicComboPopup} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicComboPopupClassTest
 implements BasicComboPopupClassTests<BasicComboPopup> {
@@ -58,7 +57,6 @@ implements BasicComboPopupClassTests<BasicComboPopup> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.ListDataHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.ListDataHandlerClassTests<ListDataHandler> {
@@ -104,7 +102,6 @@ implements BasicComboPopupClassTests<BasicComboPopup> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.InvocationKeyHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InvocationKeyHandlerClassTest
     implements InvocationKeyHandlerClassTests<InvocationKeyHandler> {

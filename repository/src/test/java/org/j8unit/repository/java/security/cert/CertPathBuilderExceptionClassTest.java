@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.security.cert.CertPathBuilderExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CertPathBuilderExceptionClassTest
 implements CertPathBuilderExceptionClassTests<CertPathBuilderException> {
@@ -113,6 +112,7 @@ implements CertPathBuilderExceptionClassTests<CertPathBuilderException> {
     public void create_CertPathBuilderException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CertPathBuilderException sut = new CertPathBuilderException();
     }
 

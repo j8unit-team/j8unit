@@ -43,7 +43,6 @@ implements FactoryBasedJ8UnitTest<BasicDesktopIconUI>, BasicDesktopIconUITests<B
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests.MouseInputHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests.MouseInputHandlerTests<MouseInputHandler> {

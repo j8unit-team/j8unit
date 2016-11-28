@@ -12,7 +12,6 @@ import org.omg.CORBA.portable.UnknownException;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.UnknownExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownExceptionClassTest
 implements UnknownExceptionClassTests<UnknownException> {

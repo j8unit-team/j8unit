@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownServiceException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.net.UnknownServiceExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownServiceExceptionClassTest
 implements UnknownServiceExceptionClassTests<UnknownServiceException> {
@@ -42,6 +41,7 @@ implements UnknownServiceExceptionClassTests<UnknownServiceException> {
     public void create_UnknownServiceException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownServiceException sut = new UnknownServiceException();
     }
 

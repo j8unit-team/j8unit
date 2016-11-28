@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RepaintManager} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.RepaintManagerClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RepaintManagerClassTest
 implements RepaintManagerClassTests<RepaintManager> {
@@ -42,6 +41,7 @@ implements RepaintManagerClassTests<RepaintManager> {
     public void create_RepaintManager()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RepaintManager sut = new RepaintManager();
     }
 

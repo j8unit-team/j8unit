@@ -29,7 +29,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPoolExecutorTests<SUT extends ThreadPoolExecutor>
@@ -754,7 +753,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardPolicyTests<SUT extends DiscardPolicy>
@@ -810,7 +808,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbortPolicyTests<SUT extends AbortPolicy>
@@ -866,7 +863,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallerRunsPolicyTests<SUT extends CallerRunsPolicy>
@@ -923,7 +919,6 @@ extends AbstractExecutorServiceTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardOldestPolicyTests<SUT extends DiscardOldestPolicy>

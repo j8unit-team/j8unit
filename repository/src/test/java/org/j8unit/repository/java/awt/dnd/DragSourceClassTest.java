@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DragSource} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.dnd.DragSourceClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DragSourceClassTest
 implements DragSourceClassTests<DragSource> {
@@ -42,6 +41,7 @@ implements DragSourceClassTests<DragSource> {
     public void create_DragSource()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DragSource sut = new DragSource();
     }
 

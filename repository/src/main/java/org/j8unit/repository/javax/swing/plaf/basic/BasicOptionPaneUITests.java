@@ -32,7 +32,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicOptionPaneUITests<SUT extends BasicOptionPaneUI>
@@ -205,7 +204,6 @@ extends OptionPaneUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends PropertyChangeHandler>
@@ -262,7 +260,6 @@ extends OptionPaneUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonAreaLayoutTests<SUT extends ButtonAreaLayout>
@@ -556,7 +553,6 @@ extends OptionPaneUITests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonActionListenerTests<SUT extends ButtonActionListener>

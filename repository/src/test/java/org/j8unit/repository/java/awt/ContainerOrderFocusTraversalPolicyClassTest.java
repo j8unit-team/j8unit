@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ContainerOrderFocusTraversalPolicyClassTest
 implements ContainerOrderFocusTraversalPolicyClassTests<ContainerOrderFocusTraversalPolicy> {
@@ -44,6 +43,7 @@ implements ContainerOrderFocusTraversalPolicyClassTests<ContainerOrderFocusTrave
     public void create_ContainerOrderFocusTraversalPolicy()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ContainerOrderFocusTraversalPolicy sut = new ContainerOrderFocusTraversalPolicy();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.IllegalBlockingModeExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IllegalBlockingModeExceptionClassTest
 implements IllegalBlockingModeExceptionClassTests<IllegalBlockingModeException> {
@@ -44,6 +43,7 @@ implements IllegalBlockingModeExceptionClassTests<IllegalBlockingModeException> 
     public void create_IllegalBlockingModeException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalBlockingModeException sut = new IllegalBlockingModeException();
     }
 

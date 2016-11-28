@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeySelectorException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeySelectorExceptionClassTest
 implements KeySelectorExceptionClassTests<KeySelectorException> {
@@ -112,6 +111,7 @@ implements KeySelectorExceptionClassTests<KeySelectorException> {
     public void create_KeySelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeySelectorException sut = new KeySelectorException();
     }
 

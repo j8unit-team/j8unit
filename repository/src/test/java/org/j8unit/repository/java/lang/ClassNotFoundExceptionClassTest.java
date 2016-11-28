@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ClassNotFoundException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.ClassNotFoundExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ClassNotFoundExceptionClassTest
 implements ClassNotFoundExceptionClassTests<ClassNotFoundException> {
@@ -87,6 +86,7 @@ implements ClassNotFoundExceptionClassTests<ClassNotFoundException> {
     public void create_ClassNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClassNotFoundException sut = new ClassNotFoundException();
     }
 

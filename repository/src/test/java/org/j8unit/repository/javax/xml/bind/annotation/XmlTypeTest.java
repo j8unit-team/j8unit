@@ -18,7 +18,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlType} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.annotation.XmlTypeTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class XmlTypeTest
 implements XmlTypeTests<XmlType> {

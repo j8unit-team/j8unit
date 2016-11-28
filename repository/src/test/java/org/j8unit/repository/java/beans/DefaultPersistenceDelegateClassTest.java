@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultPersistenceDelegate} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.beans.DefaultPersistenceDelegateClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultPersistenceDelegateClassTest
 implements DefaultPersistenceDelegateClassTests<DefaultPersistenceDelegate> {
@@ -66,6 +65,7 @@ implements DefaultPersistenceDelegateClassTests<DefaultPersistenceDelegate> {
     public void create_DefaultPersistenceDelegate()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultPersistenceDelegate sut = new DefaultPersistenceDelegate();
     }
 

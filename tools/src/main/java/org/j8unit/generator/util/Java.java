@@ -19,7 +19,7 @@ public enum Java {
     /**
      * The {@code annotation}s prefix token (i.&thinsp;e., {@value #ANNOTATION_TOKEN}).
      */
-    private static final String ANNOTATION_TOKEN = "@";
+    public static final String ANNOTATION_TOKEN = "@";
 
     /**
      * Returns the rendered {@link #ANNOTATION_TOKEN annotation} statement of the given annotation {@code type} and the
@@ -42,7 +42,7 @@ public enum Java {
     /**
      * The {@code array}s suffix token (i.&thinsp;e., {@value #ARRAY_TOKEN}).
      */
-    private static final String ARRAY_TOKEN = "[]";
+    public static final String ARRAY_TOKEN = "[]";
 
     /**
      * The {@code static} keyword.

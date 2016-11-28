@@ -66,6 +66,7 @@ implements ConcurrentSkipListMapClassTests<ConcurrentSkipListMap> {
     public void create_ConcurrentSkipListMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ConcurrentSkipListMap sut = new ConcurrentSkipListMap();
     }
 

@@ -12,7 +12,6 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownEncoding} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnknownEncodingClassTest
 implements UnknownEncodingClassTests<UnknownEncoding> {
@@ -43,6 +42,7 @@ implements UnknownEncodingClassTests<UnknownEncoding> {
     public void create_UnknownEncoding()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnknownEncoding sut = new UnknownEncoding();
     }
 

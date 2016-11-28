@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link FlowView} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class FlowViewClassTest
 implements FlowViewClassTests<FlowView> {
@@ -55,7 +54,6 @@ implements FlowViewClassTests<FlowView> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link FlowStrategy} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FlowStrategyClassTest
     implements FlowStrategyClassTests<FlowStrategy> {
@@ -86,6 +84,7 @@ implements FlowViewClassTests<FlowView> {
         public void create_FlowStrategy()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final FlowStrategy sut = new FlowStrategy();
         }
 

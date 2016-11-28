@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JPasswordField} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.JPasswordFieldClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JPasswordFieldClassTest
 implements JPasswordFieldClassTests<JPasswordField> {
@@ -86,6 +85,7 @@ implements JPasswordFieldClassTests<JPasswordField> {
     public void create_JPasswordField()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPasswordField sut = new JPasswordField();
     }
 

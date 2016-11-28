@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SAAJResult} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.xml.soap.SAAJResultClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SAAJResultClassTest
 implements SAAJResultClassTests<SAAJResult> {
@@ -110,6 +109,7 @@ implements SAAJResultClassTests<SAAJResult> {
     public void create_SAAJResult()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SAAJResult sut = new SAAJResult();
     }
 

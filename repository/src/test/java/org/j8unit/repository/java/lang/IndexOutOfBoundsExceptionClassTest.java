@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IndexOutOfBoundsException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IndexOutOfBoundsExceptionClassTest
 implements IndexOutOfBoundsExceptionClassTests<IndexOutOfBoundsException> {
@@ -41,6 +40,7 @@ implements IndexOutOfBoundsExceptionClassTests<IndexOutOfBoundsException> {
     public void create_IndexOutOfBoundsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IndexOutOfBoundsException sut = new IndexOutOfBoundsException();
     }
 

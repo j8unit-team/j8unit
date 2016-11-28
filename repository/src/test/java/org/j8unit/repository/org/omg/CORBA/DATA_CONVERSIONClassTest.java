@@ -12,7 +12,6 @@ import org.omg.CORBA.DATA_CONVERSION;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DATA_CONVERSION} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DATA_CONVERSIONClassTest
 implements DATA_CONVERSIONClassTests<DATA_CONVERSION> {
@@ -111,6 +110,7 @@ implements DATA_CONVERSIONClassTests<DATA_CONVERSION> {
     public void create_DATA_CONVERSION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DATA_CONVERSION sut = new DATA_CONVERSION();
     }
 

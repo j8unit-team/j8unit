@@ -9,7 +9,6 @@ import org.omg.PortableInterceptor.IORInterceptorOperations;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IORInterceptorOperationsClassTest
 implements IORInterceptorOperationsClassTests<IORInterceptorOperations> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AtomicBoolean} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicBooleanClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AtomicBooleanClassTest
 implements AtomicBooleanClassTests<AtomicBoolean> {
@@ -66,6 +65,7 @@ implements AtomicBooleanClassTests<AtomicBoolean> {
     public void create_AtomicBoolean()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AtomicBoolean sut = new AtomicBoolean();
     }
 

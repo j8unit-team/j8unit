@@ -10,7 +10,6 @@ import org.omg.PortableServer.IdUniquenessPolicyOperations;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IdUniquenessPolicyOperationsTest
 implements IdUniquenessPolicyOperationsTests<IdUniquenessPolicyOperations> {

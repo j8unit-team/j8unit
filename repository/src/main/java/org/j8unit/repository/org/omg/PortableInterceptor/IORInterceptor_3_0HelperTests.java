@@ -22,7 +22,6 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Helper;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInterceptor_3_0HelperTests<SUT extends IORInterceptor_3_0Helper>

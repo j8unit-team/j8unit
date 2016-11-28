@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.SignatureMethodParameterSpecTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SignatureMethodParameterSpecTest
 implements SignatureMethodParameterSpecTests<SignatureMethodParameterSpec> {

@@ -9,7 +9,6 @@ import org.omg.CORBA.WCharSeqHelper;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link WCharSeqHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.WCharSeqHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class WCharSeqHelperTest
 implements WCharSeqHelperTests<WCharSeqHelper> {

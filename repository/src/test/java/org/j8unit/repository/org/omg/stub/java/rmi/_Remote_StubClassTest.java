@@ -12,7 +12,6 @@ import org.omg.stub.java.rmi._Remote_Stub;
  * Specific JUnit test class to proof the type relevant aspects of type {@link _Remote_Stub} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _Remote_StubClassTest
 implements _Remote_StubClassTests<_Remote_Stub> {
@@ -42,6 +41,7 @@ implements _Remote_StubClassTests<_Remote_Stub> {
     public void create__Remote_Stub()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _Remote_Stub sut = new _Remote_Stub();
     }
 

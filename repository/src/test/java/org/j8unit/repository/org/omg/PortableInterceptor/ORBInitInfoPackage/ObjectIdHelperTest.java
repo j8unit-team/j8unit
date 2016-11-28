@@ -10,7 +10,6 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectIdHelperTest
 implements ObjectIdHelperTests<ObjectIdHelper> {

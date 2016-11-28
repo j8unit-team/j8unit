@@ -21,7 +21,6 @@ import org.omg.CORBA.NO_RESPONSE;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_RESPONSETests<SUT extends NO_RESPONSE>

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link UnrecoverableEntryException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.java.security.UnrecoverableEntryExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class UnrecoverableEntryExceptionClassTest
 implements UnrecoverableEntryExceptionClassTests<UnrecoverableEntryException> {
@@ -43,6 +42,7 @@ implements UnrecoverableEntryExceptionClassTests<UnrecoverableEntryException> {
     public void create_UnrecoverableEntryException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final UnrecoverableEntryException sut = new UnrecoverableEntryException();
     }
 

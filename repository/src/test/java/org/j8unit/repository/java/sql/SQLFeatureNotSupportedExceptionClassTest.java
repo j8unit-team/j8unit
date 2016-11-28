@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.sql.SQLFeatureNotSupportedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SQLFeatureNotSupportedExceptionClassTest
 implements SQLFeatureNotSupportedExceptionClassTests<SQLFeatureNotSupportedException> {
@@ -138,6 +137,7 @@ implements SQLFeatureNotSupportedExceptionClassTests<SQLFeatureNotSupportedExcep
     public void create_SQLFeatureNotSupportedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SQLFeatureNotSupportedException sut = new SQLFeatureNotSupportedException();
     }
 

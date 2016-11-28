@@ -24,9 +24,9 @@ import org.omg.CORBA.DynStruct;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface DynStructTests<SUT extends DynStruct>
 extends DynAnyTests<SUT> {
 

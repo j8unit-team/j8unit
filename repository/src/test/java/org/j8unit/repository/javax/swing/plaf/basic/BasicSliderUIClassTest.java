@@ -19,7 +19,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicSliderUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicSliderUIClassTest
 implements BasicSliderUIClassTests<BasicSliderUI> {
@@ -84,7 +83,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.TrackListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class TrackListenerClassTest
     implements TrackListenerClassTests<TrackListener> {
@@ -130,7 +128,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ScrollListenerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ScrollListenerClassTest
     implements ScrollListenerClassTests<ScrollListener> {
@@ -201,7 +198,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ComponentHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
@@ -247,7 +243,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests<ChangeHandler> {
@@ -293,7 +288,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -340,7 +334,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests<FocusHandler> {
@@ -386,7 +379,6 @@ implements BasicSliderUIClassTests<BasicSliderUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ActionScrollerClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ActionScrollerClassTest
     implements ActionScrollerClassTests<ActionScroller> {

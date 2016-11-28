@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CannotProceedException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.CannotProceedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CannotProceedExceptionClassTest
 implements CannotProceedExceptionClassTests<CannotProceedException> {
@@ -43,6 +42,7 @@ implements CannotProceedExceptionClassTests<CannotProceedException> {
     public void create_CannotProceedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final CannotProceedException sut = new CannotProceedException();
     }
 

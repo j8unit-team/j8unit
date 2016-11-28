@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.AttributeNotFoundExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributeNotFoundExceptionClassTest
 implements AttributeNotFoundExceptionClassTests<AttributeNotFoundException> {
@@ -44,6 +43,7 @@ implements AttributeNotFoundExceptionClassTests<AttributeNotFoundException> {
     public void create_AttributeNotFoundException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AttributeNotFoundException sut = new AttributeNotFoundException();
     }
 

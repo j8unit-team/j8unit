@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Calendar} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.CalendarClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CalendarClassTest
 implements CalendarClassTests<Calendar> {
@@ -154,7 +153,6 @@ implements CalendarClassTests<Calendar> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.CalendarClassTests.BuilderClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
     implements org.j8unit.repository.java.util.CalendarClassTests.BuilderClassTests<Builder> {
@@ -184,6 +182,7 @@ implements CalendarClassTests<Calendar> {
         public void create_Builder()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Builder sut = new Builder();
         }
 

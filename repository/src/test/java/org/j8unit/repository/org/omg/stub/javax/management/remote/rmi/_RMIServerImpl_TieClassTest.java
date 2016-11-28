@@ -13,8 +13,8 @@ import org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServerImpl_TieClassTests}).
  */
-
 @RunWith(J8Unit4.class)
+@SuppressWarnings("restriction")
 public class _RMIServerImpl_TieClassTest
 implements _RMIServerImpl_TieClassTests<_RMIServerImpl_Tie> {
 
@@ -44,6 +44,7 @@ implements _RMIServerImpl_TieClassTests<_RMIServerImpl_Tie> {
     public void create__RMIServerImpl_Tie()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final _RMIServerImpl_Tie sut = new _RMIServerImpl_Tie();
     }
 

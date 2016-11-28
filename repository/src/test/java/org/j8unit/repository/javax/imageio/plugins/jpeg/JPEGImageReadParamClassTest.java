@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JPEGImageReadParam} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageReadParamClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JPEGImageReadParamClassTest
 implements JPEGImageReadParamClassTests<JPEGImageReadParam> {
@@ -43,6 +42,7 @@ implements JPEGImageReadParamClassTests<JPEGImageReadParam> {
     public void create_JPEGImageReadParam()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JPEGImageReadParam sut = new JPEGImageReadParam();
     }
 

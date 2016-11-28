@@ -46,7 +46,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, BasicScrollPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.HSBChangeListenerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class HSBChangeListenerTest
     implements HSBChangeListenerTests<HSBChangeListener> {
@@ -69,7 +68,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, BasicScrollPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -92,7 +90,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, BasicScrollPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.ViewportChangeHandlerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ViewportChangeHandlerTest
     implements ViewportChangeHandlerTests<ViewportChangeHandler> {
@@ -115,7 +112,6 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, BasicScrollPaneUITests<Bas
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class VSBChangeListenerTest
     implements VSBChangeListenerTests<VSBChangeListener> {

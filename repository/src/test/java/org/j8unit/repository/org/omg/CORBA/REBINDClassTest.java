@@ -12,7 +12,6 @@ import org.omg.CORBA.REBIND;
  * Specific JUnit test class to proof the type relevant aspects of type {@link REBIND} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.REBINDClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class REBINDClassTest
 implements REBINDClassTests<REBIND> {
@@ -110,6 +109,7 @@ implements REBINDClassTests<REBIND> {
     public void create_REBIND()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final REBIND sut = new REBIND();
     }
 

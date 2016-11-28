@@ -12,7 +12,6 @@ import org.omg.CORBA.ServiceInformation;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceInformation} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServiceInformationClassTest
 implements ServiceInformationClassTests<ServiceInformation> {
@@ -42,6 +41,7 @@ implements ServiceInformationClassTests<ServiceInformation> {
     public void create_ServiceInformation()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceInformation sut = new ServiceInformation();
     }
 

@@ -16,7 +16,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link NumericShaper} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.font.NumericShaperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NumericShaperTest
 implements NumericShaperTests<NumericShaper> {
@@ -36,7 +35,6 @@ implements NumericShaperTests<NumericShaper> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Range} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.awt.font.NumericShaperTests.RangeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RangeTest

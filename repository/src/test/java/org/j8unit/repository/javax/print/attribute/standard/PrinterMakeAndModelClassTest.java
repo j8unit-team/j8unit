@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * the J8Unit test interface
  * {@link org.j8unit.repository.javax.print.attribute.standard.PrinterMakeAndModelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PrinterMakeAndModelClassTest
 implements PrinterMakeAndModelClassTests<PrinterMakeAndModel> {

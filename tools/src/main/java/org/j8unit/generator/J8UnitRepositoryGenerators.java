@@ -18,10 +18,12 @@ import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.GlobalGeneratorConstants.SUT;
 import static org.j8unit.generator.api.LoggingMessagesKeys.MERGE_METHODS;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
+import static org.j8unit.generator.util.Iterators.replaceAll;
 import static org.j8unit.generator.util.Java.ENUMERATION_DELIMITER;
 import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Suppliers.runtimed;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestDeclaringParents;
+import static org.j8unit.generator.util.TypeAnalysis.classHierarchy;
 import static org.j8unit.generator.util.TypeAnalysis.getDeclaredMethod;
 import static org.j8unit.generator.util.TypeAnalysis.getMethod;
 import static org.junit.Assert.assertFalse;
@@ -100,7 +102,7 @@ implements J8UnitCodeGenerator {
             // content creation: JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // content creation: @FunctionalInterface
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(FunctionalInterface.class)));
             // content creation: @Category(J8UnitRepository.class)
@@ -354,7 +356,7 @@ implements J8UnitCodeGenerator {
             // 1. JavaDoc
             out.append(this.javadoc(type, renderer, complementary, depth));
             // 2. @SuppressWarnings(...)
-            out.append(modusOperandi.renderWarnings(depth, renderer));
+            out.append(modusOperandi.renderEffectiveWarnings(replaceAll(classHierarchy(type.getEnclosingClass()), this::modusOperandi), depth, renderer));
             // 3. @FunctionalInterface
             out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(FunctionalInterface.class)));
             // 4. @Category(J8UnitRepository.class)

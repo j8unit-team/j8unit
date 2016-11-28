@@ -9,7 +9,6 @@ import org.w3c.dom.html.HTMLElement;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLElement} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.html.HTMLElementTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class HTMLElementTest
 implements HTMLElementTests<HTMLElement> {

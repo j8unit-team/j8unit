@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Provider} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.ProviderTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ProviderTest
 implements ProviderTests<Provider> {
@@ -30,7 +29,6 @@ implements ProviderTests<Provider> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Service} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.security.ProviderTests.ServiceTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ServiceTest
     implements ServiceTests<Service> {

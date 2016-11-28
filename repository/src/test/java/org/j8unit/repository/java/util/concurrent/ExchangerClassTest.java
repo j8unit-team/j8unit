@@ -42,6 +42,7 @@ implements ExchangerClassTests<Exchanger> {
     public void create_Exchanger()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Exchanger sut = new Exchanger();
     }
 

@@ -12,7 +12,6 @@ import org.omg.CORBA.INTERNAL;
  * Specific JUnit test class to proof the type relevant aspects of type {@link INTERNAL} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.INTERNALClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class INTERNALClassTest
 implements INTERNALClassTests<INTERNAL> {
@@ -110,6 +109,7 @@ implements INTERNALClassTests<INTERNAL> {
     public void create_INTERNAL()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final INTERNAL sut = new INTERNAL();
     }
 

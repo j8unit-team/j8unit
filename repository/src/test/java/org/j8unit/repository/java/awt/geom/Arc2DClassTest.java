@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Arc2D} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.awt.geom.Arc2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Arc2DClassTest
 implements Arc2DClassTests<Arc2D> {
@@ -34,7 +33,6 @@ implements Arc2DClassTests<Arc2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Arc2DClassTests.DoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.Arc2DClassTests.DoubleClassTests<Double> {
@@ -109,6 +107,7 @@ implements Arc2DClassTests<Arc2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 
@@ -145,7 +144,6 @@ implements Arc2DClassTests<Arc2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Arc2DClassTests.FloatClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
     implements org.j8unit.repository.java.awt.geom.Arc2DClassTests.FloatClassTests<Float> {
@@ -220,6 +218,7 @@ implements Arc2DClassTests<Arc2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 

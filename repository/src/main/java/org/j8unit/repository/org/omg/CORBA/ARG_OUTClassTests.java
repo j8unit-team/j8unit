@@ -44,7 +44,6 @@ import org.omg.CORBA.ARG_OUT;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ARG_OUTClassTests<SUT extends ARG_OUT>

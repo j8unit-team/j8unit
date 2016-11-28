@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link StyleContext} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StyleContextClassTest
 implements StyleContextClassTests<StyleContext> {
@@ -44,6 +43,7 @@ implements StyleContextClassTests<StyleContext> {
     public void create_StyleContext()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final StyleContext sut = new StyleContext();
     }
 
@@ -188,7 +188,6 @@ implements StyleContextClassTests<StyleContext> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class SmallAttributeSetClassTest
     implements SmallAttributeSetClassTests<SmallAttributeSet> {
@@ -259,7 +258,6 @@ implements StyleContextClassTests<StyleContext> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class NamedStyleClassTest
     implements NamedStyleClassTests<NamedStyle> {

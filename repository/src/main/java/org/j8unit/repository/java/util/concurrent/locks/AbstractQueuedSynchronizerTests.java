@@ -27,7 +27,6 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractQueuedSynchronizerTests<SUT extends AbstractQueuedSynchronizer>
@@ -574,7 +573,6 @@ extends AbstractOwnableSynchronizerTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ConditionObjectTests<SUT extends ConditionObject>

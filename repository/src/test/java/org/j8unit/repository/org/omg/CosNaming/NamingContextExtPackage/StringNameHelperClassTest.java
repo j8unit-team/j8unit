@@ -14,7 +14,6 @@ import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
  * J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.StringNameHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class StringNameHelperClassTest
 implements StringNameHelperClassTests<StringNameHelper> {

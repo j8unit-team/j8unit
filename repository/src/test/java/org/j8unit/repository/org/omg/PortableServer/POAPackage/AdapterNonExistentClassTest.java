@@ -13,7 +13,6 @@ import org.omg.PortableServer.POAPackage.AdapterNonExistent;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AdapterNonExistentClassTest
 implements AdapterNonExistentClassTests<AdapterNonExistent> {
@@ -44,6 +43,7 @@ implements AdapterNonExistentClassTests<AdapterNonExistent> {
     public void create_AdapterNonExistent()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AdapterNonExistent sut = new AdapterNonExistent();
     }
 

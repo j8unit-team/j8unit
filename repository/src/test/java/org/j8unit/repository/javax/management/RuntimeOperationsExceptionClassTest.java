@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.RuntimeOperationsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RuntimeOperationsExceptionClassTest
 implements RuntimeOperationsExceptionClassTests<RuntimeOperationsException> {

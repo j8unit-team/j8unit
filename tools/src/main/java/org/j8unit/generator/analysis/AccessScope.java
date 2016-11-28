@@ -20,6 +20,7 @@ import org.j8unit.J8UnitTest;
 import org.j8unit.generator.api.BaseTestClassSupplier;
 import org.j8unit.generator.api.BasicTestClassStatements;
 import org.j8unit.generator.api.BasicTestInterfaceStatements;
+import org.j8unit.generator.api.ModusOperandi;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
 import org.j8unit.generator.util.Mismatcher;
@@ -50,7 +51,7 @@ import org.j8unit.repository.RepositoryTests;
  * </p>
  * <ul>
  * <li>{@link #getBaseJ8UnitInterfaceType()}</li>
- * <li>{@link #getGenericStatement(OriginRenderer, Class)}</li>
+ * <li>{@link #getTestInterfaceGenericStatement(OriginRenderer, Class)}</li>
  * <li>{@link #getTestInterfaceSuperTypeDefinition(OriginRenderer, Entry)}</li>
  * </ul>
  */
@@ -175,11 +176,11 @@ implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatemen
      * <p>
      * For example (using the very basic {@link OriginRenderer}),
      * <ul>
-     * <li><code>{@link #INSTANCE}.getGenericStatement({@link String}.class)</code> returns
+     * <li><code>{@link #INSTANCE}.getTestInterfaceGenericStatement({@link String}.class)</code> returns
      * <code>{@code <SUT extends java.lang.String>}</code>,</li>
-     * <li><code>{@link #INSTANCE}.getGenericStatement({@link Enum}.class)</code> returns
+     * <li><code>{@link #INSTANCE}.getTestInterfaceGenericStatement({@link Enum}.class)</code> returns
      * <code>{@code <SUT extends java.lang.Enum<E>, E extends java.lang.Enum<E>>}</code>, and</li>
-     * <li><code>{@link #INSTANCE}.getGenericStatement({@link java.util.Map}.class)</code> returns
+     * <li><code>{@link #INSTANCE}.getTestInterfaceGenericStatement({@link java.util.Map}.class)</code> returns
      * <code>{@code <SUT extends java.util.Map<K, V>, K extends java.lang.Object, V extends java.lang.Object>}</code>.
      * </li>
      * </ul>
@@ -188,11 +189,11 @@ implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatemen
      * <p>
      * Respectively (again using the very basic {@link OriginRenderer}),
      * <ul>
-     * <li><code>{@link #CLASS}.getGenericStatement({@link String}.class)</code> returns
+     * <li><code>{@link #CLASS}.getTestInterfaceGenericStatement({@link String}.class)</code> returns
      * <code>{@code <SUT extends java.lang.String>}</code>,</li>
-     * <li><code>{@link #CLASS}.getGenericStatement({@link Enum}.class)</code> returns
+     * <li><code>{@link #CLASS}.getTestInterfaceGenericStatement({@link Enum}.class)</code> returns
      * <code>{@code <SUT extends java.lang.Enum>}</code>, and</li>
-     * <li><code>{@link #CLASS}.getGenericStatement({@link java.util.Map}.class)</code> returns
+     * <li><code>{@link #CLASS}.getTestInterfaceGenericStatement({@link java.util.Map}.class)</code> returns
      * <code>{@code <SUT extends java.util.Map>}</code>.</li>
      * </ul>
      * </p>
@@ -217,6 +218,17 @@ implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatemen
     public final String getTestClassBaseTypeDefinition(final OriginRenderer renderer, final @SuppressWarnings("rawtypes") Class<? extends J8UnitTest> base,
                                                        final Class<?> clazz) {
         return this.getTestClassBaseTypeDefinition.apply(renderer, new SimpleImmutableEntry<>(base, clazz));
+    }
+
+    /**
+     * Returns the {@link ModusOperandi} for the given {@code type} and {@code this} {@link AccessScope}.
+     *
+     * @param type
+     *            the given Java type
+     * @return the according {@code ModusOperandi}
+     */
+    public final ModusOperandi modusOperandiFor(final Class<?> type) {
+        return ModusOperandi.valueOf(this, type);
     }
 
 }

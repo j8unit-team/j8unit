@@ -9,7 +9,6 @@ import org.omg.PortableServer.CurrentOperations;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CurrentOperations} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.CurrentOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CurrentOperationsTest
 implements org.j8unit.repository.org.omg.PortableServer.CurrentOperationsTests<CurrentOperations> {

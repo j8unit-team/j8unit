@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SSLParameters} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.net.ssl.SSLParametersClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SSLParametersClassTest
 implements SSLParametersClassTests<SSLParameters> {
@@ -42,6 +41,7 @@ implements SSLParametersClassTests<SSLParameters> {
     public void create_SSLParameters()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SSLParameters sut = new SSLParameters();
     }
 

@@ -50,7 +50,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboPopupClassTests<SUT extends BasicComboPopup>
@@ -115,7 +114,6 @@ extends ComboPopupClassTests<SUT>, JPopupMenuClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListDataHandlerClassTests<SUT extends ListDataHandler>
@@ -182,7 +180,6 @@ extends ComboPopupClassTests<SUT>, JPopupMenuClassTests<SUT> {
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InvocationKeyHandlerClassTests<SUT extends InvocationKeyHandler>

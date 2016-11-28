@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MultiViewportUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.multi.MultiViewportUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultiViewportUIClassTest
 implements MultiViewportUIClassTests<MultiViewportUI> {
@@ -42,6 +41,7 @@ implements MultiViewportUIClassTests<MultiViewportUI> {
     public void create_MultiViewportUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultiViewportUI sut = new MultiViewportUI();
     }
 

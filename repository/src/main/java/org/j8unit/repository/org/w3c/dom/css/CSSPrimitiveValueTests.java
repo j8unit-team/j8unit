@@ -24,7 +24,6 @@ import org.w3c.dom.css.CSSPrimitiveValue;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSPrimitiveValueTests<SUT extends CSSPrimitiveValue>

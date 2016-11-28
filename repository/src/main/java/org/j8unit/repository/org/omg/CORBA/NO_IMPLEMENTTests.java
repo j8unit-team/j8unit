@@ -21,7 +21,6 @@ import org.omg.CORBA.NO_IMPLEMENT;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_IMPLEMENTTests<SUT extends NO_IMPLEMENT>

@@ -64,6 +64,7 @@ implements HashMapClassTests<HashMap> {
     public void create_HashMap()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final HashMap sut = new HashMap();
     }
 

@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.MalformedObjectNameExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MalformedObjectNameExceptionClassTest
 implements MalformedObjectNameExceptionClassTests<MalformedObjectNameException> {
@@ -44,6 +43,7 @@ implements MalformedObjectNameExceptionClassTests<MalformedObjectNameException> 
     public void create_MalformedObjectNameException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MalformedObjectNameException sut = new MalformedObjectNameException();
     }
 

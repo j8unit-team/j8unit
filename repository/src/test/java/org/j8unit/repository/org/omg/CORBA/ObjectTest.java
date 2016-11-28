@@ -9,7 +9,6 @@ import org.omg.CORBA.Object;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Object} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.ObjectTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectTest
 implements ObjectTests<Object> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Robot} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.java.awt.RobotClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RobotClassTest
 implements RobotClassTests<Robot> {
@@ -64,6 +63,7 @@ implements RobotClassTests<Robot> {
     public void create_Robot()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Robot sut = new Robot();
     }
 

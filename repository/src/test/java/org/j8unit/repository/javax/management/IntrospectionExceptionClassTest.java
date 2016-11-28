@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link IntrospectionException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.management.IntrospectionExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IntrospectionExceptionClassTest
 implements IntrospectionExceptionClassTests<IntrospectionException> {
@@ -43,6 +42,7 @@ implements IntrospectionExceptionClassTests<IntrospectionException> {
     public void create_IntrospectionException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IntrospectionException sut = new IntrospectionException();
     }
 

@@ -14,7 +14,6 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceedHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CannotProceedHelperClassTest
 implements CannotProceedHelperClassTests<CannotProceedHelper> {

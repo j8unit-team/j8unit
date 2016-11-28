@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeValueExp} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.management.AttributeValueExpClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AttributeValueExpClassTest
 implements AttributeValueExpClassTests<AttributeValueExp> {
@@ -42,6 +41,7 @@ implements AttributeValueExpClassTests<AttributeValueExp> {
     public void create_AttributeValueExp()
     throws Exception {
         // create new instance
+        @SuppressWarnings({ "unused", "deprecation" })
         final AttributeValueExp sut = new AttributeValueExp();
     }
 

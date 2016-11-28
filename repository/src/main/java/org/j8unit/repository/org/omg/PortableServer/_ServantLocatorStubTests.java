@@ -25,7 +25,6 @@ import org.omg.PortableServer._ServantLocatorStub;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _ServantLocatorStubTests<SUT extends _ServantLocatorStub>

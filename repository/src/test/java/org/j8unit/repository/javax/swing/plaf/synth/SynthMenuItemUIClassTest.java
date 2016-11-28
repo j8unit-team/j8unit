@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link SynthMenuItemUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.synth.SynthMenuItemUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SynthMenuItemUIClassTest
 implements SynthMenuItemUIClassTests<SynthMenuItemUI> {
@@ -42,6 +41,7 @@ implements SynthMenuItemUIClassTests<SynthMenuItemUI> {
     public void create_SynthMenuItemUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final SynthMenuItemUI sut = new SynthMenuItemUI();
     }
 

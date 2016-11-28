@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicRadioButtonUI} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicRadioButtonUIClassTest
 implements BasicRadioButtonUIClassTests<BasicRadioButtonUI> {
@@ -43,6 +42,7 @@ implements BasicRadioButtonUIClassTests<BasicRadioButtonUI> {
     public void create_BasicRadioButtonUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicRadioButtonUI sut = new BasicRadioButtonUI();
     }
 

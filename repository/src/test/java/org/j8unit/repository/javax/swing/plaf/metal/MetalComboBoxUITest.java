@@ -18,6 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+@SuppressWarnings("deprecation")
 public class MetalComboBoxUITest
 implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalComboBoxUI> {
 
@@ -45,7 +46,6 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalCo
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MetalComboBoxLayoutManagerTest
     implements MetalComboBoxLayoutManagerTests<MetalComboBoxLayoutManager> {
@@ -68,7 +68,6 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalCo
      * simply reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MetalPropertyChangeListenerTest
     implements MetalPropertyChangeListenerTests<MetalPropertyChangeListener> {
@@ -91,7 +90,6 @@ implements FactoryBasedJ8UnitTest<MetalComboBoxUI>, MetalComboBoxUITests<MetalCo
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class MetalComboPopupTest
     implements MetalComboPopupTests<MetalComboPopup> {

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NotContextException} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.javax.naming.NotContextExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NotContextExceptionClassTest
 implements NotContextExceptionClassTests<NotContextException> {
@@ -65,6 +64,7 @@ implements NotContextExceptionClassTests<NotContextException> {
     public void create_NotContextException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NotContextException sut = new NotContextException();
     }
 

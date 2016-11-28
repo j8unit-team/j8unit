@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DateFormatter} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.DateFormatterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DateFormatterClassTest
 implements DateFormatterClassTests<DateFormatter> {
@@ -65,6 +64,7 @@ implements DateFormatterClassTests<DateFormatter> {
     public void create_DateFormatter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DateFormatter sut = new DateFormatter();
     }
 

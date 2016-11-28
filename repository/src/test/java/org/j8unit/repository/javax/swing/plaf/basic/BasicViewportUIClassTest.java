@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicViewportUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicViewportUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicViewportUIClassTest
 implements BasicViewportUIClassTests<BasicViewportUI> {
@@ -42,6 +41,7 @@ implements BasicViewportUIClassTests<BasicViewportUI> {
     public void create_BasicViewportUI()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BasicViewportUI sut = new BasicViewportUI();
     }
 

@@ -42,6 +42,7 @@ implements ArrayDequeClassTests<ArrayDeque> {
     public void create_ArrayDeque()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ArrayDeque sut = new ArrayDeque();
     }
 

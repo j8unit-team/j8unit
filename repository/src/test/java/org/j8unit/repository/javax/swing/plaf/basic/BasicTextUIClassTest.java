@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTextUI} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BasicTextUIClassTest
 implements BasicTextUIClassTests<BasicTextUI> {
@@ -56,7 +55,6 @@ implements BasicTextUIClassTests<BasicTextUI> {
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests.BasicHighlighterClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicHighlighterClassTest
     implements BasicHighlighterClassTests<BasicHighlighter> {
@@ -87,6 +85,7 @@ implements BasicTextUIClassTests<BasicTextUI> {
         public void create_BasicHighlighter()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BasicHighlighter sut = new BasicHighlighter();
         }
 
@@ -101,7 +100,6 @@ implements BasicTextUIClassTests<BasicTextUI> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests.BasicCaretClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class BasicCaretClassTest
     implements BasicCaretClassTests<BasicCaret> {
@@ -132,6 +130,7 @@ implements BasicTextUIClassTests<BasicTextUI> {
         public void create_BasicCaret()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final BasicCaret sut = new BasicCaret();
         }
 

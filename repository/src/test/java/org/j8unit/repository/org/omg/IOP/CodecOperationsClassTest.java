@@ -8,7 +8,6 @@ import org.omg.IOP.CodecOperations;
  * Specific JUnit test class to proof the type relevant aspects of type {@link CodecOperations} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.CodecOperationsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CodecOperationsClassTest
 implements CodecOperationsClassTests<CodecOperations> {

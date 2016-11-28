@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MBeanServerNotificationFilterClassTest
 implements MBeanServerNotificationFilterClassTests<MBeanServerNotificationFilter> {
@@ -44,6 +43,7 @@ implements MBeanServerNotificationFilterClassTests<MBeanServerNotificationFilter
     public void create_MBeanServerNotificationFilter()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MBeanServerNotificationFilter sut = new MBeanServerNotificationFilter();
     }
 

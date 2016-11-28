@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link AddressingFeature} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AddressingFeatureClassTest
 implements AddressingFeatureClassTests<AddressingFeature> {
@@ -43,6 +42,7 @@ implements AddressingFeatureClassTests<AddressingFeature> {
     public void create_AddressingFeature()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final AddressingFeature sut = new AddressingFeature();
     }
 
@@ -125,7 +125,6 @@ implements AddressingFeatureClassTests<AddressingFeature> {
      * J8Unit test interface
      * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ResponsesClassTest
     implements ResponsesClassTests<Responses> {

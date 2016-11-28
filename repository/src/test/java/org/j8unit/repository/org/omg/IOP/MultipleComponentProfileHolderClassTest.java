@@ -13,7 +13,6 @@ import org.omg.IOP.MultipleComponentProfileHolder;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MultipleComponentProfileHolderClassTest
 implements MultipleComponentProfileHolderClassTests<MultipleComponentProfileHolder> {
@@ -68,6 +67,7 @@ implements MultipleComponentProfileHolderClassTests<MultipleComponentProfileHold
     public void create_MultipleComponentProfileHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MultipleComponentProfileHolder sut = new MultipleComponentProfileHolder();
     }
 

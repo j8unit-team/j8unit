@@ -43,6 +43,7 @@ implements LinkedTransferQueueClassTests<LinkedTransferQueue> {
     public void create_LinkedTransferQueue()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final LinkedTransferQueue sut = new LinkedTransferQueue();
     }
 

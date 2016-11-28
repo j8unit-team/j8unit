@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.ClosedByInterruptExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ClosedByInterruptExceptionClassTest
 implements ClosedByInterruptExceptionClassTests<ClosedByInterruptException> {
@@ -44,6 +43,7 @@ implements ClosedByInterruptExceptionClassTests<ClosedByInterruptException> {
     public void create_ClosedByInterruptException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ClosedByInterruptException sut = new ClosedByInterruptException();
     }
 

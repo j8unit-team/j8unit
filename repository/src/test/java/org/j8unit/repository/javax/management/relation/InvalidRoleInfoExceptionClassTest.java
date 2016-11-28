@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.relation.InvalidRoleInfoExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidRoleInfoExceptionClassTest
 implements InvalidRoleInfoExceptionClassTests<InvalidRoleInfoException> {
@@ -44,6 +43,7 @@ implements InvalidRoleInfoExceptionClassTests<InvalidRoleInfoException> {
     public void create_InvalidRoleInfoException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InvalidRoleInfoException sut = new InvalidRoleInfoException();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DoubleAdder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.util.concurrent.atomic.DoubleAdderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DoubleAdderClassTest
 implements DoubleAdderClassTests<DoubleAdder> {
@@ -42,6 +41,7 @@ implements DoubleAdderClassTests<DoubleAdder> {
     public void create_DoubleAdder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DoubleAdder sut = new DoubleAdder();
     }
 

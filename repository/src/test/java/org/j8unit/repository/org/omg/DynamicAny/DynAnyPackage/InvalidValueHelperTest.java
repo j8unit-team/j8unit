@@ -10,7 +10,6 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InvalidValueHelperTest
 implements InvalidValueHelperTests<InvalidValueHelper> {

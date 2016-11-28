@@ -25,9 +25,9 @@ import org.xml.sax.Parser;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface ParserTests<SUT extends Parser>
 extends RepositoryTests<SUT> {
 

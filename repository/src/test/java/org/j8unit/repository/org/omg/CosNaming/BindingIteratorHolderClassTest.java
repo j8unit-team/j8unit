@@ -12,7 +12,6 @@ import org.omg.CosNaming.BindingIteratorHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BindingIteratorHolder} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BindingIteratorHolderClassTest
 implements BindingIteratorHolderClassTests<BindingIteratorHolder> {
@@ -66,6 +65,7 @@ implements BindingIteratorHolderClassTests<BindingIteratorHolder> {
     public void create_BindingIteratorHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindingIteratorHolder sut = new BindingIteratorHolder();
     }
 

@@ -14,7 +14,6 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHelper;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateSeqHelperClassTest
 implements ObjectReferenceTemplateSeqHelperClassTests<ObjectReferenceTemplateSeqHelper> {

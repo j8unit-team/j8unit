@@ -9,7 +9,6 @@ import org.omg.PortableServer.ServantRetentionPolicy;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServantRetentionPolicyClassTest
 implements ServantRetentionPolicyClassTests<ServantRetentionPolicy> {

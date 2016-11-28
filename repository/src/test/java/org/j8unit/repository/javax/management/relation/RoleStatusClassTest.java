@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link RoleStatus} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.management.relation.RoleStatusClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RoleStatusClassTest
 implements RoleStatusClassTests<RoleStatus> {
@@ -42,6 +41,7 @@ implements RoleStatusClassTests<RoleStatus> {
     public void create_RoleStatus()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RoleStatus sut = new RoleStatus();
     }
 

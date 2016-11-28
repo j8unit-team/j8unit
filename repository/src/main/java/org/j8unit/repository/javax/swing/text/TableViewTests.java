@@ -26,9 +26,9 @@ import org.junit.experimental.categories.Category;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface TableViewTests<SUT extends TableView>
 extends BoxViewTests<SUT> {
 
@@ -79,7 +79,6 @@ extends BoxViewTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TableRowTests<SUT extends TableRow>
@@ -158,7 +157,6 @@ extends BoxViewTests<SUT> {
      *            the type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TableCellTests<SUT extends TableCell>

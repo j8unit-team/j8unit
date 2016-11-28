@@ -12,7 +12,6 @@ import org.omg.CosNaming.BindingHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BindingHolder} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.BindingHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BindingHolderClassTest
 implements BindingHolderClassTests<BindingHolder> {
@@ -65,6 +64,7 @@ implements BindingHolderClassTests<BindingHolder> {
     public void create_BindingHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BindingHolder sut = new BindingHolder();
     }
 

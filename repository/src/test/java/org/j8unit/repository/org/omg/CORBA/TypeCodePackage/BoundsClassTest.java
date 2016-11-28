@@ -12,7 +12,6 @@ import org.omg.CORBA.TypeCodePackage.Bounds;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Bounds} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BoundsClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BoundsClassTest
 implements BoundsClassTests<Bounds> {
@@ -42,6 +41,7 @@ implements BoundsClassTests<Bounds> {
     public void create_Bounds()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final Bounds sut = new Bounds();
     }
 

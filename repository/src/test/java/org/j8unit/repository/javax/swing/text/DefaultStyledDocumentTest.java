@@ -45,7 +45,6 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentT
      * reusing the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditTest
     implements AttributeUndoableEditTests<AttributeUndoableEdit> {
@@ -68,7 +67,6 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentT
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementSpecTest
     implements ElementSpecTests<ElementSpec> {
@@ -91,7 +89,6 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentT
      * the J8Unit test interface
      * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class ElementBufferTest
     implements ElementBufferTests<ElementBuffer> {

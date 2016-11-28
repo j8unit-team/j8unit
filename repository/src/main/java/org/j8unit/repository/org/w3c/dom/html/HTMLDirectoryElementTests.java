@@ -24,7 +24,6 @@ import org.w3c.dom.html.HTMLDirectoryElement;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLDirectoryElementTests<SUT extends HTMLDirectoryElement>

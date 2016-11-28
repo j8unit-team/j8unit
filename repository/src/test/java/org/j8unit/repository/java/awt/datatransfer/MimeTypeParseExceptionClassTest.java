@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MimeTypeParseExceptionClassTest
 implements MimeTypeParseExceptionClassTests<MimeTypeParseException> {
@@ -44,6 +43,7 @@ implements MimeTypeParseExceptionClassTests<MimeTypeParseException> {
     public void create_MimeTypeParseException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MimeTypeParseException sut = new MimeTypeParseException();
     }
 

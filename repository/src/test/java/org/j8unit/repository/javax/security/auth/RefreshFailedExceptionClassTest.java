@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.security.auth.RefreshFailedExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RefreshFailedExceptionClassTest
 implements RefreshFailedExceptionClassTests<RefreshFailedException> {
@@ -44,6 +43,7 @@ implements RefreshFailedExceptionClassTests<RefreshFailedException> {
     public void create_RefreshFailedException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final RefreshFailedException sut = new RefreshFailedException();
     }
 

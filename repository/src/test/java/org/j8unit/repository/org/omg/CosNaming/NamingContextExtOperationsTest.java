@@ -10,7 +10,6 @@ import org.omg.CosNaming.NamingContextExtOperations;
  * simply reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtOperationsTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NamingContextExtOperationsTest
 implements NamingContextExtOperationsTests<NamingContextExtOperations> {

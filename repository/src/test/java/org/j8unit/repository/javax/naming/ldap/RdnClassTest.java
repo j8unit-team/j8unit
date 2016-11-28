@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Rdn} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.naming.ldap.RdnClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class RdnClassTest
 implements RdnClassTests<Rdn> {

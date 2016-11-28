@@ -23,7 +23,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link Locale} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.util.LocaleTests}).
  */
-
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LocaleTest
@@ -73,7 +72,6 @@ implements LocaleTests<Locale> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link LanguageRange} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class LanguageRangeTest
     implements LanguageRangeTests<LanguageRange> {
@@ -95,7 +93,6 @@ implements LocaleTests<Locale> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link Category} (by simply reusing the
      * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleTests.CategoryTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CategoryTest
@@ -126,7 +123,6 @@ implements LocaleTests<Locale> {
      * Specific JUnit test class to proof the instance relevant aspects of type {@link FilteringMode} (by simply reusing
      * the J8Unit test interface {@link org.j8unit.repository.java.util.LocaleTests.FilteringModeTests}).
      */
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FilteringModeTest

@@ -14,7 +14,6 @@ import org.omg.CosNaming._BindingIteratorImplBase;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming._BindingIteratorImplBaseClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class _BindingIteratorImplBaseClassTest
 implements _BindingIteratorImplBaseClassTests<_BindingIteratorImplBase> {

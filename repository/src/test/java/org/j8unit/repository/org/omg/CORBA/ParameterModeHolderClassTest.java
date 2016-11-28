@@ -12,7 +12,6 @@ import org.omg.CORBA.ParameterModeHolder;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ParameterModeHolder} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ParameterModeHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ParameterModeHolderClassTest
 implements ParameterModeHolderClassTests<ParameterModeHolder> {
@@ -65,6 +64,7 @@ implements ParameterModeHolderClassTests<ParameterModeHolder> {
     public void create_ParameterModeHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ParameterModeHolder sut = new ParameterModeHolder();
     }
 

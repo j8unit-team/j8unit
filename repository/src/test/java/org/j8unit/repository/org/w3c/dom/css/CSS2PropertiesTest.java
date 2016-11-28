@@ -9,7 +9,6 @@ import org.w3c.dom.css.CSS2Properties;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link CSS2Properties} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.w3c.dom.css.CSS2PropertiesTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class CSS2PropertiesTest
 implements CSS2PropertiesTests<CSS2Properties> {

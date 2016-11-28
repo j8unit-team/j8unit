@@ -21,7 +21,6 @@ import org.omg.CORBA.IMP_LIMIT;
  *            the type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IMP_LIMITTests<SUT extends IMP_LIMIT>

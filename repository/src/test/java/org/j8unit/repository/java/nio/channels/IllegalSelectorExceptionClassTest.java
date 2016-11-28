@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.java.nio.channels.IllegalSelectorExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class IllegalSelectorExceptionClassTest
 implements IllegalSelectorExceptionClassTests<IllegalSelectorException> {
@@ -44,6 +43,7 @@ implements IllegalSelectorExceptionClassTests<IllegalSelectorException> {
     public void create_IllegalSelectorException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final IllegalSelectorException sut = new IllegalSelectorException();
     }
 

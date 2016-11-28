@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ByteLookupTable} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.awt.image.ByteLookupTableClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ByteLookupTableClassTest
 implements ByteLookupTableClassTests<ByteLookupTable> {

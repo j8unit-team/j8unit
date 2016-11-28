@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link MetaMessage} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.sound.midi.MetaMessageClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class MetaMessageClassTest
 implements MetaMessageClassTests<MetaMessage> {
@@ -42,6 +41,7 @@ implements MetaMessageClassTests<MetaMessage> {
     public void create_MetaMessage()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final MetaMessage sut = new MetaMessage();
     }
 

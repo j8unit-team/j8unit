@@ -12,7 +12,6 @@ import org.omg.CORBA.NO_PERMISSION;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NO_PERMISSION} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.NO_PERMISSIONClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NO_PERMISSIONClassTest
 implements NO_PERMISSIONClassTests<NO_PERMISSION> {
@@ -110,6 +109,7 @@ implements NO_PERMISSIONClassTests<NO_PERMISSION> {
     public void create_NO_PERMISSION()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NO_PERMISSION sut = new NO_PERMISSION();
     }
 

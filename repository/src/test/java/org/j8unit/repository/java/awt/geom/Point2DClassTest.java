@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Point2D} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class Point2DClassTest
 implements Point2DClassTests<Point2D> {
@@ -76,7 +75,6 @@ implements Point2DClassTests<Point2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests.DoubleClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.Point2DClassTests.DoubleClassTests<Double> {
@@ -106,6 +104,7 @@ implements Point2DClassTests<Point2D> {
         public void create_Double()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Double sut = new Double();
         }
 
@@ -142,7 +141,6 @@ implements Point2DClassTests<Point2D> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests.FloatClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
     implements org.j8unit.repository.java.awt.geom.Point2DClassTests.FloatClassTests<Float> {
@@ -172,6 +170,7 @@ implements Point2DClassTests<Point2D> {
         public void create_Float()
         throws Exception {
             // create new instance
+            @SuppressWarnings("unused")
             final Float sut = new Float();
         }
 

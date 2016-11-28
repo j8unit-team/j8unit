@@ -13,7 +13,6 @@ import org.omg.CosNaming.BindingIteratorHelper;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BindingIteratorHelper} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CosNaming.BindingIteratorHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BindingIteratorHelperClassTest
 implements BindingIteratorHelperClassTests<BindingIteratorHelper> {

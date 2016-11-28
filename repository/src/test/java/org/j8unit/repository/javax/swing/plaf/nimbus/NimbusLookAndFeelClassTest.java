@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link NimbusLookAndFeel} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.javax.swing.plaf.nimbus.NimbusLookAndFeelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class NimbusLookAndFeelClassTest
 implements NimbusLookAndFeelClassTests<NimbusLookAndFeel> {
@@ -43,6 +42,7 @@ implements NimbusLookAndFeelClassTests<NimbusLookAndFeel> {
     public void create_NimbusLookAndFeel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final NimbusLookAndFeel sut = new NimbusLookAndFeel();
     }
 

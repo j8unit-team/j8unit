@@ -22,6 +22,7 @@ implements FactoryBasedJ8UnitTest<AttributeValueExp>, AttributeValueExpTests<Att
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeValueExp]
 
     @Parameters(name = "{index}: {0}")
+    @SuppressWarnings("deprecation")
     public static Iterable<? extends Object> sutData() {
         return testParametersOf(AttributeValueExp::new);
     }

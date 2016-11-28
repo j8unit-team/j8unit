@@ -13,7 +13,6 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateHolder;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHolderClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateHolderClassTest
 implements ObjectReferenceTemplateHolderClassTests<ObjectReferenceTemplateHolder> {
@@ -69,6 +68,7 @@ implements ObjectReferenceTemplateHolderClassTests<ObjectReferenceTemplateHolder
     public void create_ObjectReferenceTemplateHolder()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ObjectReferenceTemplateHolder sut = new ObjectReferenceTemplateHolder();
     }
 

@@ -12,7 +12,6 @@ import org.omg.CORBA.PolicyError;
  * Specific JUnit test class to proof the type relevant aspects of type {@link PolicyError} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PolicyErrorClassTest
 implements PolicyErrorClassTests<PolicyError> {
@@ -42,6 +41,7 @@ implements PolicyErrorClassTests<PolicyError> {
     public void create_PolicyError()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final PolicyError sut = new PolicyError();
     }
 

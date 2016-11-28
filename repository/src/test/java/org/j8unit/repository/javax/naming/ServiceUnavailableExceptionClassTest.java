@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceUnavailableException} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.naming.ServiceUnavailableExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServiceUnavailableExceptionClassTest
 implements ServiceUnavailableExceptionClassTests<ServiceUnavailableException> {
@@ -66,6 +65,7 @@ implements ServiceUnavailableExceptionClassTests<ServiceUnavailableException> {
     public void create_ServiceUnavailableException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServiceUnavailableException sut = new ServiceUnavailableException();
     }
 

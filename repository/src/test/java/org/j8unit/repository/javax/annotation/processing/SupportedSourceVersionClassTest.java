@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.annotation.processing.SupportedSourceVersionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class SupportedSourceVersionClassTest
 implements SupportedSourceVersionClassTests<SupportedSourceVersion> {

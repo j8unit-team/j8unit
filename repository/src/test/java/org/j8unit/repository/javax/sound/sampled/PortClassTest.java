@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link Port} (by simply reusing the J8Unit test
  * interface {@link org.j8unit.repository.javax.sound.sampled.PortClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class PortClassTest
 implements PortClassTests<Port> {
@@ -33,7 +32,6 @@ implements PortClassTests<Port> {
      * Specific JUnit test class to proof the type relevant aspects of type {@link Info} (by simply reusing the J8Unit
      * test interface {@link org.j8unit.repository.javax.sound.sampled.PortClassTests.InfoClassTests}).
      */
-
     @RunWith(J8Unit4.class)
     public static class InfoClassTest
     implements org.j8unit.repository.javax.sound.sampled.PortClassTests.InfoClassTests<Info> {

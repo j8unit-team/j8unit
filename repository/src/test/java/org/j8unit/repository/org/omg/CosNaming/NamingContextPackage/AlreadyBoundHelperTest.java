@@ -10,7 +10,6 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelperTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AlreadyBoundHelperTest
 implements AlreadyBoundHelperTests<AlreadyBoundHelper> {

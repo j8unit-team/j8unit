@@ -14,7 +14,6 @@ import org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelper;
  * the J8Unit test interface
  * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchHelperClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class TypeMismatchHelperClassTest
 implements TypeMismatchHelperClassTests<TypeMismatchHelper> {

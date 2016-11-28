@@ -12,7 +12,6 @@ import org.omg.CORBA.BAD_INV_ORDER;
  * Specific JUnit test class to proof the type relevant aspects of type {@link BAD_INV_ORDER} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class BAD_INV_ORDERClassTest
 implements BAD_INV_ORDERClassTests<BAD_INV_ORDER> {
@@ -110,6 +109,7 @@ implements BAD_INV_ORDERClassTests<BAD_INV_ORDER> {
     public void create_BAD_INV_ORDER()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final BAD_INV_ORDER sut = new BAD_INV_ORDER();
     }
 

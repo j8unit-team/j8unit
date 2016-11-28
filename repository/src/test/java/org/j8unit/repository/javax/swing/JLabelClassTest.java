@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link JLabel} (by simply reusing the J8Unit
  * test interface {@link org.j8unit.repository.javax.swing.JLabelClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class JLabelClassTest
 implements JLabelClassTests<JLabel> {
@@ -130,6 +129,7 @@ implements JLabelClassTests<JLabel> {
     public void create_JLabel()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final JLabel sut = new JLabel();
     }
 

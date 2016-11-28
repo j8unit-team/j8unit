@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
  * reusing the J8Unit test interface
  * {@link org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeyAlreadyExistsExceptionClassTest
 implements KeyAlreadyExistsExceptionClassTests<KeyAlreadyExistsException> {
@@ -44,6 +43,7 @@ implements KeyAlreadyExistsExceptionClassTests<KeyAlreadyExistsException> {
     public void create_KeyAlreadyExistsException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyAlreadyExistsException sut = new KeyAlreadyExistsException();
     }
 

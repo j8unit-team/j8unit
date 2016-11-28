@@ -12,7 +12,6 @@ import org.omg.CORBA.ORBPackage.InconsistentTypeCode;
  * Specific JUnit test class to proof the type relevant aspects of type {@link InconsistentTypeCode} (by simply reusing
  * the J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ORBPackage.InconsistentTypeCodeClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeClassTest
 implements InconsistentTypeCodeClassTests<InconsistentTypeCode> {
@@ -43,6 +42,7 @@ implements InconsistentTypeCodeClassTests<InconsistentTypeCode> {
     public void create_InconsistentTypeCode()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final InconsistentTypeCode sut = new InconsistentTypeCode();
     }
 

@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the type relevant aspects of type {@link KeyException} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.java.security.KeyExceptionClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class KeyExceptionClassTest
 implements KeyExceptionClassTests<KeyException> {
@@ -110,6 +109,7 @@ implements KeyExceptionClassTests<KeyException> {
     public void create_KeyException()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final KeyException sut = new KeyException();
     }
 

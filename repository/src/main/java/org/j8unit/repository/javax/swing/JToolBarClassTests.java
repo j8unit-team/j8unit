@@ -46,7 +46,6 @@ import org.junit.experimental.categories.Category;
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
-
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToolBarClassTests<SUT extends JToolBar>
@@ -111,7 +110,6 @@ extends SwingConstantsClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClas
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
-
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorClassTests<SUT extends Separator>

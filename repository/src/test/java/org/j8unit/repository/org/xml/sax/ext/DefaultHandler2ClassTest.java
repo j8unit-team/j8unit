@@ -12,7 +12,6 @@ import org.xml.sax.ext.DefaultHandler2;
  * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHandler2} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.xml.sax.ext.DefaultHandler2ClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class DefaultHandler2ClassTest
 implements DefaultHandler2ClassTests<DefaultHandler2> {
@@ -42,6 +41,7 @@ implements DefaultHandler2ClassTests<DefaultHandler2> {
     public void create_DefaultHandler2()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final DefaultHandler2 sut = new DefaultHandler2();
     }
 

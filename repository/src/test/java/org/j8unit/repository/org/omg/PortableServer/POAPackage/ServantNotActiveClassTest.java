@@ -12,7 +12,6 @@ import org.omg.PortableServer.POAPackage.ServantNotActive;
  * Specific JUnit test class to proof the type relevant aspects of type {@link ServantNotActive} (by simply reusing the
  * J8Unit test interface {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveClassTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class ServantNotActiveClassTest
 implements ServantNotActiveClassTests<ServantNotActive> {
@@ -43,6 +42,7 @@ implements ServantNotActiveClassTests<ServantNotActive> {
     public void create_ServantNotActive()
     throws Exception {
         // create new instance
+        @SuppressWarnings("unused")
         final ServantNotActive sut = new ServantNotActive();
     }
 

@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
  * Specific JUnit test class to proof the instance relevant aspects of type {@link AccessibleStreamable} (by simply
  * reusing the J8Unit test interface {@link org.j8unit.repository.javax.accessibility.AccessibleStreamableTests}).
  */
-
 @RunWith(J8Unit4.class)
 public class AccessibleStreamableTest
 implements AccessibleStreamableTests<AccessibleStreamable> {
