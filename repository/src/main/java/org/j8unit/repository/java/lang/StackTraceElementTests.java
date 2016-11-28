@@ -44,7 +44,6 @@ extends SerializableTests<SUT>, ObjectTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
     public default void test_toString()
