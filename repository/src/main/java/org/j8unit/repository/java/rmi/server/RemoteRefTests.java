@@ -27,6 +27,7 @@ import org.junit.experimental.categories.Category;
  */
 @FunctionalInterface
 @Category(J8UnitRepository.class)
+@SuppressWarnings("deprecation")
 public abstract interface RemoteRefTests<SUT extends RemoteRef>
 extends ExternalizableTests<SUT> {
 
