@@ -10,7 +10,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import java.lang.reflect.Type;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.DayOfWeek;
 import java.util.AbstractMap.SimpleImmutableEntry;
@@ -366,7 +365,6 @@ public class GeneratorSetupTest {
     @Test
     public void testFolderForPackage()
     throws Exception {
-        final Path here = Paths.get(".");
         assertEquals(Paths.get("java", "lang").toAbsolutePath(), JAVA_LANG.targetFolderFor(Object.class.getPackage()));
         assertEquals(Paths.get("src", "main", "java", "java", "lang").toAbsolutePath(), JAVA_LANG_INTO.targetFolderFor(Object.class.getPackage()));
         assertEquals(Paths.get("foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(Object.class.getPackage()));
