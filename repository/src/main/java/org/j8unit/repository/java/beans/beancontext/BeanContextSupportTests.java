@@ -858,36 +858,6 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
         BeanContextChildSupportTests.super.test_equals_Object();
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@link java.util.Collection#hashCode() interface java.util.Collection} (via parent node(s) {@link BeanContext
-     * BeanContext})</li>
-     * <li>{@link Object#hashCode() class java.lang.Object} (via parent node(s) {@link BeanContextChildSupport
-     * BeanContextChildSupport})</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        BeanContextTests.super.test_hashCode();
-        BeanContextChildSupportTests.super.test_hashCode();
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]

@@ -316,34 +316,6 @@ extends BindingsTests<SUT>, ObjectTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.util.Map#hashCode() interface java.util.Map} (via parent node(s) {@link Bindings Bindings})</li>
-     * <li>{@link Object#hashCode() class java.lang.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        BindingsTests.super.test_hashCode();
-        ObjectTests.super.test_hashCode();
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
      * <li>{@link java.util.Map#equals(Object) interface java.util.Map} (via parent node(s) {@link Bindings
      * Bindings})</li>
      * <li>{@link Object#equals(Object) class java.lang.Object}</li>

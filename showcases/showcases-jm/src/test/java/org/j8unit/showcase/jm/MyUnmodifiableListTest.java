@@ -51,11 +51,4 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
         UnmodifiableListTests.super.test_equals_Object();
     }
 
-    @Override
-    public void test_hashCode()
-    throws Exception {
-        ObjectTests.super.test_hashCode();
-        UnmodifiableListTests.super.test_hashCode();
-    }
-
 }
