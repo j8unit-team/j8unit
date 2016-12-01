@@ -1,6 +1,8 @@
 package org.j8unit.repository.java.lang;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Method;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Test;
@@ -66,6 +68,32 @@ extends RepositoryClassTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Object]
+
+    /**
+     * According to the contract of {@link Object#equals(Object)},
+     * <q>[&hellip;] it is generally necessary to override the hashCode method whenever this method is overridden
+     * [&hellip;]</q>
+     *
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     * 
+     * @since 0.9.7
+     */
+    @Test
+    public default void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        try {
+            final Method equals = sut.getDeclaredMethod("equals", Object.class);
+            assert equals != null;
+            try {
+                final Method hashCode = sut.getDeclaredMethod("hashCode");
+                assert hashCode != null;
+            } catch (final NoSuchMethodException | SecurityException notPresent) {
+                fail("Overridden [Object#equals(Object)] without corresponding overridden [Object#hashCode()]!");
+            }
+        } catch (final NoSuchMethodException | SecurityException noDeclaredEquals) {}
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Object]
 
