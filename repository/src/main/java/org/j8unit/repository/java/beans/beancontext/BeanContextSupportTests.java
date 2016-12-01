@@ -1,7 +1,5 @@
 package org.j8unit.repository.java.beans.beancontext;
 
-import java.beans.beancontext.BeanContext;
-import java.beans.beancontext.BeanContextChildSupport;
 import java.beans.beancontext.BeanContextSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -826,36 +824,6 @@ extends BeanContextTests, PropertyChangeListenerTests, VetoableChangeListenerTes
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@link java.util.Collection#equals(Object) interface java.util.Collection} (via parent node(s)
-     * {@link BeanContext BeanContext})</li>
-     * <li>{@link Object#equals(Object) class java.lang.Object} (via parent node(s) {@link BeanContextChildSupport
-     * BeanContextChildSupport})</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        BeanContextTests.super.test_equals_Object();
-        BeanContextChildSupportTests.super.test_equals_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]

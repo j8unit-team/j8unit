@@ -44,11 +44,4 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
         UnmodifiableListTests.super.clearMustThrowUOE();
     }
 
-    @Override
-    public void test_equals_Object()
-    throws Exception {
-        ObjectTests.super.test_equals_Object();
-        UnmodifiableListTests.super.test_equals_Object();
-    }
-
 }
