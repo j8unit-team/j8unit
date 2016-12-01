@@ -2,6 +2,7 @@ package org.j8unit.repository.java.util.concurrent;
 
 import java.util.concurrent.CopyOnWriteArraySet;
 import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -71,6 +72,19 @@ implements CopyOnWriteArraySetClassTests<CopyOnWriteArraySet> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CopyOnWriteArraySet]
+
+    /**
+     * @see CopyOnWriteArraySetClassBugs#equalsWithoutHashCode() Overridden {@code #equals(Object)} method without
+     *      corresponding overridden {@code #hashCode()}!
+     *
+     * @since 0.9.7
+     */
+    @Test
+    @Category(JavaBug.class)
+    @Override
+    public void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        CopyOnWriteArraySetClassTests.super.wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode();
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CopyOnWriteArraySet]
 

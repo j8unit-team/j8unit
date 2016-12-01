@@ -2,6 +2,7 @@ package org.j8unit.repository.javax.print.attribute.standard;
 
 import javax.print.attribute.standard.JobMediaSheets;
 import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -47,6 +48,19 @@ implements JobMediaSheetsClassTests<JobMediaSheets> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
+
+    /**
+     * @see JobMediaSheetsClassBugs#equalsWithoutHashCode() Overridden {@code #equals(Object)} method without
+     *      corresponding overridden {@code #hashCode()}!
+     *
+     * @since 0.9.7
+     */
+    @Test
+    @Category(JavaBug.class)
+    @Override
+    public void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        JobMediaSheetsClassTests.super.wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode();
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
 
