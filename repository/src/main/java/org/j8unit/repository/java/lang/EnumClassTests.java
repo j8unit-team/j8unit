@@ -75,6 +75,17 @@ extends ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Enum]
 
     /**
+     * @since 1.0.1
+     */
+    @Test
+    public default void isEnumMustReturnTrue()
+    throws Exception {
+        final Class<SUT> sut = this.createNewSUT();
+        assert sut != null;
+        assertTrue(sut.isEnum());
+    }
+
+    /**
      * @since 0.9.3
      */
     @Test
