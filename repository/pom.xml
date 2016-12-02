@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>parent</artifactId>
-    <version>1</version>
+    <version>2-SNAPSHOT</version>
     <relativePath>../parent</relativePath>
   </parent>
 
@@ -17,7 +17,7 @@
   <!-- Unmodifiable (Collection API) aspects: 0.9.5 -->
   <!-- Bug handling/declaration of 0.9.5: 0.9.6 -->
   <!-- Further tests and bug handling: 0.9.7 -->
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>J8Unit Project (Repository)</name>
   <description>Repository of Java-based J8Unit test interfaces.</description>
 
