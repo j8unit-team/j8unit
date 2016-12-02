@@ -120,62 +120,6 @@ extends PrintServiceTests<SUT>, ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@link javax.print.PrintService#hashCode() interface javax.print.PrintService}</li>
-     * <li>{@link Object#hashCode() class java.lang.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        PrintServiceTests.super.test_hashCode();
-        ObjectTests.super.test_hashCode();
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@link javax.print.PrintService#equals(Object) interface javax.print.PrintService}</li>
-     * <li>{@link Object#equals(Object) class java.lang.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        PrintServiceTests.super.test_equals_Object();
-        ObjectTests.super.test_equals_Object();
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.StreamPrintService]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintService]

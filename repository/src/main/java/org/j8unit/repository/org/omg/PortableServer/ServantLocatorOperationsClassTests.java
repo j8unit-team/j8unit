@@ -29,7 +29,7 @@ import org.omg.PortableServer.ServantLocatorOperations;
  * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
  * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
- * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints referring to the provision of
  * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
  * not limited to constructors only; Just think of factory methods and further.)
  *

@@ -1,6 +1,8 @@
 package org.j8unit.repository.java.lang;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Method;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Test;
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
  * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
  * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
- * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints referring to the provision of
  * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
  * not limited to constructors only; Just think of factory methods and further.)
  *
@@ -66,6 +68,32 @@ extends RepositoryClassTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Object]
+
+    /**
+     * According to the contract of {@link Object#equals(Object)},
+     * <q>[&hellip;] it is generally necessary to override the hashCode method whenever this method is overridden
+     * [&hellip;]</q>
+     *
+     * @see Object#equals(Object) public boolean java.lang.Object.equals(java.lang.Object) (the hereby targeted
+     *      method-under-test)
+     * 
+     * @since 0.9.7
+     */
+    @Test
+    public default void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        try {
+            final Method equals = sut.getDeclaredMethod("equals", Object.class);
+            assert equals != null;
+            try {
+                final Method hashCode = sut.getDeclaredMethod("hashCode");
+                assert hashCode != null;
+            } catch (final NoSuchMethodException | SecurityException notPresent) {
+                fail("Overridden [Object#equals(Object)] without corresponding overridden [Object#hashCode()]!");
+            }
+        } catch (final NoSuchMethodException | SecurityException noDeclaredEquals) {}
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Object]
 

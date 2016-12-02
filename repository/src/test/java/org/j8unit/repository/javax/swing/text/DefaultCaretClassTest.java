@@ -2,6 +2,7 @@ package org.j8unit.repository.javax.swing.text;
 
 import javax.swing.text.DefaultCaret;
 import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -46,6 +47,19 @@ implements DefaultCaretClassTests<DefaultCaret> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultCaret]
+
+    /**
+     * @see DefaultCaretClassBugs#equalsWithoutHashCode() Overridden {@code #equals(Object)} method without
+     *      corresponding overridden {@code #hashCode()}!
+     *
+     * @since 0.9.7
+     */
+    @Test
+    @Category(JavaBug.class)
+    @Override
+    public void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        DefaultCaretClassTests.super.wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode();
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultCaret]
 

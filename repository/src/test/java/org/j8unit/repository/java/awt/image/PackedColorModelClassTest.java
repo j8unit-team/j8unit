@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.image;
 import static org.junit.Assert.fail;
 import java.awt.image.PackedColorModel;
 import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.JavaBug;
 import org.j8unit.runners.J8Unit4;
 import org.junit.Assert;
 import org.junit.Ignore;
@@ -68,6 +69,19 @@ implements PackedColorModelClassTests<PackedColorModel> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.PackedColorModel]
+
+    /**
+     * @see PackedColorModelClassBugs#equalsWithoutHashCode() Overridden {@code #equals(Object)} method without
+     *      corresponding overridden {@code #hashCode()}!
+     *
+     * @since 0.9.7
+     */
+    @Test
+    @Category(JavaBug.class)
+    @Override
+    public void wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode() {
+        PackedColorModelClassTests.super.wheneverEqualsIsOverriddenItIsGenerallyNecessaryToOverrideHashCode();
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.PackedColorModel]
 

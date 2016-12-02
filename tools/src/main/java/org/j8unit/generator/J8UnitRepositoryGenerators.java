@@ -321,7 +321,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s * For example, all sub-types of {@link %s} should provide a%n", indt, renderer.javadocNameOf(Throwable.class)));
             out.append(format("%s * zero-argument and a {@link %s}-argument constructor.%n", indt, renderer.javadocNameOf(String.class)));
             out.append(format("%s * Obviously, this is a class-specific behaviour.%n", indt));
-            out.append(format("%s * In general, all constraints refering to the provision of specific constructors (and its%n", indt));
+            out.append(format("%s * In general, all constraints referring to the provision of specific constructors (and its%n", indt));
             out.append(format("%s * individual requirements) should be covered by according test methods. (Note, this is not limited%n", indt));
             out.append(format("%s * to constructors only; Just think of factory methods and further.)%n", indt));
             out.append(format("%s *%n", indt));
