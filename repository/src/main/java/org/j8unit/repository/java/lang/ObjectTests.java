@@ -1,14 +1,13 @@
 package org.j8unit.repository.java.lang;
 
+import static java.lang.Thread.holdsLock;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.RepositoryTests;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.categories.Should;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -35,72 +34,6 @@ public abstract interface ObjectTests<SUT extends Object>
 extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Object]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#wait() public final void
-     * java.lang.Object.wait() throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#wait(long) public final native void
-     * java.lang.Object.wait(long) throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link Object#wait(long, int) public final void
-     * java.lang.Object.wait(long,int) throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wait_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Object]
 
@@ -214,6 +147,161 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertNotNull(sut.toString());
+    }
+
+    /**
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long, int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalMonitorStateException.class)
+    public default void waitMillisAndNanosWithoutMonitorMustFail()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assert !holdsLock(sut);
+        sut.wait(1, 0);
+    }
+
+    /**
+     * @see Object#wait(long) public final void java.lang.Object.wait(long) throws java.lang.InterruptedException (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalMonitorStateException.class)
+    public default void waitMillisWithoutMonitorMustFail()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assert !holdsLock(sut);
+        sut.wait(1);
+    }
+
+    /**
+     * @see Object#wait(long) public final void java.lang.Object.wait(long) throws java.lang.InterruptedException (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test
+    public default void waitOneMillisecond()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            try {
+                sut.wait(1);
+            } catch (final InterruptedException interrupted) {
+                // most likely, wont happen; just ignore interruption silently
+            }
+        }
+    }
+
+    /**
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long, int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test
+    public default void waitOneMillisecondAndOneNanosecond()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            try {
+                sut.wait(1, 1);
+            } catch (final InterruptedException interrupted) {
+                // most likely, wont happen; just ignore interruption silently
+            }
+        }
+    }
+
+    /**
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long, int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public default void waitWithNegativeMillisAndNanosMustAbort()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            sut.wait(-1, 0);
+        }
+    }
+
+    /**
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long, int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public default void waitWithNegativeMillisAndNegativeNanosMustAbort()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            sut.wait(-1, -1);
+        }
+    }
+
+    /**
+     * @see Object#wait(long) public final void java.lang.Object.wait(long) throws java.lang.InterruptedException (the
+     *      hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public default void waitWithNegativeMillisMustAbort()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            sut.wait(-1);
+        }
+    }
+
+    /**
+     * @see Object#wait(long, int) public final void java.lang.Object.wait(long, int) throws
+     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public default void waitWithNegativeNanosMustAbort()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        synchronized (sut) {
+            assert holdsLock(sut);
+            sut.wait(1, -1);
+        }
+    }
+
+    /**
+     * @see Object#wait() public final void java.lang.Object.wait() throws java.lang.InterruptedException (the hereby
+     *      targeted method-under-test)
+     *
+     * @since 1.0.1
+     */
+    @Test(expected = IllegalMonitorStateException.class)
+    public default void waitWithoutMonitorMustFail()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assert !holdsLock(sut);
+        sut.wait();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Object]

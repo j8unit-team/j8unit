@@ -73,15 +73,6 @@
         <module>./core</module>
         <module>./repository</module>
       </modules>
-      <build>
-        <plugins>
-          <!-- In order to disable artifact signing, run "mvn -Dgpg.skip ..." -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-          </plugin>
-        </plugins>
-      </build>
     </profile>
 
     <profile>
