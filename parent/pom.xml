@@ -81,7 +81,7 @@
     <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
     <version.j8unit.core>4.12.1</version.j8unit.core>
     <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
-    <version.j8unit.repository>1.0.1-SNAPSHOT</version.j8unit.repository>
+    <version.j8unit.repository>1.0.2-SNAPSHOT</version.j8unit.repository>
     <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
     <version.j8unit.spring>4.1.7</version.j8unit.spring>
 
