@@ -82,6 +82,7 @@ extends ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests
     throws Exception {
         final Class<SUT> sut = this.createNewSUT();
         assert sut != null;
+        assumeFalse("This general test method is not suitable for [" + Enum.class.getName() + "] itself.", Enum.class.equals(sut));
         assertTrue(sut.isEnum());
     }
 
