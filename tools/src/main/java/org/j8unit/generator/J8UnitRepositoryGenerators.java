@@ -368,6 +368,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%n"));
             // content creation: Begin Marker
             out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%n"));
             out.append(modusOperandi.customTestInterfaceBody(depth + 1, renderer));
             out.append(this.verifyGenericTypeContent(type, depth + 1, renderer));
             out.append(format("%n"));
