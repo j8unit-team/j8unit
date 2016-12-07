@@ -24,8 +24,9 @@ import java.util.function.Supplier;
  * providing fail messages; and, thus, its usage is preferred!
  * </p>
  *
- * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component, this assertion
- *          extension is located within the JUnit's name-space {@code org.junit} intentionally.
+ * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component (i.&thinsp;e.,
+ *          {@link Assert#format(String, Object, Object)}), this assertion extension is located within the JUnit's
+ *          name-space {@code org.junit} intentionally.
  *
  * @see org.j8unit.Assert
  * @since 4.12.1
