@@ -96,7 +96,7 @@ extends TestClass {
      *            the {@link Class} to return all of its {@code interface}s
      * @return an ordered {@link Set} of all {@code interface}s implemented by the given {@link Class}
      */
-    private static Set<Class<?>> getInterfaces(final Class<?> clazz) {
+    private static final Set<Class<?>> getInterfaces(final Class<?> clazz) {
         return getInterfaces(clazz.getInterfaces());
     }
 
@@ -105,7 +105,7 @@ extends TestClass {
      * Helper method for {@link #getInterfaces(Class)}.
      * </p>
      */
-    private static Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
+    private static final Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
         final Set<Class<?>> results = new LinkedHashSet<Class<?>>();
         for (final Class<?> eachInterface : allInterfaces) {
             results.add(eachInterface);

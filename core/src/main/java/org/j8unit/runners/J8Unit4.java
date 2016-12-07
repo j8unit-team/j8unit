@@ -33,7 +33,7 @@ import org.junit.runners.model.InitializationError;
  *
  * @since 4.12
  */
-public class J8Unit4
+public final class J8Unit4
 extends J8BlockJUnit4ClassRunner {
 
     /**
