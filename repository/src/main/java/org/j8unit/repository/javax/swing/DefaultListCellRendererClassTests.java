@@ -51,6 +51,7 @@ public abstract interface DefaultListCellRendererClassTests<SUT extends DefaultL
 extends ListCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultListCellRenderer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -115,6 +116,7 @@ extends ListCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultListCellRenderer$UIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

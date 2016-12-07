@@ -50,6 +50,7 @@ public abstract interface KeyAlreadyExistsExceptionClassTests<SUT extends KeyAlr
 extends IllegalArgumentExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.KeyAlreadyExistsException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface SecretKeySpecClassTests<SUT extends SecretKeySpec>
 extends KeySpecClassTests<SUT>, SecretKeyClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.SecretKeySpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

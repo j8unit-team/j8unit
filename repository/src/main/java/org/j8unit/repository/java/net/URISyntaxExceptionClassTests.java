@@ -50,6 +50,7 @@ public abstract interface URISyntaxExceptionClassTests<SUT extends URISyntaxExce
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.URISyntaxException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

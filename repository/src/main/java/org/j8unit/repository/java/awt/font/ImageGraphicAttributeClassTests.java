@@ -49,6 +49,7 @@ public abstract interface ImageGraphicAttributeClassTests<SUT extends ImageGraph
 extends GraphicAttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.ImageGraphicAttribute]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

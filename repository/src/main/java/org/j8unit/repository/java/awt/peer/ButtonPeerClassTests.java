@@ -49,6 +49,7 @@ public abstract interface ButtonPeerClassTests<SUT extends ButtonPeer>
 extends ComponentPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.ButtonPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

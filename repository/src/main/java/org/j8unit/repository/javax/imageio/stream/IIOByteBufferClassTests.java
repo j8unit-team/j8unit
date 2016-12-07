@@ -50,6 +50,7 @@ public abstract interface IIOByteBufferClassTests<SUT extends IIOByteBuffer>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.IIOByteBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -48,6 +48,7 @@ public abstract interface IllegalStateExceptionClassTests<SUT extends IllegalSta
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IllegalStateException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

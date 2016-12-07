@@ -49,6 +49,7 @@ public abstract interface JDesktopPaneClassTests<SUT extends JDesktopPane>
 extends JLayeredPaneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JDesktopPane]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

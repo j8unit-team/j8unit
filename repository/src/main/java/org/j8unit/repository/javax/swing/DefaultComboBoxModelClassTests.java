@@ -50,6 +50,7 @@ public abstract interface DefaultComboBoxModelClassTests<SUT extends DefaultComb
 extends MutableComboBoxModelClassTests<SUT>, AbstractListModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultComboBoxModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

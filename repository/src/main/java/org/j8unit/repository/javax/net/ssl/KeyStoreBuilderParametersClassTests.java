@@ -50,6 +50,7 @@ public abstract interface KeyStoreBuilderParametersClassTests<SUT extends KeySto
 extends ManagerFactoryParametersClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.KeyStoreBuilderParameters]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

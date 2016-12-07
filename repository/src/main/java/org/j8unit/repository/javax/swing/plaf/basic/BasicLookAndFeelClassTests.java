@@ -51,6 +51,7 @@ public abstract interface BasicLookAndFeelClassTests<SUT extends BasicLookAndFee
 extends SerializableClassTests<SUT>, LookAndFeelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicLookAndFeel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

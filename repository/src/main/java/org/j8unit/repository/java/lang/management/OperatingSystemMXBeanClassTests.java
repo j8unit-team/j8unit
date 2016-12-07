@@ -49,6 +49,7 @@ public abstract interface OperatingSystemMXBeanClassTests<SUT extends OperatingS
 extends PlatformManagedObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.OperatingSystemMXBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

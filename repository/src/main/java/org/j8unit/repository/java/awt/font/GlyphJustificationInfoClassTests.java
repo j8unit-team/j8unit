@@ -50,6 +50,7 @@ public abstract interface GlyphJustificationInfoClassTests<SUT extends GlyphJust
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.GlyphJustificationInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

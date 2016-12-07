@@ -50,6 +50,7 @@ public abstract interface CharacterCodingExceptionClassTests<SUT extends Charact
 extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.charset.CharacterCodingException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

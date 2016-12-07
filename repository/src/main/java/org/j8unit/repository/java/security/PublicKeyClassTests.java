@@ -49,6 +49,7 @@ public abstract interface PublicKeyClassTests<SUT extends PublicKey>
 extends KeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.PublicKey]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

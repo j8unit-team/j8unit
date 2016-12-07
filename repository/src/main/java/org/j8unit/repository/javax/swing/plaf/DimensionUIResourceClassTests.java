@@ -50,6 +50,7 @@ public abstract interface DimensionUIResourceClassTests<SUT extends DimensionUIR
 extends UIResourceClassTests<SUT>, DimensionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.DimensionUIResource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

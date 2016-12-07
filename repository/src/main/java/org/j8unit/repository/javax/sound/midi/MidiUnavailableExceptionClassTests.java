@@ -50,6 +50,7 @@ public abstract interface MidiUnavailableExceptionClassTests<SUT extends MidiUna
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiUnavailableException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

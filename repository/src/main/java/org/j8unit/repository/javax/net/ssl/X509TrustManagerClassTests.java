@@ -49,6 +49,7 @@ public abstract interface X509TrustManagerClassTests<SUT extends X509TrustManage
 extends TrustManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.X509TrustManager]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface BasicDirectoryModelClassTests<SUT extends BasicDirecto
 extends PropertyChangeListenerClassTests<SUT>, AbstractListModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicDirectoryModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

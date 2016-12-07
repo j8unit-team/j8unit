@@ -50,6 +50,7 @@ public abstract interface TAG_MULTIPLE_COMPONENTSClassTests<SUT extends TAG_MULT
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TAG_MULTIPLE_COMPONENTS]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface NavigableSetClassTests<SUT extends NavigableSet>
 extends SortedSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.NavigableSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface DateClassTests<SUT extends Date>
 extends org.j8unit.repository.java.util.DateClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Date]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

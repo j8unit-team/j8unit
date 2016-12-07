@@ -49,6 +49,7 @@ public abstract interface UnsolicitedNotificationClassTests<SUT extends Unsolici
 extends ExtendedResponseClassTests<SUT>, HasControlsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.UnsolicitedNotification]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface ManageReferralControlClassTests<SUT extends ManageRefe
 extends BasicControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.ManageReferralControl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

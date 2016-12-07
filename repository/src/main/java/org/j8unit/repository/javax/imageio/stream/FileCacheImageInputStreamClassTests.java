@@ -49,6 +49,7 @@ public abstract interface FileCacheImageInputStreamClassTests<SUT extends FileCa
 extends ImageInputStreamImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.FileCacheImageInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

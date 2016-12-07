@@ -50,6 +50,7 @@ public abstract interface GSSCredentialClassTests<SUT extends GSSCredential>
 extends CloneableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.ietf.jgss.GSSCredential]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface LocalObjectClassTests<SUT extends LocalObject>
 extends ObjectClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.LocalObject]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

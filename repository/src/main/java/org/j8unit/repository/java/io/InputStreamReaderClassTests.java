@@ -49,6 +49,7 @@ public abstract interface InputStreamReaderClassTests<SUT extends InputStreamRea
 extends ReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.InputStreamReader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

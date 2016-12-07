@@ -51,6 +51,7 @@ public abstract interface SynthColorChooserUIClassTests<SUT extends SynthColorCh
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicColorChooserUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthColorChooserUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

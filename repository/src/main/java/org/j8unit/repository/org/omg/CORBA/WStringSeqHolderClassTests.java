@@ -51,6 +51,7 @@ public abstract interface WStringSeqHolderClassTests<SUT extends WStringSeqHolde
 extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.WStringSeqHolder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

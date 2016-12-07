@@ -50,6 +50,7 @@ public abstract interface RowSetMetaDataClassTests<SUT extends RowSetMetaData>
 extends ResultSetMetaDataClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.RowSetMetaData]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

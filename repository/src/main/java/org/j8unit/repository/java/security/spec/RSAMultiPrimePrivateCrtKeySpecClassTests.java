@@ -49,6 +49,7 @@ public abstract interface RSAMultiPrimePrivateCrtKeySpecClassTests<SUT extends R
 extends RSAPrivateKeySpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.RSAMultiPrimePrivateCrtKeySpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

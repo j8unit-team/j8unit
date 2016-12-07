@@ -49,6 +49,7 @@ public abstract interface BatchUpdateExceptionClassTests<SUT extends BatchUpdate
 extends SQLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.BatchUpdateException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

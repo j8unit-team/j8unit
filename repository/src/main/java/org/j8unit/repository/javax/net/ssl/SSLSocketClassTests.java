@@ -50,6 +50,7 @@ public abstract interface SSLSocketClassTests<SUT extends SSLSocket>
 extends SocketClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLSocket]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

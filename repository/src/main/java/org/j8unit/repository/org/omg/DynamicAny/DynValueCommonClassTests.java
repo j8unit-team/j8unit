@@ -49,6 +49,7 @@ public abstract interface DynValueCommonClassTests<SUT extends DynValueCommon>
 extends DynValueCommonOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynValueCommon]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface ProcessBuilderClassTests<SUT extends ProcessBuilder>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -115,6 +116,7 @@ extends ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -179,6 +181,7 @@ extends ObjectClassTests<SUT> {
         extends EnumClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder$Redirect$Type]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)

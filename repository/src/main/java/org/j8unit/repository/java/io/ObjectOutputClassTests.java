@@ -50,6 +50,7 @@ public abstract interface ObjectOutputClassTests<SUT extends ObjectOutput>
 extends DataOutputClassTests<SUT>, AutoCloseableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutput]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

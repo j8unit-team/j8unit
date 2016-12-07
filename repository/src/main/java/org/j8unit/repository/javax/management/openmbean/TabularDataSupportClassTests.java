@@ -53,6 +53,7 @@ public abstract interface TabularDataSupportClassTests<SUT extends TabularDataSu
 extends TabularDataClassTests<SUT>, MapClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

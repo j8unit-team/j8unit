@@ -49,6 +49,7 @@ public abstract interface BinaryRefAddrClassTests<SUT extends BinaryRefAddr>
 extends RefAddrClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.BinaryRefAddr]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

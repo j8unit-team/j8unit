@@ -50,6 +50,7 @@ public abstract interface ChoiceClassTests<SUT extends Choice>
 extends ItemSelectableClassTests<SUT>, AccessibleClassTests<SUT>, ComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Choice]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

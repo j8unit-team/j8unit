@@ -50,6 +50,7 @@ public abstract interface JdbcRowSetClassTests<SUT extends JdbcRowSet>
 extends RowSetClassTests<SUT>, JoinableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.JdbcRowSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

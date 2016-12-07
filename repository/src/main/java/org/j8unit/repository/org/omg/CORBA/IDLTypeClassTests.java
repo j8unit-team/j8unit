@@ -49,6 +49,7 @@ public abstract interface IDLTypeClassTests<SUT extends IDLType>
 extends IDLTypeOperationsClassTests<SUT>, IRObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IDLType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

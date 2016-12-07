@@ -50,6 +50,7 @@ public abstract interface XMLEncoderClassTests<SUT extends XMLEncoder>
 extends AutoCloseableClassTests<SUT>, EncoderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.XMLEncoder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

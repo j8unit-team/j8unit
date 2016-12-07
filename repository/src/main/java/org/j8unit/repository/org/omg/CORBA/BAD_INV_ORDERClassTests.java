@@ -49,6 +49,7 @@ public abstract interface BAD_INV_ORDERClassTests<SUT extends BAD_INV_ORDER>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BAD_INV_ORDER]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

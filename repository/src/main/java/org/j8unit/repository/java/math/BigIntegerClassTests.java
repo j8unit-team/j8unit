@@ -51,6 +51,7 @@ public abstract interface BigIntegerClassTests<SUT extends BigInteger>
 extends ComparableClassTests<SUT>, NumberClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.math.BigInteger]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

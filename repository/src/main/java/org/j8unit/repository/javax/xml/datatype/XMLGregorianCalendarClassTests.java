@@ -51,6 +51,7 @@ public abstract interface XMLGregorianCalendarClassTests<SUT extends XMLGregoria
 extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.datatype.XMLGregorianCalendar]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

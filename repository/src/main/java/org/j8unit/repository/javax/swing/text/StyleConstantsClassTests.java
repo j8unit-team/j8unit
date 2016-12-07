@@ -59,6 +59,7 @@ public abstract interface StyleConstantsClassTests<SUT extends StyleConstants>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -123,6 +124,7 @@ extends ObjectClassTests<SUT> {
     extends CharacterAttributeClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$CharacterConstants]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -189,6 +191,7 @@ extends ObjectClassTests<SUT> {
     extends ParagraphAttributeClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -255,6 +258,7 @@ extends ObjectClassTests<SUT> {
     extends FontAttributeClassTests<SUT>, CharacterAttributeClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$FontConstants]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -321,6 +325,7 @@ extends ObjectClassTests<SUT> {
     extends ColorAttributeClassTests<SUT>, CharacterAttributeClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$ColorConstants]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

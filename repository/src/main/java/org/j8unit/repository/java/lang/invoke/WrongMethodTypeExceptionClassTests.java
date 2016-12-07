@@ -50,6 +50,7 @@ public abstract interface WrongMethodTypeExceptionClassTests<SUT extends WrongMe
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.WrongMethodTypeException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

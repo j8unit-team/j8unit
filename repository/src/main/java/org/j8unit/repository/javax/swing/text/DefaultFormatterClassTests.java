@@ -51,6 +51,7 @@ public abstract interface DefaultFormatterClassTests<SUT extends DefaultFormatte
 extends CloneableClassTests<SUT>, AbstractFormatterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultFormatter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface JarEntryClassTests<SUT extends JarEntry>
 extends ZipEntryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.JarEntry]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

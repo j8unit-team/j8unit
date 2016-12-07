@@ -50,6 +50,7 @@ public abstract interface ImageOutputStreamClassTests<SUT extends ImageOutputStr
 extends ImageInputStreamClassTests<SUT>, DataOutputClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.ImageOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

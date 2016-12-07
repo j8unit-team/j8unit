@@ -50,6 +50,7 @@ public abstract interface MultiViewportUIClassTests<SUT extends MultiViewportUI>
 extends ViewportUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiViewportUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

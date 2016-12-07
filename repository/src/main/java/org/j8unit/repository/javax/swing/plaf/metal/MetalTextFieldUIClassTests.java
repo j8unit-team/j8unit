@@ -50,6 +50,7 @@ public abstract interface MetalTextFieldUIClassTests<SUT extends MetalTextFieldU
 extends BasicTextFieldUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalTextFieldUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

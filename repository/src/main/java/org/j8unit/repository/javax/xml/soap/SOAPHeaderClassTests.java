@@ -49,6 +49,7 @@ public abstract interface SOAPHeaderClassTests<SUT extends SOAPHeader>
 extends SOAPElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SOAPHeader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

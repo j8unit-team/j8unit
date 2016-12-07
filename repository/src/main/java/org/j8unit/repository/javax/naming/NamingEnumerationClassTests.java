@@ -51,6 +51,7 @@ public abstract interface NamingEnumerationClassTests<SUT extends NamingEnumerat
 extends EnumerationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.NamingEnumeration]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

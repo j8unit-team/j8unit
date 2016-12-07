@@ -49,6 +49,7 @@ public abstract interface XPathFactoryConfigurationExceptionClassTests<SUT exten
 extends XPathExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.xpath.XPathFactoryConfigurationException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

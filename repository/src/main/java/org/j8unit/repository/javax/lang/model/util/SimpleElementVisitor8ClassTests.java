@@ -50,6 +50,7 @@ public abstract interface SimpleElementVisitor8ClassTests<SUT extends SimpleElem
 extends SimpleElementVisitor7ClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.SimpleElementVisitor8]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

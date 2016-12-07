@@ -50,6 +50,7 @@ public abstract interface IRObjectClassTests<SUT extends IRObject>
 extends IRObjectOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IRObject]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

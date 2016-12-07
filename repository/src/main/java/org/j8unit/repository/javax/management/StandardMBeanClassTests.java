@@ -50,6 +50,7 @@ public abstract interface StandardMBeanClassTests<SUT extends StandardMBean>
 extends DynamicMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.StandardMBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

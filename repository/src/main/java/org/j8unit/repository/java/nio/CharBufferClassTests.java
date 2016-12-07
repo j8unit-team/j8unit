@@ -53,6 +53,7 @@ public abstract interface CharBufferClassTests<SUT extends CharBuffer>
 extends ComparableClassTests<SUT>, AppendableClassTests<SUT>, CharSequenceClassTests<SUT>, ReadableClassTests<SUT>, BufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.CharBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

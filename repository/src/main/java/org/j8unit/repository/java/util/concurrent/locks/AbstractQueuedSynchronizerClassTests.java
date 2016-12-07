@@ -53,6 +53,7 @@ public abstract interface AbstractQueuedSynchronizerClassTests<SUT extends Abstr
 extends AbstractOwnableSynchronizerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedSynchronizer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends AbstractOwnableSynchronizerClassTests<SUT> {
     extends ConditionClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

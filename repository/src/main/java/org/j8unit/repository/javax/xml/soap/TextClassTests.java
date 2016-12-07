@@ -49,6 +49,7 @@ public abstract interface TextClassTests<SUT extends Text>
 extends NodeClassTests<SUT>, org.j8unit.repository.org.w3c.dom.TextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.Text]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

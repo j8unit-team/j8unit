@@ -49,6 +49,7 @@ public abstract interface ServantActivatorClassTests<SUT extends ServantActivato
 extends ServantActivatorOperationsClassTests<SUT>, ServantManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantActivator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

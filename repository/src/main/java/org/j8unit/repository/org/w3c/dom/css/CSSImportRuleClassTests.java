@@ -49,6 +49,7 @@ public abstract interface CSSImportRuleClassTests<SUT extends CSSImportRule>
 extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSImportRule]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

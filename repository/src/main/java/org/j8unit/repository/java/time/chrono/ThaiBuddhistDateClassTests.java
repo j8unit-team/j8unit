@@ -51,6 +51,7 @@ public abstract interface ThaiBuddhistDateClassTests<SUT extends ThaiBuddhistDat
 extends ChronoLocalDateClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.ThaiBuddhistDate]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

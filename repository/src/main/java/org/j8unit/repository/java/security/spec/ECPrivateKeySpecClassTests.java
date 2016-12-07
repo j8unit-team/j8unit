@@ -50,6 +50,7 @@ public abstract interface ECPrivateKeySpecClassTests<SUT extends ECPrivateKeySpe
 extends KeySpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECPrivateKeySpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

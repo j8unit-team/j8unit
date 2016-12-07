@@ -49,6 +49,7 @@ public abstract interface TRANSACTION_UNAVAILABLEClassTests<SUT extends TRANSACT
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

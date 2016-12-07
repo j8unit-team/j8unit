@@ -49,6 +49,7 @@ public abstract interface LinkLoopExceptionClassTests<SUT extends LinkLoopExcept
 extends LinkExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.LinkLoopException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

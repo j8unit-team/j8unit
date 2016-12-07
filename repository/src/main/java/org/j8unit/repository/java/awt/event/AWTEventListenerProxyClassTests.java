@@ -50,6 +50,7 @@ public abstract interface AWTEventListenerProxyClassTests<SUT extends AWTEventLi
 extends AWTEventListenerClassTests<SUT>, EventListenerProxyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.AWTEventListenerProxy]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

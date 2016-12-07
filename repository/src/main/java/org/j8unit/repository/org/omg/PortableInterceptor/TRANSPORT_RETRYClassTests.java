@@ -50,6 +50,7 @@ public abstract interface TRANSPORT_RETRYClassTests<SUT extends TRANSPORT_RETRY>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.TRANSPORT_RETRY]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

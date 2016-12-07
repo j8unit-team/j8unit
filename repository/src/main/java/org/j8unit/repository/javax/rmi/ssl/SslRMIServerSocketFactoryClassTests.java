@@ -51,6 +51,7 @@ public abstract interface SslRMIServerSocketFactoryClassTests<SUT extends SslRMI
 extends RMIServerSocketFactoryClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

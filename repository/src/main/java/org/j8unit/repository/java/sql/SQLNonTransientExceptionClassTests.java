@@ -49,6 +49,7 @@ public abstract interface SQLNonTransientExceptionClassTests<SUT extends SQLNonT
 extends SQLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLNonTransientException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

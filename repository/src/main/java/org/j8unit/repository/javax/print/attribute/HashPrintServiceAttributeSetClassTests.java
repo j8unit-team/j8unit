@@ -49,6 +49,7 @@ public abstract interface HashPrintServiceAttributeSetClassTests<SUT extends Has
 extends PrintServiceAttributeSetClassTests<SUT>, HashAttributeSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.HashPrintServiceAttributeSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

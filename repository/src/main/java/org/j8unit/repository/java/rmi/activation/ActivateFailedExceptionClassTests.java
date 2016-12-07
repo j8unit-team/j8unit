@@ -50,6 +50,7 @@ public abstract interface ActivateFailedExceptionClassTests<SUT extends Activate
 extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivateFailedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

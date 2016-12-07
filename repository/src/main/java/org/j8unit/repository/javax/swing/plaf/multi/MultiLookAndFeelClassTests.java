@@ -50,6 +50,7 @@ public abstract interface MultiLookAndFeelClassTests<SUT extends MultiLookAndFee
 extends LookAndFeelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiLookAndFeel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

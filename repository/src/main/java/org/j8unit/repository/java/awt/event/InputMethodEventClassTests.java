@@ -50,6 +50,7 @@ public abstract interface InputMethodEventClassTests<SUT extends InputMethodEven
 extends AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.InputMethodEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

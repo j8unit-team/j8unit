@@ -51,6 +51,7 @@ public abstract interface ParserDelegatorClassTests<SUT extends ParserDelegator>
 extends SerializableClassTests<SUT>, ParserClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.parser.ParserDelegator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

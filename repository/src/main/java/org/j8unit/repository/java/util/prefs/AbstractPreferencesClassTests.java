@@ -49,6 +49,7 @@ public abstract interface AbstractPreferencesClassTests<SUT extends AbstractPref
 extends PreferencesClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.prefs.AbstractPreferences]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -60,6 +60,7 @@ public abstract interface DocFlavorClassTests<SUT extends DocFlavor>
 extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -124,6 +125,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -190,6 +192,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$URL]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -256,6 +259,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$CHAR_ARRAY]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -322,6 +326,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -388,6 +393,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$STRING]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -454,6 +460,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$READER]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -520,6 +527,7 @@ extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$BYTE_ARRAY]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

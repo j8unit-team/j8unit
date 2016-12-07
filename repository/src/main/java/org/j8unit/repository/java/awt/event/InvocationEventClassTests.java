@@ -51,6 +51,7 @@ public abstract interface InvocationEventClassTests<SUT extends InvocationEvent>
 extends ActiveEventClassTests<SUT>, AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.InvocationEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

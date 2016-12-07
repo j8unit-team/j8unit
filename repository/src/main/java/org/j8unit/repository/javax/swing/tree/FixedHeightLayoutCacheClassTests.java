@@ -49,6 +49,7 @@ public abstract interface FixedHeightLayoutCacheClassTests<SUT extends FixedHeig
 extends AbstractLayoutCacheClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.FixedHeightLayoutCache]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

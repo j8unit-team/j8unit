@@ -49,6 +49,7 @@ public abstract interface NO_IMPLEMENTClassTests<SUT extends NO_IMPLEMENT>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_IMPLEMENT]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

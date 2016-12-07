@@ -55,6 +55,7 @@ public abstract interface BasicToolBarUIClassTests<SUT extends BasicToolBarUI>
 extends SwingConstantsClassTests<SUT>, ToolBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends SwingConstantsClassTests<SUT>, ToolBarUIClassTests<SUT> {
     extends MouseInputListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

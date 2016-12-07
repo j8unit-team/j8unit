@@ -51,6 +51,7 @@ public abstract interface ConcurrentNavigableMapClassTests<SUT extends Concurren
 extends ConcurrentMapClassTests<SUT>, NavigableMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentNavigableMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

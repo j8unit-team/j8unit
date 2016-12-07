@@ -51,6 +51,7 @@ public abstract interface X500PrivateCredentialClassTests<SUT extends X500Privat
 extends DestroyableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.x500.X500PrivateCredential]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

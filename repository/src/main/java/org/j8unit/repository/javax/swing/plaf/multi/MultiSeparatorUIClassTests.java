@@ -50,6 +50,7 @@ public abstract interface MultiSeparatorUIClassTests<SUT extends MultiSeparatorU
 extends SeparatorUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiSeparatorUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

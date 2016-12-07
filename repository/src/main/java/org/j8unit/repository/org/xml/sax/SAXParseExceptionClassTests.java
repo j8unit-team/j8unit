@@ -49,6 +49,7 @@ public abstract interface SAXParseExceptionClassTests<SUT extends SAXParseExcept
 extends SAXExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.SAXParseException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

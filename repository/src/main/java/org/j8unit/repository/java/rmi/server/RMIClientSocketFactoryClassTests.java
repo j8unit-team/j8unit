@@ -50,6 +50,7 @@ public abstract interface RMIClientSocketFactoryClassTests<SUT extends RMIClient
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.RMIClientSocketFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

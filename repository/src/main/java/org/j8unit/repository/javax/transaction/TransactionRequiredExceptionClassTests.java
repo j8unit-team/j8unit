@@ -50,6 +50,7 @@ public abstract interface TransactionRequiredExceptionClassTests<SUT extends Tra
 extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.transaction.TransactionRequiredException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

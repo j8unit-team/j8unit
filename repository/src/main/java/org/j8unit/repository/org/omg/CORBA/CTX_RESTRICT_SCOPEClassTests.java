@@ -50,6 +50,7 @@ public abstract interface CTX_RESTRICT_SCOPEClassTests<SUT extends CTX_RESTRICT_
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

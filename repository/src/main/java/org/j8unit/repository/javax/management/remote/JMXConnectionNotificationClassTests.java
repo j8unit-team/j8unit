@@ -50,6 +50,7 @@ public abstract interface JMXConnectionNotificationClassTests<SUT extends JMXCon
 extends NotificationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectionNotification]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface AsynchronousChannelProviderClassTests<SUT extends Asyn
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.spi.AsynchronousChannelProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

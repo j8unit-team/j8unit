@@ -57,6 +57,7 @@ public abstract interface JComboBoxClassTests<SUT extends JComboBox>
 extends ItemSelectableClassTests<SUT>, ListDataListenerClassTests<SUT>, ActionListenerClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComboBox]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends ItemSelectableClassTests<SUT>, ListDataListenerClassTests<SUT>, ActionLi
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComboBox$KeySelectionManager]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

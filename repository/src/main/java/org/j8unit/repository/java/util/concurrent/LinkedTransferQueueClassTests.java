@@ -52,6 +52,7 @@ public abstract interface LinkedTransferQueueClassTests<SUT extends LinkedTransf
 extends TransferQueueClassTests<SUT>, SerializableClassTests<SUT>, AbstractQueueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.LinkedTransferQueue]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

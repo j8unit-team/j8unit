@@ -49,6 +49,7 @@ public abstract interface SimpleDateFormatClassTests<SUT extends SimpleDateForma
 extends DateFormatClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.SimpleDateFormat]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

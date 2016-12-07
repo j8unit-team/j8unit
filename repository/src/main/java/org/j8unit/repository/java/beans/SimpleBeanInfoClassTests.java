@@ -50,6 +50,7 @@ public abstract interface SimpleBeanInfoClassTests<SUT extends SimpleBeanInfo>
 extends BeanInfoClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.SimpleBeanInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

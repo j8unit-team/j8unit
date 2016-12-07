@@ -50,6 +50,7 @@ public abstract interface USER_EXCEPTIONClassTests<SUT extends USER_EXCEPTION>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.USER_EXCEPTION]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface AbstractProcessorClassTests<SUT extends AbstractProces
 extends ProcessorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.processing.AbstractProcessor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

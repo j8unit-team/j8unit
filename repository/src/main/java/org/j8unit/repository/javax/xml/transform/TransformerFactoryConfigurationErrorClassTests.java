@@ -50,6 +50,7 @@ public abstract interface TransformerFactoryConfigurationErrorClassTests<SUT ext
 extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.TransformerFactoryConfigurationError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface ContextualRenderedImageFactoryClassTests<SUT extends C
 extends RenderedImageFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

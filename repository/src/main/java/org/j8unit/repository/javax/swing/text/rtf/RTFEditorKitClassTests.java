@@ -50,6 +50,7 @@ public abstract interface RTFEditorKitClassTests<SUT extends RTFEditorKit>
 extends StyledEditorKitClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.rtf.RTFEditorKit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

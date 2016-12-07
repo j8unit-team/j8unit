@@ -50,6 +50,7 @@ public abstract interface RescaleOpClassTests<SUT extends RescaleOp>
 extends BufferedImageOpClassTests<SUT>, RasterOpClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.RescaleOp]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

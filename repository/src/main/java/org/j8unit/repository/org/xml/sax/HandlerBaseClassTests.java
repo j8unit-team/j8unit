@@ -51,6 +51,7 @@ public abstract interface HandlerBaseClassTests<SUT extends HandlerBase>
 extends EntityResolverClassTests<SUT>, DTDHandlerClassTests<SUT>, DocumentHandlerClassTests<SUT>, ErrorHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.HandlerBase]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

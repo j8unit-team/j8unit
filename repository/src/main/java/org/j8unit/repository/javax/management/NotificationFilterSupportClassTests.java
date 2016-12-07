@@ -50,6 +50,7 @@ public abstract interface NotificationFilterSupportClassTests<SUT extends Notifi
 extends NotificationFilterClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.NotificationFilterSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

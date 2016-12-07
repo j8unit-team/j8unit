@@ -50,6 +50,7 @@ public abstract interface UnmodifiableClassExceptionClassTests<SUT extends Unmod
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.instrument.UnmodifiableClassException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface AccountLockedExceptionClassTests<SUT extends AccountLo
 extends AccountExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AccountLockedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

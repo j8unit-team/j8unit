@@ -50,6 +50,7 @@ public abstract interface SocketSecurityExceptionClassTests<SUT extends SocketSe
 extends ExportExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.SocketSecurityException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

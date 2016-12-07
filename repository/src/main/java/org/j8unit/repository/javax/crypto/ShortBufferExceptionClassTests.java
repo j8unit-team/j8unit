@@ -50,6 +50,7 @@ public abstract interface ShortBufferExceptionClassTests<SUT extends ShortBuffer
 extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.ShortBufferException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

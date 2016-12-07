@@ -50,6 +50,7 @@ public abstract interface BasicMenuBarUIClassTests<SUT extends BasicMenuBarUI>
 extends MenuBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicMenuBarUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

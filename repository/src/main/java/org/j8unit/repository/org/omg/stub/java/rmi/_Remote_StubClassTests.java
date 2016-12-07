@@ -51,6 +51,7 @@ public abstract interface _Remote_StubClassTests<SUT extends _Remote_Stub>
 extends RemoteClassTests<SUT>, StubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.java.rmi._Remote_Stub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

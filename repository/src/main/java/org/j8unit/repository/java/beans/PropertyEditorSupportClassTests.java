@@ -50,6 +50,7 @@ public abstract interface PropertyEditorSupportClassTests<SUT extends PropertyEd
 extends PropertyEditorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.PropertyEditorSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

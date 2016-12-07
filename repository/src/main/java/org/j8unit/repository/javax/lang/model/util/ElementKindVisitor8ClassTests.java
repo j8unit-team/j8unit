@@ -50,6 +50,7 @@ public abstract interface ElementKindVisitor8ClassTests<SUT extends ElementKindV
 extends ElementKindVisitor7ClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.ElementKindVisitor8]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

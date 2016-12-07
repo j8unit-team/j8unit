@@ -51,6 +51,7 @@ public abstract interface ToDoubleFunctionClassTests<SUT extends ToDoubleFunctio
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.ToDoubleFunction]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

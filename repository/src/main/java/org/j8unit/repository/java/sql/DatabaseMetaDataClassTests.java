@@ -49,6 +49,7 @@ public abstract interface DatabaseMetaDataClassTests<SUT extends DatabaseMetaDat
 extends WrapperClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.DatabaseMetaData]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

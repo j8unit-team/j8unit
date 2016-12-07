@@ -54,6 +54,7 @@ public abstract interface YearMonthClassTests<SUT extends YearMonth>
 extends TemporalClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.YearMonth]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

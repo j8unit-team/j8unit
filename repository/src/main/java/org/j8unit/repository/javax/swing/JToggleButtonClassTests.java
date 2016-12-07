@@ -52,6 +52,7 @@ public abstract interface JToggleButtonClassTests<SUT extends JToggleButton>
 extends AccessibleClassTests<SUT>, AbstractButtonClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends AccessibleClassTests<SUT>, AbstractButtonClassTests<SUT> {
     extends DefaultButtonModelClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton$ToggleButtonModel]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

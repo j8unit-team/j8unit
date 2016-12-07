@@ -50,6 +50,7 @@ public abstract interface MessageDigestSpiClassTests<SUT extends MessageDigestSp
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.MessageDigestSpi]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

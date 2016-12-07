@@ -50,6 +50,7 @@ public abstract interface HTMLFrameHyperlinkEventClassTests<SUT extends HTMLFram
 extends HyperlinkEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLFrameHyperlinkEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

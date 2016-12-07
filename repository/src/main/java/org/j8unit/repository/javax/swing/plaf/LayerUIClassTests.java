@@ -51,6 +51,7 @@ public abstract interface LayerUIClassTests<SUT extends LayerUI>
 extends SerializableClassTests<SUT>, ComponentUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.LayerUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

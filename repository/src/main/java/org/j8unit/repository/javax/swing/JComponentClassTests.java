@@ -55,6 +55,7 @@ public abstract interface JComponentClassTests<SUT extends JComponent>
 extends ContainerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends ContainerClassTests<SUT> {
     extends AccessibleExtendedComponentClassTests<SUT>, SerializableClassTests<SUT>, AccessibleContextClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

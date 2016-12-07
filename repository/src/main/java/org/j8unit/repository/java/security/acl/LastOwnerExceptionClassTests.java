@@ -50,6 +50,7 @@ public abstract interface LastOwnerExceptionClassTests<SUT extends LastOwnerExce
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.acl.LastOwnerException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

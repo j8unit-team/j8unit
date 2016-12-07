@@ -50,6 +50,7 @@ public abstract interface CheckedInputStreamClassTests<SUT extends CheckedInputS
 extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.CheckedInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

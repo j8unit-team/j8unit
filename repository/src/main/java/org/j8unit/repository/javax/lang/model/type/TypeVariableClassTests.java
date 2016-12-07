@@ -49,6 +49,7 @@ public abstract interface TypeVariableClassTests<SUT extends TypeVariable>
 extends ReferenceTypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.type.TypeVariable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface LDAPCertStoreParametersClassTests<SUT extends LDAPCert
 extends CertStoreParametersClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.LDAPCertStoreParameters]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

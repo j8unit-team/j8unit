@@ -50,6 +50,7 @@ public abstract interface SecretKeyFactorySpiClassTests<SUT extends SecretKeyFac
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.SecretKeyFactorySpi]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

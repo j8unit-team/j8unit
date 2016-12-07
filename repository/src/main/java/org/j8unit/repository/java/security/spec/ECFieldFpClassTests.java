@@ -50,6 +50,7 @@ public abstract interface ECFieldFpClassTests<SUT extends ECFieldFp>
 extends ECFieldClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECFieldFp]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

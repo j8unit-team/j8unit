@@ -50,6 +50,7 @@ public abstract interface DefaultRowSorterClassTests<SUT extends DefaultRowSorte
 extends RowSorterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultRowSorter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

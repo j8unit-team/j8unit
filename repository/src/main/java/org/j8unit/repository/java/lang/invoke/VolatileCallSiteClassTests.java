@@ -49,6 +49,7 @@ public abstract interface VolatileCallSiteClassTests<SUT extends VolatileCallSit
 extends CallSiteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.VolatileCallSite]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

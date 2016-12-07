@@ -52,6 +52,7 @@ public abstract interface IdentityHashMapClassTests<SUT extends IdentityHashMap>
 extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.IdentityHashMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

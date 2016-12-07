@@ -49,6 +49,7 @@ public abstract interface InstrumentClassTests<SUT extends Instrument>
 extends SoundbankResourceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Instrument]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

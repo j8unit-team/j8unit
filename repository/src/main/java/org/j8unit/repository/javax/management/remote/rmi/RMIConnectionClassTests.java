@@ -51,6 +51,7 @@ public abstract interface RMIConnectionClassTests<SUT extends RMIConnection>
 extends CloseableClassTests<SUT>, RemoteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIConnection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

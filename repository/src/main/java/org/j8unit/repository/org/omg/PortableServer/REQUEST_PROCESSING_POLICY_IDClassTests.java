@@ -50,6 +50,7 @@ public abstract interface REQUEST_PROCESSING_POLICY_IDClassTests<SUT extends REQ
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

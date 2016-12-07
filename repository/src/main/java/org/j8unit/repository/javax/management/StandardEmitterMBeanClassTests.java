@@ -49,6 +49,7 @@ public abstract interface StandardEmitterMBeanClassTests<SUT extends StandardEmi
 extends NotificationEmitterClassTests<SUT>, StandardMBeanClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.StandardEmitterMBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

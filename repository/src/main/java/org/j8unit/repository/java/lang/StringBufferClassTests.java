@@ -49,6 +49,7 @@ public abstract interface StringBufferClassTests<SUT extends StringBuffer>
 extends SerializableClassTests<SUT>, CharSequenceClassTests<SUT>, AppendableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.StringBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

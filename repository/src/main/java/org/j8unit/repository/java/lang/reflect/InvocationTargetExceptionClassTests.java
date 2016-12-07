@@ -50,6 +50,7 @@ public abstract interface InvocationTargetExceptionClassTests<SUT extends Invoca
 extends ReflectiveOperationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.InvocationTargetException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

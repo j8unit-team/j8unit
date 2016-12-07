@@ -49,6 +49,7 @@ public abstract interface TRANSACTION_ROLLEDBACKClassTests<SUT extends TRANSACTI
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSACTION_ROLLEDBACK]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

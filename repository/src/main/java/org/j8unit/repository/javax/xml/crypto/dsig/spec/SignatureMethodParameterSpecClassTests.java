@@ -51,6 +51,7 @@ public abstract interface SignatureMethodParameterSpecClassTests<SUT extends Sig
 extends AlgorithmParameterSpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

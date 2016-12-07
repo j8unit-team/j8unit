@@ -50,6 +50,7 @@ public abstract interface AccessibleAttributeSequenceClassTests<SUT extends Acce
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleAttributeSequence]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

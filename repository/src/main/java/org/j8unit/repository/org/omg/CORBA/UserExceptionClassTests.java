@@ -51,6 +51,7 @@ public abstract interface UserExceptionClassTests<SUT extends UserException>
 extends IDLEntityClassTests<SUT>, ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UserException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

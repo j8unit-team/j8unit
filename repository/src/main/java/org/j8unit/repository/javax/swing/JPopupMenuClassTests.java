@@ -52,6 +52,7 @@ public abstract interface JPopupMenuClassTests<SUT extends JPopupMenu>
 extends AccessibleClassTests<SUT>, MenuElementClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPopupMenu]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends AccessibleClassTests<SUT>, MenuElementClassTests<SUT>, JComponentClassTe
     extends JSeparatorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPopupMenu$Separator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

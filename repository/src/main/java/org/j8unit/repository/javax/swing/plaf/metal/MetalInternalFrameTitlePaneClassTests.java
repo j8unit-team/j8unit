@@ -50,6 +50,7 @@ public abstract interface MetalInternalFrameTitlePaneClassTests<SUT extends Meta
 extends BasicInternalFrameTitlePaneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface MissingFormatArgumentExceptionClassTests<SUT extends M
 extends IllegalFormatExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.MissingFormatArgumentException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

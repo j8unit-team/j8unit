@@ -50,6 +50,7 @@ public abstract interface DoubleBufferClassTests<SUT extends DoubleBuffer>
 extends ComparableClassTests<SUT>, BufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.DoubleBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -56,6 +56,7 @@ public abstract interface DefaultStyledDocumentClassTests<SUT extends DefaultSty
 extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -120,6 +121,7 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
     extends AbstractUndoableEditClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -186,6 +188,7 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -252,6 +255,7 @@ extends StyledDocumentClassTests<SUT>, AbstractDocumentClassTests<SUT> {
     extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

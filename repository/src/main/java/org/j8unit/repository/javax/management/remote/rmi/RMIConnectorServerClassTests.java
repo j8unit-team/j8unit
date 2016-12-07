@@ -50,6 +50,7 @@ public abstract interface RMIConnectorServerClassTests<SUT extends RMIConnectorS
 extends JMXConnectorServerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface OutputStreamWriterClassTests<SUT extends OutputStreamW
 extends WriterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.OutputStreamWriter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

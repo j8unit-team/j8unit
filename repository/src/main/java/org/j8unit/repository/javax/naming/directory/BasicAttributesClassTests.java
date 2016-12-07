@@ -50,6 +50,7 @@ public abstract interface BasicAttributesClassTests<SUT extends BasicAttributes>
 extends AttributesClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.BasicAttributes]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

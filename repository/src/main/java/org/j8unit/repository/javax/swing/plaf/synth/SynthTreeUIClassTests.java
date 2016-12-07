@@ -51,6 +51,7 @@ public abstract interface SynthTreeUIClassTests<SUT extends SynthTreeUI>
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicTreeUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthTreeUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

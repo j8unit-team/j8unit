@@ -49,6 +49,7 @@ public abstract interface X509CertificateClassTests<SUT extends X509Certificate>
 extends X509ExtensionClassTests<SUT>, CertificateClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.X509Certificate]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

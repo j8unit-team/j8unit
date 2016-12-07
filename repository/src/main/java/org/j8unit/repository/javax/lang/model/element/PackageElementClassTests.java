@@ -49,6 +49,7 @@ public abstract interface PackageElementClassTests<SUT extends PackageElement>
 extends QualifiedNameableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.PackageElement]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

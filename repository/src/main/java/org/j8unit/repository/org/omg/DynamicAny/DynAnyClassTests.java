@@ -51,6 +51,7 @@ public abstract interface DynAnyClassTests<SUT extends DynAny>
 extends DynAnyOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAny]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

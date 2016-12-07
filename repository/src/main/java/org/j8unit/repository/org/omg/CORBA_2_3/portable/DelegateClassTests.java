@@ -49,6 +49,7 @@ public abstract interface DelegateClassTests<SUT extends Delegate>
 extends org.j8unit.repository.org.omg.CORBA.portable.DelegateClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA_2_3.portable.Delegate]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

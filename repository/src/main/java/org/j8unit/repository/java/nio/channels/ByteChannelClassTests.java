@@ -49,6 +49,7 @@ public abstract interface ByteChannelClassTests<SUT extends ByteChannel>
 extends ReadableByteChannelClassTests<SUT>, WritableByteChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.ByteChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

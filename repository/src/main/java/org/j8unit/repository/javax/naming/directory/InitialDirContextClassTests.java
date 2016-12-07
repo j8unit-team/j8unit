@@ -50,6 +50,7 @@ public abstract interface InitialDirContextClassTests<SUT extends InitialDirCont
 extends DirContextClassTests<SUT>, InitialContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.InitialDirContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

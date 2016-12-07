@@ -50,6 +50,7 @@ public abstract interface SYNC_WITH_TRANSPORTClassTests<SUT extends SYNC_WITH_TR
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.Messaging.SYNC_WITH_TRANSPORT]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

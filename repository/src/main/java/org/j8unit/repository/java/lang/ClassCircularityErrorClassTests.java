@@ -48,6 +48,7 @@ public abstract interface ClassCircularityErrorClassTests<SUT extends ClassCircu
 extends LinkageErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ClassCircularityError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

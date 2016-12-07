@@ -51,6 +51,7 @@ public abstract interface RunTimeClassTests<SUT extends RunTime>
 extends RunTimeOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.SendingContext.RunTime]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

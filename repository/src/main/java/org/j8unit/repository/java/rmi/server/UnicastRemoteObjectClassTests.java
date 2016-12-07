@@ -49,6 +49,7 @@ public abstract interface UnicastRemoteObjectClassTests<SUT extends UnicastRemot
 extends RemoteServerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.UnicastRemoteObject]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface MappedByteBufferClassTests<SUT extends MappedByteBuffe
 extends ByteBufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.MappedByteBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

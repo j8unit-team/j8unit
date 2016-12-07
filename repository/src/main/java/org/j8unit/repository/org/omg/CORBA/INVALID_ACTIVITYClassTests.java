@@ -49,6 +49,7 @@ public abstract interface INVALID_ACTIVITYClassTests<SUT extends INVALID_ACTIVIT
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INVALID_ACTIVITY]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

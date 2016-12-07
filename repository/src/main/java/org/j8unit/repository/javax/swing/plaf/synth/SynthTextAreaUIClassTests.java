@@ -50,6 +50,7 @@ public abstract interface SynthTextAreaUIClassTests<SUT extends SynthTextAreaUI>
 extends SynthUIClassTests<SUT>, BasicTextAreaUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthTextAreaUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

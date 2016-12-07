@@ -50,6 +50,7 @@ public abstract interface RandomAccessFileClassTests<SUT extends RandomAccessFil
 extends DataOutputClassTests<SUT>, DataInputClassTests<SUT>, CloseableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.RandomAccessFile]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

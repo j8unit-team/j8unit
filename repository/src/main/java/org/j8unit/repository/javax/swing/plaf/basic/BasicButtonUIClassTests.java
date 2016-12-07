@@ -50,6 +50,7 @@ public abstract interface BasicButtonUIClassTests<SUT extends BasicButtonUI>
 extends ButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicButtonUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

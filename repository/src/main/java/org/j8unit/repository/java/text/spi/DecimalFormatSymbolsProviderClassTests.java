@@ -50,6 +50,7 @@ public abstract interface DecimalFormatSymbolsProviderClassTests<SUT extends Dec
 extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.spi.DecimalFormatSymbolsProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

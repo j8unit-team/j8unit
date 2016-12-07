@@ -48,6 +48,7 @@ public abstract interface IntegerClassTests<SUT extends Integer>
 extends ComparableClassTests<SUT>, NumberClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Integer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

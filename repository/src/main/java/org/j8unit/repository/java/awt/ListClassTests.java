@@ -50,6 +50,7 @@ public abstract interface ListClassTests<SUT extends List>
 extends ItemSelectableClassTests<SUT>, AccessibleClassTests<SUT>, ComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.List]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

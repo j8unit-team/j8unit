@@ -50,6 +50,7 @@ public abstract interface UndoManagerClassTests<SUT extends UndoManager>
 extends UndoableEditListenerClassTests<SUT>, CompoundEditClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.undo.UndoManager]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

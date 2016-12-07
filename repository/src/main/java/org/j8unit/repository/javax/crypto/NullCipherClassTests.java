@@ -49,6 +49,7 @@ public abstract interface NullCipherClassTests<SUT extends NullCipher>
 extends CipherClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.NullCipher]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

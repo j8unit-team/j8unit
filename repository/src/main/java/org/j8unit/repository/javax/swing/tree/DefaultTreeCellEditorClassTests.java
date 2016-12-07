@@ -57,6 +57,7 @@ public abstract interface DefaultTreeCellEditorClassTests<SUT extends DefaultTre
 extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelectionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
     extends ContainerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends ActionListenerClassTests<SUT>, TreeCellEditorClassTests<SUT>, TreeSelect
     extends JTextFieldClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

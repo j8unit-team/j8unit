@@ -50,6 +50,7 @@ public abstract interface CollatorProviderClassTests<SUT extends CollatorProvide
 extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.spi.CollatorProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

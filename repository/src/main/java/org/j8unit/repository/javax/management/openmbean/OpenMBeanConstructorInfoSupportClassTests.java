@@ -50,6 +50,7 @@ public abstract interface OpenMBeanConstructorInfoSupportClassTests<SUT extends 
 extends OpenMBeanConstructorInfoClassTests<SUT>, MBeanConstructorInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfoSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

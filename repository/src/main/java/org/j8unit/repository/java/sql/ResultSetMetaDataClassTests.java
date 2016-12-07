@@ -49,6 +49,7 @@ public abstract interface ResultSetMetaDataClassTests<SUT extends ResultSetMetaD
 extends WrapperClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.ResultSetMetaData]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

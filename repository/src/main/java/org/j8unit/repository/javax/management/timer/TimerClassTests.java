@@ -51,6 +51,7 @@ public abstract interface TimerClassTests<SUT extends Timer>
 extends TimerMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, NotificationBroadcasterSupportClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.timer.Timer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

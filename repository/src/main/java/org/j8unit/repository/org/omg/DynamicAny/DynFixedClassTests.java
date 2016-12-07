@@ -49,6 +49,7 @@ public abstract interface DynFixedClassTests<SUT extends DynFixed>
 extends DynFixedOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynFixed]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

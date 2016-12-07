@@ -48,6 +48,7 @@ public abstract interface StringIndexOutOfBoundsExceptionClassTests<SUT extends 
 extends IndexOutOfBoundsExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.StringIndexOutOfBoundsException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface SysexMessageClassTests<SUT extends SysexMessage>
 extends MidiMessageClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.SysexMessage]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

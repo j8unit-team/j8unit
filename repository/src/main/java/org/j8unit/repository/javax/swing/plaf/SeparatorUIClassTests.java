@@ -49,6 +49,7 @@ public abstract interface SeparatorUIClassTests<SUT extends SeparatorUI>
 extends ComponentUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.SeparatorUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

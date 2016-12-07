@@ -50,6 +50,7 @@ public abstract interface LabelClassTests<SUT extends Label>
 extends AccessibleClassTests<SUT>, ComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Label]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

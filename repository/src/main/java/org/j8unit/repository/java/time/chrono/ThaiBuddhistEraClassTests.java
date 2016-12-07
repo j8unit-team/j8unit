@@ -50,6 +50,7 @@ public abstract interface ThaiBuddhistEraClassTests<SUT extends ThaiBuddhistEra>
 extends EraClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.ThaiBuddhistEra]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

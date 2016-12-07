@@ -49,6 +49,7 @@ public abstract interface AttributeChangeNotificationClassTests<SUT extends Attr
 extends NotificationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.AttributeChangeNotification]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

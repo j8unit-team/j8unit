@@ -50,6 +50,7 @@ public abstract interface SOAPFaultExceptionClassTests<SUT extends SOAPFaultExce
 extends ProtocolExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.SOAPFaultException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

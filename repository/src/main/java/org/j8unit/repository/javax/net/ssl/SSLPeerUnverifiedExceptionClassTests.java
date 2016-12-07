@@ -49,6 +49,7 @@ public abstract interface SSLPeerUnverifiedExceptionClassTests<SUT extends SSLPe
 extends SSLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLPeerUnverifiedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

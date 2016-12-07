@@ -54,6 +54,7 @@ public abstract interface CompletableFutureClassTests<SUT extends CompletableFut
 extends FutureClassTests<SUT>, CompletionStageClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.CompletableFuture]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends FutureClassTests<SUT>, CompletionStageClassTests<SUT>, ObjectClassTests<
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.CompletableFuture$AsynchronousCompletionTask]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

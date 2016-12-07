@@ -50,6 +50,7 @@ public abstract interface ServantRetentionPolicyClassTests<SUT extends ServantRe
 extends ServantRetentionPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicy]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

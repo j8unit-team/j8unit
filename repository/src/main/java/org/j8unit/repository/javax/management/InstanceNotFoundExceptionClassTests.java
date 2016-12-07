@@ -49,6 +49,7 @@ public abstract interface InstanceNotFoundExceptionClassTests<SUT extends Instan
 extends OperationsExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.InstanceNotFoundException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

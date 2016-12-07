@@ -49,6 +49,7 @@ public abstract interface PKCS8EncodedKeySpecClassTests<SUT extends PKCS8Encoded
 extends EncodedKeySpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.PKCS8EncodedKeySpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

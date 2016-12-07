@@ -49,6 +49,7 @@ public abstract interface BeanContextServicesClassTests<SUT extends BeanContextS
 extends BeanContextClassTests<SUT>, BeanContextServicesListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextServices]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

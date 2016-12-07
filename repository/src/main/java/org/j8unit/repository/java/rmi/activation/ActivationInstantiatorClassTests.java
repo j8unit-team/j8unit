@@ -50,6 +50,7 @@ public abstract interface ActivationInstantiatorClassTests<SUT extends Activatio
 extends RemoteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationInstantiator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

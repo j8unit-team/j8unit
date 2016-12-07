@@ -49,6 +49,7 @@ public abstract interface SSLProtocolExceptionClassTests<SUT extends SSLProtocol
 extends SSLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLProtocolException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

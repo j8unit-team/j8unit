@@ -50,6 +50,7 @@ public abstract interface AuthPermissionClassTests<SUT extends AuthPermission>
 extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.AuthPermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

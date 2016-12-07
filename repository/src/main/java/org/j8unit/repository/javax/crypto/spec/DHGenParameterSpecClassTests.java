@@ -51,6 +51,7 @@ public abstract interface DHGenParameterSpecClassTests<SUT extends DHGenParamete
 extends AlgorithmParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.DHGenParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

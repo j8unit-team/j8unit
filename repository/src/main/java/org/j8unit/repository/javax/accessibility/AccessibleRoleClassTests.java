@@ -49,6 +49,7 @@ public abstract interface AccessibleRoleClassTests<SUT extends AccessibleRole>
 extends AccessibleBundleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleRole]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

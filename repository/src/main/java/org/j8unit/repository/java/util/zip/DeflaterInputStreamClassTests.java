@@ -50,6 +50,7 @@ public abstract interface DeflaterInputStreamClassTests<SUT extends DeflaterInpu
 extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.DeflaterInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

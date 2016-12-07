@@ -49,6 +49,7 @@ public abstract interface PosixFileAttributesClassTests<SUT extends PosixFileAtt
 extends BasicFileAttributesClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.PosixFileAttributes]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

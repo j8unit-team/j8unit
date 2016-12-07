@@ -49,6 +49,7 @@ public abstract interface LimitExceededExceptionClassTests<SUT extends LimitExce
 extends NamingExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.LimitExceededException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

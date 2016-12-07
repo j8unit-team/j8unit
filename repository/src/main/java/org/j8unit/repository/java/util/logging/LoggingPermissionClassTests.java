@@ -50,6 +50,7 @@ public abstract interface LoggingPermissionClassTests<SUT extends LoggingPermiss
 extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.LoggingPermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

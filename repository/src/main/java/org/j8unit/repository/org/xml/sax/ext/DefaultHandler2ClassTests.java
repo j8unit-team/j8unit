@@ -50,6 +50,7 @@ public abstract interface DefaultHandler2ClassTests<SUT extends DefaultHandler2>
 extends LexicalHandlerClassTests<SUT>, DeclHandlerClassTests<SUT>, EntityResolver2ClassTests<SUT>, DefaultHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.DefaultHandler2]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

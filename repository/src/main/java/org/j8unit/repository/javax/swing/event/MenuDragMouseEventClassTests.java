@@ -50,6 +50,7 @@ public abstract interface MenuDragMouseEventClassTests<SUT extends MenuDragMouse
 extends MouseEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.MenuDragMouseEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

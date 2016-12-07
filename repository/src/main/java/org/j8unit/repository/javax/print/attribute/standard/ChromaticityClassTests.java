@@ -53,6 +53,7 @@ public abstract interface ChromaticityClassTests<SUT extends Chromaticity>
 extends DocAttributeClassTests<SUT>, PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.Chromaticity]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

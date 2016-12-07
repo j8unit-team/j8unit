@@ -56,6 +56,7 @@ public abstract interface BasicComboPopupClassTests<SUT extends BasicComboPopup>
 extends ComboPopupClassTests<SUT>, JPopupMenuClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -120,6 +121,7 @@ extends ComboPopupClassTests<SUT>, JPopupMenuClassTests<SUT> {
     extends ListDataListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -186,6 +188,7 @@ extends ComboPopupClassTests<SUT>, JPopupMenuClassTests<SUT> {
     extends KeyAdapterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

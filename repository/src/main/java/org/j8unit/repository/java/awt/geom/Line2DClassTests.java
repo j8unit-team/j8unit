@@ -56,6 +56,7 @@ public abstract interface Line2DClassTests<SUT extends Line2D>
 extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Line2D]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -120,6 +121,7 @@ extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Line2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Line2D$Float]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -186,6 +188,7 @@ extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Line2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Line2D$Double]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

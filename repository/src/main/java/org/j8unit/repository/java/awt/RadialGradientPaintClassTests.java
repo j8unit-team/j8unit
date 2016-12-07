@@ -49,6 +49,7 @@ public abstract interface RadialGradientPaintClassTests<SUT extends RadialGradie
 extends MultipleGradientPaintClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.RadialGradientPaint]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

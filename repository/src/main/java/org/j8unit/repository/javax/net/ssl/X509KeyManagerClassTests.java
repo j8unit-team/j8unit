@@ -49,6 +49,7 @@ public abstract interface X509KeyManagerClassTests<SUT extends X509KeyManager>
 extends KeyManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.X509KeyManager]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface RelationSupportClassTests<SUT extends RelationSupport>
 extends RelationSupportMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

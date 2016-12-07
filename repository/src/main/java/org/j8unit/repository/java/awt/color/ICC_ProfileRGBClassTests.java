@@ -49,6 +49,7 @@ public abstract interface ICC_ProfileRGBClassTests<SUT extends ICC_ProfileRGB>
 extends ICC_ProfileClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.color.ICC_ProfileRGB]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

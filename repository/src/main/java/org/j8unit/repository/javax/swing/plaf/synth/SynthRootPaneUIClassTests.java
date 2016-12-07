@@ -50,6 +50,7 @@ public abstract interface SynthRootPaneUIClassTests<SUT extends SynthRootPaneUI>
 extends SynthUIClassTests<SUT>, BasicRootPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthRootPaneUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface DescriptorClassTests<SUT extends Descriptor>
 extends SerializableClassTests<SUT>, CloneableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.Descriptor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

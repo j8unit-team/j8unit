@@ -49,6 +49,7 @@ public abstract interface CalendarDataProviderClassTests<SUT extends CalendarDat
 extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.spi.CalendarDataProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface ClassDefinitionClassTests<SUT extends ClassDefinition>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.instrument.ClassDefinition]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface DestinationClassTests<SUT extends Destination>
 extends PrintJobAttributeClassTests<SUT>, PrintRequestAttributeClassTests<SUT>, URISyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.Destination]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

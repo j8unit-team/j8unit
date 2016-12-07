@@ -50,6 +50,7 @@ public abstract interface RelationServiceNotRegisteredExceptionClassTests<SUT ex
 extends RelationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationServiceNotRegisteredException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

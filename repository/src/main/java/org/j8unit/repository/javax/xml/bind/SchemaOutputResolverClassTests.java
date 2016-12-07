@@ -50,6 +50,7 @@ public abstract interface SchemaOutputResolverClassTests<SUT extends SchemaOutpu
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.SchemaOutputResolver]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

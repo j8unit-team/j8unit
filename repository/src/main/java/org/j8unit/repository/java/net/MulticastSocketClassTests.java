@@ -49,6 +49,7 @@ public abstract interface MulticastSocketClassTests<SUT extends MulticastSocket>
 extends DatagramSocketClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.MulticastSocket]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

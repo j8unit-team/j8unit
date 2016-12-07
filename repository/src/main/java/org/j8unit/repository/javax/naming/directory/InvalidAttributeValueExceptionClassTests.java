@@ -50,6 +50,7 @@ public abstract interface InvalidAttributeValueExceptionClassTests<SUT extends I
 extends NamingExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.InvalidAttributeValueException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

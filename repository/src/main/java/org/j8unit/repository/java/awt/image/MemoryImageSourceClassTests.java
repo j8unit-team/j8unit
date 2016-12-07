@@ -50,6 +50,7 @@ public abstract interface MemoryImageSourceClassTests<SUT extends MemoryImageSou
 extends ImageProducerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.MemoryImageSource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

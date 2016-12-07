@@ -50,6 +50,7 @@ public abstract interface CachedRowSetClassTests<SUT extends CachedRowSet>
 extends RowSetClassTests<SUT>, JoinableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.CachedRowSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

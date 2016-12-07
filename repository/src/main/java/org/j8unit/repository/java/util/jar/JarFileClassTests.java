@@ -50,6 +50,7 @@ public abstract interface JarFileClassTests<SUT extends JarFile>
 extends ZipFileClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.JarFile]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

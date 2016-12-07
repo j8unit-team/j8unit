@@ -49,6 +49,7 @@ public abstract interface StreamableValueClassTests<SUT extends StreamableValue>
 extends StreamableClassTests<SUT>, ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.StreamableValue]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

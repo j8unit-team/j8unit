@@ -50,6 +50,7 @@ public abstract interface HTMLDOMImplementationClassTests<SUT extends HTMLDOMImp
 extends DOMImplementationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLDOMImplementation]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

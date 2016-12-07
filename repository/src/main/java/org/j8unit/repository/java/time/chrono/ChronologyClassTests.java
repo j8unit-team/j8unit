@@ -50,6 +50,7 @@ public abstract interface ChronologyClassTests<SUT extends Chronology>
 extends ComparableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.Chronology]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

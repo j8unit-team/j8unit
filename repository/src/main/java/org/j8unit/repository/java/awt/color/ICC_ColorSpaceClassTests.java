@@ -49,6 +49,7 @@ public abstract interface ICC_ColorSpaceClassTests<SUT extends ICC_ColorSpace>
 extends ColorSpaceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.color.ICC_ColorSpace]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

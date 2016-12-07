@@ -49,6 +49,7 @@ public abstract interface GenericArrayTypeClassTests<SUT extends GenericArrayTyp
 extends TypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericArrayType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface URIParameterClassTests<SUT extends URIParameter>
 extends ParametersClassTests<SUT>, org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.URIParameter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

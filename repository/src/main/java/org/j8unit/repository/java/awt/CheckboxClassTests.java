@@ -50,6 +50,7 @@ public abstract interface CheckboxClassTests<SUT extends Checkbox>
 extends ItemSelectableClassTests<SUT>, AccessibleClassTests<SUT>, ComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Checkbox]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface ImmutableDescriptorClassTests<SUT extends ImmutableDes
 extends DescriptorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ImmutableDescriptor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

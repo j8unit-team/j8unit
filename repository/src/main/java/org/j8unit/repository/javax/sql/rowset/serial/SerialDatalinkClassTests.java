@@ -52,6 +52,7 @@ public abstract interface SerialDatalinkClassTests<SUT extends SerialDatalink>
 extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.serial.SerialDatalink]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

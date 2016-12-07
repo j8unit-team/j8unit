@@ -50,6 +50,7 @@ public abstract interface HTTPBindingClassTests<SUT extends HTTPBinding>
 extends BindingClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.http.HTTPBinding]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

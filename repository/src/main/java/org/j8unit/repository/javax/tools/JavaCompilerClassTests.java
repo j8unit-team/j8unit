@@ -52,6 +52,7 @@ public abstract interface JavaCompilerClassTests<SUT extends JavaCompiler>
 extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaCompiler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
     extends CallableClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface SOAPHandlerClassTests<SUT extends SOAPHandler>
 extends HandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.soap.SOAPHandler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

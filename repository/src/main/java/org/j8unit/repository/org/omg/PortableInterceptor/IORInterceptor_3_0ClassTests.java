@@ -49,6 +49,7 @@ public abstract interface IORInterceptor_3_0ClassTests<SUT extends IORIntercepto
 extends IORInterceptor_3_0OperationsClassTests<SUT>, IORInterceptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

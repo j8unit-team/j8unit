@@ -49,6 +49,7 @@ public abstract interface StrokeBorderClassTests<SUT extends StrokeBorder>
 extends AbstractBorderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.StrokeBorder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

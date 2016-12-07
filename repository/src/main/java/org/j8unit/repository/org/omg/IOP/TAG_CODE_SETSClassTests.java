@@ -50,6 +50,7 @@ public abstract interface TAG_CODE_SETSClassTests<SUT extends TAG_CODE_SETS>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TAG_CODE_SETS]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

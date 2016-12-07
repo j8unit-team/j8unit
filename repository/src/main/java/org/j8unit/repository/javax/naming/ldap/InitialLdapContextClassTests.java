@@ -50,6 +50,7 @@ public abstract interface InitialLdapContextClassTests<SUT extends InitialLdapCo
 extends LdapContextClassTests<SUT>, InitialDirContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.InitialLdapContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

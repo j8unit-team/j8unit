@@ -50,6 +50,7 @@ public abstract interface UnaryOperatorClassTests<SUT extends UnaryOperator>
 extends FunctionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.UnaryOperator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

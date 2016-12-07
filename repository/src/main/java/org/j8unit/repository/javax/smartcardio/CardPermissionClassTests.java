@@ -51,6 +51,7 @@ public abstract interface CardPermissionClassTests<SUT extends CardPermission>
 extends PermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardPermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface LabelPeerClassTests<SUT extends LabelPeer>
 extends ComponentPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.LabelPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

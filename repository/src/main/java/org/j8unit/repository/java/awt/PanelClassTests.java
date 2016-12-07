@@ -50,6 +50,7 @@ public abstract interface PanelClassTests<SUT extends Panel>
 extends AccessibleClassTests<SUT>, ContainerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Panel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

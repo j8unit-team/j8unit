@@ -49,6 +49,7 @@ public abstract interface CredentialExceptionClassTests<SUT extends CredentialEx
 extends LoginExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.CredentialException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

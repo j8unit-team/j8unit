@@ -50,6 +50,7 @@ public abstract interface WebServicePermissionClassTests<SUT extends WebServiceP
 extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.WebServicePermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface DefaultCellEditorClassTests<SUT extends DefaultCellEdi
 extends TableCellEditorClassTests<SUT>, TreeCellEditorClassTests<SUT>, AbstractCellEditorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultCellEditor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

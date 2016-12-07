@@ -49,6 +49,7 @@ public abstract interface CSSFontFaceRuleClassTests<SUT extends CSSFontFaceRule>
 extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSFontFaceRule]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

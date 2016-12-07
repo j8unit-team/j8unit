@@ -49,6 +49,7 @@ public abstract interface RGBImageFilterClassTests<SUT extends RGBImageFilter>
 extends ImageFilterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.RGBImageFilter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

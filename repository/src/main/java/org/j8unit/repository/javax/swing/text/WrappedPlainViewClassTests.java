@@ -49,6 +49,7 @@ public abstract interface WrappedPlainViewClassTests<SUT extends WrappedPlainVie
 extends TabExpanderClassTests<SUT>, BoxViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.WrappedPlainView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

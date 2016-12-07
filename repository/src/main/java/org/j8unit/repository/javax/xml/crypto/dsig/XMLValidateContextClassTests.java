@@ -50,6 +50,7 @@ public abstract interface XMLValidateContextClassTests<SUT extends XMLValidateCo
 extends XMLCryptoContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.XMLValidateContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

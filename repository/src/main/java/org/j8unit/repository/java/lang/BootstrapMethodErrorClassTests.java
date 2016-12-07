@@ -48,6 +48,7 @@ public abstract interface BootstrapMethodErrorClassTests<SUT extends BootstrapMe
 extends LinkageErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.BootstrapMethodError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

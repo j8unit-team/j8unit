@@ -49,6 +49,7 @@ public abstract interface ServiceNotFoundExceptionClassTests<SUT extends Service
 extends OperationsExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ServiceNotFoundException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

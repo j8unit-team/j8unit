@@ -49,6 +49,7 @@ public abstract interface InheritableThreadLocalClassTests<SUT extends Inheritab
 extends ThreadLocalClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.InheritableThreadLocal]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

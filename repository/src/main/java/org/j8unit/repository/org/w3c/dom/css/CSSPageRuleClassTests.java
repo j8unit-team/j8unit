@@ -49,6 +49,7 @@ public abstract interface CSSPageRuleClassTests<SUT extends CSSPageRule>
 extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSPageRule]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

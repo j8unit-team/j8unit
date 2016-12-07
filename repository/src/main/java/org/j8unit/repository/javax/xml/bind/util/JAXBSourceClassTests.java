@@ -50,6 +50,7 @@ public abstract interface JAXBSourceClassTests<SUT extends JAXBSource>
 extends SAXSourceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.util.JAXBSource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

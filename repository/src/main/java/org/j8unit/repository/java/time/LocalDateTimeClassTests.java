@@ -52,6 +52,7 @@ public abstract interface LocalDateTimeClassTests<SUT extends LocalDateTime>
 extends ChronoLocalDateTimeClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.LocalDateTime]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

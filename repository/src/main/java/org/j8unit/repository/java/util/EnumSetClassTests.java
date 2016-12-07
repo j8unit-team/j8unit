@@ -52,6 +52,7 @@ public abstract interface EnumSetClassTests<SUT extends EnumSet>
 extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.EnumSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

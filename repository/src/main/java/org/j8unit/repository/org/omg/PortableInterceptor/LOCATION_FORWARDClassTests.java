@@ -50,6 +50,7 @@ public abstract interface LOCATION_FORWARDClassTests<SUT extends LOCATION_FORWAR
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.LOCATION_FORWARD]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

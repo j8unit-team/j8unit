@@ -50,6 +50,7 @@ public abstract interface StringValueExpClassTests<SUT extends StringValueExp>
 extends ValueExpClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.StringValueExp]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

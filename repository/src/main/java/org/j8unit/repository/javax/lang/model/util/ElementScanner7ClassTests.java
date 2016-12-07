@@ -50,6 +50,7 @@ public abstract interface ElementScanner7ClassTests<SUT extends ElementScanner7>
 extends ElementScanner6ClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.ElementScanner7]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

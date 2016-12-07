@@ -49,6 +49,7 @@ public abstract interface CurrentOperationsClassTests<SUT extends CurrentOperati
 extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.CurrentOperations]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

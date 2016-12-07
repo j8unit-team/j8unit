@@ -49,6 +49,7 @@ public abstract interface WriteAbortedExceptionClassTests<SUT extends WriteAbort
 extends ObjectStreamExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.WriteAbortedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

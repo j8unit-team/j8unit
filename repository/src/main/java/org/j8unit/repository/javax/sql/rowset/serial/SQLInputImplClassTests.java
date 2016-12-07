@@ -51,6 +51,7 @@ public abstract interface SQLInputImplClassTests<SUT extends SQLInputImpl>
 extends SQLInputClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

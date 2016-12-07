@@ -49,6 +49,7 @@ public abstract interface UnrecoverableKeyExceptionClassTests<SUT extends Unreco
 extends UnrecoverableEntryExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.UnrecoverableKeyException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

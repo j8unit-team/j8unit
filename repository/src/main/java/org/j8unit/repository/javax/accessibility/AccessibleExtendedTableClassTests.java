@@ -49,6 +49,7 @@ public abstract interface AccessibleExtendedTableClassTests<SUT extends Accessib
 extends AccessibleTableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleExtendedTable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

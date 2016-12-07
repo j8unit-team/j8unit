@@ -49,6 +49,7 @@ public abstract interface JTextPaneClassTests<SUT extends JTextPane>
 extends JEditorPaneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTextPane]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

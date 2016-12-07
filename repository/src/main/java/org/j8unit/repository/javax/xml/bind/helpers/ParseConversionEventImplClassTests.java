@@ -50,6 +50,7 @@ public abstract interface ParseConversionEventImplClassTests<SUT extends ParseCo
 extends ParseConversionEventClassTests<SUT>, ValidationEventImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.ParseConversionEventImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

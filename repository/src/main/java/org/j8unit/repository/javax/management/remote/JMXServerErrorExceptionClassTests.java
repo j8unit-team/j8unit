@@ -50,6 +50,7 @@ public abstract interface JMXServerErrorExceptionClassTests<SUT extends JMXServe
 extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXServerErrorException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

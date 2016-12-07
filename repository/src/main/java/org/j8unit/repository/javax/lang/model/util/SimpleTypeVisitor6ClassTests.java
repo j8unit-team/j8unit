@@ -50,6 +50,7 @@ public abstract interface SimpleTypeVisitor6ClassTests<SUT extends SimpleTypeVis
 extends AbstractTypeVisitor6ClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.SimpleTypeVisitor6]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface VectorClassTests<SUT extends Vector>
 extends RandomAccessClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractListClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Vector]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

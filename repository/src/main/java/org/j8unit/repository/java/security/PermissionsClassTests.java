@@ -49,6 +49,7 @@ public abstract interface PermissionsClassTests<SUT extends Permissions>
 extends PermissionCollectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Permissions]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface MultiMenuBarUIClassTests<SUT extends MultiMenuBarUI>
 extends MenuBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiMenuBarUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface MouseAdapterClassTests<SUT extends MouseAdapter>
 extends MouseListenerClassTests<SUT>, MouseWheelListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.MouseAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

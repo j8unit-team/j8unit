@@ -50,6 +50,7 @@ public abstract interface ActionMapUIResourceClassTests<SUT extends ActionMapUIR
 extends UIResourceClassTests<SUT>, ActionMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.ActionMapUIResource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

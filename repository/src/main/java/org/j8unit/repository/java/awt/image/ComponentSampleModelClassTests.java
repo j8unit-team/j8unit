@@ -49,6 +49,7 @@ public abstract interface ComponentSampleModelClassTests<SUT extends ComponentSa
 extends SampleModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.ComponentSampleModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

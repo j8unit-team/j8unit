@@ -50,6 +50,7 @@ public abstract interface MetalTreeUIClassTests<SUT extends MetalTreeUI>
 extends BasicTreeUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalTreeUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface BasicFileAttributeViewClassTests<SUT extends BasicFile
 extends FileAttributeViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.BasicFileAttributeView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

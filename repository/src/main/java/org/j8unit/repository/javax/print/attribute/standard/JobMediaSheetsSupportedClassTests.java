@@ -51,6 +51,7 @@ public abstract interface JobMediaSheetsSupportedClassTests<SUT extends JobMedia
 extends SupportedValuesAttributeClassTests<SUT>, SetOfIntegerSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobMediaSheetsSupported]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

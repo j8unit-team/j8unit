@@ -49,6 +49,7 @@ public abstract interface ReflectionExceptionClassTests<SUT extends ReflectionEx
 extends JMExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ReflectionException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface NodeSetDataClassTests<SUT extends NodeSetData>
 extends DataClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.NodeSetData]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

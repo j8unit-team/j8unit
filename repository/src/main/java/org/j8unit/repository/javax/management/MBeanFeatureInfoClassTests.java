@@ -51,6 +51,7 @@ public abstract interface MBeanFeatureInfoClassTests<SUT extends MBeanFeatureInf
 extends SerializableClassTests<SUT>, DescriptorReadClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanFeatureInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

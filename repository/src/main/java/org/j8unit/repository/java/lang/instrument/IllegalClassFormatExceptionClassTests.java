@@ -50,6 +50,7 @@ public abstract interface IllegalClassFormatExceptionClassTests<SUT extends Ille
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.instrument.IllegalClassFormatException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

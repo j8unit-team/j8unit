@@ -49,6 +49,7 @@ public abstract interface SOAPFaultClassTests<SUT extends SOAPFault>
 extends SOAPBodyElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SOAPFault]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

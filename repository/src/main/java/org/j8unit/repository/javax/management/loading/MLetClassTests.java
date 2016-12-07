@@ -52,6 +52,7 @@ public abstract interface MLetClassTests<SUT extends MLet>
 extends MLetMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, ExternalizableClassTests<SUT>, URLClassLoaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.loading.MLet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

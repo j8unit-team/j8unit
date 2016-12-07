@@ -50,6 +50,7 @@ public abstract interface NimbusLookAndFeelClassTests<SUT extends NimbusLookAndF
 extends SynthLookAndFeelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.nimbus.NimbusLookAndFeel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

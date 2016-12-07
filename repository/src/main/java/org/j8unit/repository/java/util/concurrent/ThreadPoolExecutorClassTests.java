@@ -55,6 +55,7 @@ public abstract interface ThreadPoolExecutorClassTests<SUT extends ThreadPoolExe
 extends AbstractExecutorServiceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
     extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -185,6 +187,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
     extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -251,6 +254,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
     extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -317,6 +321,7 @@ extends AbstractExecutorServiceClassTests<SUT> {
     extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

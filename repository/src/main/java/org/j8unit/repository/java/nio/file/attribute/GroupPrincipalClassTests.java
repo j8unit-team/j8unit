@@ -49,6 +49,7 @@ public abstract interface GroupPrincipalClassTests<SUT extends GroupPrincipal>
 extends UserPrincipalClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.GroupPrincipal]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

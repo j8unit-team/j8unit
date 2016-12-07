@@ -50,6 +50,7 @@ public abstract interface MultiDesktopPaneUIClassTests<SUT extends MultiDesktopP
 extends DesktopPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiDesktopPaneUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

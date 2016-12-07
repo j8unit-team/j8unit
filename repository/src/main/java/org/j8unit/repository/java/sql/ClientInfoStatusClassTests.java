@@ -50,6 +50,7 @@ public abstract interface ClientInfoStatusClassTests<SUT extends ClientInfoStatu
 extends EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.ClientInfoStatus]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

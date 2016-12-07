@@ -50,6 +50,7 @@ public abstract interface RMIConnectionImpl_StubClassTests<SUT extends RMIConnec
 extends RMIConnectionClassTests<SUT>, RemoteStubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIConnectionImpl_Stub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

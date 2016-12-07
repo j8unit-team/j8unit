@@ -49,6 +49,7 @@ public abstract interface RuntimeOperationsExceptionClassTests<SUT extends Runti
 extends JMRuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.RuntimeOperationsException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

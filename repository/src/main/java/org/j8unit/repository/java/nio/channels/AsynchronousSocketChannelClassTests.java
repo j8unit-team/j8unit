@@ -50,6 +50,7 @@ public abstract interface AsynchronousSocketChannelClassTests<SUT extends Asynch
 extends AsynchronousByteChannelClassTests<SUT>, NetworkChannelClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AsynchronousSocketChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

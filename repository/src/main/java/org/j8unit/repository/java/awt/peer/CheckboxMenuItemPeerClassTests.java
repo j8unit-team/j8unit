@@ -49,6 +49,7 @@ public abstract interface CheckboxMenuItemPeerClassTests<SUT extends CheckboxMen
 extends MenuItemPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.CheckboxMenuItemPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

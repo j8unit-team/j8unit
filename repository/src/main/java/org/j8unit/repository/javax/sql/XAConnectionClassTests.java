@@ -49,6 +49,7 @@ public abstract interface XAConnectionClassTests<SUT extends XAConnection>
 extends PooledConnectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.XAConnection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

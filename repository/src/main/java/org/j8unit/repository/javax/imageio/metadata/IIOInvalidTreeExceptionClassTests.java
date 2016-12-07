@@ -50,6 +50,7 @@ public abstract interface IIOInvalidTreeExceptionClassTests<SUT extends IIOInval
 extends IIOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.metadata.IIOInvalidTreeException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

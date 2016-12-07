@@ -50,6 +50,7 @@ public abstract interface AbstractExecutorServiceClassTests<SUT extends Abstract
 extends ExecutorServiceClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.AbstractExecutorService]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

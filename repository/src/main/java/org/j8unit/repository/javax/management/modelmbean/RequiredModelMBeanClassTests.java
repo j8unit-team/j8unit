@@ -52,6 +52,7 @@ public abstract interface RequiredModelMBeanClassTests<SUT extends RequiredModel
 extends ModelMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, NotificationEmitterClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

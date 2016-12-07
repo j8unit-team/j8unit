@@ -51,6 +51,7 @@ public abstract interface ReaderClassTests<SUT extends Reader>
 extends ReadableClassTests<SUT>, CloseableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.Reader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

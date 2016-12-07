@@ -51,6 +51,7 @@ public abstract interface MonitorClassTests<SUT extends Monitor>
 extends MonitorMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, NotificationBroadcasterSupportClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.Monitor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

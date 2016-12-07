@@ -49,6 +49,7 @@ public abstract interface DynEnumClassTests<SUT extends DynEnum>
 extends DynEnumOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynEnum]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

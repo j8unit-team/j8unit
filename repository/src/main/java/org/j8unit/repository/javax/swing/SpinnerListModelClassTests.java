@@ -49,6 +49,7 @@ public abstract interface SpinnerListModelClassTests<SUT extends SpinnerListMode
 extends AbstractSpinnerModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SpinnerListModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

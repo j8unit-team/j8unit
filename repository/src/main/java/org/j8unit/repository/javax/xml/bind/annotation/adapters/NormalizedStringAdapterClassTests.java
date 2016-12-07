@@ -49,6 +49,7 @@ public abstract interface NormalizedStringAdapterClassTests<SUT extends Normaliz
 extends XmlAdapterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.adapters.NormalizedStringAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

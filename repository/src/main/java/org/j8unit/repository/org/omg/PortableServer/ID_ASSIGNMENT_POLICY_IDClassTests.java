@@ -50,6 +50,7 @@ public abstract interface ID_ASSIGNMENT_POLICY_IDClassTests<SUT extends ID_ASSIG
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface HierarchyBoundsAdapterClassTests<SUT extends Hierarchy
 extends HierarchyBoundsListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.HierarchyBoundsAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

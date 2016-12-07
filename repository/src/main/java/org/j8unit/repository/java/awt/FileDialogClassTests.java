@@ -49,6 +49,7 @@ public abstract interface FileDialogClassTests<SUT extends FileDialog>
 extends DialogClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.FileDialog]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

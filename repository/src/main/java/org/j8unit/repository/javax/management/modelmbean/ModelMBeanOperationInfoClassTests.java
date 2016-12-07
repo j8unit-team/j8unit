@@ -51,6 +51,7 @@ public abstract interface ModelMBeanOperationInfoClassTests<SUT extends ModelMBe
 extends DescriptorAccessClassTests<SUT>, MBeanOperationInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanOperationInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

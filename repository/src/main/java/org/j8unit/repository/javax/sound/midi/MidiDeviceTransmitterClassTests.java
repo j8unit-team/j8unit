@@ -49,6 +49,7 @@ public abstract interface MidiDeviceTransmitterClassTests<SUT extends MidiDevice
 extends TransmitterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiDeviceTransmitter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

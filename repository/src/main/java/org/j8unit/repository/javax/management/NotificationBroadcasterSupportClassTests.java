@@ -50,6 +50,7 @@ public abstract interface NotificationBroadcasterSupportClassTests<SUT extends N
 extends NotificationEmitterClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.NotificationBroadcasterSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -48,6 +48,7 @@ public abstract interface ThreadDeathClassTests<SUT extends ThreadDeath>
 extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ThreadDeath]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
