@@ -50,6 +50,7 @@ public abstract interface RemoteObjectInvocationHandlerClassTests<SUT extends Re
 extends InvocationHandlerClassTests<SUT>, RemoteObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.RemoteObjectInvocationHandler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

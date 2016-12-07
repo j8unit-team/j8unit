@@ -49,6 +49,7 @@ public abstract interface DosFileAttributesClassTests<SUT extends DosFileAttribu
 extends BasicFileAttributesClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.DosFileAttributes]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

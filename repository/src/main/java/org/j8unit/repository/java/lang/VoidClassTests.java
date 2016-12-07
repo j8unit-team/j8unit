@@ -48,6 +48,7 @@ public abstract interface VoidClassTests<SUT extends Void>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Void]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

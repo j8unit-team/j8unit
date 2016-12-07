@@ -51,6 +51,7 @@ public abstract interface LdapNameClassTests<SUT extends LdapName>
 extends NameClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.LdapName]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

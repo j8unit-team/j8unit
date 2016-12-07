@@ -52,6 +52,7 @@ public abstract interface EnumMapClassTests<SUT extends EnumMap>
 extends SerializableClassTests<SUT>, CloneableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.EnumMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

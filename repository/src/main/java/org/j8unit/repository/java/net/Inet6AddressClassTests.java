@@ -49,6 +49,7 @@ public abstract interface Inet6AddressClassTests<SUT extends Inet6Address>
 extends InetAddressClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.Inet6Address]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

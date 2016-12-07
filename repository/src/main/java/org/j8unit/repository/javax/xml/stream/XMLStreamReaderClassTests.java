@@ -49,6 +49,7 @@ public abstract interface XMLStreamReaderClassTests<SUT extends XMLStreamReader>
 extends XMLStreamConstantsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.XMLStreamReader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface VisibilityClassTests<SUT extends Visibility>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.Visibility]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

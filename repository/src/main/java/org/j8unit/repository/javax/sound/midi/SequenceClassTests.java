@@ -50,6 +50,7 @@ public abstract interface SequenceClassTests<SUT extends Sequence>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Sequence]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

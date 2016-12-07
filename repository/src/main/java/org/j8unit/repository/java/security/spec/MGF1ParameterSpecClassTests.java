@@ -50,6 +50,7 @@ public abstract interface MGF1ParameterSpecClassTests<SUT extends MGF1ParameterS
 extends AlgorithmParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.MGF1ParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

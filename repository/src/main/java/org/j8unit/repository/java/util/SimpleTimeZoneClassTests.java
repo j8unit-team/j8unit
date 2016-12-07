@@ -49,6 +49,7 @@ public abstract interface SimpleTimeZoneClassTests<SUT extends SimpleTimeZone>
 extends TimeZoneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.SimpleTimeZone]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

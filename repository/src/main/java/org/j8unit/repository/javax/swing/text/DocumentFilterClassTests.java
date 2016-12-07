@@ -52,6 +52,7 @@ public abstract interface DocumentFilterClassTests<SUT extends DocumentFilter>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DocumentFilter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DocumentFilter$FilterBypass]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

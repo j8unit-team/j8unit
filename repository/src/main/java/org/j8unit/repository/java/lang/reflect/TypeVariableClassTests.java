@@ -50,6 +50,7 @@ public abstract interface TypeVariableClassTests<SUT extends TypeVariable>
 extends TypeClassTests<SUT>, AnnotatedElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.TypeVariable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

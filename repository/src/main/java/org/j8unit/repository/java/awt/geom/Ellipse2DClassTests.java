@@ -53,6 +53,7 @@ public abstract interface Ellipse2DClassTests<SUT extends Ellipse2D>
 extends RectangularShapeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends RectangularShapeClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Double]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -183,6 +185,7 @@ extends RectangularShapeClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Float]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface FileFilterClassTests<SUT extends FileFilter>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.FileFilter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

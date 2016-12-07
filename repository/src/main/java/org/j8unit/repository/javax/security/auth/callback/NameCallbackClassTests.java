@@ -51,6 +51,7 @@ public abstract interface NameCallbackClassTests<SUT extends NameCallback>
 extends CallbackClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.callback.NameCallback]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

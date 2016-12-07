@@ -52,6 +52,7 @@ public abstract interface BitSetClassTests<SUT extends BitSet>
 extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.BitSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

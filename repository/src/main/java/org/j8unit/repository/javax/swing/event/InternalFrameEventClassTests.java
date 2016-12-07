@@ -50,6 +50,7 @@ public abstract interface InternalFrameEventClassTests<SUT extends InternalFrame
 extends AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.InternalFrameEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

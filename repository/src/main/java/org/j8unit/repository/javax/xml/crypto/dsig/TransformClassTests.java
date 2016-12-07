@@ -51,6 +51,7 @@ public abstract interface TransformClassTests<SUT extends Transform>
 extends XMLStructureClassTests<SUT>, AlgorithmMethodClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.Transform]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

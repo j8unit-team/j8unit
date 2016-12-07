@@ -49,6 +49,7 @@ public abstract interface ZipOutputStreamClassTests<SUT extends ZipOutputStream>
 extends DeflaterOutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.ZipOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

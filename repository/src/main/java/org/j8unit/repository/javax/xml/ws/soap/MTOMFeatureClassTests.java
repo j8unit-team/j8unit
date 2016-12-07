@@ -50,6 +50,7 @@ public abstract interface MTOMFeatureClassTests<SUT extends MTOMFeature>
 extends WebServiceFeatureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.MTOMFeature]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

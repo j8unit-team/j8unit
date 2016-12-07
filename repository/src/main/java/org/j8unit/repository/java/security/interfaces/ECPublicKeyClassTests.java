@@ -50,6 +50,7 @@ public abstract interface ECPublicKeyClassTests<SUT extends ECPublicKey>
 extends PublicKeyClassTests<SUT>, ECKeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.interfaces.ECPublicKey]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

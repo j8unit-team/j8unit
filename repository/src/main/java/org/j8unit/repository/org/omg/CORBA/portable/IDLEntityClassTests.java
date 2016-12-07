@@ -50,6 +50,7 @@ public abstract interface IDLEntityClassTests<SUT extends IDLEntity>
 extends SerializableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.IDLEntity]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

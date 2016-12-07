@@ -49,6 +49,7 @@ public abstract interface HTMLOListElementClassTests<SUT extends HTMLOListElemen
 extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLOListElement]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

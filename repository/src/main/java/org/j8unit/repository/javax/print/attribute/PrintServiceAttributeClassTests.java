@@ -49,6 +49,7 @@ public abstract interface PrintServiceAttributeClassTests<SUT extends PrintServi
 extends AttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.PrintServiceAttribute]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

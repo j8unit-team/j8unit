@@ -48,6 +48,7 @@ public abstract interface LinkageErrorClassTests<SUT extends LinkageError>
 extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.LinkageError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

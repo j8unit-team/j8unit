@@ -52,6 +52,7 @@ public abstract interface TreeMapClassTests<SUT extends TreeMap>
 extends NavigableMapClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.TreeMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

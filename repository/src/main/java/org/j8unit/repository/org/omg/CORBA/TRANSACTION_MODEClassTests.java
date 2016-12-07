@@ -49,6 +49,7 @@ public abstract interface TRANSACTION_MODEClassTests<SUT extends TRANSACTION_MOD
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSACTION_MODE]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

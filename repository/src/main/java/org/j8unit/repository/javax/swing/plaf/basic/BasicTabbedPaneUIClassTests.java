@@ -63,6 +63,7 @@ public abstract interface BasicTabbedPaneUIClassTests<SUT extends BasicTabbedPan
 extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -127,6 +128,7 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -193,6 +195,7 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
     extends LayoutManagerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -259,6 +262,7 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
     extends FocusAdapterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -325,6 +329,7 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
     extends PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -391,6 +396,7 @@ extends SwingConstantsClassTests<SUT>, TabbedPaneUIClassTests<SUT> {
     extends MouseAdapterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

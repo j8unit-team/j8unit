@@ -50,6 +50,7 @@ public abstract interface RefClassTests<SUT extends Ref>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Ref]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

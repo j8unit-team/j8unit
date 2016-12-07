@@ -49,6 +49,7 @@ public abstract interface FileStoreAttributeViewClassTests<SUT extends FileStore
 extends AttributeViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.FileStoreAttributeView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

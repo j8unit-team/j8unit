@@ -50,6 +50,7 @@ public abstract interface TableColumnModelEventClassTests<SUT extends TableColum
 extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.TableColumnModelEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

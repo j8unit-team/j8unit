@@ -49,6 +49,7 @@ public abstract interface SynthToggleButtonUIClassTests<SUT extends SynthToggleB
 extends SynthButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthToggleButtonUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

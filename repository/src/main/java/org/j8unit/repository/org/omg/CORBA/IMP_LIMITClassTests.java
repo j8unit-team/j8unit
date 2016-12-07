@@ -49,6 +49,7 @@ public abstract interface IMP_LIMITClassTests<SUT extends IMP_LIMIT>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IMP_LIMIT]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

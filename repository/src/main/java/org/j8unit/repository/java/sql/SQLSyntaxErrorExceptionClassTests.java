@@ -49,6 +49,7 @@ public abstract interface SQLSyntaxErrorExceptionClassTests<SUT extends SQLSynta
 extends SQLNonTransientExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLSyntaxErrorException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

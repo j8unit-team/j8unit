@@ -50,6 +50,7 @@ public abstract interface JapaneseChronologyClassTests<SUT extends JapaneseChron
 extends SerializableClassTests<SUT>, AbstractChronologyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.JapaneseChronology]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

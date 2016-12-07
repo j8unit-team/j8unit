@@ -49,6 +49,7 @@ public abstract interface ScrollBarUIClassTests<SUT extends ScrollBarUI>
 extends ComponentUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.ScrollBarUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

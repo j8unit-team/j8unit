@@ -50,6 +50,7 @@ public abstract interface ChannelBindingClassTests<SUT extends ChannelBinding>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.ietf.jgss.ChannelBinding]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

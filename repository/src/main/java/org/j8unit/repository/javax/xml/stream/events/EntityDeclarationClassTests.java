@@ -49,6 +49,7 @@ public abstract interface EntityDeclarationClassTests<SUT extends EntityDeclarat
 extends XMLEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.events.EntityDeclaration]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

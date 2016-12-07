@@ -51,6 +51,7 @@ public abstract interface ListModelClassTests<SUT extends ListModel>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ListModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

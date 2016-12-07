@@ -49,6 +49,7 @@ public abstract interface XPathFunctionExceptionClassTests<SUT extends XPathFunc
 extends XPathExpressionExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.xpath.XPathFunctionException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface ResponseAPDUClassTests<SUT extends ResponseAPDU>
 extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.ResponseAPDU]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

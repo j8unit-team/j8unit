@@ -50,6 +50,7 @@ public abstract interface RootPaneContainerClassTests<SUT extends RootPaneContai
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.RootPaneContainer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

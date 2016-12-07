@@ -49,6 +49,7 @@ public abstract interface SuppressWarningsClassTests<SUT extends SuppressWarning
 extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.SuppressWarnings]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

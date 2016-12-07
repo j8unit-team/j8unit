@@ -51,6 +51,7 @@ public abstract interface RC2ParameterSpecClassTests<SUT extends RC2ParameterSpe
 extends AlgorithmParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.RC2ParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

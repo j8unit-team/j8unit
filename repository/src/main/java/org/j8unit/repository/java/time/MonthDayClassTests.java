@@ -54,6 +54,7 @@ public abstract interface MonthDayClassTests<SUT extends MonthDay>
 extends TemporalAccessorClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.MonthDay]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -53,6 +53,7 @@ public abstract interface BasicMenuUIClassTests<SUT extends BasicMenuUI>
 extends BasicMenuItemUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends BasicMenuItemUIClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

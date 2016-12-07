@@ -52,6 +52,7 @@ public abstract interface JobNameClassTests<SUT extends JobName>
 extends PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, TextSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobName]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

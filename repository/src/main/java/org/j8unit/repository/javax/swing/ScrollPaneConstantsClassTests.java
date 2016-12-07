@@ -50,6 +50,7 @@ public abstract interface ScrollPaneConstantsClassTests<SUT extends ScrollPaneCo
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ScrollPaneConstants]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

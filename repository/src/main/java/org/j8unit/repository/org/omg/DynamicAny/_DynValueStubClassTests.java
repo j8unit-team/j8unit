@@ -50,6 +50,7 @@ public abstract interface _DynValueStubClassTests<SUT extends _DynValueStub>
 extends DynValueClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynValueStub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

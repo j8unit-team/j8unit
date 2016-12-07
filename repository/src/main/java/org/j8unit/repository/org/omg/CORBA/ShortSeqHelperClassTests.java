@@ -50,6 +50,7 @@ public abstract interface ShortSeqHelperClassTests<SUT extends ShortSeqHelper>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ShortSeqHelper]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

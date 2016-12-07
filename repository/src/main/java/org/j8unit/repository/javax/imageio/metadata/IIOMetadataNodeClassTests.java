@@ -52,6 +52,7 @@ public abstract interface IIOMetadataNodeClassTests<SUT extends IIOMetadataNode>
 extends ElementClassTests<SUT>, NodeListClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.metadata.IIOMetadataNode]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

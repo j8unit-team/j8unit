@@ -50,6 +50,7 @@ public abstract interface VetoableChangeListenerClassTests<SUT extends VetoableC
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.VetoableChangeListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface MultiDesktopIconUIClassTests<SUT extends MultiDesktopI
 extends DesktopIconUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiDesktopIconUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

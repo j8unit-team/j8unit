@@ -51,6 +51,7 @@ public abstract interface BooleanControlClassTests<SUT extends BooleanControl>
 extends ControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.BooleanControl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -115,6 +116,7 @@ extends ControlClassTests<SUT> {
     extends org.j8unit.repository.javax.sound.sampled.ControlClassTests.TypeClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.BooleanControl$Type]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

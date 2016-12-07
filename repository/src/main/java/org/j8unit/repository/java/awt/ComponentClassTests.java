@@ -55,6 +55,7 @@ public abstract interface ComponentClassTests<SUT extends Component>
 extends ImageObserverClassTests<SUT>, MenuContainerClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends ImageObserverClassTests<SUT>, MenuContainerClassTests<SUT>, Serializable
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

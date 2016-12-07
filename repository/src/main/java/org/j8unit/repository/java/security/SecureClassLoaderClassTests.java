@@ -50,6 +50,7 @@ public abstract interface SecureClassLoaderClassTests<SUT extends SecureClassLoa
 extends ClassLoaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.SecureClassLoader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

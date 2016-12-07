@@ -49,6 +49,7 @@ public abstract interface PrivateMLetClassTests<SUT extends PrivateMLet>
 extends PrivateClassLoaderClassTests<SUT>, MLetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.loading.PrivateMLet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

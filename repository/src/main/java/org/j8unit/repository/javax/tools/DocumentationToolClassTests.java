@@ -54,6 +54,7 @@ public abstract interface DocumentationToolClassTests<SUT extends DocumentationT
 extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
     extends CallableClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -184,6 +186,7 @@ extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
     extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>, EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$Location]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface CertStoreExceptionClassTests<SUT extends CertStoreExce
 extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertStoreException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

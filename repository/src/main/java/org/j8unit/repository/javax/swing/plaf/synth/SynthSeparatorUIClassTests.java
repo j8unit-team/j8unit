@@ -51,6 +51,7 @@ public abstract interface SynthSeparatorUIClassTests<SUT extends SynthSeparatorU
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, SeparatorUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

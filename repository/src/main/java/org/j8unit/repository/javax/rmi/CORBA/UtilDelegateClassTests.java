@@ -50,6 +50,7 @@ public abstract interface UtilDelegateClassTests<SUT extends UtilDelegate>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.rmi.CORBA.UtilDelegate]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

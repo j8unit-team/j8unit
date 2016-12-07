@@ -50,6 +50,7 @@ public abstract interface CountDownLatchClassTests<SUT extends CountDownLatch>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.CountDownLatch]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -53,6 +53,7 @@ public abstract interface MapClassTests<SUT extends Map>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Map]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -115,6 +116,7 @@ extends RepositoryClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Map$Entry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

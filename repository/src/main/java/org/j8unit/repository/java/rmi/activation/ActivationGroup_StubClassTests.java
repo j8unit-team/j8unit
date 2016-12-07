@@ -50,6 +50,7 @@ public abstract interface ActivationGroup_StubClassTests<SUT extends ActivationG
 extends ActivationInstantiatorClassTests<SUT>, RemoteStubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

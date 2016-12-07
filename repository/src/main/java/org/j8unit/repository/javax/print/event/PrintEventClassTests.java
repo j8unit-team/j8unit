@@ -50,6 +50,7 @@ public abstract interface PrintEventClassTests<SUT extends PrintEvent>
 extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.event.PrintEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

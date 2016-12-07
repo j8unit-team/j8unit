@@ -49,6 +49,7 @@ public abstract interface ProtocolExceptionClassTests<SUT extends ProtocolExcept
 extends WebServiceExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.ProtocolException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

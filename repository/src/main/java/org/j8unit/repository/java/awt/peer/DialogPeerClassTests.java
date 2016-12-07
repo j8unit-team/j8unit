@@ -49,6 +49,7 @@ public abstract interface DialogPeerClassTests<SUT extends DialogPeer>
 extends WindowPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.DialogPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

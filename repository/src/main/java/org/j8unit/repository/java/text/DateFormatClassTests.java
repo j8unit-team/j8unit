@@ -51,6 +51,7 @@ public abstract interface DateFormatClassTests<SUT extends DateFormat>
 extends FormatClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.DateFormat]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -115,6 +116,7 @@ extends FormatClassTests<SUT> {
     extends org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.DateFormat$Field]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

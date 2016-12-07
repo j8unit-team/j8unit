@@ -50,6 +50,7 @@ public abstract interface FormatterClosedExceptionClassTests<SUT extends Formatt
 extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.FormatterClosedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

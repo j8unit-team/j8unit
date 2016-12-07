@@ -50,6 +50,7 @@ public abstract interface ManifestClassTests<SUT extends Manifest>
 extends XMLStructureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.Manifest]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

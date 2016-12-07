@@ -49,6 +49,7 @@ public abstract interface ACTIVITY_COMPLETEDClassTests<SUT extends ACTIVITY_COMP
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ACTIVITY_COMPLETED]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

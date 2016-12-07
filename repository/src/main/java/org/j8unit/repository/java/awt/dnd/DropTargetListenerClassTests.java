@@ -50,6 +50,7 @@ public abstract interface DropTargetListenerClassTests<SUT extends DropTargetLis
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.DropTargetListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

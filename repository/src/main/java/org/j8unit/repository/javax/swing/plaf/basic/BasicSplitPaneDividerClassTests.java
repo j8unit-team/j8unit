@@ -51,6 +51,7 @@ public abstract interface BasicSplitPaneDividerClassTests<SUT extends BasicSplit
 extends PropertyChangeListenerClassTests<SUT>, ContainerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

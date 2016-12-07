@@ -52,6 +52,7 @@ public abstract interface JobHoldUntilClassTests<SUT extends JobHoldUntil>
 extends PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, DateTimeSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobHoldUntil]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

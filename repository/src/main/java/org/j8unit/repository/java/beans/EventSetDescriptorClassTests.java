@@ -49,6 +49,7 @@ public abstract interface EventSetDescriptorClassTests<SUT extends EventSetDescr
 extends FeatureDescriptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.EventSetDescriptor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface ByteArrayOutputStreamClassTests<SUT extends ByteArrayO
 extends OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ByteArrayOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

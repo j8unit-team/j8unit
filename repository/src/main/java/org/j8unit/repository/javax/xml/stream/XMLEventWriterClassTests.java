@@ -50,6 +50,7 @@ public abstract interface XMLEventWriterClassTests<SUT extends XMLEventWriter>
 extends XMLEventConsumerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.XMLEventWriter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

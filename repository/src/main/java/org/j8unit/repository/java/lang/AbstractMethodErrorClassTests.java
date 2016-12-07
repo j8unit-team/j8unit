@@ -48,6 +48,7 @@ public abstract interface AbstractMethodErrorClassTests<SUT extends AbstractMeth
 extends IncompatibleClassChangeErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.AbstractMethodError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

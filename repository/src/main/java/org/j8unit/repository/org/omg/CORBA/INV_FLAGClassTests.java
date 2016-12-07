@@ -49,6 +49,7 @@ public abstract interface INV_FLAGClassTests<SUT extends INV_FLAG>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INV_FLAG]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

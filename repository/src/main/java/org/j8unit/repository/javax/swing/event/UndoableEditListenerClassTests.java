@@ -50,6 +50,7 @@ public abstract interface UndoableEditListenerClassTests<SUT extends UndoableEdi
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.UndoableEditListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

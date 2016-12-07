@@ -52,6 +52,7 @@ public abstract interface ArrayBlockingQueueClassTests<SUT extends ArrayBlocking
 extends BlockingQueueClassTests<SUT>, SerializableClassTests<SUT>, AbstractQueueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

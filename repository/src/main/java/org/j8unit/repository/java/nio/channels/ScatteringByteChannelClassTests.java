@@ -49,6 +49,7 @@ public abstract interface ScatteringByteChannelClassTests<SUT extends Scattering
 extends ReadableByteChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

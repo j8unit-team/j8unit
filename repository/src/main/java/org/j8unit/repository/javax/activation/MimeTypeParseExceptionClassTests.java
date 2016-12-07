@@ -50,6 +50,7 @@ public abstract interface MimeTypeParseExceptionClassTests<SUT extends MimeTypeP
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.MimeTypeParseException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

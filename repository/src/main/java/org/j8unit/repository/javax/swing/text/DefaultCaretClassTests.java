@@ -53,6 +53,7 @@ public abstract interface DefaultCaretClassTests<SUT extends DefaultCaret>
 extends CaretClassTests<SUT>, FocusListenerClassTests<SUT>, MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, RectangleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultCaret]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

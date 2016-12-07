@@ -55,6 +55,7 @@ public abstract interface FormatterClassTests<SUT extends Formatter>
 extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Formatter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, ObjectClassTests<SUT
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

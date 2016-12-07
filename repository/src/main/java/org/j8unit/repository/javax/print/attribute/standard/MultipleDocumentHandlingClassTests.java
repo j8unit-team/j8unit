@@ -52,6 +52,7 @@ public abstract interface MultipleDocumentHandlingClassTests<SUT extends Multipl
 extends PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MultipleDocumentHandling]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

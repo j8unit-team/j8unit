@@ -49,6 +49,7 @@ public abstract interface SoftBevelBorderClassTests<SUT extends SoftBevelBorder>
 extends BevelBorderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.SoftBevelBorder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

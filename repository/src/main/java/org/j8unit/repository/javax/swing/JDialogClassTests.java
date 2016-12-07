@@ -50,6 +50,7 @@ public abstract interface JDialogClassTests<SUT extends JDialog>
 extends WindowConstantsClassTests<SUT>, RootPaneContainerClassTests<SUT>, DialogClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JDialog]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

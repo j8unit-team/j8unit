@@ -49,6 +49,7 @@ public abstract interface MultiPixelPackedSampleModelClassTests<SUT extends Mult
 extends SampleModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.MultiPixelPackedSampleModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

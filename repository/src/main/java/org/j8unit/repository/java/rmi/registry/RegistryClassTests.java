@@ -50,6 +50,7 @@ public abstract interface RegistryClassTests<SUT extends Registry>
 extends RemoteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.registry.Registry]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface InvalidKeyExceptionClassTests<SUT extends InvalidKeyEx
 extends IllegalArgumentExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.InvalidKeyException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

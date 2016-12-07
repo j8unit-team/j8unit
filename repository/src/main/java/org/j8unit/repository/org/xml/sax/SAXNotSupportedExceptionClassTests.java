@@ -49,6 +49,7 @@ public abstract interface SAXNotSupportedExceptionClassTests<SUT extends SAXNotS
 extends SAXExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.SAXNotSupportedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

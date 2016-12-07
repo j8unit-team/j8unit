@@ -50,6 +50,7 @@ public abstract interface DateTimeParseExceptionClassTests<SUT extends DateTimeP
 extends DateTimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.format.DateTimeParseException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

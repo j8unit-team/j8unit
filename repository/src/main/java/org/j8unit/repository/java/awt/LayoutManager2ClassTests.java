@@ -49,6 +49,7 @@ public abstract interface LayoutManager2ClassTests<SUT extends LayoutManager2>
 extends LayoutManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.LayoutManager2]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface JToolBarClassTests<SUT extends JToolBar>
 extends SwingConstantsClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToolBar]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends SwingConstantsClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClas
     extends JSeparatorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToolBar$Separator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

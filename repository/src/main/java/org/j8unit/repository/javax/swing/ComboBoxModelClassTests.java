@@ -50,6 +50,7 @@ public abstract interface ComboBoxModelClassTests<SUT extends ComboBoxModel>
 extends ListModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ComboBoxModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

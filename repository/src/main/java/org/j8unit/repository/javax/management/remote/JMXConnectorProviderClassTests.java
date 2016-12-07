@@ -50,6 +50,7 @@ public abstract interface JMXConnectorProviderClassTests<SUT extends JMXConnecto
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectorProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

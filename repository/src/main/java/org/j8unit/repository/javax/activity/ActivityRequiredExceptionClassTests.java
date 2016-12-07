@@ -50,6 +50,7 @@ public abstract interface ActivityRequiredExceptionClassTests<SUT extends Activi
 extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activity.ActivityRequiredException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface DATA_CONVERSIONClassTests<SUT extends DATA_CONVERSION>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

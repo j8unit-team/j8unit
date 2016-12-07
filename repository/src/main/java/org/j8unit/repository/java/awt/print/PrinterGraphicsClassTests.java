@@ -50,6 +50,7 @@ public abstract interface PrinterGraphicsClassTests<SUT extends PrinterGraphics>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.print.PrinterGraphics]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

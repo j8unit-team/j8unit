@@ -56,6 +56,7 @@ public abstract interface SpliteratorClassTests<SUT extends Spliterator>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends RepositoryClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfPrimitive]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -185,6 +187,7 @@ extends RepositoryClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfLong]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -251,6 +254,7 @@ extends RepositoryClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfInt]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -317,6 +321,7 @@ extends RepositoryClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfDouble]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

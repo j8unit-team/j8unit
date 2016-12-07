@@ -49,6 +49,7 @@ public abstract interface PushbackInputStreamClassTests<SUT extends PushbackInpu
 extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PushbackInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

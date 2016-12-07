@@ -50,6 +50,7 @@ public abstract interface FieldNameHelperClassTests<SUT extends FieldNameHelper>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.FieldNameHelper]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

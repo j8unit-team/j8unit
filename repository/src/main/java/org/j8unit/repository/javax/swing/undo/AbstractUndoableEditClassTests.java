@@ -51,6 +51,7 @@ public abstract interface AbstractUndoableEditClassTests<SUT extends AbstractUnd
 extends UndoableEditClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.undo.AbstractUndoableEdit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface LoginExceptionClassTests<SUT extends LoginException>
 extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.LoginException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface PrintConversionEventImplClassTests<SUT extends PrintCo
 extends PrintConversionEventClassTests<SUT>, ValidationEventImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.PrintConversionEventImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

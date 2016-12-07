@@ -50,6 +50,7 @@ public abstract interface MetalLookAndFeelClassTests<SUT extends MetalLookAndFee
 extends BasicLookAndFeelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalLookAndFeel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

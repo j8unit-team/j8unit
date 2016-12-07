@@ -48,6 +48,7 @@ public abstract interface UnsupportedClassVersionErrorClassTests<SUT extends Uns
 extends ClassFormatErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.UnsupportedClassVersionError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface SortingFocusTraversalPolicyClassTests<SUT extends Sort
 extends InternalFrameFocusTraversalPolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

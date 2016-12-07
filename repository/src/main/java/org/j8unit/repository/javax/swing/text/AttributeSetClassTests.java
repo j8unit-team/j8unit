@@ -55,6 +55,7 @@ public abstract interface AttributeSetClassTests<SUT extends AttributeSet>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends RepositoryClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$FontAttribute]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -183,6 +185,7 @@ extends RepositoryClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -248,6 +251,7 @@ extends RepositoryClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -313,6 +317,7 @@ extends RepositoryClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

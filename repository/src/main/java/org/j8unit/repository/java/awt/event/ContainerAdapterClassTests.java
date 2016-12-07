@@ -50,6 +50,7 @@ public abstract interface ContainerAdapterClassTests<SUT extends ContainerAdapte
 extends ContainerListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.ContainerAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

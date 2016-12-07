@@ -50,6 +50,7 @@ public abstract interface NotYetConnectedExceptionClassTests<SUT extends NotYetC
 extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.NotYetConnectedException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

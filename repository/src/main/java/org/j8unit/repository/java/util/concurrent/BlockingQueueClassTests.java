@@ -51,6 +51,7 @@ public abstract interface BlockingQueueClassTests<SUT extends BlockingQueue>
 extends QueueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.BlockingQueue]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

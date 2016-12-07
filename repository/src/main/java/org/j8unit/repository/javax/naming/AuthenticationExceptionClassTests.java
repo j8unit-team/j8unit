@@ -49,6 +49,7 @@ public abstract interface AuthenticationExceptionClassTests<SUT extends Authenti
 extends NamingSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.AuthenticationException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

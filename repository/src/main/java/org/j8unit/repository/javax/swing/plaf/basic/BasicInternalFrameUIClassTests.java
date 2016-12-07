@@ -56,6 +56,7 @@ public abstract interface BasicInternalFrameUIClassTests<SUT extends BasicIntern
 extends InternalFrameUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -120,6 +121,7 @@ extends InternalFrameUIClassTests<SUT> {
     extends LayoutManagerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends InternalFrameUIClassTests<SUT> {
     extends PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

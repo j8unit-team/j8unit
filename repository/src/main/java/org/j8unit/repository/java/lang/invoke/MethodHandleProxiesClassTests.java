@@ -50,6 +50,7 @@ public abstract interface MethodHandleProxiesClassTests<SUT extends MethodHandle
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.MethodHandleProxies]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

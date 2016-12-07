@@ -51,6 +51,7 @@ public abstract interface ThreadPolicyValueClassTests<SUT extends ThreadPolicyVa
 extends IDLEntityClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ThreadPolicyValue]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

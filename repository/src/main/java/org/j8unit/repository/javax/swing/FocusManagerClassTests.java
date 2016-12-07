@@ -50,6 +50,7 @@ public abstract interface FocusManagerClassTests<SUT extends FocusManager>
 extends DefaultKeyboardFocusManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.FocusManager]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

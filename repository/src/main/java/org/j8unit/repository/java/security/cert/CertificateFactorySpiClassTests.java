@@ -50,6 +50,7 @@ public abstract interface CertificateFactorySpiClassTests<SUT extends Certificat
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertificateFactorySpi]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

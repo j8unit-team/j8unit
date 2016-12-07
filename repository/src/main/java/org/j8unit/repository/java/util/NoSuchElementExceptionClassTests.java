@@ -50,6 +50,7 @@ public abstract interface NoSuchElementExceptionClassTests<SUT extends NoSuchEle
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.NoSuchElementException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

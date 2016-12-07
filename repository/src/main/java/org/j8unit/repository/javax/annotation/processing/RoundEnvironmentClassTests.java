@@ -50,6 +50,7 @@ public abstract interface RoundEnvironmentClassTests<SUT extends RoundEnvironmen
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

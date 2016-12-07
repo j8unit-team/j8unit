@@ -59,6 +59,7 @@ public abstract interface BasicScrollPaneUIClassTests<SUT extends BasicScrollPan
 extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -123,6 +124,7 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -189,6 +191,7 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
     extends PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -255,6 +258,7 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -321,6 +325,7 @@ extends ScrollPaneConstantsClassTests<SUT>, ScrollPaneUIClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

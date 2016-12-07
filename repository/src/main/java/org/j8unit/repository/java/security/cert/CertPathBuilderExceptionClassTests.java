@@ -50,6 +50,7 @@ public abstract interface CertPathBuilderExceptionClassTests<SUT extends CertPat
 extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathBuilderException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

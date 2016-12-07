@@ -50,6 +50,7 @@ public abstract interface LoggingMXBeanClassTests<SUT extends LoggingMXBean>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.LoggingMXBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -48,6 +48,7 @@ public abstract interface ShortClassTests<SUT extends Short>
 extends ComparableClassTests<SUT>, NumberClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Short]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

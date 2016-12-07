@@ -50,6 +50,7 @@ public abstract interface InputSubsetClassTests<SUT extends InputSubset>
 extends SubsetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.im.InputSubset]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

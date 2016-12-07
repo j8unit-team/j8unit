@@ -49,6 +49,7 @@ public abstract interface NoSuchFileExceptionClassTests<SUT extends NoSuchFileEx
 extends FileSystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.NoSuchFileException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

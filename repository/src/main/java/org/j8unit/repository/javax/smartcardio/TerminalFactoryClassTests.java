@@ -51,6 +51,7 @@ public abstract interface TerminalFactoryClassTests<SUT extends TerminalFactory>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.TerminalFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

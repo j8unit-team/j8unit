@@ -50,6 +50,7 @@ public abstract interface AcceptPendingExceptionClassTests<SUT extends AcceptPen
 extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AcceptPendingException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface MBeanServerInvocationHandlerClassTests<SUT extends MBe
 extends InvocationHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanServerInvocationHandler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

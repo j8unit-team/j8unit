@@ -52,6 +52,7 @@ public abstract interface TransformerHandlerClassTests<SUT extends TransformerHa
 extends ContentHandlerClassTests<SUT>, LexicalHandlerClassTests<SUT>, DTDHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface EntityResolver2ClassTests<SUT extends EntityResolver2>
 extends EntityResolverClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

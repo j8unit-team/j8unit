@@ -49,6 +49,7 @@ public abstract interface MutableTreeNodeClassTests<SUT extends MutableTreeNode>
 extends TreeNodeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.MutableTreeNode]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

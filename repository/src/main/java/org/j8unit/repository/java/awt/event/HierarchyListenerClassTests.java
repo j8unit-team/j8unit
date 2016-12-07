@@ -50,6 +50,7 @@ public abstract interface HierarchyListenerClassTests<SUT extends HierarchyListe
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.HierarchyListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface HttpsURLConnectionClassTests<SUT extends HttpsURLConne
 extends HttpURLConnectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.HttpsURLConnection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

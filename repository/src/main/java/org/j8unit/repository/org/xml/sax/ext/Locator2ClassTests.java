@@ -50,6 +50,7 @@ public abstract interface Locator2ClassTests<SUT extends Locator2>
 extends LocatorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.Locator2]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

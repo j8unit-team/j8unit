@@ -50,6 +50,7 @@ public abstract interface XSLTTransformParameterSpecClassTests<SUT extends XSLTT
 extends TransformParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

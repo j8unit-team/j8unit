@@ -50,6 +50,7 @@ public abstract interface DropTargetEventClassTests<SUT extends DropTargetEvent>
 extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.DropTargetEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

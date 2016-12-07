@@ -51,6 +51,7 @@ public abstract interface VetoableChangeSupportClassTests<SUT extends VetoableCh
 extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.VetoableChangeSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

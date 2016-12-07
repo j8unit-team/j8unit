@@ -53,6 +53,7 @@ public abstract interface NumberUpClassTests<SUT extends NumberUp>
 extends DocAttributeClassTests<SUT>, PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, IntegerSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.NumberUp]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

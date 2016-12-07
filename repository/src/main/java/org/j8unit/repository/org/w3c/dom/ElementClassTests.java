@@ -49,6 +49,7 @@ public abstract interface ElementClassTests<SUT extends Element>
 extends NodeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.Element]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

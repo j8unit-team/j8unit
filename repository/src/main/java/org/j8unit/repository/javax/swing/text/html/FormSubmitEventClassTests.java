@@ -52,6 +52,7 @@ public abstract interface FormSubmitEventClassTests<SUT extends FormSubmitEvent>
 extends HTMLFrameHyperlinkEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends HTMLFrameHyperlinkEventClassTests<SUT> {
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -48,6 +48,7 @@ public abstract interface StackOverflowErrorClassTests<SUT extends StackOverflow
 extends VirtualMachineErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.StackOverflowError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

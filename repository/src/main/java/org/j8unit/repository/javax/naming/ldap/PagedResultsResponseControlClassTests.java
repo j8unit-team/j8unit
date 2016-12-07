@@ -49,6 +49,7 @@ public abstract interface PagedResultsResponseControlClassTests<SUT extends Page
 extends BasicControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

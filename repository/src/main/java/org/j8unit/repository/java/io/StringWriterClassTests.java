@@ -49,6 +49,7 @@ public abstract interface StringWriterClassTests<SUT extends StringWriter>
 extends WriterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.StringWriter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

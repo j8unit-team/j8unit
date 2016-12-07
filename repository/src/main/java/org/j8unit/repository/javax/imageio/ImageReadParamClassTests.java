@@ -49,6 +49,7 @@ public abstract interface ImageReadParamClassTests<SUT extends ImageReadParam>
 extends IIOParamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.ImageReadParam]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

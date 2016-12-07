@@ -50,6 +50,7 @@ public abstract interface JColorChooserClassTests<SUT extends JColorChooser>
 extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JColorChooser]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

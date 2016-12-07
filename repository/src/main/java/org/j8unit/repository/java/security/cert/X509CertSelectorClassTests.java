@@ -50,6 +50,7 @@ public abstract interface X509CertSelectorClassTests<SUT extends X509CertSelecto
 extends CertSelectorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.X509CertSelector]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

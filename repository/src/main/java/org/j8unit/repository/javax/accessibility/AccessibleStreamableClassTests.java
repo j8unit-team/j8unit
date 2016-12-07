@@ -50,6 +50,7 @@ public abstract interface AccessibleStreamableClassTests<SUT extends AccessibleS
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleStreamable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

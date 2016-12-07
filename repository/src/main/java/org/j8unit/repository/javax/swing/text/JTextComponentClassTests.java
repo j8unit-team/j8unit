@@ -62,6 +62,7 @@ public abstract interface JTextComponentClassTests<SUT extends JTextComponent>
 extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -126,6 +127,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -192,6 +194,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -259,6 +262,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
     AccessibleExtendedTextClassTests<SUT>, AccessibleJComponentClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

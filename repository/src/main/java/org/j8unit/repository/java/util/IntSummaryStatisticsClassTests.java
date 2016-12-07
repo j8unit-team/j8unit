@@ -51,6 +51,7 @@ public abstract interface IntSummaryStatisticsClassTests<SUT extends IntSummaryS
 extends IntConsumerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.IntSummaryStatistics]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

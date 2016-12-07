@@ -50,6 +50,7 @@ public abstract interface ExceptionDetailMessageClassTests<SUT extends Exception
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ExceptionDetailMessage]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

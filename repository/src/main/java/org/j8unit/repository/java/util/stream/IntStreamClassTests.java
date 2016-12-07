@@ -52,6 +52,7 @@ public abstract interface IntStreamClassTests<SUT extends IntStream>
 extends BaseStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.IntStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends BaseStreamClassTests<SUT> {
     extends IntConsumerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.IntStream$Builder]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

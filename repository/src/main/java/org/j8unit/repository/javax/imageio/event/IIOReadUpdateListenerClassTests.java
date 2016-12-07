@@ -50,6 +50,7 @@ public abstract interface IIOReadUpdateListenerClassTests<SUT extends IIOReadUpd
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.event.IIOReadUpdateListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

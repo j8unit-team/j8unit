@@ -51,6 +51,7 @@ public abstract interface SQLExceptionClassTests<SUT extends SQLException>
 extends IterableClassTests<SUT>, ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

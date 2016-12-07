@@ -50,6 +50,7 @@ public abstract interface ServiceIdHelperClassTests<SUT extends ServiceIdHelper>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ServiceIdHelper]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

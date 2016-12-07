@@ -57,6 +57,7 @@ public abstract interface BasicTextUIClassTests<SUT extends BasicTextUI>
 extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
     extends UIResourceClassTests<SUT>, DefaultHighlighterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends ViewFactoryClassTests<SUT>, TextUIClassTests<SUT> {
     extends UIResourceClassTests<SUT>, DefaultCaretClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

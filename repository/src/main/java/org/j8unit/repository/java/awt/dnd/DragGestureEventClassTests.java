@@ -50,6 +50,7 @@ public abstract interface DragGestureEventClassTests<SUT extends DragGestureEven
 extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.DragGestureEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

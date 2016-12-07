@@ -60,6 +60,7 @@ public abstract interface MetalIconFactoryClassTests<SUT extends MetalIconFactor
 extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -124,6 +125,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends IconClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -190,6 +192,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FileIcon16ClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -256,6 +259,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends IconClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -322,6 +326,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -388,6 +393,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends IconClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -454,6 +460,7 @@ extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
     extends IconClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

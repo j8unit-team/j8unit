@@ -49,6 +49,7 @@ public abstract interface INVALID_TRANSACTIONClassTests<SUT extends INVALID_TRAN
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

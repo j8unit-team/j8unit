@@ -54,6 +54,7 @@ public abstract interface ReentrantReadWriteLockClassTests<SUT extends Reentrant
 extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTe
     extends LockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -184,6 +186,7 @@ extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTe
     extends LockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

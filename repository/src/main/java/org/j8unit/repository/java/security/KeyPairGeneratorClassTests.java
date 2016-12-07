@@ -49,6 +49,7 @@ public abstract interface KeyPairGeneratorClassTests<SUT extends KeyPairGenerato
 extends KeyPairGeneratorSpiClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyPairGenerator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

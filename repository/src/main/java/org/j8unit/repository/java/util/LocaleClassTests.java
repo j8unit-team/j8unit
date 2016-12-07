@@ -57,6 +57,7 @@ public abstract interface LocaleClassTests<SUT extends Locale>
 extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$LanguageRange]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$Category]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -253,6 +256,7 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$FilteringMode]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -319,6 +323,7 @@ extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$Builder]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

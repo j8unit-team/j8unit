@@ -51,6 +51,7 @@ public abstract interface CompressionClassTests<SUT extends Compression>
 extends DocAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.Compression]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

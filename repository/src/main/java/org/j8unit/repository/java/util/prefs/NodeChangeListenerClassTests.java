@@ -50,6 +50,7 @@ public abstract interface NodeChangeListenerClassTests<SUT extends NodeChangeLis
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.prefs.NodeChangeListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

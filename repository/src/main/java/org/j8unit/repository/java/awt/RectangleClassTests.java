@@ -51,6 +51,7 @@ public abstract interface RectangleClassTests<SUT extends Rectangle>
 extends SerializableClassTests<SUT>, Rectangle2DClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Rectangle]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

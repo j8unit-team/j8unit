@@ -50,6 +50,7 @@ public abstract interface AnnotationMirrorClassTests<SUT extends AnnotationMirro
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.AnnotationMirror]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

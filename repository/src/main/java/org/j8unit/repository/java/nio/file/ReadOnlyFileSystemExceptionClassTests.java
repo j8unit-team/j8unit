@@ -50,6 +50,7 @@ public abstract interface ReadOnlyFileSystemExceptionClassTests<SUT extends Read
 extends UnsupportedOperationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.ReadOnlyFileSystemException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

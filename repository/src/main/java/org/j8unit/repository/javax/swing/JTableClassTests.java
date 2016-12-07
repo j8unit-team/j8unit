@@ -60,6 +60,7 @@ extends TableModelListenerClassTests<SUT>, ScrollableClassTests<SUT>, TableColum
 CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -124,6 +125,7 @@ CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerC
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$DropLocation]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -190,6 +192,7 @@ CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerC
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$PrintMode]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

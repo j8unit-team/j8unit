@@ -49,6 +49,7 @@ public abstract interface WritableRasterClassTests<SUT extends WritableRaster>
 extends RasterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.WritableRaster]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

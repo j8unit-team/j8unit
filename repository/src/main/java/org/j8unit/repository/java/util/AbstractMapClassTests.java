@@ -55,6 +55,7 @@ public abstract interface AbstractMapClassTests<SUT extends AbstractMap>
 extends MapClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends MapClassTests<SUT>, ObjectClassTests<SUT> {
     extends EntryClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -185,6 +187,7 @@ extends MapClassTests<SUT>, ObjectClassTests<SUT> {
     extends EntryClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

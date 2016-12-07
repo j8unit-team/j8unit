@@ -57,6 +57,7 @@ public abstract interface JobAttributesClassTests<SUT extends JobAttributes>
 extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$SidesType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DialogType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -253,6 +256,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DestinationType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -320,6 +324,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -386,6 +391,7 @@ extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface _NamingContextImplBaseClassTests<SUT extends _NamingCo
 extends NamingContextClassTests<SUT>, DynamicImplementationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._NamingContextImplBase]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

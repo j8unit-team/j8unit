@@ -52,6 +52,7 @@ public abstract interface PresentationDirectionClassTests<SUT extends Presentati
 extends PrintJobAttributeClassTests<SUT>, PrintRequestAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.PresentationDirection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

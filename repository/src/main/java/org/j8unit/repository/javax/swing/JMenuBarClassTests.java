@@ -50,6 +50,7 @@ public abstract interface JMenuBarClassTests<SUT extends JMenuBar>
 extends AccessibleClassTests<SUT>, MenuElementClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JMenuBar]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

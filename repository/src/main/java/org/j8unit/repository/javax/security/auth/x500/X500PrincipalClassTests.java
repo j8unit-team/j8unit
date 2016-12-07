@@ -52,6 +52,7 @@ public abstract interface X500PrincipalClassTests<SUT extends X500Principal>
 extends PrincipalClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.x500.X500Principal]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

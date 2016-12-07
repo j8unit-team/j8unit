@@ -50,6 +50,7 @@ public abstract interface InputMethodContextClassTests<SUT extends InputMethodCo
 extends InputMethodRequestsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.im.spi.InputMethodContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -53,6 +53,7 @@ public abstract interface XmlJavaTypeAdapterClassTests<SUT extends XmlJavaTypeAd
 extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends AnnotationClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

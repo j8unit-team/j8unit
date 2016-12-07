@@ -50,6 +50,7 @@ public abstract interface OctetStreamDataClassTests<SUT extends OctetStreamData>
 extends DataClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.OctetStreamData]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

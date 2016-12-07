@@ -50,6 +50,7 @@ public abstract interface CipherInputStreamClassTests<SUT extends CipherInputStr
 extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.CipherInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

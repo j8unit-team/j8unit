@@ -49,6 +49,7 @@ public abstract interface ORBClassTests<SUT extends ORB>
 extends org.j8unit.repository.org.omg.CORBA.ORBClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA_2_3.ORB]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

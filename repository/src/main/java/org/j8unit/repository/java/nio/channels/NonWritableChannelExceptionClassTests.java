@@ -50,6 +50,7 @@ public abstract interface NonWritableChannelExceptionClassTests<SUT extends NonW
 extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.NonWritableChannelException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

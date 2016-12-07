@@ -53,6 +53,7 @@ public abstract interface CharacterClassTests<SUT extends Character>
 extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeScript]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -183,6 +185,7 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$Subset]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -249,6 +252,7 @@ extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests
     extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeBlock]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

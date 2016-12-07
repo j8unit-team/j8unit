@@ -50,6 +50,7 @@ public abstract interface BindingsClassTests<SUT extends Bindings>
 extends MapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.script.Bindings]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

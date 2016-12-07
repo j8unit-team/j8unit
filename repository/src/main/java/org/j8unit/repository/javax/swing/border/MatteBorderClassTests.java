@@ -49,6 +49,7 @@ public abstract interface MatteBorderClassTests<SUT extends MatteBorder>
 extends EmptyBorderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.MatteBorder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface MemoryCacheImageOutputStreamClassTests<SUT extends Mem
 extends ImageOutputStreamImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.MemoryCacheImageOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

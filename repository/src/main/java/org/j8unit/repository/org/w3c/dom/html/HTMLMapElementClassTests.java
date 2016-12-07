@@ -49,6 +49,7 @@ public abstract interface HTMLMapElementClassTests<SUT extends HTMLMapElement>
 extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLMapElement]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

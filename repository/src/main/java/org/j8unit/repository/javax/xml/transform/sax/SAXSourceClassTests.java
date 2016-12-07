@@ -51,6 +51,7 @@ public abstract interface SAXSourceClassTests<SUT extends SAXSource>
 extends SourceClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.SAXSource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

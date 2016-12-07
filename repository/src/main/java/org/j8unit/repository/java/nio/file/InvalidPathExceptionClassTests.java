@@ -50,6 +50,7 @@ public abstract interface InvalidPathExceptionClassTests<SUT extends InvalidPath
 extends IllegalArgumentExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.InvalidPathException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

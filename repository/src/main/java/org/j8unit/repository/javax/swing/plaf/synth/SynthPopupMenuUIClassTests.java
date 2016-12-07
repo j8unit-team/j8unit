@@ -51,6 +51,7 @@ public abstract interface SynthPopupMenuUIClassTests<SUT extends SynthPopupMenuU
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicPopupMenuUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthPopupMenuUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

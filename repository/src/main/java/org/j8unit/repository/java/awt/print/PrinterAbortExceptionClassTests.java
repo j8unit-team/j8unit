@@ -49,6 +49,7 @@ public abstract interface PrinterAbortExceptionClassTests<SUT extends PrinterAbo
 extends PrinterExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.print.PrinterAbortException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

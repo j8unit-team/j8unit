@@ -49,6 +49,7 @@ public abstract interface ValueHandlerMultiFormatClassTests<SUT extends ValueHan
 extends ValueHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

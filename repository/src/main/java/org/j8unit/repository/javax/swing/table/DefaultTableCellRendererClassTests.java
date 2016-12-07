@@ -52,6 +52,7 @@ public abstract interface DefaultTableCellRendererClassTests<SUT extends Default
 extends TableCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends TableCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

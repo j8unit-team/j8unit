@@ -49,6 +49,7 @@ public abstract interface DescriptorAccessClassTests<SUT extends DescriptorAcces
 extends DescriptorReadClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.DescriptorAccess]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

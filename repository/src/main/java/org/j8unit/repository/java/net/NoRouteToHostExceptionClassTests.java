@@ -49,6 +49,7 @@ public abstract interface NoRouteToHostExceptionClassTests<SUT extends NoRouteTo
 extends SocketExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.NoRouteToHostException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface SynthLabelUIClassTests<SUT extends SynthLabelUI>
 extends SynthUIClassTests<SUT>, BasicLabelUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthLabelUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

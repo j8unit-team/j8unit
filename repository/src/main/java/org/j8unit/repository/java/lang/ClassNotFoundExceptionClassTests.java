@@ -48,6 +48,7 @@ public abstract interface ClassNotFoundExceptionClassTests<SUT extends ClassNotF
 extends ReflectiveOperationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ClassNotFoundException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

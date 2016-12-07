@@ -52,6 +52,7 @@ public abstract interface RectangularShapeClassTests<SUT extends RectangularShap
 extends ShapeClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.RectangularShape]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

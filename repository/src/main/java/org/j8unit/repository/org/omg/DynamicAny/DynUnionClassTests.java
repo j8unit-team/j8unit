@@ -49,6 +49,7 @@ public abstract interface DynUnionClassTests<SUT extends DynUnion>
 extends DynUnionOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynUnion]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

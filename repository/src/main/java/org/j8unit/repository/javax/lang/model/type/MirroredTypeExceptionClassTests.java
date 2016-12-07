@@ -49,6 +49,7 @@ public abstract interface MirroredTypeExceptionClassTests<SUT extends MirroredTy
 extends MirroredTypesExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

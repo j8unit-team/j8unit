@@ -50,6 +50,7 @@ public abstract interface _DynStructStubClassTests<SUT extends _DynStructStub>
 extends DynStructClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynStructStub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

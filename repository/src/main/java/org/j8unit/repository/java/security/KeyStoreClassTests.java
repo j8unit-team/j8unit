@@ -63,6 +63,7 @@ public abstract interface KeyStoreClassTests<SUT extends KeyStore>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -127,6 +128,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -193,6 +195,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -259,6 +262,7 @@ extends ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$Builder]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -325,6 +329,7 @@ extends ObjectClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$Entry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -388,6 +393,7 @@ extends ObjectClassTests<SUT> {
         extends RepositoryClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$Entry$Attribute]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -455,6 +461,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -521,6 +528,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, DestroyableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PasswordProtection]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -587,6 +595,7 @@ extends ObjectClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -652,6 +661,7 @@ extends ObjectClassTests<SUT> {
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -717,6 +727,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

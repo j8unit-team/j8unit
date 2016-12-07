@@ -50,6 +50,7 @@ public abstract interface IIOServiceProviderClassTests<SUT extends IIOServicePro
 extends RegisterableServiceClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.spi.IIOServiceProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

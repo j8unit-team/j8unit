@@ -50,6 +50,7 @@ public abstract interface ObjectReferenceFactoryClassTests<SUT extends ObjectRef
 extends ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

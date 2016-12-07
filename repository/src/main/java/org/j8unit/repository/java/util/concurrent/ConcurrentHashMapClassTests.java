@@ -56,6 +56,7 @@ public abstract interface ConcurrentHashMapClassTests<SUT extends ConcurrentHash
 extends ConcurrentMapClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -120,6 +121,7 @@ extends ConcurrentMapClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapCl
     extends SetClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

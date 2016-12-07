@@ -51,6 +51,7 @@ public abstract interface PagesPerMinuteClassTests<SUT extends PagesPerMinute>
 extends PrintServiceAttributeClassTests<SUT>, IntegerSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.PagesPerMinute]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface SAAJResultClassTests<SUT extends SAAJResult>
 extends DOMResultClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SAAJResult]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

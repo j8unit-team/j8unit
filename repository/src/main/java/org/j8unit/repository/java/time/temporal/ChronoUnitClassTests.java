@@ -50,6 +50,7 @@ public abstract interface ChronoUnitClassTests<SUT extends ChronoUnit>
 extends TemporalUnitClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.temporal.ChronoUnit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface RealmChoiceCallbackClassTests<SUT extends RealmChoiceC
 extends ChoiceCallbackClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

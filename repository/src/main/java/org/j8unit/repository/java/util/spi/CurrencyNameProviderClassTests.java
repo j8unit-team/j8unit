@@ -49,6 +49,7 @@ public abstract interface CurrencyNameProviderClassTests<SUT extends CurrencyNam
 extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.spi.CurrencyNameProvider]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

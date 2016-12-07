@@ -50,6 +50,7 @@ public abstract interface DebugGraphicsClassTests<SUT extends DebugGraphics>
 extends GraphicsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DebugGraphics]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

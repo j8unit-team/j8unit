@@ -50,6 +50,7 @@ public abstract interface ComponentIdHelperClassTests<SUT extends ComponentIdHel
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ComponentIdHelper]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

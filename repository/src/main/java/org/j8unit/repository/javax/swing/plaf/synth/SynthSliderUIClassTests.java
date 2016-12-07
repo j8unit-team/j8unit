@@ -51,6 +51,7 @@ public abstract interface SynthSliderUIClassTests<SUT extends SynthSliderUI>
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicSliderUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthSliderUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

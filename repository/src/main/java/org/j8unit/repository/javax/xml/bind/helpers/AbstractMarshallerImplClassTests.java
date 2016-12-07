@@ -51,6 +51,7 @@ public abstract interface AbstractMarshallerImplClassTests<SUT extends AbstractM
 extends MarshallerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.AbstractMarshallerImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

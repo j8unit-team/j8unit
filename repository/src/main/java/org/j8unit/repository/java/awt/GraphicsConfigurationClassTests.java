@@ -50,6 +50,7 @@ public abstract interface GraphicsConfigurationClassTests<SUT extends GraphicsCo
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.GraphicsConfiguration]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface TransformerConfigurationExceptionClassTests<SUT extend
 extends TransformerExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.TransformerConfigurationException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

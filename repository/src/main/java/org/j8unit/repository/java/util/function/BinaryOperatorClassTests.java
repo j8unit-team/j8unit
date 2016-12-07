@@ -50,6 +50,7 @@ public abstract interface BinaryOperatorClassTests<SUT extends BinaryOperator>
 extends BiFunctionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.BinaryOperator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

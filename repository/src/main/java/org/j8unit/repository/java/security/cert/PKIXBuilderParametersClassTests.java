@@ -49,6 +49,7 @@ public abstract interface PKIXBuilderParametersClassTests<SUT extends PKIXBuilde
 extends PKIXParametersClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXBuilderParameters]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

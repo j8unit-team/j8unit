@@ -54,6 +54,7 @@ public abstract interface JavaFileManagerClassTests<SUT extends JavaFileManager>
 extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, OptionCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileManager]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, OptionCheckerClassTe
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileManager$Location]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

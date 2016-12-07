@@ -50,6 +50,7 @@ public abstract interface BasicPopupMenuUIClassTests<SUT extends BasicPopupMenuU
 extends PopupMenuUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicPopupMenuUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface HandshakeCompletedEventClassTests<SUT extends Handshak
 extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.HandshakeCompletedEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

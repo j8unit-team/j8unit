@@ -51,6 +51,7 @@ public abstract interface RetrievalMethodClassTests<SUT extends RetrievalMethod>
 extends URIReferenceClassTests<SUT>, XMLStructureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.RetrievalMethod]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

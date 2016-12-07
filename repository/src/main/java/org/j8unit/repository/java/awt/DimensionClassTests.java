@@ -51,6 +51,7 @@ public abstract interface DimensionClassTests<SUT extends Dimension>
 extends SerializableClassTests<SUT>, Dimension2DClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Dimension]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

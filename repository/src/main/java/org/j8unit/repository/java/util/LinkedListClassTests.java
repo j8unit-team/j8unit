@@ -52,6 +52,7 @@ public abstract interface LinkedListClassTests<SUT extends LinkedList>
 extends DequeClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractSequentialListClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.LinkedList]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

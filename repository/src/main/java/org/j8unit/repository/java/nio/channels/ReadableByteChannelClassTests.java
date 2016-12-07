@@ -49,6 +49,7 @@ public abstract interface ReadableByteChannelClassTests<SUT extends ReadableByte
 extends ChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.ReadableByteChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

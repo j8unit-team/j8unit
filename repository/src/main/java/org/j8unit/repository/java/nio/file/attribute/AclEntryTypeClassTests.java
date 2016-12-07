@@ -50,6 +50,7 @@ public abstract interface AclEntryTypeClassTests<SUT extends AclEntryType>
 extends EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.AclEntryType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface UserPrincipalClassTests<SUT extends UserPrincipal>
 extends PrincipalClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.UserPrincipal]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

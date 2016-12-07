@@ -50,6 +50,7 @@ public abstract interface FaultActionClassTests<SUT extends FaultAction>
 extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.FaultAction]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

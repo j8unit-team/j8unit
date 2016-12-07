@@ -50,6 +50,7 @@ public abstract interface _PolicyStubClassTests<SUT extends _PolicyStub>
 extends PolicyClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA._PolicyStub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

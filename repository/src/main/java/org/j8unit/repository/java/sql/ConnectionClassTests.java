@@ -50,6 +50,7 @@ public abstract interface ConnectionClassTests<SUT extends Connection>
 extends WrapperClassTests<SUT>, AutoCloseableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Connection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

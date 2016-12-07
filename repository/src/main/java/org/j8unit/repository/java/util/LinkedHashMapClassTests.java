@@ -50,6 +50,7 @@ public abstract interface LinkedHashMapClassTests<SUT extends LinkedHashMap>
 extends HashMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.LinkedHashMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

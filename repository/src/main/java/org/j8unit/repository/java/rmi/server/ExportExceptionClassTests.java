@@ -50,6 +50,7 @@ public abstract interface ExportExceptionClassTests<SUT extends ExportException>
 extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.ExportException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

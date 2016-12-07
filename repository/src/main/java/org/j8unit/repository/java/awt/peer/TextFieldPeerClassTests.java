@@ -49,6 +49,7 @@ public abstract interface TextFieldPeerClassTests<SUT extends TextFieldPeer>
 extends TextComponentPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.TextFieldPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

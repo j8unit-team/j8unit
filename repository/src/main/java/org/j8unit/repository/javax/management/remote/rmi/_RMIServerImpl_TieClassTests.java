@@ -51,6 +51,7 @@ public abstract interface _RMIServerImpl_TieClassTests<SUT extends _RMIServerImp
 extends TieClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi._RMIServerImpl_Tie]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

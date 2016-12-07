@@ -50,6 +50,7 @@ public abstract interface XMLSignContextClassTests<SUT extends XMLSignContext>
 extends XMLCryptoContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.XMLSignContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

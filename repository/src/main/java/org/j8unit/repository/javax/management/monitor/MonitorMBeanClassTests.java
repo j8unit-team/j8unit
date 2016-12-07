@@ -50,6 +50,7 @@ public abstract interface MonitorMBeanClassTests<SUT extends MonitorMBean>
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.MonitorMBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

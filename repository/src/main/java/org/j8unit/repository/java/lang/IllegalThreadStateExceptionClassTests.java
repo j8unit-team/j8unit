@@ -48,6 +48,7 @@ public abstract interface IllegalThreadStateExceptionClassTests<SUT extends Ille
 extends IllegalArgumentExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IllegalThreadStateException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

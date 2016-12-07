@@ -51,6 +51,7 @@ public abstract interface SynthListUIClassTests<SUT extends SynthListUI>
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicListUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthListUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

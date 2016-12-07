@@ -52,6 +52,7 @@ public abstract interface HashtableClassTests<SUT extends Hashtable>
 extends MapClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, DictionaryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Hashtable]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

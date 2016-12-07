@@ -51,6 +51,7 @@ public abstract interface SOAPPartClassTests<SUT extends SOAPPart>
 extends DocumentClassTests<SUT>, NodeClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SOAPPart]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

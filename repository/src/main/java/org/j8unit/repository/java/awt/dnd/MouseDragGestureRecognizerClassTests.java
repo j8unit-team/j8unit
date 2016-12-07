@@ -51,6 +51,7 @@ public abstract interface MouseDragGestureRecognizerClassTests<SUT extends Mouse
 extends MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, DragGestureRecognizerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.MouseDragGestureRecognizer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

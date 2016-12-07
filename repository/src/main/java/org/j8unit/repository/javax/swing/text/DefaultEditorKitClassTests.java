@@ -58,6 +58,7 @@ public abstract interface DefaultEditorKitClassTests<SUT extends DefaultEditorKi
 extends EditorKitClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -122,6 +123,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertBreakAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -188,6 +190,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$DefaultKeyTypedAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -254,6 +257,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertTabAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -320,6 +324,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$CutAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -386,6 +391,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$InsertContentAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -452,6 +458,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$PasteAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -518,6 +525,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$BeepAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -584,6 +592,7 @@ extends EditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultEditorKit$CopyAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

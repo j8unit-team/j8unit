@@ -55,6 +55,7 @@ public abstract interface CertPathValidatorExceptionClassTests<SUT extends CertP
 extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends GeneralSecurityExceptionClassTests<SUT> {
     extends SerializableClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -185,6 +187,7 @@ extends GeneralSecurityExceptionClassTests<SUT> {
     extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>, EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

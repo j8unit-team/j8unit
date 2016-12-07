@@ -51,6 +51,7 @@ public abstract interface AttributesImplClassTests<SUT extends AttributesImpl>
 extends AttributesClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.AttributesImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

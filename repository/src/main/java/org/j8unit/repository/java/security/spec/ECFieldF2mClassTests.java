@@ -50,6 +50,7 @@ public abstract interface ECFieldF2mClassTests<SUT extends ECFieldF2m>
 extends ECFieldClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECFieldF2m]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

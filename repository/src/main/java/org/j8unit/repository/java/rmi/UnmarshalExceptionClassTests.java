@@ -49,6 +49,7 @@ public abstract interface UnmarshalExceptionClassTests<SUT extends UnmarshalExce
 extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.UnmarshalException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

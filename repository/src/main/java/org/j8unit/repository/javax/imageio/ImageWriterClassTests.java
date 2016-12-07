@@ -50,6 +50,7 @@ public abstract interface ImageWriterClassTests<SUT extends ImageWriter>
 extends ImageTranscoderClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.ImageWriter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

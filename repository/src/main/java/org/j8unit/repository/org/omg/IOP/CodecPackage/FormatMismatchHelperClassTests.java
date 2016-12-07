@@ -50,6 +50,7 @@ public abstract interface FormatMismatchHelperClassTests<SUT extends FormatMisma
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatchHelper]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

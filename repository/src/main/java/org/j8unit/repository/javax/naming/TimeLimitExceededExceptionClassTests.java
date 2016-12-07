@@ -49,6 +49,7 @@ public abstract interface TimeLimitExceededExceptionClassTests<SUT extends TimeL
 extends LimitExceededExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.TimeLimitExceededException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

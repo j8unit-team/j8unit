@@ -49,6 +49,7 @@ public abstract interface ThreadMXBeanClassTests<SUT extends ThreadMXBean>
 extends PlatformManagedObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.ThreadMXBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

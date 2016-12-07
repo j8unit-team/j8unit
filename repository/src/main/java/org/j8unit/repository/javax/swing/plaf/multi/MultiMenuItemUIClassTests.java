@@ -50,6 +50,7 @@ public abstract interface MultiMenuItemUIClassTests<SUT extends MultiMenuItemUI>
 extends MenuItemUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiMenuItemUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

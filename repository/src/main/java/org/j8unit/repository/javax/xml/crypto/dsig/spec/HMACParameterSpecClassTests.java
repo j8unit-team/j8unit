@@ -50,6 +50,7 @@ public abstract interface HMACParameterSpecClassTests<SUT extends HMACParameterS
 extends SignatureMethodParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.HMACParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface CancelledKeyExceptionClassTests<SUT extends CancelledK
 extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.CancelledKeyException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -56,6 +56,7 @@ extends MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, FocusL
 PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

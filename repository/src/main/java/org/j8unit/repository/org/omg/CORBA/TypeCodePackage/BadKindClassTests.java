@@ -50,6 +50,7 @@ public abstract interface BadKindClassTests<SUT extends BadKind>
 extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TypeCodePackage.BadKind]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

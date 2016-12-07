@@ -50,6 +50,7 @@ public abstract interface IIOMetadataFormatImplClassTests<SUT extends IIOMetadat
 extends IIOMetadataFormatClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

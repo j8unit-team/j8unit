@@ -51,6 +51,7 @@ public abstract interface DSAParameterSpecClassTests<SUT extends DSAParameterSpe
 extends AlgorithmParameterSpecClassTests<SUT>, DSAParamsClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.DSAParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

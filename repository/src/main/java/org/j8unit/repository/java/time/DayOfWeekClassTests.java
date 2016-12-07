@@ -52,6 +52,7 @@ public abstract interface DayOfWeekClassTests<SUT extends DayOfWeek>
 extends TemporalAccessorClassTests<SUT>, TemporalAdjusterClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.DayOfWeek]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

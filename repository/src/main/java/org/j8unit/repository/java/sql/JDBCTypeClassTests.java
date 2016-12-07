@@ -50,6 +50,7 @@ public abstract interface JDBCTypeClassTests<SUT extends JDBCType>
 extends SQLTypeClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.JDBCType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface StateEditClassTests<SUT extends StateEdit>
 extends AbstractUndoableEditClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.undo.StateEdit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

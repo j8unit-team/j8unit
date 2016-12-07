@@ -49,6 +49,7 @@ public abstract interface EmptyBorderClassTests<SUT extends EmptyBorder>
 extends AbstractBorderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.EmptyBorder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

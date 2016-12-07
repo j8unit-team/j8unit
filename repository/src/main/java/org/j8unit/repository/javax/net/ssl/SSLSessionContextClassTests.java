@@ -50,6 +50,7 @@ public abstract interface SSLSessionContextClassTests<SUT extends SSLSessionCont
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLSessionContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

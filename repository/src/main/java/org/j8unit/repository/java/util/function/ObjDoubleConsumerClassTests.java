@@ -51,6 +51,7 @@ public abstract interface ObjDoubleConsumerClassTests<SUT extends ObjDoubleConsu
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.ObjDoubleConsumer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

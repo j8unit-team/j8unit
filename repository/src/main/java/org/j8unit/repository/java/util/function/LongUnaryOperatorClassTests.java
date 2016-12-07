@@ -50,6 +50,7 @@ public abstract interface LongUnaryOperatorClassTests<SUT extends LongUnaryOpera
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.LongUnaryOperator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

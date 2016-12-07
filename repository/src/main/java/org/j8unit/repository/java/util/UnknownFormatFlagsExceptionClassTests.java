@@ -49,6 +49,7 @@ public abstract interface UnknownFormatFlagsExceptionClassTests<SUT extends Unkn
 extends IllegalFormatExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.UnknownFormatFlagsException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

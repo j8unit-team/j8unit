@@ -51,6 +51,7 @@ public abstract interface SynthDesktopIconUIClassTests<SUT extends SynthDesktopI
 extends SynthUIClassTests<SUT>, PropertyChangeListenerClassTests<SUT>, BasicDesktopIconUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthDesktopIconUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

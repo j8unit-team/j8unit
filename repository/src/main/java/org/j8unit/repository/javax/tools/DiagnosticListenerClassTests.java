@@ -51,6 +51,7 @@ public abstract interface DiagnosticListenerClassTests<SUT extends DiagnosticLis
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DiagnosticListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

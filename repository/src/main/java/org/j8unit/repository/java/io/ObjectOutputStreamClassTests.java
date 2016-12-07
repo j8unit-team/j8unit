@@ -52,6 +52,7 @@ public abstract interface ObjectOutputStreamClassTests<SUT extends ObjectOutputS
 extends ObjectOutputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends ObjectOutputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, Outpu
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream$PutField]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

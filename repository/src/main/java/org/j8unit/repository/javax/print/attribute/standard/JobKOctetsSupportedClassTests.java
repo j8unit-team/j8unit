@@ -51,6 +51,7 @@ public abstract interface JobKOctetsSupportedClassTests<SUT extends JobKOctetsSu
 extends SupportedValuesAttributeClassTests<SUT>, SetOfIntegerSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobKOctetsSupported]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

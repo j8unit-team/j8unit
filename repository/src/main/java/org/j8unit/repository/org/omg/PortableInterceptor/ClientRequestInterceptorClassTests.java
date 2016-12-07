@@ -49,6 +49,7 @@ public abstract interface ClientRequestInterceptorClassTests<SUT extends ClientR
 extends ClientRequestInterceptorOperationsClassTests<SUT>, InterceptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInterceptor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

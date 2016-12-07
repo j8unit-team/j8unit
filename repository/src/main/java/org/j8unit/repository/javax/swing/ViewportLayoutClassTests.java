@@ -52,6 +52,7 @@ public abstract interface ViewportLayoutClassTests<SUT extends ViewportLayout>
 extends LayoutManagerClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ViewportLayout]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

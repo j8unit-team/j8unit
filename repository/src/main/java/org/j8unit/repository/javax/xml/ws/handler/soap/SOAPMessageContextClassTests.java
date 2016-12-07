@@ -50,6 +50,7 @@ public abstract interface SOAPMessageContextClassTests<SUT extends SOAPMessageCo
 extends MessageContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.soap.SOAPMessageContext]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

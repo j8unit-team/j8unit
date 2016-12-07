@@ -53,6 +53,7 @@ public abstract interface GlyphViewClassTests<SUT extends GlyphView>
 extends TabableViewClassTests<SUT>, CloneableClassTests<SUT>, ViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends TabableViewClassTests<SUT>, CloneableClassTests<SUT>, ViewClassTests<SUT
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView$GlyphPainter]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

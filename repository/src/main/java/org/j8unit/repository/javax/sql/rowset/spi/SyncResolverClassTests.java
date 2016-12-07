@@ -50,6 +50,7 @@ public abstract interface SyncResolverClassTests<SUT extends SyncResolver>
 extends RowSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.spi.SyncResolver]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface DefaultListSelectionModelClassTests<SUT extends Defaul
 extends ListSelectionModelClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultListSelectionModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

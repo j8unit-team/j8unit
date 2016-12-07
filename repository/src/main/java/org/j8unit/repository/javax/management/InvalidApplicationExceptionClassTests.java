@@ -50,6 +50,7 @@ public abstract interface InvalidApplicationExceptionClassTests<SUT extends Inva
 extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.InvalidApplicationException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface SinglePixelPackedSampleModelClassTests<SUT extends Sin
 extends SampleModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.SinglePixelPackedSampleModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

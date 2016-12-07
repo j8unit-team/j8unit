@@ -49,6 +49,7 @@ public abstract interface NO_PERMISSIONClassTests<SUT extends NO_PERMISSION>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_PERMISSION]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface BindingIteratorOperationsClassTests<SUT extends Bindin
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.BindingIteratorOperations]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

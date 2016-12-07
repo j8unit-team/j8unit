@@ -50,6 +50,7 @@ public abstract interface CertPathParametersClassTests<SUT extends CertPathParam
 extends CloneableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathParameters]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

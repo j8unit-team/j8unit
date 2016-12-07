@@ -54,6 +54,7 @@ public abstract interface JTreeClassTests<SUT extends JTree>
 extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTree]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
     extends DefaultMutableTreeNodeClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTree$DynamicUtilTreeNode]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -183,6 +185,7 @@ extends ScrollableClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTes
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTree$DropLocation]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

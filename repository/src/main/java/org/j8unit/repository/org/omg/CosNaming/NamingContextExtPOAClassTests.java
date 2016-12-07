@@ -51,6 +51,7 @@ public abstract interface NamingContextExtPOAClassTests<SUT extends NamingContex
 extends NamingContextExtOperationsClassTests<SUT>, InvokeHandlerClassTests<SUT>, ServantClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPOA]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

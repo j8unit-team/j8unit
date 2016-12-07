@@ -50,6 +50,7 @@ public abstract interface CardNotPresentExceptionClassTests<SUT extends CardNotP
 extends CardExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardNotPresentException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -51,6 +51,7 @@ public abstract interface DefaultMenuLayoutClassTests<SUT extends DefaultMenuLay
 extends UIResourceClassTests<SUT>, BoxLayoutClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.DefaultMenuLayout]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface NodeClassTests<SUT extends Node>
 extends org.j8unit.repository.org.w3c.dom.NodeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.Node]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

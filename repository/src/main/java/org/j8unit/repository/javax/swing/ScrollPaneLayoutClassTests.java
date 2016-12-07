@@ -54,6 +54,7 @@ public abstract interface ScrollPaneLayoutClassTests<SUT extends ScrollPaneLayou
 extends LayoutManagerClassTests<SUT>, ScrollPaneConstantsClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ScrollPaneLayout]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends LayoutManagerClassTests<SUT>, ScrollPaneConstantsClassTests<SUT>, Serial
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ScrollPaneLayout$UIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

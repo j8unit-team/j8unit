@@ -51,6 +51,7 @@ public abstract interface MouseInputListenerClassTests<SUT extends MouseInputLis
 extends MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.MouseInputListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

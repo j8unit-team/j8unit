@@ -55,6 +55,7 @@ public abstract interface SpliteratorsClassTests<SUT extends Spliterators>
 extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -119,6 +120,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -186,6 +188,7 @@ extends ObjectClassTests<SUT> {
     extends SpliteratorClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -252,6 +255,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -318,6 +322,7 @@ extends ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

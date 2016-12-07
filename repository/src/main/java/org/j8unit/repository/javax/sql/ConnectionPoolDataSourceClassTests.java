@@ -49,6 +49,7 @@ public abstract interface ConnectionPoolDataSourceClassTests<SUT extends Connect
 extends CommonDataSourceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

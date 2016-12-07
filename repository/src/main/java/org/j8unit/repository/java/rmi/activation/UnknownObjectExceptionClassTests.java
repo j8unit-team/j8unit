@@ -49,6 +49,7 @@ public abstract interface UnknownObjectExceptionClassTests<SUT extends UnknownOb
 extends ActivationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.UnknownObjectException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

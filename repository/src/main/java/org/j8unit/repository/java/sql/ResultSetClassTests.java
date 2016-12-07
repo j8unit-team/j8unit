@@ -50,6 +50,7 @@ public abstract interface ResultSetClassTests<SUT extends ResultSet>
 extends WrapperClassTests<SUT>, AutoCloseableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.ResultSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

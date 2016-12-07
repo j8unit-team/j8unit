@@ -49,6 +49,7 @@ public abstract interface ShapeGraphicAttributeClassTests<SUT extends ShapeGraph
 extends GraphicAttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.ShapeGraphicAttribute]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

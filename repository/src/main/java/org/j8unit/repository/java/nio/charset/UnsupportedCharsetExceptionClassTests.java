@@ -50,6 +50,7 @@ public abstract interface UnsupportedCharsetExceptionClassTests<SUT extends Unsu
 extends IllegalArgumentExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.charset.UnsupportedCharsetException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

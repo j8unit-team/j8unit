@@ -51,6 +51,7 @@ public abstract interface DOMResultClassTests<SUT extends DOMResult>
 extends ResultClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.dom.DOMResult]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

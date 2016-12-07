@@ -51,6 +51,7 @@ public abstract interface CompositeDataSupportClassTests<SUT extends CompositeDa
 extends CompositeDataClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.CompositeDataSupport]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

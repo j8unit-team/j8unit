@@ -54,6 +54,7 @@ public abstract interface PrimitiveIteratorClassTests<SUT extends PrimitiveItera
 extends IteratorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends IteratorClassTests<SUT> {
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -184,6 +186,7 @@ extends IteratorClassTests<SUT> {
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -250,6 +253,7 @@ extends IteratorClassTests<SUT> {
     extends org.j8unit.repository.java.util.PrimitiveIteratorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

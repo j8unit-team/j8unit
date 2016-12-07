@@ -49,6 +49,7 @@ public abstract interface ScheduledExecutorServiceClassTests<SUT extends Schedul
 extends ExecutorServiceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ScheduledExecutorService]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

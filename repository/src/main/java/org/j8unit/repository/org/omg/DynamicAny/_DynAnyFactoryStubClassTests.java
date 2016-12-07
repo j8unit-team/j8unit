@@ -50,6 +50,7 @@ public abstract interface _DynAnyFactoryStubClassTests<SUT extends _DynAnyFactor
 extends DynAnyFactoryClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynAnyFactoryStub]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

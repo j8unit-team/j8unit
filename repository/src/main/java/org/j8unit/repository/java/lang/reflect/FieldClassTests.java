@@ -49,6 +49,7 @@ public abstract interface FieldClassTests<SUT extends Field>
 extends MemberClassTests<SUT>, AccessibleObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.Field]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

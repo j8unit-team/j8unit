@@ -49,6 +49,7 @@ public abstract interface ObjectImplClassTests<SUT extends ObjectImpl>
 extends org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA_2_3.portable.ObjectImpl]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

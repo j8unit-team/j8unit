@@ -49,6 +49,7 @@ public abstract interface MenuPeerClassTests<SUT extends MenuPeer>
 extends MenuItemPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.MenuPeer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

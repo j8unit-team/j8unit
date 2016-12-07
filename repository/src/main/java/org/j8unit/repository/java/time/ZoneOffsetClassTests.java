@@ -52,6 +52,7 @@ public abstract interface ZoneOffsetClassTests<SUT extends ZoneOffset>
 extends TemporalAccessorClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, ZoneIdClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.ZoneOffset]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

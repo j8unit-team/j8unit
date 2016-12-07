@@ -49,6 +49,7 @@ public abstract interface BufferedReaderClassTests<SUT extends BufferedReader>
 extends ReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.BufferedReader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface C14NMethodParameterSpecClassTests<SUT extends C14NMeth
 extends TransformParameterSpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.C14NMethodParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

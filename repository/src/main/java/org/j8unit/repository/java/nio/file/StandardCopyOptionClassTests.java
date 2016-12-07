@@ -50,6 +50,7 @@ public abstract interface StandardCopyOptionClassTests<SUT extends StandardCopyO
 extends CopyOptionClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.StandardCopyOption]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

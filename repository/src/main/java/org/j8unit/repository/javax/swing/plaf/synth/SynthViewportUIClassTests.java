@@ -51,6 +51,7 @@ public abstract interface SynthViewportUIClassTests<SUT extends SynthViewportUI>
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, ViewportUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthViewportUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

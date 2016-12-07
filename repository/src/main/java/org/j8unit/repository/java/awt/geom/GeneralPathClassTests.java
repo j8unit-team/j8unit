@@ -50,6 +50,7 @@ public abstract interface GeneralPathClassTests<SUT extends GeneralPath>
 extends FloatClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.GeneralPath]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

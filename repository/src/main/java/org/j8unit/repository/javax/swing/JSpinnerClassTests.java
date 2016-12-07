@@ -58,6 +58,7 @@ public abstract interface JSpinnerClassTests<SUT extends JSpinner>
 extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -122,6 +123,7 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DateEditor]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -188,6 +190,7 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$NumberEditor]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -254,6 +257,7 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
     extends ChangeListenerClassTests<SUT>, PropertyChangeListenerClassTests<SUT>, LayoutManagerClassTests<SUT>, JPanelClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -320,6 +324,7 @@ extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$ListEditor]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

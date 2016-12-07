@@ -50,6 +50,7 @@ public abstract interface GenericSignatureFormatErrorClassTests<SUT extends Gene
 extends ClassFormatErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericSignatureFormatError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

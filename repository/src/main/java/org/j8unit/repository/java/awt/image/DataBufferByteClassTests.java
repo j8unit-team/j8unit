@@ -49,6 +49,7 @@ public abstract interface DataBufferByteClassTests<SUT extends DataBufferByte>
 extends DataBufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.DataBufferByte]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

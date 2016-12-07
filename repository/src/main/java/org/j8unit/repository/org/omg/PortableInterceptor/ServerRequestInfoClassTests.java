@@ -49,6 +49,7 @@ public abstract interface ServerRequestInfoClassTests<SUT extends ServerRequestI
 extends ServerRequestInfoOperationsClassTests<SUT>, RequestInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

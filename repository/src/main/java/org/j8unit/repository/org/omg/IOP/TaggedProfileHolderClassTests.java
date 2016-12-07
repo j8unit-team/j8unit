@@ -51,6 +51,7 @@ public abstract interface TaggedProfileHolderClassTests<SUT extends TaggedProfil
 extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TaggedProfileHolder]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

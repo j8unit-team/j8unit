@@ -52,6 +52,7 @@ public abstract interface JInternalFrameClassTests<SUT extends JInternalFrame>
 extends AccessibleClassTests<SUT>, WindowConstantsClassTests<SUT>, RootPaneContainerClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JInternalFrame]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends AccessibleClassTests<SUT>, WindowConstantsClassTests<SUT>, RootPaneConta
     extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

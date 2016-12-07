@@ -65,6 +65,7 @@ public abstract interface AbstractDocumentClassTests<SUT extends AbstractDocumen
 extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -129,6 +130,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends ElementClassTests<SUT>, MutableAttributeSetClassTests<SUT>, SerializableClassTests<SUT>, TreeNodeClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$AbstractElement]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -195,6 +197,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$Content]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -260,6 +263,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends ElementChangeClassTests<SUT>, AbstractUndoableEditClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$ElementEdit]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -326,6 +330,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$BranchElement]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -392,6 +397,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends RepositoryClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$AttributeContext]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -457,6 +463,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$LeafElement]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -523,6 +530,7 @@ extends DocumentClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<S
     extends DocumentEventClassTests<SUT>, CompoundEditClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

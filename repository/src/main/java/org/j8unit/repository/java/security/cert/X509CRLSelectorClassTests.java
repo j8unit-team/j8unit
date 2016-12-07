@@ -50,6 +50,7 @@ public abstract interface X509CRLSelectorClassTests<SUT extends X509CRLSelector>
 extends CRLSelectorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.X509CRLSelector]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

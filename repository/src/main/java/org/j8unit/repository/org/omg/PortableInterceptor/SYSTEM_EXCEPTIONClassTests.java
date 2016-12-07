@@ -50,6 +50,7 @@ public abstract interface SYSTEM_EXCEPTIONClassTests<SUT extends SYSTEM_EXCEPTIO
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.SYSTEM_EXCEPTION]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface SocketHandlerClassTests<SUT extends SocketHandler>
 extends StreamHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.SocketHandler]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

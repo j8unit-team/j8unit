@@ -50,6 +50,7 @@ public abstract interface AWTPermissionClassTests<SUT extends AWTPermission>
 extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.AWTPermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface AccessibleHyperlinkClassTests<SUT extends AccessibleHy
 extends AccessibleActionClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleHyperlink]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

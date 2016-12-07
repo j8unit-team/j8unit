@@ -53,6 +53,7 @@ public abstract interface RoundRectangle2DClassTests<SUT extends RoundRectangle2
 extends RectangularShapeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.RoundRectangle2D]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -117,6 +118,7 @@ extends RectangularShapeClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.RoundRectangle2D$Float]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -183,6 +185,7 @@ extends RectangularShapeClassTests<SUT> {
     extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.RoundRectangle2D$Double]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

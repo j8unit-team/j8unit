@@ -50,6 +50,7 @@ public abstract interface StringBufferInputStreamClassTests<SUT extends StringBu
 extends InputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.StringBufferInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

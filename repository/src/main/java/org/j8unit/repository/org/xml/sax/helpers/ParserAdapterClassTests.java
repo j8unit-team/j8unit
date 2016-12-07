@@ -52,6 +52,7 @@ public abstract interface ParserAdapterClassTests<SUT extends ParserAdapter>
 extends XMLReaderClassTests<SUT>, DocumentHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -50,6 +50,7 @@ public abstract interface StringSelectionClassTests<SUT extends StringSelection>
 extends TransferableClassTests<SUT>, ClipboardOwnerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.StringSelection]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

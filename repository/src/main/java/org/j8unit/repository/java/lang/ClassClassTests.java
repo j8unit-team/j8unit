@@ -52,6 +52,7 @@ public abstract interface ClassClassTests<SUT extends Class>
 extends SerializableClassTests<SUT>, GenericDeclarationClassTests<SUT>, TypeClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Class]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

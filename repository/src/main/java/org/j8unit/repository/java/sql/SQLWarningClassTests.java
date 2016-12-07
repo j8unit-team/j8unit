@@ -49,6 +49,7 @@ public abstract interface SQLWarningClassTests<SUT extends SQLWarning>
 extends SQLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLWarning]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

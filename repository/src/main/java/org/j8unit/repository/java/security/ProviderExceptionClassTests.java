@@ -50,6 +50,7 @@ public abstract interface ProviderExceptionClassTests<SUT extends ProviderExcept
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.ProviderException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface InvalidObjectExceptionClassTests<SUT extends InvalidOb
 extends ObjectStreamExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.InvalidObjectException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

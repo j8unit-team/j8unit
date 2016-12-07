@@ -49,6 +49,7 @@ public abstract interface OutputStreamClassTests<SUT extends OutputStream>
 extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.OutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

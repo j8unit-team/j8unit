@@ -51,6 +51,7 @@ public abstract interface SynthToolBarUIClassTests<SUT extends SynthToolBarUI>
 extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicToolBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthToolBarUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

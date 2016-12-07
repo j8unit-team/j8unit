@@ -49,6 +49,7 @@ public abstract interface X509EncodedKeySpecClassTests<SUT extends X509EncodedKe
 extends EncodedKeySpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.X509EncodedKeySpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

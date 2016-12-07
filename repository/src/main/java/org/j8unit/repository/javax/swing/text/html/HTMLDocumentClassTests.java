@@ -66,6 +66,7 @@ public abstract interface HTMLDocumentClassTests<SUT extends HTMLDocument>
 extends DefaultStyledDocumentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -130,6 +131,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
     extends LeafElementClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$RunElement]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -196,6 +198,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
     extends ParserCallbackClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -260,6 +263,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -326,6 +330,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -392,6 +397,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends ObjectClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -458,6 +464,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -524,6 +531,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -590,6 +598,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -656,6 +665,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -722,6 +732,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -788,6 +799,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
             /**
              * @see Class#isAssignableFrom(Class) public native boolean
              *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
@@ -856,6 +868,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
     extends BranchElementClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$BlockElement]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -922,6 +935,7 @@ extends DefaultStyledDocumentClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLDocument$Iterator]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

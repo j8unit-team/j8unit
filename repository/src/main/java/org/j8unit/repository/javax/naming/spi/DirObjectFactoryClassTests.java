@@ -49,6 +49,7 @@ public abstract interface DirObjectFactoryClassTests<SUT extends DirObjectFactor
 extends ObjectFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirObjectFactory]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

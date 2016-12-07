@@ -49,6 +49,7 @@ public abstract interface GenericDeclarationClassTests<SUT extends GenericDeclar
 extends AnnotatedElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericDeclaration]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

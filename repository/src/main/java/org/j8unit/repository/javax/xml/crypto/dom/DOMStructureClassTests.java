@@ -51,6 +51,7 @@ public abstract interface DOMStructureClassTests<SUT extends DOMStructure>
 extends XMLStructureClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dom.DOMStructure]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

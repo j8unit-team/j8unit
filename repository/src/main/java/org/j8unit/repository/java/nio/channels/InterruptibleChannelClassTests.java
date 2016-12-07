@@ -49,6 +49,7 @@ public abstract interface InterruptibleChannelClassTests<SUT extends Interruptib
 extends ChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.InterruptibleChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

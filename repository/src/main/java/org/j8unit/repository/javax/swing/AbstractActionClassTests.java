@@ -52,6 +52,7 @@ public abstract interface AbstractActionClassTests<SUT extends AbstractAction>
 extends ActionClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.AbstractAction]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

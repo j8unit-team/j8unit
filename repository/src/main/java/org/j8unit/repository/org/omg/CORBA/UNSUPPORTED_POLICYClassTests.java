@@ -50,6 +50,7 @@ public abstract interface UNSUPPORTED_POLICYClassTests<SUT extends UNSUPPORTED_P
 extends RepositoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UNSUPPORTED_POLICY]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

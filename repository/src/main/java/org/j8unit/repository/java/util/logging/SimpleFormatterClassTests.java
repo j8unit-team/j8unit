@@ -49,6 +49,7 @@ public abstract interface SimpleFormatterClassTests<SUT extends SimpleFormatter>
 extends FormatterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.SimpleFormatter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

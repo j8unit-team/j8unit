@@ -50,6 +50,7 @@ public abstract interface LongBufferClassTests<SUT extends LongBuffer>
 extends ComparableClassTests<SUT>, BufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.LongBuffer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

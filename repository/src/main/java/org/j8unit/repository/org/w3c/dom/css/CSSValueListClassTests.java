@@ -49,6 +49,7 @@ public abstract interface CSSValueListClassTests<SUT extends CSSValueList>
 extends CSSValueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSValueList]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

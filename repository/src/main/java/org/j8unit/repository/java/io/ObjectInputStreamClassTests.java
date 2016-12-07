@@ -52,6 +52,7 @@ public abstract interface ObjectInputStreamClassTests<SUT extends ObjectInputStr
 extends ObjectInputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, InputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -116,6 +117,7 @@ extends ObjectInputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, InputS
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream$GetField]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

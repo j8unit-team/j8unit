@@ -51,6 +51,7 @@ public abstract interface DefaultBoundedRangeModelClassTests<SUT extends Default
 extends BoundedRangeModelClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultBoundedRangeModel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

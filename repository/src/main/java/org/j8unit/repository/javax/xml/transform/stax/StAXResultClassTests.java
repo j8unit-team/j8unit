@@ -51,6 +51,7 @@ public abstract interface StAXResultClassTests<SUT extends StAXResult>
 extends ResultClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.stax.StAXResult]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

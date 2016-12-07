@@ -50,6 +50,7 @@ public abstract interface MBeanPermissionClassTests<SUT extends MBeanPermission>
 extends PermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanPermission]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -67,6 +67,7 @@ public abstract interface BorderUIResourceClassTests<SUT extends BorderUIResourc
 extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -131,6 +132,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, TitledBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -197,6 +199,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, EmptyBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$EmptyBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -263,6 +266,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, BevelBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -329,6 +333,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, CompoundBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -395,6 +400,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, MatteBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -461,6 +467,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, EtchedBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -527,6 +534,7 @@ extends BorderClassTests<SUT>, UIResourceClassTests<SUT>, SerializableClassTests
     extends UIResourceClassTests<SUT>, LineBorderClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

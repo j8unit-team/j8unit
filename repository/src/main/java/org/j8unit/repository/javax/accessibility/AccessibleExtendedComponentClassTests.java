@@ -49,6 +49,7 @@ public abstract interface AccessibleExtendedComponentClassTests<SUT extends Acce
 extends AccessibleComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleExtendedComponent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

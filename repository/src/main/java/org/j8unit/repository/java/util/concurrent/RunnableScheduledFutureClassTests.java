@@ -50,6 +50,7 @@ public abstract interface RunnableScheduledFutureClassTests<SUT extends Runnable
 extends RunnableFutureClassTests<SUT>, ScheduledFutureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.RunnableScheduledFuture]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

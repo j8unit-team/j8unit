@@ -50,6 +50,7 @@ public abstract interface AbstractSetClassTests<SUT extends AbstractSet>
 extends SetClassTests<SUT>, AbstractCollectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractSet]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

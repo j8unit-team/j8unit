@@ -50,6 +50,7 @@ public abstract interface SaslExceptionClassTests<SUT extends SaslException>
 extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.SaslException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

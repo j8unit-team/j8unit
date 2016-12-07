@@ -49,6 +49,7 @@ public abstract interface XMLFilterClassTests<SUT extends XMLFilter>
 extends XMLReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.XMLFilter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

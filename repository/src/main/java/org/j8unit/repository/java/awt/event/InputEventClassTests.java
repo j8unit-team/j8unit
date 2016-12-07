@@ -49,6 +49,7 @@ public abstract interface InputEventClassTests<SUT extends InputEvent>
 extends ComponentEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.InputEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

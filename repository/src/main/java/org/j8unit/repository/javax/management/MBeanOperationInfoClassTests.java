@@ -50,6 +50,7 @@ public abstract interface MBeanOperationInfoClassTests<SUT extends MBeanOperatio
 extends CloneableClassTests<SUT>, MBeanFeatureInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanOperationInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

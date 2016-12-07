@@ -50,6 +50,7 @@ public abstract interface _BindingIteratorImplBaseClassTests<SUT extends _Bindin
 extends BindingIteratorClassTests<SUT>, DynamicImplementationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._BindingIteratorImplBase]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

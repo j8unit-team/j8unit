@@ -51,6 +51,7 @@ public abstract interface ORBInitInfoClassTests<SUT extends ORBInitInfo>
 extends ORBInitInfoOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfo]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

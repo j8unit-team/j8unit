@@ -50,6 +50,7 @@ public abstract interface ChronoFieldClassTests<SUT extends ChronoField>
 extends TemporalFieldClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.temporal.ChronoField]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

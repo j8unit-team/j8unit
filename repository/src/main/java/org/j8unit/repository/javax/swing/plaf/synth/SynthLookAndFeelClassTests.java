@@ -50,6 +50,7 @@ public abstract interface SynthLookAndFeelClassTests<SUT extends SynthLookAndFee
 extends BasicLookAndFeelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthLookAndFeel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

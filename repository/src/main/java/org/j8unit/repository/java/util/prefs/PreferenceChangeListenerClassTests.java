@@ -50,6 +50,7 @@ public abstract interface PreferenceChangeListenerClassTests<SUT extends Prefere
 extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.prefs.PreferenceChangeListener]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface ScheduledThreadPoolExecutorClassTests<SUT extends Sche
 extends ScheduledExecutorServiceClassTests<SUT>, ThreadPoolExecutorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

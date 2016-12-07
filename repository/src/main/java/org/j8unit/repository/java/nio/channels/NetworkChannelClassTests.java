@@ -49,6 +49,7 @@ public abstract interface NetworkChannelClassTests<SUT extends NetworkChannel>
 extends ChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.NetworkChannel]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

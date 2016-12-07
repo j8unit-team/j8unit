@@ -53,6 +53,7 @@ public abstract interface DurationClassTests<SUT extends Duration>
 extends TemporalAmountClassTests<SUT>, ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.Duration]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

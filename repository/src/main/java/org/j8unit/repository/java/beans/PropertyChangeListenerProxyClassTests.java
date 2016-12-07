@@ -50,6 +50,7 @@ public abstract interface PropertyChangeListenerProxyClassTests<SUT extends Prop
 extends PropertyChangeListenerClassTests<SUT>, EventListenerProxyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.PropertyChangeListenerProxy]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

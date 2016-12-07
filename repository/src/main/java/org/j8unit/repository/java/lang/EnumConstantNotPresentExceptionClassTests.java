@@ -48,6 +48,7 @@ public abstract interface EnumConstantNotPresentExceptionClassTests<SUT extends 
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.EnumConstantNotPresentException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

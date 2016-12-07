@@ -49,6 +49,7 @@ public abstract interface CanonicalizationMethodClassTests<SUT extends Canonical
 extends TransformClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.CanonicalizationMethod]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface WrongTransactionClassTests<SUT extends WrongTransactio
 extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.WrongTransaction]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

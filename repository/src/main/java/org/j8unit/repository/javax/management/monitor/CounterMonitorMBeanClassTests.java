@@ -49,6 +49,7 @@ public abstract interface CounterMonitorMBeanClassTests<SUT extends CounterMonit
 extends MonitorMBeanClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.CounterMonitorMBean]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

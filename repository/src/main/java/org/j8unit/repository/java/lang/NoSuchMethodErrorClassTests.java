@@ -48,6 +48,7 @@ public abstract interface NoSuchMethodErrorClassTests<SUT extends NoSuchMethodEr
 extends IncompatibleClassChangeErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.NoSuchMethodError]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

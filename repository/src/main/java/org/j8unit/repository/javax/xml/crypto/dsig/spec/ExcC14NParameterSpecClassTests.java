@@ -50,6 +50,7 @@ public abstract interface ExcC14NParameterSpecClassTests<SUT extends ExcC14NPara
 extends C14NMethodParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

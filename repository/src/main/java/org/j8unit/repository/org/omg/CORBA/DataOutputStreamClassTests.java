@@ -50,6 +50,7 @@ public abstract interface DataOutputStreamClassTests<SUT extends DataOutputStrea
 extends ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DataOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

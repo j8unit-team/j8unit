@@ -49,6 +49,7 @@ public abstract interface PipedReaderClassTests<SUT extends PipedReader>
 extends ReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PipedReader]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

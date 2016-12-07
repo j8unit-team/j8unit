@@ -50,6 +50,7 @@ public abstract interface RelationNotificationClassTests<SUT extends RelationNot
 extends NotificationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationNotification]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

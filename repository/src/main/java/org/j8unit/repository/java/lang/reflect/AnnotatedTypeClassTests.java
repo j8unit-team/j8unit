@@ -49,6 +49,7 @@ public abstract interface AnnotatedTypeClassTests<SUT extends AnnotatedType>
 extends AnnotatedElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.AnnotatedType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

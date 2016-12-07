@@ -53,6 +53,7 @@ public abstract interface ConcurrentSkipListMapClassTests<SUT extends Concurrent
 extends ConcurrentNavigableMapClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentSkipListMap]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

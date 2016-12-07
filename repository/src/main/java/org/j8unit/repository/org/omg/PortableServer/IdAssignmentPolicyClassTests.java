@@ -50,6 +50,7 @@ public abstract interface IdAssignmentPolicyClassTests<SUT extends IdAssignmentP
 extends IdAssignmentPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicy]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

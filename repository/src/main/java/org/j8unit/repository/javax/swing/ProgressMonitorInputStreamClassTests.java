@@ -50,6 +50,7 @@ public abstract interface ProgressMonitorInputStreamClassTests<SUT extends Progr
 extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ProgressMonitorInputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

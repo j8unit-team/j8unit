@@ -50,6 +50,7 @@ public abstract interface InconsistentTypeCodeClassTests<SUT extends Inconsisten
 extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

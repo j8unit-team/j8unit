@@ -49,6 +49,7 @@ public abstract interface BasicEditorPaneUIClassTests<SUT extends BasicEditorPan
 extends BasicTextUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicEditorPaneUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

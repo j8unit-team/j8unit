@@ -49,6 +49,7 @@ public abstract interface UnmappableCharacterExceptionClassTests<SUT extends Unm
 extends CharacterCodingExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.charset.UnmappableCharacterException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

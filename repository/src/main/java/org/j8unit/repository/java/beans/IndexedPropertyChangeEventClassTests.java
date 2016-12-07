@@ -49,6 +49,7 @@ public abstract interface IndexedPropertyChangeEventClassTests<SUT extends Index
 extends PropertyChangeEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.IndexedPropertyChangeEvent]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

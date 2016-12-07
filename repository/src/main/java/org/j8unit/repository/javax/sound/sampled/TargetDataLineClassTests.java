@@ -49,6 +49,7 @@ public abstract interface TargetDataLineClassTests<SUT extends TargetDataLine>
 extends DataLineClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.TargetDataLine]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

@@ -49,6 +49,7 @@ public abstract interface OBJ_ADAPTERClassTests<SUT extends OBJ_ADAPTER>
 extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.OBJ_ADAPTER]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

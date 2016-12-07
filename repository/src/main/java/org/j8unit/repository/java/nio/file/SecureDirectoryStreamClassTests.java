@@ -50,6 +50,7 @@ public abstract interface SecureDirectoryStreamClassTests<SUT extends SecureDire
 extends DirectoryStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.SecureDirectoryStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

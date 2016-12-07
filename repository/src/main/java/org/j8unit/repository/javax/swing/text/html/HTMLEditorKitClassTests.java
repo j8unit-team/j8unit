@@ -62,6 +62,7 @@ public abstract interface HTMLEditorKitClassTests<SUT extends HTMLEditorKit>
 extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -126,6 +127,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends ViewFactoryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -192,6 +194,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$Parser]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -258,6 +261,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -324,6 +328,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends SerializableClassTests<SUT>, MouseAdapterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -390,6 +395,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -456,6 +462,7 @@ extends AccessibleClassTests<SUT>, StyledEditorKitClassTests<SUT> {
     extends StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

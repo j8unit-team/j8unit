@@ -49,6 +49,7 @@ public abstract interface InvalidNameExceptionClassTests<SUT extends InvalidName
 extends NamingExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.InvalidNameException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

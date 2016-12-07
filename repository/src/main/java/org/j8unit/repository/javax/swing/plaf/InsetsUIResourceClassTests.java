@@ -50,6 +50,7 @@ public abstract interface InsetsUIResourceClassTests<SUT extends InsetsUIResourc
 extends UIResourceClassTests<SUT>, InsetsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.InsetsUIResource]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

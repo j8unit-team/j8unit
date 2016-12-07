@@ -49,6 +49,7 @@ public abstract interface IntrospectionExceptionClassTests<SUT extends Introspec
 extends OperationsExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.IntrospectionException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

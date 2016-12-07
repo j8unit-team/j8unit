@@ -57,6 +57,7 @@ public abstract interface GroupLayoutClassTests<SUT extends GroupLayout>
 extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -121,6 +122,7 @@ extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
     extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$Alignment]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -187,6 +189,7 @@ extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -253,6 +256,7 @@ extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
     extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$Group]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -319,6 +323,7 @@ extends LayoutManager2ClassTests<SUT>, ObjectClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

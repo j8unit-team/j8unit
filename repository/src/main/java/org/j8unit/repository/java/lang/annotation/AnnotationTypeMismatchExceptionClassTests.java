@@ -50,6 +50,7 @@ public abstract interface AnnotationTypeMismatchExceptionClassTests<SUT extends 
 extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.annotation.AnnotationTypeMismatchException]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

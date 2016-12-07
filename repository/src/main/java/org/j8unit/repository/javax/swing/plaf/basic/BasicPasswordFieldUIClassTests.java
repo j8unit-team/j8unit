@@ -49,6 +49,7 @@ public abstract interface BasicPasswordFieldUIClassTests<SUT extends BasicPasswo
 extends BasicTextFieldUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicPasswordFieldUI]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

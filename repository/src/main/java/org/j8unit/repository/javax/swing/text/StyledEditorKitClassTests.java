@@ -58,6 +58,7 @@ public abstract interface StyledEditorKitClassTests<SUT extends StyledEditorKit>
 extends DefaultEditorKitClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -122,6 +123,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -188,6 +190,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$BoldAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -254,6 +257,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ItalicAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -320,6 +324,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -386,6 +391,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends TextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$StyledTextAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -452,6 +458,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -518,6 +525,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$UnderlineAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -584,6 +592,7 @@ extends DefaultEditorKitClassTests<SUT> {
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyledEditorKit$FontSizeAction]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

@@ -52,6 +52,7 @@ public abstract interface UUIDClassTests<SUT extends UUID>
 extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.UUID]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

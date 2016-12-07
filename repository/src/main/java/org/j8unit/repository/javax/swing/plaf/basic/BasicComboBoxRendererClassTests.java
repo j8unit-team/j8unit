@@ -53,6 +53,7 @@ public abstract interface BasicComboBoxRendererClassTests<SUT extends BasicCombo
 extends ListCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
@@ -118,6 +119,7 @@ extends ListCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
     org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
+
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)

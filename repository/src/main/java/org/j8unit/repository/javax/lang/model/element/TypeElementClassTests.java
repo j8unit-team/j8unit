@@ -49,6 +49,7 @@ public abstract interface TypeElementClassTests<SUT extends TypeElement>
 extends ParameterizableClassTests<SUT>, QualifiedNameableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.TypeElement]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

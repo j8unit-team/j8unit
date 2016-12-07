@@ -49,6 +49,7 @@ public abstract interface FieldViewClassTests<SUT extends FieldView>
 extends PlainViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.FieldView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

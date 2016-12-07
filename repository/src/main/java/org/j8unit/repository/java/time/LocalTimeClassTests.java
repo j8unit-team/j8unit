@@ -54,6 +54,7 @@ public abstract interface LocalTimeClassTests<SUT extends LocalTime>
 extends TemporalClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.LocalTime]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

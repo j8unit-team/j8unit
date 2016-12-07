@@ -50,6 +50,7 @@ public abstract interface WindowAdapterClassTests<SUT extends WindowAdapter>
 extends WindowListenerClassTests<SUT>, WindowStateListenerClassTests<SUT>, WindowFocusListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.WindowAdapter]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

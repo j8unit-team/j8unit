@@ -49,6 +49,7 @@ public abstract interface ParagraphViewClassTests<SUT extends ParagraphView>
 extends org.j8unit.repository.javax.swing.text.ParagraphViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.ParagraphView]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

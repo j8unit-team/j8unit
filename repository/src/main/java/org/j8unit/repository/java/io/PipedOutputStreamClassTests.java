@@ -49,6 +49,7 @@ public abstract interface PipedOutputStreamClassTests<SUT extends PipedOutputStr
 extends OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PipedOutputStream]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)

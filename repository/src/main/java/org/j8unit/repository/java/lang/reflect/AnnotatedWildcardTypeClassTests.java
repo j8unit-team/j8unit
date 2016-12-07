@@ -49,6 +49,7 @@ public abstract interface AnnotatedWildcardTypeClassTests<SUT extends AnnotatedW
 extends AnnotatedTypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.AnnotatedWildcardType]
+
     /**
      * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
      *      (the hereby targeted method-under-test)
