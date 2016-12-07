@@ -32,7 +32,7 @@ extends BlockJUnit4ClassRunner {
      * <p>
      * Creates a {@link J8BlockJUnit4ClassRunner} instance to run the tests of the given {@link Class}.
      * </p>
-     * 
+     *
      * @param clazz
      *            the test class
      * @throws InitializationError
@@ -47,7 +47,7 @@ extends BlockJUnit4ClassRunner {
      * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
      * </p>
-     * 
+     *
      * @param testClass
      *            the test class
      * @return an {@linkplain J8TestClass extended test class model} of the given {@link Class}

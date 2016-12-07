@@ -35,7 +35,7 @@ extends Parameterized {
      * <p>
      * Creates a {@link J8Parameterized} instance to run the tests of the given {@link Class}.
      * </p>
-     * 
+     *
      * @param clazz
      *            the parameterised test class
      * @throws Throwable
