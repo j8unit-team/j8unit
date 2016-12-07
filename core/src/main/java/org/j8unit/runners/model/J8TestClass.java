@@ -106,7 +106,7 @@ extends TestClass {
      * </p>
      */
     private static final Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
-        final Set<Class<?>> results = new LinkedHashSet<Class<?>>();
+        final Set<Class<?>> results = new LinkedHashSet<>();
         for (final Class<?> eachInterface : allInterfaces) {
             results.add(eachInterface);
             results.addAll(getInterfaces(eachInterface.getInterfaces()));
