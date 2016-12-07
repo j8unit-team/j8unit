@@ -1,5 +1,5 @@
 # j8unit
-Enhancement for JUnit to take advantage of Java 8.
+Enhancement for JUnit4 to take advantage of Java 8.
 
 # j8unit Repository
 Currently, we work hard on a j8unit test interface repository.
