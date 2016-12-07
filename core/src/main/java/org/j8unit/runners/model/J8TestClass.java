@@ -47,9 +47,9 @@ extends TestClass {
     /**
      * <p>
      * In addition to the {@link TestClass#scanAnnotatedMembers(Map, Map)}, this method also scans for {@link Test
-     * &#64;Test} annotated {@code default} method of each (either directly or indirectly) implemented {@code interface}.
-     * Each of these methods will be added into {@code methodsForAnnotations} if and only if there is no specific
-     * {@code class} implementation.
+     * &#64;Test} annotated {@code default} method of each (either directly or indirectly) implemented
+     * {@code interface}. Each of these methods will be added into {@code methodsForAnnotations} if and only if there is
+     * no specific {@code class} implementation.
      * </p>
      *
      * @param methodsForAnnotations
@@ -96,7 +96,7 @@ extends TestClass {
      *            the {@link Class} to return all of its {@code interface}s
      * @return an ordered {@link Set} of all {@code interface}s implemented by the given {@link Class}
      */
-    private static Set<Class<?>> getInterfaces(final Class<?> clazz) {
+    private static final Set<Class<?>> getInterfaces(final Class<?> clazz) {
         return getInterfaces(clazz.getInterfaces());
     }
 
@@ -105,8 +105,8 @@ extends TestClass {
      * Helper method for {@link #getInterfaces(Class)}.
      * </p>
      */
-    private static Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
-        final Set<Class<?>> results = new LinkedHashSet<Class<?>>();
+    private static final Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
+        final Set<Class<?>> results = new LinkedHashSet<>();
         for (final Class<?> eachInterface : allInterfaces) {
             results.add(eachInterface);
             results.addAll(getInterfaces(eachInterface.getInterfaces()));

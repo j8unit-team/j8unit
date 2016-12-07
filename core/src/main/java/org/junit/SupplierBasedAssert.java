@@ -24,8 +24,9 @@ import java.util.function.Supplier;
  * providing fail messages; and, thus, its usage is preferred!
  * </p>
  *
- * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component, this assertion
- *          extension is located within the JUnit's name-space {@code org.junit} intentionally.
+ * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component (i.&thinsp;e.,
+ *          {@link Assert#format(String, Object, Object)}), this assertion extension is located within the JUnit's
+ *          name-space {@code org.junit} intentionally.
  *
  * @see org.j8unit.Assert
  * @since 4.12.1
@@ -50,27 +51,27 @@ extends Assert {
      */
     public static final void fail(final Supplier<? extends String> message)
     throws AssertionError {
-        Assert.fail(resolve(message));
+        fail(resolve(message));
     }
 
     protected static final void failNotNull(final Supplier<? extends String> message, final Object actual) {
-        Assert.fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
+        fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
     }
 
     protected static final void failNotSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        Assert.fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
+        fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
     }
 
     protected static final void failSame(final Supplier<? extends String> message) {
-        Assert.fail((Objects.toString(resolve(message), "") + " expected not same").trim());
+        fail((Objects.toString(resolve(message), "") + " expected not same").trim());
     }
 
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        Assert.fail(Assert.format(resolve(message), expected, actual));
+        fail(Assert.format(resolve(message), expected, actual));
     }
 
     protected static final void failEquals(final Supplier<? extends String> message, final Object actual) {
-        Assert.fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
+        fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
     }
 
     /**
@@ -204,7 +205,7 @@ extends Assert {
     @Deprecated
     public static final void assertEquals(final Supplier<? extends String> message, final double expected, final double actual)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
@@ -225,7 +226,7 @@ extends Assert {
     @Deprecated
     public static final void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     protected static final boolean doubleIsDifferent(final double d1, final double d2, final double delta)
@@ -299,7 +300,7 @@ extends Assert {
     @Deprecated
     public static final void assertEquals(final Supplier<? extends String> message, final float expected, final float actual)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
@@ -319,7 +320,7 @@ extends Assert {
     @Deprecated
     public static final void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     protected static final boolean floatIsDifferent(final float f1, final float f2, final float delta)
@@ -501,7 +502,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -521,7 +522,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -541,7 +542,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -562,7 +563,7 @@ extends Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
 
     /**
@@ -584,7 +585,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     /**
@@ -605,7 +606,7 @@ extends Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
     /**
@@ -627,7 +628,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     /**
@@ -647,7 +648,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -667,7 +668,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -687,7 +688,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -707,7 +708,7 @@ extends Assert {
     public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
         // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
-        Assert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
 }

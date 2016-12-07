@@ -234,7 +234,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertEquals(final CharSequence message, final double expected, final double actual) {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
@@ -254,7 +254,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual) {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
@@ -317,7 +317,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertEquals(final CharSequence message, final float expected, final float actual) {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
@@ -336,7 +336,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual) {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
@@ -556,7 +556,7 @@ extends org.junit.Assert {
     @Deprecated
     public static final void assertArrayEquals(final CharSequence message, final double[] expecteds, final double[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
     }
 
     /**
@@ -599,7 +599,7 @@ extends org.junit.Assert {
     @Deprecated
     public static final void assertArrayEquals(final CharSequence message, final float[] expecteds, final float[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
     /**
@@ -836,7 +836,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual) {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
@@ -856,7 +856,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual) {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
@@ -917,7 +917,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual) {
-        Assert.fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
@@ -936,7 +936,7 @@ extends org.junit.Assert {
      */
     @Deprecated
     public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual) {
-        Assert.fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
@@ -1150,7 +1150,7 @@ extends org.junit.Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
     }
 
     /**
@@ -1194,7 +1194,7 @@ extends org.junit.Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals)
     throws AssertionError {
-        Assert.fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
 
     /**

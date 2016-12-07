@@ -1,5 +1,5 @@
-import static org.j8unit.generator.util.OptionalString.ofOptional;
 import static org.j8unit.generator.api.GeneratorSetupTest.JAVA_LANG;
+import static org.j8unit.generator.util.OptionalString.ofOptional;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;

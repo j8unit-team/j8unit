@@ -1,7 +1,7 @@
 /**
  * <p>
- * According to the goals of <em><a href="http://www.j8unit.org">J8Unit</a></em>, this packages contains any required extension of
- * {@code org.junit.runners.model}' classes.
+ * According to the goals of <em><a href="http://www.j8unit.org">J8Unit</a></em>, this packages contains any required
+ * extension of {@code org.junit.runners.model}' classes.
  *
  * In detail, this package contains the indispensable extension of {@link org.junit.runners.model.TestClass} in order to
  * support awareness of {@code default} methods. Unfortunately, JUnit does not provide injection of the class model to

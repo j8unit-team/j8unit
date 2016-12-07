@@ -22,7 +22,7 @@ public enum Optionals {
      * </p>
      *
      * TODO: If Java 9 is released, replace this helper method by
-     * <a href="http://download.java.net/jdk9/docs/api/java/util/Optional.html#stream--">Optional#stream()</a>
+     * <a href="http://download.java.net/java/jdk9/docs/api/java/util/Optional.html#stream--">Optional#stream()</a>
      */
     public static final <T> Stream<T> toStream(final Optional<T> opt) {
         requireNonNull(opt);
