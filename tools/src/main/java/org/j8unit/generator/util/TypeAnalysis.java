@@ -100,7 +100,7 @@ public enum TypeAnalysis {
     }
 
     /**
-     * TODO: JavaDoc!
+     * TODO (Issue #38): JavaDoc!
      */
     public static final Stream<Class<?>> scopedTypes(final Class<?> entity) {
         return concat(Stream.of(entity), stream(entity.getDeclaredClasses()).flatMap(TypeAnalysis::scopedTypes));
@@ -422,8 +422,9 @@ public enum TypeAnalysis {
                       */
                      .peek(c -> getInterfaces(c).entrySet().stream() //
                                                 .peek(e -> { // handle skipped interfaces
-                                                    // TODO: If an interface is skipped, its super interfaces should be
-                                                    // considered instead. Just similar to any non-matching super class.
+                                                    // TODO (Issue #42): If an interface is skipped, its super
+                                                    // interfaces should be considered instead. Just similar to any
+                                                    // non-matching super class.
                                                     if (!interfaceMatcher.test(e.getKey())) {
                                                         nonMatchingInterfaces.accept(e.getKey());
                                                     }

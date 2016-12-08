@@ -63,7 +63,8 @@ implements ModifierBasedMatcher {
      */
     private final IntPredicate predicate;
 
-    // TODO: What can we do with the modifier's bit-mask information? Most probably, there are fancy ideas out there ...
+    // TODO (Issue #36): What can we do with the modifier's bit-mask information? Most probably, there are fancy ideas
+    // out there ...
     @SuppressWarnings("unused")
     private final int bitMask;
 

@@ -14,6 +14,9 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+/**
+ * TODO (Issue #40): JavaDoc
+ */
 public final class ImportMemory {
 
     private List<String> claimed = emptyList();
