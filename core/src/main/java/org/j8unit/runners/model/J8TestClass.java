@@ -96,7 +96,7 @@ extends TestClass {
      *            the {@link Class} to return all of its {@code interface}s
      * @return an ordered {@link Set} of all {@code interface}s implemented by the given {@link Class}
      */
-    private static final Set<Class<?>> getInterfaces(final Class<?> clazz) {
+    public static final Set<Class<?>> getInterfaces(final Class<?> clazz) {
         return getInterfaces(clazz.getInterfaces());
     }
 
