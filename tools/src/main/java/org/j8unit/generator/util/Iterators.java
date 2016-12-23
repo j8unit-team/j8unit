@@ -39,17 +39,21 @@ public enum Iterators {
 
             private final Predicate<T> isValid = requireNonNull(p);
 
+            // instead of using the predicate several time, store hasNext-state in order to behave consistently
+            private boolean hasNext = this.isValid.test(this.next);
+
             @Override
             public boolean hasNext() {
-                return this.isValid.test(this.next);
+                return this.hasNext;
             }
 
             @Override
             public T next()
             throws NoSuchElementException {
-                final T current = this.next;
-                if (this.isValid.test(current)) {
+                if (this.hasNext) {
+                    final T current = this.next;
                     this.next = this.generator.apply(current);
+                    this.hasNext = this.isValid.test(this.next);
                     return current;
                 } else {
                     throw new NoSuchElementException();
