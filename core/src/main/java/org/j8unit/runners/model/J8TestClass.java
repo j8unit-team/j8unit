@@ -104,6 +104,9 @@ extends TestClass {
      * <p>
      * Helper method for {@link #getInterfaces(Class)}.
      * </p>
+     *
+     * @implSpec Java does not allow cyclic type hierarchy. Thus, this recursive implementation will definitely come to
+     *           an end.
      */
     private static final Set<Class<?>> getInterfaces(final Class<?>[] allInterfaces) {
         final Set<Class<?>> results = new LinkedHashSet<>();
