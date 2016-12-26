@@ -2,6 +2,7 @@ package org.j8unit.runners.model;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -42,6 +43,18 @@ extends TestClass {
      */
     public J8TestClass(final Class<?> clazz) {
         super(clazz);
+    }
+
+    /**
+     * For whatever reason, {@link TestClass} does not declare {@link TestClass#getSuperClasses(Class)} in a reusable
+     * way. Thus, we simply specify our own implementation.
+     *
+     * @param c
+     *            the java type to query its class hierarchy
+     * @return the given type and its class hierarchy
+     */
+    public static List<Class<?>> getSuperClasses(Class<?> c) {
+        for (final List<Class<?>> l = new ArrayList<>();; c = c.getSuperclass()) if (c!=null) l.add(c); else return l;
     }
 
     /**
