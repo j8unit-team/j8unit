@@ -94,7 +94,12 @@ public enum TypeAnalysis {
      * @param entity
      *            the entity to query its class hierarchy
      * @return an iterator of the given {@code entity}'s class hierarchy
+     *
+     * @deprecated Use {@link org.j8unit.runners.model.J8TestClass#allClassesOf(Class)} or any of the similar methods.
+     *             Note, this method returns a singleton Iterator for any interface, whereas
+     *             {@link org.j8unit.runners.model.J8TestClass#allClassesOf(Class)} returns an empty set!
      */
+    @Deprecated
     public static final Iterator<Class<?>> classHierarchy(final Class<?> entity) {
         return iterate(entity, Class::getSuperclass, Objects::nonNull);
     }
