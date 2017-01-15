@@ -108,7 +108,7 @@ public abstract interface J8UnitTest<SUT> {
      *
      * @return a new subject-under-test
      */
-    public abstract SUT createNewSUT();
+    public abstract SUT createNewSUT(); // TODO: throws Exception?
 
     /**
      * <p>
