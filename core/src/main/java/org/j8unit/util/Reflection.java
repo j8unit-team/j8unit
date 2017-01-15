@@ -22,6 +22,7 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
@@ -560,6 +561,17 @@ public enum Reflection {
 
     public static final <SUT> InvocationHandler j8UnitTestInvocationHandler(final Supplier<SUT> factory) {
         return checkAssignabilityFirst(trySuperTypesFirst(dispatch(reference, constantResult(factory), fail(IllegalStateException::new))));
+    }
+
+    public static final <SUT> InvocationHandler j8UnitTestInvocationHandler(final Callable<SUT> factory) {
+        final Supplier<SUT> sup = () -> {
+            try {
+                return factory.call();
+            } catch (final Exception e) {
+                throw new RuntimeException(e);
+            }
+        };
+        return j8UnitTestInvocationHandler(sup);
     }
 
 }
