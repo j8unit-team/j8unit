@@ -10,7 +10,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 @SuppressWarnings("deprecation")
 @RunWith(Parameterized.class)
-public class AssertByCharSequenceTest {
+public class AssertByCharSequenceTests {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {

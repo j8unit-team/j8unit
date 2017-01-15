@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized.Parameters;
 
 @SuppressWarnings("deprecation")
 @RunWith(Parameterized.class)
-public class AssertBySupplierTest {
+public class AssertBySupplierTests {
 
     @Parameters(name = "{index}: {0}")
     public static Iterable<Object[]> data() {
