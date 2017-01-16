@@ -1,5 +1,6 @@
 package org.junit;
 
+import static org.hamcrest.Matchers.is;
 import java.util.function.Supplier;
 
 @SuppressWarnings("deprecation")
@@ -341,6 +342,18 @@ public class SupplierBasedAssertTest {
     public void test_assertTrue_failure()
     throws Exception {
         SupplierBasedAssert.assertTrue(SUP, false);
+    }
+
+    @Test
+    public void test_assertThat_success()
+    throws Exception {
+        SupplierBasedAssert.assertThat(SUP, 42, is(42));
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertThat_failure()
+    throws Exception {
+        SupplierBasedAssert.assertThat(SUP, 42, is(23));
     }
 
 }

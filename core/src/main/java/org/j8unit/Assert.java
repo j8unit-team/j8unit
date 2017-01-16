@@ -2,6 +2,7 @@ package org.j8unit;
 
 import java.util.Objects;
 import java.util.function.Supplier;
+import org.hamcrest.Matcher;
 import org.junit.SupplierBasedAssert;
 
 /**
@@ -704,6 +705,33 @@ extends org.junit.Assert {
         SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
     }
 
+    /**
+     * Similar to {@link Assert#assertThat(String, Object, Matcher)}, but uses a {@link CharSequence}-based reason
+     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
+     *
+     * @see org.hamcrest.CoreMatchers
+     * @see org.hamcrest.MatcherAssert
+     *
+     * @param the
+     *            the (possibly lazy initiated) additional information about the error ({@code null} will be ignored
+     *            without any further notice)
+     * @param <T>
+     *            the static type accepted by the matcher (this can flag obvious compile-time problems such as
+     *            {@code assertThat(1, is("a"))}
+     * @param actual
+     *            the computed value being compared
+     * @param matcher
+     *            an expression, built of {@link Matcher}s, specifying allowed values
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
+    public static <T> void assertThat(final CharSequence reason, final T actual, final Matcher<? super T> matcher)
+    throws AssertionError {
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
+        SupplierBasedAssert.assertThat(supply(reason), actual, matcher);
+    }
+
     private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier) {
         return (supplier == null) ? null : supply(supplier.get());
     }
@@ -1298,6 +1326,33 @@ extends org.junit.Assert {
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+    }
+
+    /**
+     * Similar to {@link Assert#assertThat(String, Object, Matcher)}, but uses a supplied reason message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
+     * until really needed.
+     *
+     * @see org.hamcrest.CoreMatchers
+     * @see org.hamcrest.MatcherAssert
+     *
+     * @param the
+     *            the supplied additional information about the error ({@code null} will be ignored without any further
+     *            notice)
+     * @param <T>
+     *            the static type accepted by the matcher (this can flag obvious compile-time problems such as
+     *            {@code assertThat(1, is("a"))}
+     * @param actual
+     *            the computed value being compared
+     * @param matcher
+     *            an expression, built of {@link Matcher}s, specifying allowed values
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
+    public static <T> void assertThat(final Supplier<? extends CharSequence> reason, final T actual, final Matcher<? super T> matcher)
+    throws AssertionError {
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
+        SupplierBasedAssert.assertThat(resolve(reason), actual, matcher);
     }
 
 }

@@ -1,6 +1,7 @@
 package org.j8unit;
 
 import static java.util.Arrays.asList;
+import static org.hamcrest.Matchers.is;
 import java.nio.CharBuffer;
 import java.util.function.Supplier;
 import org.junit.Test;
@@ -365,6 +366,18 @@ public class AssertBySupplierTests {
     public void test_assertTrue_failure()
     throws Exception {
         Assert.assertTrue(this.SUP, false);
+    }
+
+    @Test
+    public void test_assertThat_success()
+    throws Exception {
+        Assert.assertThat(this.SUP, 42, is(42));
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertThat_failure()
+    throws Exception {
+        Assert.assertThat(this.SUP, 42, is(23));
     }
 
 }
