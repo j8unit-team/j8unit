@@ -1,5 +1,6 @@
 package org.junit.runners.model;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ProofingTheBehaviourOfJUnit4TestClass_Tests
@@ -18,6 +19,20 @@ extends ProofingTheBehaviourOfTestClasses {
 
     protected Class<?> getTestClassClass() {
         return TestClass.class;
+    }
+
+    @BeforeClass
+    public static void legend() {
+        System.out.println("+------------------------------------------+");
+        System.out.println("| Behaviour of the JUnit4 Test Class Model |");
+        System.out.println("| Legend:                                  |");
+        System.out.println("+------------------------------------------+");
+        System.out.println("| [✓] Intended Behaviour                   |");
+        System.out.println("| [✗] Missing Behaviour                    |");
+        System.out.println("|                                          |");
+        System.out.println("| black ... can detect                     |");
+        System.out.println("| red ..... cannot detect                  |");
+        System.out.println("+------------------------------------------+");
     }
 
     @Test

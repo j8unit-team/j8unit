@@ -1,6 +1,7 @@
 package org.j8unit.runners;
 
 import static org.junit.Assert.fail;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.Runner;
 import org.junit.runners.ProofingTheBehaviourOfJUnit4ClassRunner_Tests;
@@ -24,6 +25,23 @@ extends ProofingTheBehaviourOfJUnit4ClassRunner_Tests {
     @Override
     protected Class<? extends Runner> getRunnerClass() {
         return J8Unit4.class;
+    }
+
+    @BeforeClass
+    public static void legend() {
+        System.out.println("+-------------------------------------------------------+");
+        System.out.println("| Behaviour of the default J8Unit Test Runner           |");
+        System.out.println("| Legend:                                               |");
+        System.out.println("+-------------------------------------------------------+");
+        System.out.println("| [c✓] Intended Construction Behaviour                  |");
+        System.out.println("| [c✗] Missing Construction Behaviour                   |");
+        System.out.println("| [t✓] Intended Test Method Exploration Behaviour       |");
+        System.out.println("| [t✗] Missing Test Method Exploration Behaviour        |");
+        System.out.println("| [t!] Additional Behaviour (in comparision to JUnit4)  |");
+        System.out.println("|                                                       |");
+        System.out.println("| black ... can be created and execute tests            |");
+        System.out.println("| red ..... cannot be created and/or execute tests      |");
+        System.out.println("+-------------------------------------------------------+");
     }
 
     @Override

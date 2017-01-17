@@ -1,6 +1,7 @@
 package org.j8unit.runners.model;
 
 import static org.junit.Assert.fail;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runners.model.ClassWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.ClassWithATwiceInheritedDefaultTestMethod;
@@ -22,6 +23,21 @@ extends ProofingTheBehaviourOfJUnit4TestClass_Tests {
     @Override
     protected Class<?> getTestClassClass() {
         return J8TestClass.class;
+    }
+
+    @BeforeClass
+    public static void legend() {
+        System.out.println("+-----------------------------------------------------+");
+        System.out.println("| Behaviour of the J8Unit Test Class Model            |");
+        System.out.println("| Legend:                                             |");
+        System.out.println("+-----------------------------------------------------+");
+        System.out.println("| [✓] Intended Behaviour                              |");
+        System.out.println("| [✗] Missing Behaviour                               |");
+        System.out.println("| [!] Additional Behaviour (in comparision to JUnit4) |");
+        System.out.println("|                                                     |");
+        System.out.println("| black ... can detect                                |");
+        System.out.println("| red ..... cannot detect                             |");
+        System.out.println("+-----------------------------------------------------+");
     }
 
     @Override
