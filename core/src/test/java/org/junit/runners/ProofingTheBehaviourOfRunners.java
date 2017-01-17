@@ -24,6 +24,7 @@ public abstract class ProofingTheBehaviourOfRunners {
             this.getRunner(container);
             fail("Runner creation must fail!");
         } catch (final InitializationError expected) {
+            // there must be any cause exception
             assertFalse(expected.getCauses().isEmpty());
             throw expected;
         }
@@ -35,6 +36,7 @@ public abstract class ProofingTheBehaviourOfRunners {
             this.proofClassRunnerWithInitializationError(container);
             fail("Runner creation must fail!");
         } catch (final InitializationError expected) {
+            // there must be exactly one specific cause exception (failing construction)
             assertEquals(1, expected.getCauses().size());
             assertEquals(Exception.class, expected.getCauses().get(0).getClass());
             assertEquals("Test class should have exactly one public constructor", expected.getCauses().get(0).getMessage());
@@ -47,6 +49,7 @@ public abstract class ProofingTheBehaviourOfRunners {
             this.proofClassRunnerWithInitializationError(container);
             fail("Runner creation must fail!");
         } catch (final InitializationError expected) {
+            // there must be exactly one specific cause exception (failing test method exploration)
             assertEquals(1, expected.getCauses().size());
             assertEquals(Exception.class, expected.getCauses().get(0).getClass());
             assertEquals("No runnable methods", expected.getCauses().get(0).getMessage());
@@ -59,6 +62,7 @@ public abstract class ProofingTheBehaviourOfRunners {
             this.proofClassRunnerWithInitializationError(container);
             fail("Runner creation must fail!");
         } catch (final InitializationError expected) {
+            // there must be exactly two specific cause exceptions (failing construction and failing test method exploration)
             assertEquals(2, expected.getCauses().size());
             assertEquals(Exception.class, expected.getCauses().get(0).getClass());
             assertEquals("Test class should have exactly one public constructor", expected.getCauses().get(0).getMessage());
@@ -75,15 +79,20 @@ public abstract class ProofingTheBehaviourOfRunners {
     protected void proofJUnit4ClassRunnerWithASingleTest(final Class<?> container, final Class<?> effective)
     throws Exception {
         final Runner runner = this.getRunner(container);
+        // without any exception, there must be a single test
         assertEquals(1, runner.testCount());
 
+        // spy the test run
         final RunNotifier spy = spy(new RunNotifier());
         runner.run(spy);
 
+        // assert a single test start
         verify(spy, times(1)).fireTestStarted(any());
         final ArgumentCaptor<Failure> argument = ArgumentCaptor.forClass(Failure.class);
+        // assert a single test failure
         verify(spy, times(1)).fireTestAssumptionFailed(argument.capture());
         assertEquals(effective.getField("FAILURE_TOKEN").get(null), argument.getValue().getMessage());
+        // assert a single test finish
         verify(spy, times(1)).fireTestFinished(any());
     }
 
