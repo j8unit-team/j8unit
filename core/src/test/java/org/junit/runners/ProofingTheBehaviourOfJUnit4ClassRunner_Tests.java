@@ -20,6 +20,9 @@ import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethod;
 import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithoutAnnotation;
 import org.junit.runners.model.InterfaceWithoutATestMethod;
 
+/**
+ * TODO: Also proof behaviour of {@link BlockJUnit4ClassRunner}
+ */
 public class ProofingTheBehaviourOfJUnit4ClassRunner_Tests
 extends ProofingTheBehaviourOfRunners {
 

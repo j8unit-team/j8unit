@@ -13,6 +13,9 @@ import org.junit.runners.model.InterfaceWithADefaultTestMethod;
 import org.junit.runners.model.InterfaceWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithoutAnnotation;
 
+/**
+ * TODO: Also proof behaviour of {@link J8BlockJUnit4ClassRunner}
+ */
 public class ProofingTheBehaviourOfJ8UnitClassRunner_Tests
 extends ProofingTheBehaviourOfJUnit4ClassRunner_Tests {
 
