@@ -5,7 +5,6 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
-import org.junit.Test;
 import org.junit.internal.MethodSorter;
 import org.junit.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
@@ -35,8 +34,8 @@ extends TestClass {
      * <p>
      * Creates a {@link J8TestClass} based of the tests within the given {@link Class}. Each time this constructor
      * executes, the given {@link Class} is {@linkplain TestClass#TestClass(Class) scanned for annotations}&nbsp;&ndash;
-     * including {@link Test &#64;Test} annotated {@code default} method of each (either directly or indirectly)
-     * implemented {@code interface}.
+     * including {@link org.junit.Test &#64;Test} annotated {@code default} method of each (either directly or
+     * indirectly) implemented {@code interface}.
      * </p>
      */
     public J8TestClass(final Class<?> clazz) {
@@ -45,10 +44,10 @@ extends TestClass {
 
     /**
      * <p>
-     * In addition to the {@link TestClass#scanAnnotatedMembers(Map, Map)}, this method also scans for {@link Test
-     * &#64;Test} annotated {@code default} methods of each (either directly or indirectly) implemented
-     * {@code interface}. Each of these methods will be added into {@code methodsForAnnotations} if and only if there is
-     * no specific {@code class} implementation.
+     * In addition to the {@link TestClass#scanAnnotatedMembers(Map, Map)}, this method also scans for
+     * {@link org.junit.Test &#64;Test} annotated {@code default} methods of each (either directly or indirectly)
+     * implemented {@code interface}. Each of these methods will be added into {@code methodsForAnnotations} if and only
+     * if there is no specific {@code class} implementation.
      * </p>
      *
      * @param methodsForAnnotations
