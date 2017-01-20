@@ -713,7 +713,7 @@ extends org.junit.Assert {
      * @see org.hamcrest.CoreMatchers
      * @see org.hamcrest.MatcherAssert
      *
-     * @param the
+     * @param reason
      *            the (possibly lazy initiated) additional information about the error ({@code null} will be ignored
      *            without any further notice)
      * @param <T>
@@ -1336,7 +1336,7 @@ extends org.junit.Assert {
      * @see org.hamcrest.CoreMatchers
      * @see org.hamcrest.MatcherAssert
      *
-     * @param the
+     * @param reason
      *            the supplied additional information about the error ({@code null} will be ignored without any further
      *            notice)
      * @param <T>
