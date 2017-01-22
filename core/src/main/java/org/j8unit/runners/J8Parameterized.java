@@ -31,6 +31,11 @@ import org.junit.runners.Parameterized;
 public class J8Parameterized
 extends Parameterized {
 
+    /*
+     * TODO: Make {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory} the default
+     * factory for this {@link org.junit.runner.Runner}!
+     */
+
     /**
      * <p>
      * Creates a {@link J8Parameterized} instance to run the tests of the given {@link Class}.
