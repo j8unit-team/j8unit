@@ -135,7 +135,7 @@ public class SupplierBasedAssertTest {
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertEquals_double()
+    public void test_assertEquals_double_deprecated()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0d, 0.0d);
     }
@@ -147,13 +147,25 @@ public class SupplierBasedAssertTest {
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertEquals_double_failure()
+    public void test_assertEquals_double_failure_1()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0d, 1.0d, 0.0d);
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertEquals_float()
+    public void test_assertEquals_double_failure_2()
+    throws Exception {
+        SupplierBasedAssert.assertEquals(SUP, 0.0d, 0.1d, 0.05d);
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertEquals_double_failure_3()
+    throws Exception {
+        SupplierBasedAssert.assertEquals(SUP, 0.0d, 1.0d, 0.9d);
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertEquals_float_deprecated()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 0.0f);
     }
@@ -167,10 +179,20 @@ public class SupplierBasedAssertTest {
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertEquals_float_failure()
+    public void test_assertEquals_float_failure_1()
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 1.0f, 0.0f);
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertEquals_float_failure_2()
+    throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 0.1f, 0.05f);
+    }
+
+    @Test(expected = AssertionError.class)
+    public void test_assertEquals_float_failure_3()
+    throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0f, 1.0f, 0.9f);
     }
 
@@ -225,7 +247,7 @@ public class SupplierBasedAssertTest {
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertNotEquals_double()
+    public void test_assertNotEquals_double_deprecated()
     throws Exception {
         SupplierBasedAssert.assertNotEquals(SUP, 0.0d, 0.0d);
     }
@@ -243,7 +265,7 @@ public class SupplierBasedAssertTest {
     }
 
     @Test(expected = AssertionError.class)
-    public void test_assertNotEquals_float()
+    public void test_assertNotEquals_float_deprecated()
     throws Exception {
         SupplierBasedAssert.assertNotEquals(SUP, 0.0f, 0.0f);
     }
