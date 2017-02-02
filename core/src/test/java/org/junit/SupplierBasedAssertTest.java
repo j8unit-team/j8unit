@@ -1,10 +1,18 @@
 package org.junit;
 
 import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertNotNull;
 import java.util.function.Supplier;
 
 @SuppressWarnings("deprecation")
 public class SupplierBasedAssertTest {
+
+    @Test
+    public void testInstanciability()
+    throws Exception {
+        final SupplierBasedAssert instance = new SupplierBasedAssert();
+        assertNotNull(instance);
+    }
 
     private static final Supplier<String> SUP = "FAILED"::toString;
 
