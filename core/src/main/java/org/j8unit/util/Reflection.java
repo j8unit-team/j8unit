@@ -7,6 +7,9 @@ import static java.lang.invoke.MethodHandles.Lookup.PRIVATE;
 import static java.lang.invoke.MethodHandles.Lookup.PROTECTED;
 import static java.lang.invoke.MethodHandles.Lookup.PUBLIC;
 import static java.lang.reflect.Modifier.isAbstract;
+import static java.lang.reflect.Modifier.isFinal;
+import static java.lang.reflect.Modifier.isPrivate;
+import static java.security.AccessController.doPrivileged;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toCollection;
 import static java.util.stream.Collectors.toSet;
@@ -14,24 +17,55 @@ import static java.util.stream.Stream.concat;
 import static java.util.stream.Stream.empty;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles.Lookup;
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.security.PrivilegedAction;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
+import java.util.Optional;
 import java.util.Set;
-import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
-import org.j8unit.J8UnitTest;
 import org.junit.runners.model.TestClass;
 
+/**
+ * <p>
+ * Utility enum (aka. helper class) providing fancy reflection stuff.
+ * </p>
+ *
+ * @since 4.12.2
+ */
 public enum Reflection {
 
     ;
+
+    /*
+     * TODO: Null-Check-Barriers
+     */
+
+    /**
+     * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is
+     * fail-safe, meaning it returns an {@linkplain Optional#empty() empty Optional} if the type cannot be located. The
+     * similar result is returned if the given {@code name} is {@code null} ({@code null}-safe).
+     *
+     * @see Class#forName(String)
+     *
+     * @param name
+     *            the fully qualified name of the desired {@code Class}
+     * @return an {@code Optional} of the {@code Class} object for the type with the specified name; an empty
+     *         {@code Optional} if the type cannot be located
+     * @throws NullPointerException
+     *             iff the given {@code name} is {@code null}
+     */
+    public static final Optional<Class<?>> classForName(final String name) {
+        try {
+            return Optional.of(Class.forName(name));
+        } catch (final ClassNotFoundException | NullPointerException missing) {
+            return Optional.empty();
+        }
+    }
 
     /**
      * Returns a mutable, ordered {@link Set} of all {@code class}es the given Java {@code type} is representing.
@@ -41,11 +75,12 @@ public enum Reflection {
      * This method also returns an empty set if the given Java {@code type} is not a true {@code class} but an
      * {@code interface}.
      *
+     * @see #allInterfacesOf(Class)
+     * @see #allTypesOf(Class)
+     *
      * @param type
      *            the Java type to query its {@code class}es
      * @return all {@code class}es the given Java {@code type} is representing
-     *
-     * @since 4.12.2
      */
     public static final LinkedHashSet<Class<?>> allClassesOf(final Class<?> type) {
         return getClassHierarchy(type);
@@ -57,55 +92,76 @@ public enum Reflection {
      * This method is {@code null} safe, meaning it returns an according empty set.
      *
      * This method also returns an empty set if neither the given Java {@code type} nor any of its super-classes
-     * implement an {@code interface}.
+     * implements an {@code interface}.
+     *
+     * @see #allClassesOf(Class)
+     * @see #allTypesOf(Class)
      *
      * @param type
      *            the Java type to query its {@code interface}s
      * @return all {@code interface}s the given Java {@code type} is representing
-     *
-     * @since 4.12.2
      */
     public static final LinkedHashSet<Class<?>> allInterfacesOf(final Class<?> type) {
         return getTypeHierarchyAsStream(type).filter(Class::isInterface).collect(toCollection(LinkedHashSet::new));
     }
 
     /**
-     * Returns a mutable, ordered {@link Set} of the complete {@code class} hierarchy of the given Java {@code type}.
+     * Returns a mutable, ordered {@link Set} of the complete type hierarchy of the given Java {@code type}.
      *
      * This method is {@code null} safe, meaning it returns an according empty set.
      *
-     * This method also returns an empty set if the given Java {@code type} is not a true {@code class} but an
+     * If the given {@code type} represents a true {@code interface}, this method returns the according
+     * {@linkplain #getInterfaceHierarchy(Class) interface hierarchy}.
+     *
+     * If the given {@code type} represents a true {@code code}, this method returns the complete
+     * {@linkplain #getClassHierarchy(Class) class hierarchy} whereas each class is immediately followed by
+     * {@linkplain #getInterfaceHierarchy(Class) all interfaces} it represents.
+     *
+     * @see #allInterfacesOf(Class)
+     * @see #allTypesOf(Class)
+     *
+     * @param type
+     *            the Java type to query its types
+     * @return all types the given Java {@code type} is representing
+     */
+    public static final LinkedHashSet<Class<?>> allTypesOf(final Class<?> type) {
+        return getTypeHierarchy(type);
+    }
+
+    /**
+     * Returns a mutable, ordered {@link Set} of the complete {@code class} hierarchy of the given Java class.
+     *
+     * This method is {@code null} safe, meaning it returns an according empty set.
+     *
+     * This method also returns an empty set if the given Java class is not a true {@code class} but an
      * {@code interface}.
      *
      * @apiNote For whatever reason, {@link TestClass} does not declare {@link TestClass#getSuperClasses(Class)} in a
      *          reusable way. Thus, we simply specify our own hierarchy exploration implementation.
      *
-     *          In case the given {@code type} represents a true Java {@code class}, this method behaves
-     *          <em>similar</em> to {@link TestClass#getSuperClasses(Class)}. If, otherwise, the given {@code type}
-     *          represents an {@code interface}, this method behaves <em>differently</em>, because the set will be
-     *          empty. In order to explore some interface's hierarchy, use {@link #getInterfaceHierarchy(Class)}
-     *          instead.
+     *          In case the given class represents a true Java {@code class}, this method behaves <em>similar</em> to
+     *          {@link TestClass#getSuperClasses(Class)}. If, otherwise, the given class represents an
+     *          {@code interface}, this method behaves <em>differently</em>, because the set will be empty. In order to
+     *          explore some interface's hierarchy, use {@link #getInterfaceHierarchy(Class)} instead.
      *
      * @see #getClassHierarchyAsStream(Class)
      * @see #getInterfaceHierarchy(Class)
      * @see #getTypeHierarchy(Class)
      *
-     * @param type
+     * @param clazz
      *            the Java {@code class} to query its class hierarchy
      * @return the class' hierarchy
-     *
-     * @since 4.12.2
      */
-    public static final LinkedHashSet<Class<?>> getClassHierarchy(final Class<?> type) {
-        return getClassHierarchyAsStream(type).collect(toCollection(LinkedHashSet::new));
+    public static final LinkedHashSet<Class<?>> getClassHierarchy(final Class<?> clazz) {
+        return getClassHierarchyAsStream(clazz).collect(toCollection(LinkedHashSet::new));
     }
 
     /**
-     * Returns a {@link Stream} of the complete {@code class} hierarchy of the given Java {@code type}.
+     * Returns a {@link Stream} of the complete {@code class} hierarchy of the given Java class.
      *
      * This method is {@code null} safe, meaning it returns an according {@linkplain Stream#empty() empty} stream.
      *
-     * This method also returns an empty stream if the given Java {@code type} is not a true {@code class} but an
+     * This method also returns an empty stream if the given Java class is not a true {@code class} but an
      * {@code interface}.
      *
      * @implSpec Java does not allow cyclic type hierarchy. Thus, this recursive implementation will definitely come to
@@ -115,43 +171,38 @@ public enum Reflection {
      * @see #getInterfaceHierarchyAsStream(Class)
      * @see #getTypeHierarchyAsStream(Class)
      *
-     * @param type
+     * @param clazz
      *            the Java {@code class} to query its class hierarchy
      * @return the class' hierarchy
-     *
-     * @since 4.12.2
      */
-    public static final Stream<Class<?>> getClassHierarchyAsStream(final Class<?> type) {
-        if (type == null) {
+    public static final Stream<Class<?>> getClassHierarchyAsStream(final Class<?> clazz) {
+        if (clazz == null) {
             return empty();
-        } else if (type.isInterface()) {
+        } else if (clazz.isInterface()) {
             return empty();
         } else {
-            return concat(Stream.of(type), getClassHierarchyAsStream(type.getSuperclass()));
+            return concat(Stream.of(clazz), getClassHierarchyAsStream(clazz.getSuperclass()));
         }
     }
 
     /**
-     * Returns a mutable, ordered {@link Set} of the complete {@code interface} hierarchy of the given Java
-     * {@code type}.
+     * Returns a mutable, ordered {@link Set} of the complete {@code interface} hierarchy of the given Java interface.
      *
      * This method is {@code null} safe, meaning it returns an according empty set.
      *
-     * This method also returns an empty set if the given Java {@code type} is not a true {@code interface} but a
+     * This method also returns an empty set if the given Java interface is not a true {@code interface} but a
      * {@code class}.
      *
      * @see #getInterfaceHierarchyAsStream(Class)
      * @see #getClassHierarchy(Class)
      * @see #getTypeHierarchy(Class)
      *
-     * @param type
+     * @param interfaze
      *            the Java {@code interface} to query its interface hierarchy
      * @return the interface's hierarchy
-     *
-     * @since 4.12.2
      */
-    public static final LinkedHashSet<Class<?>> getInterfaceHierarchy(final Class<?> type) {
-        return getInterfaceHierarchyAsStream(type).collect(toCollection(LinkedHashSet::new));
+    public static final LinkedHashSet<Class<?>> getInterfaceHierarchy(final Class<?> interfaze) {
+        return getInterfaceHierarchyAsStream(interfaze).collect(toCollection(LinkedHashSet::new));
     }
 
     /**
@@ -169,19 +220,17 @@ public enum Reflection {
      * @see #getClassHierarchyAsStream(Class)
      * @see #getTypeHierarchyAsStream(Class)
      *
-     * @param type
+     * @param interfaze
      *            the Java {@code interface} to query its interface hierarchy
      * @return the interface's hierarchy
-     *
-     * @since 4.12.2
      */
-    public static final Stream<Class<?>> getInterfaceHierarchyAsStream(final Class<?> i) {
-        if (i == null) {
+    public static final Stream<Class<?>> getInterfaceHierarchyAsStream(final Class<?> interfaze) {
+        if (interfaze == null) {
             return empty();
-        } else if (!i.isInterface()) {
+        } else if (!interfaze.isInterface()) {
             return empty();
         } else {
-            return concat(Stream.of(i), stream(i.getInterfaces()).flatMap(x -> getInterfaceHierarchyAsStream(x)));
+            return concat(Stream.of(interfaze), stream(interfaze.getInterfaces()).flatMap(x -> getInterfaceHierarchyAsStream(x)));
         }
     }
 
@@ -204,8 +253,6 @@ public enum Reflection {
      * @param type
      *            the Java type to query its type hierarchy
      * @return the type's hierarchy
-     *
-     * @since 4.12.2
      */
     public static final LinkedHashSet<Class<?>> getTypeHierarchy(final Class<?> type) {
         return getTypeHierarchyAsStream(type).collect(toCollection(LinkedHashSet::new));
@@ -230,8 +277,6 @@ public enum Reflection {
      * @param type
      *            the Java type to query its class hierarchy
      * @return the type's hierarchy
-     *
-     * @since 4.12.2
      */
     public static final Stream<Class<?>> getTypeHierarchyAsStream(final Class<?> type) {
         if (type == null) {
@@ -290,23 +335,31 @@ public enum Reflection {
                     .collect(toSet());
     }
 
-    private static final int ALL_MODES = PUBLIC | PROTECTED | PACKAGE | PRIVATE;
+    /**
+     * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only for whatever reason.
+     */
+    private static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
 
+    /**
+     * If there is a security manager, this method requires {@code suppressAccessChecks} permission to execute without
+     * failure.
+     */
     public static final Lookup vicariousLookup(final Class<?> reference, final int... requiredAccesses)
     throws SecurityException {
         // either (1) use default access or (2) join access modes and remove illegal integer bits
         final int requiredAccess = requiredAccesses.length == 0 ? ALL_MODES : stream(requiredAccesses).reduce(0, (x, y) -> x | y) & ALL_MODES;
-        return modifyVicariousLookup(reference, requiredAccess);
-    }
-
-    private static final Lookup modifyVicariousLookup(final Class<?> reference, final int requiredAccess) {
         final Lookup lookup = lookup().in(reference);
         if ((lookup.lookupModes() & requiredAccess) == requiredAccess) {
             return lookup;
         } else {
             try {
                 final Field field = Lookup.class.getDeclaredField("allowedModes");
-                field.setAccessible(true);
+                assert isPrivate(field.getModifiers());
+                assert isFinal(field.getModifiers());
+                doPrivileged((PrivilegedAction<Void>) () -> {
+                    field.setAccessible(true);
+                    return null;
+                });
                 field.setInt(lookup, lookup.lookupModes() | requiredAccess);
                 return lookup;
             } catch (final NoSuchFieldException missing) {
@@ -315,68 +368,6 @@ public enum Reflection {
                 throw new RuntimeException("Java has been refactored and, now, the invoked field is inaccessible!", inaccessible);
             }
         }
-    }
-
-    private static final Lookup embodyVicariousLookup(final Class<?> reference, final int requiredAccess) {
-        assert reference != null;
-        assert (ALL_MODES & requiredAccess) == requiredAccess;
-        try {
-            final Constructor<Lookup> constructor = Lookup.class.getDeclaredConstructor(Class.class);
-            constructor.setAccessible(true);
-            final Lookup lookup = constructor.newInstance(reference);
-            assert lookup.lookupModes() == ALL_MODES : "Java has been refactored and, now, the invoked constructor behaves differently!";
-            return lookup;
-        } catch (final NoSuchMethodException missing) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is missing!", missing);
-        } catch (final IllegalAccessException inaccessible) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is inaccessible!", inaccessible);
-        } catch (final InstantiationException abstrct) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is part of an abstract class!", abstrct);
-        } catch (final InvocationTargetException impossible) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor behaves differently!", impossible);
-        }
-    }
-
-    private static final Lookup enforceVicariousLookup(final Class<?> reference, final int requiredAccess) {
-        assert reference != null;
-        assert (ALL_MODES & requiredAccess) == requiredAccess;
-        try {
-            final Constructor<Lookup> constructor = Lookup.class.getDeclaredConstructor(Class.class, int.class);
-            constructor.setAccessible(true);
-            final Lookup lookup = constructor.newInstance(reference, requiredAccess);
-            assert lookup.lookupModes() == requiredAccess : "Java has been refactored and, now, the invoked constructor behaves differently!";
-            return lookup;
-        } catch (final NoSuchMethodException missing) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is missing!", missing);
-        } catch (final IllegalAccessException inaccessible) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is inaccessible!", inaccessible);
-        } catch (final InstantiationException abstrct) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor is part of an abstract class!", abstrct);
-        } catch (final InvocationTargetException impossible) {
-            throw new RuntimeException("Java has been refactored and, now, the invoked constructor behaves differently!", impossible);
-        }
-    }
-
-    /**
-     * Returns a wrapping {@link InvocationHandler} that determines if the invoked proxy is assignable from the
-     * declaring class of the invoked method. In case determination fails, the invocation handler will throw an
-     * {@link IllegalArgumentException}.
-     *
-     * @apiNote The failure behaviour of the invocation handler is similar to {@link Method#invoke(Object, Object...)}
-     *          (and, notably, is different to {@link MethodHandle#bindTo(Object)}).
-     *
-     * @param nonchecking
-     *            the origin invocation handler which does not include assignable checks
-     * @return the wrapping invocation handler
-     */
-    public static final InvocationHandler checkAssignabilityFirst(final InvocationHandler nonchecking) {
-        final String NOT_INSTANCE = "Object of type '%s' is not an instance of invoked method's declaring class '%s'!";
-        return (proxy, method, args) -> {
-            if (!method.getDeclaringClass().isInstance(proxy)) {
-                throw new IllegalArgumentException(format(NOT_INSTANCE, proxy.getClass(), method.getDeclaringClass()));
-            }
-            return nonchecking.invoke(proxy, method, args);
-        };
     }
 
     /**
@@ -389,17 +380,22 @@ public enum Reflection {
      * @return the return value providing invocation handler
      */
     public static final InvocationHandler constantResult(final Supplier<?> factory) {
-        final String NOT_SUITABLE = "This InvocationHandler is not suitable for invoked void method '%s'!";
+        final String NOT_SUITABLE = "This InvocationHandler is not suitable for invoked 'void' method '%s'!";
         final String NOT_INSTANCE = "Supplied object of type '%s' is not an instance of invoked method's return type '%s'!";
         return (proxy, method, args) -> {
             final Class<?> returnType = method.getReturnType();
             if (Void.TYPE.equals(returnType)) {
+                // TODO: Do we need the type check barrier? Void methods do not harm (see: {@link
+                // InvocationTests#void_return_type_ignores_handler_result()}
                 throw new ClassCastException(format(NOT_SUITABLE, method));
             } else {
                 final Object result = factory.get();
                 if ((result == null) || returnType.isInstance(result)) {
                     return result;
                 } else {
+                    // TODO: Do we need the type check barrier? A ClassCastException will be thrown in any case (see:
+                    // {@link
+                    // InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
                     throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
                 }
             }
@@ -414,7 +410,7 @@ public enum Reflection {
      * @apiNote The returned invocation handler is aware of sub-types' methods overriding the given method. Any
      *          invocation of such sub-method will be dispatched too.
      *
-     * @param specific
+     * @param target
      *            the method to dispatch its invocation
      * @param handler
      *            the according specific invocation handler
@@ -422,12 +418,40 @@ public enum Reflection {
      *            the fall-back invocation handler
      * @return the wrapping invocation handler
      */
-    public static final InvocationHandler dispatch(final Method specific, final InvocationHandler handler, final InvocationHandler fallback) {
-        return (proxy, method, args) -> isAssignableFrom(specific, method) ? handler.invoke(proxy, specific, args) : fallback.invoke(proxy, specific, args);
+    public static final InvocationHandler dispatch(final Method target, final InvocationHandler handler, final InvocationHandler fallback) {
+        return (proxy, current, args) -> (isAssignableFrom(target, current) ? handler : fallback).invoke(proxy, current, args);
     }
 
+    /**
+     * Flag to indicate to skip the invocation of {@code abstract} methods.
+     *
+     * @see #ENFORCE_INVOCATION
+     *
+     * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
+     * @see #trySuperClassesFirst(InvocationHandler, boolean)
+     * @see #trySuperTypesFirst(InvocationHandler, boolean)
+     */
+    public static final boolean SKIP_ABSTRACT = false;
+
+    /**
+     * <p>
+     * Flag to indicate to enforce the invocation of {@code abstract} methods.
+     * </p>
+     *
+     * <p>
+     * <em>Note:</em> Invoking {@code abstract} methods causes an {@link AbstractMethodError} to be thrown.
+     * </p>
+     *
+     * @see #SKIP_ABSTRACT
+     *
+     * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
+     * @see #trySuperClassesFirst(InvocationHandler, boolean)
+     * @see #trySuperTypesFirst(InvocationHandler, boolean)
+     */
+    public static final boolean ENFORCE_INVOCATION = true;
+
     private static final Object trySuperTypeInvocation(final Object proxy, final Method method, final Object[] args, final Iterable<Class<?>> superTypes,
-                                                       final InvocationHandler fallback)
+                                                       final boolean invokeAbstract, final InvocationHandler fallback)
     throws IllegalAccessException, Throwable {
         for (final Class<?> superType : superTypes) {
             assert superType.isAssignableFrom(proxy.getClass()) : "Illegal Java type!";
@@ -440,20 +464,15 @@ public enum Reflection {
                     // alternatively, method may be declared
                     target = superType.getDeclaredMethod(method.getName(), method.getParameterTypes());
                 }
-                if (!isAbstract(target.getModifiers())) {
-                    if (method.getReturnType().isAssignableFrom(target.getReturnType())) {
-                        // [A] invokable and fully assignable method
-                        final Lookup lookup = vicariousLookup(superType);
-                        final MethodHandle handle = lookup.unreflectSpecial(target, superType);
-                        return handle.bindTo(proxy).invokeWithArguments(args);
-                    } else {
-                        // [B] non-assignable method
-                    }
-                } else {
-                    // [C] non-invokable method
+                if (method.getReturnType().isAssignableFrom(target.getReturnType()) && (!isAbstract(target.getModifiers()) || invokeAbstract)) {
+                    // [A] fully assignable method, either non-abstract or invocation enforced
+                    final Lookup lookup = vicariousLookup(superType);
+                    final MethodHandle handle = lookup.unreflectSpecial(target, superType);
+                    return handle.bindTo(proxy).invokeWithArguments(args);
                 }
+                // [B] non-assignable method or abstract method without enforced invocation
             } catch (final NoSuchMethodException noDeclaredMethod) {
-                // [D] no such method at all
+                // [C] no such method at all
             }
         }
         return fallback.invoke(proxy, method, args);
@@ -461,8 +480,7 @@ public enum Reflection {
 
     /**
      * Returns an {@link InvocationHandler} that tries to provide the invoked method by referring to the nearest
-     * non-{@code abstract} implementation of its super classes. In result it behaves similar to an implementation like
-     * this:
+     * implementation of its super classes. In result it behaves similar to an implementation like this:
      *
      * <pre class="brush:java">
      * [&hellip;]
@@ -472,18 +490,27 @@ public enum Reflection {
      * [&hellip;]
      * </pre>
      *
-     * @see Reflection#trySuperTypesFirst(InvocationHandler)
-     * @see Reflection#trySuperInterfacesFirst(InvocationHandler)
+     * Whether or not the {@code invokeAbstract} flag is set, even {@code abstract} super methods will be invoked. For
+     * sure, such invocation causes an {@link AbstractMethodError} to be thrown.
+     *
+     *
+     * @see #SKIP_ABSTRACT
+     * @see #ENFORCE_INVOCATION
+     *
+     * @see Reflection#trySuperTypesFirst(InvocationHandler, boolean)
+     * @see Reflection#trySuperInterfacesFirst(InvocationHandler, boolean)
      *
      * @param fallback
      *            the fall-back invocation handler
+     * @param invokeAbstract
+     *            whether or not to invoke an abstract super method
      * @return the wrapper invocation handler
      */
-    public static final InvocationHandler trySuperClassesFirst(final InvocationHandler fallback) {
+    public static final InvocationHandler trySuperClassesFirst(final InvocationHandler fallback, final boolean invokeAbstract) {
         return (proxy, method, args) -> {
-            final LinkedHashSet<Class<?>> types = Reflection.allClassesOf(proxy.getClass());
+            final LinkedHashSet<Class<?>> types = allClassesOf(proxy.getClass());
             types.remove(proxy.getClass());
-            return trySuperTypeInvocation(proxy, method, args, types, fallback);
+            return trySuperTypeInvocation(proxy, method, args, types, invokeAbstract, fallback);
         };
     }
 
@@ -500,19 +527,23 @@ public enum Reflection {
      * [&hellip;]
      * </pre>
      *
-     * @see Reflection#trySuperTypesFirst(InvocationHandler)
-     * @see trySuperClassesFirst
+     * @see #SKIP_ABSTRACT
+     * @see #ENFORCE_INVOCATION
+     *
+     * @see #trySuperTypesFirst(InvocationHandler, boolean)
+     * @see #trySuperClassesFirst(InvocationHandler, boolean)
      *
      * @param fallback
      *            the fall-back invocation handler
+     * @param invokeAbstract
+     *            whether or not to invoke an abstract super method
      * @return the wrapper invocation handler
      */
-    public static final InvocationHandler trySuperInterfacesFirst(final InvocationHandler fallback) {
+    public static final InvocationHandler trySuperInterfacesFirst(final InvocationHandler fallback, final boolean invokeAbstract) {
         return (proxy, method, args) -> {
-            final LinkedHashSet<Class<?>> types = Reflection.allInterfacesOf(proxy.getClass());
-            types.remove(proxy.getClass());
+            final LinkedHashSet<Class<?>> types = allInterfacesOf(proxy.getClass());
             types.removeAll(redundantTypes(types));
-            return trySuperTypeInvocation(proxy, method, args, types, fallback);
+            return trySuperTypeInvocation(proxy, method, args, types, invokeAbstract, fallback);
         };
     }
 
@@ -520,15 +551,20 @@ public enum Reflection {
      * Returns an {@link InvocationHandler} that tries to provide the invoked method by referring to the nearest
      * non-{@code abstract} implementation of its super types (either super classes or super interfaces).
      *
-     * @see trySuperClassesFirst
-     * @see trySuperInterfacesFirst
+     * @see #SKIP_ABSTRACT
+     * @see #ENFORCE_INVOCATION
+     *
+     * @see #trySuperClassesFirst(InvocationHandler, boolean)
+     * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
      *
      * @param fallback
      *            the fall-back invocation handler
+     * @param invokeAbstract
+     *            whether or not to invoke an abstract super method
      * @return the wrapper invocation handler
      */
-    public static final InvocationHandler trySuperTypesFirst(final InvocationHandler fallback) {
-        return trySuperClassesFirst(trySuperInterfacesFirst(fallback));
+    public static final InvocationHandler trySuperTypesFirst(final InvocationHandler fallback, final boolean invokeAbstract) {
+        return trySuperClassesFirst(trySuperInterfacesFirst(fallback, invokeAbstract), invokeAbstract);
     }
 
     /**
@@ -542,36 +578,9 @@ public enum Reflection {
      */
     public static final InvocationHandler fail(final Function<? super String, ? extends Throwable> constructor) {
         final String FAIL_PATTERN = "Missing invocation behaviour for instance of type '%s', method '%s', and arguments '%s'!";
-        return (obj, meth, args) -> {
-            throw constructor.apply(format(FAIL_PATTERN, obj.getClass(), meth, Arrays.toString(args)));
+        return (proxy, method, args) -> {
+            throw constructor.apply(format(FAIL_PATTERN, proxy.getClass(), method, Arrays.toString(args)));
         };
-    }
-
-    static final String SUT_METHOD = "createNewSUT";
-
-    static final Method reference;
-
-    static {
-        try {
-            reference = J8UnitTest.class.getMethod(SUT_METHOD);
-        } catch (final NoSuchMethodException | SecurityException unexpected) {
-            throw new ExceptionInInitializerError(unexpected);
-        }
-    }
-
-    public static final <SUT> InvocationHandler j8UnitTestInvocationHandler(final Supplier<SUT> factory) {
-        return checkAssignabilityFirst(trySuperTypesFirst(dispatch(reference, constantResult(factory), fail(IllegalStateException::new))));
-    }
-
-    public static final <SUT> InvocationHandler j8UnitTestInvocationHandler(final Callable<SUT> factory) {
-        final Supplier<SUT> sup = () -> {
-            try {
-                return factory.call();
-            } catch (final Exception e) {
-                throw new RuntimeException(e);
-            }
-        };
-        return j8UnitTestInvocationHandler(sup);
     }
 
 }
