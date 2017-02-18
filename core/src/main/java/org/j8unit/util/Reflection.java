@@ -25,8 +25,8 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.function.Supplier;
 import java.util.stream.Stream;
 import org.junit.runners.model.TestClass;
 
@@ -41,28 +41,48 @@ public enum Reflection {
 
     ;
 
-    /*
-     * TODO: Null-Check-Barriers
-     */
+    // TODO: Null-Check-Barriers
 
     /**
      * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is
-     * fail-safe, meaning it returns an {@linkplain Optional#empty() empty Optional} if the type cannot be located. The
-     * similar result is returned if the given {@code name} is {@code null} ({@code null}-safe).
+     * fail-safe, meaning it returns an {@linkplain Optional#empty() empty Optional} if the type cannot be located.
      *
+     * @see #classForName(String, Consumer)
      * @see Class#forName(String)
      *
      * @param name
      *            the fully qualified name of the desired {@code Class}
-     * @return an {@code Optional} of the {@code Class} object for the type with the specified name; an empty
+     * @return an {@code Optional} of the {@code Class} object for the type with the specified {@code name}; an empty
      *         {@code Optional} if the type cannot be located
      * @throws NullPointerException
      *             iff the given {@code name} is {@code null}
      */
     public static final Optional<Class<?>> classForName(final String name) {
+        return classForName(name, e -> {});
+    }
+
+    /**
+     * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is
+     * fail-safe, meaning it returns an {@linkplain Optional#empty() empty Optional} if the type cannot be located,
+     * whereas the according {@link ClassNotFoundException} is relayed to the given {@code handler}.
+     *
+     * @see #classForName(String, Consumer)
+     * @see Class#forName(String)
+     *
+     * @param name
+     *            the fully qualified name of the desired {@code Class}
+     * @param handler
+     *            the consumer of any missing {@code Class}
+     * @return an {@code Optional} of the {@code Class} object for the type with the specified {@code name}; an empty
+     *         {@code Optional} if the type cannot be located
+     * @throws NullPointerException
+     *             iff the given {@code name} is {@code null}
+     */
+    public static final Optional<Class<?>> classForName(final String name, final Consumer<? super ClassNotFoundException> handler) {
         try {
             return Optional.of(Class.forName(name));
-        } catch (final ClassNotFoundException | NullPointerException missing) {
+        } catch (final ClassNotFoundException missing) {
+            handler.accept(missing);
             return Optional.empty();
         }
     }
@@ -336,7 +356,7 @@ public enum Reflection {
     }
 
     /**
-     * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only for whatever reason.
+     * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only -- for whatever reason.
      */
     private static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
 
@@ -371,15 +391,15 @@ public enum Reflection {
     }
 
     /**
-     * Returns an {@link InvocationHandler} that immediately returns the value provided by the given {@code factory}. In
-     * case of an invoked {@code void} method, the invocation handler will throw a {@link ClassCastException}. Such
-     * exception is thrown similarly if the supplied value is not an instance of the invoked method's return type.
+     * Returns an {@link InvocationHandler} that immediately returns the given {@code result} object. In case of an
+     * invoked {@code void} method, the invocation handler will throw a {@link ClassCastException}. Such exception is
+     * thrown similarly if the {@code result} object is not an instance of the invoked method's return type.
      *
-     * @param factory
-     *            the return value factory
-     * @return the return value providing invocation handler
+     * @param result
+     *            the result object
+     * @return the invocation handler with a constant return behaviour
      */
-    public static final InvocationHandler constantResult(final Supplier<?> factory) {
+    public static final InvocationHandler constantResult(final Object result) {
         final String NOT_SUITABLE = "This InvocationHandler is not suitable for invoked 'void' method '%s'!";
         final String NOT_INSTANCE = "Supplied object of type '%s' is not an instance of invoked method's return type '%s'!";
         return (proxy, method, args) -> {
@@ -389,11 +409,10 @@ public enum Reflection {
                 // InvocationTests#void_return_type_ignores_handler_result()}
                 throw new ClassCastException(format(NOT_SUITABLE, method));
             } else {
-                final Object result = factory.get();
                 if ((result == null) || returnType.isInstance(result)) {
                     return result;
                 } else {
-                    // TODO: Do we need the type check barrier? A ClassCastException will be thrown in any case (see:
+                    // TODO: Do we need this type check barrier? A ClassCastException will be thrown in any case (see:
                     // {@link
                     // InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
                     throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
