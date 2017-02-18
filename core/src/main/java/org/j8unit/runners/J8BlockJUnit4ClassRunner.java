@@ -44,16 +44,15 @@ extends BlockJUnit4ClassRunner {
     }
 
     /**
-     * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
-     * </p>
      *
      * @param testClass
      *            the test class
-     * @return an {@linkplain J8TestClass extended test class model} of the given {@link Class}
+     * @return an extended test class model of the given {@code Class}
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
+        assert testClass != null;
         return new J8TestClass(testClass);
     }
 
