@@ -32,7 +32,7 @@ extends SpringJUnit4ClassRunner {
      * Constructs a new {@code J8SpringJUnit4ClassRunner} and initializes a {@link TestContextManager} to provide Spring
      * testing functionality to enhanced standard JUnit tests.
      * </p>
-     * 
+     *
      * @param clazz
      *            the test class to be run
      * @see #createTestContextManager(Class)
@@ -44,13 +44,11 @@ extends SpringJUnit4ClassRunner {
     }
 
     /**
-     * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
-     * </p>
-     * 
+     *
      * @param testClass
      *            the test class
-     * @return an {@linkplain J8TestClass extended test class model} of the given {@link Class}
+     * @return an extended test class model of the given {@code Class}
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
