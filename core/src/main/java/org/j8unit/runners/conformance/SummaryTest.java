@@ -3,12 +3,13 @@ package org.j8unit.runners.conformance;
 import java.util.List;
 import org.junit.AssumptionViolatedException;
 import org.junit.Test;
+import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.model.InitializationError;
 
 /**
  * This is a pseudo junit4 test that is used to report some {@link APIConformance} internals.
  *
- * This class does not provide a zero-arity constructor; thus, it must be utilised as a
+ * This class requires four {@link Parameter}s, thus, it must be used as a
  * {@link org.junit.runners.parameterized.TestWithParameters}.
  *
  * @see APIConformance.ClassTestsDiscovery#ignoreMissings()
@@ -20,25 +21,21 @@ import org.junit.runners.model.InitializationError;
  */
 public class SummaryTest {
 
-    private final List<? extends Throwable> missings;
+    @Parameter(0)
+    public List<? extends Throwable> missings;
 
-    private final boolean ignoreMissings;
+    @Parameter(1)
+    public boolean ignoreMissings;
 
-    private final List<? extends Throwable> malformeds;
+    @Parameter(2)
+    public List<? extends Throwable> malformeds;
 
-    private final boolean ignoreMalformeds;
-
-    public SummaryTest(final List<? extends Throwable> missings, final boolean ignoreMissings, final List<? extends Throwable> malformeds,
-                       final boolean ignoreMalformeds) {
-        this.missings = missings;
-        this.ignoreMissings = ignoreMissings;
-        this.malformeds = malformeds;
-        this.ignoreMalformeds = ignoreMalformeds;
-    }
+    @Parameter(3)
+    public boolean ignoreMalformeds;
 
     /**
      * <ul>
-     * <li>Returns without any further notice if {@link #missings} is empty.</li>
+     * <li>Returns immediately without any further notice if {@link #missings} is empty.</li>
      * <li>Throws an {@link AssumptionViolatedException} if {@link #missings} is not empty and {@link #ignoreMissings}
      * is {@code true}.</li>
      * <li>Throws an {@link InitializationError} if {@link #missings} is not empty and {@link #ignoreMissings} is
@@ -58,7 +55,7 @@ public class SummaryTest {
 
     /**
      * <ul>
-     * <li>Returns without any further notice if {@link #malformeds} is empty.</li>
+     * <li>Returns immediately without any further notice if {@link #malformeds} is empty.</li>
      * <li>Throws an {@link AssumptionViolatedException} if {@link #malformeds} is not empty and
      * {@link #ignoreMalformeds} is {@code true}.</li>
      * <li>Throws an {@link InitializationError} if {@link #malformeds} is not empty and {@link #ignoreMalformeds} is
