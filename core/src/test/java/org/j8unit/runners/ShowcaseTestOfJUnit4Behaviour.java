@@ -11,7 +11,7 @@ import org.junit.Test;
  * Since {@link #willFail()} will fail intentionally, the whole test is set to {@link Ignore}.
  */
 @Ignore
-public class SomeIndependendTests {
+public class ShowcaseTestOfJUnit4Behaviour {
 
     @Ignore
     @Test
