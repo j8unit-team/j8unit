@@ -69,6 +69,12 @@
           ]]>
           </top>
           <!-- Activate and customize SyntaxHighlighter features (at the bottom of each JavaDoc HTML file). -->
+          <additionalJOptions>
+            <!-- Due to the last Debian update, "javadoc" became more restrictive: -->
+            <!-- [ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:2.10.3:jar (attach-javadocs) on project core: MavenReportException: Error while generating Javadoc: -->
+            <!-- [ERROR] Exit code: 1 - javadoc: error - Argument for -footer contains JavaScript. -->
+            <additionalJOption>--allow-script-in-comments</additionalJOption>
+          </additionalJOptions>
           <footer><![CDATA[
             <script type="text/javascript">
               SyntaxHighlighter.defaults["auto-links"] = false;
