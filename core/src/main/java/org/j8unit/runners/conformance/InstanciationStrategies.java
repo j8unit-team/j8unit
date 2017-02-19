@@ -9,7 +9,7 @@ import java.util.function.BiPredicate;
 import org.junit.AssumptionViolatedException;
 
 /**
- * Utility enum (aka. helper class) providing instantiation strategies for unknown Java types.
+ * Enumeration of all &ndash;&nbsp;currently supported&nbsp;&ndash; strategies to instanciate unknown Java types.
  *
  * @since 4.12.2
  */
