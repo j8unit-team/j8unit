@@ -64,7 +64,7 @@ public enum Reflection {
     /**
      * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is
      * fail-safe, meaning it returns an {@linkplain Optional#empty() empty Optional} if the type cannot be located,
-     * whereas the according {@link ClassNotFoundException} is relayed to the given {@code handler}.
+     * whereas the according {@link ClassNotFoundException} is passed to the given {@code handler}.
      *
      * @see #classForName(String, Consumer)
      * @see Class#forName(String)

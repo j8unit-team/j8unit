@@ -15,7 +15,7 @@ public enum Functional {
     ;
 
     /**
-     * Returns a wrapper {@linkplain Predicate predicate} that, in addition to the origin predicate, relays any
+     * Returns a wrapper {@linkplain Predicate predicate} that, in addition to the origin predicate, passes any
      * non-matching argument to the given {@linkplain Consumer consumer}.
      *
      * @param predicate
