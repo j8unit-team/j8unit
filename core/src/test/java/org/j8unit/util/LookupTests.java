@@ -23,8 +23,8 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.internal.matchers.ThrowableMessageMatcher.hasMessage;
 import static org.junit.rules.ExpectedException.none;
-import static sun.invoke.util.VerifyAccess.isSamePackage;
-import static sun.invoke.util.VerifyAccess.isSamePackageMember;
+// import static sun.invoke.util.VerifyAccess.isSamePackage;
+// import static sun.invoke.util.VerifyAccess.isSamePackageMember;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.invoke.MethodType;
@@ -241,23 +241,23 @@ extends EmptyClass {
      * Testing {@code lookup()}, {@code lookup().in(...)}, and {@code vicariousLookup(...)}:
      */
 
-    @Test
-    public void proof_lookup_in_super_class_looses_private_and_protected_access()
-    throws Exception {
-        final Lookup myLookup = lookup();
-        assertEquals(LookupTests.class, myLookup.lookupClass());
-        verifyAllModes(myLookup);
-
-        assertEquals(EmptyClass.class, this.getClass().getSuperclass());
-        assertTrue(isSamePackage(LookupTests.class, EmptyClass.class));
-        assertFalse(isSamePackageMember(LookupTests.class, EmptyClass.class));
-
-        final Lookup lookup = myLookup.in(EmptyClass.class);
-        assertTrue(isPublic(lookup.lookupModes()));
-        assertFalse(isProtected(lookup.lookupModes()));
-        assertTrue(isPackage(lookup.lookupModes()));
-        assertFalse(isPrivate(lookup.lookupModes()));
-    }
+    // @Test
+    // public void proof_lookup_in_super_class_looses_private_and_protected_access()
+    // throws Exception {
+    // final Lookup myLookup = lookup();
+    // assertEquals(LookupTests.class, myLookup.lookupClass());
+    // verifyAllModes(myLookup);
+    //
+    // assertEquals(EmptyClass.class, this.getClass().getSuperclass());
+    // assertTrue(isSamePackage(LookupTests.class, EmptyClass.class));
+    // assertFalse(isSamePackageMember(LookupTests.class, EmptyClass.class));
+    //
+    // final Lookup lookup = myLookup.in(EmptyClass.class);
+    // assertTrue(isPublic(lookup.lookupModes()));
+    // assertFalse(isProtected(lookup.lookupModes()));
+    // assertTrue(isPackage(lookup.lookupModes()));
+    // assertFalse(isPrivate(lookup.lookupModes()));
+    // }
 
     @Test
     public void proof_vicarious_lookup_without_explicit_modes()
@@ -363,40 +363,40 @@ extends EmptyClass {
         verifyPublicAndPackageModes(lookup);
     }
 
-    @Test
-    public void verifyLookupInSuperClassHasNotAllModesAssumption()
-    throws Exception {
-        final Class<Bar> baseClass = Bar.class;
-        final Class<Foo> superClass = Foo.class;
+    // @Test
+    // public void verifyLookupInSuperClassHasNotAllModesAssumption()
+    // throws Exception {
+    // final Class<Bar> baseClass = Bar.class;
+    // final Class<Foo> superClass = Foo.class;
+    //
+    // assertTrue(isSamePackage(baseClass, superClass));
+    // assertFalse(isSamePackageMember(baseClass, superClass));
+    // Lookup lookup = Bar.getLookupInSuperClass();
+    // assertEquals(baseClass, lookup.lookupClass());
+    // lookup = lookup.in(baseClass.getSuperclass());
+    // assertEquals(superClass, lookup.lookupClass());
+    //
+    // verifyPublicAndPackageModes(lookup);
+    // }
 
-        assertTrue(isSamePackage(baseClass, superClass));
-        assertFalse(isSamePackageMember(baseClass, superClass));
-        Lookup lookup = Bar.getLookupInSuperClass();
-        assertEquals(baseClass, lookup.lookupClass());
-        lookup = lookup.in(baseClass.getSuperclass());
-        assertEquals(superClass, lookup.lookupClass());
-
-        verifyPublicAndPackageModes(lookup);
-    }
-
-    /**
-     * TODO: What is the difference between {@code isSamePackage(...)} and {@code isSamePackageMember(...)}?
-     */
-    @Test
-    public void verifyLookupInSuperClassHasNotAllModesAssumption2()
-    throws Exception {
-        final Class<?> baseClass = LookupTests.class;
-        final Class<?> superClass = EmptyClass.class;
-
-        assertTrue(isSamePackage(baseClass, superClass));
-        assertFalse(isSamePackageMember(baseClass, superClass));
-        Lookup lookup = lookup();
-        assertEquals(baseClass, lookup.lookupClass());
-        lookup = lookup.in(baseClass.getSuperclass());
-        assertEquals(superClass, lookup.lookupClass());
-
-        verifyPublicAndPackageModes(lookup);
-    }
+    // /**
+    // * TODO: What is the difference between {@code isSamePackage(...)} and {@code isSamePackageMember(...)}?
+    // */
+    // @Test
+    // public void verifyLookupInSuperClassHasNotAllModesAssumption2()
+    // throws Exception {
+    // final Class<?> baseClass = LookupTests.class;
+    // final Class<?> superClass = EmptyClass.class;
+    //
+    // assertTrue(isSamePackage(baseClass, superClass));
+    // assertFalse(isSamePackageMember(baseClass, superClass));
+    // Lookup lookup = lookup();
+    // assertEquals(baseClass, lookup.lookupClass());
+    // lookup = lookup.in(baseClass.getSuperclass());
+    // assertEquals(superClass, lookup.lookupClass());
+    //
+    // verifyPublicAndPackageModes(lookup);
+    // }
 
     @Test
     public void verifyLookupInJavaLangInvokePackageFails()
