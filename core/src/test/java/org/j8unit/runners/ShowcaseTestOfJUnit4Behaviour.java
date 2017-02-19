@@ -6,9 +6,11 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 /**
- * This is an example test class, simply used to understand the default behaviour of junit4.
+ * This is an example test class, simply used to understand the default behaviour of junit4 (i.&thinsp;e., see when and
+ * which message is printed).
  *
- * Since {@link #willFail()} will fail intentionally, the whole test is set to {@link Ignore}.
+ * Since {@link #willFail()} will fail intentionally, the whole test is set to {@link Ignore}. Remove annotation to get
+ * it running.
  */
 @Ignore
 public class ShowcaseTestOfJUnit4Behaviour {
