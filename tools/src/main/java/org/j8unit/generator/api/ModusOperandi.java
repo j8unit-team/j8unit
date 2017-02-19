@@ -18,7 +18,7 @@ import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Sets.merge;
 import static org.j8unit.generator.util.Sets.reduce;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestMatchingParents;
-import static org.j8unit.generator.util.TypeAnalysis.redundantTypes;
+import static org.j8unit.util.Reflection.redundantTypes;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;

@@ -17,6 +17,7 @@ import static org.j8unit.generator.util.Consumers.NOOP;
 import static org.j8unit.generator.util.Iterators.iterate;
 import static org.j8unit.generator.util.Maps.entry;
 import static org.j8unit.generator.util.Optionals.toStream;
+import static org.j8unit.util.Reflection.redundantTypes;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 import java.util.HashMap;
@@ -95,9 +96,9 @@ public enum TypeAnalysis {
      *            the entity to query its class hierarchy
      * @return an iterator of the given {@code entity}'s class hierarchy
      *
-     * @deprecated Use {@link org.j8unit.runners.model.J8TestClass#allClassesOf(Class)} or any of the similar methods.
-     *             Note, this method returns a singleton Iterator for any interface, whereas
-     *             {@link org.j8unit.runners.model.J8TestClass#allClassesOf(Class)} returns an empty set!
+     * @deprecated Use {@link org.j8unit.util.Reflection#allClassesOf(Class)} or any of the similar methods. Note, this
+     *             method returns a singleton Iterator for any interface, whereas
+     *             {@link org.j8unit.util.Reflection#allClassesOf(Class)} returns an empty set!
      */
     @Deprecated
     public static final Iterator<Class<?>> classHierarchy(final Class<?> entity) {
@@ -526,7 +527,7 @@ public enum TypeAnalysis {
      * <p>
      * <em>Important note</em>: After investigating the nearest parent nodes (see
      * {@link #calculateNearestMatchingParents(Class, Predicate, Consumer, Predicate, Consumer)}), this method skips all
-     * redundant parent nodes (see {@link #redundantTypes(Set)}) without any further notice.
+     * redundant parent nodes (see {@link org.j8unit.util.Reflection#redundantTypes(Set)}) without any further notice.
      *
      * After investigating the origin (grand*) parent types declaring the given method, this method skips all redundant
      * origin types. For example, if {@code L} extends {@code I} the execution for class {@code D} will return a map of
@@ -574,27 +575,6 @@ public enum TypeAnalysis {
                                                         .collect(toMap(Entry::getKey, valueMapper, valueMerger, HashMap::new));
         map.keySet().removeAll(redundantTypes(map.keySet()));
         return map;
-    }
-
-    /**
-     * Returns a subset of the given set of types containing all redundant types.
-     *
-     * @param types
-     *            the set of types to look at
-     * @return a subset of the given set of types containing all redundant types
-     */
-    public static final Set<Class<?>> redundantTypes(final Set<Class<?>> types) {
-        return types.stream()
-                    .filter(candidate -> types.stream()
-                                              // A {@code candidate} type is redundant in relation to a {@code
-                                              // reference} type if (a) it is assignable from that {@code reference} and
-                                              // (b) it is not equal to that {@code reference}. Further, (c) {@link
-                                              // Object} is not redundant if the {@code reference} is an {@code
-                                              // interface}.
-                                              .anyMatch(reference -> candidate.isAssignableFrom(reference) //
-                                                                     && !candidate.equals(reference) //
-                                                                     && !(candidate.equals(Object.class) && reference.isInterface())))
-                    .collect(toSet());
     }
 
 }

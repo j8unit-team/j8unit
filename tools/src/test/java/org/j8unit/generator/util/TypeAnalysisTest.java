@@ -11,8 +11,8 @@ import static org.j8unit.generator.util.TypeAnalysis.getDeclaredMethod;
 import static org.j8unit.generator.util.TypeAnalysis.getInterfaces;
 import static org.j8unit.generator.util.TypeAnalysis.getMethod;
 import static org.j8unit.generator.util.TypeAnalysis.getNearestMergingClass;
-import static org.j8unit.generator.util.TypeAnalysis.redundantTypes;
 import static org.j8unit.generator.util.TypeAnalysis.tryLoadClass;
+import static org.j8unit.util.Reflection.redundantTypes;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -24,19 +24,13 @@ import java.lang.reflect.Type;
 import java.nio.channels.AsynchronousByteChannel;
 import java.nio.channels.AsynchronousChannel;
 import java.nio.channels.AsynchronousSocketChannel;
-import java.text.StringCharacterIterator;
-import java.util.AbstractCollection;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.Queue;
 import java.util.Set;
-import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
-import java.util.concurrent.DelayQueue;
 import javax.lang.model.element.Name;
 import org.junit.Test;
 
@@ -487,46 +481,6 @@ public class TypeAnalysisTest {
         final Map<Class<?>, Set<Class<?>>> declarings = calculateNearestDeclaringParents(clazz, method, Objects::nonNull);
         assertEquals(new HashSet<>(asList(AsynchronousChannel.class)), declarings.keySet());
         assertEquals(new HashSet<>(asList(AsynchronousByteChannel.class)), declarings.get(AsynchronousChannel.class));
-    }
-
-    @Test
-    public void testRedundantTypesViaString()
-    throws Exception {
-        final Set<Class<?>> set = new HashSet<>(asList(String.class, Serializable.class, Object.class, Comparable.class, CharSequence.class, Cloneable.class));
-        final Set<Class<?>> redundant = redundantTypes(set);
-        assertNotNull(redundant);
-        assertEquals(new HashSet<>(asList(Serializable.class, Object.class, Comparable.class, CharSequence.class)), redundant);
-    }
-
-    @Test
-    public void testRedundantTypesViaStringPlusStringCharacterIterator()
-    throws Exception {
-        final Set<Class<?>> set = new HashSet<>(asList(String.class, StringCharacterIterator.class, Serializable.class, Object.class, Comparable.class,
-                                                       CharSequence.class, Cloneable.class));
-        final Set<Class<?>> redundant = redundantTypes(set);
-        assertNotNull(redundant);
-        assertEquals(new HashSet<>(asList(Serializable.class, Object.class, Comparable.class, CharSequence.class, Cloneable.class)), redundant);
-    }
-
-    @Test
-    public void testRedundantTypesViaDelayQueue()
-    throws Exception {
-        final Set<Class<?>> set = new HashSet<>(asList(DelayQueue.class, AbstractCollection.class, Cloneable.class, Object.class, Queue.class, Iterable.class,
-                                                       Serializable.class));
-        final Set<Class<?>> redundant = redundantTypes(set);
-        assertNotNull(redundant);
-        assertEquals(new HashSet<>(asList(AbstractCollection.class, Object.class, Queue.class, Iterable.class)), redundant);
-    }
-
-    @Test
-    public void testRedundantTypesViaBlockingQueue()
-    throws Exception {
-        // Only Interface types plus Object
-        final Set<Class<?>> set = new HashSet<>(asList(BlockingQueue.class, BlockingDeque.class, Cloneable.class, Object.class, Queue.class, Iterable.class,
-                                                       Serializable.class));
-        final Set<Class<?>> redundant = redundantTypes(set);
-        assertNotNull(redundant);
-        assertEquals(new HashSet<>(asList(BlockingQueue.class, Queue.class, Iterable.class)), redundant);
     }
 
 }
