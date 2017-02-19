@@ -1,4 +1,4 @@
-package org.j8unit.repository.java.lang;
+package some.reusable.j8unit.test.repository.java.lang;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -7,8 +7,8 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assume.assumeFalse;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
+import some.reusable.j8unit.test.repository.java.io.SerializableClassTests;
 
 @SuppressWarnings("rawtypes")
 public abstract interface EnumClassTests<SUT extends Enum>

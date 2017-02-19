@@ -1,4 +1,4 @@
-package org.j8unit.repository.java.lang;
+package some.reusable.j8unit.test.repository.java.lang;
 
 import org.j8unit.J8UnitTest;
 

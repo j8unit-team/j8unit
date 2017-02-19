@@ -1,4 +1,4 @@
-package org.j8unit.repository.java.time;
+package some.reusable.j8unit.test.repository.java.time;
 
 import static org.junit.Assert.assertEquals;
 import java.time.DayOfWeek;

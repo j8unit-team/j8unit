@@ -1,4 +1,4 @@
-package org.j8unit.repository.java.lang;
+package some.reusable.j8unit.test.repository.java.lang;
 
 import static org.junit.Assert.fail;
 import java.lang.reflect.Method;
