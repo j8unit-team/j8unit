@@ -53,7 +53,7 @@ extends CharSequence {
      */
     @Override
     public default CharSequence subSequence(final int start, final int end) {
-        return toString().subSequence(start, end);
+        return this.toString().subSequence(start, end);
     }
 
     /**
@@ -63,7 +63,7 @@ extends CharSequence {
      */
     @Override
     public default int length() {
-        return toString().length();
+        return this.toString().length();
     }
 
     /**
@@ -73,7 +73,7 @@ extends CharSequence {
      */
     @Override
     public default char charAt(final int index) {
-        return toString().charAt(index);
+        return this.toString().charAt(index);
     }
 
 }
