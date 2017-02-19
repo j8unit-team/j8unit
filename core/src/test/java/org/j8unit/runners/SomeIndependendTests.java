@@ -5,6 +5,7 @@ import static org.junit.Assume.assumeFalse;
 import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class SomeIndependendTests {
 
     @Ignore
