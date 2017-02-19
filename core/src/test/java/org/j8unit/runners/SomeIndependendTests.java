@@ -5,6 +5,11 @@ import static org.junit.Assume.assumeFalse;
 import org.junit.Ignore;
 import org.junit.Test;
 
+/**
+ * This is an example test class, simply used to understand the default behaviour of junit4.
+ *
+ * Since {@link #willFail()} will fail intentionally, the whole test is set to {@link Ignore}.
+ */
 @Ignore
 public class SomeIndependendTests {
 
