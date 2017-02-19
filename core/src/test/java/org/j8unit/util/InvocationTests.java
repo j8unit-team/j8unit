@@ -1,5 +1,6 @@
 package org.j8unit.util;
 
+import static java.lang.Boolean.TRUE;
 import static java.lang.ClassLoader.getSystemClassLoader;
 import static java.lang.reflect.Proxy.newProxyInstance;
 import static org.hamcrest.Matchers.startsWith;
@@ -36,7 +37,7 @@ public class InvocationTests {
         this.thrown.expect(ClassCastException.class);
         this.thrown.expectMessage("java.lang.Boolean cannot be cast to java.lang.String");
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> Boolean.TRUE);
+        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
         proxy.returnsSomeString();
     }
@@ -47,7 +48,7 @@ public class InvocationTests {
         this.thrown.expect(ClassCastException.class);
         this.thrown.expectMessage("Supplied object of type 'class java.lang.Boolean' is not an instance of invoked method's return type 'class java.lang.String'!");
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(() -> Boolean.TRUE));
+        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
         proxy.returnsSomeString();
     }
@@ -55,7 +56,7 @@ public class InvocationTests {
     @Test
     public void void_return_type_ignores_handler_result()
     throws Exception {
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> Boolean.TRUE);
+        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
         proxy.noop();
     }
 
@@ -65,7 +66,7 @@ public class InvocationTests {
         this.thrown.expect(ClassCastException.class);
         this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.Whatever.noop()'!");
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(() -> Boolean.TRUE));
+        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
         proxy.noop();
     }
 
@@ -76,7 +77,7 @@ public class InvocationTests {
     @Test
     public void test_constantResult_with_valid_string()
     throws Exception {
-        final InvocationHandler handler = constantResult("Hello World!"::toString);
+        final InvocationHandler handler = constantResult("Hello World!");
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         final String actual = proxy.returnsSomeString();
         assertEquals("Hello World!", actual);
@@ -87,7 +88,7 @@ public class InvocationTests {
     @Test
     public void test_constantResult_with_null()
     throws Exception {
-        final InvocationHandler handler = constantResult(() -> null);
+        final InvocationHandler handler = constantResult(null);
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         final String actual = proxy.returnsSomeString();
         assertNull(actual);
@@ -102,11 +103,11 @@ public class InvocationTests {
     @Test
     public void test_dispatch_with_valid_fallback()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final Method methodA = Whatever.class.getMethod("returnsSomeString");
-        final InvocationHandler dispatchA = dispatch(methodA, constantResult("Result of #returnsSomeString()"::toString), fallback);
+        final InvocationHandler dispatchA = dispatch(methodA, constantResult("Result of #returnsSomeString()"), fallback);
         final Method methodB = Whatever.class.getMethod("returnsSomeOtherString");
-        final InvocationHandler dispatchB = dispatch(methodB, constantResult("Result of #returnsSomeOtherString()"::toString), dispatchA);
+        final InvocationHandler dispatchB = dispatch(methodB, constantResult("Result of #returnsSomeOtherString()"), dispatchA);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, dispatchB);
         final String actualA = proxy.returnsSomeString();
@@ -126,7 +127,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperInterfacesFirst_with_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -143,7 +144,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperInterfacesFirst_with_enforced_invocation2()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
 
         final WhateverSubAB proxy = (WhateverSubAB) newProxyInstance(getSystemClassLoader(), new Class<?>[] { WhateverSubAB.class }, handler);
@@ -163,7 +164,7 @@ public class InvocationTests {
         this.thrown.expect(AbstractMethodError.class);
         this.thrown.expectMessage("org.j8unit.util.Whatever.abstractStringReturn()String/invokeInterface");
 
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -173,7 +174,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperInterfacesFirst_without_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, SKIP_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -190,7 +191,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperInterfacesFirst_and_skip_abstract_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, SKIP_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -205,7 +206,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperClassesFirst_with_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperClassesFirst(fallback, ENFORCE_INVOCATION);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -222,7 +223,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperClassesFirst_without_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperClassesFirst(fallback, SKIP_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -243,7 +244,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperTypesFirst_with_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_INVOCATION);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -263,7 +264,7 @@ public class InvocationTests {
         this.thrown.expect(AbstractMethodError.class);
         this.thrown.expectMessage("org.j8unit.util.Whatever.abstractStringReturn()String/invokeInterface");
 
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_INVOCATION);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -273,7 +274,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperTypesFirst_without_enforced_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperTypesFirst(fallback, SKIP_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
@@ -290,7 +291,7 @@ public class InvocationTests {
     @Test
     public void test_trySuperTypesFirst_and_skip_abstract_invocation()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value"::toString);
+        final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperTypesFirst(fallback, SKIP_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);

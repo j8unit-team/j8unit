@@ -42,6 +42,7 @@ import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.model.TestClass;
 
@@ -62,11 +63,11 @@ extends EmptyClass {
         assertEquals(Optional.empty(), missing);
     }
 
-    @Test
+    @Ignore("Add null barrier and run test")
+    @Test(expected = IllegalArgumentException.class)
     public void testClassForNullMisses()
     throws Exception {
-        final Optional<Class<?>> missing = Reflection.classForName(null);
-        assertEquals(Optional.empty(), missing);
+        Reflection.classForName(null);
     }
 
     /**
