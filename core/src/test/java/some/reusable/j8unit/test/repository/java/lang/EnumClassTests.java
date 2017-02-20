@@ -8,11 +8,10 @@ import static org.junit.Assume.assumeFalse;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import org.junit.Test;
-import some.reusable.j8unit.test.repository.java.io.SerializableClassTests;
 
 @SuppressWarnings("rawtypes")
 public abstract interface EnumClassTests<SUT extends Enum>
-extends ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     @Test
     public default void isEnumMustReturnTrue()

@@ -730,7 +730,8 @@ extends Suite {
         final Stream<Class<?>> typeHierarchy = getTypeHierarchyAsStream(candidate);
         final Stream<Class<?>> discoveredTestTypes = typeHierarchy.flatMap(t -> strategy.apply(t, missingsHandler).stream());
         final Stream<Class<?>> discoveredInterfaceTypes = discoveredTestTypes.filter(consumeFalse(Class::isInterface, invalidsHandler::accept));
-        return discoveredInterfaceTypes.collect(toCollection(LinkedHashSet::new));
+        final Stream<Class<?>> discoveredPureInterfaceTypes = discoveredInterfaceTypes.filter(consumeFalse(c -> !c.isAnnotation(), invalidsHandler::accept));
+        return discoveredPureInterfaceTypes.collect(toCollection(LinkedHashSet::new));
     }
 
     /**
