@@ -478,7 +478,7 @@ extends Suite {
      * @throws InitializationError
      *             if one or more problems encountered while initializing this suite test runner
      */
-    public APIConformance(final Class<?> suiteClass)
+    public APIConformance(final Class<?> suiteClass /* , final RunnerBuilder builder */)
     throws InitializationError {
         super(suiteClass, emptyList(/* this parent-runner will discover its own nested runners */));
         for (final Class<?> candidate : getAPIConformanceCandidates(suiteClass)) {
