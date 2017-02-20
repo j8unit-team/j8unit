@@ -1,5 +1,6 @@
 package org.j8unit.runners.conformance;
 
+import static java.lang.reflect.Modifier.isAbstract;
 import static java.lang.reflect.Modifier.isStatic;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -67,19 +68,21 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
     },
 
     /**
-     * In case some given Java type contains provides a default (zero-arity) constructor, this instantiation strategy
-     * appends an invocation of this constructor.
+     * In case some given non-{@code abstract} Java type contains provides a default (zero-arity) constructor, this
+     * instantiation strategy appends an invocation of this constructor.
      */
     DEFAULT_CONSTRUCTOR {
 
         @Override
         public final boolean test(final Class<?> candidate, final Map<? super String, ? super Callable<?>> instanciations) {
-            assert candidate != null;
-            assert instanciations != null;
-            try {
-                final Callable<?> construction = candidate.getConstructor()::newInstance;
-                instanciations.put(candidate.getSimpleName() + "()", construction);
-            } catch (final NoSuchMethodException missing) {}
+            if (!isAbstract(candidate.getModifiers())) {
+                assert candidate != null;
+                assert instanciations != null;
+                try {
+                    final Callable<?> construction = candidate.getConstructor()::newInstance;
+                    instanciations.put(candidate.getSimpleName() + "()", construction);
+                } catch (final NoSuchMethodException missing) {}
+            }
             return TRY_SOME_OTHER_STRATEGY;
         }
 
