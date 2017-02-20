@@ -544,7 +544,6 @@ extends Suite {
     InitializationError {
         assert suiteClass != null;
         assert candidate != null;
-        final int index = ++this.counter;
         // create proxy
         final List<Throwable> missings = new ArrayList<>();
         final Consumer<ClassNotFoundException> missingsHandler = missings::add;
@@ -557,6 +556,7 @@ extends Suite {
         final Callable<Class<?>> sutFactory = () -> candidate;
         final InvocationHandler handler = adHocInvocationHandler(sutFactory);
         // create parameterised test
+        final int index = ++this.counter;
         final String name = testName(index, discovery.name(), candidate.getName());
         final TestClass testClass = this.createTestClass(proxy);
         final TestWithParameters test = new TestWithParameters("[" + name + "]", testClass, asList(handler));
@@ -614,7 +614,6 @@ extends Suite {
     InitializationError {
         assert suiteClass != null;
         assert candidate != null;
-        final int index = ++this.counter;
         // create proxy
         final List<Throwable> missings = new ArrayList<>();
         final Consumer<ClassNotFoundException> missingsHandler = missings::add;
@@ -628,6 +627,7 @@ extends Suite {
             final Callable<?> sutFactory = instanciation.getValue();
             final InvocationHandler handler = adHocInvocationHandler(sutFactory);
             // create parameterised test
+            final int index = ++this.counter;
             final String name = testName(index, discovery.name(), candidate.getName(), instanciation.getKey());
             final TestClass testClass = this.createTestClass(proxy);
             final TestWithParameters test = new TestWithParameters("[" + name + "]", testClass, asList(handler));
