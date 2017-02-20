@@ -33,6 +33,8 @@ public class SummaryTest {
     @Parameter(3)
     public boolean ignoreMalformeds;
 
+    static final String UNDISCOVERABLE = "Some of the expected J8Unit test interfaces could not be discovered!";
+
     /**
      * <ul>
      * <li>Returns immediately without any further notice if {@link #missings} is empty.</li>
@@ -46,12 +48,13 @@ public class SummaryTest {
     public void exploreJ8UnitTestInterfaces()
     throws Exception {
         if (!this.missings.isEmpty()) {
-            final String msg = "Some of the expected J8Unit test interfaces could not be discovered!";
-            final Exception failure = this.ignoreMissings ? new AssumptionViolatedException(msg) : new InitializationError(msg);
+            final Exception failure = this.ignoreMissings ? new AssumptionViolatedException(UNDISCOVERABLE) : new InitializationError(UNDISCOVERABLE);
             this.missings.forEach(failure::addSuppressed);
             throw failure;
         }
     }
+
+    static final String NONINSTANCIATABLE = "Some of the expected J8Unit test interfaces could not be instantiated!";
 
     /**
      * <ul>
@@ -66,8 +69,7 @@ public class SummaryTest {
     public void instanciateJ8UnitTestInterfaces()
     throws Exception {
         if (!this.malformeds.isEmpty()) {
-            final String msg = "Some of the expected J8Unit test interfaces could not be discovered!";
-            final Exception failure = this.ignoreMalformeds ? new AssumptionViolatedException(msg) : new InitializationError(msg);
+            final Exception failure = this.ignoreMalformeds ? new AssumptionViolatedException(NONINSTANCIATABLE) : new InitializationError(NONINSTANCIATABLE);
             this.malformeds.forEach(failure::addSuppressed);
             throw failure;
         }

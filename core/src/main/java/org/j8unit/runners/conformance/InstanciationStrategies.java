@@ -30,7 +30,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
                 final Enum<?>[] constants = (Enum<?>[]) candidate.getEnumConstants();
                 if (constants.length == 0) {
                     final Callable<?> factory = () -> {
-                        throw new AssumptionViolatedException("Skipping this test because the current enum-under-test does not provide any enum constant!");
+                        throw new AssumptionViolatedException(EMPTY_ENUM);
                     };
                     instanciations.put("...", factory);
                 } else {
@@ -96,7 +96,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
             assert instanciations != null;
             if (instanciations.isEmpty()) {
                 final Callable<?> factory = () -> {
-                    throw new AssumptionViolatedException("Skipping this test because j8unit does cannot find any way to create/receive an instance of the current class-under-test!");
+                    throw new AssumptionViolatedException(UNSUPPORTED_TYPE);
                 };
                 instanciations.put("...", factory);
             }
@@ -104,6 +104,10 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
         }
 
     };
+
+    static final String EMPTY_ENUM = "Skipping this test because the current enum-under-test does not provide any enum constant!";
+
+    static final String UNSUPPORTED_TYPE = "Skipping this test because j8unit does cannot find any way to create/receive an instance of the current class-under-test!";
 
     /**
      * Return this value if no further instanciation strategy should be used.
