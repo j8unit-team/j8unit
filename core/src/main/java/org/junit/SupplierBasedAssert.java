@@ -3,6 +3,7 @@ package org.junit;
 import static java.lang.Math.abs;
 import java.util.Objects;
 import java.util.function.Supplier;
+import org.hamcrest.Matcher;
 
 /**
  * <p>
@@ -501,7 +502,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -521,7 +522,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -541,7 +542,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -584,7 +585,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
@@ -627,7 +628,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
@@ -647,7 +648,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -667,7 +668,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -687,7 +688,7 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
@@ -707,8 +708,35 @@ extends Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
-        // TODO: Provide implementation which requests the supplied fail message only if the assertion fails
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
+    }
+
+    /**
+     * Similar to {@link Assert#assertThat(String, Object, Matcher)}, but uses a supplied reason message which
+     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
+     * until really needed.
+     *
+     * @see org.hamcrest.CoreMatchers
+     * @see org.hamcrest.MatcherAssert
+     *
+     * @param reason
+     *            the supplied additional information about the error ({@code null} will be ignored without any further
+     *            notice)
+     * @param <T>
+     *            the static type accepted by the matcher (this can flag obvious compile-time problems such as
+     *            {@code assertThat(1, is("a"))}
+     * @param actual
+     *            the computed value being compared
+     * @param matcher
+     *            an expression, built of {@link Matcher}s, specifying allowed values
+     * @throws AssertionError
+     *             iff the assertion fails
+     */
+    public static <T> void assertThat(final Supplier<? extends String> reason, final T actual, final Matcher<? super T> matcher)
+    throws AssertionError {
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
+        assertThat(resolve(reason), actual, matcher);
     }
 
 }

@@ -57,7 +57,7 @@ public enum Sets {
     }
 
     /**
-     * TODO: JavDoc
+     * TODO (Issue #39): JavDoc
      */
     @SafeVarargs
     public static final <T> Set<T> reduce(final Set<? extends T> origin, final T... subtractionals) {
@@ -65,7 +65,7 @@ public enum Sets {
     }
 
     /**
-     * TODO: JavDoc
+     * TODO (Issue #39): JavDoc
      */
     public static final <T> Set<T> reduce(final Set<? extends T> origin, final Collection<? extends T> subtractionals) {
         return origin.stream().filter(e -> !subtractionals.contains(e)).collect(toSet());

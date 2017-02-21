@@ -106,6 +106,9 @@ public abstract interface J8UnitTest<SUT> {
      * looking at the visible elements only.
      * </p>
      *
+     * TODO: {@link java.util.concurrent.Callable}?: JavaDoc reference to {@link FactoryBasedJ8UnitTest} in case of an
+     * exception throwing factory.
+     *
      * @return a new subject-under-test
      */
     public abstract SUT createNewSUT();

@@ -18,7 +18,7 @@ import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Sets.merge;
 import static org.j8unit.generator.util.Sets.reduce;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestMatchingParents;
-import static org.j8unit.generator.util.TypeAnalysis.redundantTypes;
+import static org.j8unit.util.Reflection.redundantTypes;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;
@@ -104,8 +104,8 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
             return out.toString();
         }
 
-        // TODO: Is used in conjunction with {@link FactoryBasedJ8UnitTest}. Thus, it cannot be used generalised. Do we
-        // have a problem?
+        // TODO (Issue #43): Is used in conjunction with {@link FactoryBasedJ8UnitTest}. Thus, it cannot be used
+        // generalised.
         @Override
         public final String specificTestInterfaceBody(final Class<?> type, final int depth, final OriginRenderer renderer) {
             requireNonNull(type);
@@ -251,8 +251,7 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
         requireNonNull(control);
         requireNonNull(renderer);
         final Map<Class<?>, ? extends Type> parents = calculateNearestMatchingParents(type, control::useType);
-        // TODO: Skip removing redundant types? In result (that is the current situation), the j8unit tests are smaller
-        // -- but they do not represent the complete extends/implements declaration of the type-under-test.
+        // TODO (Issue #41): Skip removing redundant types?
         parents.keySet().removeAll(redundantTypes(parents.keySet()));
         if (parents.isEmpty()) {
             return singletonList(renderer.originCanonicalNameOf(this.accessScope.getBaseJ8UnitInterfaceType()) + diamond(SUT));
