@@ -16,10 +16,10 @@ package org.j8unit;
  * public class MyTest {
  *
  *     static enum FailMessages
- *     implements StringBasedCharSequence {
+ *     implements ToStringBasedCharSequence {
  *         NULL("illegal null string"),
  *         LENGTH("string has illegal length"),
- *         INVALID("malformed java identifier string"),
+ *         INVALID("malformed java identifier string");
  *         // ... FURTHER FAIL MESSAGES HERE ...;
  *
  *         private final String msg;
@@ -42,7 +42,7 @@ package org.j8unit;
  *
  * @since 4.12.1
  */
-public abstract interface StringBasedCharSequence
+public abstract interface ToStringBasedCharSequence
 extends CharSequence {
 
     /**
@@ -53,7 +53,7 @@ extends CharSequence {
      */
     @Override
     public default CharSequence subSequence(final int start, final int end) {
-        return toString().subSequence(start, end);
+        return this.toString().subSequence(start, end);
     }
 
     /**
@@ -63,7 +63,7 @@ extends CharSequence {
      */
     @Override
     public default int length() {
-        return toString().length();
+        return this.toString().length();
     }
 
     /**
@@ -73,7 +73,7 @@ extends CharSequence {
      */
     @Override
     public default char charAt(final int index) {
-        return toString().charAt(index);
+        return this.toString().charAt(index);
     }
 
 }

@@ -17,7 +17,7 @@ extends BasicTestInterfaceStatements {
      * <p>
      * Returns the definition statements of the super types of some specific j8unit test interface corresponding the
      * given {@link Class type}. Any specific implementation may drop all (or only some) of the
-     * {@linkplain org.j8unit.generator.util.TypeAnalysis#redundantTypes(java.util.Set) redundant} super types (see
+     * {@linkplain org.j8unit.util.Reflection#redundantTypes(java.util.Set) redundant} super types (see
      * {@link org.j8unit.generator.util.TypeAnalysis#calculateNearestMatchingParents(Class, java.util.function.Predicate)}
      * and {@link GeneratorUseControler#useType(Class)}).
      * </p>

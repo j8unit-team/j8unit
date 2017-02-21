@@ -43,7 +43,7 @@ public enum TestParametersUtil {
      * @return a list of the subject-under-test {@code instances}
      */
     @SafeVarargs
-    public static final <T> List<? extends T> testParametersOf(final T... instances) {
+    public static final <T> List<T> testParametersOf(final T... instances) {
         return asList(instances);
     }
 
@@ -75,7 +75,7 @@ public enum TestParametersUtil {
      * @return a list of the subject-under-test instance {@code factories}
      */
     @SafeVarargs
-    public static final <T> List<? extends Callable<T>> testParametersOf(final Callable<T>... factories) {
+    public static final <T> List<Callable<T>> testParametersOf(final Callable<T>... factories) {
         return asList(factories);
     }
 
@@ -86,7 +86,7 @@ public enum TestParametersUtil {
      *            the given {@code enum} type
      * @return a list of the subject-under-test instances (actually all {@code enum}'s elements)
      */
-    public static final <E extends Enum<E>> List<? extends E> testParametersOfEnumClass(final Class<E> type) {
+    public static final <E extends Enum<E>> List<E> testParametersOfEnumClass(final Class<E> type) {
         assert type.isEnum();
         return asList(type.getEnumConstants());
     }

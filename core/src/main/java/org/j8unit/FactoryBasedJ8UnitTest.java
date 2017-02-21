@@ -45,8 +45,8 @@ extends J8UnitTest<SUT> {
      * <pre class="brush:java">
      * try {
      *     return this.getSUTFactory().call();
-     * } catch (final AssumptionViolatedException assumption) {
-     *     throw assumption;
+     * } catch (final AssumptionViolatedException violation) {
+     *     throw violation;
      * } catch (final Exception any) {
      *     throw new AssertionError("Failed to create new subject-under-test instance!", any);
      * }
@@ -61,8 +61,8 @@ extends J8UnitTest<SUT> {
             final SUT sut = factory.call();
             assert sut != null;
             return sut;
-        } catch (final AssumptionViolatedException assumption) {
-            throw assumption;
+        } catch (final AssumptionViolatedException violation) {
+            throw violation;
         } catch (final Exception any) {
             throw new AssertionError("Failed to create new subject-under-test instance!", any);
         }

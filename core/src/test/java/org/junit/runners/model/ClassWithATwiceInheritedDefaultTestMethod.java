@@ -1,0 +1,7 @@
+package org.junit.runners.model;
+
+public class ClassWithATwiceInheritedDefaultTestMethod
+extends ClassWithADirectlyInheritedDefaultTestMethod
+implements InterfaceWithADirectlyInheritedDefaultTestMethod {
+
+}

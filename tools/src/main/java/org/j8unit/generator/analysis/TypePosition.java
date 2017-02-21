@@ -91,7 +91,8 @@ implements Mismatcher<Class<?>> {
      */
     private final Predicate<Class<?>> predicate;
 
-    // TODO: What can we do with the nesting-kind information? Most probably, there are fancy ideas out there ...
+    // TODO (Issue #37): What can we do with the nesting-kind information? Most probably, there are fancy ideas out
+    // there ...
     @SuppressWarnings("unused")
     private final NestingKind kind;
 

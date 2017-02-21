@@ -4,7 +4,7 @@
  * extension of {@code org.junit.runners.model}' classes.
  *
  * In detail, this package contains the indispensable extension of {@link org.junit.runners.model.TestClass} in order to
- * support awareness of {@code default} methods. Unfortunately, JUnit does not provide injection of the class model to
+ * support awareness of {@code default} methods. Unfortunately, JUnit4 does not provide injection of the class model to
  * be used; Thus, you have to specify an according test runner when running J8Unit tests.
  * </p>
  *
