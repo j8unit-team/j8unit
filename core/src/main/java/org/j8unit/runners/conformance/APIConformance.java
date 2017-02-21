@@ -393,7 +393,6 @@ extends Suite {
     @ClassTestsDiscovery
     @InstanceTestsDiscovery
     private static enum DummyWithDefaultAnnotations {
-
     }
 
     /**
