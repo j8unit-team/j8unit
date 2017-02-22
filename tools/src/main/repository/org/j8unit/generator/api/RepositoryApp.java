@@ -11,6 +11,7 @@ import static org.j8unit.generator.api.LoggingMessagesKeys.FINISH_GENERATOR;
 import static org.j8unit.generator.api.LoggingMessagesKeys.LOGGING_MESSAGES_BUNDLE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.START_GENERATOR;
 import static org.j8unit.generator.api.RepositoryPackageInfo.J8UNIT_REPOSITORY_PACKAGE_INFO;
+import static org.j8unit.generator.api.SuiteRunners.APIConformanceRunner;
 import static org.j8unit.generator.util.Logger.getLogger;
 import static org.j8unit.generator.util.Logging.configureJavaLogging;
 import java.io.IOException;
@@ -47,6 +48,11 @@ public enum RepositoryApp {
                                                                        .doTestClassNamingWith("", false, "ClassTest") //
                                                                        .build();
 
+    public static final GeneratorSetup API_CONFORMANCE_SUITE_SETUP = GeneratorSetup.similarTo(INSTANCE_TESTS_SETUP) //
+                                                                                  .intoTargetFolder("../repository/src/test/java") //
+                                                                                  .doTestClassNamingWith("", false, "Test") //
+                                                                                  .build();
+
     public static void main(final String[] args)
     throws Exception {
         configureJavaLogging();
@@ -81,6 +87,11 @@ public enum RepositoryApp {
             LOG.info(START_GENERATOR, TYPE_TEST_EXECUTION, root);
             generateCode(TYPE_TEST_EXECUTION, typeTestSetup, typeRepoSetup);
             LOG.info(FINISH_GENERATOR, TYPE_TEST_EXECUTION, root);
+            // J8Unit Repository's Execution (APIConformance)
+            final GeneratorSetup apiConformanceSuiteSetup = similarTo(API_CONFORMANCE_SUITE_SETUP).forJavaPackage(root).build();
+            LOG.info(START_GENERATOR, APIConformanceRunner, root);
+            generateCode(APIConformanceRunner, apiConformanceSuiteSetup, instanceRepoSetup);
+            LOG.info(FINISH_GENERATOR, APIConformanceRunner, root);
         }
     }
 
@@ -92,6 +103,13 @@ public enum RepositoryApp {
     private static void generateCode(final J8UnitCodeGenerator generator, final GeneratorSetup setup, final GeneratorSetup complementarySetup)
     throws IOException {
         setup.exploreOriginTypes().forEach(t -> generator.generateSourceFile(t, setup, setup, complementarySetup));
+    }
+
+    private static void generateCode(final J8UnitSuiteCodeGenerator generator, final GeneratorSetup setup, final GeneratorSetup complementarySetup)
+    throws IOException {
+        for (final Package pakkage : setup.exploreOriginPackages()) {
+            generator.generateSourceFile(setup.exploreOriginTypes(pakkage), setup, setup, complementarySetup);
+        }
     }
 
 }
