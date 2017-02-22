@@ -117,6 +117,24 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     }
 
     /**
+     * Returns a {@linkplain Set set} of all Java {@linkplain Class types} of the given {@linkplain Package package}
+     * according to {@link #originLocation}, {@link #originRootPackage}, and {@link #subPackageRecursion}.
+     *
+     * @return a set of all Java types of the given package according to {@link #originLocation},
+     *         {@link #originRootPackage}, and {@link #subPackageRecursion}
+     * @throws MissingCompilerException
+     *             if the currently running Java platform does not provide a Java programming language compiler
+     * @throws IOException
+     *             if an I/O error occurred
+     */
+    public final Set<Class<?>> exploreOriginTypes(final Package pakkage)
+    throws MissingCompilerException, IOException {
+        return this.exploreOriginTypes().stream() //
+                   .filter(t -> pakkage.equals(t.getPackage())) //
+                   .collect(toSet());
+    }
+
+    /**
      * Returns a {@linkplain Set set} of all Java {@linkplain Package packages} according to {@link #originLocation},
      * {@link #originRootPackage}, and {@link #subPackageRecursion}.
      *
@@ -167,6 +185,14 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
             final String packageName = ofOptional(this.targetPackageFor(pakkage)).orEmpty();
             return Paths.get(this.targetRootFolder, splitPattern.split(packageName)).toAbsolutePath().normalize();
         }
+    }
+
+    @Override
+    public Path targetSuiteFor(final Package pakkage) {
+        requireNonNull(pakkage);
+        final Path folder = this.targetFolderFor(pakkage);
+        final Path path = folder.resolve("APIConformanceTests" + JAVA_FILE_EXTENSION);
+        return path;
     }
 
     /**

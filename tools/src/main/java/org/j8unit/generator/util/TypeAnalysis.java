@@ -113,6 +113,13 @@ public enum TypeAnalysis {
     }
 
     /**
+     * TODO: JavaDoc!
+     */
+    public static final Stream<Class<?>> scopedTypes(final Set<Class<?>> entities) {
+        return entities.stream().flatMap(TypeAnalysis::scopedTypes);
+    }
+
+    /**
      * <p>
      * Returns all interfaces (plus each's corresponding type) implemented by the given {@linkplain Class Java type}.
      *

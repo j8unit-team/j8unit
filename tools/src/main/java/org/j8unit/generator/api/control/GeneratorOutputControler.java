@@ -47,6 +47,11 @@ public abstract interface GeneratorOutputControler {
     }
 
     /**
+     * TODO
+     */
+    public abstract Path targetSuiteFor(final Package pakkage);
+
+    /**
      * <p>
      * Returns {@code true} if the target file(s) of some generated test-code (according to the given origin
      * {@linkplain Package package}) can be overwritten in case it already exists; returns {@code false} otherwise.
