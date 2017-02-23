@@ -108,6 +108,9 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     @Override
     public final Set<Class<?>> exploreOriginTypes()
     throws MissingCompilerException, IOException {
+        // TODO: Can we use some ideas of {@link java.lang.invoke.AbstractValidatingLambdaMetafactory} (and sub-types)
+        // to create an alternative way to explore classes without the need of {@link
+        // ToolProvider#getSystemJavaCompiler()}?
         final JavaCompiler compiler = ofNullable(getSystemJavaCompiler()).orElseThrow(MissingCompilerException::new);
         final JavaFileManager manager = compiler.getStandardFileManager(null, null, null);
         final Iterable<JavaFileObject> files = manager.list(this.originLocation, this.originRootPackage, singleton(CLASS), this.subPackageRecursion);
