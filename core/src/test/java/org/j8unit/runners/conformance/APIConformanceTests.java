@@ -1,7 +1,8 @@
 package org.j8unit.runners.conformance;
 
 import static java.util.Arrays.stream;
-import static org.j8unit.runners.conformance.InstanciationStrategies.UNSUPPORTED_TYPE;
+import static org.j8unit.runners.conformance.InstanciationStrategies.SKIP_ANNOTATION;
+import static org.j8unit.runners.conformance.InstanciationStrategies.SKIP_INTERFACE;
 import static org.j8unit.runners.conformance.SummaryTest.NONINSTANCIATABLE;
 import static org.j8unit.runners.conformance.SummaryTest.UNDISCOVERABLE;
 import static org.junit.Assert.assertEquals;
@@ -109,7 +110,7 @@ public class APIConformanceTests {
         final List<Failure> missassumed = this.failedTestAssumptions.getAllValues();
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.lang.Cloneable.class"), failMsg(UNDISCOVERABLE),
              notFounds("org.j8unit.repository.java.lang.CloneableClassTests"));
-        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Cloneable#..."), failMsg(UNSUPPORTED_TYPE));
+        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Cloneable#..."), failMsg(SKIP_INTERFACE));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.lang.Cloneable#..."), failMsg(UNDISCOVERABLE),
              notFounds("org.j8unit.repository.java.lang.CloneableTests"));
 
@@ -478,7 +479,7 @@ public class APIConformanceTests {
         final List<Failure> missassumed = this.failedTestAssumptions.getAllValues();
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.lang.Deprecated.class"), failMsg(UNDISCOVERABLE),
              notFounds("org.j8unit.repository.java.lang.DeprecatedClassTests", "org.j8unit.repository.java.lang.annotation.AnnotationClassTests"));
-        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Deprecated#..."), failMsg(UNSUPPORTED_TYPE));
+        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Deprecated#..."), failMsg(SKIP_ANNOTATION));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.lang.Deprecated#..."), failMsg(UNDISCOVERABLE),
              notFounds("org.j8unit.repository.java.lang.DeprecatedTests", "org.j8unit.repository.java.lang.annotation.AnnotationTests"));
 
@@ -519,7 +520,7 @@ public class APIConformanceTests {
              notFounds("some.reusable.j8unit.test.repository.java.lang.annotation.AnnotationClassTests"));
         once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.lang.Deprecated.class"), failMsg(NONINSTANCIATABLE),
              notFounds("some.reusable.j8unit.test.repository.java.lang.DeprecatedClassTests"));
-        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Deprecated#..."), failMsg(UNSUPPORTED_TYPE));
+        once(missassumed, failDesc("subjectUnderTestMustBeNotNull", "java.lang.Deprecated#..."), failMsg(SKIP_ANNOTATION));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.lang.Deprecated#..."), failMsg(UNDISCOVERABLE),
              notFounds("some.reusable.j8unit.test.repository.java.lang.annotation.AnnotationTests"));
         once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.lang.Deprecated#..."), failMsg(NONINSTANCIATABLE),
