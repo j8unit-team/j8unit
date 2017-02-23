@@ -770,6 +770,7 @@ extends Suite {
      * @return an ad-hocly created {@code InvocationHandler} with custom behaviour
      */
     // TODO: What if a reused j8unit test interface has an abstract method? Try out and deal with the problems (if any)!
+    // ANSWER: Not a problem; see {@link org.j8unit.runners.model.J8TestClass#scanAnnotatedDefaultMethods(Map)}
     private static final InvocationHandler adHocInvocationHandler(final Callable<?> factory) {
         assert factory != null;
         InvocationHandler handler = fail(UnsupportedOperationException::new);
