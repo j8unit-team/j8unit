@@ -598,6 +598,8 @@ public enum Reflection {
     public static final InvocationHandler fail(final Function<? super String, ? extends Throwable> constructor) {
         final String FAIL_PATTERN = "Missing invocation behaviour for instance of type '%s', method '%s', and arguments '%s'!";
         return (proxy, method, args) -> {
+            // Do not call any other method of {@code proxy} instead of {@link Object#getClass()}! (Especially, do not
+            // call {@link Object#toString()}!) It most likely will end up in an endless recursion of this method.
             throw constructor.apply(format(FAIL_PATTERN, proxy.getClass(), method, Arrays.toString(args)));
         };
     }
