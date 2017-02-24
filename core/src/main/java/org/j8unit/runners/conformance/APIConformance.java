@@ -769,13 +769,26 @@ extends Suite {
      *            the subject-under-test factory to use when serving {@link #SUT_FACTORY_METHOD}
      * @return an ad-hocly created {@code InvocationHandler} with custom behaviour
      */
-    // TODO: What if a reused j8unit test interface has an abstract method? Try out and deal with the problems (if any)!
-    // ANSWER: Not a problem; see {@link org.j8unit.runners.model.J8TestClass#scanAnnotatedDefaultMethods(Map)}
     private static final InvocationHandler adHocInvocationHandler(final Callable<?> factory) {
         assert factory != null;
         InvocationHandler handler = fail(UnsupportedOperationException::new);
+        /*
+         * Actually, there should be no invocation of an abstract {@link Test} because (a) {@link Proxy} does not
+         * provide any {@link Test methods} and (b) {@link
+         * org.j8unit.runners.model.J8TestClass#scanAnnotatedDefaultMethods(Map)} uses {@code default} methods only.
+         *
+         * Nevertheless, {@link org.j8unit.util.Reflection#ENFORCE_INVOCATION} flag enforces abstract methods to be
+         * invoked, just to cause an according error.
+         */
         handler = trySuperTypesFirst(handler, ENFORCE_INVOCATION);
+        /*
+         * In case the {@linkplain #SUT_FACTORY_METHOD factory method} is overridden, this dispatching will not be
+         * called ...
+         */
         handler = dispatch(SUT_FACTORY_METHOD, constantResult(factory), handler);
+        /*
+         * ... because the overriding (non-{@code abstract}) method will be called before.
+         */
         handler = trySuperTypesFirst(handler, SKIP_ABSTRACT);
         return handler;
     }
