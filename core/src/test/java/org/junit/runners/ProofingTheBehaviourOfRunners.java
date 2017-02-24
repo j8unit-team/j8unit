@@ -88,8 +88,8 @@ public abstract class ProofingTheBehaviourOfRunners {
 
         // assert a single test start
         verify(spy, times(1)).fireTestStarted(any());
-        final ArgumentCaptor<Failure> argument = ArgumentCaptor.forClass(Failure.class);
         // assert a single test failure
+        final ArgumentCaptor<Failure> argument = ArgumentCaptor.forClass(Failure.class);
         verify(spy, times(1)).fireTestAssumptionFailed(argument.capture());
         assertEquals(effective.getField("FAILURE_TOKEN").get(null), argument.getValue().getMessage());
         // assert a single test finish
