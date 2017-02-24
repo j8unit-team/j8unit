@@ -290,7 +290,7 @@ public class APIConformanceTests {
         once(finished, desc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SUNDAY"));
         once(finished, desc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SUNDAY"));
 
-        verify(spy, times(8)).fireTestAssumptionFailed(this.failedTestAssumptions.capture());
+        verify(spy, times(15)).fireTestAssumptionFailed(this.failedTestAssumptions.capture());
         final List<Failure> missassumed = this.failedTestAssumptions.getAllValues();
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek.class"), failMsg(UNDISCOVERABLE),
              notFounds("some.reusable.j8unit.test.repository.java.time.DayOfWeekClassTests",
@@ -299,40 +299,47 @@ public class APIConformanceTests {
                        "some.reusable.j8unit.test.repository.java.lang.ComparableClassTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableClassTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#MONDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#MONDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#TUESDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#TUESDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#WEDNESDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#WEDNESDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#THURSDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#THURSDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#FRIDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#FRIDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SATURDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SATURDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
         once(missassumed, failDesc("exploreJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SUNDAY"), failMsg(UNDISCOVERABLE),
-             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests",
-                       "some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAdjusterTests",
                        "some.reusable.j8unit.test.repository.java.lang.EnumTests", "some.reusable.j8unit.test.repository.java.lang.ComparableTests",
                        "some.reusable.j8unit.test.repository.java.io.SerializableTests"));
+        once(missassumed, failDesc("instanciateJ8UnitTestInterfaces", "ℝ", "java.time.DayOfWeek#SUNDAY"), failMsg(NONINSTANCIATABLE),
+             notFounds("some.reusable.j8unit.test.repository.java.time.temporal.TemporalAccessorTests"));
 
         verify(spy, times(0)).fireTestFailure(this.failedTests.capture());
     }

@@ -503,7 +503,7 @@ extends Suite {
      * Specific methods to dynamically create test-classes and wrapper runners:
      *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
 
-    private static final String WRONG_TYPE = "The discovered type '%s' is not an interface and, thus, cannot be used for proxy creation (for testing %s-API conformance of '%s')!";
+    private static final String WRONG_TYPE = "The discovered type '%s' is not a public interface and, thus, cannot be used for proxy creation (for testing %s-API conformance of '%s')!";
 
     /**
      * Inserts an ad-hoc {@link Runner test runner} for the {@code class} of the given candidate {@code candidate} type.
@@ -704,9 +704,23 @@ extends Suite {
     }
 
     /**
+     * <p>
      * Returns all j8unit test interfaces representing all the reusable tests according to the given {@code candiate}
      * class. The interface discovery is controlled by the given {@code strategy}; any missing interface is relayed to
-     * the given {@code missingsHandler}, any invalid interface is relayed to the given {@code invalidsHandler}.
+     * the given {@code missingsHandler}, any invalid type is relayed to the given {@code invalidsHandler}.
+     * </p>
+     * <p>
+     * Invalid types are:
+     * </p>
+     * <dl>
+     * <dt>any <strong>non-{@code public}</strong> type &hellip;</dt>
+     * <dd>&hellip; because otherwise the {@link Proxy} wont be {@code public} neither!</dd>
+     * <dt>any <strong>non-{@code interface}</strong> type &hellip;</dt>
+     * <dd>&hellip; because {@link Proxy#getProxyClass(ClassLoader, Class...)} can handle only interfaces!</dd>
+     * <dt>any <strong>annotation</strong> type &hellip;</dt>
+     * <dd>&hellip; because {@link Proxy#getProxyClass(ClassLoader, Class...)} can handle only <em>pure</em>
+     * interfaces!</dd>
+     * </dl>
      *
      * @param candidate
      *            the candidate class
@@ -718,7 +732,6 @@ extends Suite {
      *            the consumer of any invalid j8unit interface
      * @return all according j8unit test interfaces
      */
-    // TODO: What if interface is not public? Try out and deal with the problems (if any)!
     private static final Set<Class<?>> discoverJ8TestInterfaces(final Class<?> candidate,
                                                                 final BiFunction<? super Class<?>, ? super Consumer<? super ClassNotFoundException>, ? extends Set<Class<?>>> strategy,
                                                                 final Consumer<? super ClassNotFoundException> missingsHandler,
@@ -729,9 +742,10 @@ extends Suite {
         assert invalidsHandler != null;
         final Stream<Class<?>> typeHierarchy = getTypeHierarchyAsStream(candidate);
         final Stream<Class<?>> discoveredTestTypes = typeHierarchy.flatMap(t -> strategy.apply(t, missingsHandler).stream());
-        final Stream<Class<?>> discoveredInterfaceTypes = discoveredTestTypes.filter(consumeFalse(Class::isInterface, invalidsHandler::accept));
-        final Stream<Class<?>> discoveredPureInterfaceTypes = discoveredInterfaceTypes.filter(consumeFalse(c -> !c.isAnnotation(), invalidsHandler::accept));
-        return discoveredPureInterfaceTypes.collect(toCollection(LinkedHashSet::new));
+        final Stream<Class<?>> publicTypes = discoveredTestTypes.filter(consumeFalse(t -> isPublic(t.getModifiers()), invalidsHandler::accept));
+        final Stream<Class<?>> testInterfaces = publicTypes.filter(consumeFalse(Class::isInterface, invalidsHandler::accept));
+        final Stream<Class<?>> validInterfaces = testInterfaces.filter(consumeFalse(c -> !c.isAnnotation(), invalidsHandler::accept));
+        return validInterfaces.collect(toCollection(LinkedHashSet::new));
     }
 
     /**
