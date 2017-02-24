@@ -374,8 +374,8 @@ public enum Reflection {
         } else {
             try {
                 final Field field = Lookup.class.getDeclaredField("allowedModes");
-                assert isPrivate(field.getModifiers());
-                assert isFinal(field.getModifiers());
+                assert isPrivate(field.getModifiers()) : "Java has been refactored and, now, the field 'allowedModes' is not private anymore!";
+                assert isFinal(field.getModifiers()) : "Java has been refactored and, now, the field 'allowedModes' is not final anymore!";
                 doPrivileged((PrivilegedAction<Void>) () -> {
                     field.setAccessible(true);
                     return null;
@@ -383,9 +383,9 @@ public enum Reflection {
                 field.setInt(lookup, lookup.lookupModes() | requiredAccess);
                 return lookup;
             } catch (final NoSuchFieldException missing) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field is missing!", missing);
+                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
             } catch (final IllegalAccessException inaccessible) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field is inaccessible!", inaccessible);
+                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
             }
         }
     }
