@@ -44,6 +44,14 @@ extends ProofingTheBehaviourOfTestClasses {
     }
 
     @Test
+    public void proofDetectionFor_InterfaceWithAnAbstractTestMethod()
+    throws Exception {
+        final Class<?> container = InterfaceWithAnAbstractTestMethod.class;
+        this.proofDetectionWithASingleFinding(container);
+        System.out.format(FINDING, "✓", this.getTestClassClass(), "an interface with an abstract @Test method", container.getSimpleName());
+    }
+
+    @Test
     public void proofDetectionFor_InterfaceWithDefaultTestMethod()
     throws Exception {
         final Class<?> container = InterfaceWithADefaultTestMethod.class;
@@ -65,6 +73,23 @@ extends ProofingTheBehaviourOfTestClasses {
         final Class<?> container = ClassWithoutATestMethod.class;
         this.proofDetectionWithoutFinding(container);
         System.err.format(NOTHING, "✓", this.getTestClassClass(), "an empty class", container.getSimpleName());
+    }
+
+    @Test
+    public void proofDetectionFor_AbstractClassWithDirectlyInheritedAbstractTestMethod()
+    throws Exception {
+        final Class<?> container = AbstractClassWithADirectlyInheritedAbstractTestMethod.class;
+        this.proofDetectionWithoutFinding(container);
+        System.err.format(NOTHING, "✓", this.getTestClassClass(), "an abstract class inheriting an abstract @Test method", container.getSimpleName());
+    }
+
+    @Test
+    public void proofDetectionFor_AbstractClassWithDirectlyInheritedDefaultAndAbstractTestMethod()
+    throws Exception {
+        final Class<?> container = AbstractClassWithADirectlyInheritedDefaultAndAbstractTestMethod.class;
+        this.proofDetectionWithoutFinding(container);
+        System.err.format(NOTHING, "✗", this.getTestClassClass(), "an abstract class inheriting a default and an abstract @Test method",
+                          container.getSimpleName());
     }
 
     @Test
