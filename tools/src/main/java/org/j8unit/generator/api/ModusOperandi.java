@@ -35,7 +35,7 @@ import org.j8unit.generator.analysis.TypeNatures;
 import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
-import org.j8unit.generator.util.Mismatcher;
+import org.j8unit.generator.util.Matcher;
 
 /**
  * <table border="1">
@@ -64,7 +64,7 @@ import org.j8unit.generator.util.Mismatcher;
  * </table>
  */
 public enum ModusOperandi
-implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, BasicTestClassStatements, Mismatcher<Member> {
+implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, BasicTestClassStatements, Matcher<Member> {
 
     /**
      * This is the {@linkplain J8UnitCodeGenerator generator}'s modus operandi when
@@ -199,7 +199,7 @@ implements CustomWarnings, CustomContent, ExtendedTestInterfaceStatements, Basic
     }
 
     @Override
-    public boolean matches(final Member member) {
+    public boolean test(final Member member) {
         return this.accessScope.matches(member);
     }
 

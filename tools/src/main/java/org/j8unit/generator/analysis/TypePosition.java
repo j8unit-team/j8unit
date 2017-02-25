@@ -8,7 +8,7 @@ import java.lang.reflect.Modifier;
 import java.util.Optional;
 import java.util.function.Predicate;
 import javax.lang.model.element.NestingKind;
-import org.j8unit.generator.util.Mismatcher;
+import org.j8unit.generator.util.Matcher;
 
 /**
  * <p>
@@ -36,7 +36,7 @@ import org.j8unit.generator.util.Mismatcher;
  *      Anonymous Classes</a>
  */
 public enum TypePosition
-implements Mismatcher<Class<?>> {
+implements Matcher<Class<?>> {
 
     /**
      * <p>
@@ -125,7 +125,7 @@ implements Mismatcher<Class<?>> {
      * @return {@code true} if the given modifier fits to the specific kind of Java type; {@code false} otherwise
      */
     @Override
-    public final boolean matches(final Class<?> type) {
+    public final boolean test(final Class<?> type) {
         requireNonNull(type);
         return this.predicate.test(type);
     }

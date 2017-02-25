@@ -23,7 +23,7 @@ import org.j8unit.generator.api.BasicTestInterfaceStatements;
 import org.j8unit.generator.api.ModusOperandi;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
-import org.j8unit.generator.util.Mismatcher;
+import org.j8unit.generator.util.Matcher;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.RepositoryTests;
 
@@ -56,7 +56,7 @@ import org.j8unit.repository.RepositoryTests;
  * </ul>
  */
 public enum AccessScope
-implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatements, BasicTestClassStatements {
+implements Matcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatements, BasicTestClassStatements {
 
     /**
      * Enumeration constant representing access to type members via instances.
@@ -151,7 +151,7 @@ implements Mismatcher<Member>, BaseTestClassSupplier, BasicTestInterfaceStatemen
      * @return {@code true} iff the given {@code member} fits {@code this} access scope
      */
     @Override
-    public final boolean matches(final Member member) {
+    public final boolean test(final Member member) {
         return this.predicate.test(member);
     }
 

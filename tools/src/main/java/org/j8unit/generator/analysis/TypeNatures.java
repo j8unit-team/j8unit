@@ -12,7 +12,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import org.j8unit.generator.api.CustomWarnings;
-import org.j8unit.generator.util.Mismatcher;
+import org.j8unit.generator.util.Matcher;
 
 /**
  * <p>
@@ -36,7 +36,7 @@ import org.j8unit.generator.util.Mismatcher;
  *      Types</a>
  */
 public enum TypeNatures
-implements Mismatcher<Class<?>>, CustomWarnings {
+implements Matcher<Class<?>>, CustomWarnings {
 
     /**
      * Enumeration constant representing non-generic (pure) types.
@@ -44,7 +44,7 @@ implements Mismatcher<Class<?>>, CustomWarnings {
     NON_GENERIC {
 
         @Override
-        public boolean matches(final Class<?> type) {
+        public boolean test(final Class<?> type) {
             requireNonNull(type);
             return (type.getTypeParameters().length == 0) && RAW.mismatches(type);
         }
@@ -60,7 +60,7 @@ implements Mismatcher<Class<?>>, CustomWarnings {
     GENERIC {
 
         @Override
-        public boolean matches(final Class<?> type) {
+        public boolean test(final Class<?> type) {
             requireNonNull(type);
             return (type.getTypeParameters().length != 0) && RAW.mismatches(type);
         }
@@ -79,7 +79,7 @@ implements Mismatcher<Class<?>>, CustomWarnings {
     RAW("rawtypes") {
 
         @Override
-        public boolean matches(final Class<?> type) {
+        public boolean test(final Class<?> type) {
             requireNonNull(type);
             for (final Entry<Class<?>, ? extends Type> parent : calculateNearestMatchingParents(type, Objects::nonNull).entrySet()) {
                 // Case A) parent type's parameters are not considered
