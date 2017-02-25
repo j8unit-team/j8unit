@@ -2,6 +2,7 @@ package org.j8unit.generator.util;
 
 import static java.util.Objects.requireNonNull;
 import java.lang.reflect.Member;
+import java.util.function.IntPredicate;
 
 /**
  * <p>
@@ -38,7 +39,8 @@ import java.lang.reflect.Member;
  * </table>
  */
 @FunctionalInterface
-public abstract interface ModifierBasedMatcher {
+public abstract interface ModifierBasedMatcher
+extends IntPredicate {
 
     /**
      * <p>
@@ -49,7 +51,9 @@ public abstract interface ModifierBasedMatcher {
      *            the modifier to use for matching query
      * @return {@code true} iff the given {@code modifier} fits a specific condition
      */
-    public abstract boolean matches(final int modifier);
+    public default boolean matches(final int modifier) {
+        return test(modifier);
+    }
 
     /**
      * <p>
