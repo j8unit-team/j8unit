@@ -422,6 +422,7 @@ public enum TypeAnalysis {
         requireNonNull(interfaceMatcher);
         requireNonNull(nonMatchingInterfaces);
         final Map<Class<?>, Type> parents = new LinkedHashMap<>();
+        // TODO: Use {@link Functional#consumeFalse(Predicate, Consumer)} instead of peek'n'filter!
         StreamSupport.stream(spliteratorUnknownSize(classHierarchy(type), ORDERED & NONNULL & IMMUTABLE), false) //
                      /*
                       * Part A: Processing Meanwhile Interfaces (for each current (grand*) parent class)
