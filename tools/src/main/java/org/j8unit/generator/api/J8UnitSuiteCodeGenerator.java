@@ -38,7 +38,7 @@ extends J8UnitAbstractCodeGenerator {
      *           to be skipped} by the given {@code control}.
      *
      *           It then creates the test code source file (see
-     *           {@link GeneratorOutputControler#targetSuiteFor(Package)}) containing the code returned by
+     *           {@link GeneratorOutputControler#targetFileFor(Package)}) containing the code returned by
      *           {@link #generateSourceCode(Set, GeneratorUseControler, FancyOriginRenderer, TargetRenderer)}. If the
      *           target file already exists, it will be overwritten if and only if the {@code control}
      *           {@linkplain GeneratorOutputControler#doOverwrite(Package) allows} to do so.
@@ -65,7 +65,7 @@ extends J8UnitAbstractCodeGenerator {
         assert types.stream().allMatch(c -> pakkage.equals(c.getPackage()));
         logger().info(START_ENTITY, pakkage);
         try {
-            final File target = control.targetSuiteFor(pakkage).toFile();
+            final File target = control.targetFileFor(pakkage).toFile();
             if (!target.exists() || control.doOverwrite(pakkage)) {
                 // generate package info's content
                 renderer.resetImportMemory();

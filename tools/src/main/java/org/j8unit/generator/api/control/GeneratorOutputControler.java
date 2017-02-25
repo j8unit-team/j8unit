@@ -26,6 +26,11 @@ public abstract interface GeneratorOutputControler {
     public abstract Path targetFolderFor(final Package pakkage);
 
     /**
+     * TODO
+     */
+    public abstract Path targetFileFor(final Package pakkage);
+
+    /**
      * <p>
      * Returns the target file path to store the generated {@value org.j8unit.generator.util.Java#PACKAGE_INFO_FILENAME}
      * file into that relates to the given origin {@linkplain Package package}.
@@ -39,17 +44,12 @@ public abstract interface GeneratorOutputControler {
      *            the queried origin package
      * @return the target file path to store the generated data into that relates to the given origin package
      */
-    public default Path targetFileFor(final Package pakkage) {
+    public default Path targetDocFileFor(final Package pakkage) {
         requireNonNull(pakkage);
         final Path folder = this.targetFolderFor(pakkage);
         final Path path = folder.resolve(PACKAGE_INFO_FILENAME);
         return path;
     }
-
-    /**
-     * TODO
-     */
-    public abstract Path targetSuiteFor(final Package pakkage);
 
     /**
      * <p>
@@ -69,7 +69,7 @@ public abstract interface GeneratorOutputControler {
      * {@link Class type}.
      * </p>
      *
-     * @implSpec The default implementation refers to {@link #targetFileFor(Package)} using
+     * @implSpec The default implementation refers to {@link #targetDocFileFor(Package)} using
      *           {@linkplain Class#getPackage() the package} of the given {@code type}.
      *
      * @param type

@@ -191,7 +191,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     }
 
     @Override
-    public Path targetSuiteFor(final Package pakkage) {
+    public Path targetFileFor(final Package pakkage) {
         requireNonNull(pakkage);
         final Path folder = this.targetFolderFor(pakkage);
         final Path path = folder.resolve("APIConformanceTests" + JAVA_FILE_EXTENSION);
