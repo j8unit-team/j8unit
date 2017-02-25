@@ -1,11 +1,8 @@
 package org.j8unit.generator.util;
 
 import static java.util.Arrays.asList;
-import static java.util.Arrays.stream;
-import static java.util.stream.Collectors.toSet;
-import static java.util.stream.Stream.concat;
-import static java.util.stream.StreamSupport.stream;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -26,7 +23,7 @@ public enum Sets {
      */
     @SafeVarargs
     public static final <T> Set<T> asSet(final T... values) {
-        return stream(values).collect(toSet());
+        return new HashSet<>(asList(values));
     }
 
     /**
@@ -40,7 +37,7 @@ public enum Sets {
      */
     @SafeVarargs
     public static final <T> Set<T> merge(final Set<? extends T> origin, final T... additionals) {
-        return concat(origin.stream(), stream(additionals)).collect(toSet());
+        return merge(origin, asList(additionals));
     }
 
     /**
@@ -52,8 +49,10 @@ public enum Sets {
      *            the further elements
      * @return a merged set
      */
-    public static final <T> Set<T> merge(final Set<? extends T> origin, final Iterable<? extends T> additionals) {
-        return concat(origin.stream(), stream(additionals.spliterator(), false)).collect(toSet());
+    public static final <T> Set<T> merge(final Set<? extends T> origin, final Collection<? extends T> additionals) {
+        final Set<T> set = new HashSet<>(origin);
+        set.addAll(additionals);
+        return set;
     }
 
     /**
@@ -68,7 +67,9 @@ public enum Sets {
      * TODO (Issue #39): JavDoc
      */
     public static final <T> Set<T> reduce(final Set<? extends T> origin, final Collection<? extends T> subtractionals) {
-        return origin.stream().filter(e -> !subtractionals.contains(e)).collect(toSet());
+        final Set<T> set = new HashSet<>(origin);
+        set.removeAll(subtractionals);
+        return set;
     }
 
 }
