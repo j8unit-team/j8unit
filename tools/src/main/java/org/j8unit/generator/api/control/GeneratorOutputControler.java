@@ -26,14 +26,20 @@ public abstract interface GeneratorOutputControler {
     public abstract Path targetFolderFor(final Package pakkage);
 
     /**
-     * TODO
+     * Returns the target file path to store the generated source data into that relates to the given origin
+     * {@linkplain Package pakkage}.
+     *
+     * @param pakkage
+     *            the queried origin package
+     * @return the target file path to store the generated data into that relates to the given origin package
      */
     public abstract Path targetFileFor(final Package pakkage);
 
     /**
      * <p>
-     * Returns the target file path to store the generated {@value org.j8unit.generator.util.Java#PACKAGE_INFO_FILENAME}
-     * file into that relates to the given origin {@linkplain Package package}.
+     * Returns the target documentation file path to store the generated
+     * {@value org.j8unit.generator.util.Java#PACKAGE_INFO_FILENAME} file into that relates to the given origin
+     * {@linkplain Package package}.
      * </p>
      *
      * @implSpec The default implementation {@linkplain Path#resolve(String) resolves}
