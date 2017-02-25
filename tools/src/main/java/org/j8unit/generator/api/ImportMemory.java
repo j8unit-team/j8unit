@@ -93,12 +93,8 @@ public final class ImportMemory {
             }
         }
         for (final Class<?> type : this.importAccu) {
-            try {
-                if (!reference.equals(type.getPackage().getName()) || !TOP_LEVEL.matches(type)) {
-                    sb.append(format("import %s;%n", type.getCanonicalName()));
-                }
-            } catch (final Exception e) {
-                throw e;
+            if (!reference.equals(type.getPackage().getName()) || !TOP_LEVEL.matches(type)) {
+                sb.append(format("import %s;%n", type.getCanonicalName()));
             }
         }
         return sb.toString();
