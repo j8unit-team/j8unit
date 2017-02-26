@@ -21,7 +21,7 @@ import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithout
 import org.junit.runners.model.InterfaceWithoutATestMethod;
 
 /**
- * TODO: Also proof behaviour of {@link BlockJUnit4ClassRunner}
+ * TODO (Issue #58): Also proof behaviour of {@link BlockJUnit4ClassRunner}
  */
 public class ProofingTheBehaviourOfJUnit4ClassRunner_Tests
 extends ProofingTheBehaviourOfRunners {

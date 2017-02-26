@@ -41,7 +41,7 @@ public enum Reflection {
 
     ;
 
-    // TODO: Null-Check-Barriers
+    // TODO (Issue #61): Null-Check-Barriers
 
     /**
      * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is

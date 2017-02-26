@@ -32,8 +32,8 @@ public class J8Parameterized
 extends Parameterized {
 
     /*
-     * TODO: Make {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory} the default
-     * factory for this {@link org.junit.runner.Runner}!
+     * TODO (Issue #59): Make {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory} the
+     * default factory for this {@link org.junit.runner.Runner}!
      */
 
     /**
