@@ -17,6 +17,7 @@ import static org.j8unit.generator.util.Consumers.NOOP;
 import static org.j8unit.generator.util.Iterators.iterate;
 import static org.j8unit.generator.util.Maps.entry;
 import static org.j8unit.generator.util.Optionals.toStream;
+import static org.j8unit.util.Functional.consumeFalse;
 import static org.j8unit.util.Reflection.redundantTypes;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
@@ -422,31 +423,19 @@ public enum TypeAnalysis {
         requireNonNull(interfaceMatcher);
         requireNonNull(nonMatchingInterfaces);
         final Map<Class<?>, Type> parents = new LinkedHashMap<>();
-        // TODO (Issue #60): Use {@link Functional#consumeFalse(Predicate, Consumer)} instead of peek'n'filter!
         StreamSupport.stream(spliteratorUnknownSize(classHierarchy(type), ORDERED & NONNULL & IMMUTABLE), false) //
                      /*
                       * Part A: Processing Meanwhile Interfaces (for each current (grand*) parent class)
                       */
                      .peek(c -> getInterfaces(c).entrySet().stream() //
-                                                .peek(e -> { // handle skipped interfaces
-                                                    // TODO (Issue #42): If an interface is skipped, its super
-                                                    // interfaces should be considered instead. Just similar to any
-                                                    // non-matching super class.
-                                                    if (!interfaceMatcher.test(e.getKey())) {
-                                                        nonMatchingInterfaces.accept(e.getKey());
-                                                    }
-                                                }) //
-                                                .filter(e -> interfaceMatcher.test(e.getKey())) // store meanwhile ...
-                                                .forEach(e -> parents.put(e.getKey(), e.getValue()))) // ... interfaces
+                                                // TODO (Issue #42): If an interface is skipped, its super interfaces should
+                                                // be considered instead. Just similar to any non-matching super class.
+                                                .filter(consumeFalse(e -> interfaceMatcher.test(e.getKey()), e -> nonMatchingInterfaces.accept(e.getKey()))) // store ...
+                                                .forEach(e -> parents.put(e.getKey(), e.getValue()))) // ... meanwhile interfaces
                      /*
                       * Part B: First Matching (Grand*) Parent Class
                       */
-                     .peek(c -> { // handle skipped super classes
-                         if (!classMatcher.test(c.getSuperclass())) {
-                             nonMatchingInterfaces.accept(c);
-                         }
-                     }) //
-                     .filter(c -> classMatcher.test(c.getSuperclass())) // store ...
+                     .filter(consumeFalse(c -> classMatcher.test(c.getSuperclass()), nonMatchingInterfaces::accept)) // store ...
                      .findFirst() // ... nearest ...
                      .ifPresent(c -> parents.put(c.getSuperclass(), c.getGenericSuperclass())); // ... super class
         return parents;
