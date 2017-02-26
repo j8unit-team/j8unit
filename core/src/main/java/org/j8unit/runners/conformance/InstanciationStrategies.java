@@ -40,7 +40,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
                         instanciations.put(constant.name(), factory);
                     }
                 }
-                // Return {@link #SKIP_ANY_OTHER_STRATEGY} or {@link #AVAILABLE_FIELDS} will also succeed!
+                // We must return {@link #SKIP_ANY_OTHER_STRATEGY} or {@link #AVAILABLE_FIELDS} will also succeed!
                 return SKIP_ANY_OTHER_STRATEGY;
             } else {
                 return TRY_SOME_OTHER_STRATEGY;
@@ -76,9 +76,9 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
 
         @Override
         public final boolean test(final Class<?> candidate, final Map<? super String, ? super Callable<?>> instanciations) {
+            assert candidate != null;
+            assert instanciations != null;
             if (!isAbstract(candidate.getModifiers())) {
-                assert candidate != null;
-                assert instanciations != null;
                 try {
                     final Callable<?> construction = candidate.getConstructor()::newInstance;
                     instanciations.put(candidate.getSimpleName() + "()", construction);
