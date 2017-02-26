@@ -107,7 +107,14 @@ public enum TypeAnalysis {
     }
 
     /**
-     * TODO (Issue #38): JavaDoc!
+     * Returns a {@linkplain Stream stream} of all types within the scope of the given {@code entity}.
+     *
+     * In detail that is the {@code entity} itself plus all of its nested types (i.&thinsp;e., even {@code private}
+     * nested types).
+     *
+     * @param entity
+     *            the given scope root
+     * @return a stream of all types within the scope of the given {@code entity}
      */
     public static final Stream<Class<?>> scopedTypes(final Class<?> entity) {
         return concat(Stream.of(entity), stream(entity.getDeclaredClasses()).flatMap(TypeAnalysis::scopedTypes));
@@ -428,14 +435,18 @@ public enum TypeAnalysis {
                       * Part A: Processing Meanwhile Interfaces (for each current (grand*) parent class)
                       */
                      .peek(c -> getInterfaces(c).entrySet().stream() //
-                                                // TODO (Issue #42): If an interface is skipped, its super interfaces should
+                                                // TODO (Issue #42): If an interface is skipped, its super interfaces
+                                                // should
                                                 // be considered instead. Just similar to any non-matching super class.
-                                                .filter(consumeFalse(e -> interfaceMatcher.test(e.getKey()), e -> nonMatchingInterfaces.accept(e.getKey()))) // store ...
-                                                .forEach(e -> parents.put(e.getKey(), e.getValue()))) // ... meanwhile interfaces
+                                                .filter(consumeFalse(e -> interfaceMatcher.test(e.getKey()), e -> nonMatchingInterfaces.accept(e.getKey()))) // store
+                                                                                                                                                             // ...
+                                                .forEach(e -> parents.put(e.getKey(), e.getValue()))) // ... meanwhile
+                                                                                                      // interfaces
                      /*
                       * Part B: First Matching (Grand*) Parent Class
                       */
-                     .filter(consumeFalse(c -> classMatcher.test(c.getSuperclass()), nonMatchingInterfaces::accept)) // store ...
+                     .filter(consumeFalse(c -> classMatcher.test(c.getSuperclass()), nonMatchingInterfaces::accept)) // store
+                                                                                                                     // ...
                      .findFirst() // ... nearest ...
                      .ifPresent(c -> parents.put(c.getSuperclass(), c.getGenericSuperclass())); // ... super class
         return parents;
