@@ -1,5 +1,6 @@
 package org.j8unit.util;
 
+import static java.util.Objects.requireNonNull;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
@@ -25,6 +26,8 @@ public enum Functional {
      * @return a wrapper predicate
      */
     public static final <T> Predicate<T> consumeFalse(final Predicate<T> predicate, final Consumer<? super T> consumer) {
+        requireNonNull(predicate);
+        requireNonNull(consumer);
         return t -> {
             final boolean b = predicate.test(t);
             if (!b) {

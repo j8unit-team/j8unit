@@ -10,6 +10,7 @@ import static java.lang.reflect.Proxy.getProxyClass;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.nCopies;
+import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toCollection;
 import static org.j8unit.runners.conformance.InstanciationStrategies.discoverInstanciations;
 import static org.j8unit.runners.conformance.J8UnitRepositoryTestsDiscovery.J8UNIT_REPOSITORY_CLASS_TESTS_SUFFIX;
@@ -463,8 +464,7 @@ extends Suite {
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
-        assert testClass != null;
-        return new J8TestClass(testClass);
+        return new J8TestClass(requireNonNull(testClass));
     }
 
     /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
@@ -480,7 +480,7 @@ extends Suite {
      */
     public APIConformance(final Class<?> suiteClass /* , final RunnerBuilder builder */)
     throws InitializationError {
-        super(suiteClass, emptyList(/* this parent-runner will discover its own nested runners */));
+        super(requireNonNull(suiteClass), emptyList(/* this parent-runner will discover its own nested runners */));
         for (final Class<?> candidate : getAPIConformanceCandidates(suiteClass)) {
             try {
                 this.insertTestRunnersForClassConformance(suiteClass, candidate);

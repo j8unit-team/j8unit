@@ -1,5 +1,6 @@
 package org.j8unit.runners;
 
+import static java.util.Objects.requireNonNull;
 import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.Parameterized;
 
@@ -48,7 +49,7 @@ extends Parameterized {
      */
     public J8Parameterized(final Class<?> clazz)
     throws Throwable {
-        super(clazz);
+        super(requireNonNull(clazz));
     }
 
     /**
@@ -60,7 +61,7 @@ extends Parameterized {
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
-        return new J8TestClass(testClass);
+        return new J8TestClass(requireNonNull(testClass));
     }
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.runners.parameterized;
 
+import static java.util.Objects.requireNonNull;
 import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters;
@@ -18,7 +19,7 @@ extends BlockJUnit4ClassRunnerWithParameters {
 
     public J8BlockJUnit4ClassRunnerWithParameters(final TestWithParameters test)
     throws InitializationError {
-        super(test);
+        super(requireNonNull(test));
     }
 
     /**
@@ -30,8 +31,7 @@ extends BlockJUnit4ClassRunnerWithParameters {
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
-        assert testClass != null;
-        return new J8TestClass(testClass);
+        return new J8TestClass(requireNonNull(testClass));
     }
 
 }

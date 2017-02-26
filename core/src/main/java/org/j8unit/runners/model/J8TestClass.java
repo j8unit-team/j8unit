@@ -1,5 +1,6 @@
 package org.j8unit.runners.model;
 
+import static java.util.Objects.requireNonNull;
 import static org.j8unit.util.Reflection.allInterfacesOf;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -39,7 +40,7 @@ extends TestClass {
      * </p>
      */
     public J8TestClass(final Class<?> clazz) {
-        super(clazz);
+        super(requireNonNull(clazz));
     }
 
     /**
