@@ -56,7 +56,14 @@ public enum Sets {
     }
 
     /**
-     * TODO (Issue #39): JavDoc
+     * Returns a new {@linkplain Set set} which contains all elements of the {@code origin} set but without the elements
+     * given by {@code subtractionals}.
+     *
+     * @param origin
+     *            the set to reduce
+     * @param subtractionals
+     *            the elements to remove
+     * @return the reduced set
      */
     @SafeVarargs
     public static final <T> Set<T> reduce(final Set<? extends T> origin, final T... subtractionals) {
@@ -64,7 +71,14 @@ public enum Sets {
     }
 
     /**
-     * TODO (Issue #39): JavDoc
+     * Returns a new {@linkplain Set set} which contains all elements of the {@code origin} set but without the elements
+     * given by {@code subtractionals}.
+     *
+     * @param origin
+     *            the set to reduce
+     * @param subtractionals
+     *            the elements to remove
+     * @return the reduced set
      */
     public static final <T> Set<T> reduce(final Set<? extends T> origin, final Collection<? extends T> subtractionals) {
         final Set<T> set = new HashSet<>(origin);
