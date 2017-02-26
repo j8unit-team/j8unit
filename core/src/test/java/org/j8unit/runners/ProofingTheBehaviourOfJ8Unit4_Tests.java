@@ -4,7 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.runner.Runner;
 import org.junit.runners.model.InitializationError;
 
-public class ProofingTheBehaviourOfJ8UnitClassRunner_Tests
+public class ProofingTheBehaviourOfJ8Unit4_Tests
 extends ProofingTheBehaviourOfJ8BlockJUnit4ClassRunner_Tests {
 
     @Override
