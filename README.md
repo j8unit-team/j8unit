@@ -1,4 +1,4 @@
-# [](#J8Unit)J8Unit And The J8Unit Repository
+# [](#j8unit-and-the-j8unit-repository)J8Unit And The J8Unit Repository
 
 J8Unit combines the power of JUnit4 and Java 8. As a result, it comes along with:
 
@@ -11,7 +11,7 @@ J8Unit combines the power of JUnit4 and Java 8. As a result, it comes along with
 
 The next sections give a briefly summary of these features. Each feature's extended description is given on a separate page.  
 
-## [](#J8UnitTestClassModel)Java-8-Based TestClass Model
+## [](#java-8-based-testclass-model)Java-8-Based TestClass Model
 
 In addition to the [JUnit4 TestClass model](http://junit.org/junit4/javadoc/4.12/org/junit/runners/model/TestClass.html), J8Unit is able to detect 
 test methods which are specified as _default_ _interface_ methods:
@@ -45,18 +45,18 @@ In result, this
 
 In result, any [test runner](#J8UnitTestRunners) that uses the J8Unit TestClass model is able to execute these tests too.
 
-## [](#J8UnitTestRunners)The J8Unit Test Runners
+## [](#the-j8unit-test-runners)The J8Unit Test Runners
 
-### [](#J8Unit4)J8BlockJUnit4ClassRunner & J8Unit4
+### [](#j8blockjunit4classrunner-&-j8unit4)J8BlockJUnit4ClassRunner & J8Unit4
 
-### [](#J8Parameterized)J8Parameterized
+### [](#j8parameterized)J8Parameterized
 
-### [](#APIConformance)APIConformance
+### [](#apiconformance)APIConformance
 
 
 ... thus, they allow allow reusage of test methods independently of your test class hierarchy.
 
-## [](#J8UnitRepository)The J8Unit Repository
+## [](#the-j8unit-repository)The J8Unit Repository
 
 Because of the [Java-8-enabled TestClass model](#J8UnitTestClassModel), J8Unit provides a very smart way to reuse tests 
 
@@ -70,12 +70,14 @@ After the first repository release, we want to invite others to help us increasi
 
 *If you are interested in helping, come back in January 2016. We will provide any required information to get your code into j8unit repository.*
 
-## [](#J8UnitAsserts)Additional Assert Methods (a.k.a. On-Demand Failure Messages)
+## [](#additional-assert-methods)Additional Assert Methods
 
+### (a.k.a. On-Demand Failure Messages)
+ 
 If you ever wanted to use [CharSequence](docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html) messages when 
 After all is said and done you fell asleep as you are too tired to work further.
-And then you get up th enext morning
+And then you get up the next morning
 
-# [](#J8UnitRoadMap)Roadmap
+# [](#roadmap)Roadmap
 
 See the [open issues](https://github.com/j8unit-team/j8unit/issues) for a list of proposed features (and known issues).
