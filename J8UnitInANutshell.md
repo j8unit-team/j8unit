@@ -17,7 +17,7 @@ Shortly spoken, it comes along with:
   that contains an instantly growing number of reusable tests.
 
 You can read a brief 2-minute description right here in the below sections.
-You can read a condensed 5-minute description in the [J8Unit in a nutshell](J8UnitInANutshell).
+You can read a condensed 5-minute description in the [J8Unit in a nutshell](J8UnitNutshell).
 
 
 The next sections give a brief summary of these features. Each feature's extended description is given on a separate
