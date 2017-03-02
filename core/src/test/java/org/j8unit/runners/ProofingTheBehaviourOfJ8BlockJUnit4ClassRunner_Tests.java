@@ -4,7 +4,7 @@ import static org.junit.Assert.fail;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.Runner;
-import org.junit.runners.ProofingTheBehaviourOfJUnit4ClassRunner_Tests;
+import org.junit.runners.ProofingTheBehaviourOfJUnit4_Tests;
 import org.junit.runners.model.ClassWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.ClassWithATwiceInheritedDefaultTestMethod;
 import org.junit.runners.model.ClassWithAnOverriddenDefaultTestMethodWithoutAnnotation;
@@ -14,7 +14,7 @@ import org.junit.runners.model.InterfaceWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithoutAnnotation;
 
 public class ProofingTheBehaviourOfJ8BlockJUnit4ClassRunner_Tests
-extends ProofingTheBehaviourOfJUnit4ClassRunner_Tests {
+extends ProofingTheBehaviourOfJUnit4_Tests {
 
     @Override
     protected Runner getRunner(final Class<?> clazz)

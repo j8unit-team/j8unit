@@ -5,6 +5,8 @@ import static java.util.Arrays.asList;
 import static java.util.Collections.emptyMap;
 import static java.util.Collections.emptySet;
 import static java.util.Objects.nonNull;
+import static java.util.stream.Collectors.toSet;
+import static org.j8unit.generator.util.Sets.asSet;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestDeclaringParents;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestMatchingParents;
 import static org.j8unit.generator.util.TypeAnalysis.getDeclaredMethod;
@@ -31,6 +33,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
+import java.util.stream.Stream;
 import javax.lang.model.element.Name;
 import org.junit.Test;
 
@@ -481,6 +484,28 @@ public class TypeAnalysisTest {
         final Map<Class<?>, Set<Class<?>>> declarings = calculateNearestDeclaringParents(clazz, method, Objects::nonNull);
         assertEquals(new HashSet<>(asList(AsynchronousChannel.class)), declarings.keySet());
         assertEquals(new HashSet<>(asList(AsynchronousByteChannel.class)), declarings.get(AsynchronousChannel.class));
+    }
+
+    @Test
+    public void testScopedTypes()
+    throws Exception {
+        final Stream<Class<?>> scoped = TypeAnalysis.scopedTypes(Character.class);
+        final Set<Class<?>> set = scoped.collect(toSet());
+        assertEquals(asSet(Character.class, Class.forName("java.lang.Character$CharacterCache"), Character.Subset.class, Character.UnicodeBlock.class,
+                           Character.UnicodeScript.class),
+                     set);
+
+    }
+
+    @Test
+    public void testScopedTypes2()
+    throws Exception {
+        final Stream<Class<?>> scoped = TypeAnalysis.scopedTypes(FooBar.class);
+        final Set<Class<?>> set = scoped.collect(toSet());
+        assertEquals(asSet(FooBar.class, FooBar.FooAnnotation.class, FooBar.BarAnnotation.class, FooBar.FooInterface.class, FooBar.BarInterface.class,
+                           FooBar.FooClass.class, FooBar.FooClass.SubFooClass.class, FooBar.BarClass.class),
+                     set);
+
     }
 
 }

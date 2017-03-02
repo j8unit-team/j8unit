@@ -3,9 +3,11 @@ package org.j8unit.runners.model;
 import static org.junit.Assert.fail;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runners.model.AbstractClassWithADirectlyInheritedDefaultAndAbstractTestMethod;
 import org.junit.runners.model.ClassWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.ClassWithATwiceInheritedDefaultTestMethod;
 import org.junit.runners.model.ClassWithAnOverriddenDefaultTestMethodWithoutAnnotation;
+import org.junit.runners.model.InterfaceWithADefaultAndAnAbstractTestMethod;
 import org.junit.runners.model.InterfaceWithADefaultTestMethod;
 import org.junit.runners.model.InterfaceWithADirectlyInheritedDefaultTestMethod;
 import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithoutAnnotation;
@@ -70,6 +72,17 @@ extends ProofingTheBehaviourOfJUnit4TestClass_Tests {
         this.proofDetectionWithASingleFinding(container, declarer);
         System.out.format(FINDING2, "!", this.getTestClassClass(), "a class inheriting a default @Test method", container.getSimpleName(),
                           declarer.getSimpleName());
+    }
+
+    @Override
+    @Test
+    public void proofDetectionFor_AbstractClassWithDirectlyInheritedDefaultAndAbstractTestMethod()
+    throws Exception {
+        final Class<?> container = AbstractClassWithADirectlyInheritedDefaultAndAbstractTestMethod.class;
+        final Class<?> declarer = InterfaceWithADefaultAndAnAbstractTestMethod.class;
+        this.proofDetectionWithASingleFinding(container, declarer);
+        System.out.format(FINDING2, "!", this.getTestClassClass(), "an abstract class inheriting a default and an abstract @Test method",
+                          container.getSimpleName(), declarer.getSimpleName());
     }
 
     @Override

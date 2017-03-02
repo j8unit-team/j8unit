@@ -1,15 +1,12 @@
 package org.j8unit.generator.api;
 
 import static java.lang.String.format;
-import static java.util.Arrays.stream;
 import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
 import static org.j8unit.generator.analysis.TypePosition.TOP_LEVEL;
 import static org.j8unit.generator.api.LoggingMessagesKeys.ABORT_FILE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.CREATE_FILE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.DEFER_TYPE;
-import static org.j8unit.generator.api.LoggingMessagesKeys.ENVELOPED_TYPES;
 import static org.j8unit.generator.api.LoggingMessagesKeys.FINISH_ENTITY;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_FILE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_TYPE;
@@ -19,8 +16,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
-import java.util.Set;
-import org.j8unit.generator.EnvelopedTypeModifiers;
 import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.FancyOriginRenderer;
@@ -31,7 +26,7 @@ import org.j8unit.generator.api.render.TargetRenderer;
  * Root of all j8unit code generators.
  */
 public abstract interface J8UnitCodeGenerator
-extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
+extends J8UnitAbstractCodeGenerator {
 
     /**
      * <p>
@@ -40,11 +35,11 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
      * The code generation is controlled by the given {@code control} and {@code renderer}. Since any type should cause
      * two j8unit test interfaces (one testing the instances renderer, one testing the type (a.&thinsp;k.&thinsp;a.
      * {@code static} or {@code class}) renderer) it is quite assumable to have cross references to the corresponding
-     * test interface; for example within the JavaDoc statements. Thus, this method requires an additional complementary
-     * renderer.
+     * test interface; for example within the JavaDoc statements. Thus, this method requires an additional
+     * {@code complementary} renderer.
      *
      * Similarly, the test-execution-code generator needs to refer to the according j8unit test interface. Again, there
-     * must be such complementary renderer.
+     * must be such {@code complementary} renderer.
      * </p>
      *
      * @implNote The default implementation skips any type that is not
@@ -114,11 +109,11 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
      * The code generation is controlled by the given {@code control} and {@code renderer}. Since any type should cause
      * two j8unit test interfaces (one testing the instances renderer, one testing the type (a.&thinsp;k.&thinsp;a.
      * {@code static} or {@code class}) renderer) it is quite assumable to have cross references to the corresponding
-     * test interface; for example within the JavaDoc statements. Thus, this method requires an additional complementary
-     * renderer.
+     * test interface; for example within the JavaDoc statements. Thus, this method requires an additional
+     * {@code complementary} renderer.
      *
      * Similarly, the test-execution-code generator needs to refer to the according j8unit test interface. Again, there
-     * must be such complementary renderer.
+     * must be such {@code complementary} renderer.
      * </p>
      *
      * @param type
@@ -150,22 +145,6 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
 
     /**
      * <p>
-     * Generates the source code of the required {@code import} statements in relation to the given target {@code type}.
-     * </p>
-     *
-     * @param reference
-     *            the reference package
-     * @param renderer
-     *            the type name renderer
-     *
-     * @return the source code of the required {@code import} statements
-     */
-    public default String generateImports(final String reference, final FancyOriginRenderer renderer) {
-        return renderer.renderImport(reference);
-    }
-
-    /**
-     * <p>
      * Generates the source code of the <em>j8unit</em> test methods targeting the methods of the given target
      * {@code type}.
      * </p>
@@ -190,24 +169,5 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
     public abstract <Renderer extends OriginRenderer & TargetRenderer> String generateTestContent(final Class<?> type, GeneratorUseControler control,
                                                                                                   final Renderer renderer, final TargetRenderer complementary,
                                                                                                   final int depth);
-
-    /**
-     * Returns a {@linkplain Set set} of all {@link Class} objects reflecting all the
-     * {@linkplain GeneratorUseControler#useType(Class) considerable} classes and interfaces declared as members of the
-     * given {@code type}.
-     *
-     * @implSpec The default implementation fully implements the aforementioned renderer.
-     *
-     * @param type
-     *            the target type
-     * @param control
-     *            the generator control
-     * @return a set of all considerable member {@code Class} objects
-     */
-    public default Set<Class<?>> exploreEnvelopedTypes(final Class<?> type, final GeneratorUseControler control) {
-        final Set<Class<?>> collect = stream(type.getDeclaredClasses()).filter(control::useType).collect(toSet());
-        logger().info(ENVELOPED_TYPES, type, collect);
-        return collect;
-    }
 
 }

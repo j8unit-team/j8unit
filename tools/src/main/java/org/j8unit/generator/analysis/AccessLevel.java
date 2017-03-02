@@ -1,14 +1,15 @@
 package org.j8unit.generator.analysis;
 
 import static java.util.Arrays.asList;
-import static java.util.Collections.unmodifiableSet;
 import static java.util.EnumSet.copyOf;
 import static java.util.EnumSet.noneOf;
 import static java.util.Objects.nonNull;
+import static java.util.stream.Collectors.reducing;
 import static org.j8unit.generator.analysis.AccessModifier.PACKAGE_PRIVATE;
 import static org.j8unit.generator.analysis.AccessModifier.PROTECTED;
 import static org.j8unit.generator.analysis.AccessModifier.PUBLIC;
-import java.util.Set;
+import java.util.EnumSet;
+import java.util.function.IntPredicate;
 import org.j8unit.generator.util.ModifierBasedMatcher;
 
 /**
@@ -56,7 +57,7 @@ implements ModifierBasedMatcher {
      */
     MANUFACTURER(PUBLIC, PROTECTED, PACKAGE_PRIVATE);
 
-    private final Set<AccessModifier> modifiers;
+    private IntPredicate access;
 
     /**
      * @param accesses
@@ -64,7 +65,9 @@ implements ModifierBasedMatcher {
      */
     private AccessLevel(final AccessModifier... accesses) {
         assert nonNull(accesses);
-        this.modifiers = unmodifiableSet((accesses.length == 0) ? noneOf(AccessModifier.class) : copyOf(asList(accesses)));
+        final EnumSet<AccessModifier> set = (accesses.length == 0) ? noneOf(AccessModifier.class) : copyOf(asList(accesses));
+        this.access = set.stream().collect(reducing(($i) -> false, IntPredicate::or));
+
     }
 
     /**
@@ -74,8 +77,8 @@ implements ModifierBasedMatcher {
      *         otherwise
      */
     @Override
-    public final boolean matches(final int modifier) {
-        return this.modifiers.stream().anyMatch(al -> al.matches(modifier));
+    public final boolean test(final int modifier) {
+        return this.access.test(modifier);
     }
 
 }

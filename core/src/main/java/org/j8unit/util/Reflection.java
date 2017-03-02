@@ -41,7 +41,7 @@ public enum Reflection {
 
     ;
 
-    // TODO: Null-Check-Barriers
+    // TODO (Issue #61): Null-Check-Barriers
 
     /**
      * Returns the {@link Class} object associated with the Java type with the given string {@code name}. This method is
@@ -374,8 +374,8 @@ public enum Reflection {
         } else {
             try {
                 final Field field = Lookup.class.getDeclaredField("allowedModes");
-                assert isPrivate(field.getModifiers());
-                assert isFinal(field.getModifiers());
+                assert isPrivate(field.getModifiers()) : "Java has been refactored and, now, the field 'allowedModes' is not private anymore!";
+                assert isFinal(field.getModifiers()) : "Java has been refactored and, now, the field 'allowedModes' is not final anymore!";
                 doPrivileged((PrivilegedAction<Void>) () -> {
                     field.setAccessible(true);
                     return null;
@@ -383,9 +383,9 @@ public enum Reflection {
                 field.setInt(lookup, lookup.lookupModes() | requiredAccess);
                 return lookup;
             } catch (final NoSuchFieldException missing) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field is missing!", missing);
+                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
             } catch (final IllegalAccessException inaccessible) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field is inaccessible!", inaccessible);
+                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
             }
         }
     }
@@ -598,6 +598,8 @@ public enum Reflection {
     public static final InvocationHandler fail(final Function<? super String, ? extends Throwable> constructor) {
         final String FAIL_PATTERN = "Missing invocation behaviour for instance of type '%s', method '%s', and arguments '%s'!";
         return (proxy, method, args) -> {
+            // Do not call any other method of {@code proxy} instead of {@link Object#getClass()}! (Especially, do not
+            // call {@link Object#toString()}!) It most likely will end up in an endless recursion of this method.
             throw constructor.apply(format(FAIL_PATTERN, proxy.getClass(), method, Arrays.toString(args)));
         };
     }

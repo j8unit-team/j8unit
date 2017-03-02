@@ -1,5 +1,6 @@
 package org.j8unit.spring.runners;
 
+import static java.util.Objects.requireNonNull;
 import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.model.InitializationError;
 import org.springframework.test.context.TestContextManager;
@@ -40,7 +41,7 @@ extends SpringJUnit4ClassRunner {
      */
     public J8SpringJUnit4(final Class<?> clazz)
     throws InitializationError {
-        super(clazz);
+        super(requireNonNull(clazz));
     }
 
     /**
@@ -52,6 +53,6 @@ extends SpringJUnit4ClassRunner {
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
-        return new J8TestClass(testClass);
+        return new J8TestClass(requireNonNull(testClass));
     }
 }

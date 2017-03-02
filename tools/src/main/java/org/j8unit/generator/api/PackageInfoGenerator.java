@@ -38,7 +38,7 @@ extends J8UnitGenerator {
         requireNonNull(renderer);
         logger().info(START_ENTITY, pakkage);
         try {
-            final File target = control.targetFileFor(pakkage).toFile();
+            final File target = control.targetDocFileFor(pakkage).toFile();
             if (!target.exists() || control.doOverwrite(pakkage)) {
                 // generate package info's content
                 final String content = this.generatePackageInfoContent(pakkage, renderer);

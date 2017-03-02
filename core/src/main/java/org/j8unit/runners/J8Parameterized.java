@@ -1,5 +1,6 @@
 package org.j8unit.runners;
 
+import static java.util.Objects.requireNonNull;
 import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.Parameterized;
 
@@ -32,8 +33,8 @@ public class J8Parameterized
 extends Parameterized {
 
     /*
-     * TODO: Make {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory} the default
-     * factory for this {@link org.junit.runner.Runner}!
+     * TODO (Issue #59): Make {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory} the
+     * default factory for this {@link org.junit.runner.Runner}!
      */
 
     /**
@@ -48,7 +49,7 @@ extends Parameterized {
      */
     public J8Parameterized(final Class<?> clazz)
     throws Throwable {
-        super(clazz);
+        super(requireNonNull(clazz));
     }
 
     /**
@@ -60,7 +61,7 @@ extends Parameterized {
      */
     @Override
     protected J8TestClass createTestClass(final Class<?> testClass) {
-        return new J8TestClass(testClass);
+        return new J8TestClass(requireNonNull(testClass));
     }
 
 }

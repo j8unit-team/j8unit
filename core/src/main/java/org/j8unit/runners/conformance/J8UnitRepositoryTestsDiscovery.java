@@ -2,6 +2,7 @@ package org.j8unit.runners.conformance;
 
 import static java.lang.String.format;
 import static java.util.Collections.singleton;
+import static java.util.Objects.requireNonNull;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.util.Reflection.classForName;
 import java.util.Optional;
@@ -57,8 +58,8 @@ implements BiFunction<Class<?>, Consumer<? super ClassNotFoundException>, Set<Cl
      *            the suffix used to create the name of a corresponding j8unit test interface
      */
     public J8UnitRepositoryTestsDiscovery(final String prefix, final String suffix) {
-        this.prefix = prefix;
-        this.suffix = suffix;
+        this.prefix = requireNonNull(prefix);
+        this.suffix = requireNonNull(suffix);
     }
 
     /**

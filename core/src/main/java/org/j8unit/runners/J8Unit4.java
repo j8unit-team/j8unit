@@ -1,5 +1,6 @@
 package org.j8unit.runners;
 
+import static java.util.Objects.requireNonNull;
 import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.model.InitializationError;
 
@@ -48,6 +49,7 @@ extends J8BlockJUnit4ClassRunner {
      */
     public J8Unit4(final Class<?> clazz)
     throws InitializationError {
-        super(clazz);
+        super(requireNonNull(clazz));
     }
+
 }

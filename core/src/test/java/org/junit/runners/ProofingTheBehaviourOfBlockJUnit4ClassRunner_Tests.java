@@ -20,10 +20,7 @@ import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethod;
 import org.junit.runners.model.InterfaceWithAnOverriddenDefaultTestMethodWithoutAnnotation;
 import org.junit.runners.model.InterfaceWithoutATestMethod;
 
-/**
- * TODO: Also proof behaviour of {@link BlockJUnit4ClassRunner}
- */
-public class ProofingTheBehaviourOfJUnit4ClassRunner_Tests
+public class ProofingTheBehaviourOfBlockJUnit4ClassRunner_Tests
 extends ProofingTheBehaviourOfRunners {
 
     protected static final String NOTHING = "%s: [%s] cannot run a test of [%s: %s].%n";
@@ -35,17 +32,17 @@ extends ProofingTheBehaviourOfRunners {
     @Override
     protected Runner getRunner(final Class<?> clazz)
     throws InitializationError {
-        return new JUnit4(clazz);
+        return new BlockJUnit4ClassRunner(clazz);
     }
 
     protected Class<? extends Runner> getRunnerClass() {
-        return JUnit4.class;
+        return BlockJUnit4ClassRunner.class;
     }
 
     @BeforeClass
     public static void legend() {
         System.out.println("+--------------------------------------------------+");
-        System.out.println("| Behaviour of the default JUnit4 Test Runner      |");
+        System.out.println("| Behaviour of BlockJUnit4ClassRunner              |");
         System.out.println("| Legend:                                          |");
         System.out.println("+--------------------------------------------------+");
         System.out.println("| [c✓] Intended Construction Behaviour             |");

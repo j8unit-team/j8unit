@@ -108,12 +108,33 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     @Override
     public final Set<Class<?>> exploreOriginTypes()
     throws MissingCompilerException, IOException {
+        // TODO: Can we use some ideas of {@link java.lang.invoke.AbstractValidatingLambdaMetafactory} (and sub-types)
+        // to create an alternative way to explore classes without the need of {@link
+        // ToolProvider#getSystemJavaCompiler()}?
         final JavaCompiler compiler = ofNullable(getSystemJavaCompiler()).orElseThrow(MissingCompilerException::new);
         final JavaFileManager manager = compiler.getStandardFileManager(null, null, null);
         final Iterable<JavaFileObject> files = manager.list(this.originLocation, this.originRootPackage, singleton(CLASS), this.subPackageRecursion);
         final Stream<String> names = stream(files.spliterator(), false).map(file -> manager.inferBinaryName(this.originLocation, file));
         final Stream<Class<?>> classes = names.map(TypeAnalysis::tryLoadClass).flatMap(Optionals::toStream);
         return classes.collect(toSet());
+    }
+
+    /**
+     * Returns a {@linkplain Set set} of all Java {@linkplain Class types} of the given {@linkplain Package package}
+     * according to {@link #originLocation}, {@link #originRootPackage}, and {@link #subPackageRecursion}.
+     *
+     * @return a set of all Java types of the given package according to {@link #originLocation},
+     *         {@link #originRootPackage}, and {@link #subPackageRecursion}
+     * @throws MissingCompilerException
+     *             if the currently running Java platform does not provide a Java programming language compiler
+     * @throws IOException
+     *             if an I/O error occurred
+     */
+    public final Set<Class<?>> exploreOriginTypes(final Package pakkage)
+    throws MissingCompilerException, IOException {
+        return this.exploreOriginTypes().stream() //
+                   .filter(t -> pakkage.equals(t.getPackage())) //
+                   .collect(toSet());
     }
 
     /**
@@ -167,6 +188,14 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
             final String packageName = ofOptional(this.targetPackageFor(pakkage)).orEmpty();
             return Paths.get(this.targetRootFolder, splitPattern.split(packageName)).toAbsolutePath().normalize();
         }
+    }
+
+    @Override
+    public Path targetFileFor(final Package pakkage) {
+        requireNonNull(pakkage);
+        final Path folder = this.targetFolderFor(pakkage);
+        final Path path = folder.resolve("APIConformanceTests" + JAVA_FILE_EXTENSION);
+        return path;
     }
 
     /**

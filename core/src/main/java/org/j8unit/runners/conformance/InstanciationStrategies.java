@@ -31,7 +31,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
                 final Enum<?>[] constants = (Enum<?>[]) candidate.getEnumConstants();
                 if (constants.length == 0) {
                     final Callable<?> factory = () -> {
-                        throw new AssumptionViolatedException(EMPTY_ENUM);
+                        throw new AssumptionViolatedException(SKIP_EMPTY_ENUM);
                     };
                     instanciations.put("...", factory);
                 } else {
@@ -40,6 +40,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
                         instanciations.put(constant.name(), factory);
                     }
                 }
+                // We must return {@link #SKIP_ANY_OTHER_STRATEGY} or {@link #AVAILABLE_FIELDS} will also succeed!
                 return SKIP_ANY_OTHER_STRATEGY;
             } else {
                 return TRY_SOME_OTHER_STRATEGY;
@@ -75,9 +76,9 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
 
         @Override
         public final boolean test(final Class<?> candidate, final Map<? super String, ? super Callable<?>> instanciations) {
+            assert candidate != null;
+            assert instanciations != null;
             if (!isAbstract(candidate.getModifiers())) {
-                assert candidate != null;
-                assert instanciations != null;
                 try {
                     final Callable<?> construction = candidate.getConstructor()::newInstance;
                     instanciations.put(candidate.getSimpleName() + "()", construction);
@@ -97,9 +98,13 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
         public boolean test(final Class<?> candidate, final Map<? super String, ? super Callable<?>> instanciations) {
             assert candidate != null;
             assert instanciations != null;
+            final boolean isAbstr = isAbstract(candidate.getModifiers());
+            final boolean isIface = candidate.isInterface();
+            final boolean isAnno = candidate.isAnnotation();
             if (instanciations.isEmpty()) {
+                final String cause = isAbstr ? isIface ? isAnno ? SKIP_ANNOTATION : SKIP_INTERFACE : SKIP_ABSTRACT : SKIP_UNSUPPORTED;
                 final Callable<?> factory = () -> {
-                    throw new AssumptionViolatedException(UNSUPPORTED_TYPE);
+                    throw new AssumptionViolatedException(cause);
                 };
                 instanciations.put("...", factory);
             }
@@ -108,9 +113,15 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
 
     };
 
-    static final String EMPTY_ENUM = "Skipping this test because the current enum-under-test does not provide any enum constant!";
+    static final String SKIP_EMPTY_ENUM = "Skipping this test because the current enum-under-test does not provide any enum constant!";
 
-    static final String UNSUPPORTED_TYPE = "Skipping this test because j8unit does cannot find any way to create/receive an instance of the current class-under-test!";
+    static final String SKIP_ABSTRACT = "Skipping this test because j8unit does not support a generic way to provide instances of an abstract class-under-test.";
+
+    static final String SKIP_INTERFACE = "Skipping this test because j8unit does not support a generic way to provide instances of an interface-under-test.";
+
+    static final String SKIP_ANNOTATION = "Skipping this test because j8unit does not support a generic way to provide instances of an annotation-under-test.";
+
+    static final String SKIP_UNSUPPORTED = "Skipping this test because j8unit does not support a generic way to provide instances of the current class-under-test!";
 
     /**
      * Return this value if no further instanciation strategy should be used.

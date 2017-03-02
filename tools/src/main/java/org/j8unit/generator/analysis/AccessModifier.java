@@ -56,7 +56,7 @@ implements ModifierBasedMatcher {
      * Enumeration constant representing <em>package private</em> access (aka. default access).
      * </p>
      */
-    PACKAGE_PRIVATE(PUBLIC.predicate.or(PROTECTED.predicate).or(PRIVATE.predicate).negate(), Lookup.PACKAGE);
+    PACKAGE_PRIVATE(PUBLIC.or(PROTECTED).or(PRIVATE).negate(), Lookup.PACKAGE);
 
     /**
      * The predicate to decide whether or not a given modifier bit mask matches this access level.
@@ -91,7 +91,7 @@ implements ModifierBasedMatcher {
      *         otherwise
      */
     @Override
-    public final boolean matches(final int modifier) {
+    public final boolean test(final int modifier) {
         return this.predicate.test(modifier);
     }
 
