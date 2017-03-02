@@ -27,7 +27,7 @@ If you are interested in details, [...TODO+LINKS+ETC...](J8TestClass).
 
 Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
 
-## [](#java-8-based-testclass-model)Java-8-Based TestClass Model
+## Java-8-Based TestClass Model
 
 One of the new features of Java 8 is the [_default_ implementation of _interface_ methods](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4).
 Obviously, such methods can be tests too; However, JUnit4 does not detect these methods.
@@ -42,7 +42,7 @@ super classes.
 In result, J8Unit allows you to group tests within certain interfaces.
 **Even more, tests can be easily reused independently of a specific test class hierarchy.**
 
-## [](#the-reusable-tests-api)The Reusable Tests API
+## The Reusable Tests API
 
 Admittedly, reusing tests does not make sense if the behaviour is absolutely the same each time it is invoked.
 Doing so would be nothing else than a multiple execution of the same test.
