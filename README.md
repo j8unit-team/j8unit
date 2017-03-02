@@ -20,11 +20,14 @@ Shortly spoken, it comes along with:
 
 You can read a brief 2-minute description right here in the below sections.
 
-[comment]: # Spiced with few more information, you can read a condensed 10-minute description in [J8Unit in a nutshell](J8UnitInANutshell.md). Depending on whether you are using an existing API or you are programming a new API, you should focus on the according chapter.
+<!---
+Spiced with few more information, you can read a condensed 10-minute description in [J8Unit in a nutshell](J8UnitInANutshell.md).
+Depending on whether you are using an existing API or you are programming a new API, you should focus on the according chapter.
 
-[comment]: # If you are interested in details, [...TODO+LINKS+ETC...](J8TestClass).
+If you are interested in details, [...TODO+LINKS+ETC...](J8TestClass).
 
-[comment]: # Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
+Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
+--->
 
 ## Java-8-Based TestClass Model
 
