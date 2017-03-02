@@ -1,4 +1,4 @@
-# [](#j8unit-and-the-j8unit-repository)J8Unit And The J8Unit Repository
+# J8Unit And The J8Unit Repository
 
 J8Unit combines the power of JUnit4 and Java 8.
 Shortly spoken, it comes along with:
@@ -55,7 +55,7 @@ type-under-test and **reuse the accompanying J8Unit-based tests** of that API.
 **If you are programming a new API**, you should also **provide such reusable J8Unit-based tests** in order to allow others to verify the conformance
 of their implementations against your behaviour expectations.
 
-## [](#the-j8unit-repository)The J8Unit Repository
+## The J8Unit Repository
 
 Obviously, every custom Java class must conform to the related Java API.
 Every implementation of a Java interface must conform to the interface's requirements, usually "specified" as JavaDoc.
@@ -86,7 +86,7 @@ In order to make use of these tests, just add the J8Unit Repository to your test
 </dependency>
 ```
 
-## [](#the-j8unit-test-runners)The J8Unit Test Runners
+## The J8Unit Test Runners
 
 Unfortunately, JUnit4 does not provide injection of the test class model to be used; Thus, when running J8Unit tests you have to specify an according test runner
 that is aware of the extended [J8Unit TestClass model](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/runners/model/J8TestClass.java).
@@ -114,7 +114,7 @@ We strongly recommend to consider the usage of this test runner.
 Really! Give it a try ...
 You will love the superduper combination with the J8Unit Repository.
 
-## [](#additional-assert-methods)Additional Assert Methods
+## Additional Assert Methods
 
 The current JUnit4 [Assert statements](http://junit.org/junit4/javadoc/latest/org/junit/Assert.html) are strongly coupled to
 [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)-based messages.
@@ -135,6 +135,6 @@ Similar to the J8Unit runners, just add J8Unit Core to your test scope and you c
 </dependency>
 ```
 
-# [](#roadmap)Roadmap
+# Roadmap
 
 See the [open issues](https://github.com/j8unit-team/j8unit/issues) for a list of proposed features (and known issues).
