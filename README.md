@@ -8,7 +8,8 @@ Shortly spoken, it comes along with:
   _[Supplier<? extends CharSequence>](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)_ as
   its _[AssertionError](https://docs.oracle.com/javase/8/docs/api/java/lang/AssertionError.html)_ message,
 * a **extended TestClass model**
-  that (in addition to the JUnit4 model) detects test methods which are specified as _default_ _interface_ methods,
+  that (in addition to the JUnit4 model) detects test methods which are specified as
+  [_default_ _interface_](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4) methods,
 * a Java-8-based **reusable Tests API**
   that (a) allows API developer to publish their API with accompanying tests
   and (b) allows programmer to verify its custom implementations against these behaviour expectations,
@@ -28,7 +29,7 @@ Last, but not least -- if your are interested in contributing to J8Unit, ...TODO
 
 ## [](#java-8-based-testclass-model)Java-8-Based TestClass Model
 
-One of the new features of Java 8 is the _default_ implementation of _interface_ methods.
+One of the new features of Java 8 is the [_default_ implementation of _interface_ methods](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4).
 Obviously, such methods can be tests too; However, JUnit4 does not detect these methods.
 Fortunately, the [JUnit4 TestClass model](http://junit.org/junit4/javadoc/latest/org/junit/runners/model/TestClass.html)
 only needs a slightly modification to do so.
