@@ -1,7 +1,7 @@
 # J8Unit And The J8Unit Repository
 
 J8Unit combines the power of JUnit4 and Java 8.
-Shortly spoken, it comes along with:
+Briefly spoken, it comes along with:
 
 * some **fancy assert** methods
   that can take _[CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)_ or
