@@ -7,38 +7,34 @@ Briefly spoken, it comes along with:
   that can take _[CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)_ or
   _[Supplier<? extends CharSequence>](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)_ as
   its _[AssertionError](https://docs.oracle.com/javase/8/docs/api/java/lang/AssertionError.html)_ message,
-* a **extended TestClass model**
+* an **extended TestClass model**
   that (in addition to the JUnit4 model) detects test methods which are specified as
-  [_default_ _interface_](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4) methods,
+  [`default` `interface`](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4) methods,
 * a Java-8-based **reusable Tests API**
   that (a) allows API developer to publish their API with accompanying tests
   and (b) allows programmer to verify its custom implementations against these behaviour expectations,
 * few **additional test runners**
-  that (in addition to the JUnit4 runners) execute test methods which are specified as _default_ _interface_ methods,
+  that (in addition to the JUnit4 runners) execute test methods which are specified as `default` `interface` methods,
 * a **repository of reusable tests** (called the J8Unit Repository)
   that contains an instantly growing number of reusable tests that relate to all Java types of Java 8. 
 
-You can read a brief 2-minute description right here in the below sections.
+You can read a brief 5-minute description right here in the below sections.
 
-<!---
-Spiced with few more information, you can read a condensed 10-minute description in [J8Unit in a nutshell](J8UnitInANutshell.md).
+Spiced with few more information, you can read a condensed 15-minute description in [J8Unit in a Nutshell](README/J8UnitInANutshell.md).
 Depending on whether you are using an existing API or you are programming a new API, you should focus on the according chapter.
 
-If you are interested in details, [...TODO+LINKS+ETC...](J8TestClass).
-
-Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
---->
+If you are interested in details, you should dive into [the comprehensive descriptions]().
 
 ## Java-8-Based TestClass Model
 
-One of the new features of Java 8 is the [_default_ implementation of _interface_ methods](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4).
+One of the new features of Java 8 is the [`default` implementation of `interface` methods](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4).
 Obviously, such methods can be tests too; However, JUnit4 does not detect these methods.
 Fortunately, the [JUnit4 TestClass model](http://junit.org/junit4/javadoc/latest/org/junit/runners/model/TestClass.html)
 only needs a slightly modification to do so.
 
 The [J8Unit TestClass model](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/runners/model/J8TestClass.java)
 provides this indispensable extension just by additionally scanning for all _[@Test](http://junit.org/junit4/javadoc/latest/org/junit/Test.html)_
-annotated _default_ methods -- unless overridden by a more specific method within the given test class or any of its
+annotated `default` methods -- unless overridden by a more specific method within the given test class or any of its
 super classes.
 
 In result, J8Unit allows you to group tests within certain interfaces.
@@ -140,3 +136,10 @@ Similar to the J8Unit runners, just add J8Unit Core to your test scope and you c
 # Roadmap
 
 See the [open issues](https://github.com/j8unit-team/j8unit/issues) for a list of proposed features (and known issues).
+
+
+
+<!---
+
+Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
+--->
