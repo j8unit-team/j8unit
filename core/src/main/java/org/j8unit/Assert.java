@@ -110,7 +110,7 @@ extends org.junit.Assert {
      *             always
      */
     public static final void fail(final CharSequence message) {
-        fail(supply(message));
+        SupplierBasedAssert.fail(supply(message));
     }
 
     /**
@@ -745,7 +745,7 @@ extends org.junit.Assert {
      *             always
      */
     public static final void fail(final Supplier<? extends CharSequence> message) {
-        fail(resolve(message));
+        SupplierBasedAssert.fail(resolve(message));
     }
 
     /**

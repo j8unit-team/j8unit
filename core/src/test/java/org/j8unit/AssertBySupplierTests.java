@@ -36,6 +36,12 @@ public class AssertBySupplierTests {
         return msg;
     }
 
+    @Test(expected = AssertionError.class)
+    public void test_fail_failure()
+    throws Exception {
+        Assert.fail(this.SUP);
+    }
+
     @Test
     public void test_assertArrayEquals_boolean_success()
     throws Exception {
