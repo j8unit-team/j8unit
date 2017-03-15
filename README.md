@@ -23,7 +23,8 @@ You can read a brief 5-minute description right here in the below sections.
 Spiced with few more information, you can read a condensed 15-minute description in [J8Unit in a Nutshell](README/J8UnitInANutshell.md).
 Depending on whether you are using an existing API or you are programming a new API, you should focus on the according chapter.
 
-If you are interested in details, you should dive into [the comprehensive descriptions]().
+If you are interested in details, you should dive into [the comprehensive descriptions](README/J8UnitHandbook.md) or just read the
+[J8Unit cover story of the Java Magazin 2.16](https://jaxenter.de/testen-ohne-neu-zu-bauen-java-8-features-in-junit-tests-36101).
 
 ## Java-8-Based TestClass Model
 
@@ -45,7 +46,7 @@ In result, J8Unit allows you to group tests within certain interfaces.
 Admittedly, reusing tests does not make sense if the behaviour is absolutely the same each time it is invoked.
 Doing so would be nothing else than a multiple execution of the same test.
 
-Hence, [J8Unit tests](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/J8UnitTest.java) usually base on a specific
+Hence, [J8Unit tests](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/J8UnitTest.java) _usually_ base on a specific
 type-under-test and, within each test execution, use an instance of it.
 
 **If you are using an existing API** (by extending some API classes or implementing sone API interfaces), you should only provide instances of your
@@ -55,25 +56,25 @@ of their implementations against your behaviour expectations.
 
 ## The J8Unit Repository
 
-Obviously, every custom Java class must conform to the related Java API.
-Every implementation of a Java interface must conform to the interface's requirements, usually "specified" as JavaDoc.
+Obviously, every custom Java type must conform to the related Java API; Every implementation of a Java `interface` must
+conform to the interface's requirements, usually "specified" as JavaDoc.
 In general, every overridden method must [conform to the requirements of the super type](https://en.wikipedia.org/wiki/Liskov_substitution_principle).
 
-In addition, even the classes must conform to various expectations.
+In addition, even the `class`es itself must conform to various expectations.
 
 For example, all sub-types of [Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html) should provide a zero-argument
 and a [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)-argument constructor.
-Obviously, this is a class-specific behaviour.
+Obviously, this is a `class`-specific behaviour.
 In general, all constraints referring to the provision of specific constructors (and its individual requirements) should be covered by according test methods.
 (Note, this is not limited to constructors only; Just think of factory methods and further.)
 
 For another example, [by virtue of the _AnnotationTypeElementDeclaration_ production, a method declaration in an annotation type declaration cannot have formal
 parameters, type parameters, or a _throws_ clause (JLS, Sec.&thinsp;9.6.1](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1).
 Obviously, this is a type-specific behaviour too; And it must be tested!
-  
+
 Since Java does not provide a J8Unit-based collection of reusable tests, the _J8Unit Repository_ has been created.
-Currently, it contains more than 8.100 reusable J8Unit tests classes.
-In order to make use of these tests, just add the J8Unit Repository to your test scope:
+Currently, it contains more than 8.100 reusable J8Unit skeleton tests classes and few real test methods. 
+In order to make use of these tests, you need to add the J8Unit Repository to your test scope:
 
 ```xml
 <dependency>
@@ -96,7 +97,7 @@ J8Unit provides such runners for each common use case:
 * for Spring projects (**J8SpringJUnit4ClassRunner**, **J8SpringJUnit4**),
 * for an _automatic invocation of all suitable J8Unit tests_ that are provided by the J8Unit Repository and similar repositories (**APIConformance**).
 
-In order to make use of these test runners, just add J8Unit Core to your test scope:
+In order to make use of these test runners, you need to add J8Unit Core to your test scope:
 
 ```xml
 <dependency>
@@ -107,7 +108,7 @@ In order to make use of these test runners, just add J8Unit Core to your test sc
 </dependency>
 ```
 
-To emphasise the last point again: **APIConformance** automatically invokes all suitable J8Unit tests.
+_To emphasise the last point again:_ **APIConformance** automatically invokes all suitable J8Unit tests.
 We strongly recommend to consider the usage of this test runner.
 Really! Give it a try ...
 You will love the superduper combination with the J8Unit Repository.
@@ -117,12 +118,12 @@ You will love the superduper combination with the J8Unit Repository.
 The current JUnit4 [Assert statements](http://junit.org/junit4/javadoc/latest/org/junit/Assert.html) are strongly coupled to
 [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)-based messages.
 
-However, you might want to provide [CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)-based
-or [Supplier<? extends CharSequence>](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)-based messages
-(a.k.a. on-demand messages).
+However, you might want to provide [CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)-based messages.
+Or even further, you might want to use the Java 8's [Supplier](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to provide on-demand messages.
 
-The J8Unit [Assert](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/Assert.java) provides these additional assert methods.
-Similar to the J8Unit runners, just add J8Unit Core to your test scope and you can use it:
+The [J8Unit Assert](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/Assert.java)
+provides these additional assert methods.
+Similar to the J8Unit runners, you need to add J8Unit Core to your test scope and you can use it:
 
 ```xml
 <dependency>
@@ -136,10 +137,3 @@ Similar to the J8Unit runners, just add J8Unit Core to your test scope and you c
 # Roadmap
 
 See the [open issues](https://github.com/j8unit-team/j8unit/issues) for a list of proposed features (and known issues).
-
-
-
-<!---
-
-Last, but not least -- if your are interested in contributing to J8Unit, ...TODO...
---->
