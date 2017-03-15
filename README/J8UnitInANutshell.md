@@ -1,4 +1,32 @@
-# [](#j8unit-and-the-j8unit-repository)J8Unit And The J8Unit Repository
+# J8Unit In A Nutshell
+
+J8Unit combines the power of JUnit4 and Java 8.
+Briefly spoken, it comes along with:
+
+* some **fancy assert** methods
+  that can take _[CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)_ or
+  _[Supplier<? extends CharSequence>](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)_ as
+  its _[AssertionError](https://docs.oracle.com/javase/8/docs/api/java/lang/AssertionError.html)_ message,
+* an **extended TestClass model**
+  that (in addition to the JUnit4 model) detects test methods which are specified as
+  [`default` `interface`](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.4) methods,
+* a Java-8-based **reusable Tests API**
+  that (a) allows API developer to publish their API with accompanying tests
+  and (b) allows programmer to verify its custom implementations against these behaviour expectations,
+* few **additional test runners**
+  that (in addition to the JUnit4 runners) execute test methods which are specified as `default` `interface` methods,
+* a **repository of reusable tests** (called the J8Unit Repository)
+  that contains an instantly growing number of reusable tests that relate to all Java types of Java 8. 
+
+You can read a brief 5-minute description in the [J8Unit's README](../README.md). 
+right here in the below sections.
+
+Spiced with few more information, you can read a condensed 15-minute description in [J8Unit in a Nutshell](README/J8UnitInANutshell.md).
+Depending on whether you are using an existing API or you are programming a new API, you should focus on the according chapter.
+
+If you are interested in details, you should dive into [the comprehensive descriptions]() or just read the [J8Unit cover
+story of the Java Magazin 2.16](https://jaxenter.de/testen-ohne-neu-zu-bauen-java-8-features-in-junit-tests-36101).
+
 
 J8Unit combines the power of JUnit4 and Java 8.
 Shortly spoken, it comes along with:
