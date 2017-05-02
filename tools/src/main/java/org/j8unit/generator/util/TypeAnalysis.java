@@ -16,6 +16,7 @@ import static org.j8unit.generator.analysis.AccessModifier.PUBLIC;
 import static org.j8unit.generator.util.Consumers.NOOP;
 import static org.j8unit.generator.util.Iterators.iterate;
 import static org.j8unit.generator.util.Maps.entry;
+import static org.j8unit.generator.util.Optionals.optionalise;
 import static org.j8unit.generator.util.Optionals.toStream;
 import static org.j8unit.util.Functional.consumeFalse;
 import static org.j8unit.util.Reflection.redundantTypes;
@@ -55,7 +56,22 @@ public enum TypeAnalysis {
      * @return the loaded {@link Class}, enveloped into an {@link Optional}
      */
     public static final Optional<Class<?>> tryLoadClass(final String name) {
-        return Optionals.optionalise(() -> getSystemClassLoader().loadClass(name), Throwable::printStackTrace);
+        return tryLoadClass(name, getSystemClassLoader());
+    }
+
+    /**
+     * Tries to load a class by its name. If for any exceptional reason the class cannot be loaded, the thrown
+     * {@link Exception} will print its stack trace to {@link System#err}.
+     *
+     * @see Optionals#optionalise(java.util.concurrent.Callable, Consumer)
+     * @param name
+     *            the name of the {@link Class} to load
+     * @param loader
+     *            the class loader to use
+     * @return the loaded {@link Class}, enveloped into an {@link Optional}
+     */
+    public static final Optional<Class<?>> tryLoadClass(final String name, final ClassLoader loader) {
+        return optionalise(() -> loader.loadClass(name), Throwable::printStackTrace);
     }
 
     /**
