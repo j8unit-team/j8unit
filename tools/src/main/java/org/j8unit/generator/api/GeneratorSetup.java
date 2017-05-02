@@ -22,6 +22,7 @@ import static org.j8unit.generator.util.Java.JAVA_FILE_EXTENSION;
 import static org.j8unit.generator.util.Java.JAVA_NAMESPACE_DELIMITER;
 import static org.j8unit.generator.util.OptionalString.ofOptional;
 import static org.j8unit.generator.util.Strings.capFirst;
+import static org.j8unit.generator.util.TypeAnalysis.tryLoadClass;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -34,6 +35,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileManager;
+import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardLocation;
 import org.j8unit.generator.analysis.AccessLevel;
@@ -43,7 +45,6 @@ import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.FancyOriginRenderer;
 import org.j8unit.generator.api.render.FancyTargetRenderer;
 import org.j8unit.generator.util.Optionals;
-import org.j8unit.generator.util.TypeAnalysis;
 
 /**
  * <em>Immutable</em> container class of all {@linkplain J8UnitCodeGenerator generator}-specific configuration data.
@@ -69,6 +70,16 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     }
 
     /**
+     * The java file manager to use when {@linkplain JavaFileManager#list(Location, String, Set, boolean) listing} the
+     * origin types.
+     *
+     * @see #originLocation
+     * @see #originRootPackage
+     * @see #subPackageRecursion
+     */
+    private final JavaFileManager javaFileManager;
+
+    /**
      * The name of the root Java {@linkplain Package package} to consider when
      * {@linkplain Generator#generateSourceFile(Class, GeneratorSetup, GeneratorSetup) generating test-code}.
      *
@@ -92,7 +103,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      * (In case of the j8unit's repository (considering the Java JDK's/SDK's classes), the value will be
      * {@link StandardLocation#PLATFORM_CLASS_PATH} instead.)
      */
-    private final StandardLocation originLocation;
+    private final Location originLocation;
 
     /**
      * Returns a {@linkplain Set set} of all Java {@linkplain Class types} according to {@link #originLocation},
@@ -108,14 +119,11 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     @Override
     public final Set<Class<?>> exploreOriginTypes()
     throws MissingCompilerException, IOException {
-        // TODO: Can we use some ideas of {@link java.lang.invoke.AbstractValidatingLambdaMetafactory} (and sub-types)
-        // to create an alternative way to explore classes without the need of {@link
-        // ToolProvider#getSystemJavaCompiler()}?
-        final JavaCompiler compiler = ofNullable(getSystemJavaCompiler()).orElseThrow(MissingCompilerException::new);
-        final JavaFileManager manager = compiler.getStandardFileManager(null, null, null);
-        final Iterable<JavaFileObject> files = manager.list(this.originLocation, this.originRootPackage, singleton(CLASS), this.subPackageRecursion);
-        final Stream<String> names = stream(files.spliterator(), false).map(file -> manager.inferBinaryName(this.originLocation, file));
-        final Stream<Class<?>> classes = names.map(TypeAnalysis::tryLoadClass).flatMap(Optionals::toStream);
+        final Iterable<JavaFileObject> files = this.javaFileManager.list(this.originLocation, this.originRootPackage, singleton(CLASS),
+                                                                         this.subPackageRecursion);
+        final Stream<String> names = stream(files.spliterator(), false).map(file -> this.javaFileManager.inferBinaryName(this.originLocation, file));
+        final ClassLoader loader = this.javaFileManager.getClassLoader(this.originLocation);
+        final Stream<Class<?>> classes = names.map(n -> tryLoadClass(n, loader)).flatMap(Optionals::toStream);
         return classes.collect(toSet());
     }
 
@@ -376,6 +384,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      */
     protected GeneratorSetup(final Builder builder) {
         requireNonNull(builder);
+        this.javaFileManager = requireNonNull(builder.javaFileManager);
         this.originRootPackage = requireNonNull(builder.originRootPackage);
         this.subPackageRecursion = builder.subPackageRecursion;
         this.originLocation = requireNonNull(builder.originLocation);
@@ -400,6 +409,25 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      */
 
     /**
+     * Returns a new {@link GeneratorSetup} {@linkplain Builder builder} for the given {@¢ode location} and java file
+     * {@code manager}. Afterwards, any further behaviour must be configured by calling the according builder's
+     * configuration methods.
+     *
+     * @param location
+     *            name of the location to use
+     * @param manager
+     *            the java file manager to use
+     * @return a new {@code GeneratorSetup} builder for the given {@¢ode location} and java file {@code manager}
+     *
+     * @see #forJavaPackage(String)
+     * @see #forPackage(String)
+     */
+    public final static Builder forLocation(final JavaFileManager manager, final Location location) {
+        requireNonNull(manager);
+        return new Builder().forLocation(location, manager);
+    }
+
+    /**
      * Returns a new {@link GeneratorSetup} {@linkplain Builder builder} for the given package (of custom classes).
      * Afterwards, any further behaviour must be configured by calling the according builder's configuration methods.
      *
@@ -407,6 +435,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      *            the origin package
      * @return a new {@code GeneratorSetup} builder for the given package (of custom classes)
      *
+     * @see #forLocation(JavaFileManager, Location)
      * @see #forJavaPackage(String)
      */
     public final static Builder forPackage(final String pakkage) {
@@ -423,6 +452,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      *            the origin package
      * @return a new {@code GeneratorSetup} builder for the given package (of custom classes)
      *
+     * @see #forLocation(JavaFileManager, Location)
      * @see #forPackage(String)
      */
     final static Builder forJavaPackage(final String pakkage) {
@@ -441,6 +471,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
     public final static Builder similarTo(final GeneratorSetup blueprint) {
         requireNonNull(blueprint);
         final Builder builder = new Builder();
+        builder.javaFileManager = requireNonNull(blueprint.javaFileManager);
         builder.originRootPackage = requireNonNull(blueprint.originRootPackage);
         builder.subPackageRecursion = blueprint.subPackageRecursion;
         builder.originLocation = requireNonNull(blueprint.originLocation);
@@ -470,6 +501,11 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
         }
 
         /**
+         * Builder's blueprint value for {@link GeneratorSetup#javaFileManager}.
+         */
+        private JavaFileManager javaFileManager = null;
+
+        /**
          * Builder's blueprint value for {@link GeneratorSetup#originRootPackage}.
          */
         private String originRootPackage = null;
@@ -482,36 +518,64 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
         /**
          * Builder's blueprint value for {@link GeneratorSetup#originLocation}.
          */
-        private StandardLocation originLocation = null;
+        private Location originLocation = null;
+
+        private final Builder forTarget(final Location location, final JavaFileManager manager, final String pakkage) {
+            this.javaFileManager = requireNonNull(manager);
+            this.originRootPackage = requireNonNull(pakkage);
+            this.subPackageRecursion = true;
+            this.originLocation = requireNonNull(location);
+            return this;
+        }
 
         /**
-         * Prepares {@link #originRootPackage} (with given package name), {@link #subPackageRecursion} (with
-         * {@code true}), and {@link #originLocation} (with {@code StandardLocation#CLASS_PATH}).
+         * Prepares {@link #javaFileManager} (with given {@code manager}), {@link #originRootPackage} (with {@code ""}),
+         * {@link #subPackageRecursion} (with {@code true}), and {@link #originLocation} (with given {@code location}).
+         *
+         * @param location
+         *            name of the location to use
+         * @param manager
+         *            the java file manager to use
+         * @return {@code this} builder instance for fluent API style
+         */
+        public final Builder forLocation(final Location location, final JavaFileManager manager) {
+            return this.forTarget(location, manager, "");
+        }
+
+        private final Builder forTarget(final Location location, final String pakkage) {
+            // TODO: Can we use some ideas of {@link java.lang.invoke.AbstractValidatingLambdaMetafactory} (and
+            // sub-types) to create an alternative way to explore classes without the need of {@link
+            // ToolProvider#getSystemJavaCompiler()}?
+            final JavaCompiler compiler = ofNullable(getSystemJavaCompiler()).orElseThrow(MissingCompilerException::new);
+            return this.forTarget(location, compiler.getStandardFileManager(null, null, null), pakkage);
+        }
+
+        /**
+         * Prepares {@link #javaFileManager} (with the
+         * {@linkplain javax.tools.JavaCompiler#getStandardFileManager(javax.tools.DiagnosticListener, java.util.Locale, java.nio.charset.Charset)
+         * standard file manager}), {@link #originRootPackage} (with given package name), {@link #subPackageRecursion}
+         * (with {@code true}), and {@link #originLocation} (with {@code StandardLocation#CLASS_PATH}).
          *
          * @param pakkage
          *            name of the origin package
          * @return {@code this} builder instance for fluent API style
          */
         public final Builder forPackage(final String pakkage) {
-            this.originRootPackage = requireNonNull(pakkage);
-            this.subPackageRecursion = true;
-            this.originLocation = CLASS_PATH;
-            return this;
+            return this.forTarget(CLASS_PATH, pakkage);
         }
 
         /**
-         * Prepares {@link #originRootPackage} (with given package name), {@link #subPackageRecursion} (with
-         * {@code true}), and {@link #originLocation} (with {@code StandardLocation#PLATFORM_CLASS_PATH}).
+         * Prepares {@link #javaFileManager} (with the
+         * {@linkplain javax.tools.JavaCompiler#getStandardFileManager(javax.tools.DiagnosticListener, java.util.Locale, java.nio.charset.Charset)
+         * standard file manager}), {@link #originRootPackage} (with given package name), {@link #subPackageRecursion}
+         * (with {@code true}), and {@link #originLocation} (with {@code StandardLocation#PLATFORM_CLASS_PATH}).
          *
          * @param pakkage
          *            name of the origin package
          * @return {@code this} builder instance for fluent API style
          */
-        final Builder forJavaPackage(final String originPackage) {
-            this.originRootPackage = requireNonNull(originPackage);
-            this.subPackageRecursion = true;
-            this.originLocation = PLATFORM_CLASS_PATH;
-            return this;
+        final Builder forJavaPackage(final String pakkage) {
+            return this.forTarget(PLATFORM_CLASS_PATH, pakkage);
         }
 
         /**
