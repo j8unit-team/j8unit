@@ -1,5 +1,9 @@
 # J8Unit In A Nutshell
 
+## J8Unit for API user
+
+## J8Unit for API developer
+
 J8Unit combines the power of JUnit4 and Java 8.
 Briefly spoken, it comes along with:
 
