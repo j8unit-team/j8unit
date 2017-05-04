@@ -422,7 +422,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      * @see #forJavaPackage(String)
      * @see #forPackage(String)
      */
-    public final static Builder forLocation(final JavaFileManager manager, final Location location) {
+    public final static Builder forLocation(final Location location, final JavaFileManager manager) {
         requireNonNull(manager);
         return new Builder().forLocation(location, manager);
     }
@@ -435,7 +435,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      *            the origin package
      * @return a new {@code GeneratorSetup} builder for the given package (of custom classes)
      *
-     * @see #forLocation(JavaFileManager, Location)
+     * @see #forLocation(Location, JavaFileManager)
      * @see #forJavaPackage(String)
      */
     public final static Builder forPackage(final String pakkage) {
@@ -452,7 +452,7 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      *            the origin package
      * @return a new {@code GeneratorSetup} builder for the given package (of custom classes)
      *
-     * @see #forLocation(JavaFileManager, Location)
+     * @see #forLocation(Location, JavaFileManager)
      * @see #forPackage(String)
      */
     final static Builder forJavaPackage(final String pakkage) {
