@@ -27,7 +27,7 @@ public enum RepositoryApp {
     public static final List<String> JAVA8_ROOT_PACKAGES = unmodifiableList(asList("java", "javax", "org"));
 
     public static final GeneratorSetup INSTANCE_TESTS_SETUP = GeneratorSetup.forJavaPackage("java") //
-                                                                            .intoTargetFolder("../repository/src/main/java") //
+                                                                            .intoTargetFolder("./target/generated-j8unit/repository/src/main/java") //
                                                                             .asSubPackageOf("org.j8unit.repository") //
                                                                             .doTestClassNamingWith("", false, "Tests") //
                                                                             .doTestConstructorNamingWith("create_", false, "") //
@@ -40,7 +40,7 @@ public enum RepositoryApp {
                                                                         .build();
 
     public static final GeneratorSetup INSTANCE_TEST_SETUP = GeneratorSetup.similarTo(INSTANCE_TESTS_SETUP) //
-                                                                           .intoTargetFolder("../repository/src/test/java") //
+                                                                           .intoTargetFolder("./target/generated-j8unit/repository/src/test/java") //
                                                                            .doTestClassNamingWith("", false, "Test") //
                                                                            .build();
 
@@ -49,9 +49,9 @@ public enum RepositoryApp {
                                                                        .build();
 
     public static final GeneratorSetup API_CONFORMANCE_SUITE_SETUP = GeneratorSetup.similarTo(INSTANCE_TESTS_SETUP) //
-                                                                                  .intoTargetFolder("../repository/src/test/java") //
-                                                                                  .doTestClassNamingWith("", false, "Test") //
-                                                                                  .build();
+                                                                                   .intoTargetFolder("./target/generated-j8unit/repository/src/test/java") //
+                                                                                   .doTestClassNamingWith("", false, "Test") //
+                                                                                   .build();
 
     public static void main(final String[] args)
     throws Exception {
