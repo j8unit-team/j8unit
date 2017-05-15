@@ -74,19 +74,6 @@
         <module>./repository</module>
       </modules>
     </profile>
-
-    <profile>
-      <!--
-        ~ The J8Unit JavaDoc (sub-) project (syntax highlighting) has been released as v1.0.0. Immediately afterwards,
-        ~ the next SNAPSHOT version has been prepared; But as long as there is no newer version of the
-        ~ Syntax-Highlighter (by Alex Gorbatchev) or there is no further update (e.g., custom CSS files), there is no
-        ~ need to call this profile any again.
-      -->
-      <id>javadoc</id>
-      <modules>
-        <module>./javadoc</module>
-      </modules>
-    </profile>
   </profiles>
 
 </project>

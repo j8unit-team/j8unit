@@ -80,7 +80,7 @@
 
     <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
     <version.j8unit.core>4.12.2-SNAPSHOT</version.j8unit.core>
-    <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
+    <version.informaticum.javadoc>3.0.90</version.informaticum.javadoc>
     <version.j8unit.repository>1.0.2-SNAPSHOT</version.j8unit.repository>
     <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
     <version.j8unit.spring>4.1.7</version.j8unit.spring>
@@ -118,11 +118,6 @@
         <groupId>org.j8unit</groupId>
         <artifactId>core</artifactId>
         <version>${version.j8unit.core}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>javadoc</artifactId>
-        <version>${version.j8unit.javadoc}</version>
       </dependency>
       <dependency>
         <groupId>org.j8unit</groupId>
