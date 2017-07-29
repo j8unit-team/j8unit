@@ -111,9 +111,10 @@
     </profile>
   </profiles>
 
+<!--
   <dependencyManagement>
     <dependencies>
-      <!-- === Managed Dependencies :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+      === Managed Dependencies :: 1st Party (sorted alphabetically for traceability/reproducibility) ===
       <dependency>
         <groupId>org.j8unit</groupId>
         <artifactId>core</artifactId>
@@ -129,9 +130,9 @@
         <artifactId>spring</artifactId>
         <version>${version.j8unit.spring}</version>
       </dependency>
-      <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+      === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) ===
       <dependency>
-        <!-- TODO: Could it be sufficient enough to refer to "org.springframework:spring-framework-bom"? -->
+        TODO: Could it be sufficient enough to refer to "org.springframework:spring-framework-bom"?
         <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
         <version>${version.spring.platform}</version>
@@ -155,6 +156,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+ -->
 
   <build>
     <pluginManagement>
@@ -254,7 +256,7 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>2.10.4</version>
-          <configuration>
+        <configuration>
             <encoding> ${project.build.sourceEncoding}</encoding>
             <docencoding>${project.reporting.outputEncoding}</docencoding>
             <failOnError>true</failOnError>
@@ -299,6 +301,40 @@
               <tag><name>serialData</name></tag>
               <tag><name>see</name></tag>
             </tags>
+          <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/stylesheet-configuration.html -->
+          <!-- <stylesheetfile>stylesheet.css</stylesheetfile> -->
+          <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
+          <!-- <docfilessubdirs>true</docfilessubdirs> -->
+          <!-- Add SyntaxHighlighter (via according JavaDoc resource archive). -->
+          <resourcesArtifacts>
+            <resourcesArtifact>
+              <groupId>de.informaticum</groupId>
+              <artifactId>syntaxhighlighter</artifactId>
+              <version>${version.informaticum.javadoc}</version>
+            </resourcesArtifact>
+          </resourcesArtifacts>
+          <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
+          <top><![CDATA[
+            <script src="{@docRoot}/syntaxhighlighter/${version.informaticum.javadoc}/scripts/shCore.min.js" type="text/javascript"></script>
+            <script src="{@docRoot}/syntaxhighlighter/${version.informaticum.javadoc}/scripts/shBrushJava.js" type="text/javascript"></script>
+            <link href="{@docRoot}/syntaxhighlighter/${version.informaticum.javadoc}/styles/shCore.css" rel="stylesheet" type="text/css" title="Style" />
+            <link href="{@docRoot}/syntaxhighlighter/${version.informaticum.javadoc}/styles/shThemeDefault.css" rel="stylesheet" type="text/css" title="Style" />
+          ]]>
+          </top>
+          <!-- Activate and customize SyntaxHighlighter features (at the bottom of each JavaDoc HTML file). -->
+          <additionalJOptions>
+            <!-- Due to the last Debian update, "javadoc" became more restrictive: -->
+            <!-- [ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:2.10.3:jar (attach-javadocs) on project core: MavenReportException: Error while generating Javadoc: -->
+            <!-- [ERROR] Exit code: 1 - javadoc: error - Argument for -footer contains JavaScript. -->
+            <additionalJOption>--allow-script-in-comments</additionalJOption>
+          </additionalJOptions>
+          <footer><![CDATA[
+            <script type="text/javascript">
+              SyntaxHighlighter.defaults["auto-links"] = false;
+              SyntaxHighlighter.defaults["tab-size"] = 2;
+              SyntaxHighlighter.all();
+            </script>
+          ]]></footer>
           </configuration>
           <executions>
             <execution>
