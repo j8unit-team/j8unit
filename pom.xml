@@ -51,7 +51,6 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
-        <module>./parent</module>
         <module>./core</module>
         <module>./repository</module>
         <module>./showcases</module>
