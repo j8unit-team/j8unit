@@ -35,8 +35,8 @@ only needs a slightly modification to do so.
 
 The [J8Unit TestClass model](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/runners/model/J8TestClass.java)
 provides this indispensable extension just by additionally scanning for all _[@Test](http://junit.org/junit4/javadoc/latest/org/junit/Test.html)_
-annotated `default` methods -- unless overridden by a more specific method within the given test class or any of its
-super classes.
+annotated `default` methods. Unless overridden by a more specific method within the given test class or any of its
+super classes, these tests will be executed too.
 
 In result, J8Unit allows you to group tests within certain interfaces.
 **Even more, tests can be easily reused independently of a specific test class hierarchy.**
@@ -56,8 +56,8 @@ of their implementations against your behaviour expectations.
 
 ## The J8Unit Repository
 
-Obviously, every custom Java type must conform to the related Java API; Every implementation of a Java `interface` must
-conform to the interface's requirements, usually "specified" as JavaDoc.
+Obviously, every custom Java type must conform to the related Java API and every implementation of a Java `interface` must
+conform to the `interface`'s requirements, usually "specified" as JavaDoc.
 In general, every overridden method must [conform to the requirements of the super type](https://en.wikipedia.org/wiki/Liskov_substitution_principle).
 
 In addition, even the `class`es itself must conform to various expectations.
