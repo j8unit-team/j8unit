@@ -55,7 +55,6 @@
         <module>./repository</module>
         <module>./showcases</module>
         <module>./spring</module>
-        <module>./tools</module>
       </modules>
     </profile>
 
