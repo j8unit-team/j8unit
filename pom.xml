@@ -53,7 +53,6 @@
       <modules>
         <module>./core</module>
         <module>./repository</module>
-        <module>./showcases</module>
         <module>./spring</module>
       </modules>
     </profile>
