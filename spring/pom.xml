@@ -11,7 +11,7 @@
 
   <artifactId>spring</artifactId>
   <version>4.1.7.1-SNAPSHOT</version>
-  <name>J8Unit Project (Spring Extension)</name>
+  <name>J8Unit Project :: Spring Extension</name>
   <description>The Spring extension of J8Unit.</description>
 
   <dependencies>

@@ -13,7 +13,7 @@
 
   <artifactId>core</artifactId>
   <version>4.12.2-SNAPSHOT</version>
-  <name>J8Unit Project (Core Components)</name>
+  <name>J8Unit Project :: Core Components</name>
   <description>The core components of J8Unit, i.e., extended test class model, runner classes, additional assertion methods ...</description>
 
   <dependencies>
