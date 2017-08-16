@@ -38,7 +38,7 @@ Even further, the parent-POM first and foremost
 [dependency management](https://maven.apache.org/pom.html#Dependency_Management) is done within each module's POM file
 separately.
 
-## J8Unit's Aggregation-POM
+### J8Unit's Aggregation-POM
 
 Located within the [root folder](../), J8Unit utilises an [aggregation-POM](../pom.xml) to manage the different J8Unit projects (a.k.a. Maven
 modules).
@@ -53,7 +53,7 @@ mvn --projects parent-pom --also-make-dependents clean verify
 
 *Note: To prevent an accidental installation/deployment, the aggregation-POM resists its own installation by failing intentionally.*
 
-## J8Unit's Parent-POM
+### J8Unit's Parent-POM
 
 The other main POM file of the J8Unit project is the [parent-POM](pom.xml).
 This POM is explicitly made for inheritance and, mainly, it is managing all the build plug-ins.
