@@ -33,6 +33,7 @@
   <modules>
     <module>parent-pom</module>
     <module>core</module>
+    <module>cucumber</module>
     <module>spring</module>
   </modules>
 

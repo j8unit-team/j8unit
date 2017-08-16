@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.j8unit</groupId>
+    <artifactId>parent-pom</artifactId>
+    <version>3-SNAPSHOT</version>
+    <relativePath />
+  </parent>
+
+  <artifactId>cucumber</artifactId>
+  <version>1.2.5-SNAPSHOT</version>
+  <name>J8Unit Project :: Cucumber Extension</name>
+  <description>The Cucumber extension of J8Unit.</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>1.2.5</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.j8unit</groupId>
+      <artifactId>core</artifactId>
+      <version>4.12.2-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+</project>

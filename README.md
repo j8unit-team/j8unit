@@ -28,7 +28,7 @@ If you are interested in details, you should dive into [the comprehensive descri
 
 ## Table Of Contents
 
-1. J8Unit And The J8Unit Repository
+1. _J8Unit And The J8Unit Repository_
     1. [Java-8-Based TestClass Model](#java-8-based-testclass-model)
     2. [The Reusable Tests API](#the-reusable-tests-api)
     3. [The J8Unit Repository](#the-j8unit-repository)
@@ -75,7 +75,7 @@ For example, all sub-types of [Throwable](https://docs.oracle.com/javase/8/docs/
 and a [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)-argument constructor.
 Obviously, this is a `class`-specific behaviour.
 In general, all constraints referring to the provision of specific constructors (and its individual requirements) should be covered by according test methods.
-(Note, this is not limited to constructors only; Just think of factory methods and further.)
+(Note, this is not limited to constructors only -- Just think of factory methods and further.)
 
 For another example, [by virtue of the _AnnotationTypeElementDeclaration_ production, a method declaration in an annotation type declaration cannot have formal
 parameters, type parameters, or a _throws_ clause (JLS, Sec.&thinsp;9.6.1](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1).
@@ -130,7 +130,7 @@ The current JUnit4 [Assert statements](http://junit.org/junit4/javadoc/latest/or
 However, you might want to provide [CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)-based messages.
 Or even further, you might want to use the Java 8's [Supplier](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to provide on-demand messages.
 (Such intention is similar to [this](https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log-java.util.logging.Level-java.util.function.Supplier-)
-or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Logger.html#debug%28org.apache.logging.log4j.util.Supplier%29)).
+or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Logger.html#debug%28org.apache.logging.log4j.util.Supplier%29).	)
 
 The [J8Unit Assert](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/Assert.java)
 provides these additional assert methods.
