@@ -7,9 +7,9 @@ the following sections.
 
 ## Table Of Contents
 
-1. [Maven Based Project Management](#Maven_Based_Project_Management)
-    1. [J8Unit's Aggregation-POM](#J8Unit's_Aggregation-POM)
-    2. [J8Unit's Parent-POM](#J8Unit's_Parent-POM)
+1. [Maven Based Project Management](#maven-based-project-management)
+    1. [J8Unit's Aggregation-POM](#j8units-aggregation-pom)
+    2. [J8Unit's Parent-POM](#j8units-parent-pom)
 
 ## Maven Based Project Management
 

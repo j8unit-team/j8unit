@@ -29,11 +29,11 @@ If you are interested in details, you should dive into [the comprehensive descri
 ## Table Of Contents
 
 1. J8Unit And The J8Unit Repository
-    1. [Java-8-Based TestClass Model](#Java-8-Based_TestClass_Model)
-    2. [The Reusable Tests API](#The_Reusable_Tests_API)
-    3. [The J8Unit Repository](#The_J8Unit_Repository)
-    4. [The J8Unit Test Runners](#The_J8Unit_Test_Runners)
-    5. [Additional Assert Methods](#Additional_Assert_Methods)
+    1. [Java-8-Based TestClass Model](#java-8-based-testclass-model)
+    2. [The Reusable Tests API](#the-reusable-tests-api)
+    3. [The J8Unit Repository](#the-j8unit-repository)
+    4. [The J8Unit Test Runners](#the-j8unit-test-runners)
+    5. [Additional Assert Methods](#additional-assert-methods)
 
 ## Java-8-Based TestClass Model
 
