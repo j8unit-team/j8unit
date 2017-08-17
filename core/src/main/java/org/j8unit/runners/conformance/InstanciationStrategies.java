@@ -62,7 +62,7 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
             Arrays.stream(candidate.getFields()) //
                   .filter(f -> candidate.isAssignableFrom(f.getType())) //
                   .filter(f -> isStatic(f.getModifiers())) //
-                  .forEach(f -> instanciations.put(f.getName(), (Callable<?>) () -> f.get(null /* static field */)));
+                  .forEach(f -> instanciations.put(f.getName(), (Callable<?>) () -> f.get(STATIC_FIELD)));
             return TRY_SOME_OTHER_STRATEGY;
         }
 
@@ -132,6 +132,14 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
      * Return this value if further instanciation strategies are allowed be used.
      */
     private static final boolean TRY_SOME_OTHER_STRATEGY = false;
+
+    /**
+     * According to the API of {@link java.lang.reflect.Field#get(Object)}, a field value lookup does not require a
+     * specified object if that underlying field is {@code static}.
+     *
+     * This is the according placeholder instance which is allowed to be {@code null}.
+     */
+    private static final Object STATIC_FIELD = null;
 
     /**
      * Tries to find a way to instanciate the given unknown Java {@code type}. Each way is identified by a unique name
