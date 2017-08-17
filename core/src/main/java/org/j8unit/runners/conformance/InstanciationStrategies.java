@@ -40,7 +40,8 @@ implements BiPredicate<Class<?>, Map<? super String, ? super Callable<?>>> {
                         instanciations.put(constant.name(), factory);
                     }
                 }
-                // We must return {@link #SKIP_ANY_OTHER_STRATEGY} or {@link #AVAILABLE_FIELDS} will also succeed!
+                // We must return {@link #SKIP_ANY_OTHER_STRATEGY}!
+                // Otherwise, execution of {@link #AVAILABLE_FIELDS} will additionally succeed!
                 return SKIP_ANY_OTHER_STRATEGY;
             } else {
                 return TRY_SOME_OTHER_STRATEGY;
