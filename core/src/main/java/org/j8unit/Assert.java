@@ -26,7 +26,7 @@ import org.junit.SupplierBasedAssert;
  *
  * public class MyTest {
  *
- *     private String someExpensiveMessageCreation() {
+ *     private static String someExpensiveMessageCreation() {
  *         // do some very expensive message creation; for example:
  *         //   (1) calculate string representation of long array,
  *         //   (2) calculate string representation of deeply nested object,
