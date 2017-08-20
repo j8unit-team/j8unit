@@ -38,14 +38,14 @@ import org.junit.SupplierBasedAssert;
  *     public void someTest_1()
  *     throws Exception {
  *         // ...
- *         assertNotNull(() -> someExpensiveMessageCreation(), expected, actual);
+ *         assertNotNull(() -> someExpensiveMessageCreation(), actual);
  *     }
  *
  *     &#64;Test
  *     public void someTest_2()
  *     throws Exception {
  *         // ...
- *         assertNotNull(MyTest::someExpensiveMessageCreation(), expected, actual);
+ *         assertNotNull(MyTest::someExpensiveMessageCreation(), actual);
  *     }
  *
  * }
