@@ -733,7 +733,7 @@ extends org.junit.Assert {
     }
 
     private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier) {
-        return (supplier == null) ? null : supply(supplier.get());
+        return (supplier == null) ? null : () -> supplier.get().toString();
     }
 
     /**
