@@ -20,9 +20,9 @@ import org.hamcrest.Matcher;
  *
  * <p>
  * <em>Please note:</em> There is another assertion extension ({@link org.j8unit.Assert}) that allows to use
- * {@link CharSequence}-based or {@linkplain Supplier supplied} {@code CharSequence} fail messages. In result, these
- * assertion methods extend the supplied-{@link String}-API of this component and allow a more general approach of
- * providing fail messages; and, thus, its usage is preferred!
+ * {@link CharSequence}-based or supplied fail messages. In result, these assertion methods extend the
+ * supplied-{@link String}-API of this component and allow a more general approach of providing fail messages; And,
+ * thus, its usage is preferred!
  * </p>
  *
  * @apiNote To get access to <em>package private</em> methods of the origin {@link Assert} component (i.&thinsp;e.,
