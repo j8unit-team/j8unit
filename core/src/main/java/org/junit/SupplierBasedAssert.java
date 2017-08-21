@@ -483,6 +483,7 @@ extends Assert {
     @Deprecated
     public static final void assertEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(message, expecteds, actuals);
     }
 
