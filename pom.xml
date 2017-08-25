@@ -37,6 +37,7 @@
     <module>spring</module>
     <module>repository</module>
     <module>generator</module>
+    <module>j8unit-maven-plugin</module>
   </modules>
 
   <build>

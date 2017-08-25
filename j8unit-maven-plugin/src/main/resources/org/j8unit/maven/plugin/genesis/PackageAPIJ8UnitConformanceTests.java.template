@@ -1,0 +1,10 @@
+package %1$s;
+
+import org.j8unit.runners.conformance.APIConformance;
+import org.j8unit.runners.conformance.APIConformance.APIConformanceCandidates;
+import org.junit.runner.RunWith;
+
+@RunWith(APIConformance.class)
+@APIConformanceCandidates({ %2$s })
+public class PackageAPIJ8UnitConformanceTests {
+}
