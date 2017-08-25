@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mvn --projects parent-pom --also-make --also-make-dependents clean verify
+mvn --projects parent-pom --also-make-dependents clean verify
