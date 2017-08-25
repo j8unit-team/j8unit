@@ -35,6 +35,7 @@
     <module>core</module>
     <module>cucumber</module>
     <module>spring</module>
+    <module>repository</module>
   </modules>
 
   <build>

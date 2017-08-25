@@ -80,8 +80,13 @@
 
   <build>
     <pluginManagement>
-      <!-- Plug-ins are sorted alphabetically for traceability/reproducibility. -->
+      <!-- Plug-ins are sorted alphabetically (by 'artifactId') for traceability/reproducibility. -->
       <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
@@ -313,6 +318,23 @@
               <additionalJOption>--allow-script-in-comments</additionalJOption>
             </additionalJOptions>
           </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>3.5</version>
+          <executions>
+            <execution>
+              <id>generate-default-descriptor</id>
+              <phase>process-classes</phase>
+            </execution>
+            <execution>
+              <id>generate-help-goal</id>
+              <goals>
+                <goal>helpmojo</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

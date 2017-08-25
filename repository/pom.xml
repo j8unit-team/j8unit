@@ -20,13 +20,14 @@
   <!-- Releasing J8Unit-2: 1.0.0 -->
   <!-- Further tests and bug handling (mainly java.lang.Object): 1.0.1 -->
   <version>1.0.2-SNAPSHOT</version>
-  <name>J8Unit Project (Repository)</name>
+  <name>J8Unit Project :: Repository</name>
   <description>Repository of Java-based J8Unit test interfaces.</description>
 
   <dependencies>
     <dependency>
       <groupId>org.j8unit</groupId>
       <artifactId>core</artifactId>
+      <version>4.12.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
