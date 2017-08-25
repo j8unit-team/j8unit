@@ -8,7 +8,7 @@
     <groupId>org.j8unit</groupId>
     <artifactId>parent-pom</artifactId>
     <version>3-SNAPSHOT</version>
-    <relativePath />
+    <relativePath>../parent-pom</relativePath>
   </parent>
 
   <artifactId>core</artifactId>
