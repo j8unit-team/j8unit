@@ -65,7 +65,7 @@ of their implementations against your behaviour expectations.
 
 ## The J8Unit Repository
 
-Obviously, every custom Java type must conform to the related Java API and every implementation of a Java `interface` must
+As a matter of course, every custom Java type must conform to the related Java API and every implementation of a Java `interface` must
 conform to the `interface`'s requirements, usually "specified" as JavaDoc.
 In general, every overridden method must [conform to the requirements of the super type](https://en.wikipedia.org/wiki/Liskov_substitution_principle).
 
@@ -77,9 +77,9 @@ Obviously, this is a `class`-specific behaviour.
 In general, all constraints referring to the provision of specific constructors (and its individual requirements) should be covered by according test methods.
 (Note, this is not limited to constructors only -- Just think of factory methods and further.)
 
-For another example, [by virtue of the _AnnotationTypeElementDeclaration_ production, a method declaration in an annotation type declaration cannot have formal
-parameters, type parameters, or a _throws_ clause (JLS, Sec.&thinsp;9.6.1](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1).
-Obviously, this is a type-specific behaviour too; And it must be tested!
+For another example,
+[by virtue of the _AnnotationTypeElementDeclaration_ production, a method declaration in an annotation type declaration cannot have formal parameters, type parameters, or a _throws_ clause (JLS, Sec. 9.6.1)](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1).
+Apparently, this is a type-specific behaviour too; And it must be tested!
 
 Since Java does not provide a J8Unit-based collection of reusable tests, the _J8Unit Repository_ has been created.
 Currently, it contains more than 8.100 reusable J8Unit skeleton tests classes and few real test methods. 
@@ -130,7 +130,7 @@ The current JUnit4 [Assert statements](http://junit.org/junit4/javadoc/latest/or
 However, you might want to provide [CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)-based messages.
 Or even further, you might want to use the Java 8's [Supplier](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to provide on-demand messages.
 (Such intention is similar to [this](https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log-java.util.logging.Level-java.util.function.Supplier-)
-or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Logger.html#debug%28org.apache.logging.log4j.util.Supplier%29).	)
+or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Logger.html#debug%28org.apache.logging.log4j.util.Supplier%29).)
 
 The [J8Unit Assert](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/Assert.java)
 provides these additional assert methods.

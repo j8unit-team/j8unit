@@ -31,7 +31,7 @@ One of the points to emphasise is the differentiation between
 [aggregation](https://maven.apache.org/pom.html#Aggregation_or_Multi-Module).
 A single POM [can be (and often is)](https://maven.apache.org/pom.html#A_final_note_on_Inheritance_v._Aggregation) both
 a super-POM and an aggregation-POM.
-In the current case, J8Unit does make a difference between inheritance and aggregation;
+In the current case, J8Unit *does* make a difference between inheritance and aggregation;
 Thus, there is a separate [multi-module-POM](../pom.xml) and [parent-POM](pom.xml).
 Even further, the parent-POM first and foremost
 [manages the plug-ins](https://maven.apache.org/pom.html#Plugin_Management) whereas the
@@ -40,12 +40,13 @@ separately.
 
 ### J8Unit's Aggregation-POM
 
-Located within the [root folder](../), J8Unit utilises an [aggregation-POM](../pom.xml) to manage the different J8Unit projects (a.k.a. Maven
-modules).
-That specific POM file shall *not* be installed nor deployed.
+Located within the [root folder](../), J8Unit utilises an [aggregation-POM](../pom.xml) to manage the different J8Unit
+projects (a.k.a. Maven modules).
+That specific POM file *shall not* be installed nor deployed.
 Instead, it lists all modules [enabling dependent builds](https://maven.apache.org/guides/mini/guide-multiple-modules.html).
 In result, Maven executions must specify the project(s) to be build. 
-According to the [command-line interface of Maven](http://maven.apache.org/ref/3-LATEST/maven-embedder/cli.html), an example call is:
+According to the [command-line interface of Maven](http://maven.apache.org/ref/3-LATEST/maven-embedder/cli.html), an
+example call is:
 
 ```bash
 mvn --projects parent-pom --also-make-dependents clean verify
@@ -77,5 +78,5 @@ Note, this POM implicitly inherits from the
 installed Maven.
 Currently, J8Unit does not depend on a [specific Maven version](https://maven.apache.org/docs/history.html), however it
 [enforces](https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html) version 3.3.9 at least.
-Nevertheless, the super-POM is not part of the J8Unit project nor its releases and it is up to your installation which
-super-POM will be used during build process.
+Nevertheless, the super-POM is not part of the J8Unit project nor its releases and it is up to your Maven installation
+which super-POM will be used during build process.
