@@ -31,9 +31,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:j8unit-team/parent-pom.git</connection>
-    <developerConnection>scm:git:j8unit-team@github.com:j8unit-team/parent-pom.git</developerConnection>
-    <url>https://github.com/j8unit-team/parent-pom</url>
+    <connection>scm:git:git@github.com:j8unit-team/j8unit.git</connection>
+    <developerConnection>scm:git:j8unit-team@github.com:j8unit-team/j8unit.git</developerConnection>
+    <url>https://github.com/j8unit-team/j8unit/</url>
     <tag>HEAD</tag>
   </scm>
 
