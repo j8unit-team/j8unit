@@ -27,6 +27,9 @@
       <name>Stefan Gasterstädt</name>
       <email>stefan@gasterstädt.de</email>
       <url>http://stefan.gasterstädt.de</url>
+      <organization>Informaticum</organization>
+      <organizationUrl>http://informaticum.de/</organizationUrl>
+      <timezone>Europe/Berlin</timezone>
     </developer>
   </developers>
 
