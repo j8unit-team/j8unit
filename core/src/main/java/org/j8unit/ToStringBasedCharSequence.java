@@ -9,7 +9,7 @@ package org.j8unit;
  *
  * <pre class="brush:java">
  * package mypackage;
- * import static mypackage.FailMessages.*;
+ * import static mypackage.MyTest.FailMessages.NULL;
  * import static org.j8unit.Assert.*;
  * import org.junit.Test;
  *
