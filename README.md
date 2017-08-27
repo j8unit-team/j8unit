@@ -134,7 +134,7 @@ or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logg
 
 The [J8Unit Assert](https://github.com/j8unit-team/j8unit/blob/master/core/src/main/java/org/j8unit/Assert.java)
 provides these additional assert methods.
-Similar to the J8Unit runners, you need to add J8Unit Core to your test scope and you can use it:
+Similar to the J8Unit runners, you need to add J8Unit Core to your test scope to use these assertion methods:
 
 ```xml
 <dependency>
