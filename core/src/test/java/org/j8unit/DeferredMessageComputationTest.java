@@ -6,7 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 @SuppressWarnings("deprecation")
-public class SkippMessageComputationWhenSucceedingTest {
+public class DeferredMessageComputationTest {
 
     public static final Supplier<? extends CharSequence> SUP = () -> {
         throw new AssertionError("This method represents some expensive computation of a failure message -- and should have not been called when succeeding a test!");
