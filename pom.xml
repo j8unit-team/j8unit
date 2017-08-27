@@ -31,12 +31,18 @@
   </developers>
 
   <modules>
+    <!-- Project Meta-Data -->
     <module>parent-pom</module>
+    <!-- Core -->
     <module>core</module>
+    <!-- Showcases -->
     <module>showcases/lazy-assert-messages</module>
+    <!-- 3rd-Party Extensions -->
     <module>cucumber</module>
     <module>spring</module>
+    <!-- Repository -->
     <module>repository</module>
+    <!-- Code Generator -->
     <module>generator</module>
     <module>j8unit-maven-plugin</module>
   </modules>
