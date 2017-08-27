@@ -9,7 +9,7 @@ import org.junit.Test;
 public class DelayedComputationTest {
 
     public static final Supplier<? extends CharSequence> SUP = () -> {
-        throw new AssertionError("This method simulates some lazy delayed computation of a failure message -- and should have not been called!");
+        throw new AssertionError("This method represents some expensive computation of a failure message -- and should have not been called when succeeding a test!");
     };
 
     @Ignore("TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails")
