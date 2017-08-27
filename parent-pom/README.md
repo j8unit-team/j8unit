@@ -1,6 +1,6 @@
 # J8Unit :: Parent-POM
 
-This project specifies the J8Unit's parent-POM, utilised by the various J8Unit projects' build processes.
+This project specifies the J8Unit’s parent-POM, utilised by the various J8Unit projects’ build processes.
 
 Note, this POM file exists in parallel to another main POM -- the aggregation-POM. Both are described more detailed in
 the following sections. 
@@ -14,12 +14,12 @@ the following sections.
 ## Maven Based Project Management
 
 J8Unit is build with [Maven](https://maven.apache.org/index.html).
-Based on the concept of a [project object model (POM)](https://maven.apache.org/pom.html), Maven manages the project's
+Based on the concept of a [project object model (POM)](https://maven.apache.org/pom.html), Maven manages the project’s
 [build, reporting and documentation](https://maven.apache.org/ref/3-LATEST/maven-core/lifecycles.html) by executing
 [according plug-in(s)](https://maven.apache.org/plugins/index.html).
 
 If you want to know more about Maven, just start reading some of the numerous tutorials.
-For example, the Maven project's website offers [an in-depth documentation](https://maven.apache.org/guides/index.html)
+For example, the Maven project’s website offers [an in-depth documentation](https://maven.apache.org/guides/index.html)
 of Maven, its build life-cycle, its features, available plug-ins (both core and others), and the POM.
 Further, Sonatype -- host of the [largest repository of Java artifacts](http://search.maven.org/) -- maintains two books
 focused on Maven:
@@ -35,7 +35,7 @@ In the current case, J8Unit *does* make a difference between inheritance and agg
 Thus, there is a separate [multi-module-POM](../pom.xml) and [parent-POM](pom.xml).
 Even further, the parent-POM first and foremost
 [manages the plug-ins](https://maven.apache.org/pom.html#Plugin_Management) whereas the
-[dependency management](https://maven.apache.org/pom.html#Dependency_Management) is done within each module's POM file
+[dependency management](https://maven.apache.org/pom.html#Dependency_Management) is done within each module’s POM file
 separately.
 
 ### J8Unit’s Aggregation-POM
@@ -60,13 +60,13 @@ The other main POM file of the J8Unit project is the [parent-POM](pom.xml).
 This POM is explicitly made for inheritance and, mainly, it is managing all the build plug-ins.
 In detail, these plug-ins are:
  + any plug-in defaultly bound by
-   [Maven's clean lifecycle](https://maven.apache.org/ref/3-LATEST/maven-core/lifecycles.html#clean_Lifecycle),
+   [Maven’s clean lifecycle](https://maven.apache.org/ref/3-LATEST/maven-core/lifecycles.html#clean_Lifecycle),
  + any plug-in defaultly bound by
-   [Maven's "pom" packaging](https://maven.apache.org/ref/3-LATEST/maven-core/default-bindings.html#Plugin_bindings_for_pom_packaging),
+   [Maven’s “pom” packaging](https://maven.apache.org/ref/3-LATEST/maven-core/default-bindings.html#Plugin_bindings_for_pom_packaging),
  + any plug-in defaultly bound by
-   [Maven's "jar" packaging](https://maven.apache.org/ref/3-LATEST/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging),
+   [Maven’s “jar” packaging](https://maven.apache.org/ref/3-LATEST/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging),
  + any plug-in defaultly bound by
-   [Maven's "site" lifecycle](https://maven.apache.org/ref/3-LATEST/maven-core/lifecycles.html#site_Lifecycle),
+   [Maven’s “site” lifecycle](https://maven.apache.org/ref/3-LATEST/maven-core/lifecycles.html#site_Lifecycle),
  + further plug-ins required for maven-central/sonatype distributions (e.g.
    [maven-source-plugin](https://maven.apache.org/plugins/maven-source-plugin/),
    [maven-javadoc-plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/),

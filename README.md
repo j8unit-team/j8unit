@@ -66,7 +66,7 @@ of their implementations against your behaviour expectations.
 ## The J8Unit Repository
 
 As a matter of course, every custom Java type must conform to the related Java API and every implementation of a Java `interface` must
-conform to the `interface`'s requirements, usually "specified" as JavaDoc.
+conform to the `interface`’s requirements, usually “specified” as JavaDoc.
 In general, every overridden method must [conform to the requirements of the super type](https://en.wikipedia.org/wiki/Liskov_substitution_principle).
 
 In addition, even the `class`es itself must conform to various expectations.
@@ -128,7 +128,7 @@ The current JUnit4 [Assert statements](http://junit.org/junit4/javadoc/latest/or
 [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)-based messages.
 
 However, you might want to provide [CharSequence](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html)-based messages.
-Or even further, you might want to use the Java 8's [Supplier](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to provide on-demand messages.
+Or even further, you might want to use the Java 8’s [Supplier](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to provide on-demand messages.
 (Such intention is similar to [this](https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log-java.util.logging.Level-java.util.function.Supplier-)
 or [this](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/org/apache/logging/log4j/Logger.html#debug%28org.apache.logging.log4j.util.Supplier%29).)
 
