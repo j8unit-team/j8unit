@@ -733,7 +733,7 @@ extends org.junit.Assert {
     }
 
     private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier) {
-        return (supplier == null) ? null : () -> supplier.get().toString();
+        return (supplier == null) ? null : () -> Objects.toString(supplier.get(), null);
     }
 
     /**
@@ -1200,7 +1200,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals,
                                                final double delta)
-    throws AssertionError {
+                                               throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
@@ -1244,7 +1244,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals,
                                                final float delta)
-    throws AssertionError {
+                                               throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
