@@ -103,7 +103,7 @@ J8Unit provides such runners for each common use case:
 
 * for single test classes (**J8BlockJUnit4ClassRunner**, **J8Unit4**),
 * for parameterised tests (**J8Parameterized**),
-* for Spring projects (**J8SpringJUnit4ClassRunner**, **J8SpringJUnit4**),
+* for Spring projects (**J8UnitSpringJUnit4ClassRunner**, **J8UnitSpringRunner**),
 * for an _automatic invocation of all suitable J8Unit tests_ that are provided by the J8Unit Repository and similar repositories (**APIConformance**).
 
 In order to make use of these test runners, you need to add J8Unit Core to your test scope:

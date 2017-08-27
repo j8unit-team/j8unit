@@ -1,31 +1,26 @@
 package org.j8unit.spring.runners;
 
 import static java.util.Objects.requireNonNull;
-import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.model.InitializationError;
 import org.springframework.test.context.TestContextManager;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.j8unit.runners.model.J8TestClass;
 
 /**
  * <p>
  * Extension of {@link SpringJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extend test class
  * model}.
  *
- * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}
- * annotation:
- * </p>
+ * If you would like to use the Spring TestContext Framework with this runner, use
+ * {@link org.springframework.test.context.junit4.rules.SpringClassRule} and
+ * {@link org.springframework.test.context.junit4.rules.SpringMethodRule}.
  *
- * <pre>
- * &#064;RunWith(J8SpringJUnit4ClassRunner.class)
- * public class FoobarTest {
- *     [&hellip;]
- * }
- * </pre>
- *
- * @see org.junit.runner.RunWith
+ * @see J8UnitSpringJUnit4ClassRunner
+ * @see org.springframework.test.context.junit4.rules.SpringClassRule
+ * @see org.springframework.test.context.junit4.rules.SpringMethodRule
  * @see J8TestClass
  */
-public class J8SpringJUnit4
+public class J8UnitSpringJUnit4ClassRunner
 extends SpringJUnit4ClassRunner {
 
     /**
@@ -39,7 +34,7 @@ extends SpringJUnit4ClassRunner {
      * @see #createTestContextManager(Class)
      * @see #createTestClass(Class)
      */
-    public J8SpringJUnit4(final Class<?> clazz)
+    public J8UnitSpringJUnit4ClassRunner(final Class<?> clazz)
     throws InitializationError {
         super(requireNonNull(clazz));
     }
@@ -55,4 +50,5 @@ extends SpringJUnit4ClassRunner {
     protected J8TestClass createTestClass(final Class<?> testClass) {
         return new J8TestClass(requireNonNull(testClass));
     }
+
 }
