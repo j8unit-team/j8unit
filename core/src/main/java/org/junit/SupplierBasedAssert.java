@@ -84,7 +84,12 @@ extends Assert {
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
-        fail(Assert.format(resolve(message), expected, actual));
+        final boolean showPrefix = String.valueOf(expected).equals(String.valueOf(actual));
+        fail((Objects.toString(resolve(message), "") + " expected:" + pretty(expected, showPrefix) + " but was:" + pretty(actual, showPrefix) + "").trim());
+    }
+
+    private static String pretty(final Object value, final boolean showPrefix) {
+        return (showPrefix ? " " + (value == null ? "null" : value.getClass().getName()) : "") + "<" + String.valueOf(value) + ">";
     }
 
     /**
