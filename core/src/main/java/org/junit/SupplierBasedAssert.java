@@ -85,10 +85,13 @@ extends Assert {
      */
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
         final boolean showPrefix = String.valueOf(expected).equals(String.valueOf(actual));
-        fail((Objects.toString(resolve(message), "") + " expected:" + pretty(expected, showPrefix) + " but was:" + pretty(actual, showPrefix) + "").trim());
+        fail((Objects.toString(resolve(message), "") + " expected:" + prettify(expected, showPrefix) + " but was:" + prettify(actual, showPrefix) + "").trim());
     }
 
-    private static String pretty(final Object value, final boolean showPrefix) {
+    /**
+     * Same motivation as {@link Assert#formatClassAndValue(Object, String)}, but different solution.
+     */
+    private static String prettify(final Object value, final boolean showPrefix) {
         return (showPrefix ? " " + (value == null ? "null" : value.getClass().getName()) : "") + "<" + String.valueOf(value) + ">";
     }
 
