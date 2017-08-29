@@ -21,6 +21,8 @@ public class VerifySimilarFailMessageFormattingTest {
 
     private static final String pi = "3.14";
 
+    private static final String nothing = "null";
+
     @Test
     public void testMessageFormatting_Fail_1()
     throws Exception {
@@ -333,6 +335,38 @@ public class VerifySimilarFailMessageFormattingTest {
         } catch (final AssertionError junit) {
             try {
                 SupplierBasedAssert.assertEquals(message::toString, baz, pi);
+            } catch (final AssertionError j8unit) {
+                assertEquals(junit.getMessage(), j8unit.getMessage());
+                return;
+            }
+        }
+        fail();
+    }
+
+    @Test
+    public void testMessageFormatting_FailNotEquals_7()
+    throws Exception {
+        try {
+            Assert.assertEquals(null, null, nothing);
+        } catch (final AssertionError junit) {
+            try {
+                SupplierBasedAssert.assertEquals(() -> null, null, nothing);
+            } catch (final AssertionError j8unit) {
+                assertEquals(junit.getMessage(), j8unit.getMessage());
+                return;
+            }
+        }
+        fail();
+    }
+
+    @Test
+    public void testMessageFormatting_FailNotEquals_8()
+    throws Exception {
+        try {
+            Assert.assertEquals(message, null, nothing);
+        } catch (final AssertionError junit) {
+            try {
+                SupplierBasedAssert.assertEquals(message::toString, null, nothing);
             } catch (final AssertionError j8unit) {
                 assertEquals(junit.getMessage(), j8unit.getMessage());
                 return;
