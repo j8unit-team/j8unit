@@ -109,7 +109,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             always
      */
-    public static final void fail(final CharSequence message) {
+    public static final void fail(final CharSequence message)
+    throws AssertionError {
         SupplierBasedAssert.fail(supply(message));
     }
 
@@ -126,7 +127,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertTrue(final CharSequence message, final boolean condition) {
+    public static final void assertTrue(final CharSequence message, final boolean condition)
+    throws AssertionError {
         SupplierBasedAssert.assertTrue(supply(message), condition);
     }
 
@@ -143,7 +145,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertFalse(final CharSequence message, final boolean condition) {
+    public static final void assertFalse(final CharSequence message, final boolean condition)
+    throws AssertionError {
         SupplierBasedAssert.assertFalse(supply(message), condition);
     }
 
@@ -160,7 +163,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNull(final CharSequence message, final Object object) {
+    public static final void assertNull(final CharSequence message, final Object object)
+    throws AssertionError {
         SupplierBasedAssert.assertNull(supply(message), object);
     }
 
@@ -177,7 +181,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotNull(final CharSequence message, final Object object) {
+    public static final void assertNotNull(final CharSequence message, final Object object)
+    throws AssertionError {
         SupplierBasedAssert.assertNotNull(supply(message), object);
     }
 
@@ -196,7 +201,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertSame(final CharSequence message, final Object expected, final Object actual) {
+    public static final void assertSame(final CharSequence message, final Object expected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertSame(supply(message), expected, actual);
     }
 
@@ -215,7 +221,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotSame(final CharSequence message, final Object unexpected, final Object actual) {
+    public static final void assertNotSame(final CharSequence message, final Object unexpected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotSame(supply(message), unexpected, actual);
     }
 
@@ -234,7 +241,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final double expected, final double actual) {
+    public static final void assertEquals(final CharSequence message, final double expected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -254,7 +262,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual) {
+    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -276,7 +285,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final double expected, final double actual, final double delta) {
+    public static final void assertEquals(final CharSequence message, final double expected, final double actual, final double delta)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(supply(message), expected, actual, delta);
     }
 
@@ -298,7 +308,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual, final double delta) {
+    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual, final double delta)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual, delta);
     }
 
@@ -317,7 +328,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final float expected, final float actual) {
+    public static final void assertEquals(final CharSequence message, final float expected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -336,7 +348,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual) {
+    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -358,7 +371,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final float expected, final float actual, final float delta) {
+    public static final void assertEquals(final CharSequence message, final float expected, final float actual, final float delta)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(supply(message), expected, actual, delta);
     }
 
@@ -380,7 +394,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual, final float delta) {
+    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual, final float delta)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual, delta);
     }
 
@@ -399,7 +414,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final long expected, final long actual) {
+    public static final void assertEquals(final CharSequence message, final long expected, final long actual)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(supply(message), expected, actual);
     }
 
@@ -418,7 +434,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final long unexpected, final long actual) {
+    public static final void assertNotEquals(final CharSequence message, final long unexpected, final long actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual);
     }
 
@@ -437,7 +454,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final Object expected, final Object actual) {
+    public static final void assertEquals(final CharSequence message, final Object expected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(supply(message), expected, actual);
     }
 
@@ -456,7 +474,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final Object unexpected, final Object actual) {
+    public static final void assertNotEquals(final CharSequence message, final Object unexpected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual);
     }
 
@@ -475,7 +494,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals) {
+    public static final void assertEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(supply(message), expecteds, actuals);
     }
 
@@ -732,7 +752,8 @@ extends org.junit.Assert {
         SupplierBasedAssert.assertThat(supply(reason), actual, matcher);
     }
 
-    private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier) {
+    private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier)
+    throws AssertionError {
         return (supplier == null) ? null : () -> Objects.toString(supplier.get(), null);
     }
 
@@ -744,7 +765,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             always
      */
-    public static final void fail(final Supplier<? extends CharSequence> message) {
+    public static final void fail(final Supplier<? extends CharSequence> message)
+    throws AssertionError {
         SupplierBasedAssert.fail(resolve(message));
     }
 
@@ -760,7 +782,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertTrue(final Supplier<? extends CharSequence> message, final boolean condition) {
+    public static final void assertTrue(final Supplier<? extends CharSequence> message, final boolean condition)
+    throws AssertionError {
         SupplierBasedAssert.assertTrue(resolve(message), condition);
     }
 
@@ -776,7 +799,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertFalse(final Supplier<? extends CharSequence> message, final boolean condition) {
+    public static final void assertFalse(final Supplier<? extends CharSequence> message, final boolean condition)
+    throws AssertionError {
         SupplierBasedAssert.assertFalse(resolve(message), condition);
     }
 
@@ -792,7 +816,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNull(final Supplier<? extends CharSequence> message, final Object object) {
+    public static final void assertNull(final Supplier<? extends CharSequence> message, final Object object)
+    throws AssertionError {
         SupplierBasedAssert.assertNull(resolve(message), object);
     }
 
@@ -808,7 +833,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotNull(final Supplier<? extends CharSequence> message, final Object object) {
+    public static final void assertNotNull(final Supplier<? extends CharSequence> message, final Object object)
+    throws AssertionError {
         SupplierBasedAssert.assertNotNull(resolve(message), object);
     }
 
@@ -826,7 +852,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
+    public static final void assertSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertSame(resolve(message), expected, actual);
     }
 
@@ -844,7 +871,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotSame(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual) {
+    public static final void assertNotSame(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotSame(resolve(message), unexpected, actual);
     }
 
@@ -863,7 +891,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -883,7 +912,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -904,7 +934,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual, final double delta) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual, final double delta)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(resolve(message), expected, actual, delta);
     }
 
@@ -925,7 +956,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual, final double delta) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual, final double delta)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual, delta);
     }
 
@@ -944,7 +976,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -963,7 +996,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -984,7 +1018,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual, final float delta) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual, final float delta)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(resolve(message), expected, actual, delta);
     }
 
@@ -1005,7 +1040,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual, final float delta) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual, final float delta)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual, delta);
     }
 
@@ -1023,7 +1059,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final long expected, final long actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final long expected, final long actual)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(resolve(message), expected, actual);
     }
 
@@ -1041,7 +1078,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final long unexpected, final long actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final long unexpected, final long actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual);
     }
 
@@ -1059,7 +1097,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertEquals(resolve(message), expected, actual);
     }
 
@@ -1077,7 +1116,8 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
+    throws AssertionError {
         SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual);
     }
 
@@ -1096,7 +1136,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
+    throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertEquals(resolve(message), expecteds, actuals);
     }
@@ -1200,7 +1241,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals,
                                                final double delta)
-                                               throws AssertionError {
+    throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
@@ -1244,7 +1285,7 @@ extends org.junit.Assert {
      */
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals,
                                                final float delta)
-                                               throws AssertionError {
+    throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
