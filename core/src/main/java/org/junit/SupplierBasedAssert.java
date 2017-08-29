@@ -55,22 +55,42 @@ extends Assert {
         fail(resolve(message));
     }
 
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotNull(String, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
     protected static final void failNotNull(final Supplier<? extends String> message, final Object actual) {
         fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
     }
 
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotSame(String, Object, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
     protected static final void failNotSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
         fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
     }
 
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failSame(String)} because of its {@code private}
+     *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
     protected static final void failSame(final Supplier<? extends String> message) {
         fail((Objects.toString(resolve(message), "") + " expected not same").trim());
     }
 
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotEquals(String, Object, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
     protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
         fail(Assert.format(resolve(message), expected, actual));
     }
 
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failEquals(String, Object)} because of its {@code private}
+     *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
     protected static final void failEquals(final Supplier<? extends String> message, final Object actual) {
         fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
     }
