@@ -38,8 +38,8 @@ extends Assert {
     protected SupplierBasedAssert() {
     }
 
-    private static final String resolve(final Supplier<? extends String> supplier) {
-        return (supplier == null) ? null : supplier.get();
+    private static final String resolve(final Supplier<? extends CharSequence> supplier) {
+        return (supplier == null) ? null : Objects.toString(supplier.get(), null);
     }
 
     /**
@@ -50,7 +50,7 @@ extends Assert {
      * @throws AssertionError
      *             always
      */
-    public static final void fail(final Supplier<? extends String> message)
+    public static final void fail(final Supplier<? extends CharSequence> message)
     throws AssertionError {
         fail(resolve(message));
     }
@@ -59,7 +59,7 @@ extends Assert {
      * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotNull(String, Object)} because of its
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
-    protected static final void failNotNull(final Supplier<? extends String> message, final Object actual) {
+    protected static final void failNotNull(final Supplier<? extends CharSequence> message, final Object actual) {
         fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
     }
 
@@ -67,7 +67,7 @@ extends Assert {
      * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotSame(String, Object, Object)} because of its
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
-    protected static final void failNotSame(final Supplier<? extends String> message, final Object expected, final Object actual) {
+    protected static final void failNotSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
         fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
     }
 
@@ -75,7 +75,7 @@ extends Assert {
      * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failSame(String)} because of its {@code private}
      *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
-    protected static final void failSame(final Supplier<? extends String> message) {
+    protected static final void failSame(final Supplier<? extends CharSequence> message) {
         fail((Objects.toString(resolve(message), "") + " expected not same").trim());
     }
 
@@ -83,7 +83,7 @@ extends Assert {
      * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotEquals(String, Object, Object)} because of its
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
-    protected static final void failNotEquals(final Supplier<? extends String> message, final Object expected, final Object actual) {
+    protected static final void failNotEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
         final boolean showPrefix = String.valueOf(expected).equals(String.valueOf(actual));
         fail((Objects.toString(resolve(message), "") + " expected:" + prettify(expected, showPrefix) + " but was:" + prettify(actual, showPrefix) + "").trim());
     }
@@ -99,7 +99,7 @@ extends Assert {
      * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failEquals(String, Object)} because of its {@code private}
      *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
-    protected static final void failEquals(final Supplier<? extends String> message, final Object actual) {
+    protected static final void failEquals(final Supplier<? extends CharSequence> message, final Object actual) {
         fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
     }
 
@@ -115,7 +115,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertTrue(final Supplier<? extends String> message, final boolean condition)
+    public static final void assertTrue(final Supplier<? extends CharSequence> message, final boolean condition)
     throws AssertionError {
         if (!condition) {
             fail(message);
@@ -134,7 +134,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertFalse(final Supplier<? extends String> message, final boolean condition)
+    public static final void assertFalse(final Supplier<? extends CharSequence> message, final boolean condition)
     throws AssertionError {
         assertTrue(message, !condition);
     }
@@ -151,7 +151,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNull(final Supplier<? extends String> message, final Object object)
+    public static final void assertNull(final Supplier<? extends CharSequence> message, final Object object)
     throws AssertionError {
         if (object != null) {
             failNotNull(message, object);
@@ -170,7 +170,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotNull(final Supplier<? extends String> message, final Object object)
+    public static final void assertNotNull(final Supplier<? extends CharSequence> message, final Object object)
     throws AssertionError {
         assertTrue(message, object != null);
     }
@@ -189,7 +189,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertSame(final Supplier<? extends String> message, final Object expected, final Object actual)
+    public static final void assertSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
     throws AssertionError {
         if (expected != actual) {
             failNotSame(message, expected, actual);
@@ -210,7 +210,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotSame(final Supplier<? extends String> message, final Object unexpected, final Object actual)
+    public static final void assertNotSame(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
     throws AssertionError {
         if (unexpected == actual) {
             failSame(message);
@@ -232,7 +232,7 @@ extends Assert {
      * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends String> message, final double expected, final double actual)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
@@ -253,7 +253,7 @@ extends Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
@@ -281,7 +281,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends String> message, final double expected, final double actual, final double delta)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual, final double delta)
     throws AssertionError {
         if (doubleIsDifferent(expected, actual, delta)) {
             failNotEquals(message, Double.valueOf(expected), Double.valueOf(actual));
@@ -305,7 +305,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends String> message, final double unexpected, final double actual, final double delta)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual, final double delta)
     throws AssertionError {
         if (!doubleIsDifferent(unexpected, actual, delta)) {
             failEquals(message, Double.valueOf(actual));
@@ -327,7 +327,7 @@ extends Assert {
      * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends String> message, final float expected, final float actual)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
@@ -347,7 +347,7 @@ extends Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
@@ -375,7 +375,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends String> message, final float expected, final float actual, final float delta)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual, final float delta)
     throws AssertionError {
         if (floatIsDifferent(expected, actual, delta)) {
             failNotEquals(message, Float.valueOf(expected), Float.valueOf(actual));
@@ -399,7 +399,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends String> message, final float unexpected, final float actual, final float delta)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual, final float delta)
     throws AssertionError {
         if (!floatIsDifferent(unexpected, actual, delta)) {
             failEquals(message, Float.valueOf(actual));
@@ -420,7 +420,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends String> message, final long expected, final long actual)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final long expected, final long actual)
     throws AssertionError {
         if (expected != actual) {
             failNotEquals(message, Long.valueOf(expected), Long.valueOf(actual));
@@ -441,7 +441,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends String> message, final long unexpected, final long actual)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final long unexpected, final long actual)
     throws AssertionError {
         if (unexpected == actual) {
             failEquals(message, Long.valueOf(actual));
@@ -462,7 +462,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends String> message, final Object expected, final Object actual)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
     throws AssertionError {
         if (!Objects.equals(expected, actual)) {
             if ((expected instanceof String) && (actual instanceof String)) {
@@ -487,7 +487,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends String> message, final Object unexpected, final Object actual)
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
     throws AssertionError {
         if (Objects.equals(unexpected, actual)) {
             failEquals(message, actual);
@@ -509,7 +509,7 @@ extends Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(message, expecteds, actuals);
@@ -529,7 +529,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final boolean[] expecteds, final boolean[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -549,7 +549,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final byte[] expecteds, final byte[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -569,7 +569,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final char[] expecteds, final char[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -591,7 +591,7 @@ extends Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, double[], double[], double)} instead!
      */
     @Deprecated
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
@@ -612,7 +612,8 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final double[] expecteds, final double[] actuals, final double delta)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals,
+                                               final double delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals, delta);
@@ -634,7 +635,7 @@ extends Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, float[], float[], float)} instead!
      */
     @Deprecated
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals)
     throws AssertionError {
         fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, float[], float[], float)] to compare floating-point numbers!");
     }
@@ -655,7 +656,8 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final float[] expecteds, final float[] actuals, final float delta)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final float[] expecteds, final float[] actuals,
+                                               final float delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals, delta);
@@ -675,7 +677,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final int[] expecteds, final int[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -695,7 +697,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final long[] expecteds, final long[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -715,7 +717,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final Object[] expecteds, final Object[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -735,7 +737,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertArrayEquals(final Supplier<? extends String> message, final short[] expecteds, final short[] actuals)
+    public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertArrayEquals(resolve(message), expecteds, actuals);
@@ -762,7 +764,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static <T> void assertThat(final Supplier<? extends String> reason, final T actual, final Matcher<? super T> matcher)
+    public static <T> void assertThat(final Supplier<? extends CharSequence> reason, final T actual, final Matcher<? super T> matcher)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertThat(resolve(reason), actual, matcher);
