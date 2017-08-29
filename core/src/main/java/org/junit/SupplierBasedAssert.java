@@ -764,7 +764,7 @@ extends Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static <T> void assertThat(final Supplier<? extends CharSequence> reason, final T actual, final Matcher<? super T> matcher)
+    public static final <T> void assertThat(final Supplier<? extends CharSequence> reason, final T actual, final Matcher<? super T> matcher)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
         assertThat(resolve(reason), actual, matcher);
