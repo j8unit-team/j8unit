@@ -15,11 +15,11 @@ public class VerifySimilarFailMessageFormattingTest {
 
     private static final double baz = 3.14;
 
-    private static final String pi = "3.14";
-
     private static final double withDelta = 0.1;
 
     private static final double withoutDelta = 0.0;
+
+    private static final String pi = "3.14";
 
     @Test
     public void testMessageFormatting_Fail_1()
