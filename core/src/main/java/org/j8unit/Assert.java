@@ -1139,7 +1139,7 @@ extends org.junit.Assert {
     public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(message, expecteds, actuals);
     }
 
     /**
