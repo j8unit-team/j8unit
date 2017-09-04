@@ -1,6 +1,7 @@
 package org.junit;
 
 import static java.lang.Math.abs;
+import static java.util.Optional.ofNullable;
 import java.util.Objects;
 import java.util.function.Supplier;
 import org.hamcrest.Matcher;
@@ -39,7 +40,21 @@ extends Assert {
     }
 
     private static final String resolve(final Supplier<? extends CharSequence> supplier) {
-        return (supplier == null) ? null : Objects.toString(supplier.get(), null);
+        return resolve(supplier, null);
+    }
+
+    private static final String resolve(final Supplier<? extends CharSequence> supplier, final String fallback) {
+        return (supplier == null) ? null : Objects.toString(supplier.get(), fallback);
+    }
+
+    // Yes -- consider (think about carefully; use unless null).
+    private static final String consider(final Supplier<? extends CharSequence> message) {
+        return ofNullable(resolve(message)).map(s -> s.concat(" ")).orElse("");
+    }
+
+    // Yes -- contemplate (think intently and at length; use unless empty).
+    private static final String contemplate(final Supplier<? extends CharSequence> message) {
+        return ofNullable(resolve(message)).filter(m -> !m.isEmpty()).map(s -> s.concat(" ")).orElse("");
     }
 
     /**
@@ -60,7 +75,7 @@ extends Assert {
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
     protected static final void failNotNull(final Supplier<? extends CharSequence> message, final Object actual) {
-        fail((Objects.toString(resolve(message), "") + " expected null, but was:<" + actual + ">").trim());
+        fail(consider(message) + "expected null, but was:<" + actual + ">");
     }
 
     /**
@@ -68,7 +83,7 @@ extends Assert {
      *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
     protected static final void failNotSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
-        fail((Objects.toString(resolve(message), "") + " expected same:<" + expected + "> was not:<" + actual + ">").trim());
+        fail(consider(message) + "expected same:<" + expected + "> was not:<" + actual + ">");
     }
 
     /**
@@ -76,7 +91,7 @@ extends Assert {
      *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
     protected static final void failSame(final Supplier<? extends CharSequence> message) {
-        fail((Objects.toString(resolve(message), "") + " expected not same").trim());
+        fail(consider(message) + "expected not same");
     }
 
     /**
@@ -85,7 +100,7 @@ extends Assert {
      */
     protected static final void failNotEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
         final boolean showPrefix = String.valueOf(expected).equals(String.valueOf(actual));
-        fail((Objects.toString(resolve(message), "") + " expected:" + prettify(expected, showPrefix) + " but was:" + prettify(actual, showPrefix) + "").trim());
+        fail(contemplate(message) + "expected:" + prettify(expected, showPrefix) + " but was:" + prettify(actual, showPrefix));
     }
 
     /**
@@ -100,7 +115,7 @@ extends Assert {
      *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
      */
     protected static final void failEquals(final Supplier<? extends CharSequence> message, final Object actual) {
-        fail(Objects.toString(resolve(message), "Values should be different") + ". Actual: " + actual);
+        fail(resolve(message, "Values should be different") + ". Actual: " + actual);
     }
 
     /**
@@ -466,7 +481,7 @@ extends Assert {
     throws AssertionError {
         if (!Objects.equals(expected, actual)) {
             if ((expected instanceof String) && (actual instanceof String)) {
-                throw new ComparisonFailure(Objects.toString(resolve(message), ""), (String) expected, (String) actual);
+                throw new ComparisonFailure(resolve(message, ""), (String) expected, (String) actual);
             } else {
                 failNotEquals(message, expected, actual);
             }
