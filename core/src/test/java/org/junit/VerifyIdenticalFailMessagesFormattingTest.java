@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class VerifySimilarFailMessageFormattingTest {
+public class VerifyIdenticalFailMessagesFormattingTest {
 
     @Parameters(name = "message: <{0}>")
     public static List<String> data() {
@@ -27,11 +27,9 @@ public class VerifySimilarFailMessageFormattingTest {
 
     private static final double baz = 3.14;
 
-    private static final double withDelta = 0.1;
+    private static final double withSufficientDelta = 0.1;
 
-    private static final double withoutDelta = 0.0;
-
-    private static final String pi = "3.14";
+    private static final double withInsufficientDelta = 0.0;
 
     private static final String nothing = "null";
 
@@ -71,8 +69,8 @@ public class VerifySimilarFailMessageFormattingTest {
     @Test
     public void testEqualMessageFormattingOfFailNotSameViaAssertSame()
     throws Exception {
-        final AssertionError junit = crash(() -> Assert.assertSame(this.message, foo, bar));
-        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertSame(() -> this.message, foo, bar));
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, foo, bar));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, foo, bar));
         assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
@@ -85,18 +83,18 @@ public class VerifySimilarFailMessageFormattingTest {
     }
 
     @Test
-    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithoutDelta()
+    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithInsufficientDelta()
     throws Exception {
-        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, foz, withoutDelta));
-        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, foz, withoutDelta));
+        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, foz, withInsufficientDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, foz, withInsufficientDelta));
         assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithDelta()
+    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithSufficientDelta()
     throws Exception {
-        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, baz, withDelta));
-        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, baz, withDelta));
+        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, baz, withSufficientDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, baz, withSufficientDelta));
         assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
@@ -109,18 +107,18 @@ public class VerifySimilarFailMessageFormattingTest {
     }
 
     @Test
-    public void testEqualMessageFormattingOfFailNotEqualsViaAssertEqualsWithoutDelta()
+    public void testEqualMessageFormattingOfFailNotEqualsViaAssertEqualsWithInsufficientDelta()
     throws Exception {
-        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, foz, baz, withoutDelta));
-        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, foz, baz, withoutDelta));
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, foz, baz, withInsufficientDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, foz, baz, withInsufficientDelta));
         assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
     public void testEqualMessageFormattingOfFailNotEqualsViaAssertEquals_DoubleVersusString()
     throws Exception {
-        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, baz, pi));
-        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, baz, pi));
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, baz, Double.toString(baz)));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, baz, Double.toString(baz)));
         assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
