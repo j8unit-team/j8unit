@@ -2,7 +2,7 @@ package org.junit;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+import java.util.List;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
@@ -12,8 +12,8 @@ import org.junit.runners.Parameterized.Parameters;
 public class VerifySimilarFailMessageFormattingTest {
 
     @Parameters(name = "message: <{0}>")
-    public static Iterable<String> data() {
-        return asList("Ups! This went wrong...", " Ups! This went wrong...", "Ups! This went wrong... ", "", " ", "null", null);
+    public static List<String> data() {
+        return asList("Ups! This went wrong...", " Ups! This went wrong...", "Ups! This went wrong... ", " Ups! This went wrong... ", "", " ", "null", null);
     }
 
     @Parameter(0)
@@ -35,180 +35,101 @@ public class VerifySimilarFailMessageFormattingTest {
 
     private static final String nothing = "null";
 
-    @Test
-    public void testMessageFormatting_Fail()
-    throws Exception {
+    private static AssertionError crash(final Runnable exec) {
         try {
-            Assert.fail(this.message);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.fail(() -> this.message);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
+            exec.run();
+        } catch (final AssertionError expected) {
+            return expected;
         }
-        fail();
+        throw new AssertionError("This test failed by skipping some intended exceptional cases!");
     }
 
     @Test
-    public void testMessageFormatting_FailNotNull()
+    public void testEqualMessageFormattingOfFail()
     throws Exception {
-        try {
-            Assert.assertNull(this.message, foo);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertNull(() -> this.message, foo);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.fail(this.message));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.fail(() -> this.message));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailSame()
+    public void testEqualMessageFormattingOfFailNotNullViaAssertNull()
     throws Exception {
-        try {
-            Assert.assertNotSame(this.message, foo, foo);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertNotSame(() -> this.message, foo, foo);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertNull(this.message, foo));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNull(() -> this.message, foo));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailNotSame()
+    public void testEqualMessageFormattingOfFailSameViaAssertNotSame()
     throws Exception {
-        try {
-            Assert.assertSame(this.message, foo, bar);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertSame(() -> this.message, foo, bar);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertNotSame(this.message, foo, foo));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotSame(() -> this.message, foo, foo));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailEquals()
+    public void testEqualMessageFormattingOfFailNotSameViaAssertSame()
     throws Exception {
-        try {
-            Assert.assertNotEquals(this.message, foo, foo);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertNotEquals(() -> this.message, foo, foo);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertSame(this.message, foo, bar));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertSame(() -> this.message, foo, bar));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailEqualsWithoutDelta()
+    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEquals()
     throws Exception {
-        try {
-            Assert.assertNotEquals(this.message, foz, foz, withoutDelta);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertNotEquals(() -> this.message, foz, foz, withoutDelta);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foo, foo));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foo, foo));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailEqualsWithDelta()
+    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithoutDelta()
     throws Exception {
-        try {
-            Assert.assertNotEquals(this.message, foz, baz, withDelta);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertNotEquals(() -> this.message, foz, baz, withDelta);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, foz, withoutDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, foz, withoutDelta));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailNotEquals()
+    public void testEqualMessageFormattingOfFailEqualsViaAssertNotEqualsWithDelta()
     throws Exception {
-        try {
-            Assert.assertEquals(this.message, foo, bar);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertEquals(() -> this.message, foo, bar);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertNotEquals(this.message, foz, baz, withDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertNotEquals(() -> this.message, foz, baz, withDelta));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailNotEqualsWithoutDelta()
+    public void testEqualMessageFormattingOfFailNotEqualsViaAssertEquals()
     throws Exception {
-        try {
-            Assert.assertEquals(this.message, foz, baz, withoutDelta);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertEquals(() -> this.message, foz, baz, withoutDelta);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, foo, bar));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, foo, bar));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailNotEqualsWithDelta()
+    public void testEqualMessageFormattingOfFailNotEqualsViaAssertEqualsWithoutDelta()
     throws Exception {
-        try {
-            Assert.assertEquals(this.message, baz, pi);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertEquals(() -> this.message, baz, pi);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, foz, baz, withoutDelta));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, foz, baz, withoutDelta));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
     @Test
-    public void testMessageFormatting_FailNotEquals_NullVersusStringNull()
+    public void testEqualMessageFormattingOfFailNotEqualsViaAssertEquals_DoubleVersusString()
     throws Exception {
-        try {
-            Assert.assertEquals(this.message, null, nothing);
-        } catch (final AssertionError junit) {
-            try {
-                SupplierBasedAssert.assertEquals(() -> this.message, null, nothing);
-            } catch (final AssertionError j8unit) {
-                assertEquals(junit.getMessage(), j8unit.getMessage());
-                return;
-            }
-        }
-        fail();
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, baz, pi));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, baz, pi));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
+    }
+
+    @Test
+    public void testEqualMessageFormattingOfFailNotEquals_NullVersusStringNull()
+    throws Exception {
+        final AssertionError junit = crash(() -> Assert.assertEquals(this.message, null, nothing));
+        final AssertionError j8unit = crash(() -> SupplierBasedAssert.assertEquals(() -> this.message, null, nothing));
+        assertEquals(junit.getMessage(), j8unit.getMessage());
     }
 
 }
