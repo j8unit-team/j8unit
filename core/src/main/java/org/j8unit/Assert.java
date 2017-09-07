@@ -3,7 +3,6 @@ package org.j8unit;
 import java.util.Objects;
 import java.util.function.Supplier;
 import org.hamcrest.Matcher;
-import org.junit.SupplierBasedAssert;
 
 /**
  * <p>

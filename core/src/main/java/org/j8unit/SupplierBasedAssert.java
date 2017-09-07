@@ -1,10 +1,12 @@
-package org.junit;
+package org.j8unit;
 
 import static java.lang.Math.abs;
 import static java.util.Optional.ofNullable;
 import java.util.Objects;
 import java.util.function.Supplier;
 import org.hamcrest.Matcher;
+import org.junit.Assert;
+import org.junit.ComparisonFailure;
 
 /**
  * <p>

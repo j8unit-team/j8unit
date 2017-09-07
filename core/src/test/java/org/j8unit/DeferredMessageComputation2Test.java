@@ -1,10 +1,12 @@
-package org.junit;
+package org.j8unit;
 
 import static org.hamcrest.Matchers.is;
 import java.util.function.Supplier;
+import org.junit.Ignore;
+import org.junit.Test;
 
 @SuppressWarnings("deprecation")
-public class DeferredMessageComputationTest {
+public class DeferredMessageComputation2Test {
 
     public static final Supplier<? extends String> SUP = () -> {
         throw new AssertionError("This method represents some expensive computation of a failure message -- and should have not been called when succeeding a test!");
@@ -25,7 +27,6 @@ public class DeferredMessageComputationTest {
         final byte[] array = new byte[] { 0, 1 };
         SupplierBasedAssert.assertArrayEquals(SUP, array, array);
     }
-
 
     @Ignore("TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails")
     @Test
@@ -88,7 +89,6 @@ public class DeferredMessageComputationTest {
     throws Exception {
         SupplierBasedAssert.assertEquals(SUP, 0.0d, 0.0d, 0.0d);
     }
-
 
     @Test
     public void test_assertEquals_float_without_message_computation()
