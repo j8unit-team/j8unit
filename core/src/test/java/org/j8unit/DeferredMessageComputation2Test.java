@@ -8,7 +8,7 @@ import org.junit.Test;
 @SuppressWarnings("deprecation")
 public class DeferredMessageComputation2Test {
 
-    public static final Supplier<? extends String> SUP = () -> {
+    public static final Supplier<? extends CharSequence> SUP = () -> {
         throw new AssertionError("This method represents some expensive computation of a failure message -- and should have not been called when succeeding a test!");
     };
 
