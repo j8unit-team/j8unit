@@ -1,8 +1,10 @@
-package org.junit;
+package org.j8unit;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertNotNull;
 import java.util.function.Supplier;
+import org.junit.Test;
+import org.j8unit.SupplierBasedAssert;
 
 @SuppressWarnings("deprecation")
 public class SupplierBasedAssertTest {

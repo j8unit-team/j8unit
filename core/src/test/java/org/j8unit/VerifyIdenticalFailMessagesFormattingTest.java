@@ -1,12 +1,15 @@
-package org.junit;
+package org.j8unit;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 import java.util.List;
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.j8unit.SupplierBasedAssert;
 
 @RunWith(Parameterized.class)
 public class VerifyIdenticalFailMessagesFormattingTest {
