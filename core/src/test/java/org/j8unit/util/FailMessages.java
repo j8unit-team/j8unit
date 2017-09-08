@@ -1,4 +1,6 @@
-package org.j8unit;
+package org.j8unit.util;
+
+import org.j8unit.util.ToStringBasedCharSequence;
 
 public enum FailMessages
 implements ToStringBasedCharSequence {

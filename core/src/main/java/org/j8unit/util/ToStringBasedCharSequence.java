@@ -1,14 +1,15 @@
-package org.j8unit;
+package org.j8unit.util;
 
 /**
  * <p>
  * Default implementation of the {@link CharSequence} interface by simply reusing the result of {@link #toString()}.
  *
  * Its main intention is to allow small fail message enumerations to be used in conjunction with the assertion methods
- * of {@link Assert}:
+ * of {@link org.j8unit.Assert}:
  *
  * <pre class="brush:java">
  * package mypackage;
+ * 
  * import static mypackage.MyTest.FailMessages.NULL;
  * import static org.j8unit.Assert.*;
  * import org.junit.Test;
@@ -23,8 +24,14 @@ package org.j8unit;
  *         // ... FURTHER FAIL MESSAGES HERE ...;
  *
  *         private final String msg;
- *         private FailMessages(final String msg) { this.msg = msg; }
- *         public String toString() { return this.msg; }
+ * 
+ *         private FailMessages(final String msg) {
+ *             this.msg = msg;
+ *         }
+ * 
+ *         public String toString() {
+ *             return this.msg;
+ *         }
  *     }
  *
  *     &#64;Test
