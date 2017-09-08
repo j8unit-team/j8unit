@@ -1,4 +1,4 @@
-package org.j8unit;
+package org.j8unit.util;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

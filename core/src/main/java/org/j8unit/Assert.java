@@ -30,10 +30,10 @@ import org.junit.ComparisonFailure;
  *
  *     private static String someExpensiveMessageCreation() {
  *         // do some very expensive message creation; for example:
- *         //   (1) calculate string representation of long array,
- *         //   (2) calculate string representation of deeply nested object,
- *         //   (3) query message from remote database,
- *         //   (4) ...
+ *         // (1) calculate string representation of long array,
+ *         // (2) calculate string representation of deeply nested object,
+ *         // (3) query message from remote database,
+ *         // (4) ...
  *     }
  *
  *     &#64;Test
@@ -60,6 +60,7 @@ import org.junit.ComparisonFailure;
  * <pre class="brush:java">
  * import static mypackage.FailMessages.*;
  * import static org.j8unit.Assert.*;
+ * import static org.j8unit.util.Assert.ToStringBasedCharSequence;
  * import org.junit.Test;
  *
  * public class MyTest {
