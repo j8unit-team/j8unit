@@ -28,7 +28,6 @@ public class DeferredMessageComputationTest {
         Assert.assertArrayEquals(SUP, array, array);
     }
 
-
     @Ignore("TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails")
     @Test
     public void test_assertArrayEquals_char_without_message_computation()
@@ -90,7 +89,6 @@ public class DeferredMessageComputationTest {
     throws Exception {
         Assert.assertEquals(SUP, 0.0d, 0.0d, 0.0d);
     }
-
 
     @Test
     public void test_assertEquals_float_without_message_computation()
