@@ -47,7 +47,7 @@ import org.junit.ComparisonFailure;
  *     public void someTest_2()
  *     throws Exception {
  *         // ...
- *         assertNotNull(MyTest::someExpensiveMessageCreation(), actual);
+ *         assertNotNull(MyTest::someExpensiveMessageCreation, actual);
  *     }
  *
  * }
@@ -65,7 +65,7 @@ import org.junit.ComparisonFailure;
  * public class MyTest {
  *
  *     static enum FailMessages
- *     implements StringBasedCharSequence {
+ *     implements ToStringBasedCharSequence {
  *         NULL("illegal null string"),
  *         LENGTH("string has illegal length"),
  *         INVALID("malformed java identifier string"),
