@@ -33,6 +33,8 @@ public enum TestParametersUtil {
      * {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory}).
      * </p>
      *
+     * TODO: Give some example usages.
+     *
      * @see #testParametersOf(Callable...)
      * @see #testParametersOfEnumClass(Class)
      * @see org.junit.runners.Parameterized
@@ -65,6 +67,8 @@ public enum TestParametersUtil {
      * {@link org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory}).
      * </p>
      *
+     * TODO: Give some example usages.
+     *
      * @see #testParametersOf(Object...)
      * @see #testParametersOfEnumClass(Class)
      * @see org.junit.runners.Parameterized
@@ -80,7 +84,11 @@ public enum TestParametersUtil {
     }
 
     /**
+     * <p>
      * Returns a list containing all values comprising the {@code enum} class represented by the given {@code type}.
+     * </p>
+     *
+     * TODO: Give some example usages.
      *
      * @param type
      *            the given {@code enum} type
