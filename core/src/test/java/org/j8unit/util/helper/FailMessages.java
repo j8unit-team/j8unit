@@ -1,4 +1,4 @@
-package org.j8unit.util;
+package org.j8unit.util.helper;
 
 import org.j8unit.util.ToStringBasedCharSequence;
 

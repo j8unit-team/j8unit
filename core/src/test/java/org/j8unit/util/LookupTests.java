@@ -38,6 +38,8 @@ import java.util.function.Function;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import org.j8unit.util.helper.EmptyClass;
+import org.j8unit.util.helper.Foo;
 
 public class LookupTests
 extends EmptyClass {

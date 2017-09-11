@@ -1,4 +1,4 @@
-package org.j8unit.util;
+package org.j8unit.util.helper;
 
 public abstract class Foo {
 
