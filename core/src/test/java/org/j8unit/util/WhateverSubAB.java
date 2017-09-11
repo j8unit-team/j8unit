@@ -1,4 +1,4 @@
-package org.j8unit.util.helper;
+package org.j8unit.util;
 
 public abstract interface WhateverSubAB
 extends WhateverSubA, WhateverSubB {

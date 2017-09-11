@@ -21,8 +21,6 @@ import java.lang.reflect.Method;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import org.j8unit.util.helper.Whatever;
-import org.j8unit.util.helper.WhateverSubAB;
 
 public class InvocationTests {
 
