@@ -6,7 +6,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
-import org.j8unit.util.helper.FailMessages;
 
 @RunWith(Parameterized.class)
 public class ToStringBasedCharSequenceTests {

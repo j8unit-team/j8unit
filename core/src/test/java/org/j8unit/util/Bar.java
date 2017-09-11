@@ -1,4 +1,4 @@
-package org.j8unit.util.helper;
+package org.j8unit.util;
 
 import static java.lang.invoke.MethodHandles.lookup;
 import java.lang.invoke.MethodHandles.Lookup;
