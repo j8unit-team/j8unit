@@ -21,6 +21,8 @@ import java.lang.reflect.Method;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import org.j8unit.util.helper.Whatever;
+import org.j8unit.util.helper.WhateverSubAB;
 
 public class InvocationTests {
 
@@ -64,7 +66,7 @@ public class InvocationTests {
     public void void_return_type_via_constantResult_causes_explicit_ClassCastException()
     throws Exception {
         this.thrown.expect(ClassCastException.class);
-        this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.Whatever.noop()'!");
+        this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.helper.Whatever.noop()'!");
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
         proxy.noop();
@@ -162,7 +164,7 @@ public class InvocationTests {
     public void test_trySuperInterfacesFirst_and_fail_abstract_invocation()
     throws Exception {
         this.thrown.expect(AbstractMethodError.class);
-        this.thrown.expectMessage("org.j8unit.util.Whatever.abstractStringReturn()String/invokeInterface");
+        this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
         final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
@@ -262,7 +264,7 @@ public class InvocationTests {
     public void test_trySuperTypesFirst_and_fail_abstract_invocation()
     throws Exception {
         this.thrown.expect(AbstractMethodError.class);
-        this.thrown.expectMessage("org.j8unit.util.Whatever.abstractStringReturn()String/invokeInterface");
+        this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
         final InvocationHandler fallback = constantResult("Fallback Value");
         final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_INVOCATION);
