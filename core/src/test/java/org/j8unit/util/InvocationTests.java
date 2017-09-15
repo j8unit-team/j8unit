@@ -115,11 +115,37 @@ public class InvocationTests {
     @Test
     public void void_return_type_via_constantResult_causes_explicit_ClassCastException()
     throws Exception {
-        this.thrown.expect(ClassCastException.class);
-        this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.helper.Whatever.voidNoop()'!");
-
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
-        proxy.voidNoop();
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(null));
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(""));
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(new Object()));
+            proxy.voidNoop();
+        }
+        // {
+        // final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
+        // Arrays::asList));
+        // proxy.voidNoop();
+        // }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
+                                                               constantResult(CompletableFuture.allOf(completedFuture("")).get()));
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
+                                                               constantResult(completedFuture("").get()));
+            proxy.voidNoop();
+        }
     }
 
     /*
