@@ -36,6 +36,11 @@ public class InvocationTests {
      *
      */
 
+    /**
+     * This tests verifies some expected behaviour of Java: If an {@link InvocationHandler} mismatches the return
+     * value's type, a {@link ClassCastException} will be thrown -- even if the return value is not assigned to any
+     * variable.
+     */
     @Test
     public void wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()
     throws Exception {
@@ -47,6 +52,11 @@ public class InvocationTests {
         proxy.returnsSomeString();
     }
 
+    /**
+     * This tests verifies that the behaviour of {@link Reflection#constantResult(Object)} is similar to
+     * {@linkplain #wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment() the
+     * behaviour of Java}.
+     */
     @Test
     public void wrong_return_type_via_constantResult_causes_explicit_ClassCastException()
     throws Exception {
