@@ -400,23 +400,15 @@ public enum Reflection {
      * @return the invocation handler with a constant return behaviour
      */
     public static final InvocationHandler constantResult(final Object result) {
-        final String NOT_SUITABLE = "This InvocationHandler is not suitable for invoked 'void' method '%s'!";
         final String NOT_INSTANCE = "Supplied object of type '%s' is not an instance of invoked method's return type '%s'!";
         return (proxy, method, args) -> {
             final Class<?> returnType = method.getReturnType();
-            if (Void.TYPE.equals(returnType)) {
-                // TODO: Do we need the type check barrier? Void methods do not harm (see: {@link
-                // InvocationTests#void_return_type_ignores_handler_result()}
-                throw new ClassCastException(format(NOT_SUITABLE, method));
+            if (Void.TYPE.equals(returnType) || (result == null) || returnType.isInstance(result)) {
+                return result;
             } else {
-                if ((result == null) || returnType.isInstance(result)) {
-                    return result;
-                } else {
-                    // TODO: Do we need this type check barrier? A ClassCastException will be thrown in any case (see:
-                    // {@link
-                    // InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
-                    throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
-                }
+                // TODO: Do we need this type check barrier? A ClassCastException will be thrown in any case (see:
+                // {@link InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
+                throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
             }
         };
     }
