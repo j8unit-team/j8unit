@@ -3,6 +3,7 @@ package org.j8unit.util;
 import static java.lang.Boolean.TRUE;
 import static java.lang.ClassLoader.getSystemClassLoader;
 import static java.lang.reflect.Proxy.newProxyInstance;
+import static java.util.concurrent.CompletableFuture.completedFuture;
 import static org.hamcrest.Matchers.startsWith;
 import static org.j8unit.util.Reflection.ENFORCE_INVOCATION;
 import static org.j8unit.util.Reflection.SKIP_ABSTRACT;
@@ -18,6 +19,8 @@ import static org.junit.Assert.assertThat;
 import static org.junit.rules.ExpectedException.none;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.concurrent.CompletableFuture;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -55,21 +58,58 @@ public class InvocationTests {
         proxy.returnsSomeString();
     }
 
+    /**
+     * This tests verifies some expected behaviour of Java: If an {@link InvocationHandler} is used for void method
+     * invocation, the return instance/type is completely irrelevant.
+     */
     @Test
     public void void_return_type_ignores_handler_result()
     throws Exception {
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
-        proxy.noop();
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> null);
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> "");
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> new Object());
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, Arrays::asList);
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
+                                                               ($1, $2, $3) -> CompletableFuture.allOf(completedFuture("")).get());
+            proxy.voidNoop();
+        }
+        {
+            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
+                                                               ($1, $2, $3) -> completedFuture("").get());
+            proxy.voidNoop();
+        }
     }
+
+    /**
+     * This tests verifies that the behaviour of {@link Reflection#constantResult(Object)} is similar to
+     * {@linkplain #void_return_type_ignores_handler_result() the behaviour of Java}.
+     */
 
     @Test
     public void void_return_type_via_constantResult_causes_explicit_ClassCastException()
     throws Exception {
         this.thrown.expect(ClassCastException.class);
-        this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.helper.Whatever.noop()'!");
+        this.thrown.expectMessage("This InvocationHandler is not suitable for invoked 'void' method 'public default void org.j8unit.util.helper.Whatever.voidNoop()'!");
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
-        proxy.noop();
+        proxy.voidNoop();
     }
 
     /*

@@ -20,7 +20,7 @@ public abstract interface Whatever {
 
     public abstract Callable<? extends CharSequence> someCallable();
 
-    public default void noop() {
+    public default void voidNoop() {
     }
 
 }
