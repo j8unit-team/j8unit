@@ -43,9 +43,6 @@ import java.util.concurrent.Callable;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
-import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.runners.model.J8TestClass;
-import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.internal.builders.AnnotatedBuilder;
 import org.junit.internal.runners.ErrorReportingRunner;
 import org.junit.runner.Runner;
@@ -55,6 +52,9 @@ import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.TestClass;
 import org.junit.runners.parameterized.ParametersRunnerFactory;
 import org.junit.runners.parameterized.TestWithParameters;
+import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.runners.model.J8TestClass;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 
 /**
  * <p>
