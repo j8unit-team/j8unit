@@ -14,6 +14,7 @@ import static org.j8unit.util.Reflection.fail;
 import static org.j8unit.util.Reflection.trySuperClassesFirst;
 import static org.j8unit.util.Reflection.trySuperInterfacesFirst;
 import static org.j8unit.util.Reflection.trySuperTypesFirst;
+import static org.j8unit.util.helper.Whatever.makeProxy;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThat;
@@ -52,7 +53,7 @@ public class InvocationTests {
         this.thrown.expectMessage("java.lang.Boolean cannot be cast to java.lang.String");
 
         final InvocationHandler handler = ($1, $2, $3) -> TRUE;
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
         proxy.returnsSomeString();
     }
@@ -70,7 +71,7 @@ public class InvocationTests {
         this.thrown.expectCause(hasProperty("message",
                                             equalTo("Supplied object of type 'class java.lang.Boolean' is not an instance of invoked method's return type 'class java.lang.String'!")));
 
-        final Whatever proxy = Whatever.makeProxy(constantResult(TRUE));
+        final Whatever proxy = makeProxy(constantResult(TRUE));
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
         proxy.returnsSomeString();
     }
@@ -114,7 +115,7 @@ public class InvocationTests {
     }
 
     private static final void execute_some_handler_on_void_method(final InvocationHandler handler) {
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
         proxy.voidNoop();
     }
 
@@ -140,7 +141,7 @@ public class InvocationTests {
     public void test_constantResult_with_valid_string()
     throws Exception {
         final InvocationHandler handler = constantResult("Hello World!");
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
         final String actual = proxy.returnsSomeString();
         assertEquals("Hello World!", actual);
         final String actualToString = proxy.toString();
@@ -151,7 +152,7 @@ public class InvocationTests {
     public void test_constantResult_with_null()
     throws Exception {
         final InvocationHandler handler = constantResult(null);
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
         final String actual = proxy.returnsSomeString();
         assertNull(actual);
         final String actualToString = proxy.toString();
@@ -170,7 +171,7 @@ public class InvocationTests {
         final Method methodB = Whatever.class.getMethod("returnsSomeOtherString");
         final InvocationHandler dispatchB = dispatch(methodB, constantResult("Result of #returnsSomeOtherString()"), dispatchA);
 
-        final Whatever proxy = Whatever.makeProxy(dispatchB);
+        final Whatever proxy = makeProxy(dispatchB);
 
         final String actualA = proxy.returnsSomeString();
         assertEquals("Result of #returnsSomeString()", actualA);
@@ -191,7 +192,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
@@ -201,7 +202,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
@@ -211,7 +212,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
@@ -224,7 +225,7 @@ public class InvocationTests {
 
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
@@ -234,7 +235,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
@@ -244,7 +245,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
@@ -258,7 +259,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
@@ -268,7 +269,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
     }
@@ -278,7 +279,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
@@ -288,7 +289,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
     }
@@ -298,7 +299,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
     }
@@ -308,7 +309,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
@@ -322,7 +323,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
@@ -332,7 +333,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
@@ -342,7 +343,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
@@ -355,7 +356,7 @@ public class InvocationTests {
 
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
@@ -365,7 +366,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
@@ -375,7 +376,7 @@ public class InvocationTests {
     throws Exception {
         final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = Whatever.makeProxy(handler);
+        final Whatever proxy = makeProxy(handler);
 
         assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
@@ -391,7 +392,7 @@ public class InvocationTests {
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
 
-        final Whatever proxy = Whatever.makeProxy(fail);
+        final Whatever proxy = makeProxy(fail);
         proxy.abstractStringReturn();
     }
 
@@ -401,7 +402,7 @@ public class InvocationTests {
         this.thrown.expect(UnsupportedOperationException.class);
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
-        final Whatever proxy = Whatever.makeProxy(fail);
+        final Whatever proxy = makeProxy(fail);
 
         proxy.returnsSomeString();
     }
@@ -413,7 +414,7 @@ public class InvocationTests {
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
 
-        final Whatever proxy = Whatever.makeProxy(fail);
+        final Whatever proxy = makeProxy(fail);
         proxy.toString();
     }
 
@@ -422,8 +423,6 @@ public class InvocationTests {
      */
 
     private static final InvocationHandler FALLBACK_HANDLER = constantResult("Fallback Value");
-
-    
 
     /*
      * Helper assertion statements:
