@@ -4,6 +4,9 @@ import static java.lang.Boolean.TRUE;
 import static java.lang.ClassLoader.getSystemClassLoader;
 import static java.lang.reflect.Proxy.newProxyInstance;
 import static java.util.concurrent.CompletableFuture.completedFuture;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasProperty;
+import static org.hamcrest.Matchers.instanceOf;
 import static org.hamcrest.Matchers.startsWith;
 import static org.j8unit.util.Reflection.ENFORCE_ABSTRACT;
 import static org.j8unit.util.Reflection.SKIP_ABSTRACT;
@@ -16,6 +19,7 @@ import static org.j8unit.util.Reflection.trySuperTypesFirst;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThat;
+import static org.junit.Assert.fail;
 import static org.junit.rules.ExpectedException.none;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -25,43 +29,48 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.j8unit.util.helper.Whatever;
-import org.j8unit.util.helper.WhateverSubAB;
 
 public class InvocationTests {
+
+    public static class InnerDummyClass {
+    }
 
     @Rule
     public ExpectedException thrown = none();
 
     /*
-     *
+     * Testing the equality/similarity between the out-of-the-box behaviour of Java's generic proxy classes and the
+     * explicit behaviour of the {@link Reflection#constantResult(Object)} invocation handler:
      */
 
     /**
-     * This tests verifies some expected behaviour of Java: If an {@link InvocationHandler} mismatches the return
-     * value's type, a {@link ClassCastException} will be thrown -- even if the return value is not assigned to any
-     * variable.
+     * @see #wrong_return_type_causes_ClassCastException_within_constantResult_invocation_handler()
+     * @see verify_exceptional_behaviour_of_constantResult_invocation_handler_is_similar_to_dynamic_proxy
      */
     @Test
-    public void wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()
+    public void wrong_return_type_causes_ClassCastException_within_dynamic_proxy()
     throws Exception {
         this.thrown.expect(ClassCastException.class);
         this.thrown.expectMessage("java.lang.Boolean cannot be cast to java.lang.String");
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
+        final InvocationHandler handler = ($1, $2, $3) -> TRUE;
+        final Whatever proxy = makeProxy(handler);
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
         proxy.returnsSomeString();
     }
 
     /**
-     * This tests verifies that the behaviour of {@link Reflection#constantResult(Object)} is similar to
-     * {@linkplain #wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment() the
-     * behaviour of Java}.
+     * @see #wrong_return_type_causes_ClassCastException_within_dynamic_proxy()
+     * @see verify_exceptional_behaviour_of_constantResult_invocation_handler_is_similar_to_dynamic_proxy
      */
     @Test
-    public void wrong_return_type_via_constantResult_causes_explicit_ClassCastException()
+    public void wrong_return_type_causes_ClassCastException_within_constantResult_invocation_handler()
     throws Exception {
         this.thrown.expect(ClassCastException.class);
-        this.thrown.expectMessage("Supplied object of type 'class java.lang.Boolean' is not an instance of invoked method's return type 'class java.lang.String'!");
+        this.thrown.expectMessage("java.lang.Boolean cannot be cast to java.lang.String");
+        this.thrown.expectCause(instanceOf(ClassCastException.class));
+        this.thrown.expectCause(hasProperty("message",
+                                            equalTo("Supplied object of type 'class java.lang.Boolean' is not an instance of invoked method's return type 'class java.lang.String'!")));
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
         // Do not assign return value to some variable! The ClassCastException will occur anyway.
@@ -69,94 +78,71 @@ public class InvocationTests {
     }
 
     /**
-     * This tests verifies some expected behaviour of Java: If an {@link InvocationHandler} is used for void method
-     * invocation, the return instance/type is completely irrelevant.
+     * @see #wrong_return_type_causes_ClassCastException_within_constantResult_invocation_handler()
+     * @see #wrong_return_type_causes_ClassCastException_within_dynamic_proxy()
      */
     @Test
-    public void void_return_type_ignores_handler_result()
+    public void verify_exceptional_behaviour_of_constantResult_invocation_handler_is_similar_to_dynamic_proxy()
     throws Exception {
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> TRUE);
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> null);
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> "");
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, ($1, $2, $3) -> new Object());
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, Arrays::asList);
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
-                                                               ($1, $2, $3) -> CompletableFuture.allOf(completedFuture("")).get());
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
-                                                               ($1, $2, $3) -> completedFuture("").get());
-            proxy.voidNoop();
+        this.thrown = none();
+
+        try {
+            this.wrong_return_type_causes_ClassCastException_within_dynamic_proxy();
+            fail("Method call before should have thrown an exception!");
+        } catch (final ClassCastException proxyException) {
+            try {
+                this.wrong_return_type_causes_ClassCastException_within_constantResult_invocation_handler();
+                fail("Method call before should have thrown an exception!");
+            } catch (final ClassCastException constantException) {
+                assertEquals(proxyException.getClass(), constantException.getClass());
+                assertEquals(proxyException.getMessage(), constantException.getMessage());
+            }
         }
     }
 
     /**
-     * This tests verifies that the behaviour of {@link Reflection#constantResult(Object)} is similar to
-     * {@linkplain #void_return_type_ignores_handler_result() the behaviour of Java}.
+     * @see #wrong_return_type_for_void_method_is_ignored_within_constantResult_invocation_handler()
      */
-
     @Test
-    public void void_return_type_via_constantResult_causes_explicit_ClassCastException()
+    public void wrong_return_type_for_void_method_is_ignored_within_dynamic_proxy()
     throws Exception {
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(TRUE));
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(null));
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(""));
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, constantResult(new Object()));
-            proxy.voidNoop();
-        }
-        // {
-        // final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
-        // Arrays::asList));
-        // proxy.voidNoop();
-        // }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
-                                                               constantResult(CompletableFuture.allOf(completedFuture("")).get()));
-            proxy.voidNoop();
-        }
-        {
-            final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class },
-                                                               constantResult(completedFuture("").get()));
-            proxy.voidNoop();
-        }
+        execute_some_handler_on_void_method(($1, $2, $3) -> TRUE); // Boolean
+        execute_some_handler_on_void_method(($1, $2, $3) -> null); // null
+        execute_some_handler_on_void_method(($1, $2, $3) -> ""); // String
+        execute_some_handler_on_void_method(($1, $2, $3) -> new Object()); // Object
+        execute_some_handler_on_void_method(Arrays::asList); // (dynamically filled) List
+        execute_some_handler_on_void_method(($1, $2, $3) -> completedFuture("").get()); // String
+        execute_some_handler_on_void_method(($1, $2, $3) -> CompletableFuture.allOf(completedFuture("")).get()); // Void
+    }
+
+    private static final void execute_some_handler_on_void_method(final InvocationHandler handler) {
+        final Whatever proxy = makeProxy(handler);
+        proxy.voidNoop();
+    }
+
+    /**
+     * @see #public void wrong_return_type_for_void_method_is_ignored_within_dynamic_proxy()
+     */
+    @Test
+    public void wrong_return_type_for_void_method_is_ignored_within_constantResult_invocation_handler()
+    throws Exception {
+        execute_some_handler_on_void_method(constantResult(TRUE)); // Boolean
+        execute_some_handler_on_void_method(constantResult(null)); // null
+        execute_some_handler_on_void_method(constantResult("")); // String
+        execute_some_handler_on_void_method(constantResult(new Object())); // Object
+        execute_some_handler_on_void_method(constantResult(completedFuture("").get())); // String
+        execute_some_handler_on_void_method(constantResult(CompletableFuture.allOf(completedFuture("")).get())); // Void
     }
 
     /*
-     * Testing {@link Reflection#constantResult(java.util.function.Supplier)}:
+     * Testing {@link Reflection#constantResult(Object)}:
      */
 
     @Test
     public void test_constantResult_with_valid_string()
     throws Exception {
         final InvocationHandler handler = constantResult("Hello World!");
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
+        final Whatever proxy = makeProxy(handler);
         final String actual = proxy.returnsSomeString();
         assertEquals("Hello World!", actual);
         final String actualToString = proxy.toString();
@@ -167,7 +153,7 @@ public class InvocationTests {
     public void test_constantResult_with_null()
     throws Exception {
         final InvocationHandler handler = constantResult(null);
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
+        final Whatever proxy = makeProxy(handler);
         final String actual = proxy.returnsSomeString();
         assertNull(actual);
         final String actualToString = proxy.toString();
@@ -181,13 +167,13 @@ public class InvocationTests {
     @Test
     public void test_dispatch_with_valid_fallback()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
         final Method methodA = Whatever.class.getMethod("returnsSomeString");
-        final InvocationHandler dispatchA = dispatch(methodA, constantResult("Result of #returnsSomeString()"), fallback);
+        final InvocationHandler dispatchA = dispatch(methodA, constantResult("Result of #returnsSomeString()"), FALLBACK_HANDLER);
         final Method methodB = Whatever.class.getMethod("returnsSomeOtherString");
         final InvocationHandler dispatchB = dispatch(methodB, constantResult("Result of #returnsSomeOtherString()"), dispatchA);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, dispatchB);
+        final Whatever proxy = makeProxy(dispatchB);
+
         final String actualA = proxy.returnsSomeString();
         assertEquals("Result of #returnsSomeString()", actualA);
         final String actualB = proxy.returnsSomeOtherString();
@@ -203,116 +189,130 @@ public class InvocationTests {
      */
 
     @Test
-    public void test_trySuperInterfacesFirst_with_enforced_invocation()
+    public void test_trySuperInterfacesFirst_with_SKIP_ABSTRACT_onto_abstract_method()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals(actualA, actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals(actualA, actualC);
-        final String actualToString = proxy.toString();
-        assertEquals("Fallback Value", actualToString);
+        final Whatever proxy = makeProxy(handler);
+
+        assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
 
     @Test
-    public void test_trySuperInterfacesFirst_with_enforced_invocation2()
+    public void test_trySuperInterfacesFirst_with_SKIP_ABSTRACT_onto_default_methods()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final WhateverSubAB proxy = (WhateverSubAB) newProxyInstance(getSystemClassLoader(), new Class<?>[] { WhateverSubAB.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals(actualA, actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals(actualA, actualC);
-        final String actualToString = proxy.toString();
-        assertEquals("Fallback Value", actualToString);
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
 
     @Test
-    public void test_trySuperInterfacesFirst_and_fail_abstract_invocation()
+    public void test_trySuperInterfacesFirst_with_SKIP_ABSTRACT_onto_implemented_method()
+    throws Exception {
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(proxy);
+    }
+
+    @Test
+    public void test_trySuperInterfacesFirst_with_ENFORCE_ABSTRACT_onto_abstract_method()
     throws Exception {
         this.thrown.expect(AbstractMethodError.class);
         this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        proxy.abstractStringReturn();
+        final Whatever proxy = makeProxy(handler);
+
+        assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
 
     @Test
-    public void test_trySuperInterfacesFirst_without_enforced_invocation()
+    public void test_trySuperInterfacesFirst_with_ENFORCE_ABSTRACT_onto_default_methods()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, SKIP_ABSTRACT);
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals(actualA, actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals(actualA, actualC);
-        final String actualToString = proxy.toString();
-        assertEquals("Fallback Value", actualToString);
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
 
     @Test
-    public void test_trySuperInterfacesFirst_and_skip_abstract_invocation()
+    public void test_trySuperInterfacesFirst_with_ENFORCE_ABSTRACT_onto_implemented_method()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, SKIP_ABSTRACT);
+        final InvocationHandler handler = trySuperInterfacesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actual = proxy.abstractStringReturn();
-        assertEquals("Fallback Value", actual);
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
 
     /*
-     * Testing {@link Reflection#trySuperClassesFirst(InvocationHandler, boolean):
+     * Testing {@link Reflection#trySuperClassesFirst(InvocationHandler, boolean)}:
      */
 
     @Test
-    public void test_trySuperClassesFirst_with_enforced_invocation()
+    public void test_trySuperClassesFirst_with_SKIP_ABSTRACT_onto_abstract_method()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperClassesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertEquals("Fallback Value", actualA);
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals("Fallback Value", actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals("Fallback Value", actualC);
-        final String actualToString = proxy.toString();
-        assertThat(actualToString, startsWith("com.sun.proxy.$Proxy"));
+        final Whatever proxy = makeProxy(handler);
+
+        assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
 
     @Test
-    public void test_trySuperClassesFirst_without_enforced_invocation()
+    public void test_trySuperClassesFirst_with_SKIP_ABSTRACT_onto_default_methods()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperClassesFirst(fallback, SKIP_ABSTRACT);
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertEquals("Fallback Value", actualA);
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals("Fallback Value", actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals("Fallback Value", actualC);
-        final String actualToString = proxy.toString();
-        assertThat(actualToString, startsWith("com.sun.proxy.$Proxy"));
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
+    }
+
+    @Test
+    public void test_trySuperClassesFirst_with_SKIP_ABSTRACT_onto_implemented_method()
+    throws Exception {
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsInvoked(proxy);
+    }
+
+    @Test
+    public void test_trySuperClassesFirst_with_ENFORCE_ABSTRACT_onto_abstract_method()
+    throws Exception {
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
+    }
+
+    @Test
+    public void test_trySuperClassesFirst_with_ENFORCE_ABSTRACT_onto_default_methods()
+    throws Exception {
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(proxy);
+    }
+
+    @Test
+    public void test_trySuperClassesFirst_with_ENFORCE_ABSTRACT_onto_implemented_method()
+    throws Exception {
+        final InvocationHandler handler = trySuperClassesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
 
     /*
@@ -320,61 +320,66 @@ public class InvocationTests {
      */
 
     @Test
-    public void test_trySuperTypesFirst_with_enforced_invocation()
+    public void test_trySuperTypesFirst_with_SKIP_ABSTRACT_onto_abstract_method()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals(actualA, actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals(actualA, actualC);
-        final String actualToString = proxy.toString();
-        assertThat(actualToString, startsWith("com.sun.proxy.$Proxy"));
+        final Whatever proxy = makeProxy(handler);
+
+        assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(proxy);
     }
 
     @Test
-    public void test_trySuperTypesFirst_and_fail_abstract_invocation()
+    public void test_trySuperTypesFirst_with_SKIP_ABSTRACT_onto_default_methods()
+    throws Exception {
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
+    }
+
+    @Test
+    public void test_trySuperTypesFirst_with_SKIP_ABSTRACT_onto_implemented_method()
+    throws Exception {
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, SKIP_ABSTRACT);
+
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsInvoked(proxy);
+    }
+
+    @Test
+    public void test_trySuperTypesFirst_with_ENFORCE_ABSTRACT_onto_abstract_method()
     throws Exception {
         this.thrown.expect(AbstractMethodError.class);
         this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_ABSTRACT);
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        proxy.abstractStringReturn();
+        final Whatever proxy = makeProxy(handler);
+
+        assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(proxy);
     }
 
     @Test
-    public void test_trySuperTypesFirst_without_enforced_invocation()
+    public void test_trySuperTypesFirst_with_ENFORCE_ABSTRACT_onto_default_methods()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, SKIP_ABSTRACT);
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actualA = proxy.returnsSomeString();
-        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
-        final String actualB = proxy.returnsSomeOtherString();
-        assertEquals(actualA, actualB);
-        final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals(actualA, actualC);
-        final String actualToString = proxy.toString();
-        assertThat(actualToString, startsWith("com.sun.proxy.$Proxy"));
+        final Whatever proxy = makeProxy(handler);
+
+        assertDefaultMethodsOfWhateverInterfaceAreInvoked(proxy);
     }
 
     @Test
-    public void test_trySuperTypesFirst_and_skip_abstract_invocation()
+    public void test_trySuperTypesFirst_with_ENFORCE_ABSTRACT_onto_implemented_method()
     throws Exception {
-        final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, SKIP_ABSTRACT);
+        final InvocationHandler handler = trySuperTypesFirst(FALLBACK_HANDLER, ENFORCE_ABSTRACT);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
-        final String actual = proxy.abstractStringReturn();
-        assertEquals("Fallback Value", actual);
+        final Whatever proxy = makeProxy(handler);
+
+        assertImplementedMethodOfObjectClassIsInvoked(proxy);
     }
 
     /*
@@ -382,36 +387,88 @@ public class InvocationTests {
      */
 
     @Test
-    public void test_fail_and_fail_abstract_invocation()
+    public void test_fail_invocation_onto_abstract_method()
     throws Exception {
         this.thrown.expect(UnsupportedOperationException.class);
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, fail);
+        final Whatever proxy = makeProxy(fail);
         proxy.abstractStringReturn();
     }
 
     @Test
-    public void test_fail_and_fail_default_invocation()
+    public void test_fail_invocation_onto_default_methods()
     throws Exception {
         this.thrown.expect(UnsupportedOperationException.class);
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
+        final Whatever proxy = makeProxy(fail);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, fail);
         proxy.returnsSomeString();
     }
 
     @Test
-    public void test_fail_and_fail_valid_invocation()
+    public void test_fail_invocation_onto_implemented_method()
     throws Exception {
         this.thrown.expect(UnsupportedOperationException.class);
 
         final InvocationHandler fail = fail(UnsupportedOperationException::new);
 
-        final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, fail);
+        final Whatever proxy = makeProxy(fail);
         proxy.toString();
+    }
+
+    /*
+     * Helper methods:
+     */
+
+    private static final InvocationHandler FALLBACK_HANDLER = constantResult("Fallback Value");
+
+    private static final Whatever makeProxy(final InvocationHandler fail) {
+        return (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, fail);
+    }
+
+    /*
+     * Helper assertion statements:
+     */
+
+    private static final void assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(final Whatever proxy) {
+        final String actual = proxy.abstractStringReturn();
+        assertEquals("Fallback Value", actual);
+    }
+
+    private static final void assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(final Whatever proxy) {
+        proxy.abstractStringReturn();
+    }
+
+    private static final void assertDefaultMethodsOfWhateverInterfaceAreInvoked(final Whatever proxy) {
+        final String actualA = proxy.returnsSomeString();
+        assertThat(actualA, startsWith("com.sun.proxy.$Proxy"));
+        final String actualB = proxy.returnsSomeOtherString();
+        assertEquals(actualA, actualB);
+        final String actualC = proxy.returnsEvenAnotherString();
+        assertEquals(actualA, actualC);
+    }
+
+    private static final void assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(final Whatever proxy) {
+        final String actualA = proxy.returnsSomeString();
+        assertEquals("Fallback Value", actualA);
+        final String actualB = proxy.returnsSomeOtherString();
+        assertEquals(actualA, actualB);
+        final String actualC = proxy.returnsEvenAnotherString();
+        assertEquals(actualA, actualC);
+    }
+
+    private static final void assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(final Object proxy) {
+        final String actual = proxy.toString();
+        assertEquals("Fallback Value", actual);
+    }
+
+    private static final void assertImplementedMethodOfObjectClassIsInvoked(final Object proxy) {
+        final String actual = proxy.toString();
+        assertThat(actual, startsWith("com.sun.proxy.$Proxy"));
+
     }
 
 }

@@ -25,6 +25,7 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.BiPredicate;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
@@ -324,6 +325,7 @@ public enum Reflection {
         }
         if (baseMethod.getDeclaringClass().isAssignableFrom(overridingMethod.getDeclaringClass())) {
             if (baseMethod.getName().equals(overridingMethod.getName())) {
+                // TODO: What, if method is overridden with super-types in its signature?
                 if (Arrays.equals(baseMethod.getParameterTypes(), overridingMethod.getParameterTypes())) {
                     if (baseMethod.getReturnType().isAssignableFrom(overridingMethod.getReturnType())) {
                         return true;
@@ -342,23 +344,22 @@ public enum Reflection {
      * @return a subset of the given set of types containing all redundant types
      */
     public static final Set<Class<?>> redundantTypes(final Set<Class<?>> types) {
-        return types.stream()
-                    .filter(candidate -> types.stream()
-                                              // A {@code candidate} type is redundant in relation to a {@code
-                                              // reference} type if (a) it is assignable from that {@code reference} and
-                                              // (b) it is not equal to that {@code reference}. Further, (c) {@link
-                                              // Object} is not redundant if the {@code reference} is an {@code
-                                              // interface}.
-                                              .anyMatch(reference -> candidate.isAssignableFrom(reference) //
-                                                                     && !candidate.equals(reference) //
-                                                                     && !(candidate.equals(Object.class) && reference.isInterface())))
-                    .collect(toSet());
+        // A candidate type {@code c} is redundant in relation to a reference type {@code r} if (a) it is assignable
+        // from that reference type and (b) it is not equal to that reference type. Further, (c) {@link Object} is not
+        // redundant if the {@code reference} is an {@code interface}.
+        final BiPredicate<Class<?>, Class<?>> IS_REDUNDANT = (c, r) -> c.isAssignableFrom(r) //
+                                                                       && !c.equals(r) //
+                                                                       && !(c.equals(Object.class) && r.isInterface());
+        // A candidate type {@code c} is redundant in relation to a set of reference types {@code rs} if it matches the
+        // {@code IS_REDUNDANT} relation to any of the reference types.
+        final BiPredicate<Class<?>, Set<Class<?>>> IS_REDUNDANTS = (c, rs) -> rs.stream().anyMatch(r -> IS_REDUNDANT.test(c, r));
+        return types.stream().filter(candidate -> IS_REDUNDANTS.test(candidate, types)).collect(toSet());
     }
 
     /**
      * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only -- for whatever reason.
      */
-    private static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
+    public static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
 
     /**
      * If there is a security manager, this method requires {@code suppressAccessChecks} permission to execute without
@@ -392,24 +393,23 @@ public enum Reflection {
 
     /**
      * Returns an {@link InvocationHandler} that immediately returns the given {@code result} object. In case of an
-     * invoked {@code void} method, the invocation handler will throw a {@link ClassCastException}. Such exception is
-     * thrown similarly if the {@code result} object is not an instance of the invoked method's return type.
+     * invoked {@code void} method, the invocation handler will throw a {@link ClassCastException} unless the return
+     * value is {@code null}. Such exception is thrown similarly if the {@code result} object is not an instance of the
+     * invoked method's return type.
      *
      * @param result
      *            the result object
      * @return the invocation handler with a constant return behaviour
      */
     public static final InvocationHandler constantResult(final Object result) {
+        final String NOT_CASTABLE = "%s cannot be cast to %s";
         final String NOT_INSTANCE = "Supplied object of type '%s' is not an instance of invoked method's return type '%s'!";
         return (proxy, method, args) -> {
-            final Class<?> returnType = method.getReturnType();
-            if (Void.TYPE.equals(returnType) || (result == null) || returnType.isInstance(result)) {
-                return result;
-            } else {
-                // TODO: Do we need this type check barrier? A ClassCastException will be thrown in any case (see:
-                // {@link InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
-                throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
+            if ((result != null) && !void.class.equals(method.getReturnType()) && !method.getReturnType().isInstance(result)) {
+                throw new ClassCastException(format(NOT_CASTABLE, result.getClass().getName(), method.getReturnType().getName())). //
+                initCause(new ClassCastException(format(NOT_INSTANCE, result.getClass(), method.getReturnType())));
             }
+            return result;
         };
     }
 
