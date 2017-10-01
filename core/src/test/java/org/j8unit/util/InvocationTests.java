@@ -87,11 +87,11 @@ public class InvocationTests {
 
         try {
             this.wrong_return_type_causes_ClassCastException_within_dynamic_proxy();
-            fail("Method call before should have thrown an exception!");
+            fail("This position should not have been reached due to earlier exception!");
         } catch (final ClassCastException proxyException) {
             try {
                 this.wrong_return_type_causes_ClassCastException_within_constantResult_invocation_handler();
-                fail("Method call before should have thrown an exception!");
+                fail("This position should not have been reached due to earlier exception!");
             } catch (final ClassCastException constantException) {
                 assertEquals(proxyException.getClass(), constantException.getClass());
                 assertEquals(proxyException.getMessage(), constantException.getMessage());
