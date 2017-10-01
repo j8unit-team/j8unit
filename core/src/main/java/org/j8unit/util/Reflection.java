@@ -20,6 +20,7 @@ import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 import java.security.PrivilegedAction;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -594,6 +595,48 @@ public enum Reflection {
             // not call {@link Object#toString()}!) It most likely will end up in an endless recursion of this method.
             throw constructor.apply(format(FAIL_PATTERN, proxy.getClass(), method, Arrays.toString(args)));
         };
+    }
+
+    /**
+     * In case there is only one interface to use for creating a new runtime proxy (see
+     * {@link Proxy#newProxyInstance(ClassLoader, Class[], InvocationHandler)}, this method shortens the usage.
+     *
+     * @implSpec Calling this method:
+     *
+     *           <pre>
+     * <code brush="java">
+     * MyInterface proxy = Reflection.newProxyInstance(loader, MyInterface.class, handler);
+     * </code>
+     *           </pre>
+     *
+     *           is equal to calling:
+     *
+     *           <pre>
+     * <code brush="java">
+     * MyInterface proxy = (MyInterface) Proxy.newProxyInstance(loader, new Class<?>[] { MyInterface.class }, handler)
+     * </code>
+     *           </pre>
+     *
+     * @param loader
+     *            the class loader to define the proxy class
+     * @param interfaze
+     *            the interface for the proxy class to implement
+     * @param handler
+     *            the invocation handler to dispatch method invocations to
+     * @return a proxy instance with the specified invocation handler of a proxy class that is defined by the specified
+     *         class loader and that implements the specified interface
+     * @throws IllegalArgumentException
+     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     * @throws SecurityException
+     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     * @throws NullPointerException
+     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     */
+    public static <T> T newProxyInstance(final ClassLoader loader, final Class<T> interfaze, final InvocationHandler handler)
+    throws IllegalArgumentException, SecurityException, NullPointerException {
+        final Object proxy = Proxy.newProxyInstance(loader, new Class<?>[] { interfaze }, handler);
+        assert interfaze.isInstance(proxy);
+        return (T) proxy;
     }
 
 }
