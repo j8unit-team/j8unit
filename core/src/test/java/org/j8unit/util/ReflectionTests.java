@@ -49,6 +49,7 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.model.TestClass;
+import org.j8unit.util.helper.EmptyClass;
 
 public class ReflectionTests
 extends EmptyClass {
