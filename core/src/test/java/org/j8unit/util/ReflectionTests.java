@@ -2,6 +2,7 @@ package org.j8unit.util;
 
 import static java.lang.reflect.Modifier.isPrivate;
 import static java.lang.reflect.Modifier.isStatic;
+import static java.security.AccessController.doPrivileged;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
@@ -21,8 +22,11 @@ import java.io.Closeable;
 import java.io.FilterInputStream;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.security.PrivilegedAction;
 import java.text.StringCharacterIterator;
 import java.util.AbstractCollection;
 import java.util.AbstractMap;
@@ -48,6 +52,19 @@ import org.junit.runners.model.TestClass;
 
 public class ReflectionTests
 extends EmptyClass {
+
+    @Test
+    public void verifyAllModesFieldHasSimilarValue()
+    throws Exception {
+        final int reflectionAllModes = Reflection.ALL_MODES;
+        final Field field = Lookup.class.getDeclaredField("ALL_MODES");
+        doPrivileged((PrivilegedAction<Void>) () -> {
+            field.setAccessible(true);
+            return null;
+        });
+        final int looupAllModes = field.getInt(null);
+        assertEquals(looupAllModes, reflectionAllModes);
+    }
 
     @Test
     public void testClassForNameSucceeds()
