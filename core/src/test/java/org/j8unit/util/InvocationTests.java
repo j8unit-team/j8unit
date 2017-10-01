@@ -178,10 +178,14 @@ public class InvocationTests {
         final String actualB = proxy.returnsSomeOtherString();
         assertEquals("Result of #returnsSomeOtherString()", actualB);
         final String actualC = proxy.returnsEvenAnotherString();
-        assertEquals("Fallback Value", actualC);
+        assertEquals(FALLBACK_VALUE, actualC);
         final String actualToString = proxy.toString();
-        assertEquals("Fallback Value", actualToString);
+        assertEquals(FALLBACK_VALUE, actualToString);
     }
+
+    private static final String FALLBACK_VALUE = "Fallback Value";
+
+    private static final InvocationHandler FALLBACK_HANDLER = constantResult(FALLBACK_VALUE);
 
     /*
      * Testing {@link Reflection#trySuperInterfacesFirst(InvocationHandler, boolean)}:
@@ -422,15 +426,13 @@ public class InvocationTests {
      * Helper methods:
      */
 
-    private static final InvocationHandler FALLBACK_HANDLER = constantResult("Fallback Value");
-
     /*
      * Helper assertion statements:
      */
 
     private static final void assertAbstractMethodOfWhateverInterfaceIsNotInvokedAndThusFallbackValueIsReturned(final Whatever proxy) {
         final String actual = proxy.abstractStringReturn();
-        assertEquals("Fallback Value", actual);
+        assertEquals(FALLBACK_VALUE, actual);
     }
 
     private static final void assertAbstractMethodOfWhateverInterfaceIsInvokedAndThusThrowsAbstractMethodError(final Whatever proxy) {
@@ -448,7 +450,7 @@ public class InvocationTests {
 
     private static final void assertDefaultMethodsOfWhateverInterfaceAreSkippedAndThusFallbackValueIsReturned(final Whatever proxy) {
         final String actualA = proxy.returnsSomeString();
-        assertEquals("Fallback Value", actualA);
+        assertEquals(FALLBACK_VALUE, actualA);
         final String actualB = proxy.returnsSomeOtherString();
         assertEquals(actualA, actualB);
         final String actualC = proxy.returnsEvenAnotherString();
@@ -457,7 +459,7 @@ public class InvocationTests {
 
     private static final void assertImplementedMethodOfObjectClassIsNotInvokedAndThusFallbackValueIsReturned(final Object proxy) {
         final String actual = proxy.toString();
-        assertEquals("Fallback Value", actual);
+        assertEquals(FALLBACK_VALUE, actual);
     }
 
     private static final void assertImplementedMethodOfObjectClassIsInvoked(final Object proxy) {
