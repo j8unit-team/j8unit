@@ -17,7 +17,7 @@ import static org.j8unit.runners.conformance.J8UnitRepositoryTestsDiscovery.J8UN
 import static org.j8unit.runners.conformance.J8UnitRepositoryTestsDiscovery.J8UNIT_REPOSITORY_INSTANCE_TESTS_SUFFIX;
 import static org.j8unit.runners.conformance.J8UnitRepositoryTestsDiscovery.J8UNIT_REPOSITORY_PREFIX;
 import static org.j8unit.util.Functional.consumeFalse;
-import static org.j8unit.util.Reflection.ENFORCE_INVOCATION;
+import static org.j8unit.util.Reflection.ENFORCE_ABSTRACT;
 import static org.j8unit.util.Reflection.SKIP_ABSTRACT;
 import static org.j8unit.util.Reflection.constantResult;
 import static org.j8unit.util.Reflection.dispatch;
@@ -791,10 +791,10 @@ extends Suite {
          * provide any {@link Test methods} and (b) {@link
          * org.j8unit.runners.model.J8TestClass#scanAnnotatedDefaultMethods(Map)} uses {@code default} methods only.
          *
-         * Nevertheless, {@link org.j8unit.util.Reflection#ENFORCE_INVOCATION} flag enforces abstract methods to be
+         * Nevertheless, {@link org.j8unit.util.Reflection#ENFORCE_ABSTRACT} flag enforces abstract methods to be
          * invoked, just to cause an according error.
          */
-        handler = trySuperTypesFirst(handler, ENFORCE_INVOCATION);
+        handler = trySuperTypesFirst(handler, ENFORCE_ABSTRACT);
         /*
          * In case the {@linkplain #SUT_FACTORY_METHOD factory method} is overridden, this dispatching will not be
          * called ...

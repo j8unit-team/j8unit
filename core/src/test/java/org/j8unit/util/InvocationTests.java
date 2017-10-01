@@ -5,7 +5,7 @@ import static java.lang.ClassLoader.getSystemClassLoader;
 import static java.lang.reflect.Proxy.newProxyInstance;
 import static java.util.concurrent.CompletableFuture.completedFuture;
 import static org.hamcrest.Matchers.startsWith;
-import static org.j8unit.util.Reflection.ENFORCE_INVOCATION;
+import static org.j8unit.util.Reflection.ENFORCE_ABSTRACT;
 import static org.j8unit.util.Reflection.SKIP_ABSTRACT;
 import static org.j8unit.util.Reflection.constantResult;
 import static org.j8unit.util.Reflection.dispatch;
@@ -206,7 +206,7 @@ public class InvocationTests {
     public void test_trySuperInterfacesFirst_with_enforced_invocation()
     throws Exception {
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         final String actualA = proxy.returnsSomeString();
@@ -223,7 +223,7 @@ public class InvocationTests {
     public void test_trySuperInterfacesFirst_with_enforced_invocation2()
     throws Exception {
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
 
         final WhateverSubAB proxy = (WhateverSubAB) newProxyInstance(getSystemClassLoader(), new Class<?>[] { WhateverSubAB.class }, handler);
         final String actualA = proxy.returnsSomeString();
@@ -243,7 +243,7 @@ public class InvocationTests {
         this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperInterfacesFirst(fallback, ENFORCE_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         proxy.abstractStringReturn();
@@ -285,7 +285,7 @@ public class InvocationTests {
     public void test_trySuperClassesFirst_with_enforced_invocation()
     throws Exception {
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperClassesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperClassesFirst(fallback, ENFORCE_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         final String actualA = proxy.returnsSomeString();
@@ -323,7 +323,7 @@ public class InvocationTests {
     public void test_trySuperTypesFirst_with_enforced_invocation()
     throws Exception {
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         final String actualA = proxy.returnsSomeString();
@@ -343,7 +343,7 @@ public class InvocationTests {
         this.thrown.expectMessage("org.j8unit.util.helper.Whatever.abstractStringReturn()String/invokeInterface");
 
         final InvocationHandler fallback = constantResult("Fallback Value");
-        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_INVOCATION);
+        final InvocationHandler handler = trySuperTypesFirst(fallback, ENFORCE_ABSTRACT);
 
         final Whatever proxy = (Whatever) newProxyInstance(getSystemClassLoader(), new Class<?>[] { Whatever.class }, handler);
         proxy.abstractStringReturn();

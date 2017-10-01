@@ -436,7 +436,7 @@ public enum Reflection {
     /**
      * Flag to indicate to skip the invocation of {@code abstract} methods.
      *
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
@@ -459,7 +459,7 @@ public enum Reflection {
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
      * @see #trySuperTypesFirst(InvocationHandler, boolean)
      */
-    public static final boolean ENFORCE_INVOCATION = true;
+    public static final boolean ENFORCE_ABSTRACT = true;
 
     private static final Object trySuperTypeInvocation(final Object proxy, final Method method, final Object[] args, final Iterable<Class<?>> superTypes,
                                                        final boolean invokeAbstract, final InvocationHandler fallback)
@@ -506,7 +506,7 @@ public enum Reflection {
      *
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see Reflection#trySuperTypesFirst(InvocationHandler, boolean)
      * @see Reflection#trySuperInterfacesFirst(InvocationHandler, boolean)
@@ -539,7 +539,7 @@ public enum Reflection {
      * </pre>
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperTypesFirst(InvocationHandler, boolean)
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
@@ -563,7 +563,7 @@ public enum Reflection {
      * non-{@code abstract} implementation of its super types (either super classes or super interfaces).
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
      * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
