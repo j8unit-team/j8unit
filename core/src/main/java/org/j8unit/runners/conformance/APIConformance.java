@@ -792,7 +792,7 @@ extends Suite {
          * org.j8unit.runners.model.J8TestClass#scanAnnotatedDefaultMethods(Map)} uses {@code default} methods only.
          *
          * Nevertheless, {@link org.j8unit.util.Reflection#ENFORCE_ABSTRACT} flag enforces abstract methods to be
-         * invoked, just to cause an according error.
+         * invoked -- just to intentionally cause an according error.
          */
         handler = trySuperTypesFirst(handler, ENFORCE_ABSTRACT);
         /*

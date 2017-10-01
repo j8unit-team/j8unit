@@ -120,7 +120,7 @@ public class InvocationTests {
     }
 
     /**
-     * @see #public void wrong_return_type_for_void_method_is_ignored_within_dynamic_proxy()
+     * @see #wrong_return_type_for_void_method_is_ignored_within_dynamic_proxy()
      */
     @Test
     public void wrong_return_type_for_void_method_is_ignored_within_constantResult_invocation_handler()
