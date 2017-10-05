@@ -9,6 +9,7 @@ import static java.lang.invoke.MethodHandles.Lookup.PUBLIC;
 import static java.lang.reflect.Modifier.isAbstract;
 import static java.lang.reflect.Modifier.isFinal;
 import static java.lang.reflect.Modifier.isPrivate;
+import static java.lang.reflect.Modifier.isStatic;
 import static java.security.AccessController.doPrivileged;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toCollection;
@@ -311,30 +312,46 @@ public enum Reflection {
     }
 
     /**
-     * Returns {@code true} if the given base method is either equal to the second method or is overridden by the second
-     * method.
+     * Returns {@code true} if the given base method is either {@linkplain Method#equals(Object) equal to the second
+     * method} or is overridden by the second method. Note, an overridden method in Java is defined by (a) second method
+     * declaration (b) within a subclass and (c) the same signature. This definition does neither include method hiding
+     * nor method overloading (even if the parameters have contravariant types).
+     *
+     * @implSepc According to the Java's definition of overridden methods, the following checks are performed:
+     *           <ul>
+     *           <li>both methods must be instance methods</li>
+     *           <li>both methods are defined within super-class/sub-class hierarchy</li>
+     *           <li>both methods have equal names</li>
+     *           <li>both methods have equal parameter types</li>
+     *           </ul>
+     * @implSpec The equality (resp. covariance) of the return types is irrelevant and, thus, not checked.
+     *
+     *
+     * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/index.html">Classes and Objects</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html">Defining Methods</a> (method
+     *      signature, method overloading)
+     *
+     * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/index.html">Interfaces and Inheritance</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/override.html">Overriding and Hiding Methods</a>
+     *      (method overriding, method hiding, inheritance rules)
+     *
+     * @see Override
      *
      * @param baseMethod
-     *            the base method to use for calculation
+     *            the base method
      * @param overridingMethod
-     *            the (potentially overriding) method to use for calculation
-     * @return {@code true} iff both methods represent similar behaviour
+     *            the (potentially) overriding method
+     * @return {@code true} iff the given base method is either equal to or is overridden by the second method
      */
-    public static final boolean isAssignableFrom(final Method baseMethod, final Method overridingMethod) {
-        if (baseMethod.equals(overridingMethod)) {
-            return true;
-        }
-        if (baseMethod.getDeclaringClass().isAssignableFrom(overridingMethod.getDeclaringClass())) {
-            if (baseMethod.getName().equals(overridingMethod.getName())) {
-                // TODO: What, if method is overridden with super-types in its signature?
-                if (Arrays.equals(baseMethod.getParameterTypes(), overridingMethod.getParameterTypes())) {
-                    if (baseMethod.getReturnType().isAssignableFrom(overridingMethod.getReturnType())) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
+    public static final boolean isOverriddenBy(final Method baseMethod, final Method overridingMethod) {
+        return (baseMethod.equals(overridingMethod)) || ((!isStatic(baseMethod.getModifiers()) && !isStatic(overridingMethod.getModifiers()))
+                                                         && baseMethod.getDeclaringClass().isAssignableFrom(overridingMethod.getDeclaringClass())
+                                                         && baseMethod.getName().equals(overridingMethod.getName())
+                                                         && Arrays.equals(baseMethod.getParameterTypes(), overridingMethod.getParameterTypes()));
     }
 
     /**
@@ -358,7 +375,7 @@ public enum Reflection {
     }
 
     /**
-     * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only -- for whatever reason.
+     * Similar to {@link Lookup#ALL_MODES} (which is {@code private} only -- for whatever reason).
      */
     public static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
 
@@ -431,7 +448,7 @@ public enum Reflection {
      * @return the wrapping invocation handler
      */
     public static final InvocationHandler dispatch(final Method target, final InvocationHandler handler, final InvocationHandler fallback) {
-        return (proxy, current, args) -> (isAssignableFrom(target, current) ? handler : fallback).invoke(proxy, current, args);
+        return (proxy, current, args) -> (isOverriddenBy(target, current) ? handler : fallback).invoke(proxy, current, args);
     }
 
     /**

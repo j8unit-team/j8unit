@@ -183,6 +183,9 @@ public class InvocationTests {
         assertEquals(FALLBACK_VALUE, actualToString);
     }
 
+    // TODO Testing #dispatch(...) due to super-class method definition.
+    // TODO Testing #dispatch(...) due to sub-class method definition.
+
     private static final String FALLBACK_VALUE = "Fallback Value";
 
     private static final InvocationHandler FALLBACK_HANDLER = constantResult(FALLBACK_VALUE);
