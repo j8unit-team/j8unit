@@ -13,6 +13,10 @@ extends Foo {
         return super.someProtectedMethodThatShallBeOverridden();
     }
 
+    private String somePrivateMethodThatShallBeRedefined() {
+        return this.getClass().getName();
+    }
+
     public static String someStaticMethodThatShallBeHidden() {
         return Bar.class.getName();
     }
