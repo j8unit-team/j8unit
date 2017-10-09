@@ -326,19 +326,22 @@ public enum Reflection {
      *           </ul>
      * @implSpec The equality (resp. covariance) of the return types is irrelevant and, thus, not checked.
      *
-     *
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.2">The Java® Language
+     *      Specification, Java SE 8 Edition :: Method Signature</a>
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.8">The Java® Language
+     *      Specification, Java SE 8 Edition :: Inheritance, Overriding, and Hiding</a>
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.9">The Java® Language
+     *      Specification, Java SE 8 Edition :: Overloading</a>
      * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/index.html">Classes and Objects</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html">Defining Methods</a> (method
      *      signature, method overloading)
-     *
      * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/index.html">Interfaces and Inheritance</a> →
      *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/override.html">Overriding and Hiding Methods</a>
      *      (method overriding, method hiding, inheritance rules)
-     *
      * @see Override
      *
      * @param baseMethod

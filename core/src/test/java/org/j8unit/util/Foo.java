@@ -8,6 +8,10 @@ public abstract class Foo {
         return this.getClass().getName();
     }
 
+    private String somePrivateMethodThatShallBeRedefined() {
+        return this.getClass().getName();
+    }
+
     public static String someStaticMethodThatShallBeHidden() {
         return Foo.class.getName();
     }

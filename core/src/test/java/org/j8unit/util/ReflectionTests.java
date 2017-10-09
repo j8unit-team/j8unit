@@ -376,6 +376,16 @@ extends EmptyClass {
         assertOverriddenMethod("someProtectedMethodThatShallBeOverridden");
     }
 
+    /**
+     * TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'
+     */
+    @Ignore("TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'")
+    @Test
+    public void testMethod_Private()
+    throws Exception {
+        assertNotOverriddenMethod("somePrivateMethodThatShallBeRedefined");
+    }
+
     @Test
     public void testMethodAssignabilityForSpecificHiddenMethod()
     throws Exception {
