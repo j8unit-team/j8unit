@@ -362,6 +362,8 @@ extends EmptyClass {
 
     /*
      * Method assignability:
+     *
+     * TODO: Test super-instance-method vs. sub-static-method, and vice-versa.
      */
 
     @Test
