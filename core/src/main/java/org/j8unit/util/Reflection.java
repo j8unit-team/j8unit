@@ -637,6 +637,8 @@ public enum Reflection {
      * </code>
      *           </pre>
      *
+     * @param <I>
+     *            the type of the interface
      * @param loader
      *            the class loader to define the proxy class
      * @param interfaze
@@ -646,17 +648,17 @@ public enum Reflection {
      * @return a proxy instance with the specified invocation handler of a proxy class that is defined by the specified
      *         class loader and that implements the specified interface
      * @throws IllegalArgumentException
-     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
      * @throws SecurityException
-     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
      * @throws NullPointerException
-     *             see Proxy{@link #newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
      */
-    public static <T> T newProxyInstance(final ClassLoader loader, final Class<T> interfaze, final InvocationHandler handler)
+    public static <I> I newProxyInstance(final ClassLoader loader, final Class<I> interfaze, final InvocationHandler handler)
     throws IllegalArgumentException, SecurityException, NullPointerException {
         final Object proxy = Proxy.newProxyInstance(loader, new Class<?>[] { interfaze }, handler);
         assert interfaze.isInstance(proxy);
-        return (T) proxy;
+        return (I) proxy;
     }
 
 }
