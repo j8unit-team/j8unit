@@ -405,9 +405,9 @@ public enum Reflection {
                 field.setInt(lookup, lookup.lookupModes() | requiredAccess);
                 return lookup;
             } catch (final NoSuchFieldException missing) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
+                throw new AssertionError("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
             } catch (final IllegalAccessException inaccessible) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
+                throw new AssertionError("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
             }
         }
     }
