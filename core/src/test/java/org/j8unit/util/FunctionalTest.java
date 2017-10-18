@@ -9,6 +9,12 @@ import org.junit.Test;
 public class FunctionalTest {
 
     @Test
+    public void testUtilityContainerCharacteristics()
+    throws Exception {
+        UtilityContainerTest.testUtilityContainerCharacteristics(Functional.class);
+    }
+
+    @Test
     public void consumeTruePredicateTest()
     throws Exception {
         final AtomicInteger counter = new AtomicInteger();

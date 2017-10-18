@@ -56,6 +56,12 @@ public class ReflectionTests
 extends EmptyClass {
 
     @Test
+    public void testUtilityContainerCharacteristics()
+    throws Exception {
+        UtilityContainerTest.testUtilityContainerCharacteristics(Reflection.class);
+    }
+
+    @Test
     public void verifyAllModesFieldHasSimilarValue()
     throws Exception {
         final int reflectionAllModes = Reflection.ALL_MODES;

@@ -17,6 +17,12 @@ import org.junit.Test;
 public class TestParametersUtilTests {
 
     @Test
+    public void testUtilityContainerCharacteristics()
+    throws Exception {
+        UtilityContainerTest.testUtilityContainerCharacteristics(TestParametersUtil.class);
+    }
+
+    @Test
     public void testParametersViaInstances()
     throws Exception {
         final List<Boolean> instances = testParametersOf(Boolean.TRUE, Boolean.FALSE);
