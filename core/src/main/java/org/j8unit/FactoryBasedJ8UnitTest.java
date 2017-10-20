@@ -25,10 +25,13 @@ extends J8UnitTest<SUT> {
      * type {@code SUT}).
      * </p>
      *
-     * <p>
-     * Let's face facts: Constructors may throw unchecked exceptions. Thus, instead of using
-     * {@link java.util.function.Supplier} this method is {@link Callable}-based in order to support those cases.
-     * </p>
+     * @apiNote This method returns a {@link Callable} by intention.
+     *
+     *          The reason why is: A {@code Callable} is {@linkplain Callable "A task that returns a result [&hellip;]"}
+     *          while a {@code Supplier} is {@linkplain java.util.function.Supplier "[&hellip;] a supplier of results
+     *          [&hellip;]"}. By this, a {@code Callable} represents a yet-uncomputed value while a {@code Supplier}
+     *          represents a yet-unknown value. (That's why a {@link Callable#call()} may throw an {@link Exception} and
+     *          {@link java.util.function.Supplier#get()} does not.)
      *
      * @return a SUT factory
      */
