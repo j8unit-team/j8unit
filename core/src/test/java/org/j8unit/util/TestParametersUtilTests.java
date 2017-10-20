@@ -13,6 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Callable;
 import org.junit.Test;
+import org.j8unit.util.helper.UtilityContainerTest;
 
 public class TestParametersUtilTests {
 

@@ -1,4 +1,4 @@
-package org.j8unit.util;
+package org.j8unit.util.helper;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

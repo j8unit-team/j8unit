@@ -5,6 +5,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
 import org.junit.Test;
+import org.j8unit.util.helper.UtilityContainerTest;
 
 public class FunctionalTest {
 
