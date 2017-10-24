@@ -388,7 +388,7 @@ public enum Reflection {
      */
     public static final Lookup vicariousLookup(final Class<?> reference, final int... requiredAccesses)
     throws SecurityException {
-        // either (1) use default access or (2) join access modes and remove illegal integer bits
+        // either (1) use default access or (2) join access modes (bitwise "|") and remove illegal integer bits (bitwise "&" with "ALL_MODES")
         final int requiredAccess = requiredAccesses.length == 0 ? ALL_MODES : stream(requiredAccesses).reduce(0, (x, y) -> x | y) & ALL_MODES;
         final Lookup lookup = lookup().in(reference);
         if ((lookup.lookupModes() & requiredAccess) == requiredAccess) {
@@ -411,6 +411,13 @@ public enum Reflection {
             }
         }
     }
+
+    /*
+     * The next part is about reflectional invocation of methods (and creating dynamic proxies). Some websites
+     * describing these topic(s) briefly are:
+     *   - https://zeroturnaround.com/rebellabs/recognize-and-conquer-java-proxies-default-methods-and-method-handles/
+     *   - https://opencredo.com/dynamic-proxies-java-part-2/
+     */
 
     /**
      * Returns an {@link InvocationHandler} that immediately returns the given {@code result} object. In case of an
