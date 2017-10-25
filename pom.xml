@@ -2,91 +2,85 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <!--
-    ~ An "Introduction to the POM" can be read here:
-    ~ + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html 
-    ~
-    ~ The "POM Reference" is here:
-    ~ + http://maven.apache.org/pom.html
-    ~
-    ~ One of the points to emphasise is the differentiation between inheritance and aggregation.
-    ~ A single POM can be (and often is) both a super POM and an aggregation POM:
-    ~ + http://maven.apache.org/pom.html#Inheritance 
-    ~ + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
-    ~
-    ~ In the current case, this POM file is doing the aggregation. Just choose your preferred profile to build your
-    ~ required modules. There is a separate parent POM managing all the plugins and dependencies.
-  -->
   <modelVersion>4.0.0</modelVersion>
-  <prerequisites>
-    <maven>3.0</maven>
-  </prerequisites>
 
   <groupId>org.j8unit</groupId>
-  <artifactId>project</artifactId>
-  <version>2-SNAPSHOT</version>
+  <artifactId>aggregator-pom</artifactId>
+  <version>1</version>
   <packaging>pom</packaging>
 
-  <name>J8Unit Project (Aggregation POM)</name>
-  <description>The Aggregation POM of all the J8Unit Projects.</description>
+  <name>J8Unit Project :: Aggregation POM</name>
+  <description>The Aggregation POM of the J8Unit Projects.</description>
+  <url>https://github.com/j8unit-team/j8unit</url>
 
-  <profiles>
-    <profile>
-      <!--
-        ~ This default profile specifies everything we want to be build/tested by whatever continuous integration tool.
-        ~ Thus, it is activated by default intentionally.
-        ~
-        ~ Note:
-        ~  > [...] This profile will automatically be active for all builds unless another profile in the same POM is <
-        ~  > activated using one of the previously described methods. All profiles that are active by default are     <
-        ~  > automatically deactivated when a profile in the POM is activated on the command line or through its      <
-        ~  > activation config. [...]                                                                                 <
-        ~
-        ~ Further information can be found here:
-        ~ + maven.apache.org/guides/introduction/introduction-to-profiles.html#Details_on_profile_activation
-        ~ + http://greyfocus.com/2015/06/activebydefault-maven-other-profiles/
-      -->
-      <id>continuous-integration</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <modules>
-        <module>./parent</module>
-        <module>./core</module>
-        <module>./repository</module>
-        <module>./showcases</module>
-        <module>./spring</module>
-        <module>./tools</module>
-      </modules>
-    </profile>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-    <profile>
-      <!--
-        ~ Up to now, the next release into OSSRH will contain the latest J8Unit Core and the J8Unit Repository.
-        ~
-        ~ TODO: Further, the Spring Framework has been updated; thus, we should release according updates of the J8Unit
-        ~ Spring project too.
-      -->
-      <id>ossrh</id>
-      <modules>
-        <module>./parent</module>
-        <module>./core</module>
-        <module>./repository</module>
-      </modules>
-    </profile>
+  <developers>
+    <developer>
+      <id>SGA</id>
+      <name>Stefan Gasterstädt</name>
+      <email>stefan@gasterstädt.de</email>
+      <url>http://stefan.gasterstädt.de</url>
+    </developer>
+  </developers>
 
-    <profile>
-      <!--
-        ~ The J8Unit JavaDoc (sub-) project (syntax highlighting) has been released as v1.0.0. Immediately afterwards,
-        ~ the next SNAPSHOT version has been prepared; But as long as there is no newer version of the
-        ~ Syntax-Highlighter (by Alex Gorbatchev) or there is no further update (e.g., custom CSS files), there is no
-        ~ need to call this profile any again.
-      -->
-      <id>javadoc</id>
-      <modules>
-        <module>./javadoc</module>
-      </modules>
-    </profile>
-  </profiles>
+  <modules>
+    <!-- Project Meta-Data -->
+    <module>parent-pom</module>
+    <!-- Core -->
+    <module>core</module>
+    <!-- Showcases -->
+    <module>showcases/lazy-assert-messages</module>
+    <!-- 3rd-Party Extensions -->
+    <module>cucumber</module>
+    <module>spring</module>
+    <!-- Repository -->
+    <module>repository</module>
+    <!-- Code Generator -->
+    <module>generator</module>
+    <module>j8unit-maven-plugin</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.0.0-M1</version>
+        <executions>
+          <execution>
+            <id>enforce-aggregation-usage</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <phase>validate</phase>
+            <configuration>
+              <!-- Fail intentionally ... -->
+              <fail>true</fail>
+              <rules>
+                <evaluateBeanshell>
+                  <!-- ... by evaluating to 'false' ... -->
+                  <condition>false</condition>
+                  <!-- ... and telling about the reason! -->
+                  <message>
+                    This specific POM file is intended to be used as an aggregation POM only and it shall not be installed nor deployed!
+                    Instead, it lists all modules enabling dependent builds.
+                    In result, you must name the specific reactor project(s) to be build.
+                    For example, call 'mvn --projects parent-pom --also-make-dependents clean verify' to build the J8Unit's parent POM plus all dependend modules.
+                  </message>
+                </evaluateBeanshell>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

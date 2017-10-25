@@ -2,6 +2,7 @@ package org.j8unit.util;
 
 import static java.lang.reflect.Modifier.isPrivate;
 import static java.lang.reflect.Modifier.isStatic;
+import static java.security.AccessController.doPrivileged;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
@@ -11,7 +12,7 @@ import static org.j8unit.util.Reflection.allTypesOf;
 import static org.j8unit.util.Reflection.getClassHierarchy;
 import static org.j8unit.util.Reflection.getInterfaceHierarchy;
 import static org.j8unit.util.Reflection.getTypeHierarchy;
-import static org.j8unit.util.Reflection.isAssignableFrom;
+import static org.j8unit.util.Reflection.isOverriddenBy;
 import static org.j8unit.util.Reflection.redundantTypes;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -21,8 +22,12 @@ import java.io.Closeable;
 import java.io.FilterInputStream;
 import java.io.InputStream;
 import java.io.Serializable;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.net.Inet4Address;
+import java.security.PrivilegedAction;
 import java.text.StringCharacterIterator;
 import java.util.AbstractCollection;
 import java.util.AbstractMap;
@@ -45,9 +50,30 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.model.TestClass;
+import org.j8unit.util.helper.EmptyClass;
+import org.j8unit.util.helper.UtilityContainerTest;
 
 public class ReflectionTests
 extends EmptyClass {
+
+    @Test
+    public void testUtilityContainerCharacteristics()
+    throws Exception {
+        UtilityContainerTest.testUtilityContainerCharacteristics(Reflection.class);
+    }
+
+    @Test
+    public void verifyAllModesFieldHasSimilarValue()
+    throws Exception {
+        final int reflectionAllModes = Reflection.ALL_MODES;
+        final Field field = Lookup.class.getDeclaredField("ALL_MODES");
+        doPrivileged((PrivilegedAction<Void>) () -> {
+            field.setAccessible(true);
+            return null;
+        });
+        final int looupAllModes = field.getInt(null);
+        assertEquals(looupAllModes, reflectionAllModes);
+    }
 
     @Test
     public void testClassForNameSucceeds()
@@ -342,29 +368,91 @@ extends EmptyClass {
     }
 
     /*
-     * Method equality:
+     * Method assignability:
+     *
+     * TODO: Test super-instance-method vs. sub-static-method, and vice-versa.
      */
 
     @Test
-    public void testMethodAssignabilityForAbstractMethodWithMoreSpecificReturnType()
+    public void testMethodAssignabilityForSpecificOverriddenAbstractMethod()
     throws Exception {
-        final Method base = Foo.class.getMethod("foo", new Class<?>[] { Number.class });
-        final Method sub = Bar.class.getMethod("foo", new Class<?>[] { Number.class });
-        assertTrue(isAssignableFrom(base, base));
-        assertTrue(isAssignableFrom(base, sub));
-        assertTrue(isAssignableFrom(sub, sub));
-        assertFalse(isAssignableFrom(sub, base));
+        assertOverriddenMethod("someAbstractMethodThatShallBeOverridden");
     }
 
     @Test
     public void testMethodAssignabilityForSpecificOverriddenMethod()
     throws Exception {
-        final Method base = Foo.class.getDeclaredMethod("sayYourName");
-        final Method sub = Bar.class.getMethod("sayYourName");
-        assertTrue(isAssignableFrom(base, base));
-        assertTrue(isAssignableFrom(base, sub));
-        assertTrue(isAssignableFrom(sub, sub));
-        assertFalse(isAssignableFrom(sub, base));
+        assertOverriddenMethod("someProtectedMethodThatShallBeOverridden");
+    }
+
+    /**
+     * TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'
+     */
+    @Ignore("TODO: Make #isOverriddenBy(...) fully compatible to JLS 8, Sec. 8.4.8.1. 'Overriding (by Instance Methods)'")
+    @Test
+    public void testMethod_Private()
+    throws Exception {
+        assertNotOverriddenMethod("somePrivateMethodThatShallBeRedefined");
+    }
+
+    @Test
+    public void testMethodAssignabilityForSpecificHiddenMethod()
+    throws Exception {
+        assertNotOverriddenMethod("someStaticMethodThatShallBeHidden");
+    }
+
+    @Test
+    public void testMethod_XXX()
+    throws Exception {
+        assertOverriddenMethod("someMethodThatShallBeRedefinedWithCovariantReturnType");
+    }
+
+    @Test
+    public void testMethod_YYY()
+    throws Exception {
+        assertNotOverriddenMethod("someMethodThatShallBeRedefinedWithContravariantParameterType", Integer.class, Number.class);
+    }
+
+    @Test
+    public void testMethod_ZZZ()
+    throws Exception {
+        assertNotOverriddenMethod("someMethodThatShallBeRedefinedWithCovariantReturnTypeAndContravariantParameterType", Integer.class, Number.class);
+    }
+
+    @Test
+    public void testMethod_AAA()
+    throws Exception {
+        assertNotOverriddenMethod("someMethodThatRedefinedWithDifferentParameterType", String.class, Inet4Address.class);
+    }
+
+    private static void assertOverriddenMethod(final String name)
+    throws Exception {
+        final Method base = Foo.class.getDeclaredMethod(name);
+        final Method sub = Bar.class.getDeclaredMethod(name);
+        assertTrue(isOverriddenBy(base, base));
+        assertTrue(isOverriddenBy(base, sub));
+        assertTrue(isOverriddenBy(sub, sub));
+        assertFalse(isOverriddenBy(sub, base));
+    }
+
+    private static void assertNotOverriddenMethod(final String name)
+    throws Exception {
+        final Method base = Foo.class.getDeclaredMethod(name);
+        final Method sub = Bar.class.getDeclaredMethod(name);
+        assertTrue(isOverriddenBy(base, base));
+        assertFalse(isOverriddenBy(base, sub));
+        assertTrue(isOverriddenBy(sub, sub));
+        assertFalse(isOverriddenBy(sub, base));
+    }
+
+    private static void assertNotOverriddenMethod(final String name, final Class<?> basePT, final Class<?> oPT)
+    throws Exception {
+        final Method base = Foo.class.getDeclaredMethod(name, basePT);
+        final Method sub = Bar.class.getDeclaredMethod(name, oPT);
+        assertTrue(isOverriddenBy(base, base));
+        assertFalse(isOverriddenBy(base, sub));
+        assertTrue(isOverriddenBy(sub, sub));
+        assertFalse(isOverriddenBy(sub, base));
     }
 
     /*

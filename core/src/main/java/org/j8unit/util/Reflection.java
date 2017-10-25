@@ -9,6 +9,7 @@ import static java.lang.invoke.MethodHandles.Lookup.PUBLIC;
 import static java.lang.reflect.Modifier.isAbstract;
 import static java.lang.reflect.Modifier.isFinal;
 import static java.lang.reflect.Modifier.isPrivate;
+import static java.lang.reflect.Modifier.isStatic;
 import static java.security.AccessController.doPrivileged;
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toCollection;
@@ -20,11 +21,13 @@ import java.lang.invoke.MethodHandles.Lookup;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 import java.security.PrivilegedAction;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.BiPredicate;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
@@ -309,29 +312,49 @@ public enum Reflection {
     }
 
     /**
-     * Returns {@code true} if the given base method is either equal to the second method or is overridden by the second
-     * method.
+     * Returns {@code true} if the given base method is either {@linkplain Method#equals(Object) equal to the second
+     * method} or is overridden by the second method. Note, an overridden method in Java is defined by (a) second method
+     * declaration (b) within a subclass and (c) the same signature. This definition does neither include method hiding
+     * nor method overloading (even if the parameters have contravariant types).
+     *
+     * @implSepc According to the Java's definition of overridden methods, the following checks are performed:
+     *           <ul>
+     *           <li>both methods must be instance methods</li>
+     *           <li>both methods are defined within super-class/sub-class hierarchy</li>
+     *           <li>both methods have equal names</li>
+     *           <li>both methods have equal parameter types</li>
+     *           </ul>
+     * @implSpec The equality (resp. covariance) of the return types is irrelevant and, thus, not checked.
+     *
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.2">The Java® Language
+     *      Specification, Java SE 8 Edition :: Method Signature</a>
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.8">The Java® Language
+     *      Specification, Java SE 8 Edition :: Inheritance, Overriding, and Hiding</a>
+     * @see <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.4.9">The Java® Language
+     *      Specification, Java SE 8 Edition :: Overloading</a>
+     * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/index.html">Classes and Objects</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html">Defining Methods</a> (method
+     *      signature, method overloading)
+     * @see <a href="https://docs.oracle.com/javase/tutorial/index.html">The Java™ Tutorials</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/index.html">Learning the Java Language</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/index.html">Interfaces and Inheritance</a> →
+     *      <a href="https://docs.oracle.com/javase/tutorial/java/IandI/override.html">Overriding and Hiding Methods</a>
+     *      (method overriding, method hiding, inheritance rules)
+     * @see Override
      *
      * @param baseMethod
-     *            the base method to use for calculation
+     *            the base method
      * @param overridingMethod
-     *            the (potentially overriding) method to use for calculation
-     * @return {@code true} iff both methods represent similar behaviour
+     *            the (potentially) overriding method
+     * @return {@code true} iff the given base method is either equal to or is overridden by the second method
      */
-    public static final boolean isAssignableFrom(final Method baseMethod, final Method overridingMethod) {
-        if (baseMethod.equals(overridingMethod)) {
-            return true;
-        }
-        if (baseMethod.getDeclaringClass().isAssignableFrom(overridingMethod.getDeclaringClass())) {
-            if (baseMethod.getName().equals(overridingMethod.getName())) {
-                if (Arrays.equals(baseMethod.getParameterTypes(), overridingMethod.getParameterTypes())) {
-                    if (baseMethod.getReturnType().isAssignableFrom(overridingMethod.getReturnType())) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
+    public static final boolean isOverriddenBy(final Method baseMethod, final Method overridingMethod) {
+        return (baseMethod.equals(overridingMethod)) || ((!isStatic(baseMethod.getModifiers()) && !isStatic(overridingMethod.getModifiers()))
+                                                         && baseMethod.getDeclaringClass().isAssignableFrom(overridingMethod.getDeclaringClass())
+                                                         && baseMethod.getName().equals(overridingMethod.getName())
+                                                         && Arrays.equals(baseMethod.getParameterTypes(), overridingMethod.getParameterTypes()));
     }
 
     /**
@@ -342,23 +365,22 @@ public enum Reflection {
      * @return a subset of the given set of types containing all redundant types
      */
     public static final Set<Class<?>> redundantTypes(final Set<Class<?>> types) {
-        return types.stream()
-                    .filter(candidate -> types.stream()
-                                              // A {@code candidate} type is redundant in relation to a {@code
-                                              // reference} type if (a) it is assignable from that {@code reference} and
-                                              // (b) it is not equal to that {@code reference}. Further, (c) {@link
-                                              // Object} is not redundant if the {@code reference} is an {@code
-                                              // interface}.
-                                              .anyMatch(reference -> candidate.isAssignableFrom(reference) //
-                                                                     && !candidate.equals(reference) //
-                                                                     && !(candidate.equals(Object.class) && reference.isInterface())))
-                    .collect(toSet());
+        // A candidate type {@code c} is redundant in relation to a reference type {@code r} if (a) it is assignable
+        // from that reference type and (b) it is not equal to that reference type. Further, (c) {@link Object} is not
+        // redundant if the {@code reference} is an {@code interface}.
+        final BiPredicate<Class<?>, Class<?>> IS_REDUNDANT = (c, r) -> c.isAssignableFrom(r) //
+                                                                       && !c.equals(r) //
+                                                                       && !(c.equals(Object.class) && r.isInterface());
+        // A candidate type {@code c} is redundant in relation to a set of reference types {@code rs} if it matches the
+        // {@code IS_REDUNDANT} relation to any of the reference types.
+        final BiPredicate<Class<?>, Set<Class<?>>> IS_REDUNDANTS = (c, rs) -> rs.stream().anyMatch(r -> IS_REDUNDANT.test(c, r));
+        return types.stream().filter(candidate -> IS_REDUNDANTS.test(candidate, types)).collect(toSet());
     }
 
     /**
-     * Similar to {@link Lookup#ALL_MODES}, which is {@code private} only -- for whatever reason.
+     * Similar to {@link Lookup#ALL_MODES} (which is {@code private} only -- for whatever reason).
      */
-    private static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
+    public static final int ALL_MODES = (PUBLIC | PROTECTED | PACKAGE | PRIVATE);
 
     /**
      * If there is a security manager, this method requires {@code suppressAccessChecks} permission to execute without
@@ -366,7 +388,7 @@ public enum Reflection {
      */
     public static final Lookup vicariousLookup(final Class<?> reference, final int... requiredAccesses)
     throws SecurityException {
-        // either (1) use default access or (2) join access modes and remove illegal integer bits
+        // either (1) use default access or (2) join access modes (bitwise "|") and remove illegal integer bits (bitwise "&" with "ALL_MODES")
         final int requiredAccess = requiredAccesses.length == 0 ? ALL_MODES : stream(requiredAccesses).reduce(0, (x, y) -> x | y) & ALL_MODES;
         final Lookup lookup = lookup().in(reference);
         if ((lookup.lookupModes() & requiredAccess) == requiredAccess) {
@@ -383,41 +405,39 @@ public enum Reflection {
                 field.setInt(lookup, lookup.lookupModes() | requiredAccess);
                 return lookup;
             } catch (final NoSuchFieldException missing) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
+                throw new AssertionError("Java has been refactored and, now, the invoked field 'allowedModes' is missing!", missing);
             } catch (final IllegalAccessException inaccessible) {
-                throw new RuntimeException("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
+                throw new AssertionError("Java has been refactored and, now, the invoked field 'allowedModes' is inaccessible!", inaccessible);
             }
         }
     }
 
+    /*
+     * The next part is about reflectional invocation of methods (and creating dynamic proxies). Some websites
+     * describing these topic(s) briefly are:
+     *   - https://zeroturnaround.com/rebellabs/recognize-and-conquer-java-proxies-default-methods-and-method-handles/
+     *   - https://opencredo.com/dynamic-proxies-java-part-2/
+     */
+
     /**
      * Returns an {@link InvocationHandler} that immediately returns the given {@code result} object. In case of an
-     * invoked {@code void} method, the invocation handler will throw a {@link ClassCastException}. Such exception is
-     * thrown similarly if the {@code result} object is not an instance of the invoked method's return type.
+     * invoked {@code void} method, the invocation handler will throw a {@link ClassCastException} unless the return
+     * value is {@code null}. Such exception is thrown similarly if the {@code result} object is not an instance of the
+     * invoked method's return type.
      *
      * @param result
      *            the result object
      * @return the invocation handler with a constant return behaviour
      */
     public static final InvocationHandler constantResult(final Object result) {
-        final String NOT_SUITABLE = "This InvocationHandler is not suitable for invoked 'void' method '%s'!";
+        final String NOT_CASTABLE = "%s cannot be cast to %s";
         final String NOT_INSTANCE = "Supplied object of type '%s' is not an instance of invoked method's return type '%s'!";
         return (proxy, method, args) -> {
-            final Class<?> returnType = method.getReturnType();
-            if (Void.TYPE.equals(returnType)) {
-                // TODO: Do we need the type check barrier? Void methods do not harm (see: {@link
-                // InvocationTests#void_return_type_ignores_handler_result()}
-                throw new ClassCastException(format(NOT_SUITABLE, method));
-            } else {
-                if ((result == null) || returnType.isInstance(result)) {
-                    return result;
-                } else {
-                    // TODO: Do we need this type check barrier? A ClassCastException will be thrown in any case (see:
-                    // {@link
-                    // InvocationTests#wrong_return_type_causes_implicit_ClassCastException_even_without_return_value_assignment()}
-                    throw new ClassCastException(format(NOT_INSTANCE, result.getClass(), returnType));
-                }
+            if ((result != null) && !void.class.equals(method.getReturnType()) && !method.getReturnType().isInstance(result)) {
+                throw new ClassCastException(format(NOT_CASTABLE, result.getClass().getName(), method.getReturnType().getName())). //
+                initCause(new ClassCastException(format(NOT_INSTANCE, result.getClass(), method.getReturnType())));
             }
+            return result;
         };
     }
 
@@ -438,13 +458,13 @@ public enum Reflection {
      * @return the wrapping invocation handler
      */
     public static final InvocationHandler dispatch(final Method target, final InvocationHandler handler, final InvocationHandler fallback) {
-        return (proxy, current, args) -> (isAssignableFrom(target, current) ? handler : fallback).invoke(proxy, current, args);
+        return (proxy, current, args) -> (isOverriddenBy(target, current) ? handler : fallback).invoke(proxy, current, args);
     }
 
     /**
      * Flag to indicate to skip the invocation of {@code abstract} methods.
      *
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
@@ -467,7 +487,7 @@ public enum Reflection {
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
      * @see #trySuperTypesFirst(InvocationHandler, boolean)
      */
-    public static final boolean ENFORCE_INVOCATION = true;
+    public static final boolean ENFORCE_ABSTRACT = true;
 
     private static final Object trySuperTypeInvocation(final Object proxy, final Method method, final Object[] args, final Iterable<Class<?>> superTypes,
                                                        final boolean invokeAbstract, final InvocationHandler fallback)
@@ -514,7 +534,7 @@ public enum Reflection {
      *
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see Reflection#trySuperTypesFirst(InvocationHandler, boolean)
      * @see Reflection#trySuperInterfacesFirst(InvocationHandler, boolean)
@@ -547,7 +567,7 @@ public enum Reflection {
      * </pre>
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperTypesFirst(InvocationHandler, boolean)
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
@@ -571,7 +591,7 @@ public enum Reflection {
      * non-{@code abstract} implementation of its super types (either super classes or super interfaces).
      *
      * @see #SKIP_ABSTRACT
-     * @see #ENFORCE_INVOCATION
+     * @see #ENFORCE_ABSTRACT
      *
      * @see #trySuperClassesFirst(InvocationHandler, boolean)
      * @see #trySuperInterfacesFirst(InvocationHandler, boolean)
@@ -598,10 +618,54 @@ public enum Reflection {
     public static final InvocationHandler fail(final Function<? super String, ? extends Throwable> constructor) {
         final String FAIL_PATTERN = "Missing invocation behaviour for instance of type '%s', method '%s', and arguments '%s'!";
         return (proxy, method, args) -> {
-            // Do not call any other method of {@code proxy} instead of {@link Object#getClass()}! (Especially, do not
-            // call {@link Object#toString()}!) It most likely will end up in an endless recursion of this method.
+            // Do not (!) call any other method of {@code proxy} instead of {@link Object#getClass()}! (Especially, do
+            // not call {@link Object#toString()}!) It most likely will end up in an endless recursion of this method.
             throw constructor.apply(format(FAIL_PATTERN, proxy.getClass(), method, Arrays.toString(args)));
         };
+    }
+
+    /**
+     * In case there is only one interface to use for creating a new runtime proxy (see
+     * {@link Proxy#newProxyInstance(ClassLoader, Class[], InvocationHandler)}, this method shortens the usage.
+     *
+     * @implSpec Calling this method:
+     *
+     *           <pre>
+     * <code brush="java">
+     * MyInterface proxy = Reflection.newProxyInstance(loader, MyInterface.class, handler);
+     * </code>
+     *           </pre>
+     *
+     *           is equal to calling:
+     *
+     *           <pre>
+     * <code brush="java">
+     * MyInterface proxy = (MyInterface) Proxy.newProxyInstance(loader, new Class<?>[] { MyInterface.class }, handler)
+     * </code>
+     *           </pre>
+     *
+     * @param <I>
+     *            the type of the interface
+     * @param loader
+     *            the class loader to define the proxy class
+     * @param interfaze
+     *            the interface for the proxy class to implement
+     * @param handler
+     *            the invocation handler to dispatch method invocations to
+     * @return a proxy instance with the specified invocation handler of a proxy class that is defined by the specified
+     *         class loader and that implements the specified interface
+     * @throws IllegalArgumentException
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     * @throws SecurityException
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     * @throws NullPointerException
+     *             see {@link Proxy#newProxyInstance(ClassLoader, Class, InvocationHandler)}
+     */
+    public static <I> I newProxyInstance(final ClassLoader loader, final Class<I> interfaze, final InvocationHandler handler)
+    throws IllegalArgumentException, SecurityException, NullPointerException {
+        final Object proxy = Proxy.newProxyInstance(loader, new Class<?>[] { interfaze }, handler);
+        assert interfaze.isInstance(proxy);
+        return (I) proxy;
     }
 
 }

@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.j8unit</groupId>
+  <artifactId>lazy-assert-messages</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>J8Unit Project :: Lazy Assert Messages Showcase</name>
+
+  <properties>
+    <version.java>1.8</version.java>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.2</version>
+        <configuration>
+          <source>${version.java}</source>
+          <target>${version.java}</target>
+          <testSource>${version.java}</testSource>
+          <testTarget>${version.java}</testTarget>
+          <encoding>${project.build.sourceEncoding}</encoding>
+          <failOnError>true</failOnError>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+          <optimize>true</optimize>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.j8unit</groupId>
+      <artifactId>core</artifactId>
+      <version>4.12.2-SNAPSHOT</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>

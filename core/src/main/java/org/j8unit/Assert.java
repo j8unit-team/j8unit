@@ -1,13 +1,15 @@
 package org.j8unit;
 
+import static java.lang.Math.abs;
+import static java.util.Optional.ofNullable;
 import java.util.Objects;
 import java.util.function.Supplier;
 import org.hamcrest.Matcher;
-import org.junit.SupplierBasedAssert;
+import org.junit.ComparisonFailure;
 
 /**
  * <p>
- * In addition to the assertion methods of {@link Assert}, this extensions allows the use of supplied fail
+ * In addition to the assertion methods of {@link org.junit.Assert}, this extensions allows the use of supplied fail
  * messages&nbsp;&ndash; either via {@link CharSequence} {@code interface} or via {@link Supplier} API. In both cases it
  * is possible to defer the message creation until required (or even skip creation unless necessary).
  * </p>
@@ -26,26 +28,26 @@ import org.junit.SupplierBasedAssert;
  *
  * public class MyTest {
  *
- *     private String someExpensiveMessageCreation() {
+ *     private static String someExpensiveMessageCreation() {
  *         // do some very expensive message creation; for example:
- *         //   (1) calculate string representation of long array,
- *         //   (2) calculate string representation of deeply nested object,
- *         //   (3) query message from remote database,
- *         //   (4) ...
+ *         // (1) calculate string representation of long array,
+ *         // (2) calculate string representation of deeply nested object,
+ *         // (3) query message from remote database,
+ *         // (4) ...
  *     }
  *
  *     &#64;Test
  *     public void someTest_1()
  *     throws Exception {
  *         // ...
- *         assertNotNull(() -> someExpensiveMessageCreation(), expected, actual);
+ *         assertNotNull(() -> someExpensiveMessageCreation(), actual);
  *     }
  *
  *     &#64;Test
  *     public void someTest_2()
  *     throws Exception {
  *         // ...
- *         assertNotNull(MyTest::someExpensiveMessageCreation(), expected, actual);
+ *         assertNotNull(MyTest::someExpensiveMessageCreation, actual);
  *     }
  *
  * }
@@ -58,12 +60,13 @@ import org.junit.SupplierBasedAssert;
  * <pre class="brush:java">
  * import static mypackage.FailMessages.*;
  * import static org.j8unit.Assert.*;
+ * import static org.j8unit.util.Assert.ToStringBasedCharSequence;
  * import org.junit.Test;
  *
  * public class MyTest {
  *
  *     static enum FailMessages
- *     implements StringBasedCharSequence {
+ *     implements ToStringBasedCharSequence {
  *         NULL("illegal null string"),
  *         LENGTH("string has illegal length"),
  *         INVALID("malformed java identifier string"),
@@ -102,22 +105,23 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#fail(String)}, but uses a {@link CharSequence}-based fail message.
+     * Similar to {@link org.junit.Assert#fail(String)}, but uses a {@link CharSequence}-based fail message.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
      * @throws AssertionError
      *             always
      */
-    public static final void fail(final CharSequence message) {
+    public static final void fail(final CharSequence message)
+    throws AssertionError {
         fail(supply(message));
     }
 
     /**
-     * Similar to {@link Assert#assertTrue(String, boolean)}, but uses a {@link CharSequence}-based fail message which
-     * is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertTrue(String, boolean)}, but uses a {@link CharSequence}-based fail
+     * message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If
+     * the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus,
+     * the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -126,15 +130,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertTrue(final CharSequence message, final boolean condition) {
-        SupplierBasedAssert.assertTrue(supply(message), condition);
+    public static final void assertTrue(final CharSequence message, final boolean condition)
+    throws AssertionError {
+        assertTrue(supply(message), condition);
     }
 
     /**
-     * Similar to {@link Assert#assertFalse(String, boolean)}, but uses a {@link CharSequence}-based fail message which
-     * is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertFalse(String, boolean)}, but uses a {@link CharSequence}-based fail
+     * message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If
+     * the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus,
+     * the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -143,15 +148,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertFalse(final CharSequence message, final boolean condition) {
-        SupplierBasedAssert.assertFalse(supply(message), condition);
+    public static final void assertFalse(final CharSequence message, final boolean condition)
+    throws AssertionError {
+        assertFalse(supply(message), condition);
     }
 
     /**
-     * Similar to {@link Assert#assertNull(String, Object)}, but uses a {@link CharSequence}-based fail message which is
-     * {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNull(String, Object)}, but uses a {@link CharSequence}-based fail
+     * message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If
+     * the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus,
+     * the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -160,15 +166,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNull(final CharSequence message, final Object object) {
-        SupplierBasedAssert.assertNull(supply(message), object);
+    public static final void assertNull(final CharSequence message, final Object object)
+    throws AssertionError {
+        assertNull(supply(message), object);
     }
 
     /**
-     * Similar to {@link Assert#assertNotNull(String, Object)}, but uses a {@link CharSequence}-based fail message which
-     * is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotNull(String, Object)}, but uses a {@link CharSequence}-based fail
+     * message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If
+     * the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus,
+     * the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -177,15 +184,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotNull(final CharSequence message, final Object object) {
-        SupplierBasedAssert.assertNotNull(supply(message), object);
+    public static final void assertNotNull(final CharSequence message, final Object object)
+    throws AssertionError {
+        assertNotNull(supply(message), object);
     }
 
     /**
-     * Similar to {@link Assert#assertSame(String, Object, Object)}, but uses a {@link CharSequence}-based fail message
-     * which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertSame(String, Object, Object)}, but uses a {@link CharSequence}-based
+     * fail message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other
+     * words: If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed
+     * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -196,13 +204,14 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertSame(final CharSequence message, final Object expected, final Object actual) {
-        SupplierBasedAssert.assertSame(supply(message), expected, actual);
+    public static final void assertSame(final CharSequence message, final Object expected, final Object actual)
+    throws AssertionError {
+        assertSame(supply(message), expected, actual);
     }
 
     /**
-     * Similar to {@link Assert#assertNotSame(String, Object, Object)}, but uses a {@link CharSequence}-based fail
-     * message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
+     * Similar to {@link org.junit.Assert#assertNotSame(String, Object, Object)}, but uses a {@link CharSequence}-based
+     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
      * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
      * the message parameter do not incur unless really necessary.)
      *
@@ -215,8 +224,9 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotSame(final CharSequence message, final Object unexpected, final Object actual) {
-        SupplierBasedAssert.assertNotSame(supply(message), unexpected, actual);
+    public static final void assertNotSame(final CharSequence message, final Object unexpected, final Object actual)
+    throws AssertionError {
+        assertNotSame(supply(message), unexpected, actual);
     }
 
     /**
@@ -234,7 +244,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final double expected, final double actual) {
+    public static final void assertEquals(final CharSequence message, final double expected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -254,15 +265,16 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual) {
+    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, double, double, double)}, but uses a {@link CharSequence}-based
-     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
-     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
-     * the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, double, double, double)}, but uses a
+     * {@link CharSequence}-based fail message which is requested if and only if the assertion fails. (In other words:
+     * If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -276,15 +288,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final double expected, final double actual, final double delta) {
-        SupplierBasedAssert.assertEquals(supply(message), expected, actual, delta);
+    public static final void assertEquals(final CharSequence message, final double expected, final double actual, final double delta)
+    throws AssertionError {
+        assertEquals(supply(message), expected, actual, delta);
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, double, double, double)}, but uses a {@link CharSequence}-based
-     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
-     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
-     * the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, double, double, double)}, but uses a
+     * {@link CharSequence}-based fail message which is requested if and only if the assertion fails. (In other words:
+     * If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -298,8 +311,9 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual, final double delta) {
-        SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual, delta);
+    public static final void assertNotEquals(final CharSequence message, final double unexpected, final double actual, final double delta)
+    throws AssertionError {
+        assertNotEquals(supply(message), unexpected, actual, delta);
     }
 
     /**
@@ -317,7 +331,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final float expected, final float actual) {
+    public static final void assertEquals(final CharSequence message, final float expected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -336,15 +351,16 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual) {
+    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, float, float, float)}, but uses a {@link CharSequence}-based fail
-     * message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
-     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
-     * the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, float, float, float)}, but uses a
+     * {@link CharSequence}-based fail message which is requested if and only if the assertion fails. (In other words:
+     * If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -358,15 +374,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final float expected, final float actual, final float delta) {
-        SupplierBasedAssert.assertEquals(supply(message), expected, actual, delta);
+    public static final void assertEquals(final CharSequence message, final float expected, final float actual, final float delta)
+    throws AssertionError {
+        assertEquals(supply(message), expected, actual, delta);
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, float, float, float)}, but uses a {@link CharSequence}-based
-     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
-     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
-     * the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, float, float, float)}, but uses a
+     * {@link CharSequence}-based fail message which is requested if and only if the assertion fails. (In other words:
+     * If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -380,15 +397,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual, final float delta) {
-        SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual, delta);
+    public static final void assertNotEquals(final CharSequence message, final float unexpected, final float actual, final float delta)
+    throws AssertionError {
+        assertNotEquals(supply(message), unexpected, actual, delta);
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, long, long)}, but uses a {@link CharSequence}-based fail message
-     * which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If the
-     * {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, long, long)}, but uses a {@link CharSequence}-based fail
+     * message which is {@linkplain Object#toString() resolved} if and only if the assertion fails. (In other words: If
+     * the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and, thus,
+     * the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -399,15 +417,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final long expected, final long actual) {
-        SupplierBasedAssert.assertEquals(supply(message), expected, actual);
+    public static final void assertEquals(final CharSequence message, final long expected, final long actual)
+    throws AssertionError {
+        assertEquals(supply(message), expected, actual);
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, long, long)}, but uses a {@link CharSequence}-based fail message
-     * which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence} instance is
-     * initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing the message
-     * parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, long, long)}, but uses a {@link CharSequence}-based
+     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
+     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
+     * the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -418,13 +437,14 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final long unexpected, final long actual) {
-        SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual);
+    public static final void assertNotEquals(final CharSequence message, final long unexpected, final long actual)
+    throws AssertionError {
+        assertNotEquals(supply(message), unexpected, actual);
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, Object, Object)}, but uses a {@link CharSequence}-based fail
-     * message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
+     * Similar to {@link org.junit.Assert#assertEquals(String, Object, Object)}, but uses a {@link CharSequence}-based
+     * fail message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
      * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
      * the message parameter do not incur unless really necessary.)
      *
@@ -437,15 +457,16 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final CharSequence message, final Object expected, final Object actual) {
-        SupplierBasedAssert.assertEquals(supply(message), expected, actual);
+    public static final void assertEquals(final CharSequence message, final Object expected, final Object actual)
+    throws AssertionError {
+        assertEquals(supply(message), expected, actual);
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, Object, Object)}, but uses a {@link CharSequence}-based fail
-     * message which is requested if and only if the assertion fails. (In other words: If the {@code CharSequence}
-     * instance is initiated lazily, the message creation is deferred until needed and, thus, the costs of constructing
-     * the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, Object, Object)}, but uses a
+     * {@link CharSequence}-based fail message which is requested if and only if the assertion fails. (In other words:
+     * If the {@code CharSequence} instance is initiated lazily, the message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -456,8 +477,9 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final CharSequence message, final Object unexpected, final Object actual) {
-        SupplierBasedAssert.assertNotEquals(supply(message), unexpected, actual);
+    public static final void assertNotEquals(final CharSequence message, final Object unexpected, final Object actual)
+    throws AssertionError {
+        assertNotEquals(supply(message), unexpected, actual);
     }
 
     /**
@@ -475,14 +497,15 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
     @Deprecated
-    public static final void assertEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals) {
-        SupplierBasedAssert.assertEquals(supply(message), expecteds, actuals);
+    public static final void assertEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals)
+    throws AssertionError {
+        assertEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a {@link CharSequence}-based
-     * fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -496,13 +519,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, byte[], byte[])}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, byte[], byte[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -516,13 +539,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, char[], char[])}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, char[], char[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -536,7 +559,7 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
@@ -561,7 +584,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, double[], double[], double)}, but uses a
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, double[], double[], double)}, but uses a
      * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
      * implementation will defer message creation until really needed.
      *
@@ -579,7 +602,7 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final double[] expecteds, final double[] actuals, final double delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals, delta);
+        assertArrayEquals(supply(message), expecteds, actuals, delta);
     }
 
     /**
@@ -604,7 +627,7 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, float[], float[], float)}, but uses a
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, float[], float[], float)}, but uses a
      * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
      * implementation will defer message creation until really needed.
      *
@@ -622,13 +645,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final float[] expecteds, final float[] actuals, final float delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals, delta);
+        assertArrayEquals(supply(message), expecteds, actuals, delta);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, int[], int[])}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, int[], int[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -642,13 +665,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, long[], long[])}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, long[], long[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -662,13 +685,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, Object[], Object[])}, but uses a {@link CharSequence}-based
-     * fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, Object[], Object[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -682,13 +705,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, short[], short[])}, but uses a {@link CharSequence}-based fail
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
-     * message creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, short[], short[])}, but uses a
+     * {@link CharSequence}-based fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next
+     * implementation will defer message creation until really needed.
      *
      * @param message
      *            the (possibly lazy initiated) fail message ({@code null} will be ignored without any further notice)
@@ -702,12 +725,12 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final CharSequence message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(supply(message), expecteds, actuals);
+        assertArrayEquals(supply(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertThat(String, Object, Matcher)}, but uses a {@link CharSequence}-based reason
-     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * Similar to {@link org.junit.Assert#assertThat(String, Object, Matcher)}, but uses a {@link CharSequence}-based
+     * reason message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
      * message creation until really needed.
      *
      * @see org.hamcrest.CoreMatchers
@@ -729,29 +752,92 @@ extends org.junit.Assert {
     public static final <T> void assertThat(final CharSequence reason, final T actual, final Matcher<? super T> matcher)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertThat(supply(reason), actual, matcher);
+        assertThat(supply(reason), actual, matcher);
     }
 
-    private static final Supplier<String> resolve(final Supplier<? extends CharSequence> supplier) {
-        return (supplier == null) ? null : supply(supplier.get());
+    private static final String resolve(final Supplier<? extends CharSequence> supplier) {
+        return resolve(supplier, null);
+    }
+
+    private static final String resolve(final Supplier<? extends CharSequence> supplier, final String fallback) {
+        return (supplier == null) ? null : Objects.toString(supplier.get(), fallback);
+    }
+
+    // Yes -- consider (think about carefully; use unless null).
+    private static final String consider(final Supplier<? extends CharSequence> message) {
+        return ofNullable(resolve(message)).map(s -> s.concat(" ")).orElse("");
+    }
+
+    // Yes -- contemplate (think intently and at length; use unless empty).
+    private static final String contemplate(final Supplier<? extends CharSequence> message) {
+        return ofNullable(resolve(message)).filter(m -> !m.isEmpty()).map(s -> s.concat(" ")).orElse("");
     }
 
     /**
-     * Similar to {@link Assert#fail(String)}, but uses a supplied fail message.
+     * Similar to {@link org.junit.Assert#fail(String)}, but uses a supplied fail message.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
      * @throws AssertionError
      *             always
      */
-    public static final void fail(final Supplier<? extends CharSequence> message) {
+    public static final void fail(final Supplier<? extends CharSequence> message)
+    throws AssertionError {
         fail(resolve(message));
     }
 
     /**
-     * Similar to {@link Assert#assertTrue(String, boolean)}, but uses a supplied fail message which is requested if and
-     * only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the costs
-     * of constructing the message parameter do not incur unless really necessary.)
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotNull(String, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
+    protected static final void failNotNull(final Supplier<? extends CharSequence> message, final Object actual) {
+        fail(consider(message) + "expected null, but was:<" + actual + ">");
+    }
+
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotSame(String, Object, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
+    protected static final void failNotSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
+        fail(consider(message) + "expected same:<" + expected + "> was not:<" + actual + ">");
+    }
+
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failSame(String)} because of its {@code private}
+     *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
+    protected static final void failSame(final Supplier<? extends CharSequence> message) {
+        fail(consider(message) + "expected not same");
+    }
+
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failNotEquals(String, Object, Object)} because of its
+     *           {@code private} visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
+    protected static final void failNotEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
+        final boolean showPrefix = String.valueOf(expected).equals(String.valueOf(actual));
+        fail(contemplate(message) + "expected:" + prettify(expected, showPrefix) + " but was:" + prettify(actual, showPrefix));
+    }
+
+    /**
+     * Same motivation as {@link Assert#formatClassAndValue(Object, String)}, but different solution.
+     */
+    private static String prettify(final Object value, final boolean showPrefix) {
+        return (showPrefix ? " " + (value == null ? "null" : value.getClass().getName()) : "") + "<" + String.valueOf(value) + ">";
+    }
+
+    /**
+     * @ImplSpec Unfortunately, we cannot reuse {@link Assert#failEquals(String, Object)} because of its {@code private}
+     *           visibility. In lieu thereof, we reimplement this method uncomplainingly.
+     */
+    protected static final void failEquals(final Supplier<? extends CharSequence> message, final Object actual) {
+        fail(resolve(message, "Values should be different") + ". Actual: " + actual);
+    }
+
+    /**
+     * Similar to {@link org.junit.Assert#assertTrue(String, boolean)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -760,14 +846,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertTrue(final Supplier<? extends CharSequence> message, final boolean condition) {
-        SupplierBasedAssert.assertTrue(resolve(message), condition);
+    public static final void assertTrue(final Supplier<? extends CharSequence> message, final boolean condition)
+    throws AssertionError {
+        if (!condition) {
+            fail(message);
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertFalse(String, boolean)}, but uses a supplied fail message which is requested if
-     * and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertFalse(String, boolean)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -776,14 +865,15 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertFalse(final Supplier<? extends CharSequence> message, final boolean condition) {
-        SupplierBasedAssert.assertFalse(resolve(message), condition);
+    public static final void assertFalse(final Supplier<? extends CharSequence> message, final boolean condition)
+    throws AssertionError {
+        assertTrue(message, !condition);
     }
 
     /**
-     * Similar to {@link Assert#assertNull(String, Object)}, but uses a supplied fail message which is requested if and
-     * only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the costs
-     * of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNull(String, Object)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -792,14 +882,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNull(final Supplier<? extends CharSequence> message, final Object object) {
-        SupplierBasedAssert.assertNull(resolve(message), object);
+    public static final void assertNull(final Supplier<? extends CharSequence> message, final Object object)
+    throws AssertionError {
+        if (object != null) {
+            failNotNull(message, object);
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotNull(String, Object)}, but uses a supplied fail message which is requested if
-     * and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotNull(String, Object)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -808,14 +901,15 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotNull(final Supplier<? extends CharSequence> message, final Object object) {
-        SupplierBasedAssert.assertNotNull(resolve(message), object);
+    public static final void assertNotNull(final Supplier<? extends CharSequence> message, final Object object)
+    throws AssertionError {
+        assertTrue(message, object != null);
     }
 
     /**
-     * Similar to {@link Assert#assertSame(String, Object, Object)}, but uses a supplied fail message which is requested
-     * if and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertSame(String, Object, Object)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -826,14 +920,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
-        SupplierBasedAssert.assertSame(resolve(message), expected, actual);
+    public static final void assertSame(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
+    throws AssertionError {
+        if (expected != actual) {
+            failNotSame(message, expected, actual);
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotSame(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotSame(String, Object, Object)}, but uses a supplied fail message which
+     * is requested if and only if the assertion fails. (In other words: The message creation is deferred until needed
+     * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -844,8 +941,11 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotSame(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual) {
-        SupplierBasedAssert.assertNotSame(resolve(message), unexpected, actual);
+    public static final void assertNotSame(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
+    throws AssertionError {
+        if (unexpected == actual) {
+            failSame(message);
+        }
     }
 
     /**
@@ -863,7 +963,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
@@ -883,14 +984,21 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, double, double, double)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, double, double, double)] to compare floating-point numbers!");
     }
 
+    protected static final boolean doubleIsDifferent(final double d1, final double d2, final double delta)
+    throws AssertionError {
+        // must (a) be different with (b) immediate significance
+        return (Double.compare(d1, d2) != 0) && (abs(d1 - d2) > delta);
+    }
+
     /**
-     * Similar to {@link Assert#assertEquals(String, double, double, double)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, double, double, double)}, but uses a supplied fail
+     * message which is requested if and only if the assertion fails. (In other words: The message creation is deferred
+     * until needed and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -904,14 +1012,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual, final double delta) {
-        SupplierBasedAssert.assertEquals(resolve(message), expected, actual, delta);
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final double expected, final double actual, final double delta)
+    throws AssertionError {
+        if (doubleIsDifferent(expected, actual, delta)) {
+            failNotEquals(message, Double.valueOf(expected), Double.valueOf(actual));
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, double, double, double)}, but uses a supplied fail message which
-     * is requested if and only if the assertion fails. (In other words: The message creation is deferred until needed
-     * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, double, double, double)}, but uses a supplied fail
+     * message which is requested if and only if the assertion fails. (In other words: The message creation is deferred
+     * until needed and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -925,8 +1036,11 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual, final double delta) {
-        SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual, delta);
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final double unexpected, final double actual, final double delta)
+    throws AssertionError {
+        if (!doubleIsDifferent(unexpected, actual, delta)) {
+            failEquals(message, Double.valueOf(actual));
+        }
     }
 
     /**
@@ -944,7 +1058,8 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual) {
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
@@ -963,14 +1078,21 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertNotEquals(Supplier, float, float, float)} instead!
      */
     @Deprecated
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual) {
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual)
+    throws AssertionError {
         fail("Abandoned method! Instead, use [assertNotEquals(Supplier, float, float, float)] to compare floating-point numbers!");
     }
 
+    protected static final boolean floatIsDifferent(final float f1, final float f2, final float delta)
+    throws AssertionError {
+        // must (a) be different with (b) immediate significance
+        return (Float.compare(f1, f2) != 0) && (abs(f1 - f2) > delta);
+    }
+
     /**
-     * Similar to {@link Assert#assertEquals(String, float, float, float)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, float, float, float)}, but uses a supplied fail message
+     * which is requested if and only if the assertion fails. (In other words: The message creation is deferred until
+     * needed and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -984,14 +1106,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual, final float delta) {
-        SupplierBasedAssert.assertEquals(resolve(message), expected, actual, delta);
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final float expected, final float actual, final float delta)
+    throws AssertionError {
+        if (floatIsDifferent(expected, actual, delta)) {
+            failNotEquals(message, Float.valueOf(expected), Float.valueOf(actual));
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, float, float, float)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, float, float, float)}, but uses a supplied fail
+     * message which is requested if and only if the assertion fails. (In other words: The message creation is deferred
+     * until needed and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1005,14 +1130,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual, final float delta) {
-        SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual, delta);
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final float unexpected, final float actual, final float delta)
+    throws AssertionError {
+        if (!floatIsDifferent(unexpected, actual, delta)) {
+            failEquals(message, Float.valueOf(actual));
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, long, long)}, but uses a supplied fail message which is requested
-     * if and only if the assertion fails. (In other words: The message creation is deferred until needed and, thus, the
-     * costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, long, long)}, but uses a supplied fail message which is
+     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
+     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1023,14 +1151,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final long expected, final long actual) {
-        SupplierBasedAssert.assertEquals(resolve(message), expected, actual);
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final long expected, final long actual)
+    throws AssertionError {
+        if (expected != actual) {
+            failNotEquals(message, Long.valueOf(expected), Long.valueOf(actual));
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, long, long)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, long, long)}, but uses a supplied fail message which
+     * is requested if and only if the assertion fails. (In other words: The message creation is deferred until needed
+     * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1041,14 +1172,17 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final long unexpected, final long actual) {
-        SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual);
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final long unexpected, final long actual)
+    throws AssertionError {
+        if (unexpected == actual) {
+            failEquals(message, Long.valueOf(actual));
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertEquals(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertEquals(String, Object, Object)}, but uses a supplied fail message which
+     * is requested if and only if the assertion fails. (In other words: The message creation is deferred until needed
+     * and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1059,14 +1193,21 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual) {
-        SupplierBasedAssert.assertEquals(resolve(message), expected, actual);
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object expected, final Object actual)
+    throws AssertionError {
+        if (!Objects.equals(expected, actual)) {
+            if ((expected instanceof String) && (actual instanceof String)) {
+                throw new ComparisonFailure(resolve(message, ""), (String) expected, (String) actual);
+            } else {
+                failNotEquals(message, expected, actual);
+            }
+        }
     }
 
     /**
-     * Similar to {@link Assert#assertNotEquals(String, Object, Object)}, but uses a supplied fail message which is
-     * requested if and only if the assertion fails. (In other words: The message creation is deferred until needed and,
-     * thus, the costs of constructing the message parameter do not incur unless really necessary.)
+     * Similar to {@link org.junit.Assert#assertNotEquals(String, Object, Object)}, but uses a supplied fail message
+     * which is requested if and only if the assertion fails. (In other words: The message creation is deferred until
+     * needed and, thus, the costs of constructing the message parameter do not incur unless really necessary.)
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1077,8 +1218,11 @@ extends org.junit.Assert {
      * @throws AssertionError
      *             iff the assertion fails
      */
-    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual) {
-        SupplierBasedAssert.assertNotEquals(resolve(message), unexpected, actual);
+    public static final void assertNotEquals(final Supplier<? extends CharSequence> message, final Object unexpected, final Object actual)
+    throws AssertionError {
+        if (Objects.equals(unexpected, actual)) {
+            failEquals(message, actual);
+        }
     }
 
     /**
@@ -1096,14 +1240,16 @@ extends org.junit.Assert {
      * @deprecated Use {@link #assertArrayEquals(Supplier, Object[], Object[])} instead!
      */
     @Deprecated
-    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals) {
-        SupplierBasedAssert.assertEquals(resolve(message), expecteds, actuals);
+    public static final void assertEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
+    throws AssertionError {
+        // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
+        assertArrayEquals(message, expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, boolean[], boolean[])}, but uses a supplied fail
+     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1117,13 +1263,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final boolean[] expecteds, final boolean[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, byte[], byte[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, byte[], byte[])}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1137,13 +1283,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final byte[] expecteds, final byte[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, char[], char[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, char[], char[])}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1157,7 +1303,7 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final char[] expecteds, final char[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
@@ -1178,13 +1324,13 @@ extends org.junit.Assert {
     @Deprecated
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final double[] expecteds, final double[] actuals)
     throws AssertionError {
-        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare doubleing-point numbers!");
+        fail("Abandoned method! Instead, use [assertArrayEquals(Supplier, double[], double[], double)] to compare floating-point numbers!");
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, double[], double[], double)}, but uses a supplied fail message
-     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
-     * creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, double[], double[], double)}, but uses a supplied
+     * fail message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1201,7 +1347,7 @@ extends org.junit.Assert {
                                                final double delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     /**
@@ -1226,9 +1372,9 @@ extends org.junit.Assert {
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, float[], float[], float)}, but uses a supplied fail message
-     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
-     * creation until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, float[], float[], float)}, but uses a supplied fail
+     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1245,13 +1391,13 @@ extends org.junit.Assert {
                                                final float delta)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals, delta);
+        assertArrayEquals(resolve(message), expecteds, actuals, delta);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, int[], int[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, int[], int[])}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1265,13 +1411,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final int[] expecteds, final int[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, long[], long[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, long[], long[])}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1285,13 +1431,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final long[] expecteds, final long[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, Object[], Object[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, Object[], Object[])}, but uses a supplied fail
+     * message which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer
+     * message creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1305,13 +1451,13 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final Object[] expecteds, final Object[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertArrayEquals(String, short[], short[])}, but uses a supplied fail message which
-     * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
-     * until really needed.
+     * Similar to {@link org.junit.Assert#assertArrayEquals(String, short[], short[])}, but uses a supplied fail message
+     * which &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message
+     * creation until really needed.
      *
      * @param message
      *            the supplied fail message ({@code null} will be ignored without any further notice)
@@ -1325,11 +1471,11 @@ extends org.junit.Assert {
     public static final void assertArrayEquals(final Supplier<? extends CharSequence> message, final short[] expecteds, final short[] actuals)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertArrayEquals(resolve(message), expecteds, actuals);
+        assertArrayEquals(resolve(message), expecteds, actuals);
     }
 
     /**
-     * Similar to {@link Assert#assertThat(String, Object, Matcher)}, but uses a supplied reason message which
+     * Similar to {@link org.junit.Assert#assertThat(String, Object, Matcher)}, but uses a supplied reason message which
      * &ndash;&nbsp;currently&nbsp;&ndash; is requested immediately. Next implementation will defer message creation
      * until really needed.
      *
@@ -1352,7 +1498,7 @@ extends org.junit.Assert {
     public static final <T> void assertThat(final Supplier<? extends CharSequence> reason, final T actual, final Matcher<? super T> matcher)
     throws AssertionError {
         // TODO (Issue #4): Provide implementation which requests the supplied fail message only if the assertion fails
-        SupplierBasedAssert.assertThat(resolve(reason), actual, matcher);
+        assertThat(resolve(reason), actual, matcher);
     }
 
 }

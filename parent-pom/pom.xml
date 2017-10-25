@@ -1,0 +1,384 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.j8unit</groupId>
+  <artifactId>parent-pom</artifactId>
+  <version>3-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>J8Unit Project :: Parent POM</name>
+  <description>The Parent POM of all the J8Unit Projects.</description>
+  <url>https://github.com/j8unit-team/j8unit/parent-pom</url>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>SGA</id>
+      <name>Stefan Gasterstädt</name>
+      <email>stefan@gasterstädt.de</email>
+      <url>http://stefan.gasterstädt.de</url>
+      <organization>Informaticum</organization>
+      <organizationUrl>http://informaticum.de/</organizationUrl>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git@github.com:j8unit-team/j8unit.git</connection>
+    <developerConnection>scm:git:j8unit-team@github.com:j8unit-team/j8unit.git</developerConnection>
+    <url>https://github.com/j8unit-team/j8unit/</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <properties>
+    <version.java>1.8</version.java>
+    <version.maven>3.3.9</version.maven>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <version.javadoc.syntaxhighlighter>3.0.90</version.javadoc.syntaxhighlighter>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>gpg-signing</id>
+      <activation>
+        <property>
+          <!-- If this property is given, it obviously is intended to be used by the GPG plug-in. Thus, we use its
+               existence to automatically activate that plug-in without the need of any further verbosity (e.g.,
+               specifying a profile). -->
+          <name>gpg.keyname</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <build>
+    <pluginManagement>
+      <!-- Plug-ins are sorted alphabetically (by 'artifactId') for traceability/reproducibility. -->
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.0.0</version>
+          <configuration>
+            <failOnError>true</failOnError>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.6.2</version>
+          <configuration>
+            <source>${version.java}</source>
+            <target>${version.java}</target>
+            <testSource>${version.java}</testSource>
+            <testTarget>${version.java}</testTarget>
+            <encoding>${project.build.sourceEncoding}</encoding>
+            <failOnError>true</failOnError>
+            <showDeprecation>true</showDeprecation>
+            <showWarnings>true</showWarnings>
+            <optimize>true</optimize>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>3.0.1</version>
+          <executions>
+            <execution>
+              <id>analyse-dependencies</id>
+              <goals>
+                <goal>analyze-dep-mgt</goal>
+                <goal>analyze-only</goal>
+              </goals>
+              <phase>verify</phase>
+              <configuration>
+                <failBuild>true</failBuild>
+                <failOnWarning>true</failOnWarning>
+                <verbose>true</verbose>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+          <configuration>
+            <deployAtEnd>true</deployAtEnd>
+            <!--
+             ! In case of a release deployment you definitively should enable the "updateReleaseInfo" parameter in order
+             ! to cause the according metadata update (making the artifact a release version). 
+             !  + http://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#updateReleaseInfo
+             !  + https://support.sonatype.com/hc/en-us/articles/213464638-Why-are-the-latest-and-release-tags-in-maven-metadata-xml-not-being-updated-after-deploying-artifacts-
+             !
+             ! Activation can be done (a) by an additional user-defined profile, (b) by reusing the existing
+             ! "release-profile" of the super-POM, or (c) by setting the parameter via maven execution with
+             ! "-DupdateReleaseInfo=true".
+             !  + http://maven.apache.org/ref/3-LATEST/maven-model-builder/super-pom.html
+             ! Since the same parameter is used by maven-install-plugin too, version (c) should be preferred.
+             !  + http://maven.apache.org/plugins/maven-install-plugin/install-mojo.html#updateReleaseInfo
+             !  + http://maven.apache.org/plugins/maven-install-plugin/examples/update-release-info.html
+             !-->
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>3.0.0-M1</version>
+          <executions>
+            <execution>
+              <id>enforce-requirements-and-conventions</id>
+              <goals>
+                <goal>enforce</goal>
+              </goals>
+              <configuration>
+                <!-- TODO: Check https://maven.apache.org/enforcer/enforcer-rules/index.html for further rules. -->
+                <!-- TODO: Or, take a look at the junit:junit:4.12's POM. They seem to define reasonable basic rules. -->
+                <rules>
+                  <dependencyConvergence />
+                  <!-- https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html -->
+                  <!-- https://maven.apache.org/enforcer/maven-enforcer-plugin/faq.html -->
+                  <requireMavenVersion>
+                    <version>${version.maven}</version>
+                  </requireMavenVersion>
+                </rules>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>2.20</version>
+          <configuration>
+            <includes>
+              <include>**/*IntegrationTest.java</include>
+              <include>**/*Integrationtest.java</include>
+              <include>**/*integrationTest.java</include>
+            </includes>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+          <executions>
+            <execution>
+              <id>sign-artifacts</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>sign</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+          <configuration>
+            <createChecksum>true</createChecksum>
+            <installAtEnd>true</installAtEnd>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+          <configuration>
+            <forceCreation>true</forceCreation>
+            <archive>
+              <manifest>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>3.0.0-M1</version>
+          <executions>
+            <execution>
+              <id>attach-javadocs</id>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <encoding>${project.build.sourceEncoding}</encoding>
+            <docencoding>${project.reporting.outputEncoding}</docencoding>
+            <failOnError>true</failOnError>
+            <level>protected</level>
+            <show>protected</show>
+            <use>true</use>
+            <linksource>true</linksource>
+            <serialwarn>true</serialwarn>
+            <validateLinks>true</validateLinks>
+            <detectLinks>false</detectLinks>
+            <verbose>true</verbose>
+            <detectJavaApiLink>true</detectJavaApiLink>
+            <links>
+              <link>http://junit.org/junit4/javadoc/latest/</link>
+            </links>
+            <!-- http://docs.oracle.com/javase/8/docs/technotes/tools/unix/javadoc.html#BEJEFABE -->
+            <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
+            <additionalparam>-Xdoclint:none</additionalparam>
+            <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/stylesheet-configuration.html -->
+            <!-- <stylesheetfile>stylesheet.css</stylesheetfile> -->
+            <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
+            <!-- <docfilessubdirs>true</docfilessubdirs> -->
+            <!-- http://blog.codefx.org/java/new-javadoc-tags/#apiNote-implSpec-and-implNote -->
+            <!-- https://github.com/CodeFX-org/demo-javadoc-8-tags/blob/master/pom.xml?ts=4#L110-L133 -->
+            <tags>
+              <tag>
+                <name>apiNote</name>
+                <placement>a</placement>
+                <head>API Note:</head>
+              </tag>
+              <tag>
+                <name>implSpec</name>
+                <placement>a</placement>
+                <head>Implementation Requirements:</head>
+              </tag>
+              <tag>
+                <name>implNote</name>
+                <placement>a</placement>
+                <head>Implementation Note:</head>
+              </tag>
+              <tag><name>param</name></tag>
+              <tag><name>return</name></tag>
+              <tag><name>throws</name></tag>
+              <tag><name>since</name></tag>
+              <tag><name>version</name></tag>
+              <tag><name>serialData</name></tag>
+              <tag><name>see</name></tag>
+            </tags>
+            <!-- Add SyntaxHighlighter into JavaDoc to enable good-looking code examples -->
+            <!--  1) Download Maven'ised SyntaxHighlighter -->
+            <!--  2) Add SyntaxHighlighter features (at each JavaDoc HTML file's beginning) -->
+            <!--  3) Activate and customize SyntaxHighlighter features (at each JavaDoc HTML file's bottom) -->
+            <!--  4) Inform javadoc command to allow such scripts -->
+            <resourcesArtifacts>
+              <resourcesArtifact>
+                <groupId>de.informaticum</groupId>
+                <artifactId>syntaxhighlighter</artifactId>
+                <version>${version.javadoc.syntaxhighlighter}</version>
+              </resourcesArtifact>
+            </resourcesArtifacts>
+            <top><![CDATA[
+              <script src="{@docRoot}/syntaxhighlighter/${version.javadoc.syntaxhighlighter}/scripts/shCore.min.js" type="text/javascript"></script>
+              <script src="{@docRoot}/syntaxhighlighter/${version.javadoc.syntaxhighlighter}/scripts/shBrushJava.js" type="text/javascript"></script>
+              <link href="{@docRoot}/syntaxhighlighter/${version.javadoc.syntaxhighlighter}/styles/shCore.css" rel="stylesheet" type="text/css" title="Style" />
+              <link href="{@docRoot}/syntaxhighlighter/${version.javadoc.syntaxhighlighter}/styles/shThemeDefault.css" rel="stylesheet" type="text/css" title="Style" />
+            ]]>
+            </top>
+            <footer><![CDATA[
+              <script type="text/javascript">
+                SyntaxHighlighter.defaults["auto-links"] = false;
+                SyntaxHighlighter.defaults["tab-size"] = 2;
+                SyntaxHighlighter.all();
+              </script>
+            ]]></footer>
+            <additionalJOptions>
+              <additionalJOption>--allow-script-in-comments</additionalJOption>
+            </additionalJOptions>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>3.5</version>
+          <executions>
+            <execution>
+              <id>generate-default-descriptor</id>
+              <phase>process-classes</phase>
+            </execution>
+            <execution>
+              <id>generate-help-goal</id>
+              <goals>
+                <goal>helpmojo</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.6</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.0.1</version>
+          <executions>
+            <execution>
+              <id>attach-sources</id>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <includePom>false</includePom>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.20</version>
+          <configuration>
+            <excludes>
+              <exclude>**/*IntegrationTest.java</exclude>
+              <exclude>**/*Integrationtest.java</exclude>
+              <exclude>**/*integrationTest.java</exclude>
+            </excludes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>
